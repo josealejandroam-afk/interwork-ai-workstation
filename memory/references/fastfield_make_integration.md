@@ -14,18 +14,25 @@ metadata:
 
 # FastField → Make.com Integration
 
-## Status: PARTIAL — webhook channel open, payload not being parsed
+## Status: BLOCKED — raw_payload mapping broken, hands-off repair exhausted
 
-**Verified 2026-06-28 (read-only Supabase query):**
-- `fastfield_webhook_events` has 4 rows, all received 2026-06-26 ~23:04–23:08 UTC
-- All 4 rows: processed=false, processing_status=pending, all parsed fields null (form_name, submission_id, project_number_detected, submitter_name, submitted_at)
-- Only `source='fastfield'` and `received_at` are populated — Make is writing shell rows
-- Payload field names unknown — never confirmed via test submission
-- Normalization responsibility: local `/fastfield-intake` command (downstream processor), not Make
-- Make's role per design: store raw_payload; downstream processor reads and extracts
-- Failure point: raw_payload content unknown — either Make is not writing it, or the field path mappings in Make's Supabase module are incomplete
-- Do NOT claim body mapping is definitively the cause without inspecting Make execution history
-- Do NOT trigger a test submission without Alejandro approval (creates a new DB event)
+**Updated 2026-06-28 after controlled test:**
+- `fastfield_webhook_events` now has 5 rows (4 original shell rows + 1 controlled test row)
+- Make reaches Supabase ✅ — rows are created, source/processing_status/processed are correct
+- FastField reaches Make ✅ — webhook channel is open
+- `raw_payload` mapping is broken ❌ — both attempted fixes failed:
+  - `{{1.body}}` → resolves to nothing (no `body` key at root) → raw_payload = `{}`
+  - `{{1}}` → resolves to literal number `1` in Make's raw string template → raw_payload = `1` (jsonb number)
+- No native Supabase connection exists in Make (connections_list = [])
+- Make MCP/API does not expose webhook bundle field names programmatically
+
+**Hands-off repair is BLOCKED. Remaining paths:**
+1. Make UI: manually register a real FastField webhook sample in module 1 ("Run once" + real FastField submit), then map explicit root fields — Alejandro does not want this now
+2. Replace Make with a direct receiver / Supabase Edge Function (future option)
+3. Wait until Alejandro is ready to do the manual Make UI sample registration
+
+**Do not continue FastField troubleshooting until Alejandro explicitly resumes.**
+**Do not run more tests. Do not modify Make. Do not ask for screenshots.**
 
 ---
 
