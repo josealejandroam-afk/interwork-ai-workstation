@@ -115,7 +115,7 @@ if __name__ == "__main__":
     for i, r in enumerate(results, 1):
         header = f"[{i}] {r['file']}  score={r['score']:.3f}  type={r['type']}  status={r['status']}"
         citation = format_citation(r)
-        snippet = r["chunk"][:400].strip().replace("\n", " ")
+        snippet = r["chunk"][:400].strip().replace("\n", " ").encode("ascii", errors="replace").decode("ascii")
         console.print(Panel(
             f"[dim]{citation}[/]\n\n{snippet}...",
             title=header, expand=False
