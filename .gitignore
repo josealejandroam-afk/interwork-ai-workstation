@@ -1,0 +1,12 @@
+.env
+*.env
+secrets/
+tokens/
+*.key
+*.pem
+*.sqlite
+*.db
+chroma/
+__pycache__/
+.venv/
+logs/*.log
