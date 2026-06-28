@@ -27,8 +27,8 @@ metadata:
 | Webhook name | FastField Completed Submission |
 | Hook ID | 2508004 |
 | Scenario active? | No — activate after test payload confirmed |
-| Webhook URL | stored in `C:\Users\1\scripts\fastfield_webhook_config.txt` |
-| Token secret | stored in `C:\Users\1\scripts\fastfield_webhook_config.txt` |
+| Webhook URL | stored in `D:\ai-workstation\scripts\fastfield_webhook_config.txt` |
+| Token secret | stored in `D:\ai-workstation\scripts\fastfield_webhook_config.txt` |
 
 **Do not store the webhook URL or token secret in this file or RAG.**
 
@@ -52,7 +52,7 @@ metadata:
 - Using it would require project matching before storage — defeats the purpose
 
 **Proposed table:** `fastfield_webhook_events`
-- Draft SQL: `C:\Users\1\scripts\sql\draft_create_fastfield_webhook_events.sql`
+- Draft SQL: `D:\ai-workstation\scripts\sql\draft_create_fastfield_webhook_events.sql`
 - Status: **awaiting Alejandro approval** — say "apply fastfield events table"
 
 ---

@@ -113,7 +113,7 @@ Data reliability first:
 
 Check that `to_chatgpt.md` has content:
 ```
-C:\Users\1\.claude\feedback_loop\to_chatgpt.md
+D:\ai-workstation\feedback_loop\to_chatgpt.md
 ```
 
 If the file hasn't changed since the last response in `from_chatgpt.md`, warn before
@@ -124,7 +124,7 @@ If the file is empty or missing: prompt Alejandro to describe what to review, th
 For complex questions, pull additional context from RAG before writing the file:
 ```powershell
 # example: search for relevant decisions or architecture notes
-uv run python C:\Users\1\.claude\rag\search.py "completion signal intake"
+uv run python D:\ai-workstation\rag\search.py "completion signal intake"
 ```
 
 ---
@@ -133,12 +133,12 @@ uv run python C:\Users\1\.claude\rag\search.py "completion signal intake"
 
 ```powershell
 $env:OPENAI_API_KEY = [System.Environment]::GetEnvironmentVariable("OPENAI_API_KEY","User")
-python C:\Users\1\scripts\ask_openai_review.py
+python D:\ai-workstation\scripts\ask_openai_review.py
 ```
 
 Optional model override:
 ```powershell
-python C:\Users\1\scripts\ask_openai_review.py --model o4-mini
+python D:\ai-workstation\scripts\ask_openai_review.py --model o4-mini
 ```
 
 The script prints:
@@ -187,7 +187,7 @@ If the response includes a new decision or confirmed direction, update the
 
 Then re-index RAG:
 ```powershell
-uv run python C:\Users\1\.claude\rag\ingest.py
+uv run python D:\ai-workstation\rag\ingest.py
 ```
 
 ---

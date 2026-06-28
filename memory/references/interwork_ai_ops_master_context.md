@@ -142,7 +142,7 @@ Key tables:
 ### FastField Submission Detection
 - Source: `fastfield_webhook_events` table (Make.com scenario receives webhook, stores raw payload)
 - Scenario ID: 5506328 | Hook ID: 2508004 | Status: inactive until one controlled test completes
-- Config: `C:\Users\1\scripts\fastfield_webhook_config.txt` (token not in memory/RAG)
+- Config: `D:\ai-workstation\scripts\fastfield_webhook_config.txt` (token not in memory/RAG)
 
 ---
 
@@ -158,10 +158,10 @@ or `completion_report_sent`.
 
 ## 6. Memory / RAG Role
 
-- `C:\Users\1\.claude\projects\C--Users-1\memory\` — file-based memory store
+- `D:\ai-workstation\memory\` — file-based memory store
 - `MEMORY.md` — master index (loaded every conversation)
 - Subfolders: profile/, projects/, procedures/, open_loops/, references/, feedback/
-- RAG: BM25 + vector hybrid, `uv run python C:\Users\1\.claude\rag\ingest.py`
+- RAG: BM25 + vector hybrid, `uv run python D:\ai-workstation\rag\ingest.py`
 - 35 chunks indexed as of last run
 - Re-index after any new memory files are created
 
@@ -234,9 +234,9 @@ VALUES (..., 'alejandro', 'status_update', '...', 'manual', '{}', '{}');
 | `/ff-sent` | commands/ff-sent.md | Write-proposed | Manual fallback: records FF dispatched to PM; creates open loop; never sets fastfield_submitted |
 
 **Supporting scripts:**
-- `C:\Users\1\scripts\ask_openai_review.py` — OpenAI Responses API bridge
-- `C:\Users\1\scripts\parse_completion_email.py` — email completion signal parser
-- `C:\Users\1\scripts\send_to_chatgpt.py` — Playwright ChatGPT bridge
+- `D:\ai-workstation\scripts\ask_openai_review.py` — OpenAI Responses API bridge
+- `D:\ai-workstation\scripts\parse_completion_email.py` — email completion signal parser
+- `D:\ai-workstation\scripts\send_to_chatgpt.py` — Playwright ChatGPT bridge
 
 ---
 

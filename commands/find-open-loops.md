@@ -4,7 +4,7 @@ Read every open-loop file in `memory/open_loops/` and surface unfinished items g
 
 ## Instructions
 
-1. Read all `.md` files in `C:\Users\1\.claude\projects\C--Users-1\memory\open_loops\`
+1. Read all `.md` files in `D:\ai-workstation\memory\open_loops\`
    - Skip `_template.md`
    - Skip files with `status: done`
 

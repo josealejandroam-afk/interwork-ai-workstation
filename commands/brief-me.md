@@ -1,11 +1,11 @@
 # /brief-me
 
-Generate a morning briefing from all connected data sources and write it to `C:\Users\1\today.md`.
+Generate a morning briefing from all connected data sources and write it to `C:\Users\Owner\today.md`.
 
 ## Instructions
 
 ### 1. Open Loops (from unified queue)
-Read all `.md` files in `C:\Users\1\.claude\projects\C--Users-1\memory\open_loops\`
+Read all `.md` files in `D:\ai-workstation\memory\open_loops\`
 - Skip `_template.md` and files with `status: done`
 - Parse frontmatter: `source`, `project`, `person`, `status`
 - Group by source with counts: 💬 Teams (N) | 📧 Outlook (N) | 📊 Smartsheet (N) | 📝 Manual (N)
@@ -31,7 +31,7 @@ Quick check: disk space, any background processes of note.
 
 ---
 
-## Output — write to `C:\Users\1\today.md` then print summary
+## Output — write to `C:\Users\Owner\today.md` then print summary
 
 ```
 ## Morning Brief — [Day], [Date]

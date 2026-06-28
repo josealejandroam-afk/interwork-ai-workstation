@@ -21,7 +21,7 @@ Do not send long messages to ChatGPT as a single inline PowerShell command argum
 $msg = "...message..."
 $tmp = "$env:TEMP\chatgpt_msg.txt"
 $msg | Out-File -Encoding utf8 $tmp
-python C:\Users\1\scripts\send_to_chatgpt.py (Get-Content $tmp -Raw)
+python D:\ai-workstation\scripts\send_to_chatgpt.py (Get-Content $tmp -Raw)
 ```
 
 Or extend `send_to_chatgpt.py` to accept a `--file` flag that reads the message from disk.

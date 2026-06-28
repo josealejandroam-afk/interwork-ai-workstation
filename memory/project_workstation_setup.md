@@ -31,7 +31,7 @@ Windows (via Scoop/winget/npm):
 - direnv 2.37.1, starship 1.25.1, fzf 0.73.1, zoxide 0.9.9, bat 0.26.1, delta 0.19.2
 
 Shell config:
-- PowerShell profile at C:\Users\1\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
+- PowerShell profile at C:\Users\Owner\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
 - starship prompt, zoxide, fzf (Ctrl+T/Ctrl+R via PSFzf), direnv hook, git delta
 - git configured globally to use delta for diffs
 
@@ -53,12 +53,12 @@ WSL2 / Ubuntu (user: alejandro):
 
 ## Agent Infrastructure (added 2026-06-25)
 - Memory system restructured with subfolders: profile/ projects/ procedures/ decisions/ contacts/ preferences/ open_loops/ mistakes/ tool_notes/
-- Agent permissions policy: C:\Users\1\.claude\AGENT_PERMISSIONS.md (4-level graduated autonomy)
-- Action log + snapshots: C:\Users\1\.claude\action-log\
-- Custom skills: /brief-me, /project-brief, /find-open-loops (in C:\Users\1\.claude\commands\)
+- Agent permissions policy: C:\Users\Owner\.claude\AGENT_PERMISSIONS.md (4-level graduated autonomy)
+- Action log + snapshots: C:\Users\Owner\.claude\action-log\
+- Custom skills: /brief-me, /project-brief, /find-open-loops (in C:\Users\Owner\.claude\commands\)
 
 ## RAG Stack (added 2026-06-25) ✅
-Location: C:\Users\1\.claude\rag\
+Location: D:\ai-workstation\rag\
 - ChromaDB (persistent vector store, cosine similarity)
 - BAAI/bge-small-en-v1.5 embedding model
 - BM25S keyword search

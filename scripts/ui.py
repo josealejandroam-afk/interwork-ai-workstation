@@ -31,7 +31,7 @@ import pyautogui
 pyautogui.FAILSAFE = True   # move mouse to top-left corner to abort a run
 pyautogui.PAUSE = 0.04      # small inter-action pause
 
-SCREENSHOT_DIR = Path(r"C:\Users\1\AppData\Local\Temp\claude")
+SCREENSHOT_DIR = Path(r"C:\Users\Owner\AppData\Local\Temp\claude")
 SCREENSHOT_DIR.mkdir(parents=True, exist_ok=True)
 
 

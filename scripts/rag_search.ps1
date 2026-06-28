@@ -11,7 +11,7 @@ param(
 $RAG_DIR = "D:\ai-workstation\rag"
 
 if (-not (Test-Path $RAG_DIR)) {
-    Write-Error "RAG directory not found: $RAG_DIR"
+    Write-Error ("RAG directory not found: " + $RAG_DIR)
     exit 1
 }
 

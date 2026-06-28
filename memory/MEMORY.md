@@ -54,7 +54,7 @@
 ## Applied Schema (2026-06-26)
 - `open_loops` table — migration `create_open_loops_table` applied via Supabase MCP
 - `v_project_health` view — migration `create_v_project_health_view` applied via Supabase MCP
-- Draft SQL files remain at `C:\Users\1\scripts\sql\` for reference
+- Draft SQL files remain at `D:\ai-workstation\scripts\sql\` for reference
 
 ## Decisions
 - **2026-06-26 ChatGPT:** Sequence = (1) clean backlog → (2) build completion-intake pipeline → (3) add more signal sources (Teams/Read AI/Outlook/M365). Do not add intake features before completion data is reliable. Gmail = personal account, never a work signal source.

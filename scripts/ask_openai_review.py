@@ -1,9 +1,9 @@
 """
 ask_openai_review.py — Send a review packet to OpenAI and save the response.
 
-Reads:  C:/Users/1/.claude/feedback_loop/to_chatgpt.md
-Writes: C:/Users/1/.claude/feedback_loop/from_chatgpt.md
-        C:/Users/1/.claude/feedback_loop/action_plan.md
+Reads:  D:/ai-workstation/feedback_loop/to_chatgpt.md
+Writes: D:/ai-workstation/feedback_loop/from_chatgpt.md
+        D:/ai-workstation/feedback_loop/action_plan.md
 
 API key is read from the OPENAI_API_KEY environment variable.
 The key is never printed, stored, or exposed in output.
@@ -21,11 +21,11 @@ import argparse
 from pathlib import Path
 from datetime import datetime, timezone
 
-FEEDBACK_DIR   = Path(r"C:\Users\1\.claude\feedback_loop")
+FEEDBACK_DIR   = Path(r"D:\ai-workstation\feedback_loop")
 INPUT_FILE     = FEEDBACK_DIR / "to_chatgpt.md"
 RESPONSE_FILE  = FEEDBACK_DIR / "from_chatgpt.md"
 PLAN_FILE      = FEEDBACK_DIR / "action_plan.md"
-MASTER_CONTEXT = Path(r"C:\Users\1\.claude\projects\C--Users-1\memory\references\interwork_ai_ops_master_context.md")
+MASTER_CONTEXT = Path(r"D:\ai-workstation\memory\references\interwork_ai_ops_master_context.md")
 
 # Patterns that must never appear in outbound content
 _SECRET_PATTERNS = [

@@ -17,13 +17,13 @@ For email input, run the parser first to extract structured evidence:
 
 ```powershell
 # From a saved email file
-python C:\Users\1\scripts\parse_completion_email.py --file path\to\email.txt
+python D:\ai-workstation\scripts\parse_completion_email.py --file path\to\email.txt
 
 # Pasted inline
-python C:\Users\1\scripts\parse_completion_email.py --paste
+python D:\ai-workstation\scripts\parse_completion_email.py --paste
 
 # Quick test string
-python C:\Users\1\scripts\parse_completion_email.py --text "email body here"
+python D:\ai-workstation\scripts\parse_completion_email.py --text "email body here"
 ```
 
 Parser output is JSON with: `parsed`, `proposed_updates`, `confidence`, `source_type`.

@@ -35,7 +35,7 @@ If Graph tools are available:
 3. De-duplicate across chats.
 4. Compile the brief (Output Format section below).
 5. Save a summary entry to memory:
-   - File: C:\Users\1\.claude\projects\C--Users-1\memory\open_loops\teams_pending.md
+   - File: D:\ai-workstation\memory\open_loops\teams_pending.md
    - Include: sender, chat, message snippet, timestamp, action needed
 ```
 
@@ -52,7 +52,7 @@ Use only when Graph tools are unavailable or cannot surface the needed content (
    a. Click to open → snapshot → read visible messages.
    b. Note sender, timestamp, content.
 4. Use Teams search (Ctrl+E) for project keyword lookups.
-5. Screenshots saved to C:\Users\1\AppData\Local\Temp\claude\teams-screenshots\
+5. Screenshots saved to C:\Users\Owner\AppData\Local\Temp\claude\teams-screenshots\
 6. Compile the brief (Output Format section below).
 ```
 
@@ -62,13 +62,13 @@ Use only when Graph tools are unavailable or cannot surface the needed content (
 
 ```powershell
 # Bring Teams to front
-powershell -File C:\Users\1\scripts\bring_teams_to_front.ps1
+powershell -File D:\ai-workstation\scripts\bring_teams_to_front.ps1
 
 # Screenshot
-powershell -File C:\Users\1\scripts\screenshot_screen.ps1
+powershell -File D:\ai-workstation\scripts\screenshot_screen.ps1
 
 # Click at coordinates identified from screenshot
-powershell -File C:\Users\1\scripts\click_at.ps1 -X <x> -Y <y>
+powershell -File D:\ai-workstation\scripts\click_at.ps1 -X <x> -Y <y>
 ```
 
 Re-screenshot after each click to read the resulting content.
@@ -105,7 +105,7 @@ Re-screenshot after each click to read the resulting content.
 ## Memory integration — unified open-loop queue
 
 After generating a brief, write each pending item to the unified queue at:
-`C:\Users\1\.claude\projects\C--Users-1\memory\open_loops\`
+`D:\ai-workstation\memory\open_loops\`
 
 **One file per item.** Filename: `teams_{YYYY-MM-DD}_{slug}.md`
 

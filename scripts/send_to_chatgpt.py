@@ -4,8 +4,8 @@ send_to_chatgpt.py — send a message to an existing ChatGPT conversation.
 Targets a specific conversation URL saved in chatgpt_target_url.txt.
 Never opens a new blank chat. Always reuses an existing tab.
 
-Profile stored at: C:/Users/1/.playwright-profile/
-Target URL file:   C:/Users/1/scripts/chatgpt_target_url.txt
+Profile stored at: C:/Users/Owner/.playwright-profile/
+Target URL file:   D:/ai-workstation/scripts/chatgpt_target_url.txt
 
 Usage:
     python send_to_chatgpt.py --file path/to/message.txt
@@ -20,9 +20,9 @@ import sys
 import time
 from pathlib import Path
 
-PROFILE_DIR    = Path(r"C:\Users\1\.playwright-profile")
-TARGET_URL_FILE = Path(r"C:\Users\1\scripts\chatgpt_target_url.txt")
-SCREENSHOT_DIR  = Path(r"C:\Users\1\AppData\Local\Temp\claude")
+PROFILE_DIR    = Path(r"C:\Users\Owner\.playwright-profile")
+TARGET_URL_FILE = Path(r"D:\ai-workstation\scripts\chatgpt_target_url.txt")
+SCREENSHOT_DIR  = Path(r"C:\Users\Owner\AppData\Local\Temp\claude")
 SCREENSHOT_DIR.mkdir(parents=True, exist_ok=True)
 
 INPUT_SELECTOR       = "#prompt-textarea"

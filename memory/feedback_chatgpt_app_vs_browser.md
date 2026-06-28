@@ -21,7 +21,7 @@ requires the conversation to be open in a Chrome/Chromium browser tab first.
 - Never assume a ChatGPT conversation is reachable via Playwright unless Alejandro
   confirms it is open in a browser.
 - If sending to ChatGPT via `send_to_chatgpt.py`: first ask Alejandro to open the
-  conversation in Chrome and save its URL to `C:\Users\1\scripts\chatgpt_target_url.txt`.
+  conversation in Chrome and save its URL to `D:\ai-workstation\scripts\chatgpt_target_url.txt`.
 - Until that URL file exists and that tab is open, use manual copy/paste between
   Claude Code and the ChatGPT app.
 - Do not open a new ChatGPT conversation automatically — always target the saved URL.

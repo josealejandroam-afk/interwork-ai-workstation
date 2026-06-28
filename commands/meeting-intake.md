@@ -166,7 +166,7 @@ Write the `.md` file automatically (Level 1). Propose Supabase INSERT as a separ
 ### Step 5 — Re-index RAG
 
 ```
-uv run python C:\Users\1\.claude\rag\ingest.py
+uv run python D:\ai-workstation\rag\ingest.py
 ```
 
 Confirm: `N new chunks indexed`.

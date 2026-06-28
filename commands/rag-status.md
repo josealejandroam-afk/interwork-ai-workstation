@@ -7,14 +7,14 @@ Check the health and coverage of the local RAG index.
 When the user runs `/rag-status`:
 
 ### 1. Index health
-Run: `uv run python "C:\Users\1\.claude\rag\search.py" "test" 2>&1`
+Run: `uv run python "D:\ai-workstation\rag\search.py" "test" 2>&1`
 - If it returns results → index is healthy
 - If it errors → diagnose: missing dependencies, empty index, or broken config
 
 ### 2. Coverage check
 Count files in memory vs files indexed:
 ```
-memory files:  dir /s /b C:\Users\1\.claude\projects\C--Users-1\memory\*.md | find /c ".md"
+memory files:  dir /s /b D:\ai-workstation\memory\*.md | find /c ".md"
 open loops:    count .md files in open_loops\ (excluding _template.md)
 projects:      count .md files in projects\ (excluding _template.md)
 ```
@@ -23,7 +23,7 @@ Compare against what the RAG index actually contains (if the index exposes a cou
 
 ### 3. Staleness check
 List memory files modified more recently than the last ingest run.
-If any exist: suggest running `uv run python "C:\Users\1\.claude\rag\ingest.py"`
+If any exist: suggest running `uv run python "D:\ai-workstation\rag\ingest.py"`
 
 ### 4. Output format
 
