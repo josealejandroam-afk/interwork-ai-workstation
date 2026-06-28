@@ -42,18 +42,18 @@ These commands work locally but give richer output when integrations are connect
 
 ---
 
-## Tier 3 -- Needs Supabase: Blocked Until Env Vars Set + Session Restarted
+## Tier 3 -- Supabase: CONNECTED (env vars present, read-only confirmed 2026-06-28)
 
-| Command | What It Does | Requires |
-|---------|-------------|---------|
-| `/dashboard-status` | Project counts by status, active/scheduled list | SUPABASE_URL + SUPABASE_SERVICE_ROLE_KEY |
-| `/project-health` | Red projects, stalled workflows, risk flags | Same |
-| `/completion-backlog` | Projects with completion reports pending | Same |
-| `/completion-intake` | Process a completion document into Supabase | Same + Alejandro approval for any write |
-| `/ff-sent` | Log FastField submission confirmation | Same + Alejandro approval |
-| `/fastfield-intake` | Full mode -- match webhook to project | Same + Make.com test payload confirmed |
+| Command | What It Does | Write Gate |
+|---------|-------------|-----------|
+| `/dashboard-status` | Project counts by status, active/scheduled list | Read-only — no approval needed |
+| `/project-health` | Red projects, stalled workflows, risk flags | Read-only — no approval needed |
+| `/completion-backlog` | Projects with completion reports pending | Read-only — no approval needed |
+| `/completion-intake` | Process a completion document into Supabase | Explicit Alejandro approval required for any write |
+| `/ff-sent` | Log FastField submission confirmation | Explicit Alejandro approval required |
+| `/fastfield-intake` | Match webhook to project | Read mode available; write requires approval + Make.com test payload confirmed |
 
-How to unblock: run `set_required_env_vars_interactive.ps1` locally, then restart Claude Code.
+Supabase env vars are set. Reads run immediately. Writes follow the approval procedure in `docs/APPROVAL_CHECKLIST_PROJECT_STATUS_WRITES.md`.
 
 ---
 
@@ -71,17 +71,12 @@ How to unblock: open Claude Code MCP panel, reconnect each integration manually.
 
 ---
 
-## Tier 5 -- Needs OpenAI Key + feedback_loop/ Migration
+## Tier 5 -- OpenAI: CONNECTED (OPENAI_API_KEY present, confirmed 2026-06-28)
 
-| Command | What It Does | Requires |
-|---------|-------------|---------|
-| `/ask-openai-review` | Build and send review packet to OpenAI | OPENAI_API_KEY + D:\ai-workstation\feedback_loop\ |
-| `/feedback-status` | Show status of recent OpenAI review requests | Same |
-
-How to unblock:
-1. Set `OPENAI_API_KEY` via `set_required_env_vars_interactive.ps1`
-2. Copy `C:\Users\Owner\.claude\feedback_loop\` to `D:\ai-workstation\feedback_loop\`
-3. Restart Claude Code
+| Command | What It Does | Status |
+|---------|-------------|--------|
+| `/ask-openai-review` | Build and send review packet to OpenAI | Available |
+| `/feedback-status` | Show status of recent OpenAI review requests | Available |
 
 ---
 
@@ -112,9 +107,9 @@ Is the command local-only (RAG, memory, file reads)?
   Yes → Safe to run now (Tier 1/2)
 
 Does it query Supabase?
-  Yes → Check env vars first: check_env_readiness.ps1
-         If MISSING → run set_required_env_vars_interactive.ps1 first
-         If PRESENT → restart Claude Code first, then proceed (Tier 3)
+  Yes → Env vars are PRESENT and connection is confirmed.
+        Read-only queries run immediately (Tier 3).
+        Writes require the full approval sequence in APPROVAL_CHECKLIST_PROJECT_STATUS_WRITES.md.
 
 Does it read Teams, Outlook, Smartsheet, or Read AI?
   Yes → Reconnect that MCP in the MCP panel first (Tier 4)
