@@ -14,7 +14,18 @@ metadata:
 
 # FastField → Make.com Integration
 
-## Status: Phase 2 complete — ready for one controlled test submission
+## Status: PARTIAL — webhook channel open, payload not being parsed
+
+**Verified 2026-06-28 (read-only Supabase query):**
+- `fastfield_webhook_events` has 4 rows, all received 2026-06-26 ~23:04–23:08 UTC
+- All 4 rows: processed=false, processing_status=pending, all parsed fields null (form_name, submission_id, project_number_detected, submitter_name, submitted_at)
+- Only `source='fastfield'` and `received_at` are populated — Make is writing shell rows
+- Payload field names unknown — never confirmed via test submission
+- Normalization responsibility: local `/fastfield-intake` command (downstream processor), not Make
+- Make's role per design: store raw_payload; downstream processor reads and extracts
+- Failure point: raw_payload content unknown — either Make is not writing it, or the field path mappings in Make's Supabase module are incomplete
+- Do NOT claim body mapping is definitively the cause without inspecting Make execution history
+- Do NOT trigger a test submission without Alejandro approval (creates a new DB event)
 
 ---
 
