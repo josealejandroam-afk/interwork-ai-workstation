@@ -1,6 +1,6 @@
 # AI Workstation — Desktop
 
-This is Alejandro's desktop AI workstation project. It is a clean bootstrap and does not yet contain the laptop workstation memory, secrets, or live integrations.
+This is Alejandro's desktop AI workstation project.
 
 ## Current Status (2026-06-28)
 
@@ -10,9 +10,11 @@ This is Alejandro's desktop AI workstation project. It is a clean bootstrap and 
 | Steam cleanup (Batch 1 + 2) | ✅ Complete — 250+ GB recovered on C: |
 | Steam Batch 3 (RE Requiem, AoM, Buckshot → E:) | 🔄 In progress |
 | AI caches configured on D: | ✅ Done (`D:\ai-cache\*`, env vars set) |
-| Repo location | ⏳ Temporarily at `C:\Users\Owner\Documents\ai-workstation` |
-| Final repo target | `D:\ai-workstation` — move after Steam finishes |
-| Laptop migration | Not started — see `docs/MIGRATION_MANIFEST_TEMPLATE.md` |
+| Repo location | ✅ Moved to `D:\ai-workstation` |
+| Laptop portable files imported | ✅ memory, commands, scripts, rag, feedback_loop, plans |
+| Secrets imported | ❌ Not imported — recreate `.env` locally per machine |
+| RAG index rebuilt | ❌ Not yet — run `uv sync` then `uv run python ingest.py` |
+| Integrations connected | ❌ Not yet — requires `.env` with API keys |
 
 ## Installed and Verified
 
@@ -35,7 +37,9 @@ This is Alejandro's desktop AI workstation project. It is a clean bootstrap and 
 
 ## Next Steps
 
-- Receive portable workstation files from laptop
-- Set up .env with API keys (not committed)
-- Connect integrations (Supabase, Make, Gmail, etc.)
-- Initialize RAG pipeline
+1. Verify Steam Batch 3 complete (games on E:)
+2. Create `.env` locally with API keys (not committed — see `docs/SECRETS_POLICY.md`)
+3. Run `uv sync` inside `rag/` to install dependencies
+4. Run `uv run python ingest.py` to rebuild RAG index
+5. Connect integrations (Supabase, Make, Gmail, etc.)
+6. Archive or remove `C:\Users\Owner\Documents\ai-workstation` C: copy

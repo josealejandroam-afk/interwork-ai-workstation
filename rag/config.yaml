@@ -1,0 +1,23 @@
+memory_root: D:/ai-workstation/memory
+rag_root: D:/ai-workstation/rag
+stores:
+  chroma: D:/ai-workstation/rag/stores/chroma
+  bm25: D:/ai-workstation/rag/stores/bm25
+  metadata: D:/ai-workstation/rag/stores/metadata.sqlite
+
+embedding:
+  model: BAAI/bge-small-en-v1.5
+  device: cpu
+
+chunking:
+  target_chars: 4000
+  overlap_chars: 600
+
+retrieval:
+  bm25_top_k: 20
+  vector_top_k: 20
+  final_top_k: 8
+  weights:
+    vector: 0.55
+    bm25: 0.35
+    recency: 0.10

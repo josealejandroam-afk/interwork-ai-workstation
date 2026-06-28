@@ -1,0 +1,17 @@
+[project]
+name = "local-rag"
+version = "0.1.0"
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "chromadb",
+    "sentence-transformers",
+    "bm25s",
+    "python-frontmatter",
+    "watchdog",
+    "rich",
+    "pyyaml",
+    "pypdf",
+    "python-docx",
+    "pandas",
+    "openpyxl",
+]
