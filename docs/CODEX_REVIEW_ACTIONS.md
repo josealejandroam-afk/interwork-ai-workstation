@@ -86,14 +86,11 @@
 - [ ] Write session opened per `APPROVAL_CHECKLIST_PROJECT_STATUS_WRITES.md` procedure
 
 ### Contact details in `PROJECT_STATUS_REVIEW_7060_7348.md`
-- The review file contains specific phone numbers and email addresses sourced from Supabase `internal_notes`.
-- Decision needed: should this file be scrubbed of direct contact details and replaced with name/role references, given that this repo may become remote in future?
-- **Recommendation:** If repo will remain local and private, no action needed now. If remote hosting is planned, do a contact-detail scrub pass before pushing.
+- **RESOLVED 2026-06-28.** Direct phone numbers and email addresses removed from the Assignment & Contacts table for project 7060. Replaced with name/role references and pointer to Supabase `internal_notes` and Outlook/Teams for live contact details.
+- Project 7348 contacts were already NULL in the DB — no change needed.
 
 ### Webhook credential storage
-- Confirmed: credentials must NOT be in any repo file.
-- Action needed: verify that `D:\ai-workstation\scripts\fastfield_webhook_config.txt` (if it exists) does not contain live tokens. If it does, move the token to a local env var or Make.com secret storage and remove the value from the file.
-- This is a local file check, not a repo write — safe to do at any time.
+- **RESOLVED 2026-06-28.** Searched `D:\ai-workstation` recursively — `fastfield_webhook_config.txt` does not exist on disk. No live token found in repo files. No escalation required.
 
 ### Make.com / M365 activation
 - Both are explicitly deferred until the current read-only review and project status confirmation work is complete and Alejandro gives an explicit go-ahead.

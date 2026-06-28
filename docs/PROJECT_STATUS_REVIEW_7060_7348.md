@@ -31,11 +31,11 @@
 | Field | Value |
 |-------|-------|
 | PM | Frank Barrett (pm_id linked, pm_assigned = true) |
-| Client POC | Jane Bae — Sr PM, Lincoln Property Company (LPC) — Jane.Bae@LPC.com, 646-770-4684 |
-| On-site POC | Brent Lee — brent.lee@marshmma.com, 469-383-6012 (possible alternate: 972-342-2190) |
+| Client POC | Jane Bae — Sr PM, Lincoln Property Company (LPC) — contact via Outlook/Teams |
+| On-site POC | Brent Lee — Marsh MMA — contact via Outlook/Teams (phone discrepancy noted; separate records task) |
 | Vendor | Exserv Facility Services |
-| Vendor lead | Sergio Rios — 214-395-2865, sergio@exservinc.com |
-| IT sourcing contact | Dwyane Bailey — dwyane.bailey@marsh.com (docking stations) |
+| Vendor lead | Sergio Rios — Exserv — contact details in Supabase `internal_notes` |
+| IT sourcing contact | Dwyane Bailey — Marsh — contact details in Supabase `internal_notes` |
 
 ### 4. Confirmation Fields
 | Field | Value | Reliability |

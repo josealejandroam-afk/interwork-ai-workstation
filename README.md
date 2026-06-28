@@ -2,23 +2,23 @@
 
 This is Alejandro's desktop AI workstation project.
 
-## Current Status (2026-06-28) -- Phase 4 Complete
+## Current Status (2026-06-28) — Post-return, live Supabase read-only active
 
 | Item | Status |
 |------|--------|
 | Desktop bootstrap | Complete |
-| Steam cleanup (Batch 1 + 2) | Complete -- 250+ GB recovered on C: |
-| Steam Batch 3 (RE Requiem, AoM, Buckshot to E:) | In progress |
-| AI caches configured on D: | Done (D:\ai-cache\*, env vars set) |
-| Repo location | Moved to D:\ai-workstation (master branch) |
-| Laptop portable files imported | memory, commands, scripts, rag, feedback_loop, plans |
-| Path audit (C: to D:) | Complete -- 0 operational C:\Users\1 references remaining |
-| Secret scan | Clean -- no secret values in repo |
-| RAG index | Healthy -- 24 memory files, ChromaDB + BM25 indexed |
-| Local commands installed | rag-search, rag-status, find-open-loops (C:\Users\Owner\.claude\commands) |
-| Env vars (SUPABASE_URL, etc.) | Not set -- run set_required_env_vars_interactive.ps1 locally |
-| Live integrations | Not connected -- Supabase, M365, Smartsheet, Read AI all pending |
-| C: archive | Intact at C:\Users\Owner\.claude -- do not delete yet |
+| Repo location | D:\ai-workstation (master branch) |
+| Path audit (C: to D:) | Complete — 0 operational C:\Users\1 references remaining |
+| Secret scan | Clean — no secret values in repo |
+| RAG index | Healthy — 24 memory files, ChromaDB + BM25 indexed |
+| Local commands installed | rag-search, rag-status, find-open-loops |
+| Env vars (SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, OPENAI_API_KEY) | **PRESENT** — set and loaded |
+| Supabase connection | **CONNECTED** — read-only confirmed 2026-06-28 |
+| Dashboard frontend | https://interwork-command-center.vercel.app/ |
+| Supabase writes | Blocked — require explicit Alejandro approval per field |
+| M365 / Teams / Smartsheet / Read AI | Not yet reconnected — OAuth re-auth pending |
+| Make.com FastField webhook | Not active — pending test payload + explicit approval |
+| C: archive | Intact at C:\Users\Owner\.claude — do not delete yet |
 
 ## Installed and Verified
 
@@ -39,18 +39,14 @@ This is Alejandro's desktop AI workstation project.
 | `config/` | Configuration files (non-secret) |
 | `logs/` | Log output (excluded from git) |
 
-## Next Steps (when Alejandro returns)
+## Current Focus (2026-06-28)
 
-See `docs/RETURN_CHECKLIST.md` for the short checklist and `docs/FIRST_DAY_RUNBOOK.md` for the full sequence.
+Steps 1–4 complete. Supabase is live and read-only review is done.
 
-Quick path to full operational status:
-
-1. Run `workstation_status.ps1` to confirm local systems healthy
-2. Run `set_required_env_vars_interactive.ps1` in a local PowerShell to set secrets
-3. Restart Claude Code so env vars are loaded
-4. Run `/dashboard-status` to confirm Supabase is live
-5. Reconnect M365, Smartsheet, and Read AI MCPs in the MCP panel
-6. Review held approvals before any Supabase writes (see `docs/NEXT_ACTION_QUEUE.md`)
+Immediate next actions:
+1. Send confirmation drafts to Frank Barrett (7060) and Pedro Martinez (7348) — see `docs/PROJECT_STATUS_CONFIRMATION_DRAFTS.md`
+2. Reconnect M365, Smartsheet, and Read AI MCPs in the MCP panel (when ready)
+3. Review held approvals before any Supabase writes — see `docs/APPROVAL_CHECKLIST_PROJECT_STATUS_WRITES.md`
 
 ## Key Documents
 
@@ -64,6 +60,9 @@ Quick path to full operational status:
 | `docs/EXTERNAL_INTEGRATION_GATES.md` | Per-integration status and unlock requirements |
 | `docs/COMMAND_ACTIVATION_PLAN.md` | All 17 commands with activation tier |
 | `docs/INTEGRATION_RESTORE_PLAN.md` | Step-by-step integration restore order |
+| `docs/DASHBOARD_URL.md` | Vercel dashboard URL and architecture clarification |
+| `docs/APPROVAL_CHECKLIST_PROJECT_STATUS_WRITES.md` | Required procedure for any Supabase write |
+| `docs/CODEX_REVIEW_ACTIONS.md` | Codex safety review log and remaining decision points |
 
 ## Permanent Rules
 
