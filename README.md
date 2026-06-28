@@ -2,10 +2,19 @@
 
 This is Alejandro's desktop AI workstation project. It is a clean bootstrap and does not yet contain the laptop workstation memory, secrets, or live integrations.
 
-## Status
+## Current Status (2026-06-28)
 
-This repo was initialized on 2026-06-28 as a fresh desktop environment.
-The following have been installed and verified:
+| Item | Status |
+|------|--------|
+| Desktop bootstrap | ✅ Complete |
+| Steam cleanup (Batch 1 + 2) | ✅ Complete — 250+ GB recovered on C: |
+| Steam Batch 3 (RE Requiem, AoM, Buckshot → E:) | 🔄 In progress |
+| AI caches configured on D: | ✅ Done (`D:\ai-cache\*`, env vars set) |
+| Repo location | ⏳ Temporarily at `C:\Users\Owner\Documents\ai-workstation` |
+| Final repo target | `D:\ai-workstation` — move after Steam finishes |
+| Laptop migration | Not started — see `docs/MIGRATION_MANIFEST_TEMPLATE.md` |
+
+## Installed and Verified
 
 - Git 2.54.0
 - Python 3.12.10 (use `py` launcher on Windows)
