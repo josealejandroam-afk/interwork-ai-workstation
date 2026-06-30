@@ -38,6 +38,7 @@ _Last updated: 2026-06-30 (sync handoff)_
 | Lincoln / CRC Group | lincoln_crc_group/ | 7246 | No detail available. Note: separate from CRC Virginia Beach under MMC. |
 | Teknion | teknion/ | 5156 | Historical project; low project number. |
 | Bevin Palidar | bevin_palidar/ | 7584 | Residential client. House move Clementon NJ → Tabernacle NJ, 7/2. New client 2026-06-30. |
+| Spryson | spryson/ | TBD | Small move Pittsburgh PA. Pre-proposal stage. Contact: Erica Sinatra. Spelling confirmed 2026-06-30 from email domain. |
 
 ## Lookup Pointers (NOT InterWork clients)
 

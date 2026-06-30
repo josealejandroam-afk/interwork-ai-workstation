@@ -15,8 +15,8 @@ InterWork has multiple projects for AmTrust, including the Cleveland office (734
 | 7515 | Storage Disposal | New York, NY | Past-dated 2026-05-27 | PM Manny Gonzalez; no FastField |
 | 7536 | AmTrust Project | Needs confirmation | Needs confirmation | May be NYC or Melville NY |
 | 7568 | Site Walk | Irvine, CA | Past-dated 2026-06-26 | External PM; no FastField; quote pending (Jill 2026-06-30) |
-| TBD | Proposed — Nashua Quote | Nashua, NH | Needs confirmation | Jill Buchman flagged "AmTrust Nashua quotes" 2026-06-30; no project number or scope confirmed — do not create folder yet |
-| TBD | Proposed — Las Vegas Quote | Las Vegas, NV | Needs confirmation | Jill Buchman flagged "AmTrust Vegas quotes" 2026-06-30; no project number or scope confirmed — do not create folder yet |
+| TBD | Nashua E-Waste / Disposal | 15 Trafalgar Square, Suites 200 & 201, Nashua NH 03063 | Quote pending — David never got back to Alexis (2026-06-23) | TVs, monitors, electronics disposal; MFPs excluded; POC: Brian Lordan |
+| TBD | Las Vegas Task Chairs | 4730 S. Ft. Apache, Ste. 270, Las Vegas NV | Quote pending — David never got back to Alexis (2026-06-23) | Replace 8 task chairs, dispose 8; contact: Ashlee Isbell |
 | 7572 | Move 40-50 Boxes | 59 Maiden Lane, New York, NY 10038 | Past-dated 2026-06-24 — FastField confirmed | PM Melvin Hernandez; POC Ross Konesky 973-865-9567; 42nd/43rd floors → 6th floor. Formerly misfiled under rothman_orthopaedics/ (ChatGPT error); resolved 2026-06-30. |
 
 ## Pending Action
@@ -28,7 +28,11 @@ This triggers when Alejandro says "send it" for project 7348.
 
 | Name | Role | Contact |
 |---|---|---|
-| (none on file) | — | — |
+| Quyen Pham | Office Service Assistant — Irvine | 1-949-271-7487 | quyen.pham@amtrustgroup.com |
+| Lori Stark | Facilities Manager \| Real Estate | 214-360-8009 | lori.stark@amtrustgroup.com |
+| Alexis Lyons | Facilities Manager \| Real Estate | (216) 553-3178 | alexis.lyons@amtrustgroup.com |
+| Ashlee Isbell | Site contact — Las Vegas | — | Ashlee.isbell@amtrustgroup.com |
+| Brian Lordan | On-site POC — Nashua | — | Brian.Lordan@amtrustgroup.com |
 
 ## How to Use This Folder
 
