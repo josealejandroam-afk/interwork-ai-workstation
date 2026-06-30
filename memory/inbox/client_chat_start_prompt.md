@@ -1,12 +1,31 @@
 # Client Chat Start Prompt
 _Reusable prompt for starting a Claude Chat session focused on a specific InterWork client or project_
-_Last updated: 2026-06-30_
+_Last updated: 2026-06-30 (bootstrap model update)_
+
+---
+
+## Architecture Note — Bootstrap vs. Pack
+
+**Preferred model (new):**
+Upload `claude_project_bootstraps/<client_slug>_bootstrap.md` to each Claude Project.
+The bootstrap is a stable routing file — it tells Claude Chat how to reach the repo, not what the current facts are.
+The GitHub repo holds all changing facts. Claude Chat fetches current repo files via raw GitHub URLs.
+
+**Fallback model (old):**
+Full knowledge packs in `claude_project_packs/` are still available but are no longer primary.
+Use packs only when URL fetch is unavailable. Check the `Generated:` date — packs go stale.
+
+**The key principle:**
+> The uploaded Claude Project file is a map, not the territory.
+> The GitHub repo is the territory — it changes. The bootstrap does not.
+
+See `docs/CLAUDE_PROJECT_BOOTSTRAP_MODEL.md` for the full architecture.
 
 ---
 
 ## How to Use
 
-This is the routing-based startup prompt for a client-specific Claude Chat or Claude Project.
+This prompt is for sessions where a bootstrap is not yet uploaded, or as a manual override.
 Do not paste this as a "read everything" list — the prompt tells Claude to route, not scan.
 
 Replace `<client>` with the actual client name (e.g. Radian, MMC, Bentley).
@@ -24,21 +43,29 @@ This Claude Project is client-specific for InterWork Office Solutions.
 
 At the start of each chat:
 
-0. Before answering any operational status question, check the dashboard snapshot:
+0. Source of truth orientation — read this first:
+
+   The uploaded bootstrap file (or this prompt) is a map, not the territory.
+   The GitHub repo is the source of truth for all changing project facts.
+
+   If a bootstrap is uploaded to this project, follow its fetch instructions.
+   If no bootstrap is uploaded, follow the steps below.
+
+   Before answering any operational status question, fetch the dashboard snapshot:
    https://raw.githubusercontent.com/josealejandroam-afk/interwork-ai-workstation/main/memory/dashboard/CURRENT_DASHBOARD_STATUS.md
 
-   Use this for: project counts, today/tomorrow/this week counts, at-risk counts, today's row detail.
-   Also read: memory/dashboard/DASHBOARD_CHECK_RULES.md for how to interpret and reconcile sources.
+   Use it for: project counts, today/tomorrow/this week counts, at-risk counts, today's row detail.
+   If the snapshot "Last Updated" is more than 1 day old, warn it may be stale.
 
-   If the snapshot "Last Updated" timestamp is more than 1 day old, warn that it may be stale
-   and suggest running scripts/update_dashboard_snapshot.ps1 to refresh it.
+   After checking the snapshot, fetch:
+   1. The client context from the repo (not from an uploaded pack)
+   2. The relevant project card from the repo
+   3. Open loops for that project from the repo
 
-   After checking the snapshot, check:
-   1. The client knowledge pack (uploaded to this project)
-   2. The relevant project card
-   3. Open loops for that project
+   If URL fetch is unavailable: say so clearly, then ask Alejandro to paste the specific repo file.
+   Do not rely on an uploaded pack as if it were current — packs go stale.
 
-   If the dashboard snapshot conflicts with a project card, flag the conflict and ask for confirmation.
+   If the dashboard snapshot conflicts with a project card, flag the conflict.
    Do not silently pick one source over the other.
 
 1. Fetch and read these three files for general InterWork rules:
