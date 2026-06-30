@@ -7,6 +7,9 @@ risk: medium
 last_updated: 2026-06-29
 ---
 
+> **Canonical location:** `memory/clients/pear_vc/projects/7510_pear_sf_relocation/PROJECT_CARD.md`
+> This file is kept for backward compatibility. Use the canonical location for all new work.
+
 # Project 7510 — Pear Relocation San Francisco CA
 
 ## Key Facts

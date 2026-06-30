@@ -138,24 +138,43 @@ Full bridge documentation: `docs/AI_TO_AI_BRIDGE.md`
 
 ---
 
+## Memory Structure (as of 2026-06-30)
+
+The memory structure follows a three-level hierarchy:
+
+```
+memory/company_knowledge/    Company-wide rules, people, workflow, access status
+memory/clients/              One folder per client
+memory/clients/<client>/     CLIENT_CONTEXT.md + projects/ subfolder
+memory/clients/<client>/projects/<project>/
+                             PROJECT_CARD.md
+                             OPEN_LOOPS.md
+                             DRAFTS.md
+                             NOTES.md
+```
+
+Old files in `memory/projects/` are kept for backward compatibility with pointers to canonical locations.
+Old files in `memory/shared/` remain valid as backup during transition.
+
 ## Project Lookup Rules — Claude Chat
 
-For any InterWork project question, Claude Chat must check the shared index before answering.
+For any InterWork project question, Claude Chat must use this lookup order:
 
-**Lookup order:**
-1. `memory/shared/PROJECT_INDEX.md` — project number, client, location, PM, status, date, risk flags
-2. `memory/projects/project-XXXX.md` — detailed facts for the specific project
-3. `memory/shared/OPEN_LOOPS.md` — unresolved items
-4. `memory/shared/ACCESS_STATUS.md` — blocked integrations or source limitations
-5. `memory/shared/DAILY_HANDOFF.md` — newest operational context
+1. `memory/company_knowledge/START_HERE.md` — read first
+2. `memory/company_knowledge/` — company rules, people, workflow, access
+3. `memory/clients/CLIENT_INDEX.md` — find the client folder
+4. `memory/clients/<client_slug>/CLIENT_CONTEXT.md` — client facts
+5. `memory/clients/<client_slug>/projects/<project_slug>/PROJECT_CARD.md` — project facts
+6. `OPEN_LOOPS.md`, `DRAFTS.md`, `NOTES.md` in same project folder
+7. `memory/shared/` files — backup during transition only
 
-**If Claude Chat cannot access the repo, project index, or project card:**
-Do not guess. Ask Alejandro to paste the current Claude Chat handoff or the relevant project card.
+**If Claude Chat cannot access the repo or client/project files:**
+Do not guess. Ask Alejandro to paste the relevant file.
 
 **If there is a conflict between sources:**
 Say what conflicts and ask for confirmation.
 
-Never treat session chat memory as more reliable than the shared index or project card.
+Never treat session chat memory as more reliable than the shared files.
 Do not invent project numbers, PMs, dates, client contacts, or status updates.
 
 ---

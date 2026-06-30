@@ -14,6 +14,9 @@ last_updated: "2026-06-30"
 source: "ChatGPT handoff from email review"
 ---
 
+> **Canonical location:** `memory/clients/bentley_systems/projects/7350_cesium_to_exton/PROJECT_CARD.md`
+> This file is kept for backward compatibility. Use the canonical location for all new work.
+
 # Project 7350 - Bentley Systems
 
 > **FINAL PHASE (Phase 4) -- July 1-2, 2026**

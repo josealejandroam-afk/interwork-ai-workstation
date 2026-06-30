@@ -34,22 +34,23 @@ project index, access status, and open loops. Commit and push if changed.
 
 ## Project Lookup Rules (read before answering any project question)
 
-For any InterWork project question, always check the shared index before answering.
+For any InterWork project question, use this lookup order:
 
-**Lookup order:**
-1. `memory/shared/PROJECT_INDEX.md` — project number, client, location, PM, status, date, risk flags
-2. `memory/projects/project-XXXX.md` — detailed facts for the specific project
-3. `memory/shared/OPEN_LOOPS.md` — unresolved items
-4. `memory/shared/ACCESS_STATUS.md` — blocked integrations or source limitations
-5. `memory/shared/DAILY_HANDOFF.md` — newest operational context
+1. `memory/company_knowledge/START_HERE.md` — read first in every session
+2. `memory/company_knowledge/` — company-wide rules, people, workflow, access status
+3. `memory/clients/CLIENT_INDEX.md` — which client folder to look in
+4. `memory/clients/<client_slug>/CLIENT_CONTEXT.md` — client facts and known contacts
+5. `memory/clients/<client_slug>/projects/<project_slug>/PROJECT_CARD.md` — project facts
+6. `PROJECT_CARD.md` > `OPEN_LOOPS.md` > `DRAFTS.md` > `NOTES.md` in that project folder
+7. Older `memory/shared/` files (PROJECT_INDEX.md, OPEN_LOOPS.md, etc.) — backup during transition only
 
-**If you cannot access the repo, project index, or project card:**
-Do not guess. Ask Alejandro to paste the current Claude Chat handoff or the relevant project card.
+**If you cannot access the repo, client folder, or project card:**
+Do not guess. Ask Alejandro to paste the relevant file or the general handoff.
 
 **If there is a conflict between sources:**
 Say what conflicts and ask for confirmation before proceeding.
 
-**Never treat old chat memory as more reliable than the shared index or project card.**
+**Never treat old chat memory as more reliable than the shared files.**
 
 Do not invent project numbers, PMs, dates, client contacts, or status updates.
 
@@ -171,11 +172,15 @@ If you have repo access or the files are pasted:
 | memory/shared/PROJECT_INDEX.md | All 62 active projects |
 | memory/shared/DECISIONS_LOG.md | Approved decisions with dates |
 | memory/inbox/claude_to_chatgpt.md | Latest Claude Code update for ChatGPT |
-| memory/projects/project-7350.md | Full 7350 Bentley Systems project card |
-| memory/projects/project-7510.md | Full 7510 Pear project card |
-| memory/projects/project-7189.md | Full 7189 MMC Bermuda project card |
-| memory/projects/project-7579.md | 7579 JPMC Miami / Vecos SMART Lockers -- pending scheduling |
+| memory/company_knowledge/ | Company-wide rules, people, workflow, access status (read first) |
+| memory/clients/CLIENT_INDEX.md | All known clients and active projects |
+| memory/clients/marsh_mclennan/ | MMC / MMA projects — 7189, 7060, 7378, and more |
+| memory/clients/bentley_systems/ | Bentley Systems — 7350 Phase 4 Final (Jul 1-2) |
+| memory/clients/vecos/ | Vecos USA — 7579 JPMC Miami (pending scheduling) |
+| memory/clients/pear_vc/ | Pear VC — 7510 SF relocation (Jul 1) |
+| memory/clients/radian/ | Radian — 7492 Denver decom (sparse) |
 | docs/drafts/7350_july1_2_execution_package.md | 7350 drafts: FastField, Teams, client email |
+| memory/inbox/client_chat_start_prompt.md | Reusable prompt for client-specific Claude Chat sessions |
 
 ---
 

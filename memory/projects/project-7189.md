@@ -7,6 +7,9 @@ risk: medium
 last_updated: 2026-06-29
 ---
 
+> **Canonical location:** `memory/clients/marsh_mclennan/projects/7189_mmc_bermuda_hoboken/PROJECT_CARD.md`
+> This file is kept for backward compatibility. Use the canonical location for all new work.
+
 # Project 7189 — MMC Bermuda Inventory Hoboken NJ
 
 ## Key Facts

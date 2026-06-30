@@ -35,6 +35,10 @@ metadata:
   originSessionId: a49556ae-3f91-4870-a82e-d7b4506b952d
 ---
 
+> **Canonical location:** `memory/clients/radian/projects/7492_radian_denver_decom/PROJECT_CARD.md`
+> This file is kept for backward compatibility. Use the canonical location for all new work.
+> Note: this file labeled the client as "MMC" — the Supabase index identifies it as Radian. Radian is authoritative.
+
 # Project 7492
 
 ## Scope

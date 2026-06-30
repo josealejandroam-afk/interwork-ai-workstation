@@ -13,6 +13,9 @@ source: "ChatGPT handoff from email review"
 supabase_status: "NOT IN DATABASE - record needs to be created"
 ---
 
+> **Canonical location:** `memory/clients/vecos/projects/7579_jpmc_miami_lockers/PROJECT_CARD.md`
+> This file is kept for backward compatibility. Use the canonical location for all new work.
+
 # Project 7579 - JPMC Miami / Vecos SMART Lockers
 
 > **STATUS: PENDING SCHEDULING**
