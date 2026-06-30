@@ -50,14 +50,19 @@ _Last updated: 2026-06-26 | Update as reliable information is learned_
 
 Field PMs lead crews on-site. Include name, phone, and project associations as known.
 
-| PM Name | Phone | Notes |
-|---------|-------|-------|
-| Frank Barrett | unknown | Field PM |
-| Pedro Martinez | unknown | Field PM |
-| Juan Martinez | unknown | Field PM — assigned to 7053 Strategic Education DC |
-| Melvin Hernandez | unknown | Field PM |
-| Jairo Escalante | unknown | Field PM |
-| Manny Gonzalez | unknown | Field PM |
+| PM Name | Email | Phone | Notes |
+|---------|-------|-------|-------|
+| Frank Barrett | frankb@interworkoffice.com | 718-775-6242 | PM — confirmed from Supabase 2026-06-29 |
+| Pedro Martinez | pedrom@interworkoffice.com | unknown | PM |
+| Juan Martinez | juanm@interworkoffice.com | unknown | PM — assigned to 7053 Strategic Education DC |
+| Melvin Hernandez | melvinh@interworkoffice.com | unknown | PM |
+| Jairo Escalante | jairoe@interworkoffice.com | unknown | PM — field PM for 7189 MMC Bermuda Hoboken |
+| Manny Gonzalez | mannyg@interworkoffice.com | unknown | PM |
+| Christian Zuniga | (unknown) | unknown | PM — in team_members; no projects seen yet |
+| Oli Martinez | eunisesm@interworkoffice.com | unknown | PM — email address differs from display name; verify |
+| Eucladio Calero | (unknown) | unknown | PM — in team_members; no email on record |
+| Hunter Barbieri | hunterb@interworkoffice.com | unknown | PM — office assignee for 7189 MMC Bermuda |
+| Francisco Vinueza | franciscov@interworkoffice.com | 609-744-1467 | Operations Manager — PM for 7189 in Supabase |
 
 **Rules:**
 - Do not invent phone numbers. Mark unknown if not confirmed.

@@ -11,7 +11,7 @@
 
 This is the AI operations engine for InterWork Office — a commercial furniture and office services company that runs workstation relocations, decommissions, installations, and assessments across client sites.
 
-Alejandro manages roughly 580 projects in Supabase. This workstation gives Claude persistent memory, custom commands, RAG search over procedures and context, and an approval-gated pipeline for proposing project data changes.
+Alejandro manages 140 projects in Supabase (confirmed via REST API Content-Range 2026-06-29; prior ~580 estimate was incorrect, likely a Smartsheet count). This workstation gives Claude persistent memory, custom commands, RAG search over procedures and context, and an approval-gated pipeline for proposing project data changes.
 
 ---
 

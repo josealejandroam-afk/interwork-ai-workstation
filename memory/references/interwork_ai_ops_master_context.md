@@ -106,7 +106,7 @@ Build an AI operations engine for InterWork Office that:
 Supabase is the **write target**. All project state lives here.
 
 Key tables:
-- `projects` — ~580 rows; canonical project records
+- `projects` — 140 rows confirmed (Content-Range verified 2026-06-29; prior ~580 estimate was incorrect, likely confused with Smartsheet row count)
 - `open_loops` — action item queue (applied 2026-06-26)
 - `activity_log` — write audit trail (4 rows; was pre-existing)
 - `fastfield_forms` — mostly empty; completion signals not flowing yet

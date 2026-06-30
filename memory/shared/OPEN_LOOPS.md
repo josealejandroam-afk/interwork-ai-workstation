@@ -1,0 +1,59 @@
+# Open Loops
+_Unresolved items requiring action. Update status as items close._
+_Last updated: 2026-06-29_
+
+---
+
+## URGENT — Due Today / Tomorrow
+
+| # | Loop | Owner | Status | Notes |
+|---|------|-------|--------|-------|
+| 1 | **7510 Pear SF — Frank Barrett must confirm vendor, address, client access** | Frank Barrett / Alejandro | OPEN | Jul 1 job, no vendor assigned, no street address, zero confirmations. Draft Teams msg ready. |
+| 2 | **7189 MMC Bermuda Hoboken — Jairo Escalante confirmation + MMC access** | Hunter Barbieri / Alejandro | OPEN | Jul 1 job, no client/access confirmation. Draft Teams msg ready. |
+
+---
+
+## HELD — Awaiting Alejandro Approval
+
+| # | Loop | Trigger Phrase | Notes |
+|---|------|---------------|-------|
+| 3 | Batch status → completed: 7374, 7499, 7498, 7347, 7472, 7482 | "approve batch complete 6" | 6 projects with fastfield_submitted=true; SQL drafted at scripts/sql/draft_batch_complete_fastfield.sql |
+| 4 | Project 7447 — null out invalid actual_end_at | "apply 7447 fix" | April 15 date is before June 16 start; SQL drafted at scripts/sql/draft_fix_7447_actual_end.sql |
+| 5 | Send confirmation to Frank Barrett (project 7060 MMC Dallas) | "send it" after reviewing draft | Draft in docs/PROJECT_STATUS_CONFIRMATION_DRAFTS.md |
+| 6 | Send confirmation to Pedro Martinez (project 7348 Amtrust Cleveland) | "send it" after reviewing draft | Same file |
+
+---
+
+## BLOCKED — Waiting on Integration Auth
+
+| # | Loop | Blocker | Impact | Next Step |
+|---|------|---------|--------|-----------|
+| 7 | Outlook/M365 access (alejandroa@interworkoffice.com) | OAuth re-auth pending in Claude Code MCP panel | No work email, no WC report parser, no FF assignment detection | Run /mcp → Microsoft 365 in Claude Code |
+| 8 | Teams read access | Same OAuth as above | No Teams message reading | Same as #7 |
+| 9 | FastField direct HTTP/HTTPS webhook | Make.com scenario 5506328 inactive — needs test payload first | fastfield_submitted not auto-populating | Send one test form submission, confirm lands in fastfield_webhook_events, then activate |
+| 10 | Smartsheet read re-auth | MCP re-auth pending | Schedule rows not readable | Re-auth in Claude Code MCP panel |
+| 11 | Read AI access in Claude Code CLI | MCP CLI auth incomplete | /readai-brief Mode A broken | OAuth via /mcp or API key header |
+
+---
+
+## PROJECT-LEVEL GAPS — Known, Awaiting Resolution
+
+| # | Project | Gap | Risk |
+|---|---------|-----|------|
+| 12 | 7304 Montebello West Berlin NJ (Jul 2) | No PM assigned, vendor required but not set | HIGH — 3 days out |
+| 13 | 7494 MMA Furniture Move SD to Walnut Creek (Jul 6) | No PM assigned, vendor required | HIGH — 7 days out |
+| 14 | 7546 MMA Conference Room Dallas (Jul 9) | No PM assigned, vendor required | MEDIUM — 10 days out |
+| 15 | 7060 MMC Dallas in_progress since Apr 3 | client_confirmed=false, fastfield_submitted=false | HIGH — 3 months overdue |
+| 16 | 7448 — check 7435 MMA Colleague Relocation | in_progress since Apr 23, fastfield_submitted=true but status stuck | MEDIUM — likely done |
+| 17 | 48 past-dated projects with status=scheduled | Status backfill needed | MEDIUM — creates noise in health view |
+
+---
+
+## INFRASTRUCTURE / SYSTEM
+
+| # | Loop | Status | Notes |
+|---|------|--------|-------|
+| 18 | v_project_health date calibration fix | Pending — SQL not yet drafted | False proximity alerts for past-dated projects |
+| 19 | RLS policies for Supabase | HELD — do not enable until policies written | Enabling without policies blocks all access |
+| 20 | C:\Users\Owner\.claude archive | HELD — do not delete | Keep until fully operational on D: |
+| 21 | communications table empty | Blocked on M365 OAuth | No email/Teams data syncing |
