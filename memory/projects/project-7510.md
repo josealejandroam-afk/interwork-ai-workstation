@@ -26,7 +26,7 @@ last_updated: 2026-06-29
 | Field | Value | Notes |
 |-------|-------|-------|
 | vendor_confirmed | ❌ false (Supabase) | Crew not named |
-| client_confirmed | ❌ false (Supabase) | **Mel confirmed Jul 1 + 8AM in email** — propose update |
+| client_confirmed | ✅ true | Applied 2026-06-30 — Mel Apostol confirmed Jul 1 + 8AM in email |
 | access_confirmed | ❌ false | COI sent to client; building access not explicitly confirmed |
 | fastfield_submitted | ❌ false | Job hasn't happened yet |
 | completion_report_sent | ❌ false | Job hasn't happened yet |
@@ -71,10 +71,10 @@ last_updated: 2026-06-29
 3. Has Mel accepted the quote or is it still pending?
 4. Does the TV line in the quote need to be corrected before the job?
 
-## Proposed Supabase Updates (requires Alejandro approval)
-- `client_confirmed = true` — Mel confirmed Jul 1 + 8 AM explicitly in email
-- `location_address = '600 Townsend'` — confirmed from email
-- No other booleans should change yet
+## Applied Supabase Updates
+- `client_confirmed = true` — applied 2026-06-30, approved by Alejandro
+- `location_address = '600 Townsend'` — applied 2026-06-30
+- activity_log id: 7766644f-5558-4a0e-b8bc-7cb7dad8f220
 
 ## Drafts
 See `docs/july1_readiness_report_2026-06-29.md` for Teams message draft to Frank Barrett.
