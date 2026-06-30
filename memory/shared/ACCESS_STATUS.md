@@ -8,8 +8,10 @@ _Last updated: 2026-06-29_
 | **GitHub** | josealejandroam-afk | ✅ Connected | Shared AI memory, repo commits, version control | — | In use |
 | **Supabase** | interwork-command-center | ✅ Read-only confirmed | Canonical project DB (140 projects) | Writes require Alejandro approval | Approve held batch to test first write flow |
 | **Smartsheet** | alejandroa@interworkoffice.com | ⚠️ MCP re-auth pending | Schedule/planning source only — never write | MCP session expired | Re-auth in Claude Code MCP panel |
-| **Outlook / M365** | alejandroa@interworkoffice.com | ❌ Blocked — admin approval needed | Work email signals, WC reports, FF assignment detection | Claude M365 connector OR Microsoft Graph MCP requires VMX/IT approval | Send draft request to Christian (VMX/IT) — draft in `docs/drafts/m365_access_request.md` |
-| **Teams** | alejandroa@interworkoffice.com | ❌ Blocked — same as Outlook | Project mentions, unread messages, pending replies | Same approval needed | Same as above |
+| **Outlook / M365** | alejandroa@interworkoffice.com | 🚫 Blocked — company-controlled. Do not retry. | Work email signals, WC reports, FF assignment detection | Tenant admin consent required for ALL apps (confirmed 2026-06-30). Classic Outlook COM also unavailable (New Outlook only). | Wait for VMX/IT or Gal to approve a company-sanctioned path. Do not request again. |
+| **Teams** | alejandroa@interworkoffice.com | 🚫 Blocked — same as Outlook | Project mentions, unread messages, pending replies | Same tenant policy | Same as above |
+| **Microsoft Graph API** | alejandroa@interworkoffice.com | 🚫 Blocked — admin consent required | Programmatic mail/calendar read | Tenant requires admin approval for all apps incl. Microsoft's own Graph tools (confirmed 2026-06-30) | Do not retry. Unblocked only if VMX/IT or Gal explicitly approves. |
+| **Playwright OWA** | — | 🚫 Blocked — safety rule | Browser-based Outlook automation | Held: fragile, policy bypass risk | Not an approved workaround. Do not use. |
 | **Read AI** | (unknown account) | ❌ CLI auth incomplete | Meeting summaries, action items | MCP CLI auth | OAuth via /mcp or API key |
 | **FastField** | (no API) | ❌ Manual only | Work completion forms; submission signals | No REST API exists | Make.com webhook is the path; needs one test payload first |
 | **Make.com** | Scenario 5506328 | ⚠️ Inactive | FastField → Supabase webhook bridge | Test payload not yet confirmed | Send test FF submission, confirm lands in fastfield_webhook_events, then activate |
@@ -18,20 +20,29 @@ _Last updated: 2026-06-29_
 
 ---
 
-## M365 Access — Correct Path (confirmed 2026-06-29)
+## M365 Access — Status (confirmed 2026-06-30)
 
-The Outlook add-in store is NOT the right path. Those are productivity add-ins that run inside Outlook — they do not give Claude access to the mailbox.
+**ALL M365/Outlook/Graph access is blocked by tenant admin policy. Do not retry.**
 
-**Two valid paths:**
+Tested 2026-06-30: Microsoft "Approval required" screen appeared for Microsoft Graph
+Command Line Tools (Microsoft's own verified app). Tenant requires admin consent for
+every application without exception.
 
-| Path | What it is | Status | Notes |
-|------|-----------|--------|-------|
-| Claude Microsoft 365 connector | Native connector in Claude Settings → Connectors | Requires VMX/IT admin approval | Read-only; follows existing M365 permissions; covers Outlook, Teams, OneDrive, SharePoint |
-| Microsoft Graph MCP connector | IT-approved OAuth app with delegated scopes | Requires VMX/IT admin approval | Request scopes: Mail.Read, Calendars.Read, User.Read, offline_access |
+**Current access state:**
 
-**Do not install:** AI MailMaestro, Ghostwriter, R2 Copilot, Sapling, Leah for Outlook — these are third-party add-ins, not the Claude access path.
+| Path | Status |
+|------|--------|
+| Classic Outlook COM | Unavailable — New Outlook (olk.exe) only; no COM interface |
+| Microsoft Graph PowerShell | Blocked — tenant admin consent required |
+| Microsoft Graph API (Python MSAL) | Blocked — same policy |
+| Playwright OWA scraping | Blocked — safety rule, not an approved path |
+| Claude M365 connector | Blocked — requires VMX/IT admin approval |
+| Microsoft Graph MCP connector | Blocked — requires VMX/IT admin approval |
 
-**Draft IT request:** `docs/drafts/m365_access_request.md` — send to Christian (VMX/IT).
+**To unblock:** VMX/IT (Christian) or Gal must explicitly approve a company-sanctioned
+path. Do not request, pressure, or follow up. Wait for them to initiate.
+
+**Draft IT request on file:** `docs/drafts/m365_access_request.md` — do not resend without Alejandro instruction.
 
 ---
 

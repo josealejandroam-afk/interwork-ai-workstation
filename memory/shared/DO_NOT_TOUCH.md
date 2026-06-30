@@ -40,6 +40,25 @@ _Last updated: 2026-06-29_
 
 ---
 
+## Microsoft Mailbox / Calendar Access — Hard Stop
+
+The interworkoffice.com M365 tenant requires admin consent for all apps.
+This is a company IT policy. Do not work around it.
+
+**Do not:**
+- Pressure or repeatedly request Microsoft mailbox/calendar access after an admin block
+- Use alternate Microsoft client IDs to bypass the consent screen
+- Use browser automation (Playwright, Selenium, etc.) to access Outlook Web
+- Scrape OWA or any Outlook Web interface
+- Use Classic Outlook COM (unavailable — New Outlook only)
+- Try any unofficial path to mailbox or calendar data
+
+**Do not retry until:** VMX/IT (Christian) or Gal explicitly approves a
+company-sanctioned connector or registered app. "Explicitly approves" means
+a written instruction from them, not an inference or a workaround.
+
+---
+
 ## AI-to-AI Bridge Safety Rules
 
 When using `send_to_chatgpt.py` or `ask_openai_review.py`:
