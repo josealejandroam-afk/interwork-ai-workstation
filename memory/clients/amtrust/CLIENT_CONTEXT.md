@@ -15,7 +15,7 @@ InterWork has multiple projects for AmTrust, including the Cleveland office (734
 | 7515 | Storage Disposal | New York, NY | Past-dated 2026-05-27 | PM Manny Gonzalez; no FastField |
 | 7536 | AmTrust Project | Needs confirmation | Needs confirmation | May be NYC or Melville NY |
 | 7568 | Site Walk | Irvine, CA | Past-dated 2026-06-26 | External PM; no FastField |
-| 7572 | **CONFLICT** | New York, NY | — | PROJECT_INDEX says 7572 = AmTrust Move 40-50 Boxes NY — but 7572 folder already exists under rothman_orthopaedics/. Do NOT create duplicate. Confirm with Alejandro. |
+| 7572 | Move 40-50 Boxes | 59 Maiden Lane, New York, NY 10038 | Past-dated 2026-06-24 — FastField confirmed | PM Melvin Hernandez; POC Ross Konesky 973-865-9567; 42nd/43rd floors → 6th floor. Formerly misfiled under rothman_orthopaedics/ (ChatGPT error); resolved 2026-06-30. |
 
 ## Pending Action
 

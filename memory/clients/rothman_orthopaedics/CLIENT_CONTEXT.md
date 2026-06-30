@@ -10,7 +10,6 @@ InterWork has two known projects for this client.
 | # | Name | Location | Status |
 |---|---|---|---|
 | 7440 | Rothman Wayne PA | Wayne, PA | Needs confirmation |
-| 7572 | Rothman Project 2 | Needs confirmation | Needs confirmation |
 
 ## Known Contacts
 

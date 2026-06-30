@@ -1,5 +1,5 @@
 # AmTrust Financial Services — Claude Chat Knowledge Pack
-_Generated: 2026-06-30_
+_Generated: 2026-06-30 | Updated: 2026-06-30 (7572 resolved)_
 
 ## Client Overview
 
@@ -61,12 +61,23 @@ AmTrust Financial Services is a specialty insurance company. InterWork has multi
 - **FastField:** false
 - **Status:** Past-dated — no signals
 
+### 7572 — Move 40-50 Boxes — 59 Maiden Lane New York NY
+- **Address:** 59 Maiden Lane, New York, NY 10038
+- **Date:** 2026-06-24
+- **Start time:** 6:00 PM
+- **PM:** Melvin Hernandez
+- **POC:** Ross Konesky — 973-865-9567
+- **Vendor:** Yes
+- **FastField:** true — confirmed via screenshot
+- **Status:** Past-dated — FastField confirmed; likely complete
+- **Scope:** Relocate ~40–50 employee boxes from 42nd/43rd floors to 6th floor; access AmTrust and ANV spaces as directed; before/after photos required
+- **Note:** Previously misfiled as Rothman Orthopaedics in ChatGPT export. Confirmed AmTrust via FastField screenshot 2026-06-30.
+
 ---
 
 ## Data Quality Flags
 
 - **7348 location mismatch:** Named "Cleveland" but Supabase location field says Princeton NJ. Do not use "Cleveland" in any client communication until confirmed.
-- **7572 conflict:** PROJECT_INDEX shows a 7572 as "AmTrust Move 40-50 Boxes New York NY" — but project folder 7572 already exists under `rothman_orthopaedics/`. Do NOT create a duplicate folder. Alejandro must confirm which client this project belongs to.
 
 ---
 
@@ -78,7 +89,7 @@ AmTrust Financial Services is a specialty insurance company. InterWork has multi
 | 2 | Approve Teams send for 7348 |
 | 3 | Confirm completion of 7502, 7513, 7515, 7568 — no FastField on any |
 | 4 | Confirm details for 7536 (NYC/Melville) |
-| 5 | Resolve 7572 conflict — AmTrust vs Rothman Orthopaedics |
+| 5 | Confirm 7572 officially closed — FastField on file but no completion report confirmed |
 
 ---
 

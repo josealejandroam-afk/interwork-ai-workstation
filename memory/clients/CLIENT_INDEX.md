@@ -16,9 +16,9 @@ _Last updated: 2026-06-30 (sync handoff)_
 | Radian | radian/ | 7492 | 7492 = Denver decom. Comprehensive card updated 2026-06-30. |
 | TierPoint | tierpoint/ | 7497 | Conflict: Supabase says "Radian TierPoint" / Cherry Hill vs. Philadelphia. Confirm with Alejandro. |
 | Claritev / MultiPlan | claritev_multiplan/ | 7420, 6836, 6837, Chattanooga TBD | 7420 = Laguna Hills CA decom (folder name says Parsippany — that was a ChatGPT error; confirmed Laguna Hills). |
-| Rothman Orthopaedics | rothman_orthopaedics/ | 7440, 7572, 7583 | Wayne PA (7440); 7583 = Philadelphia service call 7/8. |
+| Rothman Orthopaedics | rothman_orthopaedics/ | 7440, 7583 | Wayne PA (7440); 7583 = Philadelphia service call 7/8. Note: 7572 was misfiled here from ChatGPT export — confirmed AmTrust, moved to amtrust/ 2026-06-30. |
 | Strategic Education | strategic_education/ | 7053, 7337, Guardian Lower Bucks TBD | SEI and possibly Guardian as subsidiary. |
-| AmTrust Financial | amtrust/ | 7348 (pending), 7502, 7513, 7515, 7536, 7568 | 7348 = Cleveland/Princeton (location mismatch — confirm); 7502 = Garden Grove CA; 7513 = Southington CT; 7515 = New York NY; 7536 = NYC or Melville; 7568 = Irvine CA. **7572 CONFLICT — see rothman_orthopaedics.** |
+| AmTrust Financial | amtrust/ | 7348 (pending), 7502, 7513, 7515, 7536, 7568, 7572 | 7348 = Cleveland/Princeton (location mismatch — confirm); 7502 = Garden Grove CA; 7513 = Southington CT; 7515 = New York NY; 7536 = NYC or Melville; 7568 = Irvine CA; 7572 = 59 Maiden Lane NYC 6/24 (confirmed AmTrust via FastField). |
 | Dropbox | dropbox/ | 7399, 7460, 7467, 7552 | SF-area + 7467 = Seattle Studio Move 2026-04-27. Possibly overlaps with Pear VC origin building at 1800 Owens St. |
 | Ingersoll Rand | ingersoll_rand/ | 7374 | FastField submitted; pending "approve batch complete 6" to close in Supabase. |
 | Monster Energy | monster_energy/ | 7529 | Location Needs confirmation. |
