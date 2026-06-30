@@ -1,28 +1,21 @@
-# JPMC (JPMorgan Chase) — Client Context
+# JPMC — Lookup Pointer (NOT an InterWork client)
 
-## Overview
+## Important
 
-JPMorgan Chase is a global financial institution.
-InterWork completed locker commissioning work at JPMC's 1450 Brickell Ave Miami office (project 7579).
+**JPMC is NOT an InterWork client.**
 
-Note on filing: JPMC is the end-user client (building tenant). Cason Perez at Vecos USA is the InterWork operational contact for this project. The detailed project card is filed in `memory/clients/vecos/projects/7579_jpmc_miami_lockers/` because Vecos is the primary technical contact.
-A thin reference card is kept here because JPMC is the building/client.
+The relationship is:
+- **Vecos USA** is InterWork's client — they hire InterWork to commission lockers
+- **JPMC** is Vecos's customer — they are the building tenant and end user of the locker system
 
-## Known Projects
+Project 7579 is a **Vecos project**. JPMC is only the site address.
+All project details, contacts, and documents belong in `memory/clients/vecos/projects/7579_jpmc_miami_lockers/`.
 
-| # | Name | Location | Status | Notes |
-|---|---|---|---|---|
-| 7579 | JPMC Miami Vecos SMART Lockers | 1450 Brickell Ave, 33rd floor, Miami FL | Scheduling | Full card: memory/clients/vecos/projects/7579_jpmc_miami_lockers/ |
+This folder exists only so a search for "JPMC" finds the right pointer.
 
-## Known Contacts
+## Where to Go
 
-| Name | Role | Contact |
-|---|---|---|
-| Cason Perez | Vecos USA — InterWork contact | 832-993-6902, Cason.Perez@vecos.com |
-| Cesar Rivera | Site POC (JPMC Miami) | 347-258-2897 |
-| Francisco Vinueza | InterWork Office PM | 609-744-1467 |
-
-## How to Use This Folder
-
-For full project details, read the canonical card in vecos/projects/7579_jpmc_miami_lockers/.
-Read `memory/company_knowledge/START_HERE.md` first.
+- Full project card: `memory/clients/vecos/projects/7579_jpmc_miami_lockers/PROJECT_CARD.md`
+- Vecos client context: `memory/clients/vecos/CLIENT_CONTEXT.md`
+- InterWork contact for this project: Cason Perez at Vecos USA (832-993-6902)
+- Site contact at JPMC Miami: Cesar Rivera (347-258-2897)

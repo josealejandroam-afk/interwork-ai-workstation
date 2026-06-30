@@ -7,8 +7,7 @@ _Last updated: 2026-06-30_
 |---|---|---|---|
 | Marsh McLennan (MMC / MMA) | marsh_mclennan/ | 7189, 7060, 7378, 7364, 7431, 7407, 7437, 7486, 7471, 7418, 7354, 7434, 7495, 7447, 7191, 7521, 7576, 7299, 7241 | MMC = Marsh McLennan Company; MMA = Marsh & McLennan Agency. Same parent. Multiple ongoing engagements across US offices. |
 | Bentley Systems | bentley_systems/ | 7350, 7450 | Multi-phase engagement. 7350 = Phase 4 Final (July 1-2). 7450 = Framingham to Exton. |
-| Vecos USA | vecos/ | 7579, 7454 | Locker commissioning. 7579 = JPMC Miami. Thin card also in jpmc/. |
-| JPMC (JPMorgan Chase) | jpmc/ | 7579 (ref) | Reference card only. Full card in vecos/. |
+| Vecos USA | vecos/ | 7579, 7454 | Locker commissioning. Vecos is InterWork's client. JPMC is Vecos's customer (end user site only). |
 | Pear VC | pear_vc/ | 7510 | 7510 = SF relocation to 600 Townsend (July 1). |
 | Radian | radian/ | 7492 | 7492 = Denver decom. Comprehensive card updated 2026-06-30. |
 | TierPoint | tierpoint/ | 7497 | Conflict: Supabase says "Radian TierPoint" / Cherry Hill vs. Philadelphia. Confirm with Alejandro. |
@@ -34,6 +33,14 @@ _Last updated: 2026-06-30_
 | Tegna / Premion | tegna_premion/ | Unknown | No project number confirmed. |
 | Lincoln / CRC Group | lincoln_crc_group/ | 7246 | No detail available. Note: separate from CRC Virginia Beach under MMC. |
 | Teknion | teknion/ | 5156 | Historical project; low project number. |
+
+## Lookup Pointers (NOT InterWork clients)
+
+These folders exist only to redirect lookups to the correct client folder.
+
+| Folder | Who they are | Real client folder |
+|---|---|---|
+| jpmc/ | JPMC is the end-user site for project 7579. Vecos USA is the InterWork client. | vecos/ |
 
 ## Unassigned / Ambiguous Projects
 
