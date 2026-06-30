@@ -74,6 +74,26 @@ Claude Code  ──reads/writes──►  GitHub repo (this repo)  ◄──read
 
 ---
 
+## AI-to-AI Bridge
+
+The repo is the memory system. The bridge is the working channel. Both are in use.
+
+```
+Claude ↔ ChatGPT bridge  →  fast live collaboration, quick drafts, second opinions
+Claude → GitHub memory   →  decisions, project facts, open loops, daily handoffs
+GitHub memory → both AIs →  shared context that persists across sessions
+```
+
+**Two bridge mechanisms:**
+- **OpenAI API** (`ask_openai_review.py` / `/ask-openai-review`) — structured review packets, action plans, advisory. Runs a secret scrubber before sending. Response saved to `feedback_loop/`.
+- **Playwright browser** (`send_to_chatgpt.py`) — live chat in a Chrome tab. Requires the ChatGPT conversation to be open in Chrome with the URL saved to `scripts/chatgpt_target_url.txt`.
+
+**Rule:** Bridge output that matters (decisions, confirmed facts, flags) must be summarized into `memory/shared/` or `memory/inbox/` before the session ends. Bridge conversations are not persistent — GitHub is.
+
+Full bridge documentation: `docs/AI_TO_AI_BRIDGE.md`
+
+---
+
 ## Key Files to Read First
 
 1. `memory/shared/DAILY_HANDOFF.md` — what happened today and what's next
