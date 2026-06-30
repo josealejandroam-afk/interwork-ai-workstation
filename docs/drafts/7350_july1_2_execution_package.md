@@ -163,20 +163,33 @@ _Information for whoever creates the calendar entry_
 
 ## 5. Pending Supabase Updates (do not apply without Alejandro approval)
 
-The following corrections should be made to the Supabase record for 7350:
+### Safe to update (dates + address only)
 
-```
-project_number: 7350
-scheduled_date: 2026-07-01
-scheduled_end_date: 2026-07-02
-location_address: 601 Walnut Street / 685 Stockton Drive
-location_city: Philadelphia / Exton
-location_state: PA
-pm_id: [Pedro Martinez ID]
-internal_notes: [update to reflect Phase 4 scope and contacts]
+These fields are stale and safe to correct. They do not touch PM or personnel fields.
+
+```sql
+UPDATE projects
+SET
+  scheduled_date     = '2026-07-01',
+  scheduled_end_date = '2026-07-02',
+  location_address   = '601 Walnut Street / 685 Stockton Drive'
+WHERE project_number = '7350';
 ```
 
-Trigger phrase to apply: "update 7350 in Supabase"
+Trigger phrase to apply: "update 7350 dates and address"
+
+---
+
+### Do NOT update yet - needs verification
+
+| Field | Current | Why holding |
+|---|---|---|
+| pm_id / Office Assignee | Hunter Barbieri in internal_notes | Hunter may legitimately own the project administratively even if Francisco is Office PM. Verify before changing. |
+| ai_summary PM name | "Juan Martinez" | Field may reflect overall project history, not July execution only. May need Francisco + Pedro both documented rather than one overwriting the other. |
+
+These fields will be updated separately once the field purpose is confirmed.
+
+Trigger phrase when ready: "update 7350 PM fields in Supabase"
 
 ---
 

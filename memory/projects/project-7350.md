@@ -119,15 +119,15 @@ Pedro Martinez is the assigned PM for July 1-2 execution.
 
 The Supabase record for 7350 was last updated April 21, 2026 and reflects an earlier phase.
 
-| Field | Supabase | Actual (Phase 4) |
-|---|---|---|
-| Scheduled date | May 4-6, 2026 | July 1-2, 2026 |
-| Office Assignee | Hunter Barbieri | Francisco Vinueza |
-| PM summary | Juan Martinez | Pedro Martinez |
-| Origin | 1601 Cherry St (old) | 601 Walnut St (Cesium/Curtis) |
-| Direction | Exton to Philadelphia | Philadelphia to Exton |
+| Field | Supabase | Actual (Phase 4) | Action |
+|---|---|---|---|
+| Scheduled date | May 4-6, 2026 | July 1-2, 2026 | Correct - pending approval |
+| Origin address | 1601 Cherry St / 685 Stockton Dr | 601 Walnut St / 685 Stockton Dr | Correct - pending approval |
+| Office Assignee (internal_notes) | Hunter Barbieri | Unknown - may legitimately remain if Hunter owns project administratively | Do not change until verified |
+| PM summary (ai_summary) | Juan Martinez | Field PM: Pedro Martinez / Office PM: Francisco Vinueza | Do not change - field purpose needs verification |
 
-These discrepancies should be corrected in Supabase when Alejandro approves.
+Safe to update now: dates and origin address only.
+Hold: PM and Office Assignee fields until field purpose is confirmed.
 
 ---
 
