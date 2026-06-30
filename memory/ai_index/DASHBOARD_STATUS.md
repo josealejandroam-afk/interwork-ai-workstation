@@ -4,15 +4,22 @@ _Mirrored from: memory/dashboard/CURRENT_DASHBOARD_STATUS.md_
 
 ---
 
-## Live API Endpoint (use this first)
+## Live AI API Endpoints (use these first)
 
+**Dashboard summary** (counts + today/tomorrow/at-risk rows):
 ```
 GET https://interwork-command-center.vercel.app/api/ai/dashboard-summary
 ```
-
 - Returns: `counts`, `today_rows`, `tomorrow_rows`, `at_risk_rows` — live from Supabase
 - No auth required. `confidence: "live"`. No secrets exposed.
 - Confirmed live: 2026-06-30 (all: 146, active: 66, today: 7, tomorrow: 8, this_week: 12, alerts: 50, at_risk: 47)
+
+**Search** (project/client/location/PM/scope lookup):
+```
+GET https://interwork-command-center.vercel.app/api/ai/search?q=<term>
+```
+- Returns up to 25 matching project rows. Use before scanning repo folders.
+- No auth required. Minimum 2 characters. Confirmed live: 2026-06-30.
 
 **Use the snapshot below only if the API is unavailable.**
 

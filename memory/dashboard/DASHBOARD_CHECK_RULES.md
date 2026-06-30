@@ -4,14 +4,20 @@ _Last updated: 2026-06-30_
 
 ---
 
-## Live API Endpoint
+## Live AI API Endpoints
 
+**Dashboard summary** (counts + today/tomorrow/at-risk rows):
 ```
 GET https://interwork-command-center.vercel.app/api/ai/dashboard-summary
 ```
+Live Supabase read. No auth required. Confirmed live: 2026-06-30.
 
-Live Supabase read. No auth required. Returns counts + today/tomorrow/at-risk rows.
-Confirmed live: 2026-06-30.
+**Search** (project/client/location/PM/scope lookup):
+```
+GET https://interwork-command-center.vercel.app/api/ai/search?q=<term>
+```
+Live Supabase read. No auth required. Minimum 2 characters. Max 25 results. Confirmed live: 2026-06-30.
+Use search before scanning repo folders for any project or client lookup.
 
 ---
 
@@ -19,10 +25,11 @@ Confirmed live: 2026-06-30.
 
 | Priority | Source | Use for |
 |---|---|---|
-| 1 (highest) | **Live AI API** (`/api/ai/dashboard-summary`) | Current operational counts, status, dates — available to any AI |
-| 2 | `memory/dashboard/CURRENT_DASHBOARD_STATUS.md` | AI-readable snapshot — fallback only when API unavailable |
-| 3 | Client knowledge pack | Client-specific project context, contacts, scope |
+| 1 (highest) | **Live search API** (`/api/ai/search?q=<term>`) | Quick project/client/location/PM lookup — live Supabase |
+| 2 | **Live dashboard API** (`/api/ai/dashboard-summary`) | Operational counts, today/tomorrow/at-risk rows — live Supabase |
+| 3 | `memory/dashboard/CURRENT_DASHBOARD_STATUS.md` | AI-readable snapshot — fallback only when API unavailable |
 | 4 | Project card (`PROJECT_CARD.md`) | Richer context, manually confirmed details, open loops |
+| 5 | Client knowledge pack | Client-specific project context, contacts, scope |
 
 ---
 
@@ -80,24 +87,33 @@ If a project card was updated after the snapshot timestamp,
 prefer the project card for that project's specific facts,
 but use the snapshot for global counts (today/tomorrow/alerts).
 
+### 8. Use search for quick project/client lookup
+Before scanning repo folders, call:
+```
+GET https://interwork-command-center.vercel.app/api/ai/search?q=<term>
+```
+Search returns live Supabase data (max 25 rows). It matches against project number, client, location, type, status, readiness, PM name, and scope summary. Use the result to identify records, then fetch the matching project card for deeper context. Search = live quick scan. Project card = durable detailed context.
+
 ---
 
 ## When to Use Each Source
 
 | Question | Use |
 |---|---|
-| "How many projects are today?" | Dashboard snapshot |
-| "What's the status of project 7552?" | Dashboard snapshot + project card |
-| "Who is the PM for 7391?" | Project card (if exists), then dashboard snapshot |
+| "How many projects are today?" | Live dashboard API (`/api/ai/dashboard-summary`) |
+| "What's the status of project 7552?" | Live search API (`/api/ai/search?q=7552`) + project card |
+| "Who is the PM for 7391?" | Live search API (`/api/ai/search?q=7391`), then project card |
 | "What is the scope for Dropbox 1800 Owens?" | Project card |
-| "Are there any at-risk projects?" | Dashboard snapshot |
+| "Are there any at-risk projects?" | Live dashboard API (`/api/ai/dashboard-summary`) |
 | "Has Morgan confirmed the new date?" | Project card open loops |
+| "Find all projects in Dallas" | Live search API (`/api/ai/search?q=Dallas`) |
 
 ---
 
 ## What Claude Chat Can Do (as of 2026-06-30)
 
 - Call `GET https://interwork-command-center.vercel.app/api/ai/dashboard-summary` for live operational counts and rows
+- Call `GET https://interwork-command-center.vercel.app/api/ai/search?q=<term>` for quick live project/client/location lookup
 - Fetch project cards, open loops, and client context via raw GitHub URLs
 - Draft emails and Teams messages (Alejandro approves all sends)
 

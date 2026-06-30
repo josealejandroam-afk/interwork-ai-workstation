@@ -19,7 +19,8 @@ Perception without action. Read-only access.
 | Source | What it contains | Access method | Latency |
 |---|---|---|---|
 | Supabase / live dashboard | Project index, status, open loops, FastField events | Supabase MCP (Claude Code) or `GET /api/ai/dashboard-summary` (any AI) | Live |
-| **Live AI API** | Counts + today/tomorrow/at-risk rows from `v_project_card` | `https://interwork-command-center.vercel.app/api/ai/dashboard-summary` — no auth | Live |
+| **Live AI API — dashboard-summary** | Counts + today/tomorrow/at-risk rows from `v_project_card` | `https://interwork-command-center.vercel.app/api/ai/dashboard-summary` — no auth | Live |
+| **Live AI API — search** | Project/client/location/PM/scope lookup (max 25 rows) from `v_project_card` | `https://interwork-command-center.vercel.app/api/ai/search?q=<term>` — no auth | Live |
 | Dashboard snapshot | Summary counts + today's rows at snapshot time | Raw GitHub URL: `memory/dashboard/CURRENT_DASHBOARD_STATUS.md` | Stale (manual refresh) |
 | AI index files | Client roster, project index, open loops summary, dashboard mirror | Raw GitHub URL: `memory/ai_index/` | Stale (refresh on repo push) |
 | Client context | Client background, key contacts, rules | Raw GitHub URL: `memory/clients/<slug>/CLIENT_CONTEXT.md` | Stale (refresh on repo push) |
@@ -96,6 +97,7 @@ Layer 1 — Live
   Supabase open_loops table (Claude Code via MCP)
   FastField webhook events (Claude Code via MCP)
   GET /api/ai/dashboard-summary (any AI — live Supabase read, no auth required)
+  GET /api/ai/search?q=<term> (any AI — live Supabase read, no auth required)
   → Claude Code reads directly via MCP; Claude Chat and ChatGPT read via /api/ai/...
 
 Layer 2 — Near-live (raw GitHub, refreshed by Claude Code on update)
@@ -120,26 +122,27 @@ Layer 3 — Snapshot / Uploaded (fallback, stale)
 2. Bootstrap says: fetch these URLs
 3. Claude Chat fetches:
    - memory/ai_index/START_HERE_FOR_AI.md
-   - memory/dashboard/CURRENT_DASHBOARD_STATUS.md
-   - memory/clients/<slug>/CLIENT_CONTEXT.md
+   - GET /api/ai/dashboard-summary (live operational counts)
 4. Alejandro provides project context
-5. Claude Chat fetches:
+5. Claude Chat calls GET /api/ai/search?q=<term> for quick project/client lookup
+6. Claude Chat fetches:
    - memory/clients/<slug>/projects/<slug>/PROJECT_CARD.md
    - memory/clients/<slug>/projects/<slug>/OPEN_LOOPS.md
-6. Claude Chat answers questions, drafts responses
-7. Claude Chat outputs a Claude Code Handoff if facts need to be saved
-8. Alejandro takes handoff to Claude Code session
-9. Claude Code updates PROJECT_CARD.md, commits, pushes
-10. Next Claude Chat session reads updated files
+7. Claude Chat answers questions, drafts responses
+8. Claude Chat outputs a Claude Code Handoff if facts need to be saved
+9. Alejandro takes handoff to Claude Code session
+10. Claude Code updates PROJECT_CARD.md, commits, pushes
+11. Next Claude Chat session reads updated files
 ```
 
 ---
 
-## Current State — Phase 2 Endpoint 1 Live (2026-06-30)
+## Current State — Phase 2 Endpoints 1 and 2 Live (2026-06-30)
 
 ```
 Layer 1 is now accessible to Claude Chat and ChatGPT via:
   GET https://interwork-command-center.vercel.app/api/ai/dashboard-summary
+  GET https://interwork-command-center.vercel.app/api/ai/search?q=<term>
   → live Supabase data, no auth required
 
 Claude Code still owns:
@@ -151,7 +154,6 @@ Remaining Phase 2 endpoints (not yet built):
   /api/ai/project/[client_slug]/[project_slug]
   /api/ai/client/[client_slug]
   /api/ai/open-loops
-  /api/ai/search
 ```
 
 ---

@@ -49,10 +49,11 @@ Also fetch `OPEN_LOOPS.md` and `NOTES.md` from the same folder when available.
 
 ## Dashboard Rule
 
-- Dashboard snapshot for operational status.
-- Project cards for scope, contacts, notes, history.
-- Flag conflicts, do not pick silently.
-- Warn if snapshot is more than 1 day old.
+- For live counts (today/tomorrow/this week/at-risk), call `GET https://interwork-command-center.vercel.app/api/ai/dashboard-summary`.
+- For quick project, client, location, PM, or scope lookup, call `GET https://interwork-command-center.vercel.app/api/ai/search?q=<term>` — use search before scanning repo folders.
+- Use project cards for scope, contacts, notes, history, and manually confirmed facts.
+- If live API and project card conflict, flag the conflict — do not silently pick one.
+- Knowledge packs and dashboard snapshots are fallback only.
 
 ---
 

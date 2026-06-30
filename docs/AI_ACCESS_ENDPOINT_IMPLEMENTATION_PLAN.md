@@ -1,6 +1,6 @@
 # AI Access Endpoint Implementation Plan
 _Created: 2026-06-30_
-_Status: Phase 1 complete (static index) | Phase 2 in progress — endpoint 1 live_
+_Status: Phase 1 complete (static index) | Phase 2 in progress — endpoints 1 and 2 live_
 
 ---
 
@@ -22,6 +22,7 @@ Any AI chat (Claude Chat, ChatGPT, future AI) should be able to access current p
 | Project cards (raw GitHub) | **Live** | `memory/clients/<slug>/projects/<slug>/PROJECT_CARD.md` |
 | Bootstrap routing files | **Live** | `claude_project_bootstraps/<slug>_bootstrap.md` |
 | `GET /api/ai/dashboard-summary` | **Live** | `https://interwork-command-center.vercel.app/api/ai/dashboard-summary` |
+| `GET /api/ai/search?q=` | **Live** | `https://interwork-command-center.vercel.app/api/ai/search?q=<term>` |
 | Remaining Vercel AI API endpoints | **Planned** | `interwork-command-center` repo |
 
 ---
@@ -126,13 +127,38 @@ Returns:
 
 ---
 
-#### `GET /api/ai/search?q=`
+#### `GET /api/ai/search?q=` — **LIVE as of 2026-06-30**
 
-**Data source:** GitHub repo file index or Supabase full-text search
+**URL:** `https://interwork-command-center.vercel.app/api/ai/search?q=<term>`
+**Data source:** Supabase `v_project_card` (live read, client-side JS filter)
+**Auth:** None required
+**Commit:** `18a86f4` — `interwork-command-center` repo
 
-Returns: matching clients, projects, files.
+Confirmed response shape (2026-06-30):
+```json
+{
+  "updated_at": "2026-06-30T...",
+  "source": "supabase:v_project_card",
+  "confidence": "live",
+  "query": "<term>",
+  "count": 7,
+  "records": [
+    { "project_number": "...", "client": "...", "location": "...", "type": "...",
+      "scheduled_date": "...", "scheduled_time": "...", "status": "...",
+      "readiness": "...", "execution_owner": "...", "scope_summary": "..." }
+  ]
+}
+```
 
-**Phase 2b — lower priority.** Start with dashboard-summary and project endpoint first.
+Confirmed tests passing (2026-06-30): `?q=UiPath` → 200 7 rows, `?q=7553` → 200 1 row, `?q=Dallas` → 200 8 rows, `?q=AT_RISK` → 200 20 rows, `?q=x` → 400 "Query too short".
+
+**Security:** Fetches all ~146 rows, filters client-side on `toRow()` output only — no internal_notes, emails, phone numbers, or credentials in response. String cast on enum fields avoids PostgREST ilike issues.
+
+**Implementation notes:**
+- Fetches all rows with safe SELECT, filters in JS via `String(v||'').toLowerCase().includes(q)`
+- `toRow()` output is the security boundary — only 10 safe fields searched and returned
+- No `export const runtime = 'edge'` — Node.js serverless runtime
+- Max 25 results returned
 
 ---
 
@@ -169,9 +195,10 @@ Returns: global cross-client open loops.
 
 At the start of a session:
 1. Fetch `/api/ai/dashboard-summary` for operational status
-2. Fetch `/api/ai/client/<slug>` for client context
-3. Fetch `/api/ai/project/<slug>/<project_slug>` for the relevant project
-4. Flag stale data; ask for live refresh if needed
+2. Call `/api/ai/search?q=<term>` for quick project/client lookup before scanning repo folders
+3. Fetch `/api/ai/client/<slug>` for client context (when available)
+4. Fetch `/api/ai/project/<slug>/<project_slug>` for the relevant project
+5. Flag stale data; ask for live refresh if needed
 
 ---
 
@@ -208,19 +235,18 @@ Possible future endpoints:
 
 ## Recommended Build Order
 
-1. `GET /api/ai/dashboard-summary` — highest value, live Supabase read
-2. `GET /api/ai/project/[client_slug]/[project_slug]` — most frequent use case
-3. `GET /api/ai/client/[client_slug]` — client context
-4. `GET /api/ai/open-loops` — global pending items
-5. `GET /api/ai/search?q=` — nice-to-have, build last
+1. `GET /api/ai/dashboard-summary` — highest value, live Supabase read ✓ LIVE
+2. `GET /api/ai/search?q=` — quick project/client/location lookup ✓ LIVE
+3. `GET /api/ai/project/[client_slug]/[project_slug]` — most frequent use case
+4. `GET /api/ai/client/[client_slug]` — client context
+5. `GET /api/ai/open-loops` — global pending items
 
 ---
 
 ## Next Steps
 
-Phase 2 endpoint 1 (`/api/ai/dashboard-summary`) is live. Remaining build order:
+Phase 2 endpoints 1 and 2 are live (`/api/ai/dashboard-summary`, `/api/ai/search?q=`). Remaining build order:
 
-2. `GET /api/ai/project/[client_slug]/[project_slug]` — most frequent use case
-3. `GET /api/ai/client/[client_slug]` — client context
-4. `GET /api/ai/open-loops` — global pending items
-5. `GET /api/ai/search?q=` — nice-to-have, build last
+3. `GET /api/ai/project/[client_slug]/[project_slug]` — most frequent use case
+4. `GET /api/ai/client/[client_slug]` — client context
+5. `GET /api/ai/open-loops` — global pending items

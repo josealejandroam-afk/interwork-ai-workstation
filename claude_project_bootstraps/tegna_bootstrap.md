@@ -47,9 +47,12 @@ Fetch pattern:
 
 ## Dashboard Rule
 
-- Dashboard snapshot for operational status.
-- Project cards for scope, contacts, notes, history.
+- For live counts (today/tomorrow/this week/at-risk), call `GET https://interwork-command-center.vercel.app/api/ai/dashboard-summary`.
+- For quick project, client, location, PM, or scope lookup, call `GET https://interwork-command-center.vercel.app/api/ai/search?q=<term>` — use search before scanning repo folders.
+- Use project cards for scope, contacts, notes, history, and manually confirmed facts.
 - If no project card exists, say so — do not guess.
+- If live API and project card conflict, flag the conflict — do not silently pick one.
+- Knowledge packs and dashboard snapshots are fallback only.
 
 ---
 

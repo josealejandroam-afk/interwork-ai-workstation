@@ -33,6 +33,10 @@ Use the files in this `memory/ai_index/` folder as fast lookup before going deep
 ```
 START_HERE_FOR_AI.md
         ↓
+Search first: GET /api/ai/search?q=<project number, client name, location, or scope term>
+  → returns live project rows; identify records before scanning repo folders
+        ↓
+(for deeper context)
 CLIENT_ROSTER.md → find client slug
         ↓
 PROJECT_INDEX.md → find project slug + source path
@@ -64,16 +68,23 @@ https://raw.githubusercontent.com/josealejandroam-afk/interwork-ai-workstation/m
 
 ---
 
-## Live AI API Endpoint
+## Live AI API Endpoints
 
-**For current operational status, call this first — no auth required:**
+**For current operational status and quick lookup — no auth required:**
 
+**Dashboard summary** (counts + today/tomorrow/at-risk rows):
 ```
 GET https://interwork-command-center.vercel.app/api/ai/dashboard-summary
 ```
-
 Returns: live counts (`all`, `active`, `today`, `tomorrow`, `this_week`, `alerts`, `at_risk`), `today_rows`, `tomorrow_rows`, `at_risk_rows` — pulled live from Supabase `v_project_card`.
 Confirmed live: 2026-06-30. `confidence: "live"`. No secrets exposed.
+
+**Search** (project/client/location/PM/scope lookup, max 25 results):
+```
+GET https://interwork-command-center.vercel.app/api/ai/search?q=<term>
+```
+Returns: matching project rows from Supabase. Searches project number, client, location, type, status, readiness, PM, and scope. Use this before scanning repo folders.
+Confirmed live: 2026-06-30. Minimum 2 characters. Examples: `?q=UiPath`, `?q=7553`, `?q=Dallas`.
 
 ---
 
@@ -81,11 +92,12 @@ Confirmed live: 2026-06-30. `confidence: "live"`. No secrets exposed.
 
 When multiple sources disagree, use this order:
 
-1. **Live AI API** — `GET https://interwork-command-center.vercel.app/api/ai/dashboard-summary` — live Supabase read
-2. **Dashboard snapshot** (`memory/ai_index/DASHBOARD_STATUS.md`) — fallback if API unavailable; stale if >1 day old
-3. **Client knowledge pack** (`claude_project_packs/`) — use for contacts/routing; stale for status/dates
-4. **Project card** (`memory/clients/<slug>/projects/<slug>/PROJECT_CARD.md`) — best source for scope, contacts, notes
-5. **Bootstrap file** (`claude_project_bootstraps/<slug>_bootstrap.md`) — routing only, not project facts
+1. **Live search API** — `GET /api/ai/search?q=<term>` — live Supabase read; use for quick project/client lookup
+2. **Live dashboard API** — `GET /api/ai/dashboard-summary` — live Supabase read; use for counts and operational status
+3. **Dashboard snapshot** (`memory/ai_index/DASHBOARD_STATUS.md`) — fallback if API unavailable; stale if >1 day old
+4. **Project card** (`memory/clients/<slug>/projects/<slug>/PROJECT_CARD.md`) — best source for scope, contacts, notes, history
+5. **Client knowledge pack** (`claude_project_packs/`) — use for contacts/routing; stale for status/dates
+6. **Bootstrap file** (`claude_project_bootstraps/<slug>_bootstrap.md`) — routing only, not project facts
 
 If API/dashboard and project card conflict → **flag the conflict**, do not silently pick one.
 
@@ -93,6 +105,8 @@ If API/dashboard and project card conflict → **flag the conflict**, do not sil
 
 ## What Claude Chat Can Do From This Repo
 
+- Call `GET https://interwork-command-center.vercel.app/api/ai/dashboard-summary` for live operational counts and rows
+- Call `GET https://interwork-command-center.vercel.app/api/ai/search?q=<term>` for quick project/client lookup before scanning repo folders
 - Answer questions about project scope, contacts, schedule, location
 - Draft client-facing emails and Teams messages (do not send without approval)
 - Identify open loops and what needs resolution

@@ -50,10 +50,11 @@ Full raw base for project files:
 
 ## Dashboard Rule
 
-- Use the dashboard snapshot for operational counts and today/tomorrow/this week status.
-- Use project cards for scope, contacts, notes, and history.
-- If dashboard snapshot and project card conflict, flag the conflict — do not silently pick one.
-- If the snapshot `Last Updated` timestamp is more than 1 day old, warn that it may be stale.
+- For live counts (today/tomorrow/this week/at-risk), call `GET https://interwork-command-center.vercel.app/api/ai/dashboard-summary`.
+- For quick project, client, location, PM, or scope lookup, call `GET https://interwork-command-center.vercel.app/api/ai/search?q=<term>` — use search before scanning repo folders.
+- Use project cards for scope, contacts, notes, history, and manually confirmed facts.
+- If live API and project card conflict, flag the conflict — do not silently pick one.
+- Knowledge packs and dashboard snapshots are fallback only.
 
 ---
 
