@@ -5,11 +5,40 @@
 Marsh McLennan is a global professional services firm.
 InterWork has an ongoing multi-location engagement covering office moves, decommissions, and service calls across US offices.
 
-Two business units appear in InterWork projects:
-- **MMC** — Marsh McLennan Company (corporate entity)
-- **MMA** — Marsh & McLennan Agency (subsidiary)
+All of the following names are treated as part of the same Marsh McLennan client family and filed here:
+- **MMC** — Marsh McLennan Company (corporate parent)
+- **Marsh** — the Marsh insurance brokerage business
+- **Marsh McLennan** — full corporate name
+- **MMA / Marsh McLennan Agency** — agency subsidiary
+- **MarshMMA**, **MM Tech**, **Global Security** — internal groups or project labels
 
-Both are filed under this folder. The project name in Supabase will indicate which entity applies.
+## Naming Convention — Use the Name on the Paperwork
+
+When writing project names, quotes, FastField forms, WC reports, or client emails, use the exact entity name that appears on the project request or SOW. Do not rename.
+
+| If paperwork says... | Use in project records... |
+|---|---|
+| MMC | MMC |
+| MMA or Marsh McLennan Agency | MMA or Marsh McLennan Agency |
+| Marsh | Marsh |
+| MM Tech / Global Security | Use that name — do not convert to MMC |
+
+Differentiate the name whenever it affects: **billing entity, project title, COI requirements, site access, client contacts, business unit ownership, or scope.**
+
+For general coordination, scheduling, field updates, and internal tracking, it is fine to reference the specific project name while understanding these are all part of the Marsh McLennan account.
+
+## Related Entities — Handle Carefully
+
+The following entities are related to Marsh McLennan but may operate as separate business units with different billing, contacts, or scope ownership. **Do not automatically rename these as MMC.**
+
+| Entity | Relationship | Rule |
+|---|---|---|
+| **Guy Carpenter** | Marsh McLennan subsidiary (reinsurance) | Use "Guy Carpenter" unless paperwork confirms MMC billing |
+| **Mercer** | Marsh McLennan subsidiary (HR consulting) | Use "Mercer" unless paperwork confirms MMC billing |
+| **Oliver Wyman** | Marsh McLennan subsidiary (management consulting) | Use "Oliver Wyman" unless paperwork confirms MMC billing |
+| **McGriff** | Marsh McLennan-affiliated (insurance brokerage) | Use "McGriff" — has its own folder at memory/clients/mcgriff/ |
+
+If a project comes from one of these entities, file it under the entity that appears on the request, not automatically under marsh_mclennan/. If unsure, ask Alejandro.
 
 ## Known Projects
 
