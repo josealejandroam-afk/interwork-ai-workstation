@@ -77,6 +77,7 @@ Track as learned from meetings, emails, Smartsheet, and Read AI.
 
 | Project # | Client | Contact Name | Role | Phone | Email | Notes |
 |-----------|--------|-------------|------|-------|-------|-------|
+| 7510 | Pear | Mel Apostol | unknown | unknown | mel@pear.vc | Primary contact; confirmed Jul 1 + 8 AM start in email Jun 26 |
 | 7492 | Radian | John Smith | unknown | unknown | unknown | Open Teams loop as of 2026-06-26; awaiting response |
 | (add as learned) | | | | | | |
 

@@ -8,7 +8,7 @@ _Last updated: 2026-06-29_
 
 | # | Loop | Owner | Status | Notes |
 |---|------|-------|--------|-------|
-| 1 | **7510 Pear SF — Frank Barrett must confirm vendor, address, client access** | Frank Barrett / Alejandro | OPEN | Jul 1 job, no vendor assigned, no street address, zero confirmations. Draft Teams msg ready. |
+| 1 | **7510 Pear SF — Frank Barrett must confirm crew and building access** | Frank Barrett / Alejandro | OPEN — UPDATED | Location confirmed: 600 Townsend SF. Client (Mel Apostol) confirmed Jul 1 + 8 AM start in email. Jill Buchman is account mgr. COI sent. Quote under review. Remaining gap: crew not named, building access not confirmed. |
 | 2 | **7189 MMC Bermuda Hoboken — Jairo Escalante confirmation + MMC access** | Hunter Barbieri / Alejandro | OPEN | Jul 1 job, no client/access confirmation. Draft Teams msg ready. |
 
 ---
