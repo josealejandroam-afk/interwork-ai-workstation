@@ -1,6 +1,10 @@
 # Client Index
 _Last updated: 2026-06-30_
 
+> **Routing note:** Use this index only when the client is unclear from context.
+> For client-specific Claude Projects, go directly to `memory/clients/<client_slug>/`.
+> See `memory/company_knowledge/REPO_LOOKUP_RULES.md` for the full routing flow.
+
 ## Clients with Project Folders
 
 | Client | Folder | Active Projects | Notes |

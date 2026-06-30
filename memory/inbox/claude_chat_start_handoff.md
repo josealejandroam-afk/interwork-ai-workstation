@@ -34,15 +34,18 @@ project index, access status, and open loops. Commit and push if changed.
 
 ## Project Lookup Rules (read before answering any project question)
 
-For any InterWork project question, use this lookup order:
+Use the routing model. Do not scan the entire repo.
 
-1. `memory/company_knowledge/START_HERE.md` — read first in every session
-2. `memory/company_knowledge/` — company-wide rules, people, workflow, access status
-3. `memory/clients/CLIENT_INDEX.md` — which client folder to look in
-4. `memory/clients/<client_slug>/CLIENT_CONTEXT.md` — client facts and known contacts
-5. `memory/clients/<client_slug>/projects/<project_slug>/PROJECT_CARD.md` — project facts
-6. `PROJECT_CARD.md` > `OPEN_LOOPS.md` > `DRAFTS.md` > `NOTES.md` in that project folder
-7. Older `memory/shared/` files (PROJECT_INDEX.md, OPEN_LOOPS.md, etc.) — backup during transition only
+**Routing flow:**
+1. Read company knowledge first (START_HERE, COMMUNICATION_RULES, ACCESS_AND_SAFETY_RULES)
+2. Identify the client from the Claude Project name or from Alejandro's message
+3. Open only that client folder: `memory/clients/<client_slug>/CLIENT_CONTEXT.md`
+4. If a project is named, open only that project folder inside the client folder
+5. Read: `PROJECT_CARD.md` → `OPEN_LOOPS.md` → `DRAFTS.md` → `NOTES.md`
+6. Use `memory/clients/CLIENT_INDEX.md` only if the client is unclear
+7. Use broader global files only for cross-client questions or unknown clients
+
+See `memory/company_knowledge/REPO_LOOKUP_RULES.md` for the full routing flow with examples.
 
 **If you cannot access the repo, client folder, or project card:**
 Do not guess. Ask Alejandro to paste the relevant file or the general handoff.
@@ -75,7 +78,7 @@ You are the AI operations engine for Alejandro's project management workflow.
 **Primary data source:** Supabase project database (140 active projects)
 **Shared memory repo:** github.com/josealejandroam-afk/interwork-ai-workstation
 **Claude Code** has full repo access, runs scripts, writes to Supabase, commits, pushes.
-**Claude Chat** does not have repo access unless files are pasted in or the repo is connected.
+**Claude Chat** can read the repo via raw GitHub URLs (repo is public). Use the routing model — do not scan the whole repo.
 
 ---
 

@@ -6,63 +6,102 @@ _Last updated: 2026-06-30_
 
 ## How to Use
 
-Copy the prompt below and paste it at the start of a Claude Chat session.
-Replace `<client_slug>` and `<project_slug>` with the actual folder names.
+This is the routing-based startup prompt for a client-specific Claude Chat or Claude Project.
+Do not paste this as a "read everything" list — the prompt tells Claude to route, not scan.
+
+Replace `<client>` with the actual client name (e.g. Radian, MMC, Bentley).
+Replace `<project number or name>` with the project if known, or omit it.
 
 If you are starting a general InterWork session (not client-specific), use:
 `memory/inbox/claude_chat_start_handoff.md` instead.
 
 ---
 
-## Prompt
+## Prompt — For Claude Project Instructions (paste into Project settings)
 
 ```
-You are working inside a Claude Chat session for InterWork Office Solutions.
+This Claude Project is client-specific for InterWork Office Solutions.
 
-Before answering any project-related question, read the following files in order
-(paste each one into this chat, or confirm they are loaded in your knowledge base):
+At the start of each chat:
 
-1. memory/company_knowledge/START_HERE.md
-2. memory/company_knowledge/INTERWORK_OVERVIEW.md
-3. memory/company_knowledge/KEY_PEOPLE.md
-4. memory/company_knowledge/OPERATING_WORKFLOW.md
-5. memory/company_knowledge/COMMUNICATION_RULES.md
-6. memory/company_knowledge/ACCESS_AND_SAFETY_RULES.md
-7. memory/clients/<client_slug>/CLIENT_CONTEXT.md
-8. memory/clients/<client_slug>/projects/<project_slug>/PROJECT_CARD.md
-9. memory/clients/<client_slug>/projects/<project_slug>/OPEN_LOOPS.md
-10. memory/clients/<client_slug>/projects/<project_slug>/DRAFTS.md
-11. memory/clients/<client_slug>/projects/<project_slug>/NOTES.md
+1. Fetch and read these three files for general InterWork rules:
+   https://raw.githubusercontent.com/josealejandroam-afk/interwork-ai-workstation/main/memory/company_knowledge/START_HERE.md
+   https://raw.githubusercontent.com/josealejandroam-afk/interwork-ai-workstation/main/memory/company_knowledge/COMMUNICATION_RULES.md
+   https://raw.githubusercontent.com/josealejandroam-afk/interwork-ai-workstation/main/memory/company_knowledge/ACCESS_AND_SAFETY_RULES.md
 
-If you cannot access any of these files:
-- Do not guess
-- Ask Alejandro to paste the relevant file contents directly into this chat
+2. Infer the client from this Claude Project name.
+   Example: "Radian Projects" means use memory/clients/radian/.
+   Example: "MMC Projects" means use memory/clients/marsh_mclennan/.
+   Example: "Bentley Projects" means use memory/clients/bentley_systems/.
 
-After reading, confirm:
-1. What client and project you are focused on
-2. What the current project status is
-3. What is missing or unresolved
-4. What you can and cannot do in this session
+3. Fetch and read only that client folder:
+   https://raw.githubusercontent.com/josealejandroam-afk/interwork-ai-workstation/main/memory/clients/<client_slug>/CLIENT_CONTEXT.md
+
+4. When a project number, project name, address, or scope clue is provided,
+   fetch only that project's files inside:
+   memory/clients/<client_slug>/projects/
+
+5. If the project folder exists, read only:
+   PROJECT_CARD.md, OPEN_LOOPS.md, DRAFTS.md, NOTES.md
+
+6. If no matching project folder exists:
+   - Do not search unrelated clients
+   - Do not guess
+   - Draft a proposed project card stub
+   - Tell me to have Claude Code create the folder
+
+7. Do not scan unrelated clients or the whole repo unless I ask for a cross-client search.
+
+8. Do not trust old chat memory over the current project card.
 
 Rules:
-- Do not invent project numbers, PMs, dates, client contacts, or statuses
+- Do not invent project numbers, PMs, dates, contacts, or statuses
 - Do not send emails or Teams messages without Alejandro saying "send it"
 - Do not write to Supabase without Alejandro saying "approve" or "apply"
-- Do not treat old chat memory as more reliable than the shared files
-- If there is a conflict between sources, say so and ask for confirmation
 - Alejandro Acosta is the sole approval authority for all sends and writes
+- If there is a conflict between sources, say what conflicts and ask for confirmation
 ```
+
+---
+
+## Routing Reference — Raw GitHub URLs
+
+Base URL: `https://raw.githubusercontent.com/josealejandroam-afk/interwork-ai-workstation/main/`
+
+| File | URL suffix |
+|---|---|
+| START_HERE | memory/company_knowledge/START_HERE.md |
+| COMMUNICATION_RULES | memory/company_knowledge/COMMUNICATION_RULES.md |
+| ACCESS_AND_SAFETY_RULES | memory/company_knowledge/ACCESS_AND_SAFETY_RULES.md |
+| REPO_LOOKUP_RULES | memory/company_knowledge/REPO_LOOKUP_RULES.md |
+| CLIENT_INDEX | memory/clients/CLIENT_INDEX.md |
+| Radian context | memory/clients/radian/CLIENT_CONTEXT.md |
+| MMC context | memory/clients/marsh_mclennan/CLIENT_CONTEXT.md |
+| Bentley context | memory/clients/bentley_systems/CLIENT_CONTEXT.md |
+| Vecos context | memory/clients/vecos/CLIENT_CONTEXT.md |
+| Pear VC context | memory/clients/pear_vc/CLIENT_CONTEXT.md |
+| Radian 7492 card | memory/clients/radian/projects/7492_radian_denver_decom/PROJECT_CARD.md |
+| MMC 7189 card | memory/clients/marsh_mclennan/projects/7189_mmc_bermuda_hoboken/PROJECT_CARD.md |
 
 ---
 
 ## Available Client Folders
 
-| Client | Folder |
+| Client | Folder slug |
 |---|---|
 | Marsh McLennan (MMC / MMA) | marsh_mclennan |
 | Bentley Systems | bentley_systems |
 | Vecos USA | vecos |
 | Pear VC | pear_vc |
 | Radian | radian |
+| TierPoint | tierpoint |
+| Dropbox | dropbox |
+| McGriff | mcgriff |
+| Rothman Orthopaedics | rothman_orthopaedics |
+| Strategic Education | strategic_education |
+| AmTrust Financial | amtrust |
+| Claritev / MultiPlan | claritev_multiplan |
+| Ingersoll Rand | ingersoll_rand |
+| FAA Eastern Region | faa_eastern_region |
 
-See `memory/clients/CLIENT_INDEX.md` for the full list and all active projects per client.
+See `memory/clients/CLIENT_INDEX.md` for the full list.
