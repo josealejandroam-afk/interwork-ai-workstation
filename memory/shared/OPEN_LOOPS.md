@@ -40,12 +40,13 @@ _Last updated: 2026-06-29_
 
 | # | Project | Gap | Risk |
 |---|---------|-----|------|
-| 12 | 7304 Montebello West Berlin NJ (Jul 2) | No PM assigned, vendor required but not set | HIGH — 3 days out |
-| 13 | 7494 MMA Furniture Move SD to Walnut Creek (Jul 6) | No PM assigned, vendor required | HIGH — 7 days out |
-| 14 | 7546 MMA Conference Room Dallas (Jul 9) | No PM assigned, vendor required | MEDIUM — 10 days out |
-| 15 | 7060 MMC Dallas in_progress since Apr 3 | client_confirmed=false, fastfield_submitted=false | HIGH — 3 months overdue |
-| 16 | 7448 — check 7435 MMA Colleague Relocation | in_progress since Apr 23, fastfield_submitted=true but status stuck | MEDIUM — likely done |
-| 17 | 48 past-dated projects with status=scheduled | Status backfill needed | MEDIUM — creates noise in health view |
+| 12 | 7579 JPMC Miami / Vecos SMART Lockers | Pending scheduling -- no date, no technician, no building access. Vecos said "sometime next week." Memory card created 2026-06-30. NOT IN SUPABASE. | MEDIUM -- no date yet |
+| 13 | 7304 Montebello West Berlin NJ (Jul 2) | No PM assigned, vendor required but not set | HIGH — 3 days out |
+| 14 | 7494 MMA Furniture Move SD to Walnut Creek (Jul 6) | No PM assigned, vendor required | HIGH — 7 days out |
+| 15 | 7546 MMA Conference Room Dallas (Jul 9) | No PM assigned, vendor required | MEDIUM — 10 days out |
+| 16 | 7060 MMC Dallas in_progress since Apr 3 | client_confirmed=false, fastfield_submitted=false | HIGH — 3 months overdue |
+| 17 | 7448 — check 7435 MMA Colleague Relocation | in_progress since Apr 23, fastfield_submitted=true but status stuck | MEDIUM — likely done |
+| 18 | 48 past-dated projects with status=scheduled | Status backfill needed | MEDIUM — creates noise in health view |
 
 ---
 
@@ -53,7 +54,7 @@ _Last updated: 2026-06-29_
 
 | # | Loop | Status | Notes |
 |---|------|--------|-------|
-| 18 | v_project_health date calibration fix | Pending — SQL not yet drafted | False proximity alerts for past-dated projects |
-| 19 | RLS policies for Supabase | HELD — do not enable until policies written | Enabling without policies blocks all access |
-| 20 | C:\Users\Owner\.claude archive | HELD — do not delete | Keep until fully operational on D: |
-| 21 | communications table empty | Blocked on M365 OAuth | No email/Teams data syncing |
+| 19 | v_project_health date calibration fix | Pending — SQL not yet drafted | False proximity alerts for past-dated projects |
+| 20 | RLS policies for Supabase | HELD — do not enable until policies written | Enabling without policies blocks all access |
+| 21 | C:\Users\Owner\.claude archive | HELD — do not delete | Keep until fully operational on D: |
+| 22 | communications table empty | Blocked on M365 OAuth | No email/Teams data syncing |

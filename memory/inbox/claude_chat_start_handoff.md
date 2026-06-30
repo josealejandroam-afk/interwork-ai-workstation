@@ -151,6 +151,7 @@ If you have repo access or the files are pasted:
 | memory/projects/project-7350.md | Full 7350 Bentley Systems project card |
 | memory/projects/project-7510.md | Full 7510 Pear project card |
 | memory/projects/project-7189.md | Full 7189 MMC Bermuda project card |
+| memory/projects/project-7579.md | 7579 JPMC Miami / Vecos SMART Lockers -- pending scheduling |
 | docs/drafts/7350_july1_2_execution_package.md | 7350 drafts: FastField, Teams, client email |
 
 ---
