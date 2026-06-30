@@ -50,6 +50,27 @@
 | GitHub repo | Shared AI memory and project context | Claude Code reads/writes; other sessions read |
 | Vercel dashboard | Live project status view | Read-only |
 
+## Pre-Execution Site Confirmation Checklist
+
+Before field work begins, confirm the following where applicable:
+
+- [ ] Loading dock available at site?
+- [ ] Liftgate required (if no dock)?
+- [ ] Freight elevator available and reserved?
+- [ ] COI requirements confirmed and COI submitted before dispatch?
+- [ ] Union restrictions at this site?
+- [ ] Building hours and after-hours access restrictions?
+- [ ] On-site POC name and phone number confirmed?
+- [ ] Crew check-in location confirmed?
+- [ ] Parking or loading zone instructions provided?
+- [ ] Floor protection required?
+- [ ] Broom-clean or clean-condition required on departure?
+- [ ] For decommissions: Jade notified for sustainability/donation coordination?
+- [ ] E-waste disposal responsibility confirmed (COD or InterWork)?
+- [ ] Cabling scope defined (IDF/MDF only; risers excluded unless explicitly included)?
+
+Not all items apply to every project. Use as a reference for pre-execution review.
+
 ## Drafting vs. Sending
 
 Claude can draft any document freely without approval.

@@ -2,8 +2,18 @@
 
 | # | Item | Status |
 |---|---|---|
-| 1 | Reply to John Smith via Teams — confirm project status and scope | Open — teams-20260701-001 |
-| 2 | Verify whether June 4 job executed (past scheduled date) | Open |
-| 3 | If executed: get FastField submission from Pedro Martinez | Open |
-| 4 | If executed: update Supabase status to completed | Held — requires Alejandro approval |
-| 5 | If not executed: confirm new date and reschedule | Open |
+| 1 | Identify items inadvertently removed — what exactly was taken | Needs confirmation |
+| 2 | Confirm if inadvertently removed items were added to return shipment | Needs confirmation |
+| 3 | Confirm when inadvertently removed items can be returned | Needs confirmation |
+| 4 | Confirm final Wayne, PA receiving address | Needs confirmation |
+| 5 | Confirm Mike Barraza phone number from safe internal source | Needs confirmation |
+| 6 | Confirm final WC report status | Needs confirmation |
+| 7 | Confirm final invoice status | Needs confirmation |
+| 8 | Confirm June 22 return visit completed (security/IDF items, blank plates) | Needs confirmation |
+| 9 | Confirm Cherry Hill delivery completed (111 Woodcrest Rd, 2nd floor) | Needs confirmation |
+| 10 | Confirm Wayne, PA delivery (address TBD) | Blocked — address needed |
+| 11 | Confirm Sunset pickup status — separate from inadvertent removal | Needs confirmation |
+
+## NOTE: Two Separate Logistics Issues
+
+Items inadvertently removed and the Sunset pickup are UNRELATED. Track and communicate them separately.

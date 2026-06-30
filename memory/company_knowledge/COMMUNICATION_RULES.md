@@ -12,13 +12,29 @@
 | Rule | Detail |
 |---|---|
 | Do not use "lock in" | Avoid this phrase in all drafts |
-| Use "our team" or "InterWork" | Not "my guys", "the crew", "the movers" |
+| Do not use em dashes | Use a plain dash (-) or rewrite the sentence |
+| Use "our team" or "InterWork" | Not "my guys", "the crew", "the movers", "our local vendor" |
 | Do not name vendors | Never include vendor company name or warehouse address in client-facing communications |
 | Do not reference internal pricing | Never share margins, vendor rates, or cost breakdowns with clients |
 | Include PM full name and phone in client notices | When dispatching or confirming to a client, include the assigned field PM's name and number |
 | Do not invent project numbers | Only use project numbers that exist in Supabase or the project index |
 | Do not invent contacts | Only use names and phone numbers already confirmed in the project card |
 | Ask when unclear | If a key detail is missing (who to address, which phone, which date), ask Alejandro rather than guessing |
+| Self-audit dates | Be careful with "today," "tomorrow," and dates pulled from old email threads — verify against current context |
+| Preserve uncertainty | Mark unclear fields as "Needs confirmation" rather than guessing or leaving blank |
+
+## Message Type Guide
+
+| Message type | What to include |
+|---|---|
+| Client email | Dates, location, PM name and phone, any specific asks or open items. Keep short. Do not overexplain internal coordination. |
+| Client continuation email | Avoid repeating context the thread already contains. Acknowledge, then advance. |
+| Internal PM message (Teams/FF) | Full address, POC name and phone, scope bullet list, schedule, any key reminders or restrictions |
+| Vendor email | Truck size, pickup/delivery address, access details, confirmation questions. Approach naturally if vendor may not know the project. |
+| Vendor availability request | Do not assume the vendor knows the project. Ask naturally without signaling pressure. |
+| Client completion acknowledgment | Acknowledge work is done, attach WC report if available, note invoice will follow if applicable |
+
+Keep vendor substitutions and vendor problems out of client-facing messages unless specifically needed.
 
 ## Client Email Format
 

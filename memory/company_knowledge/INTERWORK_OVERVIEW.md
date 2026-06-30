@@ -13,6 +13,11 @@ Services include:
 - Storage and asset management
 - Work completion reporting
 - Vendor and crew coordination
+- Disposal, recycling, and sustainability coordination (notify Jade early for decom scopes)
+- Client-facing scheduling and status updates
+
+**InterWork Warehouse:** 439 Commerce Lane, West Berlin, NJ 08091
+Used for storage, staging, asset holding, and pickup/delivery coordination. Full address used in field notices. Not disclosed to clients unless explicitly appropriate.
 
 ## Alejandro's Role
 

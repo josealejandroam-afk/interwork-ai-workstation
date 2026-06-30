@@ -4,34 +4,53 @@
 
 | Name | Role | Email | Phone | Notes |
 |---|---|---|---|---|
-| Alejandro Acosta | Operations Coordinator — sole approval authority | alejandroa@interworkoffice.com | — | Approves all sends, Supabase writes, production actions |
-| Francisco Vinueza | Office PM | franciscov@interworkoffice.com | 609-744-1467 | Frequently assigned as office-side PM on scheduled projects |
-| Hunter Barbieri | PM / Office Assignee | hunterb@interworkoffice.com | — | Often listed as internal office assignee in Supabase |
-| Jairo Escalante | Field PM | jairoe@interworkoffice.com | unknown | Field execution lead — confirm phone before dispatching |
-| Juan Martinez | PM | — | — | Listed on several projects in Supabase |
-| Pedro Martinez | Field PM | — | 732-421-1470 | Active field execution PM; no email on file |
-| Manny Gonzalez | PM | — | — | Listed on several projects in Supabase |
-| Melvin Hernandez | PM | — | — | Listed on several projects in Supabase |
+| Alejandro Acosta | Operations Coordinator — sole approval authority | alejandroa@interworkoffice.com | 609-922-7009 | Approves all sends, Supabase writes, production actions |
+| Francisco Vinueza | Operations Manager / internal coordination | franciscov@interworkoffice.com | 609-744-1467 | Frequently assigned as office-side PM on scheduled projects |
+| Stephanie Sprinkel | InterWork POC | — | 443-600-1110 | Role: confirm before use |
+| Hunter Barbieri | PM / Office Assignee | hunterb@interworkoffice.com | Needs confirmation | Often listed as internal office assignee in Supabase |
 | Jill Buchman | Account Manager | jillb@interworkoffice.com | 609-744-8911 | Client-facing account manager; quotes and client comms |
-| Frank Barrett | External PM / Vendor Lead | frankb@interworkoffice.com | 718-775-6242 | Used on complex or vendor-dependent jobs |
-| Jade | Sustainability Lead | — | — | Role: furniture sustainability / donation coordination |
-| Stephanie Sprinkel | InterWork staff | — | — | Contact and role not yet on file — confirm before use |
+| David Steinbrecher | InterWork contact | — | Needs confirmation | Appears in client and vendor coordination threads |
+| Jade | Sustainability Lead | — | Needs confirmation | Coordinate early for donation, recycling, or sustainability scope |
+
+## Field PMs
+
+| Name | Phone | Notes |
+|---|---|---|
+| Jairo Escalante | 917-660-5104 | Field PM; confirm email before sending (jairoe@interworkoffice.com on file, verify) |
+| Pedro Martinez | 732-421-1470 | Active field execution PM; no email on file |
+| Frank Barrett | 718-775-6242 | Senior field PM / vendor lead; frankb@interworkoffice.com |
+| Manny Gonzalez | 732-979-6894 | Field PM |
+| Juan Martinez | 732-979-7163 | Field PM / warehouse or field support |
+| Melvin Hernandez | 346-775-3277 | Field PM |
 
 ## Notes on PM Assignments
 
 - **Office PM** = manages project administratively from the office (scheduling, client comms, Supabase)
 - **Field PM** = on-site execution lead who submits the FastField and runs the crew
-- A project may have both — check the project card to see which PM is which
+- A project may have both — check the project card to see which role each PM holds
 
-## IT / System Contacts (for integration approvals)
+## IT / System Contacts
 
 | Name | Role | Notes |
 |---|---|---|
 | Christian (VMX/IT) | IT Administrator | Contact for M365 / Microsoft Graph approval |
 | Gal | Company Leadership | Can approve integrations — do not pressure; wait for their initiative |
 
+## InterWork Warehouse
+
+**439 Commerce Lane, West Berlin, NJ 08091**
+
+Used for: storage, staging, asset holding, pickup/delivery coordination.
+When referencing in field or client notes, use full address.
+Do not expose the warehouse address in client-facing communications unless explicitly appropriate.
+
 ## Common Client Contacts
 
 Client contacts are stored in the relevant client and project folders.
 See `memory/clients/<client_slug>/CLIENT_CONTEXT.md` for client-level contacts,
 and `memory/clients/<client_slug>/projects/<project_slug>/PROJECT_CARD.md` for project-level POCs.
+
+## Sustainability Coordination
+
+For decommissions, notify Jade early so donation, recycling, or sustainability coordination can be arranged.
+Unless the client states otherwise, inventoried items in decommission scopes are treated as decommissioned.

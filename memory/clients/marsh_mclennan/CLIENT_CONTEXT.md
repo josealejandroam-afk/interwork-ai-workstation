@@ -15,11 +15,15 @@ Both are filed under this folder. The project name in Supabase will indicate whi
 
 | # | Name | Location | Status | Notes |
 |---|---|---|---|---|
-| 7189 | MMC Bermuda Inventory Hoboken NJ | 121 River St, Hoboken NJ | Scheduled Jul 1 | Field PM: Jairo Escalante. Multi-phase since Oct 2025. |
+| 7189 | MMC Bermuda Inventory Hoboken NJ | 121 River St, Hoboken NJ | Scheduled Jul 1 | Field PM: Jairo Escalante. Multi-phase since Oct 2025. See project folder. |
 | 7060 | MMC Dallas Walnut Hill to Galleria | Dallas TX | In-progress (overdue) | Client unconfirmed; draft ready; 3 months overdue |
-| 7378 | MMA Phase 2 Decom | Van Nuys CA | Scheduled (past-dated) | External PM; no FastField |
+| 7378 | MMA Sepulveda 5th Floor (Phase 2 Decom) | Sepulveda Blvd, Van Nuys CA | Planning | Phase 1 complete; decom incoming. Evette Acosta. See project folder. |
 | 7364 | MMC Allentown Move | Allentown PA | Scheduled (past-dated) | FastField submitted; likely done |
 | 7431 | MMC Walkthrough Austin TX | Austin TX | Scheduled (past-dated) | Vendor confirmed; no FastField |
+| 7521 | MMC Austin Restack | Austin TX | Planning | 105 desks, 154 monitors, crate work. Vendor transition to Monica. See project folder. |
+| 7576 | Marsh Broomfield Motor Swap | Broomfield CO | Pending | Single service call — Mt. Wilson desk motor swap. Vendor: Mike (TBC). See project folder. |
+| 7299 | MMC Alpharetta Monitor Arms | Alpharetta GA | Needs confirmation | Monitor arm install; details sparse. See project folder. |
+| 7241 | MMC Allentown Move | Allentown PA | Needs confirmation | Relocation scope; details sparse. See project folder. |
 | 7407 | MMC Install Service Call Phoenix | Phoenix AZ | Scheduled (past-dated) | External PM; vendor confirmed |
 | 7437 | CRC Decom Internal Move | Virginia Beach VA | Scheduled (past-dated) | No signals — check if related to MMC |
 | 7486 | MMA Austin TX | Austin TX | Scheduled (past-dated) | No signals |
