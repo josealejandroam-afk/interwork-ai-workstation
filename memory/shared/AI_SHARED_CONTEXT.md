@@ -1,30 +1,62 @@
 # AI Shared Context — InterWork Office
-_Last updated: 2026-06-29_
+_Last updated: 2026-06-30_
 
 ---
 
 ## What This Is
 
-This is the shared source of truth for ChatGPT and Claude in the InterWork Office AI operations system.
+This is the shared source of truth for all AI sessions in the InterWork Office AI operations system.
 
-Claude Code and ChatGPT do not automatically share memory. This GitHub repo is the bridge — both AIs read from and write to the same markdown files here.
+No AI session automatically shares context with another. This GitHub repo is the single source of truth. All sessions read from it. Only Claude Code writes to it.
 
 ---
 
-## How the System Works
+## Confirmed AI Architecture (2026-06-30)
 
 ```
-Claude Code  ──reads/writes──►  GitHub repo (this repo)  ◄──reads──  ChatGPT
-                                        │
-                              structured docs, project cards,
-                              daily handoffs, decisions, loops
-                                        │
-                              Supabase  ──► canonical project DB (writes require Alejandro approval)
-                              Smartsheet ──► schedule source (read-only forever)
-                              Outlook/M365 ──► work email signals (alejandroa@interworkoffice.com)
-                              FastField ──► completion form signals (no API yet)
-                              Teams ──► real-time project mentions
-                              Read AI ──► meeting summaries
+Claude Code        = Operator. Repo access, scripts, Supabase writes, commits, pushes.
+Claude Chat        = Conversation assistant. No repo access. Fed context via handoff paste.
+Claude Cowork      = Knowledge-base workspace. Repo docs loaded as knowledge base.
+GitHub repo        = Shared memory / source of truth. All sessions read from here.
+ChatGPT            = Advisor / drafting / second-opinion layer. No write access.
+```
+
+```
+Claude Code  ──reads/writes──►  GitHub repo  ◄──reads──  ChatGPT
+                                     │         ◄──reads──  Claude Chat (via paste)
+                                     │         ◄──reads──  Claude Cowork (via KB)
+                              Supabase (writes require Alejandro approval)
+                              Smartsheet (read-only, forever)
+                              Outlook/M365 (BLOCKED -- tenant admin required)
+                              FastField (manual only, no API)
+```
+
+---
+
+## To Start a Claude Chat Session
+
+Paste the full contents of `memory/inbox/claude_chat_start_handoff.md` with this prefix:
+
+```
+Read the following handoff as your current source of truth for the InterWork AI workstation.
+Follow the operating rules, blocked-access notes, and current work queue exactly.
+
+[paste file contents here]
+
+After reading, summarize:
+1. What is active
+2. What is blocked
+3. What I should not ask you to do
+4. What you can help with right now
+```
+
+## To Keep Claude Chat Current
+
+At the end of any major Claude Code session, say:
+
+```
+Regenerate memory/inbox/claude_chat_start_handoff.md from the latest shared memory,
+project index, access status, and open loops. Commit and push if changed.
 ```
 
 ---
@@ -33,10 +65,12 @@ Claude Code  ──reads/writes──►  GitHub repo (this repo)  ◄──read
 
 | Actor | Role |
 |-------|------|
-| Alejandro Acosta | Final approval authority. Operations Project Manager. |
-| Claude Code | Reads all sources. Drafts. Proposes. Commits to repo. Never sends or writes to Supabase without Alejandro approval. |
-| ChatGPT | Reads this repo. Reviews Claude's proposals. Advises strategy. Cannot approve production changes. |
-| Supabase | Canonical project database — 140 projects (confirmed 2026-06-29). Writes require explicit approval. |
+| Alejandro Acosta | Final approval authority. Operations Project Manager. Only person who approves sends, writes, and production changes. |
+| Claude Code | Operator. Reads all sources. Drafts. Proposes. Commits to repo. Writes to Supabase with approval only. |
+| Claude Chat | Conversation assistant. No repo access by default. Use handoff paste to bring up to speed. |
+| Claude Cowork | Knowledge-base workspace. Load repo docs as KB for persistent context. |
+| ChatGPT | Advisor. Reviews Claude proposals. Drafts. Second opinions. Cannot approve production changes. |
+| Supabase | Canonical project database -- 140 projects (confirmed 2026-06-29). Writes require explicit approval. |
 | Smartsheet | Schedule source only. Never write. |
 
 ---
