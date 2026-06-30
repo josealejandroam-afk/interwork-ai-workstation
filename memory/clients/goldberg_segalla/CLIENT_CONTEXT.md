@@ -7,7 +7,10 @@ Named in the ChatGPT knowledge export as an InterWork client. No project details
 
 ## Known Projects
 
-None on file.
+| # | Name | Location | Status | Notes |
+|---|---|---|---|---|
+| 7352 | Phase 1 Decom | White Plains, NY | Past-dated 2026-05-04 | PM Alejandro Acosta; FastField submitted; likely done |
+| 7322 | May 5 | St. Louis, MO | Past-dated 2026-05-05 | PM Juan Martinez; vendor confirmed; no FastField |
 
 ## Known Contacts
 

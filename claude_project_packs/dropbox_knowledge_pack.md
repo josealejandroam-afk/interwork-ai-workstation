@@ -13,7 +13,7 @@ Start every session by telling Claude: "You have the Dropbox knowledge pack load
 
 ## Client Overview
 
-Dropbox is a cloud storage and collaboration company. InterWork has multiple projects for Dropbox, including work related to their San Francisco offices.
+Dropbox is a cloud storage and collaboration company. InterWork has multiple projects for Dropbox, including work related to their San Francisco offices and a Seattle studio move.
 
 **Address overlap note:** Dropbox's former HQ was at 1800 Owens St, San Francisco — the same building listed as the origin address in Pear VC project 7510. The move from 1800 Owens to 600 Townsend may overlap with or be adjacent to the Pear VC relocation. These are tracked as separate projects. Confirm with Alejandro if scope or crew overlaps.
 
@@ -21,19 +21,20 @@ Dropbox is a cloud storage and collaboration company. InterWork has multiple pro
 
 ## Known Projects
 
-| # | Name | Location | Status | Notes |
-|---|---|---|---|---|
-| 7399 | Dropbox Project | Possibly San Francisco, CA | Needs confirmation | Very sparse — project number only |
-| 7460 | Dropbox Project | Needs confirmation | Needs confirmation | Very sparse — project number only |
-| 7552 | Dropbox Project | Needs confirmation | Needs confirmation | Very sparse — project number only |
+| # | Name | Location | PM | Date | FastField | Status |
+|---|---|---|---|---|---|---|
+| 7399 | Dropbox Project | Possibly SF, CA | TBD | TBD | Unknown | Needs confirmation |
+| 7460 | Dropbox Project | Needs confirmation | TBD | TBD | Unknown | Needs confirmation |
+| 7467 | Seattle Studio Move | Seattle, WA | Francisco Vinueza | 2026-04-27 | false | Past-dated — no signals |
+| 7552 | Dropbox Project | Needs confirmation | TBD | TBD | Unknown | Needs confirmation |
 
 ---
 
 ## Data Quality Notes
 
-- All three project cards (7399, 7460, 7552) were created from the ChatGPT knowledge export on 2026-06-30 with very low confidence — project numbers only, no scope, dates, PM, or status confirmed.
-- Do not guess details for any of these projects. Ask Alejandro to paste the Supabase or Smartsheet record before providing project-specific answers.
-- 7399 is possibly SF-area based on Dropbox's known office locations; do not state this as confirmed.
+- Projects 7399, 7460, 7552 have sparse records — project numbers only, no scope, dates, or PM confirmed.
+- Project 7467 Seattle Studio Move is confirmed in PROJECT_INDEX with PM and date; full address not confirmed.
+- Do not guess details for any project. Ask Alejandro to paste the Supabase or Smartsheet record before providing project-specific answers.
 
 ---
 
@@ -45,7 +46,7 @@ No contacts on file. Ask Alejandro before drafting any client communication.
 
 ## Operating Rules for This Client
 
-1. **All three projects are sparse** — do not assume scope, status, or completion for any of them.
+1. **All four projects are sparse or past-dated** — do not assume scope, status, or completion.
 2. **Do not conflate Dropbox and Pear VC projects** even though both reference the 1800 Owens St address.
 3. **Do not send communication** — draft only, Alejandro reviews and sends.
 4. **Do not write to Supabase** — propose changes, wait for approval.

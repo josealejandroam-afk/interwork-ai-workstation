@@ -13,6 +13,7 @@ Note: Dropbox's former headquarters was at 1800 Owens St, San Francisco — the 
 |---|---|---|---|
 | 7399 | Dropbox Project | Needs confirmation | Needs confirmation |
 | 7460 | Dropbox Project | Needs confirmation | Needs confirmation |
+| 7467 | Seattle Studio Move | Seattle, WA | Past-dated 2026-04-27 — no signals |
 | 7552 | Dropbox Project | Needs confirmation | Needs confirmation |
 
 ## Known Contacts

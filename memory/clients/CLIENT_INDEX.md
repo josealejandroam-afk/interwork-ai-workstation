@@ -18,14 +18,14 @@ _Last updated: 2026-06-30 (sync handoff)_
 | Claritev / MultiPlan | claritev_multiplan/ | 7420, 6836, 6837, Chattanooga TBD | 7420 = Laguna Hills CA decom (folder name says Parsippany — that was a ChatGPT error; confirmed Laguna Hills). |
 | Rothman Orthopaedics | rothman_orthopaedics/ | 7440, 7572, 7583 | Wayne PA (7440); 7583 = Philadelphia service call 7/8. |
 | Strategic Education | strategic_education/ | 7053, 7337, Guardian Lower Bucks TBD | SEI and possibly Guardian as subsidiary. |
-| AmTrust Financial | amtrust/ | 7348 (pending), 7536 | Cleveland OH (7348 pending Teams send); NYC or Melville (7536). |
-| Dropbox | dropbox/ | 7399, 7460, 7552 | SF-area offices. Possibly overlaps with Pear VC origin building. |
+| AmTrust Financial | amtrust/ | 7348 (pending), 7502, 7513, 7515, 7536, 7568 | 7348 = Cleveland/Princeton (location mismatch — confirm); 7502 = Garden Grove CA; 7513 = Southington CT; 7515 = New York NY; 7536 = NYC or Melville; 7568 = Irvine CA. **7572 CONFLICT — see rothman_orthopaedics.** |
+| Dropbox | dropbox/ | 7399, 7460, 7467, 7552 | SF-area + 7467 = Seattle Studio Move 2026-04-27. Possibly overlaps with Pear VC origin building at 1800 Owens St. |
 | Ingersoll Rand | ingersoll_rand/ | 7374 | FastField submitted; pending "approve batch complete 6" to close in Supabase. |
 | Monster Energy | monster_energy/ | 7529 | Location Needs confirmation. |
 | FAA Eastern Region | faa_eastern_region/ | 7559, EJM FAA (TBD) | Federal client. EJM FAA may be same or separate. |
-| UiPath | uipath/ | Unknown | Project number not in export; check Supabase. |
+| UiPath | uipath/ | 7516 | 7516 = Dallas TX service call 2026-05-15. External PM. |
 | McGriff | mcgriff/ | 7553 | Dallas, TX decom. **Ambiguous client entity** — handoff says "MMC" (Michael Durkin, Marsh/CBRE), but filed here from original export. Confirm with Alejandro whether this belongs in marsh_mclennan/. |
-| Goldberg Segalla | goldberg_segalla/ | None on file | Law firm. No project details. |
+| Goldberg Segalla | goldberg_segalla/ | 7352, 7322 | Law firm. 7352 = White Plains NY Phase 1 Decom. 7322 = St. Louis MO May 5. |
 | SS&C Technologies | ss_c_technologies/ | 7580 | 7580 = site walk 600 Townsend SF 6/29. New client in Supabase. |
 | Percheron Capital | percheron_capital/ | 7581 | 7581 = site walk One Letterman Dr, SF 6/30. Future move TBD ~8/24. |
 | Aerosphere | aerosphere/ | 7582 | No detail available. |

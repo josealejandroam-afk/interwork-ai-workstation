@@ -7,9 +7,9 @@ Named in the ChatGPT knowledge export as an InterWork client. No project number 
 
 ## Known Projects
 
-| # | Name | Location | Status |
-|---|---|---|---|
-| TBD | UiPath Project | Needs confirmation | Needs confirmation |
+| # | Name | Location | Status | Notes |
+|---|---|---|---|---|
+| 7516 | Service Call | Dallas, TX | Past-dated 2026-05-15 | External PM; vendor confirmed; access confirmed; no FastField |
 
 ## Known Contacts
 
