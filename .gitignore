@@ -1,13 +1,39 @@
+# Secrets and env
 .env
 *.env
+.env.*
 secrets/
 tokens/
 *.key
 *.pem
+*.p12
+*.pfx
+local_settings*
+webhook*
+
+# Databases and stores
 *.sqlite
 *.db
 chroma/
 rag/stores/
+
+# Python
 __pycache__/
 .venv/
+venv/
+
+# Node
+node_modules/
+
+# Archives and imports
+*.zip
+ai-workstation_imports/
+backups/
+
+# Cache and local data
+cache/
+.local/
+credentials/
+
+# Logs
 logs/*.log
