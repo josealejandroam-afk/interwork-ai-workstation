@@ -1,6 +1,6 @@
 # UiPath — Claude Chat Knowledge Pack
 
-_Generated: 2026-06-30 (dashboard snapshot update) | Source: memory/clients/uipath/_
+_Generated: 2026-06-30 (dashboard status note update) | Source: memory/clients/uipath/_
 
 ---
 
@@ -27,13 +27,17 @@ Start every session by telling Claude: "You have the UiPath knowledge pack loade
 | Tomorrow | 3 |
 | This Week | 9 |
 
-### UiPath Projects in Today's Dashboard
+### UiPath Projects in Dashboard (Live Read — 2026-06-30)
 
-_No UiPath projects appeared in today's dashboard rows (2026-06-30)._
-_Project 7516 is past-dated (2026-05-15). The 1450 Broadway project is Postponed with no confirmed execution date._
+**1450 Broadway Move Out — NOT in Supabase/dashboard.**
+Live read confirmed: this project has no Supabase record yet. The repo project card is the authoritative source.
+Known UiPath rows in dashboard: 7516, 7479, 7403, 7489, 7227, 7317, 6787.
+A new Supabase record will be needed once a project number is assigned or Alejandro approves.
+
+_No UiPath rows appeared in today's scheduled/active dashboard view for 2026-06-30._
 
 > **For dashboard/status questions:** use the global counts above for overall operational context.
-> UiPath-specific operational status must come from the project cards below — no live dashboard rows captured.
+> **For 1450 Broadway specifically:** use the project card in this pack — it is not in Supabase yet.
 > If a future snapshot shows a UiPath row, it will appear here after the next pack regeneration.
 >
 > Full snapshot: `memory/dashboard/CURRENT_DASHBOARD_STATUS.md`

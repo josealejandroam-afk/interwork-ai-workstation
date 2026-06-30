@@ -9,6 +9,7 @@
 | 5 | Project number assignment | InterWork internal | **Still open** — not assigned; do not invent |
 | 6 | Exact item inventory / floor plan | TBD | **Still open** — box count and donation breakdown provided, but no item-level inventory or floor plan yet |
 | 7 | InterWork team freight/access logistics | David Steinbrecher / InterWork Ops | **Still open** — confirm who from InterWork team needs freight elevator access finalized with building |
+| 8 | Supabase record creation | Alejandro / InterWork internal | **Still open** — project not currently in dashboard; needs new record once project number assigned or Alejandro approves addition |
 
 ## Drafts Pending
 

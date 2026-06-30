@@ -1,5 +1,15 @@
 # Notes — UiPath 1450 Broadway Move Out
 
+## 2026-06-30 — Live Dashboard Check
+
+- Live Supabase/dashboard read confirmed: 1450 Broadway move-out is **not present** in the dashboard project list.
+- Existing UiPath rows in dashboard: 7516, 7479, 7403, 7489, 7227, 7317, 6787.
+- Repo project card is the authoritative source for this project until a Supabase record is created.
+- New Supabase record needed once project number is assigned or Alejandro approves.
+- Open loop #8 added: Supabase record creation.
+
+---
+
 ## 2026-06-30 — Morgan's Reschedule Email (2:01 PM)
 
 Source: Morgan Alvarado email, Tue 2026-06-30 2:01 PM

@@ -45,10 +45,18 @@
 
 - **Additional items:** dispose of (beyond the ~55 boxes)
 
+## Dashboard / Supabase Status
+
+- **Not present in Supabase/dashboard** as of 2026-06-30 live read.
+- Existing UiPath dashboard rows confirmed: 7516, 7479, 7403, 7489, 7227, 7317, 6787 — 1450 Broadway is not among them.
+- This project card is the authoritative source for all 1450 Broadway context until a Supabase record is created.
+- A new Supabase record will be needed once a project number is assigned or Alejandro decides to add it.
+
 ## Source Notes
 
 - Execution date, address, floor, scope, freight access, and donation locations confirmed via Morgan Alvarado email 2026-06-30 2:01 PM.
+- Dashboard/Supabase absence confirmed via live read 2026-06-30.
 - Project number still unassigned — do not invent one; folder slug remains `unknown_1450_broadway_move_out`.
-- Alejandro's prior email to Michele (sent 2026-06-30 12:51 PM) referenced the now-superseded July 1 date — it is superseded by Morgan's reschedule email.
+- Alejandro's prior email to Michele (sent 2026-06-30 12:51 PM) referenced the now-superseded July 1 date — superseded by Morgan's reschedule email.
 - Confidence: High for confirmed facts above; Medium for anything not listed here.
 - Created: 2026-06-30 | Last updated: 2026-06-30
