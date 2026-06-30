@@ -13,7 +13,7 @@
     Max emails to export per run (default: 50)
 
 .PARAMETER DryRun
-    Preview only — lists what would be exported, writes nothing
+    Preview only - lists what would be exported, writes nothing
 
 .EXAMPLE
     # Dry-run
@@ -104,8 +104,8 @@ $Items = $TargetFolder.Items
 $Count = [Math]::Min($Items.Count, $MaxMessages)
 
 Write-Host ""
-Write-Host "Found '$FolderName' folder — $($Items.Count) message(s). Exporting up to $MaxMessages."
-if ($DryRun) { Write-Host "[DRY RUN — no files will be written]" }
+Write-Host "Found '$FolderName' folder - $($Items.Count) message(s). Exporting up to $MaxMessages."
+if ($DryRun) { Write-Host "[DRY RUN - no files will be written]" }
 Write-Host ""
 
 # --- Sanitize body text: strip URLs, email addresses, long number strings ---
@@ -140,7 +140,7 @@ for ($i = 1; $i -le $Count; $i++) {
     $Received   = if ($Item.ReceivedTime)      { $Item.ReceivedTime.ToString("yyyy-MM-dd HH:mm") } else { "unknown" }
     $BodyPreview = Sanitize-Body -text $Item.Body
 
-    # Attachments — names only, no content
+    # Attachments - names only, no content
     $AttachmentNames = @()
     foreach ($Att in $Item.Attachments) {
         $AttachmentNames += $Att.FileName

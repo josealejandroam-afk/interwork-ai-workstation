@@ -48,3 +48,10 @@ outlook_summaries/
 *.pst
 *.ost
 *.mbox
+
+# Microsoft Graph auth tokens — never commit
+*.token.json
+msal_cache*
+graph_auth_cache*
+graph_mail_raw*
+graph_calendar_raw*
