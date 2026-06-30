@@ -4,12 +4,23 @@ _Last updated: 2026-06-30_
 
 ---
 
+## Live API Endpoint
+
+```
+GET https://interwork-command-center.vercel.app/api/ai/dashboard-summary
+```
+
+Live Supabase read. No auth required. Returns counts + today/tomorrow/at-risk rows.
+Confirmed live: 2026-06-30.
+
+---
+
 ## Source Priority
 
 | Priority | Source | Use for |
 |---|---|---|
-| 1 (highest) | Supabase / live dashboard | Current operational counts, status, dates |
-| 2 | `memory/dashboard/CURRENT_DASHBOARD_STATUS.md` | AI-readable snapshot when live access unavailable |
+| 1 (highest) | **Live AI API** (`/api/ai/dashboard-summary`) | Current operational counts, status, dates — available to any AI |
+| 2 | `memory/dashboard/CURRENT_DASHBOARD_STATUS.md` | AI-readable snapshot — fallback only when API unavailable |
 | 3 | Client knowledge pack | Client-specific project context, contacts, scope |
 | 4 | Project card (`PROJECT_CARD.md`) | Richer context, manually confirmed details, open loops |
 
@@ -17,18 +28,19 @@ _Last updated: 2026-06-30_
 
 ## Rules
 
-### 1. Dashboard is the live operational source
-The Vercel dashboard draws from Supabase in real time.
-It is the authoritative source for project status, dates, readiness, PMs, and alert counts.
-Repo memory does not replace it — it supplements it.
-
-### 2. Use the dashboard snapshot for operational counts
-When Claude Chat cannot directly access Supabase or the dashboard URL,
-use `memory/dashboard/CURRENT_DASHBOARD_STATUS.md` for:
+### 1. Use the live AI API for operational status
+Call `GET https://interwork-command-center.vercel.app/api/ai/dashboard-summary` for:
 - Total project count
 - Today / Tomorrow / This Week counts
 - At-risk and alert counts
-- Flagged row details (at-risk, missing PM, stale scheduled)
+- Today's rows, tomorrow's rows, at-risk rows with readiness labels
+
+This endpoint reads Supabase live. No auth required. Available to any AI that can make HTTP requests.
+Confirmed live: 2026-06-30.
+
+### 2. Use the dashboard snapshot only as fallback
+Use `memory/dashboard/CURRENT_DASHBOARD_STATUS.md` only when the API above is unavailable.
+It is a manual snapshot and may be stale. Always note its `Last Updated` timestamp.
 
 ### 3. Use client/project cards for project context
 Client knowledge packs and project cards contain:
@@ -57,10 +69,11 @@ Do not invent or assume:
 
 If a field is missing, say it is missing and flag it as an open loop.
 
-### 6. Check snapshot freshness
+### 6. Check snapshot freshness (fallback only)
 The dashboard snapshot has a `Last Updated` timestamp.
 If the snapshot is more than 24 hours old, warn that it may be stale.
-Advise running `scripts/update_dashboard_snapshot.ps1` to refresh it.
+Prefer the live API (`/api/ai/dashboard-summary`) over the snapshot whenever possible.
+If the API is unavailable and the snapshot is stale, advise running `scripts/update_dashboard_snapshot.ps1`.
 
 ### 7. Snapshot vs. repo memory divergence
 If a project card was updated after the snapshot timestamp,
@@ -82,11 +95,17 @@ but use the snapshot for global counts (today/tomorrow/alerts).
 
 ---
 
+## What Claude Chat Can Do (as of 2026-06-30)
+
+- Call `GET https://interwork-command-center.vercel.app/api/ai/dashboard-summary` for live operational counts and rows
+- Fetch project cards, open loops, and client context via raw GitHub URLs
+- Draft emails and Teams messages (Alejandro approves all sends)
+
 ## What Claude Chat Cannot Do
 
-- Access the Vercel dashboard URL directly (unreliable without browser control)
+- Access the Vercel dashboard UI directly (browser-based, not AI-accessible)
 - Query Supabase directly (no live credentials in chat session)
-- Know about changes made after the last snapshot timestamp
+- Know about changes made to Supabase after the API response was received (point-in-time)
+- Push changes to the repo (Claude Code only)
 
-These limitations are why the AI-readable snapshot exists.
-See `docs/DASHBOARD_AI_ACCESS_MODEL.md` for architecture details.
+See `docs/HANDS_EYES_EARS_MODEL.md` for the full capability model.

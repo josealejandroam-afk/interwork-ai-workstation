@@ -64,17 +64,30 @@ https://raw.githubusercontent.com/josealejandroam-afk/interwork-ai-workstation/m
 
 ---
 
+## Live AI API Endpoint
+
+**For current operational status, call this first — no auth required:**
+
+```
+GET https://interwork-command-center.vercel.app/api/ai/dashboard-summary
+```
+
+Returns: live counts (`all`, `active`, `today`, `tomorrow`, `this_week`, `alerts`, `at_risk`), `today_rows`, `tomorrow_rows`, `at_risk_rows` — pulled live from Supabase `v_project_card`.
+Confirmed live: 2026-06-30. `confidence: "live"`. No secrets exposed.
+
+---
+
 ## Source Priority
 
 When multiple sources disagree, use this order:
 
-1. **Supabase / live dashboard** — operational ground truth (requires live access)
-2. **Dashboard snapshot** (`memory/ai_index/DASHBOARD_STATUS.md`) — stale if >1 day old
+1. **Live AI API** — `GET https://interwork-command-center.vercel.app/api/ai/dashboard-summary` — live Supabase read
+2. **Dashboard snapshot** (`memory/ai_index/DASHBOARD_STATUS.md`) — fallback if API unavailable; stale if >1 day old
 3. **Client knowledge pack** (`claude_project_packs/`) — use for contacts/routing; stale for status/dates
 4. **Project card** (`memory/clients/<slug>/projects/<slug>/PROJECT_CARD.md`) — best source for scope, contacts, notes
 5. **Bootstrap file** (`claude_project_bootstraps/<slug>_bootstrap.md`) — routing only, not project facts
 
-If dashboard and project card conflict → **flag the conflict**, do not silently pick one.
+If API/dashboard and project card conflict → **flag the conflict**, do not silently pick one.
 
 ---
 

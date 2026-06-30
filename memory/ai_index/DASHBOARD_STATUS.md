@@ -2,8 +2,24 @@
 _Last updated: 2026-06-30_
 _Mirrored from: memory/dashboard/CURRENT_DASHBOARD_STATUS.md_
 
-> **Staleness warning:** This file mirrors the dashboard snapshot. If today's date is more than 1 day after "Last Updated" below, counts and rows are stale.
-> For live data, run `scripts/update_dashboard_snapshot.ps1` (requires Supabase env vars).
+---
+
+## Live API Endpoint (use this first)
+
+```
+GET https://interwork-command-center.vercel.app/api/ai/dashboard-summary
+```
+
+- Returns: `counts`, `today_rows`, `tomorrow_rows`, `at_risk_rows` — live from Supabase
+- No auth required. `confidence: "live"`. No secrets exposed.
+- Confirmed live: 2026-06-30 (all: 146, active: 66, today: 7, tomorrow: 8, this_week: 12, alerts: 50, at_risk: 47)
+
+**Use the snapshot below only if the API is unavailable.**
+
+---
+
+> **Staleness warning (snapshot):** This file mirrors the dashboard snapshot. If today's date is more than 1 day after "Last Updated" below, counts and rows are stale.
+> For live data, call the API above or run `scripts/update_dashboard_snapshot.ps1`.
 
 ---
 

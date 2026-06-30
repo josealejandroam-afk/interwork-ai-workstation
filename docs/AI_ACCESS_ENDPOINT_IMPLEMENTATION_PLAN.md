@@ -1,6 +1,6 @@
 # AI Access Endpoint Implementation Plan
 _Created: 2026-06-30_
-_Status: Phase 1 complete (static index), Phase 2 planned (Vercel API)_
+_Status: Phase 1 complete (static index) | Phase 2 in progress — endpoint 1 live_
 
 ---
 
@@ -21,7 +21,8 @@ Any AI chat (Claude Chat, ChatGPT, future AI) should be able to access current p
 | Client context (raw GitHub) | **Live** | `memory/clients/<slug>/CLIENT_CONTEXT.md` |
 | Project cards (raw GitHub) | **Live** | `memory/clients/<slug>/projects/<slug>/PROJECT_CARD.md` |
 | Bootstrap routing files | **Live** | `claude_project_bootstraps/<slug>_bootstrap.md` |
-| Vercel AI API endpoints | **Planned — not yet built** | `interwork-command-center` repo |
+| `GET /api/ai/dashboard-summary` | **Live** | `https://interwork-command-center.vercel.app/api/ai/dashboard-summary` |
+| Remaining Vercel AI API endpoints | **Planned** | `interwork-command-center` repo |
 
 ---
 
@@ -59,45 +60,45 @@ START_HERE_FOR_AI → CLIENT_ROSTER → PROJECT_INDEX → PROJECT_CARD.md
 
 ---
 
-## Phase 2 — Vercel AI API (planned, not yet built)
+## Phase 2 — Vercel AI API (in progress)
 
 ### Where to build
 
 The `interwork-command-center` Vercel app — a separate repo from this one.
 **Do not add API routes to this repo (`interwork-ai-workstation`)** — it has no Next.js app.
 
-### Proposed Endpoints
+### Endpoints
 
-#### `GET /api/ai/dashboard-summary`
+#### `GET /api/ai/dashboard-summary` — **LIVE as of 2026-06-30**
 
-**Data source:** Supabase (live read)
+**URL:** `https://interwork-command-center.vercel.app/api/ai/dashboard-summary`
+**Data source:** Supabase `v_project_card` (live read via direct REST fetch)
+**Auth:** None required
+**Commit:** `18ee0bd` — `interwork-command-center` repo
 
+Confirmed response shape (2026-06-30):
 ```json
 {
-  "updated_at": "2026-06-30T18:00:00Z",
-  "counts": {
-    "all": 140,
-    "alerts": 47,
-    "at_risk": 46,
-    "today": 4,
-    "tomorrow": 3,
-    "this_week": 9
-  },
-  "today_rows": [
-    {
-      "project_number": 7053,
-      "client": "StratEdu",
-      "location": "901 15th St NW, Washington DC",
-      "type": "Relocation",
-      "time": "9:00 AM",
-      "status": "Scheduled",
-      "readiness": "Ready"
-    }
-  ]
+  "updated_at": "2026-06-30T20:17:54.106Z",
+  "source": "supabase:v_project_card",
+  "confidence": "live",
+  "stale_warning": null,
+  "counts": { "all": 146, "active": 66, "today": 7, "tomorrow": 8, "this_week": 12, "alerts": 50, "at_risk": 47 },
+  "today_rows": [ { "project_number": "...", "client": "...", "location": "...", "type": "...",
+    "scheduled_date": "...", "scheduled_time": "...", "status": "...", "readiness": "...",
+    "execution_owner": "...", "scope_summary": "..." } ],
+  "tomorrow_rows": [ ... ],
+  "at_risk_rows": [ ... ]
 }
 ```
 
-**Security:** Read-only Supabase query. No auth required if data is non-sensitive. Consider IP allowlist or bearer token if needed.
+**Security:** Read-only. No env vars, secrets, internal_notes, emails, or phone numbers in response.
+
+**Implementation notes:**
+- Uses direct `fetch()` to Supabase REST API (same pattern as `app/page.js`) — not `@supabase/supabase-js` client
+- Reads `SUPABASE_URL` / `SUPABASE_ANON_KEY` env vars (server-side, no `NEXT_PUBLIC_` prefix needed)
+- No `export const runtime = 'edge'` — runs in Node.js serverless runtime
+- `readiness` is computed server-side mirroring the dashboard's `computeReadiness()` logic
 
 ---
 
@@ -215,18 +216,11 @@ Possible future endpoints:
 
 ---
 
-## Next Step
+## Next Steps
 
-Open the `interwork-command-center` repo in a new Claude Code session and build Phase 2.
+Phase 2 endpoint 1 (`/api/ai/dashboard-summary`) is live. Remaining build order:
 
-```
-Claude Code Handoff — interwork-command-center
-
-Goal: Add read-only AI access API routes.
-
-Do not deploy until Alejandro approves.
-Do not expose secrets.
-Do not add write endpoints in this phase.
-
-Reference: docs/AI_ACCESS_ENDPOINT_IMPLEMENTATION_PLAN.md in interwork-ai-workstation repo.
-```
+2. `GET /api/ai/project/[client_slug]/[project_slug]` — most frequent use case
+3. `GET /api/ai/client/[client_slug]` — client context
+4. `GET /api/ai/open-loops` — global pending items
+5. `GET /api/ai/search?q=` — nice-to-have, build last

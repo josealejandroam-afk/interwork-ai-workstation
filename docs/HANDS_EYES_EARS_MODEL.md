@@ -18,7 +18,8 @@ Perception without action. Read-only access.
 
 | Source | What it contains | Access method | Latency |
 |---|---|---|---|
-| Supabase / live dashboard | Project index, status, open loops, FastField events | Supabase MCP (Claude Code) or Vercel API (Phase 2) | Live |
+| Supabase / live dashboard | Project index, status, open loops, FastField events | Supabase MCP (Claude Code) or `GET /api/ai/dashboard-summary` (any AI) | Live |
+| **Live AI API** | Counts + today/tomorrow/at-risk rows from `v_project_card` | `https://interwork-command-center.vercel.app/api/ai/dashboard-summary` — no auth | Live |
 | Dashboard snapshot | Summary counts + today's rows at snapshot time | Raw GitHub URL: `memory/dashboard/CURRENT_DASHBOARD_STATUS.md` | Stale (manual refresh) |
 | AI index files | Client roster, project index, open loops summary, dashboard mirror | Raw GitHub URL: `memory/ai_index/` | Stale (refresh on repo push) |
 | Client context | Client background, key contacts, rules | Raw GitHub URL: `memory/clients/<slug>/CLIENT_CONTEXT.md` | Stale (refresh on repo push) |
@@ -74,7 +75,7 @@ Actions that change state. All non-repo writes require Alejandro approval.
 | Capability | Claude Code | Claude Chat | ChatGPT |
 |---|---|---|---|
 | Read repo files | Yes (direct) | Yes (raw GitHub URL fetch) | Yes (raw GitHub URL fetch) |
-| Read Supabase live | Yes (MCP) | No | No |
+| Read Supabase live | Yes (MCP) | Yes (via `/api/ai/dashboard-summary`) | Yes (via `/api/ai/dashboard-summary`) |
 | Read dashboard snapshot | Yes | Yes (raw GitHub URL) | Yes (raw GitHub URL) |
 | Read AI index files | Yes | Yes (raw GitHub URL) | Yes (raw GitHub URL) |
 | Write repo files | Yes | No | No |
@@ -90,11 +91,12 @@ Actions that change state. All non-repo writes require Alejandro approval.
 ## The Three Layers of Current State
 
 ```
-Layer 1 — Live (requires Supabase MCP or Phase 2 Vercel API)
-  Supabase projects table
-  Supabase open_loops table
-  FastField webhook events
-  → Claude Code can read directly; Claude Chat cannot (yet)
+Layer 1 — Live
+  Supabase projects table (Claude Code via MCP)
+  Supabase open_loops table (Claude Code via MCP)
+  FastField webhook events (Claude Code via MCP)
+  GET /api/ai/dashboard-summary (any AI — live Supabase read, no auth required)
+  → Claude Code reads directly via MCP; Claude Chat and ChatGPT read via /api/ai/...
 
 Layer 2 — Near-live (raw GitHub, refreshed by Claude Code on update)
   memory/ai_index/
@@ -133,17 +135,23 @@ Layer 3 — Snapshot / Uploaded (fallback, stale)
 
 ---
 
-## Future State — With Phase 2 Vercel API
+## Current State — Phase 2 Endpoint 1 Live (2026-06-30)
 
 ```
-Layer 1 becomes accessible to Claude Chat:
-  Claude Chat fetches /api/ai/dashboard-summary → live Supabase data
-  Claude Chat fetches /api/ai/project/<slug>/<slug> → current project card served by API
+Layer 1 is now accessible to Claude Chat and ChatGPT via:
+  GET https://interwork-command-center.vercel.app/api/ai/dashboard-summary
+  → live Supabase data, no auth required
 
 Claude Code still owns:
   Writing repo files
   Triggering Supabase writes (with approval)
   Deploying
+
+Remaining Phase 2 endpoints (not yet built):
+  /api/ai/project/[client_slug]/[project_slug]
+  /api/ai/client/[client_slug]
+  /api/ai/open-loops
+  /api/ai/search
 ```
 
 ---

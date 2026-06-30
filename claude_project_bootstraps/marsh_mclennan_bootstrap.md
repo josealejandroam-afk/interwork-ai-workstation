@@ -29,8 +29,11 @@ MMC, MMA, Marsh, Marsh McLennan Agency, MM Tech, Global Security are all the sam
 1. **Company rules:**
    `https://raw.githubusercontent.com/josealejandroam-afk/interwork-ai-workstation/main/memory/company_knowledge/START_HERE.md`
 
-2. **Dashboard snapshot:**
-   `https://raw.githubusercontent.com/josealejandroam-afk/interwork-ai-workstation/main/memory/dashboard/CURRENT_DASHBOARD_STATUS.md`
+2. **Live dashboard API (operational status — use this first):**
+   `https://interwork-command-center.vercel.app/api/ai/dashboard-summary`
+
+   Returns live counts and today/tomorrow/at-risk rows from Supabase. No auth needed. Confirmed live 2026-06-30.
+   Fallback if unavailable: `https://raw.githubusercontent.com/josealejandroam-afk/interwork-ai-workstation/main/memory/dashboard/CURRENT_DASHBOARD_STATUS.md`
 
 3. **MMC client context:**
    `https://raw.githubusercontent.com/josealejandroam-afk/interwork-ai-workstation/main/memory/clients/marsh_mclennan/CLIENT_CONTEXT.md`
