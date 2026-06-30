@@ -1,5 +1,10 @@
 # Memory Index
 
+## Dashboard
+- [Dashboard Status Snapshot](dashboard/CURRENT_DASHBOARD_STATUS.md) — AI-readable snapshot: counts, today rows, at-risk rows; check timestamp for staleness
+- [Dashboard Check Rules](dashboard/DASHBOARD_CHECK_RULES.md) — how Claude Chat reconciles snapshot vs. project cards; conflict handling rules
+- [Dashboard Field Map](dashboard/DASHBOARD_FIELD_MAP.md) — column definitions, status values, readiness values, alert logic
+
 ## User
 - [User Profile](profile/user_profile.md) — Alejandro's role, work style, projects, and preferences
 

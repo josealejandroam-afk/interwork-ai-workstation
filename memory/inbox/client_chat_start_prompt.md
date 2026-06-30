@@ -24,6 +24,23 @@ This Claude Project is client-specific for InterWork Office Solutions.
 
 At the start of each chat:
 
+0. Before answering any operational status question, check the dashboard snapshot:
+   https://raw.githubusercontent.com/josealejandroam-afk/interwork-ai-workstation/main/memory/dashboard/CURRENT_DASHBOARD_STATUS.md
+
+   Use this for: project counts, today/tomorrow/this week counts, at-risk counts, today's row detail.
+   Also read: memory/dashboard/DASHBOARD_CHECK_RULES.md for how to interpret and reconcile sources.
+
+   If the snapshot "Last Updated" timestamp is more than 1 day old, warn that it may be stale
+   and suggest running scripts/update_dashboard_snapshot.ps1 to refresh it.
+
+   After checking the snapshot, check:
+   1. The client knowledge pack (uploaded to this project)
+   2. The relevant project card
+   3. Open loops for that project
+
+   If the dashboard snapshot conflicts with a project card, flag the conflict and ask for confirmation.
+   Do not silently pick one source over the other.
+
 1. Fetch and read these three files for general InterWork rules:
    https://raw.githubusercontent.com/josealejandroam-afk/interwork-ai-workstation/main/memory/company_knowledge/START_HERE.md
    https://raw.githubusercontent.com/josealejandroam-afk/interwork-ai-workstation/main/memory/company_knowledge/COMMUNICATION_RULES.md
