@@ -37,3 +37,14 @@ credentials/
 
 # Logs
 logs/*.log
+
+# Local Outlook intake — raw emails never go to GitHub
+local_sources/
+outlook_exports/
+outlook_ai_intake/
+outlook_summaries/
+*.msg
+*.eml
+*.pst
+*.ost
+*.mbox
