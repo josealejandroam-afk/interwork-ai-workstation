@@ -1,4 +1,4 @@
-# Project 7580 — SS&C Technologies
+# Project 7580 — SS&C Technologies Site Walk, San Francisco
 
 ## Core Facts
 
@@ -6,16 +6,21 @@
 |---|---|
 | Project number | 7580 |
 | Client | SS&C Technologies |
-| Location | Needs confirmation |
-| Scheduled date | Needs confirmation |
-| Office PM | Needs confirmation |
-| Field PM | Needs confirmation |
-| Client POC | Needs confirmation |
-| Scope | Needs confirmation |
-| Status | Needs confirmation |
+| Project name | Site Walk |
+| Location | 600 Townsend St, San Francisco, CA 94117 |
+| Scheduled date | 2026-06-29 |
+| Start time | 9:00 AM |
+| Office PM | Frank Barrett |
+| Smartsheet status | Pending Scheduling |
+| fastfield_submitted | true (proxy) |
+| New client record | Yes — did not previously exist in Supabase; created this session |
+
+## Scope
+
+Site walk for full decommission.
 
 ## Source Notes
 
-- Source: ChatGPT knowledge export, 2026-06-30
-- Confidence: Very low — project number only; no detail captured
-- Confirm full scope, location, and status with Alejandro or via Supabase
+- Source: 2026-06-30 Smartsheet/Supabase sync handoff
+- New client record created in Supabase during this session
+- Updated: 2026-06-30

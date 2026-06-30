@@ -7,7 +7,8 @@
 | Project number | 7510 |
 | Client | Pear VC |
 | Project name | Pear Relocation to 600 Townsend, San Francisco |
-| Location | 600 Townsend, San Francisco CA |
+| Origin | 1800 Owens St, San Francisco, CA 94117 |
+| Destination | 600 Townsend St, San Francisco, CA 94117 |
 | Scheduled start | 2026-07-01 |
 | Scheduled end | 2026-07-02 |
 | Start time | 8 AM (confirmed by client) |

@@ -1,5 +1,5 @@
 # Client Index
-_Last updated: 2026-06-30_
+_Last updated: 2026-06-30 (sync handoff)_
 
 > **Routing note:** Use this index only when the client is unclear from context.
 > For client-specific Claude Projects, go directly to `memory/clients/<client_slug>/`.
@@ -9,14 +9,14 @@ _Last updated: 2026-06-30_
 
 | Client | Folder | Active Projects | Notes |
 |---|---|---|---|
-| Marsh McLennan (MMC / MMA) | marsh_mclennan/ | 7189, 7060, 7378, 7364, 7431, 7407, 7437, 7486, 7471, 7418, 7354, 7434, 7495, 7447, 7191, 7521, 7576, 7299, 7241 | MMC = Marsh McLennan Company; MMA = Marsh & McLennan Agency. Same parent. Multiple ongoing engagements across US offices. |
+| Marsh McLennan (MMC / MMA) | marsh_mclennan/ | 7189, 7060, 7378, 7364, 7431, 7407, 7437, 7486, 7471, 7418, 7354, 7434, 7495, 7447, 7191, 7521, 7576, 7299, 7241, 7494, 7465, 7472, 7484, 7556 | MMC = Marsh McLennan Company; MMA = Marsh & McLennan Agency. Same parent. Multiple ongoing engagements across US offices. |
 | Bentley Systems | bentley_systems/ | 7350, 7450 | Multi-phase engagement. 7350 = Phase 4 Final (July 1-2). 7450 = Framingham to Exton. |
 | Vecos USA | vecos/ | 7579, 7454 | Locker commissioning. Vecos is InterWork's client. JPMC is Vecos's customer (end user site only). |
 | Pear VC | pear_vc/ | 7510 | 7510 = SF relocation to 600 Townsend (July 1). |
 | Radian | radian/ | 7492 | 7492 = Denver decom. Comprehensive card updated 2026-06-30. |
 | TierPoint | tierpoint/ | 7497 | Conflict: Supabase says "Radian TierPoint" / Cherry Hill vs. Philadelphia. Confirm with Alejandro. |
-| Claritev / MultiPlan | claritev_multiplan/ | 7420, 6836, 6837, Chattanooga TBD | Parsippany NJ primary location. |
-| Rothman Orthopaedics | rothman_orthopaedics/ | 7440, 7572 | Wayne PA and unknown second location. |
+| Claritev / MultiPlan | claritev_multiplan/ | 7420, 6836, 6837, Chattanooga TBD | 7420 = Laguna Hills CA decom (folder name says Parsippany — that was a ChatGPT error; confirmed Laguna Hills). |
+| Rothman Orthopaedics | rothman_orthopaedics/ | 7440, 7572, 7583 | Wayne PA (7440); 7583 = Philadelphia service call 7/8. |
 | Strategic Education | strategic_education/ | 7053, 7337, Guardian Lower Bucks TBD | SEI and possibly Guardian as subsidiary. |
 | AmTrust Financial | amtrust/ | 7348 (pending), 7536 | Cleveland OH (7348 pending Teams send); NYC or Melville (7536). |
 | Dropbox | dropbox/ | 7399, 7460, 7552 | SF-area offices. Possibly overlaps with Pear VC origin building. |
@@ -24,19 +24,20 @@ _Last updated: 2026-06-30_
 | Monster Energy | monster_energy/ | 7529 | Location Needs confirmation. |
 | FAA Eastern Region | faa_eastern_region/ | 7559, EJM FAA (TBD) | Federal client. EJM FAA may be same or separate. |
 | UiPath | uipath/ | Unknown | Project number not in export; check Supabase. |
-| McGriff | mcgriff/ | 7553 | Dallas, TX decom. |
+| McGriff | mcgriff/ | 7553 | Dallas, TX decom. **Ambiguous client entity** — handoff says "MMC" (Michael Durkin, Marsh/CBRE), but filed here from original export. Confirm with Alejandro whether this belongs in marsh_mclennan/. |
 | Goldberg Segalla | goldberg_segalla/ | None on file | Law firm. No project details. |
-| SS&C Technologies | ss_c_technologies/ | 7580 | No detail available. |
-| Percheron Capital | percheron_capital/ | 7581 | No detail available. |
+| SS&C Technologies | ss_c_technologies/ | 7580 | 7580 = site walk 600 Townsend SF 6/29. New client in Supabase. |
+| Percheron Capital | percheron_capital/ | 7581 | 7581 = site walk One Letterman Dr, SF 6/30. Future move TBD ~8/24. |
 | Aerosphere | aerosphere/ | 7582 | No detail available. |
 | BEC Online | bec_online/ | 7558 | No detail available. |
 | Reckitt | reckitt/ | 7561 | No detail available. |
 | Context Labs | context_labs/ | 7491 | No detail available. |
-| Premier Orthopaedics | premier_orthopaedics/ | Unknown | No project number confirmed. |
+| Premier Orthopaedics | premier_orthopaedics/ | 7391 | 7391 = Multi-Phase Newtown Square PA. End date 7/7 (Storage Run leg TBD). |
 | Vecos / IU Health | vecos_iu_health/ | Unknown | Bloomington IN locker commissioning. Separate from Vecos JPMC. |
 | Tegna / Premion | tegna_premion/ | Unknown | No project number confirmed. |
 | Lincoln / CRC Group | lincoln_crc_group/ | 7246 | No detail available. Note: separate from CRC Virginia Beach under MMC. |
 | Teknion | teknion/ | 5156 | Historical project; low project number. |
+| Bevin Palidar | bevin_palidar/ | 7584 | Residential client. House move Clementon NJ → Tabernacle NJ, 7/2. New client 2026-06-30. |
 
 ## Lookup Pointers (NOT InterWork clients)
 
@@ -64,7 +65,6 @@ See `memory/clients/_unassigned/INDEX.md` for projects without a confirmed clien
 | Resintech | 7381 | Camden NJ |
 | The Team | 7474 | New York NY |
 | Montebello | 7304 | West Berlin NJ |
-| MMA (SD to Walnut Creek) | 7494 | San Diego to Walnut Creek (Jul 6) |
 | MMA (Dallas conf. room) | 7546 | Dallas TX (Jul 9) |
 
 ## Creating a New Client Folder

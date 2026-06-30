@@ -21,6 +21,7 @@
 
 - Substantially complete as of June 18, 2026
 - Return visit planned June 22 for remaining security/IDF items and blank plates
+- **New leg added 2026-06-30:** Philadelphia service call 2026-07-08 (single day) — supersedes Denver-only framing; details TBD
 - Freight plan updated
 - Monitors clarified to follow quote list
 

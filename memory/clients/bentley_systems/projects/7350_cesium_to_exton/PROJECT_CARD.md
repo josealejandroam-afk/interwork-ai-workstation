@@ -15,7 +15,7 @@
 | Scheduled start | 2026-07-01 |
 | Scheduled end | 2026-07-02 |
 | Office PM | Francisco Vinueza |
-| Field PM | Pedro Martinez — 732-421-1470 |
+| Field PM | Pedro Martinez — 732-421-1470 (corrected 2026-06-30; Supabase had Juan Martinez) |
 | Vendor required | No |
 | Status | Scheduled |
 
