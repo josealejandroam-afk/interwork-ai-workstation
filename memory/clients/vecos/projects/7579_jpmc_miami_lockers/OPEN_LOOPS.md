@@ -10,3 +10,4 @@
 | 6 | Ladder availability onsite unknown | Open |
 | 7 | Final license / IP package — confirm no changes | Open |
 | 8 | Project not in Supabase — INSERT needed | Held — trigger: "create 7579 in Supabase" |
+| 9 | Respond to Cason Perez and schedule execution date — Jill flagged "Schedule VECOS Miami, respond to Cason" (Teams 2026-06-30 1:56 PM) | Open — Alejandro or Jill to reply to Cason; date still unconfirmed |
