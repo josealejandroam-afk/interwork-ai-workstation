@@ -21,6 +21,11 @@ Dropbox's former HQ at 1800 Owens St, San Francisco also appears in Pear VC proj
 
 ## At the Start of Each Chat — Fetch These Files
 
+0. **AI index (fast lookup):**
+   `https://raw.githubusercontent.com/josealejandroam-afk/interwork-ai-workstation/main/memory/ai_index/START_HERE_FOR_AI.md`
+
+   Use this first. It points to CLIENT_ROSTER.md, PROJECT_INDEX.md, and OPEN_LOOPS_SUMMARY.md for quick navigation.
+
 1. **Company rules:**
    `https://raw.githubusercontent.com/josealejandroam-afk/interwork-ai-workstation/main/memory/company_knowledge/START_HERE.md`
 

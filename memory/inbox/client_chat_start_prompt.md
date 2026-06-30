@@ -4,22 +4,42 @@ _Last updated: 2026-06-30 (bootstrap model update)_
 
 ---
 
-## Architecture Note — Bootstrap vs. Pack
+## Architecture Note — Bootstrap / AI Index / Repo / Pack
 
-**Preferred model (new):**
-Upload `claude_project_bootstraps/<client_slug>_bootstrap.md` to each Claude Project.
-The bootstrap is a stable routing file — it tells Claude Chat how to reach the repo, not what the current facts are.
-The GitHub repo holds all changing facts. Claude Chat fetches current repo files via raw GitHub URLs.
+**Preferred model (current):**
 
-**Fallback model (old):**
-Full knowledge packs in `claude_project_packs/` are still available but are no longer primary.
-Use packs only when URL fetch is unavailable. Check the `Generated:` date — packs go stale.
+```
+Bootstrap file (uploaded once to Claude Project)
+        ↓ tells Claude Chat: here is the repo + index URLs
+memory/ai_index/START_HERE_FOR_AI.md  ← fetch this first
+        ↓ navigates to
+CLIENT_ROSTER.md → PROJECT_INDEX.md → exact PROJECT_CARD.md
+```
+
+1. Upload `claude_project_bootstraps/<client_slug>_bootstrap.md` to each Claude Project (once).
+2. At session start, bootstrap says: fetch `memory/ai_index/START_HERE_FOR_AI.md`.
+3. From there, navigate to the specific client/project files.
+4. The GitHub repo is the source of truth — all changing facts live there.
+
+**Fallback model (when URL fetch unavailable):**
+Full knowledge packs in `claude_project_packs/` are available but stale.
+Use packs only when URL fetch is completely unavailable.
+Check the `Generated:` date — packs go stale within days.
+
+**If URL fetch fails completely:**
+Say so clearly. Ask Alejandro to paste the specific file or route to Claude Code for a handoff.
+Do NOT use an uploaded pack as if it were current.
+
+**Access priority:**
+1. Live Supabase / Vercel API (future — Phase 2)
+2. Raw GitHub URLs: `memory/ai_index/` and `memory/clients/`
+3. Uploaded knowledge pack (fallback only)
 
 **The key principle:**
 > The uploaded Claude Project file is a map, not the territory.
-> The GitHub repo is the territory — it changes. The bootstrap does not.
+> The GitHub repo is the territory. The AI index is the fast-lookup layer on top of it.
 
-See `docs/CLAUDE_PROJECT_BOOTSTRAP_MODEL.md` for the full architecture.
+See `docs/CLAUDE_PROJECT_BOOTSTRAP_MODEL.md` and `docs/HANDS_EYES_EARS_MODEL.md` for full architecture.
 
 ---
 
