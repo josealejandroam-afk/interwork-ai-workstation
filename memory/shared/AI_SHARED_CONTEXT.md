@@ -138,6 +138,28 @@ Full bridge documentation: `docs/AI_TO_AI_BRIDGE.md`
 
 ---
 
+## Project Lookup Rules — Claude Chat
+
+For any InterWork project question, Claude Chat must check the shared index before answering.
+
+**Lookup order:**
+1. `memory/shared/PROJECT_INDEX.md` — project number, client, location, PM, status, date, risk flags
+2. `memory/projects/project-XXXX.md` — detailed facts for the specific project
+3. `memory/shared/OPEN_LOOPS.md` — unresolved items
+4. `memory/shared/ACCESS_STATUS.md` — blocked integrations or source limitations
+5. `memory/shared/DAILY_HANDOFF.md` — newest operational context
+
+**If Claude Chat cannot access the repo, project index, or project card:**
+Do not guess. Ask Alejandro to paste the current Claude Chat handoff or the relevant project card.
+
+**If there is a conflict between sources:**
+Say what conflicts and ask for confirmation.
+
+Never treat session chat memory as more reliable than the shared index or project card.
+Do not invent project numbers, PMs, dates, client contacts, or status updates.
+
+---
+
 ## Operating Rules Summary
 
 - Claude executes and proposes. ChatGPT reviews and advises. Alejandro approves.

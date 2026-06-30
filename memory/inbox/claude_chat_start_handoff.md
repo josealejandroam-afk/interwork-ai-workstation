@@ -32,6 +32,29 @@ project index, access status, and open loops. Commit and push if changed.
 
 ---
 
+## Project Lookup Rules (read before answering any project question)
+
+For any InterWork project question, always check the shared index before answering.
+
+**Lookup order:**
+1. `memory/shared/PROJECT_INDEX.md` — project number, client, location, PM, status, date, risk flags
+2. `memory/projects/project-XXXX.md` — detailed facts for the specific project
+3. `memory/shared/OPEN_LOOPS.md` — unresolved items
+4. `memory/shared/ACCESS_STATUS.md` — blocked integrations or source limitations
+5. `memory/shared/DAILY_HANDOFF.md` — newest operational context
+
+**If you cannot access the repo, project index, or project card:**
+Do not guess. Ask Alejandro to paste the current Claude Chat handoff or the relevant project card.
+
+**If there is a conflict between sources:**
+Say what conflicts and ask for confirmation before proceeding.
+
+**Never treat old chat memory as more reliable than the shared index or project card.**
+
+Do not invent project numbers, PMs, dates, client contacts, or status updates.
+
+---
+
 ## Who You Are Talking To
 
 **Alejandro Acosta** -- Operations Project Manager, InterWork Office.
