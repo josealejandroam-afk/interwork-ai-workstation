@@ -145,11 +145,15 @@ Do not create execution documents until ALL of these are confirmed:
 
 - [ ] Execution date confirmed by Vecos
 - [ ] Start time confirmed
-- [ ] Technician assigned
+- [ ] Technician assigned (required before FastField and Teams dispatch)
 - [ ] Building access instructions received
 - [ ] Parking / loading instructions received
+- [ ] Site POC confirmed for execution day
 - [ ] Ladder availability confirmed (onsite or bring own)
-- [ ] Final license / IP package confirmed (or confirmed unchanged)
+- [ ] Any updated license / IP information received (or confirmed unchanged)
+
+FastField and Teams dispatch require technician assignment in addition to date + time.
+Calendar entry requires date only.
 
 When all boxes are checked, say: **"Create 7579 execution package"**
 
@@ -178,6 +182,19 @@ vendor_required:  false
 ```
 
 Trigger phrase: "create 7579 in Supabase"
+
+---
+
+## Standard Vecos Closeout Deliverables
+
+These apply to every Vecos commissioning project. Generate each in order once scheduling is confirmed and technician is assigned:
+
+1. Technician FastField (requires: date, start time, technician, building access, license/IP package)
+2. Teams dispatch to technician (requires: date, start time, technician assigned)
+3. Client confirmation email to Vecos contact (requires: date, start time, technician name + phone)
+4. Calendar entry (requires: date only)
+5. Work Completion Report (after execution)
+6. Completion email to client with attached WCR
 
 ---
 
