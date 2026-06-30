@@ -1,6 +1,6 @@
 # UiPath — Claude Chat Knowledge Pack
 
-_Generated: 2026-06-30 (dashboard status note update) | Source: memory/clients/uipath/_
+_Generated: 2026-06-30 (rescheduled status fix) | Source: memory/clients/uipath/_
 
 ---
 
@@ -56,7 +56,7 @@ UiPath is an enterprise automation software company. InterWork has an active eng
 | # | Name | Location | Status | Notes |
 |---|---|---|---|---|
 | 7516 | Service Call Dallas TX | Dallas, TX (full address TBC) | Past-dated 2026-05-15 — no completion signals | External PM; vendor confirmed; access confirmed; no FastField |
-| TBD | 1450 Broadway Move Out | 1450 Broadway, New York, NY | **Postponed** — awaiting new date from Morgan Alvarado | Project # not assigned; original target week of 6/29; tentative July 1 date internally cancelled |
+| TBD | 1450 Broadway Move Out | 1450 Broadway, 21st Floor, NY 10018 | **Rescheduled — July 8, 2026, 11:00 AM** | Project # not assigned; date confirmed by Morgan Alvarado email 2026-06-30; not in Supabase |
 
 ---
 
@@ -79,27 +79,34 @@ UiPath is an enterprise automation software company. InterWork has an active eng
 
 ## Project TBD — 1450 Broadway Move Out (NYC)
 
-- **Location:** 1450 Broadway, New York, NY
-- **Scope:** Review storage rooms; relocate designated items; dispose of unwanted items/furniture
-- **Initial request:** 2026-06-12
-- **Original target:** Week of 2026-06-29
-- **Tentative execution:** 2026-07-01 (internally scheduled — **NOT client-confirmed; now postponed**)
-- **Status:** **Postponed** — UiPath postponed the July 1 date; Morgan Alvarado to send formal email with new date
+- **Location:** 1450 Broadway, 21st Floor, New York, NY 10018
+- **Execution date:** **Wednesday, July 8, 2026, 11:00 AM start** (confirmed by client)
+- **Status:** **Rescheduled — date confirmed**
+- **Scope:** ~55 smaller boxes; a few to 1 Vanderbilt; majority to donation locations (labeled/grouped); additional disposal items
+- **Freight entry:** 41st Street between 6th Ave and Broadway, door next to FedEx; building management has InterWork COI on file
+- **Onsite contacts:** Michele Nerio (512-426-1492), Morgan Alvarado (929-996-5850)
+- **Donation locations:**
+  - Materials for the Arts, 33-00 Northern Blvd, LIC 11101 — M/W/F 9am–2:30pm; dock available; arrive before 2:15 PM
+  - Goodwill NYNJ Donation Center, 1114 1st Ave, NY 10065 — M–Sun 11am–7pm
+  - Housing Works, 157 E 23rd St, NY 10010 — M–Sat 12pm–7pm
+- **Source of confirmation:** Morgan Alvarado email, 2026-06-30 2:01 PM
 - **Project #:** Unknown — not yet assigned; do not invent one
-- **Confidence:** Medium — based on email/chat context; no Supabase record yet
+- **Supabase/dashboard:** Not present as of 2026-06-30 live read; project card is authoritative
 
 **Open loops:**
 
 | # | Loop | Owner | Status |
 |---|---|---|---|
-| 1 | New execution date | Morgan Alvarado (UiPath) | Pending — awaiting formal email |
-| 2 | Final scope (quantities, inventory, destinations) | Morgan Alvarado | Not provided |
-| 3 | Building access information | TBD | Not provided |
-| 4 | Inventory or floor plan | TBD | Not provided |
-| 5 | On-site point of contact for rescheduled work | TBD | Not provided |
-| 6 | Project number assignment | InterWork internal | Not assigned |
+| 1 | ~~New execution date~~ | ~~Morgan Alvarado~~ | **Resolved — July 8, 2026, 11:00 AM** |
+| 2 | ~~Final scope confirmation~~ | ~~Morgan Alvarado~~ | **Resolved — ~55 boxes, donation breakdown confirmed** |
+| 3 | ~~Building access information~~ | ~~TBD~~ | **Resolved — 41st St freight entry; COI on file** |
+| 4 | ~~On-site POC~~ | ~~TBD~~ | **Resolved — Michele Nerio / Morgan Alvarado** |
+| 5 | Project number assignment | InterWork internal | Still open |
+| 6 | Item-level inventory / floor plan | TBD | Still open — box count known, no item list yet |
+| 7 | InterWork team freight/access logistics | David Steinbrecher / InterWork Ops | Still open |
+| 8 | Supabase record creation | Alejandro / internal | Still open — needs project number first |
 
-**Drafts pending:** None — hold all client-facing drafts until Morgan's formal postponement email arrives.
+**Drafts pending:** None — draft only when Alejandro requests it.
 
 ---
 
@@ -120,7 +127,7 @@ No client-side contacts confirmed for project 7516. Ask Alejandro before draftin
 ## Operating Rules for This Client
 
 1. **Do not invent a project number for 1450 Broadway** — it has not been assigned yet.
-2. **Do not draft any client-facing communication for 1450 Broadway** until Morgan Alvarado's formal postponement email arrives.
+2. **1450 Broadway is Rescheduled for July 8, 2026, 11:00 AM** — date and scope confirmed by Morgan Alvarado email 2026-06-30. Do not describe it as postponed or awaiting a date.
 3. **Project 7516 is past-dated with no FastField** — do not assume it is complete; flag as open loop.
 4. **If asked about operational status** — check the dashboard snapshot section above first.
 5. **If dashboard snapshot conflicts with a project card** — flag the conflict; ask Alejandro to confirm.
