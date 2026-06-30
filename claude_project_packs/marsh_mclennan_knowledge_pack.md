@@ -1,6 +1,6 @@
 # Marsh McLennan — Claude Chat Knowledge Pack
 
-_Generated: 2026-06-30 | Source: memory/clients/marsh_mclennan/_
+_Generated: 2026-06-30 (sync handoff update) | Source: memory/clients/marsh_mclennan/_
 
 ---
 
@@ -44,31 +44,36 @@ These are MMC subsidiaries but may have separate billing and contacts:
 
 ---
 
-## Active and Recent Projects
+## Active and Upcoming Projects
 
-| # | Name | Location | Status | Notes |
-|---|---|---|---|---|
-| 7189 | MMC Bermuda Inventory Hoboken NJ | 121 River St, Hoboken NJ | Scheduled Jul 1 | Field PM: Jairo Escalante. Multi-phase since Oct 2025. |
-| 7060 | MMC Dallas Walnut Hill to Galleria | Dallas TX | In-progress (overdue) | Client unconfirmed; draft ready; 3 months overdue |
-| 7378 | MMA Sepulveda 5th Floor (Phase 2 Decom) | Sepulveda Blvd, Van Nuys CA | Planning | Phase 1 complete; decom incoming. Evette Acosta contact. |
-| 7521 | MMC Austin Restack | Austin TX | Planning | 105 desks, 154 monitors, crate work. Vendor transition to Monica. |
-| 7576 | Marsh Broomfield Motor Swap | Broomfield CO | Pending | Single desk motor swap. Vendor: Mike (TBC). |
+| # | Name | Location | Dates | Status | Notes |
+|---|---|---|---|---|---|
+| 7189 | MMC Bermuda Inventory Hoboken NJ | 121 River St, Hoboken NJ | Jul 1 | Scheduled | Field PM: Jairo Escalante. Multi-phase since Oct 2025. |
+| 7378 | MMA Van Nuys Decom — Phase 3 | Sepulveda Blvd, 5th Fl, Van Nuys CA | 7/13–7/16, 9 AM | Scheduled | Phase 2 dates (6/1–6/4) superseded. Evette Acosta contact. |
+| 7494 | MMA Furniture Move — SD to Walnut Creek | San Diego CA → Walnut Creek CA | 7/8–7/9, load-in 6 PM Wed | Scheduled | Client (Marie Peralta) confirmed 6/29; Smartsheet had wrong dates (7/6–7/9). |
+| 7495 | MMA Charlotte Restack Phase 1 | Charlotte, NC | 7/2 supplies + 7/13–7/17 main, 9 AM | Scheduled | PM: Melvin Hernandez. Supersedes 5/27–5/28 dates. |
+| 7521 | MMC Austin Restack | Austin TX | TBD | Planning | 105 desks, 154 monitors, crate work. Vendor transition to Monica. |
+| 7576 | Marsh Broomfield Motor Swap | Broomfield CO | TBD | Pending | Single desk motor swap. Vendor: Mike (TBC). |
+| 7556 | MMA Art Work Hanging Dallas | Dallas TX | end 7/1 | Active | End date extended from 6/30. |
+| 7472 | MMA Punchlist Addison | Addison TX | end 7/7 (TBD) | Active | Punchlist leg added; dates TBD on Smartsheet. |
+| 7465 | MMA Ancillary Furniture Move | TBD | start 7/16 | Scheduled | Start date corrected from 7/15. |
 
-## Past-Dated / Needs Confirmation
+## Recent / Past-Dated Projects
 
 | # | Name | Location | Notes |
 |---|---|---|---|
+| 7060 | MMC Dallas Walnut Hill to Galleria | Dallas TX | In-progress (overdue ~3 months); client unconfirmed; draft ready |
+| 7484 | MMC Crates Pickup Austin TX | Austin TX | End date 6/26; additional legs found |
+| 7486 | MMC Austin TX | Austin TX | End date 6/26; additional legs found |
 | 7364 | MMC Allentown Move | Allentown PA | FastField submitted; likely done |
 | 7431 | MMC Walkthrough Austin TX | Austin TX | Vendor confirmed; no FastField |
 | 7299 | MMC Alpharetta Monitor Arms | Alpharetta GA | Monitor arm install; details sparse |
 | 7241 | MMC Allentown Move | Allentown PA | Relocation scope; details sparse |
 | 7407 | MMC Install Service Call Phoenix | Phoenix AZ | External PM; vendor confirmed |
-| 7486 | MMA Austin TX | Austin TX | No signals |
 | 7471 | MMA Decom + Move Loveland OH | Loveland OH | Frank Barrett PM; no FastField |
 | 7418 | MMA Colleague Relocation Columbia MD | Columbia MD | No PM in pm_assigned field |
 | 7354 | MMA Retrieve Tech Alpharetta GA | Alpharetta GA | External PM; vendor confirmed |
 | 7434 | MMA Paint Scope Edina MN | Edina MN | No FastField; status unclear |
-| 7495 | MMA Move/Light Decom Charlotte NC | Charlotte NC | Melvin Hernandez PM; vendor confirmed |
 | 7447 | MMA Tech Install Clearwater FL | Clearwater FL | Bad actual_end_at field; fix held |
 | 7191 | MMA Punch List Cape May NJ | Cape May NJ | No signals |
 
@@ -80,6 +85,10 @@ These are MMC subsidiaries but may have separate billing and contacts:
 |---|---|---|
 | Hunter Barbieri | InterWork office PM — multiple MMC projects | hunterb@interworkoffice.com |
 | Jairo Escalante | Field PM — project 7189 | jairoe@interworkoffice.com |
+| Melvin Hernandez | PM — project 7495 (Charlotte Restack) | — |
+| Marie Peralta | Client contact — MMA (7494 SD to Walnut Creek) | confirmed via email 6/29 |
+| Evette Acosta | Client POC — MMA Van Nuys (7378) | — |
+| Francisco Vinueza | Referenced for 7553 scope assessment | — |
 
 Client-side contacts vary by location. Ask Alejandro for project-specific contacts.
 
@@ -93,6 +102,7 @@ Client-side contacts vary by location. Ask Alejandro for project-specific contac
 4. **Past-dated projects are not confirmed closed** unless there is a FastField completion + WC report.
 5. **Do not send any communication** — draft only, then Alejandro reviews and sends.
 6. **Do not write to Supabase** — propose changes in a table, wait for approval.
+7. **Date overrides:** When client-confirmed dates differ from Smartsheet, the client-confirmed date is authoritative (e.g., 7494 load-in 7/8 not 7/6).
 
 ---
 
