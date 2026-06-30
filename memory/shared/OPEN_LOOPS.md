@@ -28,8 +28,8 @@ _Last updated: 2026-06-29_
 
 | # | Loop | Blocker | Impact | Next Step |
 |---|------|---------|--------|-----------|
-| 7 | Outlook/M365 access (alejandroa@interworkoffice.com) | OAuth re-auth pending in Claude Code MCP panel | No work email, no WC report parser, no FF assignment detection | Run /mcp → Microsoft 365 in Claude Code |
-| 8 | Teams read access | Same OAuth as above | No Teams message reading | Same as #7 |
+| 7 | Outlook/M365 access (alejandroa@interworkoffice.com) | VMX/IT admin approval needed — Outlook add-in store is wrong path | No work email, no WC report parser, no FF assignment detection | Send draft to Christian (VMX/IT) — `docs/drafts/m365_access_request.md` |
+| 8 | Teams read access | Same approval as Outlook — Claude M365 connector or Graph MCP | No Teams message reading | Same as #7 |
 | 9 | FastField direct HTTP/HTTPS webhook | Make.com scenario 5506328 inactive — needs test payload first | fastfield_submitted not auto-populating | Send one test form submission, confirm lands in fastfield_webhook_events, then activate |
 | 10 | Smartsheet read re-auth | MCP re-auth pending | Schedule rows not readable | Re-auth in Claude Code MCP panel |
 | 11 | Read AI access in Claude Code CLI | MCP CLI auth incomplete | /readai-brief Mode A broken | OAuth via /mcp or API key header |
