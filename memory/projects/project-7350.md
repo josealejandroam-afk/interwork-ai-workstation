@@ -16,6 +16,11 @@ source: "ChatGPT handoff from email review"
 
 # Project 7350 - Bentley Systems
 
+> **FINAL PHASE (Phase 4) -- July 1-2, 2026**
+> Current execution: Final Cesium (601 Walnut St.) to Exton relocation scheduled July 1-2, 2026.
+> Previous Cherry Street and internal Cesium installation phases have been completed.
+> This is not the original May furniture swap. Do not merge earlier scope into this phase.
+
 ## Phase History
 
 | Phase | Scope | Status |

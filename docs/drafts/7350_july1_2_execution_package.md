@@ -2,6 +2,11 @@
 _Status: DRAFT - all items below require Alejandro review before use_
 _Created: 2026-06-30_
 
+> **FINAL PHASE (Phase 4) -- July 1-2, 2026**
+> This is the final Cesium (601 Walnut St.) to Exton relocation.
+> Previous phases -- Cherry Street to Cesium and the Cesium internal move (June 22) -- are complete.
+> Do not reference earlier scope, quantities, or May 4-6 dates in any client or field communication.
+
 ---
 
 ## 1. FastField - Pedro Martinez (July 1-2)
