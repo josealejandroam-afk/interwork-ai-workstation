@@ -1,5 +1,5 @@
 # Start Here for AI — InterWork AI Memory Layer
-_Last updated: 2026-06-30_
+_Last updated: 2026-07-01 — registered /api/ai/project and /api/ai/open-loops_
 
 ---
 
@@ -33,8 +33,13 @@ Use the files in this `memory/ai_index/` folder as fast lookup before going deep
 ```
 START_HERE_FOR_AI.md
         ↓
-Search first: GET /api/ai/search?q=<project number, client name, location, or scope term>
+Know the exact project number? GET /api/ai/project?number=<project_number>
+  → exact match, single record
+Otherwise search: GET /api/ai/search?q=<project number, client name, location, or scope term>
   → returns live project rows; identify records before scanning repo folders
+        ↓
+Check live open loops: GET /api/ai/open-loops?project_number=<project_number>
+  → Supabase-tracked pending items (may be empty — check the project's OPEN_LOOPS.md too)
         ↓
 (for deeper context)
 CLIENT_ROSTER.md → find client slug
@@ -86,18 +91,35 @@ GET https://interwork-command-center.vercel.app/api/ai/search?q=<term>
 Returns: matching project rows from Supabase. Searches project number, client, location, type, status, readiness, PM, and scope. Use this before scanning repo folders.
 Confirmed live: 2026-06-30. Minimum 2 characters. Examples: `?q=UiPath`, `?q=7553`, `?q=Dallas`.
 
+**Project lookup** (exact match by project number — more reliable than search when you already have the number):
+```
+GET https://interwork-command-center.vercel.app/api/ai/project?number=<project_number>
+```
+Returns: a single project record from Supabase `v_project_card` (same safe fields as dashboard-summary/search — no internal_notes, emails, or phone numbers). `404` if the project number doesn't exist; `400` if `number` is missing.
+Confirmed live: 2026-07-01. Example: `?number=7492`.
+
+**Open loops** (global or project-scoped pending items):
+```
+GET https://interwork-command-center.vercel.app/api/ai/open-loops?project_number=<project_number>
+```
+Also supports `?status=open|resolved|snoozed` and `?priority=high|medium|low` filters (combine with `project_number` or use alone).
+Returns: rows from the safe view `v_open_loops_ai` — `id`, `project_number`, `title`, `status`, `priority`, `source`, `ai_generated`, `created_at`, `updated_at`, `resolved_at`. No `detail`, `external_ref`, or raw `project_id` — those never leave Supabase through this endpoint. An empty `open_loops: []` array is normal, not an error — most projects have zero open loops in Supabase right now; check the project card's `OPEN_LOOPS.md` for durable historical context Supabase doesn't carry.
+Confirmed live: 2026-07-01.
+
 ---
 
 ## Source Priority
 
 When multiple sources disagree, use this order:
 
-1. **Live search API** — `GET /api/ai/search?q=<term>` — live Supabase read; use for quick project/client lookup
+1. **Live project/search APIs** — `GET /api/ai/project?number=<n>` (exact) or `GET /api/ai/search?q=<term>` (loose) — live Supabase read; use for quick project/client lookup
 2. **Live dashboard API** — `GET /api/ai/dashboard-summary` — live Supabase read; use for counts and operational status
-3. **Dashboard snapshot** (`memory/ai_index/DASHBOARD_STATUS.md`) — fallback if API unavailable; stale if >1 day old
-4. **Project card** (`memory/clients/<slug>/projects/<slug>/PROJECT_CARD.md`) — best source for scope, contacts, notes, history
-5. **Client knowledge pack** (`claude_project_packs/`) — use for contacts/routing; stale for status/dates
-6. **Bootstrap file** (`claude_project_bootstraps/<slug>_bootstrap.md`) — routing only, not project facts
+3. **Live open-loops API** — `GET /api/ai/open-loops?project_number=<n>` — live Supabase read; structured pending items, may be empty
+4. **Dashboard snapshot** (`memory/ai_index/DASHBOARD_STATUS.md`) — fallback if API unavailable; stale if >1 day old
+5. **Project card** (`memory/clients/<slug>/projects/<slug>/PROJECT_CARD.md`) — best source for scope, contacts, notes, history
+6. **Project's OPEN_LOOPS.md** — durable historical open items Supabase doesn't carry (older loops, closed-loop history)
+7. **Client knowledge pack** (`claude_project_packs/`) — use for contacts/routing; stale for status/dates
+8. **Bootstrap file** (`claude_project_bootstraps/<slug>_bootstrap.md`) — routing only, not project facts
 
 If API/dashboard and project card conflict → **flag the conflict**, do not silently pick one.
 
@@ -107,6 +129,8 @@ If API/dashboard and project card conflict → **flag the conflict**, do not sil
 
 - Call `GET https://interwork-command-center.vercel.app/api/ai/dashboard-summary` for live operational counts and rows
 - Call `GET https://interwork-command-center.vercel.app/api/ai/search?q=<term>` for quick project/client lookup before scanning repo folders
+- Call `GET https://interwork-command-center.vercel.app/api/ai/project?number=<project_number>` for an exact single-project record
+- Call `GET https://interwork-command-center.vercel.app/api/ai/open-loops?project_number=<project_number>` for live Supabase-tracked open loops (check the project's `OPEN_LOOPS.md` too — Supabase's open-loop table is newer and may not have full history yet)
 - Answer questions about project scope, contacts, schedule, location
 - Draft client-facing emails and Teams messages (do not send without approval)
 - Identify open loops and what needs resolution
