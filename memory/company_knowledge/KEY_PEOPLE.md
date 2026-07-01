@@ -40,6 +40,15 @@
 
 **439 Commerce Lane, West Berlin, NJ 08091**
 
+Aliases (all refer to this same warehouse):
+- our WHS
+- IWOS WHS
+- InterWork WHS
+- InterWork warehouse
+- warehouse
+
+Rule: when Alejandro says "from our WHS," use this address as the route origin unless another warehouse is explicitly specified.
+
 Used for: storage, staging, asset holding, pickup/delivery coordination.
 When referencing in field or client notes, use full address.
 Do not expose the warehouse address in client-facing communications unless explicitly appropriate.

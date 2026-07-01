@@ -121,6 +121,8 @@ Proposed response shape:
 **Do not implement this endpoint until explicitly approved by Alejandro.**
 It would require auth design, rate limiting, and Vercel deployment review.
 
+**Superseded by:** [`CONTROLLED_DASHBOARD_UPDATES.md`](CONTROLLED_DASHBOARD_UPDATES.md) for anything write-related — any future AI-driven dashboard change should go through the proposal/approval queue design there, not a direct write endpoint.
+
 ---
 
 ## Related Files

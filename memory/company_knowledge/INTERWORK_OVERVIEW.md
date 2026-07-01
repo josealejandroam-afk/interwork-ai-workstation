@@ -52,6 +52,9 @@ Claude Code is the operator session — it has repo access, executes scripts, qu
 | WC Report | Work Completion Report — delivered to the client after job closure |
 | HA Desk | Height-Adjustable Desk |
 | LBC | Locker Base Controller (Vecos SMART locker system) |
+| PM | Project Manager — Office PM (administrative) or Field PM (on-site execution); see `OPERATING_WORKFLOW.md` for the distinction |
+| WHS | Warehouse — see `KEY_PEOPLE.md` for address and aliases |
+| COI | Certificate of Insurance |
 
 ## Project Lifecycle (brief)
 
