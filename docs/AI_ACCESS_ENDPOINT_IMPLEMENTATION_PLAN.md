@@ -1,6 +1,7 @@
 # AI Access Endpoint Implementation Plan
 _Created: 2026-06-30_
-_Status: Phase 1 complete (static index) | Phase 2 in progress — endpoints 1 and 2 live_
+_Updated: 2026-07-01_
+_Status: Phase 1 complete (static index) | Phase 2 read path complete — endpoints 1, 2, and 3 live. See [`AI_ACCESS_LAYER_V1.md`](AI_ACCESS_LAYER_V1.md) for the consolidated architecture._
 
 ---
 
@@ -23,7 +24,8 @@ Any AI chat (Claude Chat, ChatGPT, future AI) should be able to access current p
 | Bootstrap routing files | **Live** | `claude_project_bootstraps/<slug>_bootstrap.md` |
 | `GET /api/ai/dashboard-summary` | **Live** | `https://interwork-command-center.vercel.app/api/ai/dashboard-summary` |
 | `GET /api/ai/search?q=` | **Live** | `https://interwork-command-center.vercel.app/api/ai/search?q=<term>` |
-| Remaining Vercel AI API endpoints | **Planned** | `interwork-command-center` repo |
+| `GET /api/ai/project?number=` | **Live** | `https://interwork-command-center.vercel.app/api/ai/project?number=<project_number>` |
+| Open-loops / write endpoints | **Planned** | `interwork-command-center` repo — see Phase 3 |
 
 ---
 
@@ -114,16 +116,39 @@ Returns:
 
 ---
 
-#### `GET /api/ai/project/[client_slug]/[project_slug]`
+#### `GET /api/ai/project?number=<project_number>` — **LIVE as of 2026-07-01**
 
-**Data source:** GitHub raw files (this repo)
+**URL:** `https://interwork-command-center.vercel.app/api/ai/project?number=<project_number>`
+**Data source:** Supabase `v_project_card` (live read via direct REST fetch, exact `project_number` match)
+**Auth:** None required
+**Repo:** `interwork-command-center`
 
-Returns:
-- `PROJECT_CARD.md` content
-- `OPEN_LOOPS.md` content
-- `NOTES.md` content (if exists)
+Implemented as a **global numeric lookup**, not the slug-based route originally sketched below — `project_number` is already the operational primary key across QuoteWerks, FastField, and Smartsheet, so a second slug-based shape wasn't built. The slug route (`/api/ai/project/[client_slug]/[project_slug]`) is not planned.
 
-**Note:** `DRAFTS.md` should be omitted unless explicitly included — drafts may contain client-facing content not ready to share.
+Response shape:
+```json
+{
+  "updated_at": "2026-07-01T...",
+  "source": "supabase:v_project_card",
+  "confidence": "live",
+  "project_number": "7553",
+  "record": { "project_number": "...", "client": "...", "location": "...", "type": "...",
+    "scheduled_date": "...", "scheduled_time": "...", "status": "...", "readiness": "...",
+    "execution_owner": "...", "scope_summary": "..." },
+  "notes": [
+    "Live API record comes from Supabase/dashboard. For deeper scope, contacts, notes, history, and open loops, check the GitHub repo project card."
+  ]
+}
+```
+
+Not-found (`?number=999999`) returns `404` with `{ "error": "Project not found", "project_number": "999999" }`. Missing `number` param returns `400` with a hint.
+
+**Security:** Read-only, same anon-key direct-fetch pattern as `dashboard-summary`/`search`. No env vars, secrets, internal_notes, emails, or phone numbers in response.
+
+**Implementation notes:**
+- This endpoint is global across all InterWork projects in `v_project_card` — no client name, project number, or client-specific logic is hardcoded in the route.
+- Shares `toRow()`, `computeReadiness()`, and the safe `SELECT` column list with `dashboard-summary` and `search` via `lib/aiProjectCard.mjs` — one place defines the safe-field boundary for all three endpoints.
+- `record` reflects **Supabase's current state only**. Repo memory (`memory/clients/.../PROJECT_CARD.md`) can be ahead of Supabase if it was updated more recently and not yet re-synced — see the source-of-truth rule in [`AI_ACCESS_LAYER_V1.md`](AI_ACCESS_LAYER_V1.md). Don't treat the two as interchangeable; if they disagree, say so.
 
 ---
 
@@ -237,16 +262,16 @@ Possible future endpoints:
 
 1. `GET /api/ai/dashboard-summary` — highest value, live Supabase read ✓ LIVE
 2. `GET /api/ai/search?q=` — quick project/client/location lookup ✓ LIVE
-3. `GET /api/ai/project/[client_slug]/[project_slug]` — most frequent use case
+3. `GET /api/ai/project?number=<project_number>` — global exact-match lookup, most frequent use case ✓ LIVE
 4. `GET /api/ai/client/[client_slug]` — client context
-5. `GET /api/ai/open-loops` — global pending items
+5. `GET /api/ai/open-loops` — global pending items (blocked on `open_loops` table being applied in Supabase — see `scripts/sql/draft_open_loops_table.sql`)
 
 ---
 
 ## Next Steps
 
-Phase 2 endpoints 1 and 2 are live (`/api/ai/dashboard-summary`, `/api/ai/search?q=`). Remaining build order:
+The read path (Phase 2, endpoints 1–3) is complete: `/api/ai/dashboard-summary`, `/api/ai/search?q=`, `/api/ai/project?number=`. See [`AI_ACCESS_LAYER_V1.md`](AI_ACCESS_LAYER_V1.md) for the consolidated read-path architecture and source-of-truth rule. Remaining build order:
 
-3. `GET /api/ai/project/[client_slug]/[project_slug]` — most frequent use case
 4. `GET /api/ai/client/[client_slug]` — client context
-5. `GET /api/ai/open-loops` — global pending items
+5. `GET /api/ai/open-loops` — global pending items, once the `open_loops` table migration is applied
+6. Controlled write API (Phase 3) — not designed yet, requires explicit approval
