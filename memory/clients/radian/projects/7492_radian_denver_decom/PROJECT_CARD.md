@@ -9,21 +9,33 @@
 | Project name | Denver, CO Decommission and Move |
 | Location | 1700 N Lincoln St, Suite 2600, 25th and 26th floors, Denver, CO |
 | Scheduled start | 2026-06-08 (June 8) |
-| Return visit | 2026-06-22 (June 22) |
-| Field PM | Pedro Martinez, 732-421-1470 |
-| Client POC | Sharon (Needs confirmation for full name and contact), Sarah (Needs confirmation) |
+| Return visit | 2026-06-22 (June 22) — confirmed complete |
+| Field PM | Pedro Martinez, 732-421-1470 — confirmed assigned July 6 Cherry Hill + Wayne deliveries (Smartsheet 2026-07-01) |
+| Client POC (Cherry Hill / primary) | Kristopher Blalock |
+| Client POC (Admin / FMP) | Melanie Tracy — Administration Manager, FMP, Radian Group Inc. |
+| Client POC (Wayne on-site) | Sharon Jones — on-site 9:30 AM July 6 to receive copier; cell number Needs confirmation |
+| Client POC (CC) | Sarah Martino |
 | Vendor | Barraza Installations |
 | Vendor contact | Mike Barraza — phone needs confirmation from safe internal source |
 | Vendor required | Yes |
-| Status | Substantially complete as of June 18, 2026 |
+| Status | Final phase — July 6 deliveries pending |
 
 ## Status Summary
 
-- Substantially complete as of June 18, 2026
-- Return visit planned June 22 for remaining security/IDF items and blank plates
+- Denver fieldwork complete
+- June 22 return visit complete (security/IDF items removed, blank plates installed)
+- All return assets transported from Denver to Mike Barraza's warehouse, then picked up by Sunset Transportation and delivered to InterWork warehouse, West Berlin, NJ — confirmed arrived
+- **Next milestone:** July 6 deliveries — Cherry Hill first, Wayne copier second
+- Cherry Hill delivery: 111 Woodcrest Rd, 2nd floor, Cherry Hill, NJ — 9:30 AM, July 6
+- Wayne delivery: copier — follows Cherry Hill; Sharon Jones is on-site contact, west side freight elevator with ramp; street address still TBD
+- Pedro Martinez assigned as PM for July 6 Cherry Hill + Wayne deliveries (confirmed via Smartsheet 2026-07-01)
+- Items inadvertently removed remain a separate issue from the Sunset pickup/return shipment (see Critical Logistics Note below) — Mike Barraza confirmed handling the Denver return separately; completion unconfirmed
+- COI for Wayne building property management is a new open item before July 6 — status unconfirmed
+- Client PM notification (Pedro's contact info to client) — unconfirmed whether sent (Francisco Vinueza had committed EOD June 26)
 - **New leg added 2026-06-30:** Philadelphia service call 2026-07-08 (single day) — supersedes Denver-only framing; details TBD
 - Freight plan updated
 - Monitors clarified to follow quote list
+- Project can close after: July 6 deliveries complete + Mike confirms Denver return complete
 
 ## Scope: 25th Floor Disposal
 
@@ -73,15 +85,19 @@
 | Location | Address |
 |---|---|
 | Cherry Hill | 111 Woodcrest Rd, 2nd floor, Cherry Hill, NJ |
-| Wayne, PA | Address TBD — Needs confirmation |
+| Wayne, PA | Street address TBD — Sharon Jones confirmed on-site contact; west side freight elevator with ramp; building property management requesting COI before delivery |
 
 ## Missing Information
 
-- Final closeout status
-- Final Wayne, PA address
-- Final return shipment status
-- Exact identity of items inadvertently removed
+- Wayne, PA street address (still TBD as of 2026-07-01)
+- Exact identity of items inadvertently removed by Barraza
+- Sharon Jones cell phone number — requested for delivery-team handoff, not yet on file. Do not invent or search for it.
+- COI for Wayne building — owner at InterWork TBD, status of request unconfirmed
+- Confirmation that Francisco sent Pedro's PM contact info to client (committed EOD June 26)
+- Confirmation that Mike completed return of inadvertently removed items to Denver client
 - Mike Barraza phone number (confirm from safe internal source — do not use web lookup)
+- Final WC report status
+- Final invoice status
 
 ## Critical Logistics Note
 
@@ -105,4 +121,5 @@ Do not reference the vendor problem (inadvertent removal) in client communicatio
 - Original sparse card (low confidence): `memory/projects/project-7492.md`
 - Original card incorrectly labeled client as "MMC" — Radian is the confirmed client per Supabase index
 - Project card substantially updated 2026-06-30 from ChatGPT knowledge export
-- Confidence level: High for core scope and inventory, Medium for final logistics and closeout
+- PROJECT_CARD.md updated 2026-07-01 from Claude Chat handoff (Alejandro direct message + email thread + Smartsheet screenshot) — client contact names/roles recorded without email addresses per repo safety policy
+- Confidence level: High for core scope, inventory, PM assignment, client contacts, and delivery sequence. Medium for Wayne address and COI. Open for closeout financials.
