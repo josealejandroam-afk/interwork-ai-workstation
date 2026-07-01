@@ -1,7 +1,7 @@
 # AI Access Endpoint Implementation Plan
 _Created: 2026-06-30_
 _Updated: 2026-07-01_
-_Status: Phase 1 complete (static index) | Phase 2 read path complete — endpoints 1, 2, and 3 live. See [`AI_ACCESS_LAYER_V1.md`](AI_ACCESS_LAYER_V1.md) for the consolidated architecture._
+_Status: Phase 1 complete (static index) | Phase 2 read path complete — endpoints 1, 2, 3, and 4 (open-loops) live. See [`AI_ACCESS_LAYER_V1.md`](AI_ACCESS_LAYER_V1.md) for the consolidated architecture._
 
 ---
 
@@ -25,7 +25,8 @@ Any AI chat (Claude Chat, ChatGPT, future AI) should be able to access current p
 | `GET /api/ai/dashboard-summary` | **Live** | `https://interwork-command-center.vercel.app/api/ai/dashboard-summary` |
 | `GET /api/ai/search?q=` | **Live** | `https://interwork-command-center.vercel.app/api/ai/search?q=<term>` |
 | `GET /api/ai/project?number=` | **Live** | `https://interwork-command-center.vercel.app/api/ai/project?number=<project_number>` |
-| Open-loops / write endpoints | **Planned** | `interwork-command-center` repo — see Phase 3 |
+| `GET /api/ai/open-loops` | **Live** | `https://interwork-command-center.vercel.app/api/ai/open-loops` |
+| Write endpoints / action queue | **Planned** | `interwork-command-center` repo — see Phase 3 |
 
 ---
 
@@ -187,11 +188,44 @@ Confirmed tests passing (2026-06-30): `?q=UiPath` → 200 7 rows, `?q=7553` → 
 
 ---
 
-#### `GET /api/ai/open-loops`
+#### `GET /api/ai/open-loops` — **LIVE as of 2026-07-01**
 
-**Data source:** This repo (OPEN_LOOPS_SUMMARY.md or Supabase `open_loops` table)
+**URL:** `https://interwork-command-center.vercel.app/api/ai/open-loops`
+**Data source:** Supabase `v_open_loops_ai` (curated safe view — not the raw `open_loops` table)
+**Auth:** None required
+**Repo:** `interwork-command-center`
 
-Returns: global cross-client open loops.
+`public.open_loops` (applied 2026-06-26) is RLS-protected: `ALTER TABLE ... ENABLE ROW LEVEL SECURITY` plus a single `open_loops_service_role_all` policy scoped to `service_role` only. `anon`/`authenticated` get zero rows on the raw table. `public.v_open_loops_ai` (applied 2026-07-01) is the AI-facing view granted to `anon`/`authenticated`, exposing only:
+
+```
+id, project_number, title, status, priority, source, ai_generated, created_at, updated_at, resolved_at
+```
+
+`detail` (free-text, could contain PII), `external_ref`, and raw `project_id` are deliberately excluded from the view. `title` is additionally redacted for obvious email/phone patterns in `lib/aiOpenLoops.mjs` before the response is returned.
+
+Response shape (production-verified 2026-07-01, table currently empty):
+```json
+{
+  "updated_at": "2026-07-01T16:18:30.982Z",
+  "source": "supabase:v_open_loops_ai",
+  "confidence": "live",
+  "count": 0,
+  "open_loops": [],
+  "notes": [
+    "Open loops come from Supabase live structured tracking. Repo memory may contain durable historical context."
+  ]
+}
+```
+
+Supports `status`, `priority`, and `project_number` filters only (v1 scope). `client` and `at_risk` filters are deferred.
+
+**Security:** Read-only, anon-key REST fetch (no service role). Verified via live HTTP tests against a Vercel preview and then production: no `detail`, `external_ref`, `project_id`, emails, phone numbers, `internal_notes`, secrets, env values, or Supabase keys in any response.
+
+**Implementation notes:**
+- Route: `app/api/ai/open-loops/route.js`; mapper/redaction: `lib/aiOpenLoops.mjs`; regression check: `scripts/check-ai-open-loops.mjs`
+- All four AI routes (`dashboard-summary`, `search`, `project`, `open-loops`) declare `export const dynamic = 'force-dynamic'` — without it, `next build` tries to prerender/statically render these handlers and their live Supabase `fetch()` fails at build time (no network access during build).
+- `count: 0` / `open_loops: []` is the expected response while the table has no rows — not an error state.
+- Merged to `main` at commit `80f08cd`.
 
 ---
 
@@ -263,15 +297,16 @@ Possible future endpoints:
 1. `GET /api/ai/dashboard-summary` — highest value, live Supabase read ✓ LIVE
 2. `GET /api/ai/search?q=` — quick project/client/location lookup ✓ LIVE
 3. `GET /api/ai/project?number=<project_number>` — global exact-match lookup, most frequent use case ✓ LIVE
-4. `GET /api/ai/client/[client_slug]` — client context
-5. `GET /api/ai/open-loops` — global pending items (blocked on `open_loops` table being applied in Supabase — see `scripts/sql/draft_open_loops_table.sql`)
+4. `GET /api/ai/open-loops` — global pending items, via `v_open_loops_ai` ✓ LIVE
+5. `GET /api/ai/client/[client_slug]` — client context
 
 ---
 
 ## Next Steps
 
-The read path (Phase 2, endpoints 1–3) is complete: `/api/ai/dashboard-summary`, `/api/ai/search?q=`, `/api/ai/project?number=`. See [`AI_ACCESS_LAYER_V1.md`](AI_ACCESS_LAYER_V1.md) for the consolidated read-path architecture and source-of-truth rule. Remaining build order:
+The read path (Phase 2, endpoints 1–4) is complete: `/api/ai/dashboard-summary`, `/api/ai/search?q=`, `/api/ai/project?number=`, `/api/ai/open-loops`. See [`AI_ACCESS_LAYER_V1.md`](AI_ACCESS_LAYER_V1.md) for the consolidated read-path architecture and source-of-truth rule. Remaining build order:
 
-4. `GET /api/ai/client/[client_slug]` — client context
-5. `GET /api/ai/open-loops` — global pending items, once the `open_loops` table migration is applied
+5. `GET /api/ai/client/[client_slug]` — client context
 6. Controlled write API (Phase 3) — not designed yet, requires explicit approval
+
+Before building endpoint 5 or Phase 3: use the current read path (including open-loops) on a real project first, and re-enable Vercel preview deployment protection (temporarily disabled during open-loops testing — see [`AI_ACCESS_LAYER_V1.md`](AI_ACCESS_LAYER_V1.md#deployment-note-2026-07-01)).

@@ -1,6 +1,7 @@
 # AI Access Layer v1
 _Created: 2026-07-01_
-_Status: Live — read path complete_
+_Updated: 2026-07-01_
+_Status: Live — read path complete, including open loops_
 
 ---
 
@@ -58,18 +59,34 @@ This is not a bug state. Repo memory is often updated ahead of Supabase (e.g. a 
 | `GET /api/ai/dashboard-summary` | Supabase `v_project_card` | Live |
 | `GET /api/ai/search?q=<term>` | Supabase `v_project_card` | Live |
 | `GET /api/ai/project?number=<project_number>` | Supabase `v_project_card` | Live — global, exact `project_number` match, any InterWork project |
+| `GET /api/ai/open-loops` | Supabase `v_open_loops_ai` | Live — production-verified 2026-07-01. Currently returns an empty list (`count: 0`, `open_loops: []`) until open-loop rows are created. |
 
-All three endpoints are read-only, use the same direct Supabase REST fetch with the anon key (no `lib/supabase.js`, no service role), and share one safe-field mapper (`lib/aiProjectCard.mjs` in `interwork-command-center`) so the redacted-field boundary (no `internal_notes`, emails, phone numbers, secrets) is defined in exactly one place.
+The first three endpoints are read-only, use the same direct Supabase REST fetch with the anon key (no `lib/supabase.js`, no service role), and share one safe-field mapper (`lib/aiProjectCard.mjs` in `interwork-command-center`) so the redacted-field boundary (no `internal_notes`, emails, phone numbers, secrets) is defined in exactly one place.
 
 `/api/ai/project` is **global** — it takes any `project_number` and returns whatever `v_project_card` has for it. It contains no client names, no project numbers, and no per-client branching in its implementation.
+
+`/api/ai/open-loops` follows the same anon-key, read-only pattern but reads a dedicated safe view rather than a project-card view — see below.
+
+### Open loops — table, view, and endpoint
+
+- `public.open_loops` is the canonical table (applied 2026-06-26). **RLS is enabled** with a single policy, `open_loops_service_role_all`, scoped to `service_role` only — `anon`/`authenticated` get zero rows on direct table access.
+- `public.v_open_loops_ai` is the curated, AI-facing read view (applied 2026-07-01) that the endpoint actually queries. It exposes only `id, project_number, title, status, priority, source, ai_generated, created_at, updated_at, resolved_at` — it deliberately excludes `detail` (free-text, could contain PII), `external_ref`, and raw `project_id`. `title` is also redacted for obvious email/phone patterns in the endpoint's mapper (`lib/aiOpenLoops.mjs`) before it's returned.
+- `GET /api/ai/open-loops` supports `status`, `priority`, and `project_number` filters only (v1 scope — no `client` or `at_risk` filter yet).
+- Because the raw table has zero rows right now, an empty response is expected, not an error — don't treat `count: 0` as a health problem.
 
 ---
 
 ## Explicitly Out of Scope for v1
 
-- `GET /api/ai/open-loops` — blocked on `open_loops` table actually existing live in Supabase (`scripts/sql/draft_open_loops_table.sql` is drafted, not yet applied/approved). Build after the migration lands.
 - Controlled action queue / `pending_actions` (AI drafts a write → human approves → system executes) — this is the "hands" phase, not part of the read layer.
 - Slug-based project route (`/api/ai/project/[client_slug]/[project_slug]`) — superseded by the numeric endpoint; project number is the operational primary key already used across QuoteWerks, FastField, and Smartsheet, so a second lookup shape isn't needed.
+- `client` and `at_risk` filters on `/api/ai/open-loops` — deferred to a later revision.
+
+---
+
+## Deployment Note (2026-07-01)
+
+Vercel preview-deployment protection (**Require Log In**) was temporarily disabled on `interwork-command-center` to allow direct HTTP testing of the `/api/ai/open-loops` build/verification cycle. It should be re-enabled manually in Vercel → `interwork-command-center` → Settings → Deployment Protection. This does not affect production — production has never required a change to deployment protection.
 
 ---
 
