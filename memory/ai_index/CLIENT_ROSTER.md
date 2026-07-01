@@ -18,20 +18,20 @@ _Source: memory/clients/CLIENT_INDEX.md + claude_project_bootstraps/_
 | Goldberg Segalla | `goldberg_segalla` | 7352, 7322 | `claude_project_bootstraps/goldberg_segalla_bootstrap.md` | `claude_project_packs/goldberg_segalla_knowledge_pack.md` | `memory/clients/goldberg_segalla/CLIENT_CONTEXT.md` |
 | Radian | `radian` | 7492 | `claude_project_bootstraps/radian_bootstrap.md` | `claude_project_packs/radian_knowledge_pack.md` | `memory/clients/radian/CLIENT_CONTEXT.md` |
 | Rothman Orthopaedics | `rothman_orthopaedics` | 7440, 7583 | `claude_project_bootstraps/rothman_orthopaedics_bootstrap.md` | `claude_project_packs/rothman_orthopaedics_knowledge_pack.md` | `memory/clients/rothman_orthopaedics/CLIENT_CONTEXT.md` |
-| Strategic Education (SEI) | `strategic_education` | 7053, 7337 | `claude_project_bootstraps/strategic_education_bootstrap.md` (if exists) | `claude_project_packs/strategic_education_knowledge_pack.md` | `memory/clients/strategic_education/CLIENT_CONTEXT.md` |
+| Strategic Education (SEI) | `strategic_education` | 7053, 7337 | `claude_project_bootstraps/strategic_education_bootstrap.md` | `claude_project_packs/strategic_education_knowledge_pack.md` | `memory/clients/strategic_education/CLIENT_CONTEXT.md` |
 | Tegna / Premion | `tegna_premion` | Unknown | `claude_project_bootstraps/tegna_bootstrap.md` | `claude_project_packs/tegna_knowledge_pack.md` | `memory/clients/tegna_premion/CLIENT_CONTEXT.md` |
 | UiPath | `uipath` | 7516, unknown_1450_broadway_move_out | `claude_project_bootstraps/uipath_bootstrap.md` | `claude_project_packs/uipath_knowledge_pack.md` | `memory/clients/uipath/CLIENT_CONTEXT.md` |
-| Vecos USA | `vecos` | 7579, 7454 | — | — | `memory/clients/vecos/CLIENT_CONTEXT.md` |
+| Vecos USA | `vecos` | 7579, 7454 | `claude_project_bootstraps/vecos_bootstrap.md` | — | `memory/clients/vecos/CLIENT_CONTEXT.md` |
 | Pear VC | `pear_vc` | 7510 | — | `claude_project_packs/pear_vc_knowledge_pack.md` | `memory/clients/pear_vc/CLIENT_CONTEXT.md` |
 | TierPoint | `tierpoint` | 7497 | — | — | `memory/clients/tierpoint/CLIENT_CONTEXT.md` |
-| Claritev / MultiPlan | `claritev_multiplan` | 7420, 6836, 6837 | — | `claude_project_packs/claritev_multiplan_knowledge_pack.md` | `memory/clients/claritev_multiplan/CLIENT_CONTEXT.md` |
+| Claritev / MultiPlan | `claritev_multiplan` | 7420, 6836, 6837 | `claude_project_bootstraps/claritev_multiplan_bootstrap.md` | `claude_project_packs/claritev_multiplan_knowledge_pack.md` | `memory/clients/claritev_multiplan/CLIENT_CONTEXT.md` |
 | McGriff | `mcgriff` | 7553 | — | `claude_project_packs/mcgriff_knowledge_pack.md` | `memory/clients/mcgriff/CLIENT_CONTEXT.md` |
-| Premier Orthopaedics | `premier_orthopaedics` | 7391 (unknown project slug) | — | `claude_project_packs/premier_orthopaedics_knowledge_pack.md` | `memory/clients/premier_orthopaedics/CLIENT_CONTEXT.md` |
+| Premier Orthopaedics | `premier_orthopaedics` | 7391 (unknown project slug) | `claude_project_bootstraps/premier_orthopaedics_bootstrap.md` | `claude_project_packs/premier_orthopaedics_knowledge_pack.md` | `memory/clients/premier_orthopaedics/CLIENT_CONTEXT.md` |
 | Ingersoll Rand | `ingersoll_rand` | 7374 | — | — | `memory/clients/ingersoll_rand/CLIENT_CONTEXT.md` |
 | Monster Energy | `monster_energy` | 7529 | — | — | `memory/clients/monster_energy/CLIENT_CONTEXT.md` |
 | FAA Eastern Region | `faa_eastern_region` | 7559 | — | — | `memory/clients/faa_eastern_region/CLIENT_CONTEXT.md` |
-| SS&C Technologies | `ss_c_technologies` | 7580 | — | — | `memory/clients/ss_c_technologies/CLIENT_CONTEXT.md` |
-| Percheron Capital | `percheron_capital` | 7581 | — | `claude_project_packs/percheron_capital_knowledge_pack.md` | `memory/clients/percheron_capital/CLIENT_CONTEXT.md` |
+| SS&C Technologies | `ss_c_technologies` | 7580 | `claude_project_bootstraps/ss_c_technologies_bootstrap.md` | — | `memory/clients/ss_c_technologies/CLIENT_CONTEXT.md` |
+| Percheron Capital | `percheron_capital` | 7581 | `claude_project_bootstraps/percheron_capital_bootstrap.md` | `claude_project_packs/percheron_capital_knowledge_pack.md` | `memory/clients/percheron_capital/CLIENT_CONTEXT.md` |
 | Aerosphere | `aerosphere` | 7582 | — | — | `memory/clients/aerosphere/CLIENT_CONTEXT.md` |
 | BEC Online | `bec_online` | 7558 | — | — | `memory/clients/bec_online/CLIENT_CONTEXT.md` |
 | Reckitt | `reckitt` | 7561 | — | — | `memory/clients/reckitt/CLIENT_CONTEXT.md` |
