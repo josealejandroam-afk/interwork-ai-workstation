@@ -13,7 +13,7 @@
 | 9 | Confirm Cherry Hill delivery completed (111 Woodcrest Rd, 2nd floor) | Not yet — scheduled July 6, 9:30 AM | Alejandro 2026-07-01 |
 | 10 | Confirm Wayne, PA copier delivery completed | Not yet — follows Cherry Hill on July 6 | Alejandro 2026-07-01 |
 | 11 | Confirm Sunset pickup / return shipment arrived NJ warehouse | CONFIRMED COMPLETE | Alejandro 2026-07-01 |
-| 12 | COI — obtain and send to Wayne building property management before July 6 | Open — new item; owner TBD | Email thread 2026-07-01 |
+| 12 | COI — obtain and send to Wayne building property management before July 6 | Open — new item; owner TBD. Also live in Supabase `open_loops` as of 2026-07-01, visible via `GET /api/ai/open-loops?project_number=7492`. | Email thread 2026-07-01 |
 | 13 | Sharon Jones cell number — needed for field handoff/delivery-team contact before July 6 | CONFIRMED — 720-486-8789 (Mobile) | Alejandro 2026-07-01 |
 | 14 | Client PM notification — confirm Pedro Martinez contact info was sent to client | Open — Francisco committed EOD June 26, unconfirmed sent as of July 1 | Email thread 2026-07-01 |
 
