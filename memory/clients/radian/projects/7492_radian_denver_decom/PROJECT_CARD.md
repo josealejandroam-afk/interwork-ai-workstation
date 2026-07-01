@@ -11,9 +11,9 @@
 | Scheduled start | 2026-06-08 (June 8) |
 | Return visit | 2026-06-22 (June 22) — confirmed complete |
 | Field PM | Pedro Martinez, 732-421-1470 — confirmed assigned July 6 Cherry Hill + Wayne deliveries (Smartsheet 2026-07-01) |
-| Client POC (Cherry Hill / primary) | Kristopher Blalock |
+| Client POC (Cherry Hill / primary) | Kristopher Blalock, FMP — Facilities Manager, Radian Group, Inc. — Phone: 856-905-9802 — Email: Kristopher.Blalock@radian.com |
 | Client POC (Admin / FMP) | Melanie Tracy — Administration Manager, FMP, Radian Group Inc. |
-| Client POC (Wayne on-site) | Sharon Jones — on-site 9:30 AM July 6 to receive copier; cell number Needs confirmation |
+| Client POC (Wayne on-site) | Sharon Jones — Facilities Manager, Radian Group — on-site 9:30 AM July 6 to receive copier — Mobile: 720-486-8789 — Office: 720-947-6539 — Email: Sharon.Jones@radian.com |
 | Client POC (CC) | Sarah Martino |
 | Vendor | Barraza Installations |
 | Vendor contact | Mike Barraza — phone needs confirmation from safe internal source |
@@ -27,7 +27,7 @@
 - All return assets transported from Denver to Mike Barraza's warehouse, then picked up by Sunset Transportation and delivered to InterWork warehouse, West Berlin, NJ — confirmed arrived
 - **Next milestone:** July 6 deliveries — Cherry Hill first, Wayne copier second
 - Cherry Hill delivery: 111 Woodcrest Rd, 2nd floor, Cherry Hill, NJ — 9:30 AM, July 6
-- Wayne delivery: copier — follows Cherry Hill; Sharon Jones is on-site contact, west side freight elevator with ramp; street address still TBD
+- Wayne delivery: copier — follows Cherry Hill; Sharon Jones is on-site contact (Mobile 720-486-8789), west side freight elevator with ramp; street address still TBD
 - Pedro Martinez assigned as PM for July 6 Cherry Hill + Wayne deliveries (confirmed via Smartsheet 2026-07-01)
 - Items inadvertently removed remain a separate issue from the Sunset pickup/return shipment (see Critical Logistics Note below) — Mike Barraza confirmed handling the Denver return separately; completion unconfirmed
 - COI for Wayne building property management is a new open item before July 6 — status unconfirmed
@@ -91,7 +91,6 @@
 
 - Wayne, PA street address (still TBD as of 2026-07-01)
 - Exact identity of items inadvertently removed by Barraza
-- Sharon Jones cell phone number — requested for delivery-team handoff, not yet on file. Do not invent or search for it.
 - COI for Wayne building — owner at InterWork TBD, status of request unconfirmed
 - Confirmation that Francisco sent Pedro's PM contact info to client (committed EOD June 26)
 - Confirmation that Mike completed return of inadvertently removed items to Denver client

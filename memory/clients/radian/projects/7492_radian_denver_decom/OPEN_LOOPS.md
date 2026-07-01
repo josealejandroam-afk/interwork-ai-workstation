@@ -14,7 +14,7 @@
 | 10 | Confirm Wayne, PA copier delivery completed | Not yet — follows Cherry Hill on July 6 | Alejandro 2026-07-01 |
 | 11 | Confirm Sunset pickup / return shipment arrived NJ warehouse | CONFIRMED COMPLETE | Alejandro 2026-07-01 |
 | 12 | COI — obtain and send to Wayne building property management before July 6 | Open — new item; owner TBD | Email thread 2026-07-01 |
-| 13 | Sharon Jones cell number — needed for field handoff/delivery-team contact before July 6 | Open — number not on file, do not invent | Email thread 2026-07-01 |
+| 13 | Sharon Jones cell number — needed for field handoff/delivery-team contact before July 6 | CONFIRMED — 720-486-8789 (Mobile) | Alejandro 2026-07-01 |
 | 14 | Client PM notification — confirm Pedro Martinez contact info was sent to client | Open — Francisco committed EOD June 26, unconfirmed sent as of July 1 | Email thread 2026-07-01 |
 
 ## NOTE: Two Separate Logistics Issues
@@ -26,3 +26,4 @@ Items inadvertently removed (loops 1 and 3) and the Sunset pickup/return shipmen
 - Loop 2: Inadvertent items NOT in Cherry Hill/return shipment — confirmed
 - Loop 8: June 22 return visit — confirmed complete
 - Loop 11: Sunset pickup / return shipment to NJ warehouse — confirmed complete
+- Loop 13: Sharon Jones cell number — confirmed (720-486-8789), provided directly by Alejandro

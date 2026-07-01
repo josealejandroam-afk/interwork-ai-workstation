@@ -3,8 +3,8 @@
 ## Client PM Notification Email
 
 **Purpose:** Notify Radian contacts that Pedro Martinez is the PM for the July 6 Cherry Hill and Wayne deliveries.
-**To (names/roles only — no email addresses on file in this repo):** Kristopher Blalock (Cherry Hill/primary), Melanie Tracy (Admin/FMP), Sharon Jones (Wayne on-site), Sarah Martino (CC)
-**Status:** NOT DRAFTED YET — pending Sharon Jones cell number and Alejandro approval
+**To:** Kristopher.Blalock@radian.com (Cherry Hill/primary), Melanie Tracy (Admin/FMP — email not on file), Sharon.Jones@radian.com (Wayne on-site), Sarah Martino (CC — email not on file)
+**Status:** NOT DRAFTED YET — pending Alejandro approval (Sharon Jones cell number is now confirmed — 720-486-8789)
 **Note:** Francisco Vinueza had committed to sending this by EOD June 26. Unconfirmed sent as of July 1 — see Open Loops #14.
 **Do not send without Alejandro explicit approval.**
 
@@ -20,9 +20,9 @@
 **Purpose:** Brief Pedro on both July 6 delivery stops — Cherry Hill first, Wayne copier second.
 **Key details to include:**
 - Cherry Hill: 111 Woodcrest Rd, 2nd floor, Cherry Hill, NJ — 9:30 AM start
-- Wayne: copier only — Sharon Jones on-site contact, west side freight elevator with ramp; call Sharon upon arrival (cell number not yet on file)
+- Wayne: copier only — Sharon Jones on-site contact, west side freight elevator with ramp; call Sharon upon arrival at 720-486-8789 (Mobile)
 - Wayne street address still TBD — confirm before July 6
-**Status:** NOT DRAFTED YET — pending Wayne address and Sharon's cell number
+**Status:** NOT DRAFTED YET — pending Wayne address and Alejandro approval
 **Do not send without Alejandro explicit approval.**
 
 ## Vendor Coordination Email (Mike Barraza / Barraza Installations)
