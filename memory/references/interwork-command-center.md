@@ -160,6 +160,13 @@ First step: generate a report covering:
 Then Alejandro decides what to apply and when.
 Remediation SQL template is in `memory/references/interwork_command_center_schema.md`.
 
+### 9. ai_action_queue table — controlled write audit trail (APPLIED 2026-07-01)
+Migration: `create_ai_action_queue` (applied via MCP `apply_migration`).
+Purpose: durable audit trail for AI-initiated dashboard writes, starting with `open_loop_create`/`open_loop_resolve` only (v1 scope). Full design in `docs/CONTROLLED_DASHBOARD_UPDATES.md`.
+Schema mirrors `open_loops` conventions: `extensions.uuid_generate_v4()` PK default, RLS enabled, single `service_role`-only policy (`ai_action_queue_service_role_all`) — no anon/authenticated access, verified.
+Key fields: `action_type`, `target_system`, `project_number`, `payload` (JSONB — exact request), `result` (JSONB — exact applied result), `target_record_id` (affected row id, e.g. an `open_loops.id`), `status` (`proposed`/`needs_confirmation`/`approved`/`rejected`/`applied`/`failed`), `reason`, `source`.
+Schema-only so far — no endpoint built yet. Explicit-instruction-mode write flow (Alejandro's instruction = approval, endpoint applies immediately for low-risk types) is designed but not implemented; still requires a caller-auth decision (admin header vs. Vercel protection) before any code is written.
+
 ---
 
 ## Key Workflows (reference)

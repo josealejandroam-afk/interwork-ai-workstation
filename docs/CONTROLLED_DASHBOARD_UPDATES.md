@@ -1,7 +1,8 @@
 # Controlled Dashboard Updates — Design (Planning Only)
 _Created: 2026-07-01_
 _Revised: 2026-07-01 — corrected target architecture: explicit instruction = apply, not propose-only_
-_Status: Planning — no schema applied, no endpoints built_
+_Revised: 2026-07-01 — ai_action_queue schema applied (v1 scope: open_loop_create/open_loop_resolve); endpoint still not built_
+_Status: Schema live. Endpoint not yet built — no caller-auth decision made, no code written._
 
 ---
 
@@ -157,33 +158,36 @@ These are written to `ai_action_queue` with `status = 'needs_confirmation'` and 
 
 ---
 
-## 7. Minimum Viable Schema (draft — not applied)
+## 7. Schema — APPLIED 2026-07-01
+
+Migration `create_ai_action_queue`, applied via Supabase MCP and verified (table exists, all 19 columns match, RLS enabled, single `service_role`-only policy, both indexes present, `anon` confirmed denied).
 
 ```sql
--- DRAFT ONLY — not applied. For review.
+-- APPLIED 2026-07-01. Reflects the live schema.
 
 CREATE TABLE public.ai_action_queue (
-    id               UUID PRIMARY KEY DEFAULT extensions.uuid_generate_v4(),
+    id                UUID PRIMARY KEY DEFAULT extensions.uuid_generate_v4(),
 
-    action_type      TEXT NOT NULL,   -- see Section 4 update types
-    target_system     TEXT NOT NULL
-                          CHECK (target_system IN ('supabase_dashboard', 'repo_memory', 'both')),
+    action_type       TEXT NOT NULL,               -- see Section 4 update types
+    target_system     TEXT NOT NULL DEFAULT 'supabase_dashboard'
+                           CHECK (target_system IN ('supabase_dashboard', 'repo_memory', 'both')),
 
-    project_number    TEXT,           -- nullable — some actions aren't project-scoped
+    project_number    TEXT,                        -- nullable — some actions aren't project-scoped
     client            TEXT,
 
-    title             TEXT NOT NULL,  -- short human-readable summary
-    proposed_change   TEXT NOT NULL,  -- what is being applied/proposed, in plain language
-    current_value     TEXT,
-    new_value         TEXT,
-    reason            TEXT NOT NULL,  -- evidence/source basis for the change
-    source            TEXT,           -- e.g. "Claude Chat — explicit instruction", "email thread 2026-07-01"
+    title             TEXT NOT NULL,                -- short human-readable summary
+    proposed_change   TEXT NOT NULL,                -- what is being applied/proposed, in plain language
+    payload           JSONB NOT NULL DEFAULT '{}'::jsonb,  -- exact structured request body from Chat
+    result            JSONB,                        -- exact structured result after apply (null until applied)
+    target_record_id  TEXT,                         -- affected row id, e.g. an open_loops.id
+    reason            TEXT NOT NULL,                -- evidence/source basis for the change
+    source            TEXT NOT NULL DEFAULT 'chat',  -- e.g. "Claude Chat — explicit instruction"
 
     status            TEXT NOT NULL DEFAULT 'proposed'
-                          CHECK (status IN ('proposed', 'needs_confirmation', 'approved', 'rejected', 'applied', 'failed')),
+                           CHECK (status IN ('proposed', 'needs_confirmation', 'approved', 'rejected', 'applied', 'failed')),
 
-    created_by        TEXT NOT NULL,  -- which AI/session created the row
-    reviewed_by        TEXT,          -- 'alejandro (explicit instruction)' for immediate-apply, or Alejandro's name once confirmed
+    created_by        TEXT NOT NULL,                -- which AI/session created the row
+    reviewed_by       TEXT,                         -- 'alejandro (explicit instruction)' for immediate-apply, or Alejandro's name once confirmed
     created_at        TIMESTAMPTZ NOT NULL DEFAULT now(),
     reviewed_at        TIMESTAMPTZ,
     applied_at         TIMESTAMPTZ,
@@ -192,7 +196,6 @@ CREATE TABLE public.ai_action_queue (
     repo_handoff_path  TEXT           -- if a repo memory handoff was generated for this action
 );
 
--- RLS: service_role only, same pattern as open_loops. No anon/authenticated policy.
 ALTER TABLE public.ai_action_queue ENABLE ROW LEVEL SECURITY;
 CREATE POLICY ai_action_queue_service_role_all
     ON public.ai_action_queue
@@ -200,11 +203,14 @@ CREATE POLICY ai_action_queue_service_role_all
     TO service_role
     USING (true)
     WITH CHECK (true);
+
+CREATE INDEX ai_action_queue_status_idx ON public.ai_action_queue (status);
+CREATE INDEX ai_action_queue_project_number_idx ON public.ai_action_queue (project_number);
 ```
 
-This schema is deliberately close to `open_loops` in shape (same ID/timestamp conventions, same RLS pattern) to reuse an already-reviewed, already-working pattern rather than invent a new one. The `needs_confirmation` status is the only structural addition versus a plain audit log — it's what lets high-risk/ambiguous requests stop instead of applying.
+Schema is deliberately close to `open_loops` in shape (same `extensions.uuid_generate_v4()` PK default — confirmed as the dominant convention across 14 of 15 existing tables — same RLS pattern) to reuse an already-reviewed, already-working pattern rather than invent a new one. `payload`/`result` (JSONB) preserve the exact request/response for each action; `target_record_id` points at the affected row (e.g. an `open_loops.id`) without a formal FK, so it can reference rows across different target tables over time. The `needs_confirmation` status is the structural addition that lets high-risk/ambiguous requests stop instead of applying.
 
-**Not applied.** This is a draft for review, following the same approval gate every other migration in this repo has gone through.
+**Table is live and empty (0 rows).** No endpoint exists yet — nothing can write to it outside of Claude Code/Supabase MCP until the `apply` endpoint (Section 8) is built and approved.
 
 ---
 
@@ -252,15 +258,13 @@ All writes — immediate-apply or confirmed-later — are logged to `ai_action_q
 ## Recommended Next Build Step
 
 ```
-1. Draft the ai_action_queue schema for review (Section 7 above is the starting point)
-2. Alejandro reviews/approves the exact SQL
-3. Apply the migration (table + RLS + service-role-only policy — same pattern as open_loops)
-4. Prove the workflow manually first: Claude Code inserts one real/test row end-to-end
-   (created → approved-by-instruction → applied) via MCP, no endpoint yet, to validate the
-   schema and status transitions before any HTTP surface exists
-5. Design and build the protected POST /api/ai/actions/apply endpoint (Section 8), with the
-   admin-header protection strategy, once the schema/workflow is proven
-6. Test with one real low-risk explicit-instruction update end-to-end through the endpoint
+1. DONE — ai_action_queue schema drafted, reviewed, approved, applied, and verified (2026-07-01)
+2. NEXT — prove the workflow manually first: Claude Code inserts one real/test row end-to-end
+   (created → approved-by-instruction → applied, for a real open_loop_create or open_loop_resolve)
+   via MCP, no endpoint yet, to validate the schema and status transitions before any HTTP surface exists
+3. Design and build the protected POST /api/ai/actions/apply endpoint (Section 8), with a
+   caller-auth decision (admin header vs. Vercel protection) made explicitly before any code is written
+4. Test with one real low-risk explicit-instruction update end-to-end through the endpoint
    before treating this as available for regular use
 ```
 
