@@ -42,6 +42,20 @@ Do not resend without Alejandro instruction. Do not follow up on this.
 
 ---
 
+## Scheduling — TBD-Dated Projects (from Smartsheet calendar read 2026-07-09)
+
+| Loop | Location | PM | Next step |
+|---|---|---|---|
+| 7589 INNOVARE — Furniture Install | MN | — | Confirm date on Smartsheet |
+| 7593 Amtrust — Chair Move | Jersey City NJ | — | Confirm date on Smartsheet |
+| 7541 Antidefamation League — Conference setup | — | — | Confirm date on Smartsheet |
+| 7556 MMA — Art Work Hanging | Dallas TX | — | Confirm date on Smartsheet |
+| 7549 CRC — Move | Indianapolis IN | — | Listed Aug 1, still marked TBD — confirm |
+
+Full read on file at `memory/shared/CALENDAR_SNAPSHOT.md` (2026-07-09 snapshot).
+
+---
+
 ## System / Memory
 
 | Loop | Status | Notes |
