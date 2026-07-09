@@ -20,7 +20,7 @@ _Last updated: 2026-06-30 (sync handoff)_
 | Strategic Education | strategic_education/ | 7053, 7337, Guardian Lower Bucks TBD | SEI and possibly Guardian as subsidiary. |
 | AmTrust Financial | amtrust/ | 7348 (pending), 7502, 7513, 7515, 7536, 7568, 7572 | 7348 = Cleveland/Princeton (location mismatch — confirm); 7502 = Garden Grove CA; 7513 = Southington CT; 7515 = New York NY; 7536 = NYC or Melville; 7568 = Irvine CA; 7572 = 59 Maiden Lane NYC 6/24 (confirmed AmTrust via FastField). |
 | Dropbox | dropbox/ | 7399, 7460, 7467, 7552 | SF-area + 7467 = Seattle Studio Move 2026-04-27. Possibly overlaps with Pear VC origin building at 1800 Owens St. |
-| Ingersoll Rand | ingersoll_rand/ | 7374 | FastField submitted; pending "approve batch complete 6" to close in Supabase. |
+| Ingersoll Rand | ingersoll_rand/ | 7374, 7453 | 7374 = Maintenance Dept Move, FastField submitted, pending "approve batch complete 6" to close in Supabase. 7453 = Miami to Austin Move (Lawrence Factor → Trace Analytics), added 2026-07-09, active planning/pre-execution — separate scope, do not confuse the two. |
 | Monster Energy | monster_energy/ | 7529 | Location Needs confirmation. |
 | FAA Eastern Region | faa_eastern_region/ | 7559, EJM FAA (TBD) | Federal client. EJM FAA may be same or separate. |
 | UiPath | uipath/ | 7516 | 7516 = Dallas TX service call 2026-05-15. External PM. |
