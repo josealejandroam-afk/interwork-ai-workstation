@@ -34,7 +34,6 @@ _Source: OPEN_LOOPS.md files across memory/clients/ + memory/open_loops/_
 | Item | Question | Source |
 |---|---|---|
 | OFEx identity | What is OFEx? Vendor, separate client, or abbreviation? Provisionally routed to Monster Energy 7529. | `memory/clients/_unassigned/INDEX.md` |
-| McGriff 7553 | Does this belong under `marsh_mclennan/` or stay at `mcgriff/`? | `memory/clients/CLIENT_INDEX.md` |
 | TierPoint 7497 | Location conflict — Supabase says Radian TierPoint / Cherry Hill vs Philadelphia. Confirm. | `memory/clients/tierpoint/` |
 | AmTrust Nashua | Can David quote from existing photos, or is a site walk required? | `memory/clients/amtrust/projects/unknown_nashua_ewaste/` |
 | AmTrust Las Vegas | How many chairs of this type are in storage? Needed before sending quote. | `memory/clients/amtrust/projects/unknown_las_vegas_chairs/` |

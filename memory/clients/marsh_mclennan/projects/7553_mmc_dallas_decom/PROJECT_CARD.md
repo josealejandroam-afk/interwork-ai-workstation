@@ -1,16 +1,11 @@
 # Project 7553 — Walk for Decom Dallas TX
 
-> **Client ambiguity — needs Alejandro confirmation.**
-> Handoff (2026-06-30) identifies client entity as **MMC** (Marsh McLennan Company) with contact Michael Durkin (Marsh/CBRE).
-> Original ChatGPT export filed this under McGriff. Per CLIENT_CONTEXT.md, McGriff is separate from marsh_mclennan — confirm correct folder before relying on routing.
-
 ## Core Facts
 
 | Field | Value |
 |---|---|
 | Project number | 7553 |
 | Client entity on request | MMC (Marsh McLennan Company) |
-| Current folder | mcgriff/ (pending confirmation) |
 | Project name | Walk for Decom Dallas TX |
 | Location | 1717 Main St, Dallas, TX — Marsh office, 44th Floor |
 | Client contact / site POC | Michael Durkin (Marsh / CBRE) |
@@ -37,11 +32,11 @@ Duration: 2–3 days per Francisco Vinueza's assessment.
 
 ## Open Questions
 
-- Confirm correct client folder: MMC (→ marsh_mclennan/) or McGriff (→ mcgriff/)?
 - Confirm final inventory scope / item counts after survey days complete.
 
 ## Source Notes
 
 - Handoff: 2026-06-30 Smartsheet/Supabase sync session
-- Original stub: ChatGPT knowledge export 2026-06-30 (low confidence, Dallas city only)
-- Updated: 2026-06-30
+- Original stub: ChatGPT knowledge export 2026-06-30 (low confidence, Dallas city only), originally filed under a separate mcgriff/ client folder
+- Moved to marsh_mclennan/ 2026-07-10: the client entity on this request was always MMC, not McGriff — the original filing was a low-confidence ChatGPT export guess. Alejandro separately confirmed 2026-07-10 that McGriff generally is an MMA/MMC subsidiary, not a separate billing entity, reinforcing the same conclusion.
+- Updated: 2026-07-10

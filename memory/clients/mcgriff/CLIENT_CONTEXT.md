@@ -1,29 +1,20 @@
-# McGriff — Client Context
+# McGriff — Lookup Pointer (NOT a separate client folder)
 
-## Overview
+## Important
 
-McGriff is an insurance brokerage firm affiliated with Marsh McLennan.
-InterWork completed or is planning work on a Dallas decommission (project 7553) for this client.
+**McGriff does not have its own client folder.**
 
-## Marsh McLennan Relationship
+Alejandro confirmed directly, 2026-07-10: McGriff is a subsidiary of MMA/MMC
+(Marsh McLennan Agency / Marsh McLennan Companies), not a separate billing entity.
+File McGriff-referencing projects under `marsh_mclennan/` unless a specific project
+explicitly indicates separate billing.
 
-McGriff is related to Marsh McLennan but operates as a separate business unit with potentially different billing, contacts, and project ownership.
-- File McGriff projects here in mcgriff/ — do not automatically merge into marsh_mclennan/
-- Use "McGriff" in project names, quotes, WC reports, and client emails unless the paperwork or Alejandro's direction confirms a different billing entity
-- If a McGriff project turns out to be billed through MMC or another Marsh entity, note that in the project card and confirm before changing the project title
+This folder previously held project 7553 (Dallas decom) — merged into marsh_mclennan/
+2026-07-10, since that project's client entity was always MMC, not McGriff.
 
-## Known Projects
+This folder exists only so a search for "McGriff" finds the right pointer.
 
-| # | Name | Location | Status |
-|---|---|---|---|
-| 7553 | McGriff Dallas Decom | Dallas, TX | Needs confirmation |
+## Where to Go
 
-## Known Contacts
-
-| Name | Role | Contact |
-|---|---|---|
-| (none on file) | — | — |
-
-## How to Use This Folder
-
-Read `memory/company_knowledge/START_HERE.md` first, then this file, then the relevant project card.
+- Client context: `memory/clients/marsh_mclennan/CLIENT_CONTEXT.md` (see "Related Entities" section)
+- Project 7553: `memory/clients/marsh_mclennan/projects/7553_mmc_dallas_decom/`

@@ -25,7 +25,9 @@ Also fetch `OPEN_LOOPS.md` and `NOTES.md` at the same path when available.
 | `marsh_mclennan` | 7189 | `7189_mmc_bermuda_hoboken` | MMC Bermuda → Hoboken | `memory/clients/marsh_mclennan/projects/7189_mmc_bermuda_hoboken/PROJECT_CARD.md` |
 | `marsh_mclennan` | 7241 | `7241_mmc_allentown_move` | Allentown PA | `memory/clients/marsh_mclennan/projects/7241_mmc_allentown_move/PROJECT_CARD.md` |
 | `marsh_mclennan` | 7299 | `7299_mmc_alpharetta_monitors` | Alpharetta GA — monitors | `memory/clients/marsh_mclennan/projects/7299_mmc_alpharetta_monitors/PROJECT_CARD.md` |
+| `marsh_mclennan` | 7347 | `7347_mma_mclean_consolidation` | MMA McLean VA consolidation / Wilmington NC Zoom Room AV recovery — active, recovery visit pending week of 7/13 | `memory/clients/marsh_mclennan/projects/7347_mma_mclean_consolidation/PROJECT_CARD.md` |
 | `marsh_mclennan` | 7378 | `7378_mma_sepulveda_5th_floor` | MMA Sepulveda 5th floor | `memory/clients/marsh_mclennan/projects/7378_mma_sepulveda_5th_floor/PROJECT_CARD.md` |
+| `marsh_mclennan` | 7434 | `7434_mma_edina_office_refresh` | MMA Edina MN office refresh — completed per handoff, Supabase not yet reconciled | `memory/clients/marsh_mclennan/projects/7434_mma_edina_office_refresh/PROJECT_CARD.md` |
 | `marsh_mclennan` | 7465 | `7465_mma_ancillary_furniture` | MMA ancillary furniture | `memory/clients/marsh_mclennan/projects/7465_mma_ancillary_furniture/PROJECT_CARD.md` |
 | `marsh_mclennan` | 7472 | `7472_mma_punchlist_addison` | MMA punchlist Addison TX | `memory/clients/marsh_mclennan/projects/7472_mma_punchlist_addison/PROJECT_CARD.md` |
 | `marsh_mclennan` | 7484 | `7484_mmc_crates_pickup_austin` | MMC crates pickup Austin TX | `memory/clients/marsh_mclennan/projects/7484_mmc_crates_pickup_austin/PROJECT_CARD.md` |
@@ -33,6 +35,7 @@ Also fetch `OPEN_LOOPS.md` and `NOTES.md` at the same path when available.
 | `marsh_mclennan` | 7494 | `7494_mma_sd_to_walnut_creek` | MMA SD → Walnut Creek CA | `memory/clients/marsh_mclennan/projects/7494_mma_sd_to_walnut_creek/PROJECT_CARD.md` |
 | `marsh_mclennan` | 7495 | `7495_mma_charlotte_restack` | MMA Charlotte NC restack | `memory/clients/marsh_mclennan/projects/7495_mma_charlotte_restack/PROJECT_CARD.md` |
 | `marsh_mclennan` | 7521 | `7521_mmc_austin_restack` | MMC Austin TX restack | `memory/clients/marsh_mclennan/projects/7521_mmc_austin_restack/PROJECT_CARD.md` |
+| `marsh_mclennan` | 7553 | `7553_mmc_dallas_decom` | MMC Dallas TX decom — merged from former mcgriff/ folder 2026-07-10, client entity confirmed MMC | `memory/clients/marsh_mclennan/projects/7553_mmc_dallas_decom/PROJECT_CARD.md` |
 | `marsh_mclennan` | 7556 | `7556_mma_art_work_dallas` | MMA art/work Dallas TX — Today 2026-06-30 | `memory/clients/marsh_mclennan/projects/7556_mma_art_work_dallas/PROJECT_CARD.md` |
 | `marsh_mclennan` | 7576 | `7576_marsh_broomfield_motors` | Marsh Broomfield CO motors | `memory/clients/marsh_mclennan/projects/7576_marsh_broomfield_motors/PROJECT_CARD.md` |
 | `amtrust` | 7348 | `7348_cleveland` | Cleveland/Princeton (location confirm needed) | `memory/clients/amtrust/projects/7348_cleveland/PROJECT_CARD.md` |
@@ -65,7 +68,6 @@ Also fetch `OPEN_LOOPS.md` and `NOTES.md` at the same path when available.
 | `claritev_multiplan` | 7420 | `7420_parsippany` | Laguna Hills CA (folder name is incorrect legacy name — confirmed Laguna Hills) | `memory/clients/claritev_multiplan/projects/7420_parsippany/PROJECT_CARD.md` |
 | `claritev_multiplan` | 6836 | `6836_historical` | Historical | `memory/clients/claritev_multiplan/projects/6836_historical/PROJECT_CARD.md` |
 | `claritev_multiplan` | 6837 | `6837_historical` | Historical | `memory/clients/claritev_multiplan/projects/6837_historical/PROJECT_CARD.md` |
-| `mcgriff` | 7553 | `7553_dallas_decom` | Dallas TX decom — ambiguous client entity (may belong to marsh_mclennan) | `memory/clients/mcgriff/projects/7553_dallas_decom/PROJECT_CARD.md` |
 | `premier_orthopaedics` | 7391 | `unknown_project` | 3809 W. Chester Pike Newtown Square PA — Today 2026-06-30, At Risk | `memory/clients/premier_orthopaedics/projects/unknown_project/PROJECT_CARD.md` |
 | `ingersoll_rand` | 7374 | `7374_project` | FastField submitted | `memory/clients/ingersoll_rand/projects/7374_project/PROJECT_CARD.md` |
 | `monster_energy` | 7529 | `7529_project` | Location TBC; may hold OFEx item (confirm with Alejandro) | `memory/clients/monster_energy/projects/7529_project/PROJECT_CARD.md` |

@@ -160,7 +160,7 @@ Base URL: `https://raw.githubusercontent.com/josealejandroam-afk/interwork-ai-wo
 | Radian | radian |
 | TierPoint | tierpoint |
 | Dropbox | dropbox |
-| McGriff | mcgriff |
+| McGriff (MMA/MMC subsidiary — no separate folder, confirmed 2026-07-10) | marsh_mclennan |
 | Rothman Orthopaedics | rothman_orthopaedics |
 | Strategic Education | strategic_education |
 | AmTrust Financial | amtrust |

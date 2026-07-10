@@ -9,7 +9,7 @@ _Last updated: 2026-06-30 (sync handoff)_
 
 | Client | Folder | Active Projects | Notes |
 |---|---|---|---|
-| Marsh McLennan (MMC / MMA) | marsh_mclennan/ | 7189, 7060, 7378, 7364, 7431, 7407, 7437, 7486, 7471, 7418, 7354, 7434, 7495, 7447, 7191, 7521, 7576, 7299, 7241, 7494, 7465, 7472, 7484, 7556, 7347 | MMC = Marsh McLennan Company; MMA = Marsh & McLennan Agency. Same parent. Multiple ongoing engagements across US offices. 7347 = McLean VA consolidation, active Wilmington AV recovery (added 2026-07-10, removed from batch-completion approval). |
+| Marsh McLennan (MMC / MMA) | marsh_mclennan/ | 7189, 7060, 7378, 7364, 7431, 7407, 7437, 7486, 7471, 7418, 7354, 7434, 7495, 7447, 7191, 7521, 7576, 7299, 7241, 7494, 7465, 7472, 7484, 7556, 7347, 7553 | MMC = Marsh McLennan Company; MMA = Marsh & McLennan Agency. Same parent. Multiple ongoing engagements across US offices. 7347 = McLean VA consolidation, active Wilmington AV recovery (added 2026-07-10, removed from batch-completion approval). 7553 = Dallas decom, merged in 2026-07-10 from the former mcgriff/ folder. |
 | Bentley Systems | bentley_systems/ | 7350, 7450 | Multi-phase engagement. 7350 = Phase 4 Final (July 1-2). 7450 = Framingham to Exton. |
 | Vecos USA | vecos/ | 7579, 7454 | Locker commissioning. Vecos is InterWork's client. JPMC is Vecos's customer (end user site only). |
 | Pear VC | pear_vc/ | 7510 | 7510 = SF relocation to 600 Townsend (July 1). |
@@ -24,7 +24,6 @@ _Last updated: 2026-06-30 (sync handoff)_
 | Monster Energy | monster_energy/ | 7529 | Location Needs confirmation. |
 | FAA Eastern Region | faa_eastern_region/ | 7559, EJM FAA (TBD) | Federal client. EJM FAA may be same or separate. |
 | UiPath | uipath/ | 7516 | 7516 = Dallas TX service call 2026-05-15. External PM. |
-| McGriff | mcgriff/ | 7553 | Dallas, TX decom. **Resolved 2026-07-10:** Alejandro confirmed McGriff is a subsidiary of MMA/MMC, not a separate billing entity — see `marsh_mclennan/CLIENT_CONTEXT.md`. This folder predates that clarification and hasn't been merged into marsh_mclennan/ yet; treat as pending cleanup, not an open question. |
 | Goldberg Segalla | goldberg_segalla/ | 7352, 7322 | Law firm. 7352 = White Plains NY Phase 1 Decom. 7322 = St. Louis MO May 5. |
 | SS&C Technologies | ss_c_technologies/ | 7580 | 7580 = site walk 600 Townsend SF 6/29. New client in Supabase. |
 | Percheron Capital | percheron_capital/ | 7581 | 7581 = site walk One Letterman Dr, SF 6/30. Future move TBD ~8/24. |
@@ -48,6 +47,7 @@ These folders exist only to redirect lookups to the correct client folder.
 | Folder | Who they are | Real client folder |
 |---|---|---|
 | jpmc/ | JPMC is the end-user site for project 7579. Vecos USA is the InterWork client. | vecos/ |
+| mcgriff/ | McGriff is an MMA/MMC subsidiary, not a separate billing entity (confirmed 2026-07-10). Project 7553 merged into marsh_mclennan/. | marsh_mclennan/ |
 
 ## Unassigned / Ambiguous Projects
 

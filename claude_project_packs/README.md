@@ -47,7 +47,6 @@ The bootstrap is stable and does not need to be re-uploaded when project facts c
 | bentley_systems_knowledge_pack.md | Bentley Systems | Fallback only — use bootstrap |
 | radian_knowledge_pack.md | Radian | Fallback only — use bootstrap |
 | rothman_orthopaedics_knowledge_pack.md | Rothman Orthopaedics | Fallback only — use bootstrap |
-| mcgriff_knowledge_pack.md | McGriff | Fallback only |
 | pear_vc_knowledge_pack.md | Pear VC | Fallback only |
 | claritev_multiplan_knowledge_pack.md | Claritev / MultiPlan | Fallback only |
 | strategic_education_knowledge_pack.md | Strategic Education | Fallback only — use bootstrap |

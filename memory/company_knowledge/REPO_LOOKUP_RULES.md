@@ -28,7 +28,7 @@ If the Claude Project name identifies the client, use that client directly.
 | Bentley Projects | memory/clients/bentley_systems/ |
 | Vecos Projects | memory/clients/vecos/ |
 | Pear VC Projects | memory/clients/pear_vc/ |
-| McGriff Projects | memory/clients/mcgriff/ |
+| McGriff Projects | memory/clients/marsh_mclennan/ (McGriff is an MMA/MMC subsidiary, not a separate client — confirmed 2026-07-10) |
 | Dropbox Projects | memory/clients/dropbox/ |
 
 If the client is not clear from the project name or the user's message, use `memory/clients/CLIENT_INDEX.md` to look it up. CLIENT_INDEX is a fallback — not a default starting point.

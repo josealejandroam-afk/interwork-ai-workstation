@@ -43,8 +43,8 @@ If a project comes from one of these entities, file it under the entity that app
 **McGriff is not one of these** — confirmed directly by Alejandro, 2026-07-10: McGriff is a
 subsidiary of MMA/MMC, not a separate billing entity. File McGriff-referencing projects
 under marsh_mclennan/ unless a specific project explicitly indicates separate billing.
-(A folder exists at `memory/clients/mcgriff/` — project 7553 — predating this
-clarification; see `CLIENT_INDEX.md`'s McGriff entry for the note on reconciling it.)
+(The former `memory/clients/mcgriff/` folder — project 7553 — was merged in here 2026-07-10;
+see 7553 below.)
 
 ## Known Projects
 
@@ -70,6 +70,7 @@ clarification; see `CLIENT_INDEX.md`'s McGriff entry for the note on reconciling
 | 7447 | MMA Tech Install Clearwater FL | Clearwater FL | Scheduled (past-dated) | Bad actual_end_at; fix held |
 | 7191 | MMA Punch List Cape May NJ | Cape May NJ | Scheduled (past-dated) | No signals |
 | 7347 | MMA McLean Consolidation / Wilmington Zoom Room AV Recovery | McLean VA → Wilmington NC | Active — AV recovery visit pending, week of 7/13 | Original May move looked done (fastfield submitted); recovery handoff 2026-07-10 found the Zoom Room AV system was never fully shipped. Removed from the pending Supabase batch-completion approval. See project folder. |
+| 7553 | MMC Walk for Decom Dallas TX | 1717 Main St, Dallas TX, 44th Floor | Scheduled (past-dated) | Client POC Michael Durkin (Marsh/CBRE); PM Jairo Escalante; client_informed + access_confirmed + fastfield_submitted all true. Merged in 2026-07-10 from a former separate mcgriff/ folder — client entity was always MMC. See project folder. |
 
 ## Known Contacts
 
