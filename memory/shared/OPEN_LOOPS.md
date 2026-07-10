@@ -1,6 +1,6 @@
 # Open Loops
 _Unresolved items requiring action. Update status as items close._
-_Last updated: 2026-06-29_
+_Last updated: 2026-07-10_
 
 ---
 
@@ -17,7 +17,7 @@ _Last updated: 2026-06-29_
 
 | # | Loop | Trigger Phrase | Notes |
 |---|------|---------------|-------|
-| 3 | Batch status → completed: 7374, 7499, 7498, 7347, 7472, 7482 | "approve batch complete 6" | 6 projects with fastfield_submitted=true; SQL drafted at scripts/sql/draft_batch_complete_fastfield.sql |
+| 3 | Batch status → completed: 7374, 7499, 7498, 7472, 7482 | "approve batch complete 6" (scope now 5 — see note) | 5 projects with fastfield_submitted=true; SQL drafted at scripts/sql/draft_batch_complete_fastfield.sql. 7347 removed 2026-07-10 — see #19. |
 | 4 | Project 7447 — null out invalid actual_end_at | "apply 7447 fix" | April 15 date is before June 16 start; SQL drafted at scripts/sql/draft_fix_7447_actual_end.sql |
 | 5 | Send confirmation to Frank Barrett (project 7060 MMC Dallas) | "send it" after reviewing draft | Draft in docs/PROJECT_STATUS_CONFIRMATION_DRAFTS.md |
 | 6 | Send confirmation to Pedro Martinez (project 7348 Amtrust Cleveland) | "send it" after reviewing draft | Same file |
@@ -47,6 +47,7 @@ _Last updated: 2026-06-29_
 | 16 | 7060 MMC Dallas in_progress since Apr 3 | client_confirmed=false, fastfield_submitted=false | HIGH — 3 months overdue |
 | 17 | 7448 — check 7435 MMA Colleague Relocation | in_progress since Apr 23, fastfield_submitted=true but status stuck | MEDIUM — likely done |
 | 18 | 48 past-dated projects with status=scheduled | Status backfill needed | MEDIUM — creates noise in health view |
+| 19 | 7347 MMA McLean Consolidation — Wilmington Zoom Room AV recovery | Full AV system (video bar, TV, mics, speakers, connection boxes) never shipped from former McLean office — only the Poly controller reached Wilmington. Recovery visit planned week of 7/13 (not Tuesday), pending access approval (Ivy Ringhoff) and confirming Stalin/Jose onsite. Removed from the batch-completion approval (#3) 2026-07-10 — see project folder. | HIGH — real client-reported gap, recovery not yet scheduled |
 
 ---
 
@@ -54,7 +55,7 @@ _Last updated: 2026-06-29_
 
 | # | Loop | Status | Notes |
 |---|------|--------|-------|
-| 19 | v_project_health date calibration fix | Pending — SQL not yet drafted | False proximity alerts for past-dated projects |
-| 20 | RLS policies for Supabase | HELD — do not enable until policies written | Enabling without policies blocks all access |
-| 21 | C:\Users\Owner\.claude archive | HELD — do not delete | Keep until fully operational on D: |
-| 22 | communications table empty | Blocked on M365 OAuth | No email/Teams data syncing |
+| 20 | v_project_health date calibration fix | Pending — SQL not yet drafted | False proximity alerts for past-dated projects |
+| 21 | RLS policies for Supabase | HELD — do not enable until policies written | Enabling without policies blocks all access |
+| 22 | C:\Users\Owner\.claude archive | HELD — do not delete | Keep until fully operational on D: |
+| 23 | communications table empty | Blocked on M365 OAuth | No email/Teams data syncing |

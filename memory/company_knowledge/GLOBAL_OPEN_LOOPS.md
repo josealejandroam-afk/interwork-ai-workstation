@@ -33,7 +33,8 @@ Do not resend without Alejandro instruction. Do not follow up on this.
 
 | Loop | Status | Notes |
 |---|---|---|
-| Batch status update: 7374, 7499, 7498, 7347, 7472, 7482 → completed | Held | Trigger phrase: "approve batch complete 6" |
+| Batch status update: 7374, 7499, 7498, 7472, 7482 → completed | Held | Trigger phrase: "approve batch complete 6" (scope now 5 projects — 7347 removed 2026-07-10, see below) |
+| 7347 MMA McLean Consolidation — Wilmington Zoom Room AV recovery | Open, not held | Full AV system left behind at former McLean office; recovery visit planned week of 7/13. Was in the batch above until a 2026-07-10 handoff surfaced this — see `memory/clients/marsh_mclennan/projects/7347_mma_mclean_consolidation/`. Do not mark completed. |
 | Project 7447 — null out invalid actual_end_at | Held | Trigger phrase: "apply 7447 fix" |
 | 48 past-dated projects with status=scheduled | Pending | Status backfill needed — creates noise in health view |
 | v_project_health date calibration | Pending | SQL not yet drafted — false proximity alerts for past-dated records |

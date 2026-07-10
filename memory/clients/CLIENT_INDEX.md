@@ -9,7 +9,7 @@ _Last updated: 2026-06-30 (sync handoff)_
 
 | Client | Folder | Active Projects | Notes |
 |---|---|---|---|
-| Marsh McLennan (MMC / MMA) | marsh_mclennan/ | 7189, 7060, 7378, 7364, 7431, 7407, 7437, 7486, 7471, 7418, 7354, 7434, 7495, 7447, 7191, 7521, 7576, 7299, 7241, 7494, 7465, 7472, 7484, 7556 | MMC = Marsh McLennan Company; MMA = Marsh & McLennan Agency. Same parent. Multiple ongoing engagements across US offices. |
+| Marsh McLennan (MMC / MMA) | marsh_mclennan/ | 7189, 7060, 7378, 7364, 7431, 7407, 7437, 7486, 7471, 7418, 7354, 7434, 7495, 7447, 7191, 7521, 7576, 7299, 7241, 7494, 7465, 7472, 7484, 7556, 7347 | MMC = Marsh McLennan Company; MMA = Marsh & McLennan Agency. Same parent. Multiple ongoing engagements across US offices. 7347 = McLean VA consolidation, active Wilmington AV recovery (added 2026-07-10, removed from batch-completion approval). |
 | Bentley Systems | bentley_systems/ | 7350, 7450 | Multi-phase engagement. 7350 = Phase 4 Final (July 1-2). 7450 = Framingham to Exton. |
 | Vecos USA | vecos/ | 7579, 7454 | Locker commissioning. Vecos is InterWork's client. JPMC is Vecos's customer (end user site only). |
 | Pear VC | pear_vc/ | 7510 | 7510 = SF relocation to 600 Townsend (July 1). |

@@ -63,6 +63,7 @@ If a project comes from one of these entities, file it under the entity that app
 | 7495 | MMA Move/Light Decom Charlotte NC | Charlotte NC | Scheduled (past-dated) | Melvin Hernandez PM; vendor confirmed |
 | 7447 | MMA Tech Install Clearwater FL | Clearwater FL | Scheduled (past-dated) | Bad actual_end_at; fix held |
 | 7191 | MMA Punch List Cape May NJ | Cape May NJ | Scheduled (past-dated) | No signals |
+| 7347 | MMA McLean Consolidation / Wilmington Zoom Room AV Recovery | McLean VA → Wilmington NC | Active — AV recovery visit pending, week of 7/13 | Original May move looked done (fastfield submitted); recovery handoff 2026-07-10 found the Zoom Room AV system was never fully shipped. Removed from the pending Supabase batch-completion approval. See project folder. |
 
 ## Known Contacts
 

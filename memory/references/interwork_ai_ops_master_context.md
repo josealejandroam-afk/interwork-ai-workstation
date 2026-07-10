@@ -274,8 +274,9 @@ Use `source='manual'` for Claude-initiated writes (no 'ai' enum value yet).
 
 ## 12. Current Priorities (ChatGPT-confirmed, 2026-06-26)
 
-1. **Approve 6-project batch status update** — awaiting Alejandro "approve batch complete 6"
-   Projects: 7374, 7499, 7498, 7347, 7472, 7482 → status = completed
+1. **Approve batch status update** — awaiting Alejandro "approve batch complete 6" (scope now 5 projects)
+   Projects: 7374, 7499, 7498, 7472, 7482 → status = completed
+   (7347 removed 2026-07-10 — Wilmington Zoom Room AV recovery still open, see marsh_mclennan/projects/7347_mma_mclean_consolidation/)
 2. **Fix 7447 bad actual_end_at** — draft at `scripts/sql/draft_fix_7447_actual_end.sql`; awaiting approval
 3. **Hold 7053** — scheduled end 2026-06-30, final punchlist still due; revisit July 1
 4. **M365 OAuth** — unlocks Teams + Outlook; highest-value integration after data cleanup
@@ -288,8 +289,8 @@ Use `source='manual'` for Claude-initiated writes (no 'ai' enum value yet).
 ## 13. Things That Require Alejandro Approval
 
 **Pending (not yet applied):**
-- Batch status update: 7374, 7499, 7498, 7347, 7472, 7482 → `status = 'completed'`
-  Say: "approve batch complete 6"
+- Batch status update: 7374, 7499, 7498, 7472, 7482 → `status = 'completed'`
+  Say: "approve batch complete 6" (scope now 5 projects — 7347 removed 2026-07-10, AV recovery still open)
 - 7447 `actual_end_at` correction: NULL out the invalid April 15 value
   Say: "apply 7447 fix"
 - Any future `status` changes on any project
