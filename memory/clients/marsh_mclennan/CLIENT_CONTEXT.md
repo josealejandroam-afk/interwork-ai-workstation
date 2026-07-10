@@ -59,7 +59,7 @@ If a project comes from one of these entities, file it under the entity that app
 | 7471 | MMA Decom + Move Loveland OH | Loveland OH | Scheduled (past-dated) | Frank Barrett PM; no FastField |
 | 7418 | MMA Colleague Relocation Columbia MD | Columbia MD | Scheduled (past-dated) | No PM in pm_assigned field |
 | 7354 | MMA Retrieve Tech Alpharetta GA | Alpharetta GA | Scheduled (past-dated) | External PM; vendor confirmed |
-| 7434 | MMA Paint Scope Edina MN | Edina MN | Scheduled (past-dated) | No FastField; status unclear |
+| 7434 | MMA Edina Office Refresh | 5050 Lincoln Drive Suite 460, Edina MN | Completed per 2026-07-10 handoff — Supabase status not yet reconciled | Full scope: C-bins, packing, decom, electrical, painting, furniture install, monitor arms, tech reconnect, shades, return cleanup visit. 2 open items: café furniture install, additional lockers quote. See project folder. |
 | 7495 | MMA Move/Light Decom Charlotte NC | Charlotte NC | Scheduled (past-dated) | Melvin Hernandez PM; vendor confirmed |
 | 7447 | MMA Tech Install Clearwater FL | Clearwater FL | Scheduled (past-dated) | Bad actual_end_at; fix held |
 | 7191 | MMA Punch List Cape May NJ | Cape May NJ | Scheduled (past-dated) | No signals |
