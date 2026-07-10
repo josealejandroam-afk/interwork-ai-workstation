@@ -47,7 +47,7 @@ Do not resend without Alejandro instruction. Do not follow up on this.
 
 | Loop | Location | PM | Next step |
 |---|---|---|---|
-| 7589 INNOVARE — Furniture Install | MN | — | Confirm date on Smartsheet |
+| 7589 INNOVARE — Furniture Install (Acrisure, job #25793-F) | Miami Lakes, FL | Hunter Barbieri | Awaiting labor quote from Craig Bohres/Epic Office Installations; call scheduled. Items shipping direct to site, expected week of 7/13. Location corrected 2026-07-10 from "MN" per Outlook thread "7589 - Miami Lakes Labor request/quote" + Innovare quote-request doc (job 25793-F, install address 15050 NW 79th Court Suite 200, Miami Lakes FL 33016) — MN may have referred to a different Innovare job; flag to Alejandro if MN was a separate real job that also needs tracking. |
 | 7593 Amtrust — Chair Move | Jersey City NJ | — | Confirm date on Smartsheet |
 | 7541 Antidefamation League — Conference setup | — | — | Confirm date on Smartsheet |
 | 7556 MMA — Art Work Hanging | Dallas TX | — | Confirm date on Smartsheet |

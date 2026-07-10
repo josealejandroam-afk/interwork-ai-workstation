@@ -37,7 +37,9 @@ Also fetch `OPEN_LOOPS.md` and `NOTES.md` at the same path when available.
 | `marsh_mclennan` | 7521 | `7521_mmc_austin_restack` | MMC Austin TX restack | `memory/clients/marsh_mclennan/projects/7521_mmc_austin_restack/PROJECT_CARD.md` |
 | `marsh_mclennan` | 7553 | `7553_mmc_dallas_decom` | MMC Dallas TX decom — merged from former mcgriff/ folder 2026-07-10, client entity confirmed MMC | `memory/clients/marsh_mclennan/projects/7553_mmc_dallas_decom/PROJECT_CARD.md` |
 | `marsh_mclennan` | 7556 | `7556_mma_art_work_dallas` | MMA art/work Dallas TX — Today 2026-06-30 | `memory/clients/marsh_mclennan/projects/7556_mma_art_work_dallas/PROJECT_CARD.md` |
+| `marsh_mclennan` | 7574 | `7574_mma_raleigh_tech_install` | MMA Raleigh NC tech install — vendor-confirmed (Tier LLC), scheduled 7/15-7/16 | `memory/clients/marsh_mclennan/projects/7574_mma_raleigh_tech_install/PROJECT_CARD.md` |
 | `marsh_mclennan` | 7576 | `7576_marsh_broomfield_motors` | Marsh Broomfield CO motors | `memory/clients/marsh_mclennan/projects/7576_marsh_broomfield_motors/PROJECT_CARD.md` |
+| `marsh_mclennan` | 7578 | `7578_mma_greensboro_office_swap` | MMA Greensboro NC office swap (CBRE) — vendor-confirmed (Tier LLC), scheduled Monday 7/13 | `memory/clients/marsh_mclennan/projects/7578_mma_greensboro_office_swap/PROJECT_CARD.md` |
 | `amtrust` | 7348 | `7348_cleveland` | Cleveland/Princeton (location confirm needed) | `memory/clients/amtrust/projects/7348_cleveland/PROJECT_CARD.md` |
 | `amtrust` | 7502 | `7502_small_office_move_garden_grove` | Garden Grove CA | `memory/clients/amtrust/projects/7502_small_office_move_garden_grove/PROJECT_CARD.md` |
 | `amtrust` | 7513 | `7513_move_office_furniture_southington` | Southington CT | `memory/clients/amtrust/projects/7513_move_office_furniture_southington/PROJECT_CARD.md` |
@@ -51,7 +53,7 @@ Also fetch `OPEN_LOOPS.md` and `NOTES.md` at the same path when available.
 | `dropbox` | 7399 | `7399_project` | See card | `memory/clients/dropbox/projects/7399_project/PROJECT_CARD.md` |
 | `dropbox` | 7460 | `7460_project` | See card | `memory/clients/dropbox/projects/7460_project/PROJECT_CARD.md` |
 | `dropbox` | 7467 | `7467_seattle_studio_move` | Seattle Studio move 2026-04-27 | `memory/clients/dropbox/projects/7467_seattle_studio_move/PROJECT_CARD.md` |
-| `dropbox` | 7552 | `7552_project` | 1800 Owens St SF — Today 2026-06-30, At Risk | `memory/clients/dropbox/projects/7552_project/PROJECT_CARD.md` |
+| `dropbox` | 7552 | `7552_dropbox_hq_move` | 1800 Owens St SF — HQ Move, Phase 2 (2nd floor/power beams) in progress | `memory/clients/dropbox/projects/7552_dropbox_hq_move/PROJECT_CARD.md` |
 | `guardian` | 7341 | `7341_decom_newport_beach` | Newport Beach CA decom | `memory/clients/guardian/projects/7341_decom_newport_beach/PROJECT_CARD.md` |
 | `goldberg_segalla` | 7322 | `7322_may5_st_louis` | St. Louis MO (May 5) | `memory/clients/goldberg_segalla/projects/7322_may5_st_louis/PROJECT_CARD.md` |
 | `goldberg_segalla` | 7352 | `7352_decom_white_plains` | White Plains NY Phase 1 decom | `memory/clients/goldberg_segalla/projects/7352_decom_white_plains/PROJECT_CARD.md` |
@@ -70,6 +72,7 @@ Also fetch `OPEN_LOOPS.md` and `NOTES.md` at the same path when available.
 | `claritev_multiplan` | 6837 | `6837_historical` | Historical | `memory/clients/claritev_multiplan/projects/6837_historical/PROJECT_CARD.md` |
 | `premier_orthopaedics` | 7391 | `unknown_project` | 3809 W. Chester Pike Newtown Square PA — Today 2026-06-30, At Risk | `memory/clients/premier_orthopaedics/projects/unknown_project/PROJECT_CARD.md` |
 | `ingersoll_rand` | 7374 | `7374_project` | FastField submitted | `memory/clients/ingersoll_rand/projects/7374_project/PROJECT_CARD.md` |
+| `ingersoll_rand` | 7453 | `7453_miami_to_austin_move` | Miami to Austin move — active planning, Miami site visit 7/23 | `memory/clients/ingersoll_rand/projects/7453_miami_to_austin_move/PROJECT_CARD.md` |
 | `monster_energy` | 7529 | `7529_project` | Location TBC; may hold OFEx item (confirm with Alejandro) | `memory/clients/monster_energy/projects/7529_project/PROJECT_CARD.md` |
 | `faa_eastern_region` | 7559 | `7559_project` | See card | `memory/clients/faa_eastern_region/projects/7559_project/PROJECT_CARD.md` |
 | `ss_c_technologies` | 7580 | `7580_project` | 600 Townsend SF — site walk 2026-06-29 | `memory/clients/ss_c_technologies/projects/7580_project/PROJECT_CARD.md` |
@@ -84,6 +87,8 @@ Also fetch `OPEN_LOOPS.md` and `NOTES.md` at the same path when available.
 | `teknion` | 5156 | `5156_project` | Historical | `memory/clients/teknion/projects/5156_project/PROJECT_CARD.md` |
 | `bevin_palidar` | 7584 | `7584_house_move_clementon` | Clementon NJ → Tabernacle NJ — Jul 2 | `memory/clients/bevin_palidar/projects/7584_house_move_clementon/PROJECT_CARD.md` |
 | `tegna_premion` | TBD | `unknown_project` | No project number confirmed | `memory/clients/tegna_premion/projects/unknown_project/PROJECT_CARD.md` |
+| `resintech` | 7448 | `7448_private_office` | Camden NJ private office install — installed 2026-07-10 | `memory/clients/resintech/projects/7448_private_office/PROJECT_CARD.md` |
+| `innovare` | 7589 | `7589_acrisure_miami_lakes` | Acrisure, Miami Lakes FL — labor quoted $1,075, vendor rate/date still pending | `memory/clients/innovare/projects/7589_acrisure_miami_lakes/PROJECT_CARD.md` |
 
 ---
 

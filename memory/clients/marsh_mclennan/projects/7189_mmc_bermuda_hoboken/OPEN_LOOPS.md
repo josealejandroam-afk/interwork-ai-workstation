@@ -9,3 +9,4 @@
 | 5 | Identify MMC client POC for this phase | Hunter Barbieri | Open |
 | 6 | Confirm whether MMC has been notified of July 1 date | Alejandro | Open |
 | 7 | FastField for Jairo not yet submitted | Jairo Escalante | Pending execution |
+| 8 | Ops huddle (7/10) raised an open "who's going back to Bermuda" question. Smartsheet calendar shows Francisco Vinueza as PM on both the week-of-7/6 Bermuda entry and the 7/13-18 Hoboken loadout entry. Reconcile against Jairo Escalante as confirmed field PM (may be separate field-PM vs. ops-PM roles, not necessarily a conflict). | Alejandro | Open |

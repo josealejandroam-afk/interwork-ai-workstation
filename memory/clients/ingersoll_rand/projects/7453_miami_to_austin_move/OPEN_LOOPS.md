@@ -40,3 +40,7 @@ Last updated from source material dated through 2026-07-09.
 ## Data / Repo
 
 - Full street addresses for Lawrence Factor (Miami) and Trace Analytics (Austin) are not yet confirmed in source material.
+
+## Travel (InterWork side)
+
+- Ops huddle (2026-07-10) confirmed some InterWork team members will travel the night before (7/22) for the July 23 Miami site visit.
