@@ -51,7 +51,7 @@ Do not resend without Alejandro instruction. Do not follow up on this.
 | 7593 Amtrust — Chair Move | Jersey City NJ | — | Confirm date on Smartsheet |
 | 7541 Antidefamation League — Conference setup | — | — | Confirm date on Smartsheet |
 | 7556 MMA — Art Work Hanging | Dallas TX | — | Confirm date on Smartsheet |
-| 7549 CRC — Move | Indianapolis IN | — | Listed Aug 1, still marked TBD — confirm |
+| 7549 Kensington Vanguard (KV) — Indianapolis Relocation | Indianapolis IN | Danielle Stingone (Lincoln Property Company, supporting KV) | Move 8/1, FDOB 8/3, crates delivered (increased to 10). Client corrected 2026-07-10 from "CRC" — that was a mislabel; confirmed client is Kensington Vanguard, unrelated to the CRC Group Tampa project (7537). See `memory/clients/kensington_vanguard/projects/7549_indianapolis_relocation/`. |
 
 Full read on file at `memory/shared/CALENDAR_SNAPSHOT.md` (2026-07-09 snapshot).
 

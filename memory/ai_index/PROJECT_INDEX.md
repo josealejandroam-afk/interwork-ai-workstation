@@ -84,6 +84,8 @@ Also fetch `OPEN_LOOPS.md` and `NOTES.md` at the same path when available.
 | `spryson` | TBD | `unknown_pittsburgh_small_move` | Pittsburgh PA small move — pre-proposal, week of Jul 20 tentative | `memory/clients/spryson/projects/unknown_pittsburgh_small_move/PROJECT_CARD.md` |
 | `vecos_iu_health` | TBD | `unknown_iu_health_lockers` | Bloomington IN locker commissioning | `memory/clients/vecos_iu_health/projects/unknown_iu_health_lockers/PROJECT_CARD.md` |
 | `lincoln_crc_group` | 7246 | `7246_project` | See card | `memory/clients/lincoln_crc_group/projects/7246_project/PROJECT_CARD.md` |
+| `lincoln_crc_group` | 7537 | `7537_tampa_bayport_plaza_move_decom` | Tampa FL Bayport Plaza — move 7/24, decom 7/25, Day One 7/27 | `memory/clients/lincoln_crc_group/projects/7537_tampa_bayport_plaza_move_decom/PROJECT_CARD.md` |
+| `kensington_vanguard` | 7549 | `7549_indianapolis_relocation` | Indianapolis IN — move 8/1, FDOB 8/3. Tracker mislabels this "7549 CRC" — correct at source. | `memory/clients/kensington_vanguard/projects/7549_indianapolis_relocation/PROJECT_CARD.md` |
 | `teknion` | 5156 | `5156_project` | Historical | `memory/clients/teknion/projects/5156_project/PROJECT_CARD.md` |
 | `bevin_palidar` | 7584 | `7584_house_move_clementon` | Clementon NJ → Tabernacle NJ — Jul 2 | `memory/clients/bevin_palidar/projects/7584_house_move_clementon/PROJECT_CARD.md` |
 | `tegna_premion` | TBD | `unknown_project` | No project number confirmed | `memory/clients/tegna_premion/projects/unknown_project/PROJECT_CARD.md` |
