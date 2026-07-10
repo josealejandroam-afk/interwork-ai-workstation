@@ -1,4 +1,5 @@
 # Marsh McLennan — Client Context
+_Last updated: 2026-07-10_
 
 ## Overview
 
@@ -36,9 +37,14 @@ The following entities are related to Marsh McLennan but may operate as separate
 | **Guy Carpenter** | Marsh McLennan subsidiary (reinsurance) | Use "Guy Carpenter" unless paperwork confirms MMC billing |
 | **Mercer** | Marsh McLennan subsidiary (HR consulting) | Use "Mercer" unless paperwork confirms MMC billing |
 | **Oliver Wyman** | Marsh McLennan subsidiary (management consulting) | Use "Oliver Wyman" unless paperwork confirms MMC billing |
-| **McGriff** | Marsh McLennan-affiliated (insurance brokerage) | Use "McGriff" — has its own folder at memory/clients/mcgriff/ |
 
 If a project comes from one of these entities, file it under the entity that appears on the request, not automatically under marsh_mclennan/. If unsure, ask Alejandro.
+
+**McGriff is not one of these** — confirmed directly by Alejandro, 2026-07-10: McGriff is a
+subsidiary of MMA/MMC, not a separate billing entity. File McGriff-referencing projects
+under marsh_mclennan/ unless a specific project explicitly indicates separate billing.
+(A folder exists at `memory/clients/mcgriff/` — project 7553 — predating this
+clarification; see `CLIENT_INDEX.md`'s McGriff entry for the note on reconciling it.)
 
 ## Known Projects
 
