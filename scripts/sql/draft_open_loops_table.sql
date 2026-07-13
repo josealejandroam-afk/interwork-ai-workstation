@@ -1,6 +1,9 @@
 -- ============================================================
 -- DRAFT — open_loops table for interwork-command-center
 -- STATUS: NOT APPLIED — pending Alejandro approval
+-- REVISED: 2026-07-01 — added RLS (service_role only, anon denied
+--          by default) per the safety review before this can be
+--          applied.
 -- PURPOSE: Canonical open-loop queue in Supabase so the
 --          dashboard can display them. Memory/open_loops/
 --          mirrors this for RAG context.
@@ -56,6 +59,23 @@ CREATE TRIGGER open_loops_updated_at
     FOR EACH ROW EXECUTE FUNCTION update_open_loops_updated_at();
 
 -- ============================================================
+-- ROW LEVEL SECURITY
+-- Anon has no policy here, so once RLS is enabled anon reads zero
+-- rows by default. service_role (Claude Code / server-side) keeps
+-- full access. Any future AI-facing read goes through a separate
+-- safe view (e.g. v_open_loops_ai), not this table directly.
+-- ============================================================
+
+ALTER TABLE public.open_loops ENABLE ROW LEVEL SECURITY;
+
+CREATE POLICY open_loops_service_role_all
+    ON public.open_loops
+    FOR ALL
+    TO service_role
+    USING (true)
+    WITH CHECK (true);
+
+-- ============================================================
 -- NOTES
 -- ============================================================
 -- * project_id is nullable (account-level or cross-project loops)
@@ -63,6 +83,11 @@ CREATE TRIGGER open_loops_updated_at
 --   or via a future automation.
 -- * external_ref ties back to Gmail message_id or Teams message_id
 --   to prevent duplicate loop creation on re-scan.
--- * RLS: apply policies before enabling RLS on this table.
---   Suggested policy: service role has full access; anon has none.
+-- * RLS is enabled above — anon has no policy (zero access by
+--   default), service_role has full access.
+-- * Do not grant anon access to this table directly. A future AI
+--   read endpoint (/api/ai/open-loops) must query a curated safe
+--   view (e.g. v_open_loops_ai) that excludes external_ref and any
+--   other internal-plumbing fields — not yet created, out of scope
+--   for this migration.
 -- ============================================================
