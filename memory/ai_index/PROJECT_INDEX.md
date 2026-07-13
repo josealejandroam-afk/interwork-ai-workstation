@@ -42,6 +42,7 @@ Also fetch `OPEN_LOOPS.md` and `NOTES.md` at the same path when available.
 | `marsh_mclennan` | 7578 | `7578_mma_greensboro_office_swap` | MMA Greensboro NC office swap (CBRE) — vendor-confirmed (Tier LLC), scheduled Monday 7/13 | `memory/clients/marsh_mclennan/projects/7578_mma_greensboro_office_swap/PROJECT_CARD.md` |
 | `marsh_mclennan` | 7427 | `7427_oliver_wyman_mississauga_toronto` | Oliver Wyman (MMC-billed) — Mississauga decom + Toronto relocation, scheduled 7/13-7/15 | `memory/clients/marsh_mclennan/projects/7427_oliver_wyman_mississauga_toronto/PROJECT_CARD.md` |
 | `marsh_mclennan` | (none) | `victor_insurance_mississauga_service_call` | Victor Insurance, Mississauga — service call, operationally complete, admin/financial close-out open. No project number confirmed. | `memory/clients/marsh_mclennan/projects/victor_insurance_mississauga_service_call/PROJECT_CARD.md` |
+| `bell_bank` | 7573 | `7573_tampa_decom_move` | Tampa FL decom/move to Mendota Heights MN — move order Won ($20,824.08), decom Pending ($21,365.63), no PM assigned | `memory/clients/bell_bank/projects/7573_tampa_decom_move/PROJECT_CARD.md` |
 | `amtrust` | 7348 | `7348_cleveland` | Cleveland/Princeton (location confirm needed) | `memory/clients/amtrust/projects/7348_cleveland/PROJECT_CARD.md` |
 | `amtrust` | 7502 | `7502_small_office_move_garden_grove` | Garden Grove CA | `memory/clients/amtrust/projects/7502_small_office_move_garden_grove/PROJECT_CARD.md` |
 | `amtrust` | 7513 | `7513_move_office_furniture_southington` | Southington CT | `memory/clients/amtrust/projects/7513_move_office_furniture_southington/PROJECT_CARD.md` |
@@ -88,6 +89,7 @@ Also fetch `OPEN_LOOPS.md` and `NOTES.md` at the same path when available.
 | `lincoln_crc_group` | 7246 | `7246_project` | See card | `memory/clients/lincoln_crc_group/projects/7246_project/PROJECT_CARD.md` |
 | `lincoln_crc_group` | 7537 | `7537_tampa_bayport_plaza_move_decom` | Tampa FL Bayport Plaza — move 7/24, decom 7/25, Day One 7/27 | `memory/clients/lincoln_crc_group/projects/7537_tampa_bayport_plaza_move_decom/PROJECT_CARD.md` |
 | `lincoln_crc_group` | 7549 | `7549_kv_indianapolis_relocation` | Indianapolis IN (KV entity) — move 8/1, FDOB 8/3. Crate quantity conflict open. | `memory/clients/lincoln_crc_group/projects/7549_kv_indianapolis_relocation/PROJECT_CARD.md` |
+| `lincoln_crc_group` | 7597 | `7597_louisville_internal_move` | Louisville KY, 1717 Alliant Ave — work dates 7/16-7/17, crew-size conflict blocking dispatch | `memory/clients/lincoln_crc_group/projects/7597_louisville_internal_move/PROJECT_CARD.md` |
 | `nai_geis` | 7540 | `7540_columbia_md_move` | Columbia MD move, week of 7/13-18 — was missing from Supabase entirely, manually inserted 2026-07-10 | `memory/clients/nai_geis/projects/7540_columbia_md_move/PROJECT_CARD.md` |
 | `teknion` | 5156 | `5156_project` | Historical | `memory/clients/teknion/projects/5156_project/PROJECT_CARD.md` |
 | `bevin_palidar` | 7584 | `7584_house_move_clementon` | Clementon NJ → Tabernacle NJ — Jul 2 | `memory/clients/bevin_palidar/projects/7584_house_move_clementon/PROJECT_CARD.md` |

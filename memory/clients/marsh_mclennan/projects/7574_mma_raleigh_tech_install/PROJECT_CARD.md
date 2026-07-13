@@ -11,9 +11,25 @@
 | On-site contact | Eddie Monero |
 | Project name | Tech Install Support, Raleigh NC |
 | Dates | 7/15–7/16/2026, start time 9:00 AM |
-| InterWork PM | Hunter Barbieri (Operations Project Manager) — proposal authored by David Steinbrecher |
-| Vendor | Tier LLC (info@tierinstallation.com), contact Cass (Wilkins) — approved by Hunter 2026-07-07 |
-| Status | Vendor-confirmed, scheduled — approved before Hunter's departure from InterWork |
+| InterWork Coordinator | Alejandro Acosta, 609-922-7009 (assigned per Hunter's transition handoff — confirmed 2026-07-13) |
+| Vendor (internal labor support — do not mention to client) | Tier LLC (info@tierinstallation.com), contact Cass Wilkins — approved by Hunter 2026-07-07; reserved 7/15-7/16, pricing submitted and approved to proceed |
+| Status | **Approved and scheduled** (confirmed 2026-07-13) |
+
+## Project History / Context — NEW 2026-07-13
+
+The Raleigh office experienced a **fire** and required repairs before employees could return.
+This project supports post-fire restoration/reoccupation by reinstalling workstation
+technology. Richard DiStauro contacted InterWork about the reinstallation; Eddie Monero
+provided the detailed workstation scope; David Steinbrecher issued Quote IWSQ8513 (6/24);
+client selected 7/15 for install; quote converted to an order and released to Operations;
+Hunter Barbieri coordinated labor support/approval before departing; project assigned to
+Alejandro Acosta per Hunter's transition handoff.
+
+## Client-Facing Communication Rule — IMPORTANT
+
+Client communications (emails, calendar notices, completion reports) must refer only to
+**"InterWork" or "our team."** Tier Installations and any other internal labor-support detail
+must NOT appear in anything client-facing.
 
 ## Scope (per Quote #8513 / Hunter's 2026-07-02 email to vendors)
 
@@ -41,8 +57,24 @@
 - Tier LLC (Cass) sent a proposal 2026-07-07 5:28 PM referencing attachment "INTERWORK TECH INSTALL SU..." (62KB), asked for POC and install drawings.
 - Hunter approved 2026-07-07 5:32 PM: "Thanks Cass! This is approved. I'll get you more info in the next coming days."
 
+## Items to Confirm Before Mobilization (2026-07-13)
+
+- Exact July 15 start time (client requested morning start; not yet finalized)
+- Eddie Monero's onsite phone number
+- Install drawings or workstation floor plan
+- Building access and parking instructions
+- Freight-elevator or loading-area requirements
+- Confirmation all monitors, arms, docks, peripherals, cables, and mounting hardware are onsite
+- Confirmation power and network services are active
+- Whether InterWork is responsible only for physical connections or also device/network testing
+- Onsite lead name and phone number
+- Procedure for documenting missing, damaged, or nonfunctional equipment
+
 ## Source Notes
 
 - Source: Outlook thread "Tech Install Support 7/15-7/16 - Raleigh, NC 7574" (screenshots, 2026-07-10) + Quote #8513 PDF (IWSQ8513.pdf).
 - Also referenced separately: David Steinbrecher's 2026-07-02 email titled "7574" stating "7574 is an order and needs to be put on the schedule."
 - Created: 2026-07-10, in response to a conflict flagged during the 2026-07-10 Ops Huddle — see OPEN_LOOPS.md.
+- Updated 2026-07-13 with the full internal scope document confirming approval, the fire/
+  restoration backstory, Alejandro's assignment as coordinator, and the client-facing
+  communication rule.

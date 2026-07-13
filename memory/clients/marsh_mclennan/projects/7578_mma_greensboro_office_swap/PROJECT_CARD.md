@@ -15,7 +15,7 @@
 | Vendor | Tier LLC (info@tierinstallation.com), contact Cass Wilkins, 544 W 32nd Street, Charlotte NC 28206 — same vendor used on project 7574 |
 | Tier field lead (Monday 7/13) | Nixon Salgado, 980-226-6563 (per Cass Wilkins email, Fri 2026-07-10 12:55 PM) — not yet confirmed as a standing Tier contact |
 | Tier proposal PM of record | Jason Mcintosh, 484-632-3888 (listed on the signed Tier proposal) |
-| Status | Confirmed for Monday 7/13; David providing on-site contact info to vendor as of 2026-07-10 |
+| Status | **Move executed as scheduled, Monday 2026-07-13, 9:30 AM** — confirmed via David's email to the client. Post-move punch list now open — see below. |
 
 ### Suite number — CONFLICTING, unresolved
 
@@ -52,7 +52,44 @@ accounts. These are two different invoices in the chain (CBRE → InterWork $1,3
 - 2026-07-10 7:51 AM: Cass said they'd stand by for an update.
 - 2026-07-10 7:59 AM: David confirmed the client approved Monday, asked Cass for the on-site lead's name/number.
 - 2026-07-10 ~12:02 PM: David sent Cass the on-site contact information.
+- 2026-07-10 12:55 PM: Cass confirmed receipt — "I will have my team contact Lisa upon arrival. Our lead for Monday will be Nixon Salgado 980-226-6563."
+- 2026-07-10 1:18 PM: David told Cass to use project #7578 for invoicing.
+- 2026-07-13 4:10 PM: post-move punch list surfaced (see below); David asked Cass whether Tier can handle the electrical/patch-paint remediation or if another sub is needed — not yet answered.
 - Also on file: a CBRE GWS LLC purchase order tagged 7578, Greensboro NC (accounts receivable side).
+
+## Post-Move Punch List (2026-07-13 "Office relocation" thread)
+
+Following the conference room move, James Moretz (MMA/McGriff) reported items uncovered
+once furniture/AV was pulled away, needing remediation:
+
+1. **Conference room table:** an electrical box under the floor, connected to the table, wasn't identified until the table was moved. Request: remove the floor punch-in/floor box and make safe/finish appropriately.
+2. **Behind TV:** once the TV was removed, an opening around the data cable pass-through was found. Request: patch/repair the wall opening to match.
+3. **New "conference room":** wall damage behind upper cabinet removal, larger than expected. Request: advise on repair/restoration plan (patch, texture, paint) and schedule.
+
+Mindy Boehm (CBRE) responded she'd open a ticket in the IFM Hub and address these. James
+noted these weren't visible during the initial site review — not something InterWork missed
+during scoping.
+
+Separately, David forwarded this same punch list directly to Tier LLC (Cass Wilkins, cc
+jason@tierinstallation.com) on 2026-07-13 4:10 PM, asking: **"Can you handle this situation?
+Or do I need to find other subs for this? Electrical disconnect and make safe. Patch and
+paint walls."** Not yet answered — open question whether Tier can do this remediation scope
+or another subcontractor is needed.
+
+**Contact note:** the cc'd address is jason@tierinstallation.com — possibly the same person
+as "Jason Mcintosh" (484-632-3888, listed as Tier proposal PM of record) under a different
+name, or a second Jason at Tier. Not confirmed either way.
+
+### New/confirmed contacts from this thread
+- **Lisa Murray** — Director of Centralized Client Service, MMA Client Center, CA License #0H46969, 7701 Airport Center Drive Suite 1800, Greensboro NC 27409, T 336-931-6362 / M 336-770-0718. (Likely the same Lisa Murray already on file as on-site contact — same phone number, fuller title now confirmed.)
+- **James Moretz** — Corporate Operations Manager, Onshore Operations, McGriff (a Marsh & McLennan Agency LLC company) — P 252-329-0452, C 704-516-4042, James.Moretz@MarshMMA.com
+- **Mindy Boehm** — CBRE, Senior Facilities Manager, Marsh MMA — C 972-835-0112, Mindy.Boehm@CBRE.com (spelling corrected from earlier "Bohem")
+
+### McGriff connection — partially resolves open loop #1
+James Moretz's email signature explicitly shows "McGriff, a Marsh & McLennan Agency LLC
+Company." This is the first real McGriff reference seen on this project (the original vendor
+thread had none). Doesn't fully settle the billing-entity question, but confirms McGriff-
+affiliated staff are actively involved post-move.
 
 ## Flag — reconcile against Ops Huddle (2026-07-10)
 
