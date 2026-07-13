@@ -40,6 +40,17 @@ The following entities are related to Marsh McLennan but may operate as separate
 
 If a project comes from one of these entities, file it under the entity that appears on the request, not automatically under marsh_mclennan/. If unsure, ask Alejandro.
 
+**Oliver Wyman — MMC billing confirmed for project 7427** (2026-07-13): Smartsheet tracks it
+as "MMC Oliver Wyman," and Alejandro confirmed Oliver Wyman is part of the MMC/MMA umbrella.
+Filed under marsh_mclennan/ on that basis. This confirms the billing relationship for 7427
+specifically — don't assume it extends to every future Oliver Wyman project without similar
+confirmation, per the general rule above.
+
+**Victor Insurance** — also filed under marsh_mclennan/ per Alejandro (2026-07-13): a
+Mississauga service call coordinated through CBRE/Marsh, unrelated to project 7427 (Oliver
+Wyman) despite both involving Mississauga offices. No InterWork project number confirmed for
+Victor Insurance's job — see its project folder.
+
 **McGriff is not one of these** — confirmed directly by Alejandro, 2026-07-10: McGriff is a
 subsidiary of MMA/MMC, not a separate billing entity. File McGriff-referencing projects
 under marsh_mclennan/ unless a specific project explicitly indicates separate billing.
@@ -71,6 +82,8 @@ see 7553 below.)
 | 7191 | MMA Punch List Cape May NJ | Cape May NJ | Scheduled (past-dated) | No signals |
 | 7347 | MMA McLean Consolidation / Wilmington Zoom Room AV Recovery | McLean VA → Wilmington NC | Active — AV recovery visit pending, week of 7/13 | Original May move looked done (fastfield submitted); recovery handoff 2026-07-10 found the Zoom Room AV system was never fully shipped. Removed from the pending Supabase batch-completion approval. See project folder. |
 | 7553 | MMC Walk for Decom Dallas TX | 1717 Main St, Dallas TX, 44th Floor | Scheduled (past-dated) | Client POC Michael Durkin (Marsh/CBRE); PM Jairo Escalante; client_informed + access_confirmed + fastfield_submitted all true. Merged in 2026-07-10 from a former separate mcgriff/ folder — client entity was always MMC. See project folder. |
+| 7427 | Oliver Wyman Mississauga Decom & Toronto Relocation | 5945 Airport Road, Mississauga ON → 120 Bremner Blvd 13th Fl, Toronto ON | In Progress — scheduled 7/13-7/15 | Client tracked as "MMC Oliver Wyman" in Smartsheet. Move/reconfig order Won (IWSQ8324, $9,241); decom quote Pending (IWSQ8524, $5,334). See project folder. |
+| (none) | Victor Insurance Mississauga Service Call | Mississauga, ON | Operationally complete; admin/financial close-out open | No confirmed InterWork project number. Coordinated via CBRE/Marsh. Separate from 7427 despite same city. See project folder. |
 
 ## Known Contacts
 
