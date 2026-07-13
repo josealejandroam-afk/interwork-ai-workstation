@@ -51,7 +51,7 @@ Do not resend without Alejandro instruction. Do not follow up on this.
 | 7593 Amtrust — Chair Move | Jersey City NJ | — | Confirm date on Smartsheet |
 | 7541 Antidefamation League — Conference setup | — | — | Confirm date on Smartsheet |
 | 7556 MMA — Art Work Hanging | Dallas TX | — | Confirm date on Smartsheet |
-| 7549 Kensington Vanguard (KV) — Indianapolis Relocation | Indianapolis IN | Danielle Stingone (Lincoln Property Company, supporting KV) | Move 8/1, FDOB 8/3, crates delivered (increased to 10). Client corrected 2026-07-10 from "CRC" — that was a mislabel; confirmed client is Kensington Vanguard, unrelated to the CRC Group Tampa project (7537). See `memory/clients/kensington_vanguard/projects/7549_indianapolis_relocation/`. |
+| 7549 CRC — Kensington Vanguard (KV) Indianapolis Relocation | Indianapolis IN | Danielle Stingone (Lincoln Property Company, supporting CRC/KV) | Confirmed 2026-07-10 via Quote #8486: client is CRC Group (KV is the Indianapolis entity name, not a separate client) — the "CRC" label here was correct all along; an earlier same-day pass had incorrectly called it a mislabel. Both origin and destination addresses on file. Vendor (Advanced Office Logistics) engaged. Move 8/1, FDOB 8/3. Sole open item: crate quantity conflict (15 on the quote vs. "five to ten" vs. "10 more" requested 7/13) — do not resolve without Alejandro. See `memory/clients/lincoln_crc_group/projects/7549_kv_indianapolis_relocation/`. |
 
 Full read on file at `memory/shared/CALENDAR_SNAPSHOT.md` (2026-07-09 snapshot).
 

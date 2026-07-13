@@ -85,7 +85,8 @@ Also fetch `OPEN_LOOPS.md` and `NOTES.md` at the same path when available.
 | `vecos_iu_health` | TBD | `unknown_iu_health_lockers` | Bloomington IN locker commissioning | `memory/clients/vecos_iu_health/projects/unknown_iu_health_lockers/PROJECT_CARD.md` |
 | `lincoln_crc_group` | 7246 | `7246_project` | See card | `memory/clients/lincoln_crc_group/projects/7246_project/PROJECT_CARD.md` |
 | `lincoln_crc_group` | 7537 | `7537_tampa_bayport_plaza_move_decom` | Tampa FL Bayport Plaza — move 7/24, decom 7/25, Day One 7/27 | `memory/clients/lincoln_crc_group/projects/7537_tampa_bayport_plaza_move_decom/PROJECT_CARD.md` |
-| `kensington_vanguard` | 7549 | `7549_indianapolis_relocation` | Indianapolis IN — move 8/1, FDOB 8/3. Tracker mislabels this "7549 CRC" — correct at source. | `memory/clients/kensington_vanguard/projects/7549_indianapolis_relocation/PROJECT_CARD.md` |
+| `lincoln_crc_group` | 7549 | `7549_kv_indianapolis_relocation` | Indianapolis IN (KV entity) — move 8/1, FDOB 8/3. Crate quantity conflict open. | `memory/clients/lincoln_crc_group/projects/7549_kv_indianapolis_relocation/PROJECT_CARD.md` |
+| `nai_geis` | 7540 | `7540_columbia_md_move` | Columbia MD move, week of 7/13-18 — was missing from Supabase entirely, manually inserted 2026-07-10 | `memory/clients/nai_geis/projects/7540_columbia_md_move/PROJECT_CARD.md` |
 | `teknion` | 5156 | `5156_project` | Historical | `memory/clients/teknion/projects/5156_project/PROJECT_CARD.md` |
 | `bevin_palidar` | 7584 | `7584_house_move_clementon` | Clementon NJ → Tabernacle NJ — Jul 2 | `memory/clients/bevin_palidar/projects/7584_house_move_clementon/PROJECT_CARD.md` |
 | `tegna_premion` | TBD | `unknown_project` | No project number confirmed | `memory/clients/tegna_premion/projects/unknown_project/PROJECT_CARD.md` |
