@@ -21,7 +21,8 @@ Schedule Wilmington Zoom Room AV recovery visit at the former McLean office (818
 | 11 | Confirm destination + shipping method for recovered gear | Open |
 | 12 | Closeout update to client | Open |
 | 13 | Confirm routing: InterWork warehouse vs. direct to Wilmington, possible Columbia MD stop | Open |
-| 14 | Confirm whether Tyr is assigned to the Wilmington delivery leg | Open |
+| 14 | ~~Confirm whether Tyr is assigned to the Wilmington delivery leg~~ | Superseded 2026-07-10 — Alejandro is leaning toward Juan for pickup since he'll already be in the area, not Tyr. Not yet finalized. |
+| 15 | Confirm recovery day within week of 7/13 — Alejandro believes the client may specifically want Monday (not just "avoid Tuesday" per Melinda's original request); checking with Francisco before locking a date | Open |
 
 ## Conflict Flagged 2026-07-10 (Claude Code)
 
@@ -46,3 +47,4 @@ will no longer touch 7347. Do not mark 7347 completed until the AV recovery abov
 - 7/9/26: Ivy contacts Bob Kist; Bob provides BOM/drawings
 - Week of 7/13/26 (planned): recovery visit, avoid Tuesday per Melinda's request
 - 7/10/26 (Ops Huddle): full AV system confirmed still at McLean (only the controller had shipped). Routing options discussed: return to InterWork warehouse, or truck directly to Wilmington with a possible stop in Columbia, MD depending on travel schedules. Tyr raised as a possible owner of the Wilmington delivery leg — not yet confirmed as an assignment.
+- 7/10/26 (later): Alejandro decided Juan is the more likely pickup person since he'll already be in the area (supersedes the earlier Tyr idea, not yet finalized). Also flagged that the client may want the recovery specifically on Monday rather than just "avoid Tuesday" — checking with Francisco before locking the date.

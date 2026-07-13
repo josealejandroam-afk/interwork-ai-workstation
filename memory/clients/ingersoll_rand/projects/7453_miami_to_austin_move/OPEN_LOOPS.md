@@ -44,3 +44,10 @@ Last updated from source material dated through 2026-07-09.
 ## Travel (InterWork side)
 
 - Ops huddle (2026-07-10) confirmed some InterWork team members will travel the night before (7/22) for the July 23 Miami site visit.
+
+## Reconciliation follow-ups (2026-07-10)
+
+- Verify the candidate origin address (Lawrence Factor Facility, 4720/4740/4790 NW 157th Road, Miami Gardens, FL, ~31,919 SF) — surfaced in a separate draft, not yet confirmed against primary source material.
+- Confirm who now owns Hunter Barbieri's role on this project, since he's no longer with InterWork.
+- Do NOT add Pedro Martinez as a 7453 contact without direct confirmation — he's on file for project 7189 (Bermuda), likely a mix-up in the source draft.
+- Do NOT treat Ray Nicolia as an active contact — already confirmed departed; Eric Larsen is the sole ongoing IR contact.

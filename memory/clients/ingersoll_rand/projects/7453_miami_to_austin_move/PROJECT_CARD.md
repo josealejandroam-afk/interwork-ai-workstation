@@ -11,8 +11,8 @@
 | Origin | Lawrence Factor, LLC — Miami, FL (full street address needs confirmation) |
 | Destination | Trace Analytics, LLC — Austin, TX (full street address needs confirmation) |
 | Account Manager | Jill Buchman |
-| InterWork leadership | David Steinbrecher, Francisco Vinueza |
-| Client contacts | Eric Larsen (IR), Nikki Smith (IR/Trace Analytics, GM both sites) |
+| InterWork leadership | David Steinbrecher, Francisco Vinueza; Hunter Barbieri also attended the meeting series pre-departure — see reconciliation note below |
+| Client contacts | Eric Larsen (IR), Nikki Smith (email domain airchecklab.com — GM of both Lawrence Factor and Trace Analytics sites) |
 | Overall status | Active planning / pre-execution |
 
 ## Confirmation Booleans (Supabase — not yet set; do not set without Alejandro approval)
@@ -47,3 +47,28 @@
 As of 2026-07-09, this project is in active planning, not execution. Not yet seen: Notice to Proceed, Purchase Order, FastFields for execution, crew assignments, transportation schedule. Watch inbox for keywords: approved, PO, Notice to Proceed, schedule, move dates, execution plan, logistics plan.
 
 See OPEN_LOOPS.md for the full pending-items list and NOTES.md for hazmat/labeling/staffing detail.
+
+## Reconciliation Note (2026-07-10)
+
+A separate handoff draft proposed a new project card for 7453, unaware this folder already
+existed. Reconciled against it rather than overwritten:
+
+- **Candidate origin address (unverified):** the draft gave "Lawrence Factor Facility,
+  4720/4740/4790 NW 157th Road, Miami Gardens, FL (~31,919 SF)." Our existing source
+  material never confirmed a street address. Treat this as a candidate, not confirmed — verify
+  before relying on it.
+- **Hunter Barbieri:** the draft lists him as "Office PM (Quote/Operations)." He did attend
+  this project's meeting series per the Read AI participant list. However, Hunter is no
+  longer with InterWork as of ~2026-07-09/10 (confirmed on other projects this week, e.g.
+  7574, 7589). Who owns his role on 7453 now is unconfirmed — added to OPEN_LOOPS.md.
+- **Discrepancy — do not adopt:** the draft lists **"Site Walk PM: Pedro Martinez"** for
+  7453. Pedro Martinez is already on file as a contact for a *different* project — 7189 (MMC
+  Bermuda Hoboken), per that project's NOTES.md (ChatGPT export conflict entry). This looks
+  like a data mix-up in the draft, not a real 7453 contact. Not added here without direct
+  confirmation.
+- **Discrepancy — do not adopt:** the draft lists **Ray Nicolia** as an active client
+  contact ("Continuous Improvement Specialist, ray.nicolia@irco.com, 716-277-6912"). This
+  project's own NOTES.md already documents, from a direct meeting transcript, that Ray's
+  last day was communicated as ~2026-06-30 and his email was subsequently tagged "term" —
+  he is no longer the active contact; Eric Larsen took over his projects. Keeping Ray's
+  contact info here for reference only, not as a current point of contact.
