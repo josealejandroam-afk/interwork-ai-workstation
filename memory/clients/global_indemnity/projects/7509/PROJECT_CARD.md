@@ -23,7 +23,7 @@ on this thread) — confirm this assumption before closing the loop.
 
 ## Client / Property Contacts
 
-- **Katherine Sweeney** — GBLI contact, corresponding with David Steinbrecher (InterWork)
+- **Katherine Sweeney** — AVP, Executive Administration & Real Estate, ksweeney@gbli.com, office 610-660-6815, cell 610-505-1595 (contact detail confirmed 2026-07-14 via the Bala Cynwyd/project 6813 client profile — same GBLI-wide contact, not independently confirmed as the same person for this Scottsdale project, but treated as such) — corresponding with David Steinbrecher (InterWork)
 - **Jennifer Jones** — property manager, Wentworth
 
 ## Scope Notes
