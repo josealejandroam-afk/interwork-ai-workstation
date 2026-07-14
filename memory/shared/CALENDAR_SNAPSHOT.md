@@ -69,7 +69,7 @@ _Point-in-time read of the Smartsheet calendar. Not a live source — verify aga
 | Dropbox | — | San Francisco CA | — | Wed July 22 |
 | 7509 Global Indemnity | Decommission | Scottsdale AZ | External PM | Fri July 24, multi-day into July 28 |
 | 7537 CRC | — | Tampa FL | — | Fri July 24 |
-| 7855 CRC | Move | Glen Allen VA | — | Fri July 24 |
+| 7588 CRC | Move | Glen Allen VA | — | Fri July 24 (corrected 2026-07-14 from "7855" — Alejandro confirmed 7588 is the real number, matching quote #8536) |
 
 ### Week of July 26 – August 1
 

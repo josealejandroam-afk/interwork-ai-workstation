@@ -56,7 +56,8 @@ Also fetch `OPEN_LOOPS.md` and `NOTES.md` at the same path when available.
 | `dropbox` | 7399 | `7399_project` | See card | `memory/clients/dropbox/projects/7399_project/PROJECT_CARD.md` |
 | `dropbox` | 7460 | `7460_project` | See card | `memory/clients/dropbox/projects/7460_project/PROJECT_CARD.md` |
 | `dropbox` | 7467 | `7467_seattle_studio_move` | Seattle Studio move 2026-04-27 | `memory/clients/dropbox/projects/7467_seattle_studio_move/PROJECT_CARD.md` |
-| `dropbox` | 7552 | `7552_dropbox_hq_move` | 1800 Owens St SF — HQ Move, power beam install confirmed 7/15 0700. PM: Pedro Martinez (incoming). | `memory/clients/dropbox/projects/7552_dropbox_hq_move/PROJECT_CARD.md` |
+| `dropbox` | 7552 | `7552_dropbox_hq_move` | 1800 Owens St SF — Phase 3 Move, 7/27-31. PM unconfirmed (Frank Barrett not adopted). | `memory/clients/dropbox/projects/7552_dropbox_hq_move/PROJECT_CARD.md` |
+| `dropbox` | 7547 | `7547_power_beam_install` | 1800 Owens St SF — Power Beam Install, confirmed Wed 7/15 0700. PM: Pedro Martinez. | `memory/clients/dropbox/projects/7547_power_beam_install/PROJECT_CARD.md` |
 | `guardian` | 7341 | `7341_decom_newport_beach` | Newport Beach CA decom | `memory/clients/guardian/projects/7341_decom_newport_beach/PROJECT_CARD.md` |
 | `goldberg_segalla` | 7322 | `7322_may5_st_louis` | St. Louis MO (May 5) | `memory/clients/goldberg_segalla/projects/7322_may5_st_louis/PROJECT_CARD.md` |
 | `goldberg_segalla` | 7352 | `7352_decom_white_plains` | White Plains NY Phase 1 decom | `memory/clients/goldberg_segalla/projects/7352_decom_white_plains/PROJECT_CARD.md` |
@@ -90,6 +91,7 @@ Also fetch `OPEN_LOOPS.md` and `NOTES.md` at the same path when available.
 | `lincoln_crc_group` | 7537 | `7537_tampa_bayport_plaza_move_decom` | Tampa FL Bayport Plaza — move 7/24, decom 7/25, Day One 7/27 | `memory/clients/lincoln_crc_group/projects/7537_tampa_bayport_plaza_move_decom/PROJECT_CARD.md` |
 | `lincoln_crc_group` | 7549 | `7549_kv_indianapolis_relocation` | Indianapolis IN (KV entity) — move 8/1, FDOB 8/3. Crate quantity conflict open. | `memory/clients/lincoln_crc_group/projects/7549_kv_indianapolis_relocation/PROJECT_CARD.md` |
 | `lincoln_crc_group` | 7597 | `7597_louisville_internal_move` | Louisville KY, 1717 Alliant Ave — work dates 7/16-7/17, crew-size conflict blocking dispatch | `memory/clients/lincoln_crc_group/projects/7597_louisville_internal_move/PROJECT_CARD.md` |
+| `lincoln_crc_group` | 7588 | `7588_glen_allen_va_move` | Glen Allen VA — Fri 7/24. Number confirmed 2026-07-14 (was mislabeled 7855 in Smartsheet). | `memory/clients/lincoln_crc_group/projects/7588_glen_allen_va_move/PROJECT_CARD.md` |
 | `nai_geis` | 7540 | `7540_columbia_md_move` | Columbia MD move, week of 7/13-18 — was missing from Supabase entirely, manually inserted 2026-07-10 | `memory/clients/nai_geis/projects/7540_columbia_md_move/PROJECT_CARD.md` |
 | `teknion` | 5156 | `5156_project` | Historical | `memory/clients/teknion/projects/5156_project/PROJECT_CARD.md` |
 | `bevin_palidar` | 7584 | `7584_house_move_clementon` | Clementon NJ → Tabernacle NJ — Jul 2 | `memory/clients/bevin_palidar/projects/7584_house_move_clementon/PROJECT_CARD.md` |

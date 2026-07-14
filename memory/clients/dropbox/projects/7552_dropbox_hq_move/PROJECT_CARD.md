@@ -1,4 +1,10 @@
-# Project 7552 — Dropbox HQ Move
+# Project 7552 — Dropbox Phase 3 Move (San Francisco)
+
+**Confirmed 2026-07-14 (Alejandro): 7552 and 7547 are two separate, real Dropbox projects.**
+7552 (this project) is the **Phase 3 Move**. 7547 is the **Power Beam Install** — see
+`memory/clients/dropbox/projects/7547_power_beam_install/`. They share client history,
+contacts, and vendor (both are part of the same overall Dropbox HQ Move engagement), so this
+file keeps the shared background, but do not merge their scope, PM, or dates going forward.
 
 ## Core Facts
 
@@ -8,15 +14,11 @@
 | Client | Dropbox |
 | Location | 1800 Owens St, San Francisco, CA (Dropbox HQ, new building) — per memory/ai_index/PROJECT_INDEX.md |
 | Client contacts | Patrick Moyer, Head of Workplace Operations, Real Estate & Workplace Services (pmoyer@dropbox.com, 760-710-7160); Anthony Zamora, Workplace Operations Coordinator, Real Estate & Workplace Services (azamora@dropbox.com, 408-660-6219) — day-to-day coordinator, handles inventory/BarCloud detail and site logistics |
-| InterWork team | Jill Buchman (Account Manager, 609-744-8911), David Steinbrecher, Francisco Vinueza, Alejandro Acosta (Operations), **Pedro Martinez — incoming PM (Field PM), 732-421-1470, email not on file** |
+| InterWork team | Jill Buchman (Account Manager, 609-744-8911), David Steinbrecher, Francisco Vinueza, Alejandro Acosta (Operations) |
+| PM | Not confirmed. Smartsheet has shown "Frank Barrett" on this Phase 3 Move bar — not adopted, see flag below. (Pedro Martinez is confirmed PM on the separate 7547 Power Beam Install, not this project.) |
 | Vendor | Bay Area Installations, Inc. (BAI) — Thomas "Tommy" C. Mohamed Jr., Operations Manager (ops.baiinc@gmail.com, 510-895-8196), 2481 Verna Ct, San Leandro, CA 94577; Sean Walsh (510-895-8196, sean@baiinc.com) — handles physical delivery/install crew and warehouse staging |
-| Status | Phase 1 (initial HQ move) complete. Second-floor installs and power beam install in progress as of 2026-07-13. |
-
-## PM Transition (2026-07-13)
-
-Pedro Martinez is the incoming InterWork Field PM for this project, per a scope handoff
-prepared by Alejandro Acosta. Keep Pedro added to the internal cc chain going forward
-(David Steinbrecher, Francisco Vinueza, Jill Buchman, InterWork Operations).
+| Dates | 2026-07-27 to 2026-07-31 per Smartsheet, matching the red-tag inventory mobilization window discussed below |
+| Status | Phase 1 (initial HQ move) complete. This Phase 3 Move is the red-tag/lower-priority inventory mobilization. |
 
 ## Phase 1 — Initial Move (Complete)
 
@@ -33,24 +35,17 @@ prepared by Alejandro Acosta. Keep Pedro added to the internal cc chain going fo
 - Studio stage and one ping pong table confirmed delivered to Hawthorne 7/6; BarCloud to be updated accordingly (see BarCloud Inventory Issues below).
 - **Red-tagged inventory mobilization date changed:** originally 2026-07-20, but Patrick Moyer confirmed 2026-07-14 that **July 20 is cancelled**. New target is the week of **2026-07-27**, likely toward the end of that week — Patrick expected a firmer date by EOD Wednesday 7/15. Smartsheet still shows the old 7/20 bar — needs correction once the new date lands.
 - Large white conference tables require anchoring brackets — wall backing/fastener strategy (toggles vs. contractor) still being worked out; mounting panel photos of the conference room walls were provided by Anthony (7/2) to help determine anchor type.
-- ~~Open question: will Francisco or a hired PM be on-site for this smaller phase?~~ **Resolved 2026-07-13** — Pedro Martinez is the incoming Field PM.
+- Open question: will Francisco or a hired PM be on-site for this smaller phase? Not resolved for 7552 itself — Pedro Martinez is confirmed PM on the separate 7547 project only.
 - **New:** Anthony Zamora asked (7/13) whether the team knows where the wall brackets are located to secure the conference tables, and whether they can be delivered Wednesday 7/15 so the team can secure the tables during that delivery — needs confirmation.
 - **New:** Anthony requested the last white conference room table be assembled in the 2nd floor conference room where GSOC is currently located — needs scheduling.
 
-## Power Beams / Electrical Whips — IMMEDIATE PRIORITY
+## Power Beams / Electrical Whips
 
-**Confirmed: Wednesday, July 15, 2026, 0700 start.** Confirmed by Sean Walsh (BAI) on 7/13.
-
-**Crew:** Armando Maciel, Juan Romero, Carlos Romero, Rafael Gil-Tolento, Lupe Parada.
-
-**Timeline leading to this date:**
-- 7/7: David Steinbrecher advised power beams shipping "later this week."
-- 7/9: Jill Buchman told Patrick Moyer power beams expected at the warehouse Monday or Tuesday (7/13-7/14), with Wednesday 7/15 penciled in for install. Jill also flagged **a discrepancy in the number of whips** and asked to align before install — resolution not confirmed in writing; confirm with Patrick/Anthony before the 7/15 install.
-- 7/10: Patrick Moyer sent an updated electrical drawing with "clouded" (marked) changes. David confirmed anticipating delivery "sometime next week," hoping for Bay Area arrival by Monday or Tuesday.
-- 7/13: Sean Walsh confirmed the 0700 start and crew names for 7/15.
-- Patrick (Dropbox) needs the whole scope completed by end of the week of 2026-07-13.
-- Patrick is updating the furniture plan — the existing electrical layout is slightly denser than the previous plan, leading to an extra row of desks in a few places.
-- GC permit piggyback for the electrical work is still pending David's follow-up — confirm current status before/at the 7/15 install.
+Moved to `memory/clients/dropbox/projects/7547_power_beam_install/` — this is project 7547,
+not 7552. Patrick (Dropbox) needs the whole scope completed by end of the week of 2026-07-13.
+Patrick is updating the furniture plan — the existing electrical layout is slightly denser
+than the previous plan, leading to an extra row of desks in a few places. GC permit piggyback
+for the electrical work is still pending David's follow-up.
 
 ## Makers Studio Stage / "The Stage" — DO NOT ASSUME SAME ITEM
 
@@ -68,18 +63,14 @@ before treating either as resolved.
 - **Studio stage:** not listed as an asset in BarCloud at all — needs confirmation it's tracked correctly.
 - Photos of conference room walls were provided to help determine the correct anchor type for table installation.
 
-## Smartsheet/Supabase "Phase 3" Discrepancy — Flag, Not Resolved
+## "Frank Barrett" PM Attribution — Still Unconfirmed
 
-The Smartsheet "ACTIVE New Projects Calendar" lists "Frank Barrett" as PM on a bar labeled
-"7552 Dropbox Phase 3" (June 22-30). **This independently matches what was found directly in
-Supabase on 2026-07-13:** `projects` table shows project 7552 as "Dropbox Phase 3 San
-Francisco CA," status scheduled, dated 2026-06-22 to 2026-06-30, client Dropbox. Two
-independent sources agree this record exists — but it does not match the confirmed InterWork
-team above (no Frank Barrett anywhere in this project's actual contacts), and its dates
-predate the "Phase 2" work described throughout this card. **Do not assume Frank Barrett has
-any role on this project, and do not assume "Phase 3" (6/22-6/30) is the same work as "Phase
-2" (in progress as of the week of 7/13)** until confirmed with Alejandro. This may represent
-a genuinely earlier/different phase, a stale record, or a mislabeled PM assignment.
+**Resolved 2026-07-14:** the "7552 Dropbox Phase 3" identity itself is correct — confirmed by
+Alejandro that 7552 genuinely is the Phase 3 Move (separate from 7547, Power Beam Install).
+What remains unconfirmed is the **PM name** — Smartsheet has shown "Frank Barrett" here, who
+doesn't appear anywhere else in this project's confirmed contacts. Do not assume Frank
+Barrett is actually the PM until confirmed with Alejandro; Supabase's `pm_id` for 7552 is
+left null rather than guessing.
 
 ## Fridge Disposition — Unconfirmed
 
