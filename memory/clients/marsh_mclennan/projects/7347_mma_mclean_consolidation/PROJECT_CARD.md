@@ -13,13 +13,14 @@
 | Consolidation destination | 1751 Pinnacle Drive, Suite 1800, McLean, VA 22102 |
 | Tech shipment destination | 1111 Military Cutoff Road, Suite 221, Wilmington, NC 28405 |
 | Shipping | Sunset Transportation, BOL Load #6414658, PO #7347, BOL date 5/13/26. Consignee: Chris Thorpe, 910-332-4707 |
+| **Recovery visit — CONFIRMED** | **Wednesday, 2026-07-15, 8:00 AM.** InterWork PM: Juan Martinez, 732-979-7163. |
 
 ## People
 
 **Client:**
 - Chris Thorpe — Senior Ops Manager, NC & VA — 910-332-4707 — raised the missing AV issue
 - Melinda Morris — IT Support Manager — drove investigation, confirmed equipment left onsite
-- Stalin Alejandro Pena — Onsite Technical Support Manager — available for onsite recovery support
+- Stalin Alejandro Pena — Onsite Technical Support Manager — confirmed onsite POC, 703-267-7885 / 202-826-7920 — confirmed he can meet the InterWork team onsite at 8:00 AM, 7/15
 - Jose — possible backup onsite support if Stalin unavailable
 - Linda Torres, Alyson Rossi, Richard Distauro — included in coordination (role unconfirmed)
 - Nav Paul — original McLean site POC — 703-934-5225 / 571-397-1230
@@ -29,7 +30,7 @@
 
 **InterWork:**
 - Hunter Barbieri — Office assignee/PM, confirmed InterWork can return if access granted
-- Juan Martinez — PM on the original move — 732-979-7163
+- Juan Martinez — PM on the original move; **confirmed InterWork PM for the 7/15 recovery visit** — 732-979-7163
 - Manny Gonzalez — handled the 5/5/26 crate delivery
 
 ## Original Scope Shipped (Tech)

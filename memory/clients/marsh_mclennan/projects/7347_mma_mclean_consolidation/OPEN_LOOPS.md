@@ -13,16 +13,16 @@ Schedule Wilmington Zoom Room AV recovery visit at the former McLean office (818
 | 3 | Confirm nothing was misrouted to DC | Open |
 | 4 | Confirm final onsite inventory via Stalin's inspection + BOM | Open |
 | 5 | Get access approval (Ivy Ringhoff / landlord) | Open |
-| 6 | Schedule recovery visit, week of 7/13, not Tuesday | Open |
-| 7 | Confirm Stalin or Jose onsite | Open |
+| 6 | ~~Schedule recovery visit, week of 7/13, not Tuesday~~ | **Confirmed 2026-07-14** — Wednesday 2026-07-15, 8:00 AM |
+| 7 | ~~Confirm Stalin or Jose onsite~~ | **Confirmed** — Stalin Alejandro Pena, 703-267-7885 / 202-826-7920, confirmed he can meet the team onsite at 8:00 AM |
 | 8 | Recover all BOM-listed equipment | Open |
 | 9 | Photo documentation | Open |
 | 10 | Pack/label components | Open |
 | 11 | Confirm destination + shipping method for recovered gear | Open |
 | 12 | Closeout update to client | Open |
 | 13 | Confirm routing: InterWork warehouse vs. direct to Wilmington, possible Columbia MD stop | Open |
-| 14 | ~~Confirm whether Tyr is assigned to the Wilmington delivery leg~~ | Superseded 2026-07-10 — Alejandro is leaning toward Juan for pickup since he'll already be in the area, not Tyr. Not yet finalized. |
-| 15 | Confirm recovery day within week of 7/13 — Alejandro believes the client may specifically want Monday (not just "avoid Tuesday" per Melinda's original request); checking with Francisco before locking a date | Open |
+| 14 | ~~Confirm whether Tyr is assigned to the Wilmington delivery leg~~ | **Resolved 2026-07-14** — Juan Martinez confirmed as InterWork PM for the recovery visit. |
+| 15 | ~~Confirm recovery day within week of 7/13~~ | **Resolved 2026-07-14** — Wednesday 7/15, not Monday as earlier speculated; not a Tuesday either way. |
 
 ## Conflict Flagged 2026-07-10 (Claude Code)
 
@@ -48,3 +48,4 @@ will no longer touch 7347. Do not mark 7347 completed until the AV recovery abov
 - Week of 7/13/26 (planned): recovery visit, avoid Tuesday per Melinda's request
 - 7/10/26 (Ops Huddle): full AV system confirmed still at McLean (only the controller had shipped). Routing options discussed: return to InterWork warehouse, or truck directly to Wilmington with a possible stop in Columbia, MD depending on travel schedules. Tyr raised as a possible owner of the Wilmington delivery leg — not yet confirmed as an assignment.
 - 7/10/26 (later): Alejandro decided Juan is the more likely pickup person since he'll already be in the area (supersedes the earlier Tyr idea, not yet finalized). Also flagged that the client may want the recovery specifically on Monday rather than just "avoid Tuesday" — checking with Francisco before locking the date.
+- 7/14/26: Calendar entry confirms recovery visit for Wednesday 7/15, 8:00 AM. Juan Martinez confirmed as InterWork PM. Stalin Alejandro Pena confirmed as onsite POC (703-267-7885 / 202-826-7920), confirmed he can meet the team at 8:00 AM. Destination/shipping plan for recovered equipment still to be confirmed *after* pickup — items 11/13 (routing) remain open.
