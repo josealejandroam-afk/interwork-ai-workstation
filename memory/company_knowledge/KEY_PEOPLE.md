@@ -7,7 +7,7 @@
 | Alejandro Acosta | Operations Coordinator — sole approval authority | alejandroa@interworkoffice.com | 609-922-7009 | Approves all sends, Supabase writes, production actions |
 | Francisco Vinueza | Operations Manager / internal coordination | franciscov@interworkoffice.com | 609-744-1467 | Frequently assigned as office-side PM on scheduled projects |
 | Stephanie Sprinkel | InterWork POC | — | 443-600-1110 | Role: confirm before use |
-| Hunter Barbieri | PM / Office Assignee | hunterb@interworkoffice.com | Needs confirmation | Often listed as internal office assignee in Supabase |
+| Hunter Barbieri | ~~PM / Office Assignee~~ **INACTIVE — no longer with the company** (confirmed 2026-07-14) | hunterb@interworkoffice.com | Needs confirmation | Was often listed as internal office assignee in Supabase. Several projects he ran solo before departing need a handoff check — do not assign him new work, and confirm client/vendor-side contacts don't still expect him as the active POC. |
 | Jill Buchman | Account Manager | jillb@interworkoffice.com | 609-744-8911 | Client-facing account manager; quotes and client comms |
 | David Steinbrecher | InterWork contact | — | Needs confirmation | Appears in client and vendor coordination threads |
 | Jade | Sustainability Lead | — | Needs confirmation | Coordinate early for donation, recycling, or sustainability scope |
