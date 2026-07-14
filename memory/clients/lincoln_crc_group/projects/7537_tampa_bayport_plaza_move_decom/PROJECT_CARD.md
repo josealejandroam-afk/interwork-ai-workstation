@@ -49,6 +49,9 @@ construction coordination** (not the client, not the same role as Lincoln Proper
 ### Design
 - Katie Oliver-Vance, Senior Designer, Align 1 — 786-261-7193, kvance@align1solutions.com — furniture package and design revisions
 
+### InterWork Field PM
+- Juan Martinez, 732-979-7163 — confirmed via Smartsheet 2026-07-14 (previously listed only as "field support" for packing supply pickup/delivery). Synced to Supabase.
+
 ### InterWork
 - David Steinbrecher — 609-744-8899 — leading move proposal and overall project discussions
 - Jill Buchman — coordinating client communication, packing materials, decommission planning

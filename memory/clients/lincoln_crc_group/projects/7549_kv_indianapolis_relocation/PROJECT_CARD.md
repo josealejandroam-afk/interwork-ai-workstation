@@ -134,6 +134,11 @@ sequential orders (e.g., 15 initial + 10 additional) or whether the quote baseli
 superseded by the planning-meeting revision. Crates already delivered per Mary
 ("crates arrived this morning"); continue use as employees complete packing.
 
+**New scheduling data point (Smartsheet, 2026-07-14):** a "7549 CRC | Deliver 10" entry is
+shown for Tuesday 2026-07-14 — likely the delivery event for the "10 more crates requested
+7/13" line above. Doesn't resolve the overall quantity conflict, but confirms a real delivery
+of 10 units is scheduled/occurring that day.
+
 **Crate pickup timing (per Read AI meeting "KV Indianapolis - Relocation Call," ID 01KX6JEJV2GPRR4H3STHV102VA):** Mary is to confirm the final crate count to Danielle so pickup can be scheduled approximately one week after the move — not yet confirmed as of that call.
 
 ## Ancillary Deliveries

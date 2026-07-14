@@ -56,7 +56,7 @@ Also fetch `OPEN_LOOPS.md` and `NOTES.md` at the same path when available.
 | `dropbox` | 7399 | `7399_project` | See card | `memory/clients/dropbox/projects/7399_project/PROJECT_CARD.md` |
 | `dropbox` | 7460 | `7460_project` | See card | `memory/clients/dropbox/projects/7460_project/PROJECT_CARD.md` |
 | `dropbox` | 7467 | `7467_seattle_studio_move` | Seattle Studio move 2026-04-27 | `memory/clients/dropbox/projects/7467_seattle_studio_move/PROJECT_CARD.md` |
-| `dropbox` | 7552 | `7552_dropbox_hq_move` | 1800 Owens St SF — HQ Move, Phase 2 (2nd floor/power beams) in progress | `memory/clients/dropbox/projects/7552_dropbox_hq_move/PROJECT_CARD.md` |
+| `dropbox` | 7552 | `7552_dropbox_hq_move` | 1800 Owens St SF — HQ Move, power beam install confirmed 7/15 0700. PM: Pedro Martinez (incoming). | `memory/clients/dropbox/projects/7552_dropbox_hq_move/PROJECT_CARD.md` |
 | `guardian` | 7341 | `7341_decom_newport_beach` | Newport Beach CA decom | `memory/clients/guardian/projects/7341_decom_newport_beach/PROJECT_CARD.md` |
 | `goldberg_segalla` | 7322 | `7322_may5_st_louis` | St. Louis MO (May 5) | `memory/clients/goldberg_segalla/projects/7322_may5_st_louis/PROJECT_CARD.md` |
 | `goldberg_segalla` | 7352 | `7352_decom_white_plains` | White Plains NY Phase 1 decom | `memory/clients/goldberg_segalla/projects/7352_decom_white_plains/PROJECT_CARD.md` |
