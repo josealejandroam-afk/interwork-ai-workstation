@@ -159,8 +159,9 @@ Cork board, faux plants (if approved), trash C-bins, additional moving supplies 
 - Danielle Stingone — primary client PM, 900 Cummings Center Drive, Suite 211-U, Beverly, MA 01915, mobile 978-872-2007. Responsible for move coordination, documentation, building coordination, technology documentation, final move instructions.
 
 ### Vendor (crate delivery / labor)
-- Advanced Office Logistics — Stacy Graves, 317-744-9420 ext. 302; also Margaret Cihlar, Jesse Phillips, Kyle Wine.
+- Advanced Office Logistics — Stacy Graves, 317-744-9420 ext. 302, stacy@advancedofficelogistics.com; also Margaret Cihlar, Jesse Phillips, Kyle Wine.
   **Do not expose these vendor contact details in any client-facing draft.**
+- Per Hunter Barbieri's 2026-07-08 departure handoff: Advanced Office Logistics has provided crates for this project, delivered 7/7. Full scope still owed to them prior to the 7/31 move date.
 
 ### InterWork
 - David Steinbrecher — executive oversight; authored Quote #8486

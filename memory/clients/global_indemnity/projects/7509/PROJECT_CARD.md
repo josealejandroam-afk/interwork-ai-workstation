@@ -31,6 +31,10 @@ on this thread) — confirm this assumption before closing the loop.
 - Furniture/workstations were disassembled by GBLI's own team prior to crew arrival (per
   GBLI email 2026-06-29). Vendor quote was revised to reflect the reduced disassembly need.
 - Scope covers: 122 cubes, 23 private offices, 4 conference rooms (per cabling scope below).
+- Per Hunter's 2026-07-08 departure handoff: start date was tentative for 7/23; JZ Office
+  Installations has scope and requested a walkthrough. Hunter reached out to the client but
+  received no response; he had already shared the scope, but the client wanted a walkthrough
+  to best-price the project since they'd already broken down the furniture themselves.
 
 ## Commercial Status
 
