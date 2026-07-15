@@ -37,7 +37,8 @@ _Last updated: 2026-06-30 (sync handoff)_
 | Lincoln / CRC Group | lincoln_crc_group/ | 7246 | No detail available. Note: separate from CRC Virginia Beach under MMC. |
 | Teknion | teknion/ | 5156 | Historical project; low project number. |
 | Bevin Palidar | bevin_palidar/ | 7584 | Residential client. House move Clementon NJ → Tabernacle NJ, 7/2. New client 2026-06-30. |
-| Spryson | spryson/ | TBD | Small move Pittsburgh PA. Pre-proposal stage. Contact: Erica Sinatra. Spelling confirmed 2026-06-30 from email domain. |
+| Spryson | spryson/ | 7571 | Small move Pittsburgh PA. Pre-proposal stage. Contact: Erica Sinatra. Number confirmed via Smartsheet 2026-07-15. |
+| Anti-Defamation League | anti_defamation_league/ | 7541 | Conference room setup, Boca Raton FL. On calendar 7/15, marked TBD. |
 | Armanino | armanino/ | TBD | Equipment move to new space, Aug 21 2026, delivery only. No project number yet. Contact: Kelsey King. New client 2026-07-09. |
 
 ## Lookup Pointers (NOT InterWork clients)

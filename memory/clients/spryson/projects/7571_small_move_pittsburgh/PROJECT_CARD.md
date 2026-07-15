@@ -1,16 +1,17 @@
-# Project TBD — Spryson Small Move Pittsburgh PA
+# Project 7571 — Spryson Small Move Pittsburgh PA
 
 ## Core Facts
 
 | Field | Value |
 |---|---|
-| Project number | Unknown — not yet assigned |
+| Project number | 7571 — **confirmed 2026-07-15 via Smartsheet calendar** (also newly added to Supabase, previously missing) |
 | Client | Spryson |
 | Project name | Small Move Pittsburgh |
 | Location | Pittsburgh, PA (full address not confirmed) |
 | Type | Small office move |
-| Status | Pre-proposal — site visit done, initial quote sent, re-quote requested |
+| Status | Pre-proposal — site visit done, initial quote sent, re-quote requested. Smartsheet still marks this "*Date(s) TBD*" |
 | Tentative execution | Week of July 20, 2026 (Jill confirmed to Erica 2026-06-30, if client decides to proceed) |
+| Field PM | Melvin Hernandez — per Smartsheet calendar |
 
 ## Contacts
 

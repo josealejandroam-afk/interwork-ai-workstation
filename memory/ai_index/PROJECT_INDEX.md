@@ -77,15 +77,17 @@ Also fetch `OPEN_LOOPS.md` and `NOTES.md` at the same path when available.
 | `strategic_education` | 7337 | `7337_project` | See card | `memory/clients/strategic_education/projects/7337_project/PROJECT_CARD.md` |
 | `uipath` | 7516 | `7516_service_call_dallas` | Dallas TX service call 2026-05-15 | `memory/clients/uipath/projects/7516_service_call_dallas/PROJECT_CARD.md` |
 | `uipath` | TBD | `unknown_1450_broadway_move_out` | 1450 Broadway 21st Fl NYC — **Jul 8 2026 11:00 AM, Rescheduled** — NOT in Supabase | `memory/clients/uipath/projects/unknown_1450_broadway_move_out/PROJECT_CARD.md` |
-| `vecos` | 7579 | `7579_jpmc_miami_lockers` | JPMC Miami — locker commissioning | `memory/clients/vecos/projects/7579_jpmc_miami_lockers/PROJECT_CARD.md` |
+| `vecos` | 7579 | `7579_jpmc_miami_lockers` | JPMC Miami — locker commissioning, now scheduled 7/20-21 w/ Juan Martinez per Smartsheet (was pending scheduling); added to Supabase 2026-07-15 | `memory/clients/vecos/projects/7579_jpmc_miami_lockers/PROJECT_CARD.md` |
 | `pear_vc` | 7510 | `7510_pear_sf_relocation` | 600 Townsend SF — Jul 1 | `memory/clients/pear_vc/projects/7510_pear_sf_relocation/PROJECT_CARD.md` |
 | `tierpoint` | 7497 | `7497_decom_cherry_hill` | Cherry Hill / Philadelphia — location conflict, confirm | `memory/clients/tierpoint/projects/7497_decom_cherry_hill/PROJECT_CARD.md` |
 | `claritev_multiplan` | 7420 | `7420_parsippany` | Laguna Hills CA (folder name is incorrect legacy name — confirmed Laguna Hills) | `memory/clients/claritev_multiplan/projects/7420_parsippany/PROJECT_CARD.md` |
 | `claritev_multiplan` | 6836 | `6836_historical` | Historical | `memory/clients/claritev_multiplan/projects/6836_historical/PROJECT_CARD.md` |
 | `claritev_multiplan` | 6837 | `6837_historical` | Historical | `memory/clients/claritev_multiplan/projects/6837_historical/PROJECT_CARD.md` |
 | `premier_orthopaedics` | 7391 | `unknown_project` | 3809 W. Chester Pike Newtown Square PA — Today 2026-06-30, At Risk | `memory/clients/premier_orthopaedics/projects/unknown_project/PROJECT_CARD.md` |
+| `premier_orthopaedics` | 7606 | `7606_exam_table_move_ridley_park` | Exam table move, Ridley Park PA, 7/16 — was missing from Supabase, added 2026-07-15; second activity (donation pickup, 7/23) not yet tracked | `memory/clients/premier_orthopaedics/projects/7606_exam_table_move_ridley_park/PROJECT_CARD.md` |
 | `ingersoll_rand` | 7374 | `7374_project` | FastField submitted | `memory/clients/ingersoll_rand/projects/7374_project/PROJECT_CARD.md` |
 | `ingersoll_rand` | 7453 | `7453_miami_to_austin_move` | Miami to Austin move — active planning, Miami site visit 7/23 | `memory/clients/ingersoll_rand/projects/7453_miami_to_austin_move/PROJECT_CARD.md` |
+| `ingersoll_rand` | TBD | `unknown_miami_july21_steinbrecher` | Miami FL, 7/21-22, David Steinbrecher — on Smartsheet with no project number, cannot be added to Supabase yet | `memory/clients/ingersoll_rand/projects/unknown_miami_july21_steinbrecher/PROJECT_CARD.md` |
 | `monster_energy` | 7529 | `7529_project` | Location TBC; may hold OFEx item (confirm with Alejandro) | `memory/clients/monster_energy/projects/7529_project/PROJECT_CARD.md` |
 | `faa_eastern_region` | 7559 | `7559_project` | See card | `memory/clients/faa_eastern_region/projects/7559_project/PROJECT_CARD.md` |
 | `ss_c_technologies` | 7580 | `7580_project` | 600 Townsend SF — site walk 2026-06-29 | `memory/clients/ss_c_technologies/projects/7580_project/PROJECT_CARD.md` |
@@ -94,7 +96,7 @@ Also fetch `OPEN_LOOPS.md` and `NOTES.md` at the same path when available.
 | `bec_online` | 7558 | `7558_project` | No detail available | `memory/clients/bec_online/projects/7558_project/PROJECT_CARD.md` |
 | `reckitt` | 7561 | `7561_project` | No detail available | `memory/clients/reckitt/projects/7561_project/PROJECT_CARD.md` |
 | `context_labs` | 7491 | `7491_project` | No detail available | `memory/clients/context_labs/projects/7491_project/PROJECT_CARD.md` |
-| `spryson` | TBD | `unknown_pittsburgh_small_move` | Pittsburgh PA small move — pre-proposal, week of Jul 20 tentative | `memory/clients/spryson/projects/unknown_pittsburgh_small_move/PROJECT_CARD.md` |
+| `spryson` | 7571 | `7571_small_move_pittsburgh` | Pittsburgh PA small move — pre-proposal, week of Jul 20 tentative; number confirmed via Smartsheet 2026-07-15, added to Supabase | `memory/clients/spryson/projects/7571_small_move_pittsburgh/PROJECT_CARD.md` |
 | `vecos_iu_health` | TBD | `unknown_iu_health_lockers` | Bloomington IN locker commissioning | `memory/clients/vecos_iu_health/projects/unknown_iu_health_lockers/PROJECT_CARD.md` |
 | `lincoln_crc_group` | 7246 | `7246_project` | See card | `memory/clients/lincoln_crc_group/projects/7246_project/PROJECT_CARD.md` |
 | `lincoln_crc_group` | 7537 | `7537_tampa_bayport_plaza_move_decom` | Tampa FL Bayport Plaza — move 7/24, decom 7/25, Day One 7/27 | `memory/clients/lincoln_crc_group/projects/7537_tampa_bayport_plaza_move_decom/PROJECT_CARD.md` |

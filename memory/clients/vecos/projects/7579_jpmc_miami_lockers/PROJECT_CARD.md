@@ -1,8 +1,10 @@
 # Project 7579 — JPMC Miami / Vecos SMART Locker Commissioning
 
-> **STATUS: PENDING SCHEDULING**
-> No execution date confirmed. No technician assigned.
-> Do not generate execution documents until scheduling is confirmed by Vecos.
+> **STATUS UPDATE 2026-07-15:** Smartsheet calendar now shows this scheduled 7/20-7/21 with
+> Juan Martinez. Read as execution date now confirmed and Juan Martinez assigned as field
+> technician — not independently verified beyond the calendar entry itself. Confirm building
+> access, parking/loading instructions, and ladder availability (still listed as missing
+> below) before treating the Execution Document Trigger Checklist as satisfied.
 
 ## Core Facts
 
@@ -12,13 +14,13 @@
 | Quote number | 8520 |
 | Client | Vecos USA |
 | End user site | JPMC — 1450 Brickell Ave, Miami FL 33131, 33rd Floor |
-| Scheduled date | NOT CONFIRMED |
+| Scheduled date | 2026-07-20 (per Smartsheet calendar, 2026-07-15) — previously NOT CONFIRMED |
 | Start time | NOT CONFIRMED |
 | Office PM | Francisco Vinueza |
-| Field technician | UNASSIGNED |
+| Field technician | Juan Martinez (per Smartsheet calendar, 2026-07-15) — previously UNASSIGNED |
 | Vendor required | No |
-| Status | Pending scheduling |
-| Supabase | NOT IN DATABASE — INSERT needed |
+| Status | Scheduled per Smartsheet — was Pending scheduling |
+| Supabase | **Added 2026-07-15** — was missing |
 
 ## Quote
 
@@ -69,9 +71,9 @@ Required tools: screwdriver, wrench, 7mm socket, ladder (confirm onsite availabi
 
 ## Missing Information
 
-- Execution date (Vecos last said: "sometime next week")
+- ~~Execution date~~ — now 2026-07-20 per Smartsheet (2026-07-15)
 - Start time
-- Technician assignment
+- ~~Technician assignment~~ — now Juan Martinez per Smartsheet (2026-07-15)
 - Building access instructions
 - Parking / loading instructions
 - Ladder availability onsite
@@ -103,9 +105,8 @@ When all are confirmed: say "Create 7579 execution package"
 
 ## Supabase Note
 
-Project 7579 is NOT in Supabase as of 2026-06-30.
-A new INSERT is needed (not a PATCH).
-Trigger phrase when ready: "create 7579 in Supabase"
+Project 7579 was inserted into Supabase 2026-07-15 (previously missing since 2026-06-30),
+during a full Smartsheet-calendar-to-Supabase reconciliation pass.
 
 ## Source Notes
 
