@@ -9,7 +9,7 @@
 | Project type | Decommission (Tampa) + long-haul move to storage (Mendota Heights) |
 | Origin | 500 N Westshore Blvd, Suite 650, Tampa, FL 33609 |
 | Destination | Bell Bank Storage Facility, 2535 Pilot Knob Road, Mendota Heights, MN 55120 |
-| InterWork PM | Not yet assigned |
+| InterWork PM | Frank Barrett — confirmed via Smartsheet 2026-07-14, synced to Supabase |
 | Client contact | Kaitlyn Greene, Facilities Project Design Coordinator — KGreene@bell.bank, 218-310-2372 |
 | InterWork contacts | Jill Buchman (proposal), Laura Skillen (Finance/Admin) |
 

@@ -13,7 +13,7 @@ different client relationship, coincidentally both in Tampa. Do not conflate.
 | New office | 1 North Dale Mabry Hwy, Suite 450, Tampa, FL 33609 |
 | Existing office | 401 E Jackson St, 19th Floor, Tampa, FL 33602 |
 | Office PM | Hunter Barbieri — **no longer with the company as of 7/9/2026; needs reassignment** |
-| Field PM | Frank Barrett (planned) |
+| Field PM | **Juan Martinez** — confirmed current PM per Smartsheet and Supabase (checked 2026-07-14). Frank Barrett was only "planned" per the June master summary doc — superseded. |
 | Vendor (crates/supplies) | Cubicle Solutions Inc. — contact "Sean/Steve Ouellet" (souellet@cubicle-solutions.com); same vendor already on file for project 7597 (Louisville), where he's recorded as Steve Ouellet — name discrepancy not resolved, likely the same person |
 | Status | Locked in for the final move; still confirming exact move dates as of Hunter's 7/8 handoff |
 
@@ -82,3 +82,9 @@ different client relationship, coincidentally both in Tampa. Do not conflate.
   email from Francisco Vinueza to Alejandro Acosta (2026-07-14 11:55 AM), following up on
   Hunter Barbieri's 2026-07-08 departure handoff email.
 - Created: 2026-07-14.
+- This project already existed in Supabase (checked 2026-07-14) with real history predating
+  this handoff: FastField submitted 2026-04-14, briefly marked completed then reverted to
+  scheduled 2026-04-23, a field correction by Alejandro on 2026-06-26, and a Smartsheet date
+  sync 2026-07-10. Supabase's name for it is "MMA Tech Install Move Clearwater Tampa FL" —
+  consistent with this card's Clearwater equipment-pickup detail. Not renamed; this card's
+  richer scope detail and Supabase's existing record describe the same evolving project.

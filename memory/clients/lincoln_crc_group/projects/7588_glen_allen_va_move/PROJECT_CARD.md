@@ -9,7 +9,7 @@
 | Location | Glen Allen, VA |
 | Date | Friday, 2026-07-24 (per Smartsheet) |
 | Related proposal | Quote #8536, David Steinbrecher — described a move dated 7/24/26 with Melvin Hernandez-style labor |
-| PM | Not yet confirmed in repo (Smartsheet has shown "Melvin Hernandez" on a related bar — same PM as project 7495, Charlotte Restack) |
+| PM | Melvin Hernandez — confirmed via Smartsheet 2026-07-14, synced to Supabase (same PM as project 7495, Charlotte Restack) |
 | Status | Scheduled, per Smartsheet |
 
 ## Number History — RESOLVED 2026-07-14

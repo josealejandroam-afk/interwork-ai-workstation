@@ -14,7 +14,7 @@
 | Start time | 9:00 AM |
 | Prior phases | Phase 1 complete; Phase 2 dates were 2026-06-01–2026-06-04 (superseded) |
 | Office PM | Hunter Barbieri — **no longer with the company as of 7/9/2026; needs reassignment** |
-| Field PM | Needs confirmation |
+| Field PM | Frank Barrett — confirmed via Smartsheet 2026-07-14; already set correctly in Supabase |
 | Client POC | Evette Acosta |
 | Vendor | NRS — set up for labor, has project details/scope (per Hunter's 2026-07-08 departure handoff) |
 | Status | Phase 3 scheduled, starts 7/13 |
