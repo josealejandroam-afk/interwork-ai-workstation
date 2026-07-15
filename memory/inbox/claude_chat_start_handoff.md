@@ -30,6 +30,23 @@ project index, access status, and open loops. Commit and push if changed.
 
 ---
 
+## Sending a Handoff Back to Claude Code — Without Alejandro Copy/Pasting
+
+**If you (Claude Chat) have GitHub write access to this repo** (check whether a GitHub
+connector is configured for this session before assuming — do not guess): commit new
+project handoffs directly to `memory/inbox/pending/YYYY-MM-DD_HHMM_short-topic-slug.md`
+instead of just displaying them in chat. Use the format in
+`memory/inbox/claude_code_project_update_handoff_template.md`. Claude Code will pick it up
+from there — see `memory/company_knowledge/INBOX_PROCESSING_RULES.md` for how it gets
+processed.
+
+**If you don't have write access** (the common case unless this has been explicitly set up):
+fall back to displaying the handoff as before, for Alejandro to copy and paste into a Code
+session himself. Don't claim to have written a file if you can't verify the commit
+succeeded.
+
+---
+
 ---
 
 ## Project Lookup Rules (read before answering any project question)
@@ -138,7 +155,7 @@ Do not pressure IT for approval or follow up on the Microsoft consent request.
 | Read/write local files | Yes | No |
 | Run PowerShell / Python scripts | Yes | No |
 | PATCH Supabase (with approval) | Yes | No |
-| Commit and push to GitHub | Yes | No |
+| Commit and push to GitHub | Yes | Only to `memory/inbox/pending/`, and only if a GitHub write connector is configured — check before assuming. Never elsewhere in the repo. |
 | Query Supabase via curl / Python | Yes | No |
 | Read repo files directly | Yes | No (must paste) |
 
