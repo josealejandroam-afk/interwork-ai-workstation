@@ -17,3 +17,5 @@
 | 13 | Final furniture-placement direction at the Toronto office | Open |
 | 14 | Preet Gill's question on crew arrival time — not yet answered per source material | Open |
 | 15 | Mississauga decommission quote (#IWSQ8524, $5,334) still shows Pending — confirm approval status | Open |
+| 16 | **Date conflict:** card shows 7/13-7/15 for the Toronto move/reconfig; a separate thread references 7/17 for the Mississauga decommission/load-out. Confirm with Alejandro whether these are two distinct events or the schedule shifted — do not assume | Open — blocking |
+| 17 | **Onsite access dependency:** Oliver Wyman must staff a rep with access credentials (entry, suite access, lockup) for the Mississauga decommission — no dock, front-entrance-only, load-out restricted to after 5:00 PM | Open — hard pre-execution blocker |

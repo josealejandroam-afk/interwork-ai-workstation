@@ -27,12 +27,19 @@ operationally, financially, or under this project record.
 
 ## Schedule
 
-Three-day event:
+Three-day event (Toronto side — move/reconfiguration order):
 - **Monday, 2026-07-13** — desk reconfiguration day
 - **Tuesday, 2026-07-14** — installation day
 - **Wednesday, 2026-07-15** — completion / remaining work
 
 Exact daily start times not confirmed.
+
+**New date flagged, not reconciled — Friday, 2026-07-17:** a separate message thread
+references this date for the Mississauga decommission/load-out specifically. Not yet confirmed
+whether this is a distinct event from the 7/13-7/15 window above (plausible — decommission and
+move/reconfig are already tracked as two separate commercial documents, IWSQ8524 vs IWSQ8324),
+or whether the schedule shifted. **Do not treat 7/17 as replacing 7/13-7/15 — both stand until
+Alejandro confirms.** See Open Loops.
 
 ## Commercial Status
 
@@ -87,6 +94,15 @@ in this formal handoff, but "power beams" is exactly the solution David proposed
 sit/stand desk power — plausibly this is the actual hardware procurement for that solution.
 Not explicitly confirmed; verify before treating the $2,277.63 as the final power-beam cost.
 
+## Mississauga Decommission — Site Access Constraints (new, 2026-07-15)
+
+- No loading dock — front-entrance-only access for the decommission/load-out.
+- Furniture load-out restricted to **after 5:00 PM**; daytime work is limited to
+  dismantling/prep only.
+- **Critical dependency:** Oliver Wyman must staff an onsite rep with access credentials
+  covering entry, suite access, and lockup — without this, the crew cannot get in or secure
+  the space afterward. Treat as a hard pre-execution blocker.
+
 ## Technology and Asset Coordination
 
 Anticipated move inventory: monitors, monitor arms, docking stations, iPads,
@@ -99,11 +115,12 @@ confirming move / remain / dispose / e-waste disposition per item.
 | Name | Role | Contact | Responsibilities |
 |---|---|---|---|
 | Lynn McWilliams | Client contact, proposal contact | 347-331-3746 | Finalize move inventory; coordinate IT/Office Services; confirm disposal/e-waste; decide on additional sit/stand desks after power pricing |
-| Preet Gill | Workplace Administrator / onsite validation | — | Onsite for verification; confirm move/remain/dispose; validate furniture/asset placement; coordinate reconfiguration/install questions. Previously asked for crew arrival time and whether InterWork would haul away removed desks/components. |
+| Preet Gill | Workplace Administrator / onsite validation — **confirmed coordinator** (2026-07-15) | — | Onsite for verification; confirm move/remain/dispose; validate furniture/asset placement; coordinate reconfiguration/install questions. Previously asked for crew arrival time and whether InterWork would haul away removed desks/components. |
 | Aaron Richards | Site supervisor | 647-717-0789 | — |
 | Harsh Deep Kaur | IT coordination | — | Identify/tag tech assets; coordinate monitors/docks/iPads/TVs/peripherals; confirm IT availability during the move |
 | Brian Diele | Building/landlord coordination | — | Confirm landlord requirements; identify make-good obligations; determine patching/painting/restoration/low-voltage requirements |
-| David Steinbrecher | InterWork | — | Develop power solution/pricing; update relocation/decom proposals; scheduling options; coordinate labor/transportation/materials/logistics |
+| David Steinbrecher | InterWork — **confirmed decommission lead** (2026-07-15) | — | Develop power solution/pricing; update relocation/decom proposals; scheduling options; coordinate labor/transportation/materials/logistics |
+| Alecia Tanchak | Property Administrator, Dexterra — new contact, 2026-07-15 | Alecia.Tanchak@dexterra.com | Building access, move-out rules, landlord approval for the Mississauga decommission. Confirmed dismantling can start any time Friday 7/17, furniture removal from 5:00 PM; confirmed Oliver Wyman must staff someone onsite with access to let the crew in and lock up after |
 
 ## Current Status
 
@@ -140,3 +157,6 @@ Pending.
   client entity was still ambiguous between "Oliver Wyman Canada" and "Victor Insurance").
   That placeholder has been removed; this is now the authoritative record.
 - Created: 2026-07-13.
+- Site access constraints, new July 17 date reference, Dexterra/Alecia Tanchak contact, and
+  decommission-lead/coordinator confirmations added 2026-07-15 from an Alejandro-provided
+  email thread summary and chat clarification.
