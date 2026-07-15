@@ -62,6 +62,7 @@ see 7553 below.)
 | # | Name | Location | Status | Notes |
 |---|---|---|---|---|
 | 7189 | MMC Bermuda Inventory Hoboken NJ | 121 River St, Hoboken NJ | Scheduled Jul 1 | Field PM: Jairo Escalante. Multi-phase since Oct 2025. See project folder. |
+| 7546 | MMC/MMA Dallas Conference Room Table Removal | 13155 Noel Rd, 11th Floor, Dallas TX | Intake/review — date unconfirmed, do not assume 7/9 | SOW PM: Frank Barrett. Quote #8482, $1,100. Do not use "5549" as the project number. See project folder. |
 | 7060 | MMC Dallas Walnut Hill to Galleria | Dallas TX | In-progress (overdue) | Client unconfirmed; draft ready; 3 months overdue |
 | 7378 | MMA Sepulveda 5th Floor (Phase 2 Decom) | Sepulveda Blvd, Van Nuys CA | Planning | Phase 1 complete; decom incoming. Evette Acosta. See project folder. |
 | 7364 | MMC Allentown Move | Allentown PA | Scheduled (past-dated) | FastField submitted; likely done |
