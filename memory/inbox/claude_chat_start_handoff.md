@@ -4,6 +4,17 @@ _Last updated: 2026-06-30_
 
 ---
 
+**If you're an existing chat session reading this fresh (not a brand-new one): here's what
+changed since you last read this file.** As of 2026-07-15, this Claude Desktop app has
+**Desktop Commander** enabled, giving you direct local filesystem and git access — you're no
+longer limited to reading pasted text or displaying handoffs for Alejandro to copy/paste. See
+"The Rule: GitHub Is the Source of Truth, Not Whatever's on Disk" below for exactly what
+changed and how to use it (git pull before answering, push handoffs to
+`memory/inbox/pending/` yourself). Nothing else in your existing context is invalidated —
+this is additive.
+
+---
+
 ## How to Use This File
 
 Copy everything below the line and paste into Claude Chat with this prefix:
