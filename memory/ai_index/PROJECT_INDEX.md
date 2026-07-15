@@ -59,7 +59,7 @@ Also fetch `OPEN_LOOPS.md` and `NOTES.md` at the same path when available.
 | `amtrust` | 7568 | `7568_site_walk_irvine` | 1 Park Plaza Irvine CA — quote pending | `memory/clients/amtrust/projects/7568_site_walk_irvine/PROJECT_CARD.md` |
 | `amtrust` | 7572 | `7572_amtrust_financial_59_maiden_lane` | 59 Maiden Lane NYC | `memory/clients/amtrust/projects/7572_amtrust_financial_59_maiden_lane/PROJECT_CARD.md` |
 | `amtrust` | TBD | `unknown_las_vegas_chairs` | 4730 S. Ft. Apache Las Vegas NV — chair swap, quote pending | `memory/clients/amtrust/projects/unknown_las_vegas_chairs/PROJECT_CARD.md` |
-| `amtrust` | TBD | `unknown_nashua_ewaste` | 15 Trafalgar Square Nashua NH — e-waste, quote pending | `memory/clients/amtrust/projects/unknown_nashua_ewaste/PROJECT_CARD.md` |
+| `amtrust` | 7594 | `7594_nashua_ewaste_disposal` | 15 Trafalgar Square Nashua NH — e-waste/furniture disposal + reception desk, site walk done, quote pending | `memory/clients/amtrust/projects/7594_nashua_ewaste_disposal/PROJECT_CARD.md` |
 | `bentley_systems` | 7350 | `7350_cesium_to_exton` | Cesium → Exton PA | `memory/clients/bentley_systems/projects/7350_cesium_to_exton/PROJECT_CARD.md` |
 | `dropbox` | 7399 | `7399_project` | See card | `memory/clients/dropbox/projects/7399_project/PROJECT_CARD.md` |
 | `dropbox` | 7460 | `7460_project` | See card | `memory/clients/dropbox/projects/7460_project/PROJECT_CARD.md` |
