@@ -13,6 +13,15 @@ changed and how to use it (git pull before answering, push handoffs to
 `memory/inbox/pending/` yourself). Nothing else in your existing context is invalidated —
 this is additive.
 
+**Important caveat confirmed 2026-07-15: Desktop Commander access is scoped per-Project, not
+account-wide.** A chat in one Claude Project (e.g. "Ask InterWork") having it enabled does not
+mean another Project (e.g. "MMC / MMA Projects") has it too — each Project needs Desktop
+Commander enabled in its own settings. If you try to read/write a local file or run git and
+find you have no such tools available (e.g. you can only search "project files or uploads"),
+that means this Project doesn't have Desktop Commander enabled — don't assume it's broken or
+that the file doesn't exist. Tell Alejandro so he can enable it for this Project, and fall
+back to the copy/paste flow in the meantime.
+
 ---
 
 ## How to Use This File
