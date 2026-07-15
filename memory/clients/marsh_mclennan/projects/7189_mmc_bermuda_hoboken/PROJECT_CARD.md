@@ -11,9 +11,10 @@
 | Scheduled start | 2026-07-01 |
 | Scheduled end | 2026-07-18 |
 | Start time | Not confirmed |
-| Office PM | Francisco Vinueza — franciscov@interworkoffice.com, 609-744-1467 |
-| Office Assignee (Supabase) | Hunter Barbieri — hunterb@interworkoffice.com |
+| Office PM | Francisco Vinueza — franciscov@interworkoffice.com, 609-744-1467 — **confirmed 2026-07-15 as PM in Bermuda** (overall project) |
+| Office Assignee (Supabase) | Hunter Barbieri — hunterb@interworkoffice.com — **no longer with the company as of 7/9/2026; role needs reassignment/removal** |
 | Field PM | Jairo Escalante — jairoe@interworkoffice.com (phone unknown) |
+| Onsite lead, Hoboken loading | **Pedro Martinez — confirmed 2026-07-15** (matches the 7/20-7/24 Hoboken loadout entry on Smartsheet). Location/role-specific — not a competing claim on the overall project PM role, which stays Francisco Vinueza. |
 | Vendor required | No |
 | Status | Scheduled |
 
