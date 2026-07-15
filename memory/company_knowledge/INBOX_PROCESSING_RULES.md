@@ -1,8 +1,16 @@
 # Inbox Processing Rules — For Claude Code
 
-How to handle files that land in `memory/inbox/pending/` (whether committed there by Claude
-Chat directly, or pasted into a Code session the old way). Same rigor either way — the
+How to handle files that land in `memory/inbox/pending/` (whether pushed there by Claude Chat
+directly via git, or pasted into a Code session the old way). Same rigor either way — the
 delivery mechanism changed, the standard didn't.
+
+**Since 2026-07-15, Chat can push directly to `memory/inbox/pending/` via git** (see
+`memory/inbox/claude_chat_start_handoff.md` and `memory/inbox/pending/README.md`). Practical
+effect for Code: always `git pull` at the start of a session, and again before assuming
+`pending/` is empty or unchanged — a file may have landed since the last pull, committed by
+Chat, not by Alejandro pasting something. Chat pushing a file there is not itself
+confirmation the content is correct — it still goes through the same verification below
+before anything gets treated as fact.
 
 ## Before Filing Anything
 

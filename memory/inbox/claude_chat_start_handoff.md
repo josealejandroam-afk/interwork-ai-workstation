@@ -30,20 +30,59 @@ project index, access status, and open loops. Commit and push if changed.
 
 ---
 
-## Sending a Handoff Back to Claude Code — Without Alejandro Copy/Pasting
+## The Rule: GitHub Is the Source of Truth, Not Whatever's on Disk
 
-**If you (Claude Chat) have GitHub write access to this repo** (check whether a GitHub
-connector is configured for this session before assuming — do not guess): commit new
-project handoffs directly to `memory/inbox/pending/YYYY-MM-DD_HHMM_short-topic-slug.md`
-instead of just displaying them in chat. Use the format in
-`memory/inbox/claude_code_project_update_handoff_template.md`. Claude Code will pick it up
-from there — see `memory/company_knowledge/INBOX_PROCESSING_RULES.md` for how it gets
-processed.
+**Confirmed working path (2026-07-15): Desktop Commander, driving git against the online
+repo.** This is a Claude Desktop app running locally on Alejandro's machine, and the
+**Desktop Commander** extension is installed and enabled at the desktop-app level (Settings →
+Connectors — confirmed connected). Desktop Commander can both read/write local files *and*
+run shell commands (`start_process` / `interact_with_process`), which means Claude Chat can
+run `git` directly against the local clone at
+`C:\Users\AlejandroAcosta\Documents\ai-workstation` — the same clone Claude Code works from.
 
-**If you don't have write access** (the common case unless this has been explicitly set up):
-fall back to displaying the handoff as before, for Alejandro to copy and paste into a Code
-session himself. Don't claim to have written a file if you can't verify the commit
-succeeded.
+**Before reading anything or answering a project question:** run `git pull` in that folder
+first. Local files can be stale relative to what Code (or Alejandro directly) pushed since
+your last session. Don't answer from memory of an earlier pull.
+
+**To send a handoff instead of just displaying it in chat:**
+
+1. `git pull` first (see above — make sure you're branching off the latest state, to avoid a
+   push conflict later).
+2. Write the handoff to
+   `memory\inbox\pending\YYYY-MM-DD_HHMM_short-topic-slug.md`, using the format in
+   `memory/inbox/claude_code_project_update_handoff_template.md`.
+3. `git add`, `git commit`, `git push` — same file, now on GitHub, not just local disk.
+4. Alejandro will see approval prompts for the write and for each shell command (Desktop
+   Commander's write/delete and process-execution tools are "Needs approval" — read-only
+   tools are "Always allow"). Tell him what you're about to do before calling the tool, so the
+   prompts aren't a surprise.
+5. Do not claim the commit/push succeeded until the tool result confirms it — check output,
+   don't assume.
+6. If `git push` is rejected (non-fast-forward — someone else, likely Code, pushed in the
+   meantime): `git pull` again and retry. Never force-push.
+
+Claude Code still reviews and files handoffs out of `memory/inbox/pending/` — pushing a file
+there doesn't make it official on its own. See
+`memory/company_knowledge/INBOX_PROCESSING_RULES.md` for how it gets verified against
+existing records and filed into the real client/project folders. **Chat should not write
+directly into `memory/clients/**` project folders** — the pending/ → review → file pipeline
+is the checkpoint that's caught bad assumptions before (a misfiled client, a wrongly-merged
+project) and stays in place even now that push access exists.
+
+**If Desktop Commander isn't available in this session for some reason** (different device,
+extension disabled, etc.): fall back to displaying the handoff in chat for Alejandro to copy
+and paste into a Code session himself. Don't claim to have written or pushed a file if you
+can't verify it.
+
+**Scope note:** Desktop Commander has general local filesystem and shell access on this
+machine, not access scoped only to this repo. Keep file writes and git operations confined to
+`C:\Users\AlejandroAcosta\Documents\ai-workstation` unless Alejandro directs otherwise — don't
+use the broader access for anything outside that folder.
+
+**Collision note:** Chat and Code share the same local clone. If Code is mid-session with
+uncommitted changes when Chat tries to `git pull`/`git push`, that can conflict. If a git
+command reports uncommitted local changes or a conflict, stop and surface it to Alejandro
+rather than resolving it yourself (don't `git stash`/`reset`/force anything).
 
 ---
 
@@ -152,12 +191,12 @@ Do not pressure IT for approval or follow up on the Microsoft consent request.
 
 | Capability | Code | Chat |
 |---|---|---|
-| Read/write local files | Yes | No |
-| Run PowerShell / Python scripts | Yes | No |
+| Read/write local files | Yes | Yes, via Desktop Commander (confirmed connected 2026-07-15) — reads are always-allow, writes need Alejandro's one-time approval per call |
+| Run PowerShell / Python scripts | Yes | No (Desktop Commander can start processes, but don't use that capability here — out of scope for this workflow) |
 | PATCH Supabase (with approval) | Yes | No |
-| Commit and push to GitHub | Yes | Only to `memory/inbox/pending/`, and only if a GitHub write connector is configured — check before assuming. Never elsewhere in the repo. |
+| Commit and push to GitHub | Yes | Yes, but **only** to `memory/inbox/pending/` via Desktop Commander running `git` — never to `memory/clients/**` or anywhere else in the repo. Claude Code still reviews and files from pending/. |
 | Query Supabase via curl / Python | Yes | No |
-| Read repo files directly | Yes | No (must paste) |
+| Read repo files directly | Yes | Yes, via Desktop Commander `read_file` / `list_directory` — no need to ask Alejandro to paste them anymore |
 
 If you need Claude Code to do something, tell Alejandro to switch to the Code session and give the instruction there.
 
