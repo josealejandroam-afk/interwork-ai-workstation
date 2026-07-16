@@ -22,6 +22,7 @@ Also fetch `OPEN_LOOPS.md` and `NOTES.md` at the same path when available.
 
 | Client Slug | Project # | Project Slug | Notes / Location | Source Path |
 |---|---|---|---|---|
+| `ebg` | 7563 | `7563_nyc_office_move` | NYC office move completed 7/9; Orlando-bound equipment staged at NJ warehouse pending Sunset Transportation pickup/delivery | `memory/clients/ebg/projects/7563_nyc_office_move/PROJECT_CARD.md` |
 | `marsh_mclennan` | 7189 | `7189_mmc_bermuda_hoboken` | MMC Bermuda → Hoboken | `memory/clients/marsh_mclennan/projects/7189_mmc_bermuda_hoboken/PROJECT_CARD.md` |
 | `marsh_mclennan` | 7241 | `7241_mmc_allentown_move` | Allentown PA | `memory/clients/marsh_mclennan/projects/7241_mmc_allentown_move/PROJECT_CARD.md` |
 | `marsh_mclennan` | 7299 | `7299_mmc_alpharetta_monitors` | Alpharetta GA — monitors | `memory/clients/marsh_mclennan/projects/7299_mmc_alpharetta_monitors/PROJECT_CARD.md` |
