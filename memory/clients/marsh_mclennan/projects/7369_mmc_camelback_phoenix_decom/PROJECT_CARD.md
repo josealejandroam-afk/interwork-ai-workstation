@@ -109,8 +109,14 @@ site.**
   departure
 - Approval status of invoice IW-08-26 ($500) — email thread shows it was sent for review, not
   yet marked approved/paid as of this handoff
-- Full picture of what punch-list items remain vs. what's been completed since the original
-  March decommission
+- **Punch-list client sign-off — actively searched for, not found (2026-07-15).** A dedicated
+  check of the "RE: 7369 – MMC Camelback – File Room Update" thread and related communications
+  turned up CBRE/property management's additional requirements and a request for a progress
+  report, plus evidence of vendor labor (7/6) and invoicing (7/14) — but no email from Ed
+  Cuevas, Bosco Lovato, MMC, or CBRE accepting the work as complete, no punch-list sign-off
+  document, no completion certificate, and no final walkthrough report. **Status: the client
+  has not confirmed the punch-list is done, as of an active search, not just by default
+  absence.**
 
 ## Source Notes
 
@@ -120,6 +126,8 @@ site.**
   Alejandro's "Completed Project Reports/7248 – MMC Phoenix High Street/" folder — note this
   folder name itself references "7248" and "High Street," another unreconciled naming
   discrepancy worth checking)
-- Not independently verified beyond what's in the relayed handoff and the invoice PDF/email
-  screenshot themselves
+- Follow-up check 2026-07-15: dedicated search for client/CBRE completion sign-off on the
+  punch-list found none — see Missing/Open Information above
+- Not independently verified beyond what's in the relayed handoffs and the invoice PDF/email
+  screenshots themselves
 - Created: 2026-07-15
