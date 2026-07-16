@@ -5,7 +5,7 @@
 | Field | Value |
 |---|---|
 | Project number | 7563 |
-| Client | EBG |
+| Client | EBG — full name **Entertainment Benefits Group**, per Derek Bloom's Orlando correspondence (2026-07-16) |
 | Origin | 520 8th Ave, 11th Floor, NYC 10018 |
 | Destination | Chrysler Building, 134 E 43rd St, NYC |
 | Scheduled/executed date | 2026-07-09 |
@@ -37,13 +37,19 @@ Per the original scope: tech equipment was to be boxed/packaged for shipment to 
 this equipment is currently staged at InterWork's NJ warehouse, and a Sunset Transportation
 pickup/delivery is being arranged to move it from there to its destination.
 
-- Destination: Orlando — **confirmed 2026-07-16 (Alejandro)**
+- **Destination address confirmed 2026-07-16:** Entertainment Benefits Group (EBG),
+  8517 Southpark Circle, Suite 300, Orlando, FL 32819 — provided by Derek Bloom on
+  2026-06-16 in project correspondence, relayed by Alejandro 2026-07-16.
 - Presumed pickup location: InterWork warehouse, 439 Commerce Lane, West Berlin, NJ 08091 —
   this is the same NJ warehouse address referenced elsewhere in the repo (e.g. project 7606);
   not explicitly confirmed as the same site for this shipment, flagging rather than assuming.
-- **Orlando receiving contact confirmed 2026-07-16 (Alejandro): Derek Bloom, 646-559-6370.**
-  Resolves the earlier "Brandon Warner" vs. "Derek Bloom" naming inconsistency from the
-  Supabase record — Derek Bloom is correct.
+- **Orlando receiving contact confirmed 2026-07-16 (Alejandro): Derek Bloom.** Resolves the
+  earlier "Brandon Warner" vs. "Derek Bloom" naming inconsistency from the Supabase record —
+  Derek Bloom is correct. **Two phone numbers on file, not reconciled:** 646-559-6370 (from
+  the Supabase record) and 407-512-7058 (from the 2026-07-16 relayed correspondence, an
+  Orlando-area code matching the delivery address) — likely one is a direct/local line and
+  the other a different number of his, but not confirmed; use 407-512-7058 as the more
+  likely-correct Orlando-area contact unless told otherwise.
 - Sunset engagement status: **pre-quote** as of 2026-07-16 — no quote requested/received yet
   per this note. See `memory/procedures/sunset_transportation_workflow.md` for the full
   engagement workflow (quote → approve → book → monitor pickup → monitor transit → confirm
@@ -53,8 +59,8 @@ pickup/delivery is being arranged to move it from there to its destination.
 ## Missing / Open Information
 
 - PM assignment (Supabase shows none)
-- Confirm Orlando delivery address (destination city and receiving contact now confirmed —
-  see above; still need the actual street address for the Sunset quote)
+- Reconcile Derek Bloom's two phone numbers (646-559-6370 vs. 407-512-7058) — not blocking,
+  but confirm which to actually use when contacting him
 - Confirm pallet count/weight/dimensions for the Sunset quote request
 - Confirm requested pickup and delivery dates
 - Client sign-off on the completed NYC move — not independently verified

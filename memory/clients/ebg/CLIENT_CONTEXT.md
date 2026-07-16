@@ -2,7 +2,9 @@
 
 ## Identity
 
-- **Client name:** EBG
+- **Client name:** EBG — full name **Entertainment Benefits Group**, confirmed 2026-07-16
+  via Derek Bloom's Orlando correspondence
+- Orlando office: 8517 Southpark Circle, Suite 300, Orlando, FL 32819
 - Existed in Supabase (`clients` table) with no corresponding repo record until 2026-07-16 —
   filed retroactively after Alejandro asked what we had on file.
 
@@ -11,11 +13,11 @@
 | Name | Role | Phone |
 |---|---|---|
 | Brandon | Client POC (NYC move) | 917-673-4801 |
+| Derek Bloom | Orlando receiving contact (technology shipment) | 646-559-6370 and 407-512-7058 (two numbers on file, not reconciled — see project card) |
 
-Note: Supabase's internal notes on project 7563 flag an unresolved naming inconsistency for
-an Orlando-side receiving contact — listed as both "Brandon Warner" and "Derek Bloom," same
-phone number (646-559-6370). Not the same "Brandon" as the NYC POC above (different phone) —
-do not conflate the two.
+Note: an earlier Supabase record listed the Orlando contact as "Brandon Warner" — confirmed
+2026-07-16 that this was incorrect; Derek Bloom is correct. Not the same "Brandon" as the
+NYC POC above (different phone, different role) — do not conflate the two.
 
 ## Projects
 
