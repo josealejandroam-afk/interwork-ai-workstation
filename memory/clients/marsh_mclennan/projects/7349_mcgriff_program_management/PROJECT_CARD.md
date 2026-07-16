@@ -26,6 +26,8 @@ noting the overlap so a future lookup doesn't miss the connection:
 - `memory/clients/marsh_mclennan/projects/7495_mma_charlotte_restack/` (Charlotte)
 - `memory/clients/marsh_mclennan/projects/7578_mma_greensboro_office_swap/` (Greensboro)
 - `memory/clients/marsh_mclennan/projects/7595_mcgriff_wilmington_consolidation/` (Wilmington)
+- `memory/clients/marsh_mclennan/projects/7254_mma_irvine_decommission/` (Irvine — origin site
+  is McGriff's 130 Theory office, and shares client contact Ivy Ringhoff; added 2026-07-16)
 
 ## Source Notes
 
