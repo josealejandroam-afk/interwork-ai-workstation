@@ -37,14 +37,13 @@ Per the original scope: tech equipment was to be boxed/packaged for shipment to 
 this equipment is currently staged at InterWork's NJ warehouse, and a Sunset Transportation
 pickup/delivery is being arranged to move it from there to its destination.
 
-- Presumed destination: Orlando, per the original scope note — **not independently
-  reconfirmed for this specific shipment; verify before booking.**
+- Destination: Orlando — **confirmed 2026-07-16 (Alejandro)**
 - Presumed pickup location: InterWork warehouse, 439 Commerce Lane, West Berlin, NJ 08091 —
   this is the same NJ warehouse address referenced elsewhere in the repo (e.g. project 7606);
   not explicitly confirmed as the same site for this shipment, flagging rather than assuming.
-- **Orlando receiving contact is unresolved:** listed inconsistently in the Supabase record as
-  both "Brandon Warner" and "Derek Bloom," same phone number (646-559-6370) — confirm the
-  correct name/contact before Sunset needs a delivery-side contact.
+- **Orlando receiving contact confirmed 2026-07-16 (Alejandro): Derek Bloom, 646-559-6370.**
+  Resolves the earlier "Brandon Warner" vs. "Derek Bloom" naming inconsistency from the
+  Supabase record — Derek Bloom is correct.
 - Sunset engagement status: **pre-quote** as of 2026-07-16 — no quote requested/received yet
   per this note. See `memory/procedures/sunset_transportation_workflow.md` for the full
   engagement workflow (quote → approve → book → monitor pickup → monitor transit → confirm
@@ -54,8 +53,8 @@ pickup/delivery is being arranged to move it from there to its destination.
 ## Missing / Open Information
 
 - PM assignment (Supabase shows none)
-- Confirm Orlando delivery address and correct receiving contact name (Brandon Warner vs.
-  Derek Bloom)
+- Confirm Orlando delivery address (destination city and receiving contact now confirmed —
+  see above; still need the actual street address for the Sunset quote)
 - Confirm pallet count/weight/dimensions for the Sunset quote request
 - Confirm requested pickup and delivery dates
 - Client sign-off on the completed NYC move — not independently verified
