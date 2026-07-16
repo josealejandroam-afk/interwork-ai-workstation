@@ -1,10 +1,13 @@
 # Project 7579 — JPMC Miami / Vecos SMART Locker Commissioning
 
-> **STATUS UPDATE 2026-07-15:** Smartsheet calendar now shows this scheduled 7/20-7/21 with
-> Juan Martinez. Read as execution date now confirmed and Juan Martinez assigned as field
-> technician — not independently verified beyond the calendar entry itself. Confirm building
-> access, parking/loading instructions, and ladder availability (still listed as missing
-> below) before treating the Execution Document Trigger Checklist as satisfied.
+> **STATUS UPDATE 2026-07-16: CANCELED per Smartsheet calendar.** Was scheduled 7/20-7/21 with
+> Juan Martinez as of 2026-07-15 (see prior note below) — Smartsheet now shows this canceled.
+> Not independently verified beyond the calendar entry itself; reason for cancellation not
+> known. Do not proceed with any execution prep until this is confirmed with Vecos.
+>
+> **Prior status update 2026-07-15:** Smartsheet calendar showed this scheduled 7/20-7/21 with
+> Juan Martinez. Read as execution date confirmed and Juan Martinez assigned as field
+> technician — not independently verified beyond the calendar entry itself.
 
 ## Core Facts
 

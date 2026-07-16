@@ -11,6 +11,7 @@
 | Project type | Office relocation |
 | Origin address | Regus Suite, Parkwood Crossing Center, 450 E. 96th St., Suite 500, Indianapolis, IN 46240 |
 | Destination address | 310 East 96th St., Suite 240, Indianapolis, IN 46240 |
+| Field PM | Pedro Martinez — per Smartsheet calendar, added 2026-07-16 (Supabase previously had no PM assigned) |
 | Status | Final planning phase — scope substantially defined; remaining work is coordination, procurement, packing, execution |
 
 ## Client Naming — Corrected 2026-07-10

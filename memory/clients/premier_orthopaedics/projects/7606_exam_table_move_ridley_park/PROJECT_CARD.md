@@ -34,6 +34,16 @@ client** — the field PM should confirm the final list with the onsite contact 
 loading/removing anything. The client also expects a working timeline whenever multiple
 offices are involved, so each location can prepare.
 
+## Possible Overlap With New Project 7505 (flagged, not resolved)
+
+Smartsheet's 2026-07-16 calendar shows a **new, separate project 7505** ("HOPCO / Premier
+Orthopedics | Chairs Move") on the **same date (7/17)** as this project's Friday chair-move
+sequence (Paoli → Ridley Park → Glen Mills). Same client, same activity type, same day. Not
+confirmed whether 7505 is genuinely separate work or a re-numbering/split of part of this
+project's own scope — see
+`memory/clients/premier_orthopaedics/projects/7505_chairs_move/PROJECT_CARD.md`. Do not
+assume either way.
+
 ## Scope — Original vs. Revised (do not conflate)
 
 **Original scope for Thursday 7/16** (per earlier Smartsheet/calendar record, now superseded):
