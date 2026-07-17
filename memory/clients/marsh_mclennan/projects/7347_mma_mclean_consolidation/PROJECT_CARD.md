@@ -13,7 +13,8 @@
 | Consolidation destination | 1751 Pinnacle Drive, Suite 1800, McLean, VA 22102 |
 | Tech shipment destination | 1111 Military Cutoff Road, Suite 221, Wilmington, NC 28405 |
 | Shipping | Sunset Transportation, BOL Load #6414658, PO #7347, BOL date 5/13/26. Consignee: Chris Thorpe, 910-332-4707 |
-| **Recovery visit — CONFIRMED** | **Wednesday, 2026-07-15, 8:00 AM.** InterWork PM: Juan Martinez, 732-979-7163. |
+| **Recovery visit — COMPLETE** | Occurred Wednesday, 2026-07-15, 8:00 AM as scheduled. Equipment recovered, packed, and **delivered to Wilmington the same morning (2026-07-15).** InterWork PM: Juan Martinez, 732-979-7163. Driver: Aaron, 323-841-2543. Delivery POC: Chris Thorpe, 910-332-4707. |
+| Status | **Recovery and delivery complete** as of 2026-07-15. No remaining operational tasks known unless the client identifies missing components during unpacking or requests AV install/recommissioning support. |
 
 ## People
 
@@ -30,7 +31,9 @@
 
 **InterWork:**
 - Hunter Barbieri — Office assignee/PM, confirmed InterWork can return if access granted
-- Juan Martinez — PM on the original move; **confirmed InterWork PM for the 7/15 recovery visit** — 732-979-7163
+- Francisco Vinueza — scheduled Juan Martinez for the 7/15 recovery visit
+- Juan Martinez — PM on the original move; **confirmed InterWork PM for the 7/15 recovery visit, completed** — 732-979-7163
+- Aaron — driver who delivered the recovered equipment to Wilmington, 323-841-2543
 - Manny Gonzalez — handled the 5/5/26 crate delivery
 
 ## Original Scope Shipped (Tech)
@@ -58,3 +61,7 @@
 
 - Source: Claude Chat handoff, compiled from FastField notes, BOL records, and team communications, 2026-07-10
 - Cross-referenced against existing repo state 2026-07-10 (Claude Code) — see NOTES.md for the pending-batch conflict this handoff surfaced
+- Updated 2026-07-17 with a completion handoff: recovery visit occurred as scheduled 7/15
+  8:00 AM, all BOM-listed AV equipment recovered from the vacated McLean office, packed, and
+  delivered to Wilmington the same morning. Not independently verified beyond the relayed
+  handoff.

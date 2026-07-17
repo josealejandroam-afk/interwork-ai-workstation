@@ -1,28 +1,39 @@
 # Open Loops — Project 7347 MMA McLean Consolidation / Wilmington AV Recovery
 
-## Main Loop
+## Main Loop — CLOSED 2026-07-17
 
-Schedule Wilmington Zoom Room AV recovery visit at the former McLean office (8180 Greensboro Dr, Suite 400). Confirm building/site access via Ivy Ringhoff/landlord. Confirm recovery date week of 7/13/26, avoiding Tuesday per Melinda Morris's request. Confirm whether Stalin Alejandro Pena or Jose will be onsite. Confirm destination/shipping method for recovered equipment (direct to Wilmington vs. staged). Use the Alliance Telecommunications AV BOM/drawings (from Bob Kist) as the recovery checklist. Photo-document before/during/after. Send a closeout update on what was recovered, what was not found, and where it was shipped.
+Recovery and delivery complete. The Wilmington Zoom Room AV recovery visit occurred as
+scheduled, all BOM-listed equipment was recovered from the vacated McLean office, packed, and
+delivered to the Wilmington office the same morning (2026-07-15). No remaining operational
+tasks known unless the client identifies missing components during unpacking or requests AV
+install/recommissioning support.
 
 ## Sub-Loops
 
 | # | Item | Status |
 |---|---|---|
-| 1 | Reconcile original move scope/inventory against the Alliance AV BOM | Open |
-| 2 | Confirm what actually shipped to Wilmington | Open |
-| 3 | Confirm nothing was misrouted to DC | Open |
-| 4 | Confirm final onsite inventory via Stalin's inspection + BOM | Open |
-| 5 | Get access approval (Ivy Ringhoff / landlord) | Open |
+| 1 | Reconcile original move scope/inventory against the Alliance AV BOM | Closed 2026-07-17 — Stalin's inspection + the BOM drove the recovery, all listed items recovered |
+| 2 | Confirm what actually shipped to Wilmington originally | Closed — only the Zoom touch controller (per the AV issue discovery), remainder recovered separately 7/15 |
+| 3 | Confirm nothing was misrouted to DC | Not explicitly addressed in the completion handoff — no DC issue reported, treating as non-issue |
+| 4 | Confirm final onsite inventory via Stalin's inspection + BOM | Closed — inventory confirmed, recovery matched |
+| 5 | Get access approval (Ivy Ringhoff / landlord) | Closed — access was obtained, recovery occurred |
 | 6 | ~~Schedule recovery visit, week of 7/13, not Tuesday~~ | **Confirmed 2026-07-14** — Wednesday 2026-07-15, 8:00 AM |
-| 7 | ~~Confirm Stalin or Jose onsite~~ | **Confirmed** — Stalin Alejandro Pena, 703-267-7885 / 202-826-7920, confirmed he can meet the team onsite at 8:00 AM |
-| 8 | Recover all BOM-listed equipment | Open |
-| 9 | Photo documentation | Open |
-| 10 | Pack/label components | Open |
-| 11 | Confirm destination + shipping method for recovered gear | Open |
-| 12 | Closeout update to client | Open |
-| 13 | Confirm routing: InterWork warehouse vs. direct to Wilmington, possible Columbia MD stop | Open |
+| 7 | ~~Confirm Stalin or Jose onsite~~ | **Confirmed** — Stalin Alejandro Pena met the team onsite at 8:00 AM |
+| 8 | ~~Recover all BOM-listed equipment~~ | **Closed 2026-07-17** — Poly Studio X72, QSC processor, Extron amp, Netgear switch, Shure mics, Sonance speakers, cabling/mounts all recovered |
+| 9 | Photo documentation | Not confirmed in the completion handoff — assume done per standard practice, not explicitly stated |
+| 10 | ~~Pack/label components~~ | **Closed 2026-07-17** — packed for transport |
+| 11 | ~~Confirm destination + shipping method for recovered gear~~ | **Closed 2026-07-17** — delivered directly to Wilmington 7/15 AM, driver Aaron (323-841-2543) |
+| 12 | Closeout update to client | Not confirmed sent — the completion summary itself may serve this purpose; confirm with Alejandro whether a separate client-facing closeout is still needed |
+| 13 | ~~Confirm routing~~ | **Closed 2026-07-17** — direct to Wilmington, no Columbia MD stop mentioned in the completion handoff |
 | 14 | ~~Confirm whether Tyr is assigned to the Wilmington delivery leg~~ | **Resolved 2026-07-14** — Juan Martinez confirmed as InterWork PM for the recovery visit. |
 | 15 | ~~Confirm recovery day within week of 7/13~~ | **Resolved 2026-07-14** — Wednesday 7/15, not Monday as earlier speculated; not a Tuesday either way. |
+
+## New Open Item — 2026-07-17
+
+| # | Item | Status |
+|---|---|---|
+| 16 | Whether client identifies missing components during unpacking, or requests AV install/recommissioning support | Open — contingent, not currently active |
+| 17 | Whether a separate client-facing closeout communication is still needed beyond this internal completion summary | Open — check with Alejandro |
 
 ## Conflict Flagged 2026-07-10 (Claude Code)
 
