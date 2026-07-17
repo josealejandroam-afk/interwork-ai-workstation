@@ -4,6 +4,8 @@
 
 | # | Item | Status |
 |---|---|---|
+| 1 | **Electrical access schedule conflict** — Bala Chittem doesn't hold the Unit 1 key and only *assumes* access lasts through July 31; electrical work is targeted before Aug 1. Confirm who holds the key, who grants electrical-room access, and whether July 31 is really the cutoff — with Sydney, CRC Group, or the landlord directly, not just Bala. | **Open — blocking, time-sensitive** |
+| 2 | Review the submitted 7/17 FastField report — confirm all scheduled work done, check for punch-list items, damage, photos, client signoff, and follow-up work. Do not mark the project complete until this is reviewed. | Open |
 | 3 | Plywood backboard relocation responsibility — InterWork vs. IT team, unconfirmed | Open |
 | 4 | Lockable IT cabinet — availability, delivery date, size, installer unconfirmed | Open |
 | 5 | Network equipment handling — unclear if the move crew may physically handle the rack, or if IT team handles the entire relocation | Open |
@@ -21,7 +23,7 @@
 | 12 | Quote for the 7/16 work — requested by Sydney (for her PO) 7/16, not yet sent as of 2026-07-17 | Open |
 | 13 | Confirm the 26' truck-size reply to Sydney was actually sent | Open |
 | 14 | Confirm Action Systems' (Bill Rothwell) own truck size, separate from the 26' figure given to Sydney — soft inconsistency, not blocking | Open — not blocking |
-| 15 | Day 2 (7/17) completion — pending as of 2026-07-17, check back | Open |
+| 15 | ~~Day 2 (7/17) completion — pending~~ | Superseded by item 2 above — FastField now submitted, pending review |
 
 ## Crew size — downgraded to non-blocking 2026-07-17
 

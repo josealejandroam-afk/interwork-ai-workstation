@@ -40,8 +40,10 @@ move. Suite 5 is on a different floor. Elevator available between floors. (Confi
   team finished in under 4 hours and called the work "GREAT."
 - Sydney requested a quote for the 7/16 work so she can submit a purchase order. **Quote not
   yet sent** as of 2026-07-17 — still early, not overdue.
-- **Day 2 (2026-07-17): Unconfirmed.** Do not mark complete. Alejandro confirmed as of
-  2026-07-17 it is "still early" — treat as pending, not overdue, not a problem.
+- **Day 2 (2026-07-17): FastField submitted, field documentation complete — do not mark the
+  project complete until the report itself is reviewed.** Confirm the report shows all
+  scheduled 7/17 work done, and check for remaining furniture/disposal items, damage/punch-list
+  conditions, photos, client signoff, and any follow-up work.
 
 ## Scope Summary
 
@@ -50,6 +52,26 @@ move. Suite 5 is on a different floor. Elevator available between floors. (Confi
 - **IT closet relocation:** move plywood equipment backboard from Suite 1 IT closet to a new wall-mounted lockable rack location in Suite 4 (~20 ft away, opposite side of the wall, currently no power). **Electrical responsibility resolved 2026-07-17:** David Steinbrecher committed InterWork to schedule the electrician for a dedicated quad receptacle at the new IT equipment location in Suite 4, with the cost folded into a proposal (email 7/16, 7:51 PM). Sydney wants this done before **2026-08-01** so the network team can start moving the IT closet; an electrical permit is assumed needed by Sydney but not yet confirmed either way. Cabinet mounting and physical network equipment handling responsibility (InterWork vs. IT team) remain unconfirmed.
 - No removal of existing low-voltage cabling from Suite 1; Suites 4 and 5 already have the necessary low-voltage cabling, so no new cabling is required.
 - No new printer installations or AV work required. Existing conference room (used only for closings) is not being reconfigured.
+
+## Electrical Access — Potential Schedule Conflict (flagged 2026-07-17)
+
+David Steinbrecher contacted Bala Chittem to arrange electrician access. Bala confirmed:
+- He does **not** hold the key to Unit 1
+- He *assumes* access will remain available through **July 31**
+
+Bala did **not** confirm:
+- Who currently holds the Unit 1 key
+- Who can actually provide access to the electrical room
+- Whether July 31 is the official access cutoff
+
+**This creates a potential conflict, not yet resolved:**
+- Suite 1 must be vacated before **August 31**
+- Bala *believes* access may only last through **July 31**
+- Electrical work is targeted for completion **before August 1**
+
+If Bala's July 31 belief is correct, the electrician has a much tighter window than the
+overall August 31 vacate deadline suggests. **Do not treat July 31 as confirmed** until
+verified by Sydney, CRC Group, or the landlord directly.
 
 ## Vendor
 
@@ -106,3 +128,7 @@ available as a precaution.
   Outlook email thread screenshots ("CRC Group - Louisville KY") pasted directly by
   Alejandro, covering 2026-06-24 through 2026-07-17 — no meeting recording cross-referenced.
   No Supabase or Smartsheet writes performed; no new client/vendor sends made.
+- Further updated 2026-07-17 with a second, richer handoff covering the same period — added
+  the electrical-access schedule conflict (Bala Chittem/Unit 1 key/July 31 vs. August 1) and
+  the Day 2 FastField-submitted status. Not independently verified beyond the relayed
+  handoff.
