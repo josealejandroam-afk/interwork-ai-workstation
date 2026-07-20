@@ -71,6 +71,18 @@ Do not read unrelated project folders.
 
 `memory/clients/CLIENT_INDEX.md` is a fallback lookup. Use it when the client cannot be determined from the Claude Project name or the message.
 
+### Step 7b — If a vendor is mentioned by name, check the vendor index too
+
+Vendor profiles and procedures live outside the client/project tree entirely — in
+`memory/vendors/` and `memory/procedures/` — and are **not** reached by Steps 2-5 above, even
+if you're deep in a specific client/project. Whenever a vendor is named (by Alejandro, in a
+project card, or in relayed correspondence — e.g. "Sunset," "Sunset Transportation," "Tier
+LLC"), check `memory/vendors/VENDOR_INDEX.md` for a matching profile and workflow doc, in
+addition to whatever client/project files you're already reading. Do not assume a vendor has
+no profile just because this came up mid-conversation about an unrelated client — check the
+index every time the vendor name appears, not just when explicitly asked "what do we know
+about X vendor."
+
 ### Step 8 — Use broader/global files only if
 
 - The client is unknown after checking the Claude Project name and the message

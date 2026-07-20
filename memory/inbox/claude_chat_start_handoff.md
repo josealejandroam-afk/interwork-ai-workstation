@@ -121,6 +121,12 @@ Use the routing model. Do not scan the entire repo.
 6. Use `memory/clients/CLIENT_INDEX.md` only if the client is unclear
 7. Use broader global files only for cross-client questions or unknown clients
 
+**If a vendor is named** (e.g. "Sunset," "Sunset Transportation," "Tier LLC") — check
+`memory/vendors/VENDOR_INDEX.md`, in addition to the client/project files above. Vendor
+profiles live outside the client/project tree entirely and are never reached by steps 2-5, no
+matter which client you're focused on. This was a real gap (confirmed 2026-07-17) — some chat
+sessions had no idea Sunset Transportation had a profile because nothing pointed them at it.
+
 See `memory/company_knowledge/REPO_LOOKUP_RULES.md` for the full routing flow with examples.
 
 **If you cannot access the repo, client folder, or project card:**
@@ -253,6 +259,7 @@ If you have repo access or the files are pasted:
 | memory/inbox/claude_to_chatgpt.md | Latest Claude Code update for ChatGPT |
 | memory/company_knowledge/ | Company-wide rules, people, workflow, access status (read first) |
 | memory/clients/CLIENT_INDEX.md | All known clients and active projects |
+| memory/vendors/VENDOR_INDEX.md | All known vendor profiles (Sunset Transportation, Tier LLC, Just4Wheels) — check this whenever a vendor is named, regardless of which client project you're in |
 | memory/clients/marsh_mclennan/ | MMC / MMA projects — 7189, 7060, 7378, and more |
 | memory/clients/bentley_systems/ | Bentley Systems — 7350 Phase 4 Final (Jul 1-2) |
 | memory/clients/vecos/ | Vecos USA — 7579 JPMC Miami (pending scheduling) |
