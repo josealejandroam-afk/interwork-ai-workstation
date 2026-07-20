@@ -6,11 +6,26 @@
 |---|---|
 | Project number | 7588 (confirmed by Alejandro, 2026-07-14) |
 | Client | CRC Group |
-| Location | Glen Allen, VA |
+| Market | Glen Allen / Richmond, VA |
+| Origin | 4991 Lake Brook Drive, Suite 190, Glen Allen, VA 23060 (2,096 sq ft) |
+| Destination | **[PENDING CONFIRMATION]** 701 or 4701 Cox Road, Suite 230, Glen Allen, VA 23060 — exact street number not yet confirmed |
 | Date | Friday, 2026-07-24 (per Smartsheet) |
 | Related proposal | Quote #8536, David Steinbrecher — described a move dated 7/24/26 with Melvin Hernandez-style labor |
-| PM | Melvin Hernandez — confirmed via Smartsheet 2026-07-14, synced to Supabase (same PM as project 7495, Charlotte Restack) |
+| Field PM | Melvin Hernandez — 346-775-3277 — confirmed via Smartsheet 2026-07-14, synced to Supabase (same PM as project 7495, Charlotte Restack) |
 | Status | Scheduled, per Smartsheet |
+
+## IT Closet / Security Scope (added 2026-07-17)
+
+- InterWork can remove the existing electronic strike and install a keyed lock or standard
+  handle — pending landlord direction via Sydney Montrose (LPC)
+- CRC wants to repurpose existing Genea access-control equipment; possibly Meraki
+- Security decommission service call discussed — **removal/collection/storage/delivery
+  responsibility not yet assigned**
+- Current door-securing mechanism is only the IT closet strike — not a finalized hardware
+  configuration
+- Suite entry-door electronic strikes expected by 2026-07-24
+- New IT room door expected ~2026-08-10 to 2026-08-11
+- Genea install and hardware procurement active
 
 ## Number History — RESOLVED 2026-07-14
 
@@ -22,10 +37,21 @@ corrected the Smartsheet calendar accordingly. The stale `7855` reference in
 
 ## Open Items
 
-- Full scope not yet in repo — the actual proposal/quote #8536 content hasn't been provided, only described secondhand. If the full document is available, file it here.
-- Confirm PM (Melvin Hernandez appears associated via Smartsheet, not yet confirmed for this specific project).
+- **Confirm exact destination street number** — 701 or 4701 Cox Road, Suite 230
+- Landlord direction on IT closet door hardware (electronic strike removal vs. keyed
+  lock/standard handle) — pending via Sydney Montrose
+- Security decommission responsibility (removal/collection/storage/delivery) — not yet
+  assigned
+- Genea/Meraki access-control repurposing — install and hardware procurement in progress,
+  final configuration not yet locked
+- ~~Confirm PM~~ — resolved, Melvin Hernandez, 346-775-3277
 
 ## Source Notes
 
 - Source: description of quote #8536 (proposal) relayed via a Claude Chat cross-check, and Alejandro's direct confirmation (2026-07-14) that 7588 is correct and Smartsheet has been fixed.
 - Created: 2026-07-14. Filed under `lincoln_crc_group/` alongside 7246, 7537 (Tampa), 7549 (Indianapolis/KV), and 7597 (Louisville) — all CRC Group.
+- Updated 2026-07-17 from a proposed Supabase update (drafted against incorrect column names —
+  translated to this repo's/Supabase's actual schema rather than run as-is). Origin
+  address/sqft, IT closet/security scope, and field PM phone added. Destination address
+  remains explicitly unconfirmed per the source itself. Not independently verified beyond the
+  relayed draft.
