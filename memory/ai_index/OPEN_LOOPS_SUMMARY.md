@@ -10,10 +10,7 @@ _Source: OPEN_LOOPS.md files across memory/clients/ + memory/open_loops/_
 
 | Client | Project | Open Item | Status | Source |
 |---|---|---|---|---|
-| UiPath | 1450 Broadway | Project number not yet assigned — do not invent | Open | `memory/clients/uipath/projects/unknown_1450_broadway_move_out/OPEN_LOOPS.md` |
-| UiPath | 1450 Broadway | Supabase record not yet created | Open | `memory/clients/uipath/projects/unknown_1450_broadway_move_out/OPEN_LOOPS.md` |
-| UiPath | 1450 Broadway | Inventory / floor plan not confirmed | Open | `memory/clients/uipath/projects/unknown_1450_broadway_move_out/OPEN_LOOPS.md` |
-| UiPath | 1450 Broadway | InterWork freight logistics not finalized | Open | `memory/clients/uipath/projects/unknown_1450_broadway_move_out/OPEN_LOOPS.md` |
+| UiPath | 7587 1450 Broadway | ~~All items~~ — **project complete, closed out 2026-07-21** | Closed | `memory/clients/uipath/projects/7587_1450_broadway_storage_cleanout/OPEN_LOOPS.md` |
 | Vecos | 7579 JPMC Miami | Scheduling — quote 8520 sent 2026-06-29, awaiting Cason response | Open | `memory/clients/vecos/projects/7579_jpmc_miami_lockers/OPEN_LOOPS.md` |
 | Vecos | 7579 JPMC Miami | License key values — provided by Cason; verify before execution | Open | `memory/clients/vecos/projects/7579_jpmc_miami_lockers/OPEN_LOOPS.md` |
 | Vecos | 7579 JPMC Miami | IP addresses — confirm exact values before execution | Open | `memory/clients/vecos/projects/7579_jpmc_miami_lockers/OPEN_LOOPS.md` |
@@ -45,10 +42,8 @@ _Source: OPEN_LOOPS.md files across memory/clients/ + memory/open_loops/_
 
 | Client | Project Slug | Status |
 |---|---|---|
-| UiPath | `unknown_1450_broadway_move_out` | Confirmed absent from Supabase 2026-06-30 |
 | AmTrust | `unknown_las_vegas_chairs` | No record |
 | AmTrust | `7594_nashua_ewaste_disposal` | Project number confirmed 2026-07-15; no Supabase record yet — needs creation |
-| Spryson | `unknown_pittsburgh_small_move` | Pre-proposal |
 | Vecos IU Health | `unknown_iu_health_lockers` | No record |
 | Tegna/Premion | `unknown_project` | No record |
 | Premier Orthopaedics | `unknown_project` | Possible project card — confirm project number |

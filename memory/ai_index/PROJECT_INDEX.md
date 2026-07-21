@@ -79,7 +79,7 @@ Also fetch `OPEN_LOOPS.md` and `NOTES.md` at the same path when available.
 | `strategic_education` | 7053 | `7053_project` | 901 15th St NW Washington DC — Today 2026-06-30, Ready | `memory/clients/strategic_education/projects/7053_project/PROJECT_CARD.md` |
 | `strategic_education` | 7337 | `7337_project` | See card | `memory/clients/strategic_education/projects/7337_project/PROJECT_CARD.md` |
 | `uipath` | 7516 | `7516_service_call_dallas` | Dallas TX service call 2026-05-15 | `memory/clients/uipath/projects/7516_service_call_dallas/PROJECT_CARD.md` |
-| `uipath` | TBD | `unknown_1450_broadway_move_out` | 1450 Broadway 21st Fl NYC — **Jul 8 2026 11:00 AM, Rescheduled** — NOT in Supabase | `memory/clients/uipath/projects/unknown_1450_broadway_move_out/PROJECT_CARD.md` |
+| `uipath` | 7587 | `7587_1450_broadway_storage_cleanout` | 1450 Broadway 21st Fl NYC — box move + donation run, **completed 7/8/2026**; number confirmed and added to Supabase 2026-07-21 | `memory/clients/uipath/projects/7587_1450_broadway_storage_cleanout/PROJECT_CARD.md` |
 | `vecos` | 7579 | `7579_jpmc_miami_lockers` | JPMC Miami — locker commissioning — **CANCELED per Smartsheet 2026-07-16**, was scheduled 7/20-21 w/ Juan Martinez | `memory/clients/vecos/projects/7579_jpmc_miami_lockers/PROJECT_CARD.md` |
 | `vecos` | 7609 | `7609_jpmc_columbus_lockers` | JPMC Columbus — locker commissioning, quote #8567 $7,675 — pending client decision, budget concern raised, no dates confirmed | `memory/clients/vecos/projects/7609_jpmc_columbus_lockers/PROJECT_CARD.md` |
 | `pear_vc` | 7510 | `7510_pear_sf_relocation` | 600 Townsend SF — Jul 1 | `memory/clients/pear_vc/projects/7510_pear_sf_relocation/PROJECT_CARD.md` |
