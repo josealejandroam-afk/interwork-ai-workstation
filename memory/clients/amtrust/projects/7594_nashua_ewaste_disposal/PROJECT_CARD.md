@@ -6,14 +6,15 @@
 |---|---|
 | Project number | 7594 — **confirmed** (FastField inventory form dated 2026-07-09/07-10; matches Hunter Barbieri's Teams handoff) |
 | Client | AmTrust Financial Services |
-| Project name | Nashua E-Waste / Furniture Disposal (+ reception desk replacement, see below) |
-| Location | 15 Trafalgar Square, Suite 200 & 201, 2nd Floor, Nashua, NH 03063 |
-| Type | E-waste / furniture disposal, plus a reception desk replacement request |
+| Project name | Nashua E-Waste / Furniture Disposal — **combined into a 3-stop route with a Jersey City → Southington chair relocation, quoted together as of 2026-07-21** (+ reception desk replacement, see below) |
+| Location | 15 Trafalgar Square, Suite 200 & 201, 2nd Floor, Nashua, NH 03063 (Stop 3 of the combined route — see below) |
+| Type | E-waste / furniture disposal, a Jersey City→Southington chair relocation combined into the same route, plus a reception desk replacement request |
 | Site walk | Completed 2026-07-09, 9:00 AM. Conducted by Frank Barrett. |
 | PM | Frank Barrett — **confirmed 2026-07-15 (Alejandro): Frank physically did the site walk, so he is PM.** Per FastField inventory form "Project Manager" field and Hunter Barbieri's 2026-07-08 Teams handoff addressed to him. David Steinbrecher (609-744-8899) was the PM on the earlier email thread before the site walk — treat Frank as PM going forward. |
 | InterWork (CC) | Francisco Vinueza |
-| Target execution date | **Not confirmed.** Only date reference on file is Francisco Vinueza's proposal (from the reception-desk thread, before the site walk) to schedule "the remaining removal scope for July 16" — this was a proposal, not a client-confirmed date, and predates the 7/9 site walk/inventory. No disposal date has been set since scope was finalized. |
-| Status | Site walk complete; quote/scope pending based on confirmed inventory below; execution date not yet set |
+| Quote | **Quote #8550, dated 07/08/2026, sent to Alexis Lyons by David Steinbrecher 2026-07-21 6:23 PM** (cc Francisco Vinueza, Alejandro Acosta, InterWork Operations). Total **$6,840** (Labor $2,650; e-waste disposal $1,750; packaging material $450; truck charge x2 $1,190; project management x2 $800; 0% tax). |
+| Target execution date | **Not confirmed — awaiting Alexis Lyons' sign-off on Quote #8550 as of 2026-07-21, no reply yet.** Alexis separately stated (in the scope-confirmation email preceding this proposal) that AmTrust's team is available "any day from Monday, July 20 through Thursday, July 23" — **this is a stated availability window, not a confirmed execution date.** Do not schedule off this window alone. |
+| Status | **Proposal sent (Quote #8550), awaiting client confirmation as of 2026-07-21.** Site walk/inventory complete; execution date not yet set. |
 
 ## Site Contacts
 
@@ -26,6 +27,24 @@
 Note: Daniel Vogt was the site walk contact on 7/9, but per Hunter's handoff he "will not be
 present at the date of disposal" — another POC will provide direction at execution time (not
 yet identified).
+
+## Combined 3-Stop Route (added 2026-07-21, Quote #8550)
+
+InterWork combined the Nashua e-waste/furniture disposal scope with a separate Jersey City →
+Southington chair relocation job into one route, quoted together under this project number.
+
+- **Stop 1 — Jersey City, NJ** (400 Washington Street, Suite 701): pick up 4 AmTrust-owned
+  guest chairs, protect and load for transport.
+- **Stop 2 — Southington, CT** (400 Executive Boulevard, Suite 400): deliver and place the 4
+  guest chairs as directed by the onsite team.
+- **Stop 3 — Nashua, NH** (15 Trafalgar Square, Suite 200 & 201): e-waste/furniture disposal
+  per the existing site-walk scope below. **Reception desk removal/replacement explicitly
+  excluded — "currently on hold"** (consistent with the existing open issue on the desk
+  depth/transaction-top question).
+
+**Open question, not resolved:** whether this Jersey City/Southington leg should stay tracked
+under 7594 now that it's combined into one quote, or be split into its own project number.
+Flagged as an internal open loop, not decided.
 
 ## Confirmed Scope — From Site Walk (2026-07-09)
 
@@ -85,6 +104,7 @@ separate project, since it grew out of the same thread.
 | 2026-07-08 | Hunter Barbieri sent site walk logistics to Frank Barrett for 7/9 (project number 7594 first appears here) |
 | 2026-07-09 | Site walk conducted by Frank Barrett, 9:00 AM, with Daniel Vogt |
 | 2026-07-10 | FastField inventory form filed, confirming scope above |
+| 2026-07-21 | Quote #8550 sent to Alexis Lyons by David Steinbrecher, 6:23 PM — combined 3-stop route (Jersey City → Southington chair relocation + Nashua disposal), $6,840 total. Awaiting her confirmation, no reply yet. |
 
 ## Notes
 
@@ -103,13 +123,16 @@ separate project, since it grew out of the same thread.
 
 ## Missing / Open Information
 
-- **Target execution/disposal date** — not confirmed with client; needs to be set
+- **Target execution/disposal date** — not confirmed with client; awaiting Alexis Lyons'
+  sign-off on Quote #8550 before scheduling. Her stated 7/20-7/23 availability window is not
+  a confirmed date.
 - Identity of the on-site POC for the actual disposal date (Daniel Vogt will not be present)
-- Quote status/amount for the e-waste + furniture disposal scope
-- Resolution on the reception desk depth issue (transaction-top removal vs. sourcing a deeper desk)
+- Resolution on the reception desk depth issue (transaction-top removal vs. sourcing a deeper desk) — currently on hold, excluded from Quote #8550
 - Project number for/relationship to the reception desk replacement line item — currently
   tracked under 7594 since it's the same request thread, but confirm this is correct once a
   quote/PO is generated
+- Whether the Jersey City/Southington chair relocation leg should stay under 7594 or get its
+  own project number, now that it's combined into one quote
 
 ## Source Notes
 
@@ -119,3 +142,6 @@ separate project, since it grew out of the same thread.
 - Read AI summary — reception desk replacement thread (Alexis Lyons, David Steinbrecher, Francisco Vinueza); relayed summary, not independently verified against primary email/Read AI meeting
 - Jill pending items 2026-06-30 flagged "AmTrust Nashua quotes"
 - Project card created: 2026-06-30 as stub (`unknown_nashua_ewaste`); renamed/updated 2026-07-15 once project number 7594 confirmed
+- Updated 2026-07-21 via Claude Code handoff (Claude Chat, Alejandro session): email thread
+  "RE: Southington Furniture" and proposal PDF IWSQ8550.pdf, screenshots provided by
+  Alejandro. Not independently verified beyond the relayed handoff.
