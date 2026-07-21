@@ -4,7 +4,7 @@
 
 | # | Item | Status |
 |---|---|---|
-| 1 | **Electrical access schedule conflict** — Bala Chittem doesn't hold the Unit 1 key and only *assumes* access lasts through July 31; electrical work is targeted before Aug 1. Confirm who holds the key, who grants electrical-room access, and whether July 31 is really the cutoff — with Sydney, CRC Group, or the landlord directly, not just Bala. | **Open — blocking, time-sensitive** |
+| 1 | ~~Electrical access schedule conflict~~ | **Resolved 2026-07-21 — electrician (Corrigan Electric) scheduled Monday 7/27, 12-2pm, safely within every version of the access window. Underlying key-holder/access-grantor questions were never answered but are now moot unless the appointment needs to move.** |
 | 2 | Review the submitted 7/17 FastField report — confirm all scheduled work done, check for punch-list items, damage, photos, client signoff, and follow-up work. Do not mark the project complete until this is reviewed. | Open |
 | 3 | Plywood backboard relocation responsibility — InterWork vs. IT team, unconfirmed | Open |
 | 4 | Lockable IT cabinet — availability, delivery date, size, installer unconfirmed | Open |

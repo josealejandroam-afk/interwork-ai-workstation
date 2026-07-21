@@ -90,6 +90,13 @@ Expected elements:
 
 Detailed decommission inventory not yet finalized.
 
+**Fiber/demarc confirmed 2026-07-21 (David Steinbrecher):** fiber needs to be pulled to the
+demarc — this is the same low-voltage/demarc work already noted above, now confirmed active.
+**A low-voltage person is needed for the week of 2026-07-20** — staffing not yet assigned.
+Note: David initially attributed this fiber/demarc work to project 7588 (Glen Allen VA) in an
+earlier message, then corrected himself the same day — it belongs to **this project (7537),
+not 7588**. Don't let that initial misattribution linger anywhere else.
+
 ## Building Access and Logistics
 
 **Elevator:** No dedicated freight elevator confirmed. Elevator D is the temporary service/passenger car. Building may switch to the true service elevator during the final week of July — not confirmed. Move activity restricted to after 5:00 PM / before 7:00 AM; InterWork may arrive earlier to stage but can't move via elevator until the window opens.

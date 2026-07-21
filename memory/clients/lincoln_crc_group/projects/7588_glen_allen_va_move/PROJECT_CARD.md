@@ -9,10 +9,16 @@
 | Market | Glen Allen / Richmond, VA |
 | Origin | 4991 Lake Brook Drive, Suite 190, Glen Allen, VA 23060 (2,096 sq ft) |
 | Destination | **[PENDING CONFIRMATION]** 701 or 4701 Cox Road, Suite 230, Glen Allen, VA 23060 — exact street number not yet confirmed |
-| Date | Friday, 2026-07-24 (per Smartsheet) |
+| AV equipment move | Friday, 2026-07-24, arrive ~1:30 PM — per Sydney Montrose's request (David Steinbrecher, 2026-07-21): move AV equipment to the new site |
+| Main move + decommission | **Starts 2026-08-06, must be out of the space by 2026-08-09** (confirmed 2026-07-21) — small space, not expected to be an issue per David |
 | Related proposal | Quote #8536, David Steinbrecher — described a move dated 7/24/26 with Melvin Hernandez-style labor |
 | Field PM | Melvin Hernandez — 346-775-3277 — confirmed via Smartsheet 2026-07-14, synced to Supabase (same PM as project 7495, Charlotte Restack) |
-| Status | Scheduled, per Smartsheet |
+| Status | Scheduled, per Smartsheet — two distinct dated phases now on file (see above), not just the single 7/24 date previously tracked |
+
+**Correction note (2026-07-21):** David Steinbrecher initially mentioned fiber/demarc work
+under this project number, then corrected himself the same day — that work (pull fiber to
+demarc, low-voltage person needed) belongs to **project 7537 (Tampa)**, not this project. Not
+part of 7588's scope.
 
 ## IT Closet / Security Scope (added 2026-07-17)
 

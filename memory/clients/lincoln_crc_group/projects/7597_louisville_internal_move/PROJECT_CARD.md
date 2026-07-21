@@ -53,31 +53,27 @@ move. Suite 5 is on a different floor. Elevator available between floors. (Confi
 - No removal of existing low-voltage cabling from Suite 1; Suites 4 and 5 already have the necessary low-voltage cabling, so no new cabling is required.
 - No new printer installations or AV work required. Existing conference room (used only for closings) is not being reconfigured.
 
-## Electrical Access — Potential Schedule Conflict (flagged 2026-07-17)
+## Electrical Access — Schedule Conflict Risk AVOIDED (2026-07-21)
 
-David Steinbrecher contacted Bala Chittem to arrange electrician access. Bala confirmed:
-- He does **not** hold the key to Unit 1
-- He *assumes* access will remain available through **July 31**
+David Steinbrecher scheduled the electrician: **Corrigan Electric (Louisville, KY), Monday
+2026-07-27, between 12:00-2:00 PM**, to run a line to the new server room. This lands safely
+within every version of the access window discussed below, so the conflict never
+materialized in practice — noted for history, not as an active risk.
 
-Bala did **not** confirm:
-- Who currently holds the Unit 1 key
-- Who can actually provide access to the electrical room
-- Whether July 31 is the official access cutoff
-
-**This creates a potential conflict, not yet resolved:**
-- Suite 1 must be vacated before **August 31**
-- Bala *believes* access may only last through **July 31**
-- Electrical work is targeted for completion **before August 1**
-
-If Bala's July 31 belief is correct, the electrician has a much tighter window than the
-overall August 31 vacate deadline suggests. **Do not treat July 31 as confirmed** until
-verified by Sydney, CRC Group, or the landlord directly.
+Original flag (2026-07-17): David Steinbrecher contacted Bala Chittem to arrange electrician
+access. Bala confirmed he does **not** hold the key to Unit 1 and *assumes* access lasts
+through July 31, but did not confirm who holds the key, who grants electrical-room access, or
+whether July 31 is the official cutoff. Since the electrician is now booked for 7/27 —
+comfortably before both July 31 and the August 1 target — this no longer needs active
+tracking, but the underlying key-holder/access-grantor questions were never actually answered
+and could resurface if the appointment needs to move.
 
 ## Vendor
 
 | Vendor | Contact | Rate | Notes |
 |---|---|---|---|
 | Action Systems | Bill Rothwell | $45/man-hour, regular time (quoted) | Confirmed able to support the job; asked for scheduling details. Onsite lead name/phone not yet provided. **Vendor-facing rate — do not surface in client-facing drafts, per InterWork communication rules.** |
+| Corrigan Electric | Louisville, KY (no individual contact name on file) | — | Electrician for the dedicated quad receptacle — scheduled Monday 2026-07-27, 12:00-2:00 PM |
 
 ## InterWork PM
 

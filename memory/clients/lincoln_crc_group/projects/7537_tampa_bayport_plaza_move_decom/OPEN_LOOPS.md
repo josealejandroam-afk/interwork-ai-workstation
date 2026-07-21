@@ -31,9 +31,10 @@ full trash cbin needs disposal; the donation cbin needs a confirmed donation des
 | 15 | Final walkthrough and acceptance process | Open |
 | 16 | Confirmation of onsite CRC contact for move night | Open |
 | 17 | Final building COI requirements, if any remain | Open |
-| 18 | Clear instruction for low-voltage removal and basement demarcation work | Open |
+| 18 | ~~Clear instruction for low-voltage removal and basement demarcation work~~ | **Partially resolved 2026-07-21** — David Steinbrecher confirmed fiber needs to be pulled to the demarc; **a low-voltage person is needed for the week of 7/20, staffing not yet assigned.** Note: David first attributed this work to project 7588 by mistake, then corrected himself same day — it's this project (7537), not 7588. |
 | 19 | ~~Reconcile Lincoln Property Company vs. Cushman & Wakefield roles~~ | Resolved 2026-07-10 — Lincoln (Kelly Bradley) is CRC's PM/advisory support; Cushman & Wakefield (Katlin White, Derek Bennett) is building/property management and construction coordination, not the client. See PROJECT_CARD.md. |
 | 20 | Confirm relationship between this project and project 7246 (Lincoln/CRC Group stub, unconfirmed detail) | Open — note: confirmed 2026-07-10 this project is NOT related to project 7437 (Virginia Beach VA, marsh_mclennan) or any Marsh McLennan entity |
+| 21 | Assign a low-voltage person for the week of 2026-07-20 (fiber pull to demarc) | Open — time-sensitive, week already underway |
 
 ## Recommended Immediate Actions (from source handoff)
 
