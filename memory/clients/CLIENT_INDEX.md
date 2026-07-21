@@ -14,6 +14,7 @@ _Last updated: 2026-06-30 (sync handoff)_
 | Vecos USA | vecos/ | 7579, 7454 | Locker commissioning. Vecos is InterWork's client. JPMC is Vecos's customer (end user site only). |
 | Pear VC | pear_vc/ | 7510 | 7510 = SF relocation to 600 Townsend (July 1). |
 | EBG | ebg/ | 7563 | 7563 = NYC office move (520 8th Ave → Chrysler Building), completed 2026-07-09. Existed only in Supabase until 2026-07-16. Orlando-bound equipment now staged at NJ warehouse pending Sunset Transportation pickup/delivery. |
+| Empower | empower/ | TBD | Andover, MA demolition pricing (estimating phase, no project number yet). Contact: Alison McConnell. New client 2026-07-21. |
 | Radian | radian/ | 7492 | 7492 = Denver decom. Comprehensive card updated 2026-06-30. |
 | TierPoint | tierpoint/ | 7497 | Conflict: Supabase says "Radian TierPoint" / Cherry Hill vs. Philadelphia. Confirm with Alejandro. |
 | Claritev / MultiPlan | claritev_multiplan/ | 7420, 6836, 6837, Chattanooga TBD | 7420 = Laguna Hills CA decom (folder name says Parsippany — that was a ChatGPT error; confirmed Laguna Hills). |
