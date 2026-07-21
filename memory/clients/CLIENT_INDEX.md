@@ -42,6 +42,7 @@ _Last updated: 2026-06-30 (sync handoff)_
 | Spryson | spryson/ | 7571 | Small move Pittsburgh PA. Pre-proposal stage. Contact: Erica Sinatra. Number confirmed via Smartsheet 2026-07-15. |
 | Anti-Defamation League | anti_defamation_league/ | 7541 | Conference room setup, Boca Raton FL. On calendar 7/15, marked TBD. |
 | Armanino | armanino/ | TBD | Equipment move to new space, Aug 21 2026, delivery only. No project number yet. Contact: Kelsey King. New client 2026-07-09. |
+| Macmillan Learning | macmillan_learning/ | 7617 | 7617 = Boston MA decom, 75 Arlington St, lease expires 10/30/26. Site walkthrough 7/22. New client 2026-07-21. Contact: Jane Shipwash. |
 
 ## Lookup Pointers (NOT InterWork clients)
 
