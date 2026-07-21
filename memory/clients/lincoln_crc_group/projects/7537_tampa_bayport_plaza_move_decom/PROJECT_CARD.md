@@ -19,9 +19,23 @@
 | 2026-07-23 | Signage installation |
 | 2026-07-24, after 5:00 PM | Physical move of employee contents, crates, and misc FF&E to new space |
 | 2026-07-25 | Decommissioning begins |
-| 2026-07-27 | Employee Day One in new space |
+| 2026-07-27 | Employee Day One in new space; **also requested as a walkthrough day with Katlin White and InterWork's PM (see below)** |
 
 Building rule: move activity through the lobby/elevators only after 5:00 PM or before 7:00 AM.
+
+**Requested schedule change — NOT yet confirmed (David Steinbrecher email to Katlin White,
+2026-07-21 4:07 PM):**
+- InterWork plans to be in the CRC suite **Thursday (7/23)** to begin move prep
+- David asked Katlin whether it would be possible to move **some or all items to the 8th
+  floor Thursday evening (7/23)** instead of waiting for the previously planned Friday 7/24
+  after-5pm window — framed as a relatively small move, with floor protection ready in
+  advance. **This is a request, not a confirmed change — do not treat Thursday as the new
+  move date until Katlin/building responds.**
+- David also asked to schedule a walkthrough with Katlin and InterWork's PM for **Monday,
+  7/27** — same day already on file as Employee Day One; not clear if intentional overlap or
+  worth flagging to avoid conflict.
+- Email cc'd Jill Buchman and InterWork Operations. Noted that "the local CRC group has also
+  been emailing [Katlin] today" — parallel correspondence may exist that this repo hasn't seen.
 
 ## Client Relationship Clarification
 

@@ -22,7 +22,7 @@ full trash cbin needs disposal; the donation cbin needs a confirmed donation des
 |---|---|---|
 | 7 | Full InterWork proposal — still expected by Kelly Bradley | Open |
 | 8 | Final crew size and labor plan | Open |
-| 9 | Final field PM assignment (Supabase shows none assigned) | Open |
+| 9 | ~~Final field PM assignment~~ | **Resolved — Juan Martinez, confirmed via Smartsheet 2026-07-14** (this item was stale) |
 | 10 | Final move inventory | Open |
 | 11 | Final decommission inventory | Open |
 | 12 | Confirmed service elevator status for move week | Open |
@@ -35,6 +35,9 @@ full trash cbin needs disposal; the donation cbin needs a confirmed donation des
 | 19 | ~~Reconcile Lincoln Property Company vs. Cushman & Wakefield roles~~ | Resolved 2026-07-10 — Lincoln (Kelly Bradley) is CRC's PM/advisory support; Cushman & Wakefield (Katlin White, Derek Bennett) is building/property management and construction coordination, not the client. See PROJECT_CARD.md. |
 | 20 | Confirm relationship between this project and project 7246 (Lincoln/CRC Group stub, unconfirmed detail) | Open — note: confirmed 2026-07-10 this project is NOT related to project 7437 (Virginia Beach VA, marsh_mclennan) or any Marsh McLennan entity |
 | 21 | Assign a low-voltage person for the week of 2026-07-20 (fiber pull to demarc) | Open — time-sensitive, week already underway |
+| 22 | Confirm with Katlin White whether items can move to the 8th floor Thursday evening (7/23) instead of the planned Friday 7/24 after-5pm window | Open — requested by David 2026-07-21, not yet confirmed |
+| 23 | Confirm Monday 7/27 walkthrough with Katlin White and InterWork's PM — same day already on file as Employee Day One, check for scheduling conflict | Open |
+| 24 | Check for parallel correspondence — David's email noted "the local CRC group has also been emailing [Katlin] today," which this repo may not have visibility into | Open |
 
 ## Recommended Immediate Actions (from source handoff)
 
