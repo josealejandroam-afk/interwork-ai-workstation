@@ -1,12 +1,14 @@
 # Open Loops — Project 7347 MMA McLean Consolidation / Wilmington AV Recovery
 
-## Main Loop — CLOSED 2026-07-17
+## Main Loop — REOPENED 2026-07-21 (delivery timeline conflict)
 
-Recovery and delivery complete. The Wilmington Zoom Room AV recovery visit occurred as
-scheduled, all BOM-listed equipment was recovered from the vacated McLean office, packed, and
-delivered to the Wilmington office the same morning (2026-07-15). No remaining operational
-tasks known unless the client identifies missing components during unpacking or requests AV
-install/recommissioning support.
+Recovery itself is complete: the Wilmington Zoom Room AV recovery visit occurred as
+scheduled 7/15, all BOM-listed equipment was recovered from the vacated McLean office and
+packed. **Delivery is not confirmed closed** — two incompatible accounts of the actual
+delivery exist (same-day direct drive by "Aaron" on 7/15, vs. a Bill of Lading showing
+freight shipment via Sunset Transportation/LAMTORO Freight LLC with delivery 7/17 @ 0800).
+See PROJECT_CARD.md "Conflicting Shipping Accounts." Do not close this loop until Chris
+Thorpe's actual receipt is confirmed against one of these two accounts.
 
 ## Sub-Loops
 
@@ -22,9 +24,10 @@ install/recommissioning support.
 | 8 | ~~Recover all BOM-listed equipment~~ | **Closed 2026-07-17** — Poly Studio X72, QSC processor, Extron amp, Netgear switch, Shure mics, Sonance speakers, cabling/mounts all recovered |
 | 9 | Photo documentation | Not confirmed in the completion handoff — assume done per standard practice, not explicitly stated |
 | 10 | ~~Pack/label components~~ | **Closed 2026-07-17** — packed for transport |
-| 11 | ~~Confirm destination + shipping method for recovered gear~~ | **Closed 2026-07-17** — delivered directly to Wilmington 7/15 AM, driver Aaron (323-841-2543) |
-| 12 | Closeout update to client | Not confirmed sent — the completion summary itself may serve this purpose; confirm with Alejandro whether a separate client-facing closeout is still needed |
-| 13 | ~~Confirm routing~~ | **Closed 2026-07-17** — direct to Wilmington, no Columbia MD stop mentioned in the completion handoff |
+| 11 | **REOPENED 2026-07-21** — Confirm destination + shipping method for recovered gear | Conflicting: one account says direct drive to Wilmington 7/15 AM (driver Aaron); a Bill of Lading says freight via Sunset/LAMTORO, delivery 7/17 @ 0800. Verify directly with Chris Thorpe or Francisco Vinueza before treating either as final. |
+| 12 | Closeout update to client | Not confirmed sent — do not send until the shipping conflict above is resolved, since the delivery date itself is in question |
+| 13 | **REOPENED 2026-07-21** — Confirm routing | Conflicting: "direct to Wilmington, no stop" (Account A) vs. "via InterWork NJ warehouse, then freight-forwarded" (Account B, per BOL shipper address). Not resolved. |
+| 18 | Reconcile Stalin Alejandro Pena's office phone number — repo previously had 703-267-7885, his 7/15 email signature shows 202-263-7885. Mobile (202-826-7920) confirmed consistent in both. Alejandro reviewed and chose to flag both rather than pick one. | Open — not blocking, informational |
 | 14 | ~~Confirm whether Tyr is assigned to the Wilmington delivery leg~~ | **Resolved 2026-07-14** — Juan Martinez confirmed as InterWork PM for the recovery visit. |
 | 15 | ~~Confirm recovery day within week of 7/13~~ | **Resolved 2026-07-14** — Wednesday 7/15, not Monday as earlier speculated; not a Tuesday either way. |
 
@@ -59,4 +62,11 @@ will no longer touch 7347. Do not mark 7347 completed until the AV recovery abov
 - Week of 7/13/26 (planned): recovery visit, avoid Tuesday per Melinda's request
 - 7/10/26 (Ops Huddle): full AV system confirmed still at McLean (only the controller had shipped). Routing options discussed: return to InterWork warehouse, or truck directly to Wilmington with a possible stop in Columbia, MD depending on travel schedules. Tyr raised as a possible owner of the Wilmington delivery leg — not yet confirmed as an assignment.
 - 7/10/26 (later): Alejandro decided Juan is the more likely pickup person since he'll already be in the area (supersedes the earlier Tyr idea, not yet finalized). Also flagged that the client may want the recovery specifically on Monday rather than just "avoid Tuesday" — checking with Francisco before locking the date.
-- 7/14/26: Calendar entry confirms recovery visit for Wednesday 7/15, 8:00 AM. Juan Martinez confirmed as InterWork PM. Stalin Alejandro Pena confirmed as onsite POC (703-267-7885 / 202-826-7920), confirmed he can meet the team at 8:00 AM. Destination/shipping plan for recovered equipment still to be confirmed *after* pickup — items 11/13 (routing) remain open.
+- 7/14/26: Calendar entry confirms recovery visit for Wednesday 7/15, 8:00 AM. Juan Martinez confirmed as InterWork PM. Stalin Alejandro Pena confirmed as onsite POC, confirmed he can meet the team at 8:00 AM. Destination/shipping plan for recovered equipment still to be confirmed *after* pickup — items 11/13 (routing) remain open.
+- 7/15/26, 10:05 AM: Chris Thorpe asks about carrier/ETA for the recovered equipment.
+- 7/15/26, 10:20 AM: Stalin Alejandro Pena defers to Francisco Vinueza on carrier/ETA.
+- 7/15/26, 10:23 AM: Francisco Vinueza states equipment is going by private carrier, targeting NC arrival by Friday 7/17.
+- 7/15/26, 11:14 AM: Chris Thorpe confirms he'll be in the Wilmington office Friday 7/17 to receive it.
+- 7/16/26, 1:04 PM: Justin Maeck (Sunset Transportation) sends BOL and shipment details — pickup NJ 7/16 @ 1400-1500, delivery Wilmington NC 7/17 @ 0800, carrier LAMTORO Freight LLC.
+- 7/16/26, 1:31 PM: Justin Maeck confirms driver ETA to pickup revised to 1600.
+- (Separately, per a different/later-processed handoff: recovery visit occurred 7/15 8:00 AM and one account states same-day delivery to Wilmington via driver Aaron — see "Conflicting Shipping Accounts" in PROJECT_CARD.md. Not reconciled with the BOL timeline above.)

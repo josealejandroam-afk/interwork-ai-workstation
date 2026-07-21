@@ -19,6 +19,12 @@ Services include:
 **InterWork Warehouse:** 439 Commerce Lane, West Berlin, NJ 08091
 Used for storage, staging, asset holding, and pickup/delivery coordination. Full address used in field notices. Not disclosed to clients unless explicitly appropriate.
 
+**InterWork Billing/Corporate Office:** 100 Springdale Road, Cherry Hill, NJ 08003-3300
+Confirmed 2026-07-21 as a Uline order's billing address — separate from the warehouse above.
+Not yet confirmed which address is "primary" for other purposes; documenting both since each
+now has a confirmed use (billing vs. warehouse/staging). Do not assume one supersedes the
+other.
+
 ## Alejandro's Role
 
 **Alejandro Acosta** is the Operations Coordinator at InterWork.

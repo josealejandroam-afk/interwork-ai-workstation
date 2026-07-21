@@ -11,6 +11,7 @@
 | Jill Buchman | Account Manager | jillb@interworkoffice.com | 609-744-8911 | Client-facing account manager; quotes and client comms |
 | David Steinbrecher | InterWork contact | — | Needs confirmation | Appears in client and vendor coordination threads |
 | Jade | Sustainability Lead | — | Needs confirmation | Coordinate early for donation, recycling, or sustainability scope |
+| Laura Skillen | Finance Administrator | lauras@interworkoffice.com | 609-417-9662 | Placed the Uline supply order for project 7595 (2026-07-21); confirmed via email signature |
 
 ## Field PMs
 

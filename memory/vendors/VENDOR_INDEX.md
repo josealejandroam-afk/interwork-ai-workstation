@@ -13,6 +13,7 @@ regardless of which client/project the chat is currently focused on.
 | Sunset Transportation | `memory/vendors/sunset.md` | `memory/procedures/sunset_transportation_workflow.md` | Freight/transportation coordinator only (now associated with Armada) — not a furniture/install labor provider unless a quote explicitly says so |
 | Tier LLC | `memory/vendors/tier_llc.md` | — | See profile for capabilities/use cases |
 | Just4Wheels | `memory/vendors/just4wheels.md` | — | Low confidence — see profile for caveats |
+| Lalos Movers | `memory/vendors/lalos_movers.md` | — | Stub, low confidence — associated with unverified project 7112 only |
 
 Template for adding a new vendor: `memory/vendors/_template.md`
 
