@@ -13,6 +13,12 @@
 | On-site PM | Jairo Escalante |
 | Vendor | JZ Office Installation — Raul Zamora, confirmed still in play as of 2026-07-10 |
 
+## Scheduling Conflict — RESOLVED 2026-07-21
+
+Was flagged: new project 7616 (Bala Cynwyd PA load-out) also listed Jairo Escalante as field
+PM for this same 7/23-7/28 window. **Resolved by Alejandro: Jairo stays on this project
+(Scottsdale); Pedro Martinez covers Bala Cynwyd (7616) instead.**
+
 ## PM Transition
 
 Hunter Barbieri was the PM contact throughout the JZ Office Installation vendor thread.

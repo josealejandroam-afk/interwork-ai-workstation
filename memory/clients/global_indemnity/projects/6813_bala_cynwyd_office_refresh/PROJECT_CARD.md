@@ -133,6 +133,13 @@ work affects access, packing, or employee use.
 | Manny Gonzalez | Field support / later PM involvement | 732-979-6894 |
 | Alejandro Acosta | Operations Coordinator | 609-922-7009 |
 
+## Possible Link to Project 7616 (flagged 2026-07-21, not confirmed)
+
+A new 2026 project, `7616_bala_cynwyd_loadout`, is a load-out/disposal job at this **exact
+same address and client contact** (Katherine Sweeney, 610-505-1595). Plausibly this is GBLI
+now vacating the space refreshed here in 2025, but that connection is not stated in 7616's
+source handoff — flagging, not assuming.
+
 ## Source Notes
 
 - Source: Global Indemnity/GBLI client profile provided directly by Alejandro, 2026-07-14.
