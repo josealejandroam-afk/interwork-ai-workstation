@@ -9,8 +9,8 @@
 | Project name | Edina Office Refresh |
 | Location | 5050 Lincoln Drive, Suite 460, Edina, MN 55435 |
 | Scope dates | June 18 – June 26, 2026 (plus a later return cleanup visit) |
-| Status | Completed per this handoff — Supabase still shows `scheduled` with no confirmation flags set, not yet reconciled |
-| Field PM | Hunter Barbieri (Operations PM, primary lead) |
+| Status | **Completed — reconciled in Supabase as of 2026-07-21** (status=completed, name "MMA Paint Scope / Furniture Decom"). Supabase's `scheduled_date` (2026-07-29) and the Smartsheet calendar's "Café Furniture Install & Closeout" activity (7/28-30) both appear to reference the **later return-cleanup visit** mentioned below, not the original June 18-26 scope — not explicitly confirmed, but consistent with the sequence of events. |
+| Field PM | Jairo Escalante — **per Supabase pm_id as of this reconciliation**; this card's original source (2026-07-10 handoff) listed Hunter Barbieri as the primary lead — Hunter is inactive since 2026-07-09, so this may reflect a reassignment rather than a conflict, not independently confirmed either way |
 | Escalation | David Steinbrecher (Director of Operations) |
 | Post-project coordination | Francisco Vinueza (Operations Manager) |
 | Client PM (daily coordination, scheduling, access) | Danielle Stingone, Lincoln Property Company, Corporate Advisory & Solutions — 978-872-2007 |
@@ -41,5 +41,6 @@ Items intentionally left onsite during the June scope: guest chairs, existing ca
 ## Source Notes
 
 - Source: Claude Chat handoff ("Project Handoff Summary"), pasted directly by Alejandro in chat, 2026-07-10
-- Not yet cross-checked against Supabase/dashboard at time of writing. As of 2026-07-10, Supabase project 7434 shows `status='scheduled'`, `client_informed=false`, `fastfield_submitted=false`, `vendor_confirmed=false` — see Open Loops.
+- As of 2026-07-10, Supabase project 7434 showed `status='scheduled'`, `client_informed=false`, `fastfield_submitted=false`, `vendor_confirmed=false` — see Open Loops.
+- Reconciled 2026-07-21 via Smartsheet calendar cross-check: Supabase now shows `status='completed'`, PM Jairo Escalante, scheduled_date 2026-07-29 — read as the return-cleanup visit, not the original June scope.
 - Created: 2026-07-10

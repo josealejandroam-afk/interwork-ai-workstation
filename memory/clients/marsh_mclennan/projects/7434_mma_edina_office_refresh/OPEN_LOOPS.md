@@ -2,6 +2,6 @@
 
 | # | Item | Status |
 |---|---|---|
-| 1 | Café furniture installation (separate follow-up, not part of the June scope) | Shipment expected ~July 8 to the Minneapolis warehouse per the handoff — today is July 10, so confirm whether it has actually arrived rather than assuming received; timing may now be past-due. Remaining steps: confirm shipment received, coordinate install date with client, deliver/assemble café tables and seating, final placement, remove packaging, leave area clean. |
+| 1 | ~~Café furniture installation (separate follow-up)~~ | **Resolved — this is the "Café Furniture Install & Closeout" activity on the Smartsheet calendar, 2026-07-28 to 2026-07-30.** Matches Supabase's scheduled_date (7/29) and completed status as of 2026-07-21. |
 | 2 | Additional lockers (new scope, not yet quoted) | Client (Ryan Brellenthin) requested 3 additional lockers for offices outside the renovation. Needs a separate quote, approval, and scheduling — no pricing or timeline confirmed yet. Do not invent numbers. |
-| 3 | Supabase status reconciliation | Supabase project 7434 still shows `status='scheduled'` with `client_informed`/`fastfield_submitted`/`vendor_confirmed` all false, even though this handoff confirms the June scope is complete. Flag for Alejandro — the dashboard hasn't been updated to reflect reality. Do not change Supabase status without his approval. |
+| 3 | ~~Supabase status reconciliation~~ | **Resolved 2026-07-21** — Supabase now shows `status='completed'`, PM Jairo Escalante, scheduled_date 2026-07-29. |

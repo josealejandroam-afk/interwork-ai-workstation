@@ -9,7 +9,7 @@
 | Project name | Small Move Pittsburgh |
 | Location | Pittsburgh, PA (full address not confirmed) |
 | Type | Small office move — ~5,000 sq ft; private office furniture plus a lab/industrial workshop area |
-| Status | Updated quote issued (separate decommissioning line item added); awaiting Spryson leadership review/feedback. Smartsheet still marks this "*Date(s) TBD*" |
+| Status | **CANCELLED — per Smartsheet calendar, confirmed 2026-07-21** (was previously on_hold, awaiting Spryson leadership review of the updated quote). Reason not stated — presumably Spryson decided not to proceed given the budget/re-quote history. |
 | Client requirement | Relocated by end of July 2026 |
 | Tentative execution | Week of July 20, 2026 (Jill confirmed to Erica 2026-06-30, if client decides to proceed) |
 | Field PM | Melvin Hernandez — per Smartsheet calendar |

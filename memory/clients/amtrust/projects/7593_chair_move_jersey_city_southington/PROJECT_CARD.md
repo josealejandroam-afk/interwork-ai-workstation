@@ -15,7 +15,7 @@ phases of the same Southington relationship.
 | Project name | Chair Move, Jersey City NJ to Southington, CT |
 | Office PM | Hunter Barbieri — **no longer with the company as of 7/9/2026; needs reassignment** |
 | Client contact | Alexis — quote sent 2026-07-07 |
-| Status | Marked TBD on the calendar as of 2026-07-14 |
+| Status | Marked TBD on the calendar — still true as of 2026-07-21 |
 
 ## Source Notes
 
@@ -23,3 +23,5 @@ phases of the same Southington relationship.
   from Jersey city to Southington, CT - Quote was sent to Alexis 7/7 - This is marked TBD on
   the calendar for 7/14."
 - Created: 2026-07-14.
+- Added to Supabase 2026-07-21 (was missing entirely) — filed as `inquiry` status, matching
+  the still-TBD calendar state; not scheduled or confirmed.
