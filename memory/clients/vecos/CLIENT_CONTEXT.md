@@ -14,6 +14,8 @@ Vecos projects follow a consistent technical pattern — see the Standard Vecos 
 |---|---|---|---|---|
 | 7579 | JPMC Miami — Vecos SMART Lockers | 1450 Brickell Ave, Miami FL 33131, 33rd Floor | Pending scheduling | Quote 8520 sent. No date. Contact: Cason Perez. |
 | 7454 | Vecos Commissioning Tallahassee FL | Tallahassee FL | Scheduled (past-dated Apr 16) | PM: Alejandro. No FastField. No signals. Verify status. |
+| 7609 | JPMC Columbus / Vecos SMART Locker Commissioning | Columbus OH | Pending client decision | Quote 8567 ($7,675) exceeded Vecos's budget assumption; awaiting decision. |
+| 7619 | Vecos USA - NYC - 2 Locations Service Call | EY (395 9th Ave) + SMBC (277 Park Ave), NYC | Scheduled 7/23 | Service call, not new commissioning — locker hub/UPS troubleshooting (EY) + touchscreen terminal swap (SMBC). Tech: Melvin Hernandez. |
 
 ## Vecos Technical Pattern
 
