@@ -1,12 +1,13 @@
 from __future__ import annotations
 
 from pathlib import Path
-from typing import Any
+from typing import Any, Callable
 
 from .errors import TaskValidationError
 from .path_guard import revalidate_project_file
 from .policy_engine import ensure_no_secrets
 from .task_schema import Task
+from .atomic_io import atomic_write_bytes
 
 
 def _read_markdown(path: Path) -> tuple[str, str, bool, str]:
@@ -19,7 +20,7 @@ def _read_markdown(path: Path) -> tuple[str, str, bool, str]:
 
 
 def _write_markdown(path: Path, text: str, encoding: str) -> None:
-    path.write_bytes(text.encode(encoding))
+    atomic_write_bytes(path, text.encode(encoding))
 
 
 def _text(item: Any, *, fact: bool = False) -> str:
@@ -37,9 +38,11 @@ def _text(item: Any, *, fact: bool = False) -> str:
     return value
 
 
-def _append_section(project: Path, path: Path, heading: str, items: list[str], default_newline: str = "\n") -> bool:
+def _append_section(project: Path, path: Path, heading: str, items: list[str], default_newline: str = "\n", expected_absent: bool = False) -> bool:
     if not items:
         return False
+    if expected_absent and path.exists():
+        raise TaskValidationError(f"approved optional file appeared externally during execution: {path.name}")
     revalidate_project_file(project, path)
     if path.exists():
         current, newline, had_final_newline, encoding = _read_markdown(path)
@@ -56,7 +59,9 @@ def _append_section(project: Path, path: Path, heading: str, items: list[str], d
     return True
 
 
-def _resolve_loops(project: Path, path: Path, requested: list[str]) -> tuple[bool, list[str]]:
+def _resolve_loops(project: Path, path: Path, requested: list[str], expected_absent: bool = False) -> tuple[bool, list[str]]:
+    if expected_absent and path.exists() and requested:
+        raise TaskValidationError(f"approved optional file appeared externally during execution: {path.name}")
     if not requested or not path.exists():
         return False, []
     revalidate_project_file(project, path, must_exist=True)
@@ -81,7 +86,11 @@ def _resolve_loops(project: Path, path: Path, requested: list[str]) -> tuple[boo
     return bool(resolved), resolved
 
 
-def apply_updates(project: Path, task: Task) -> dict:
+def apply_updates(
+    project: Path, task: Task, on_write: Callable[[Path], None] | None = None,
+    originally_absent: set[Path] | None = None,
+) -> dict:
+    originally_absent = originally_absent or set()
     paths = {name: project / name for name in ("PROJECT_CARD.md", "OPEN_LOOPS.md", "NOTES.md", "DRAFTS.md")}
     for path in paths.values():
         revalidate_project_file(project, path)
@@ -91,26 +100,36 @@ def apply_updates(project: Path, task: Task) -> dict:
     requested_resolutions = [_text(item) for item in task.open_loops_to_resolve]
     notes = [_text(item) for item in task.notes_to_add]
     drafts = [_text(item) for item in task.drafts_to_save]
-    existing_data = [revalidate_project_file(project, path, must_exist=True).read_bytes() for path in paths.values() if path.exists()]
+    existing_data = [revalidate_project_file(project, path, must_exist=True).read_bytes() for path in paths.values() if path.exists() and path not in originally_absent]
     crlf_count = sum(data.count(b"\r\n") for data in existing_data)
     lf_count = sum(data.count(b"\n") - data.count(b"\r\n") for data in existing_data)
     default_newline = "\r\n" if crlf_count > lf_count else "\n"
     revalidate_project_file(project, paths["PROJECT_CARD.md"], must_exist=True)
-    if _append_section(project, paths["PROJECT_CARD.md"], f"Confirmed Update - {task.task_id}", facts, default_newline):
+    if _append_section(project, paths["PROJECT_CARD.md"], f"Confirmed Update - {task.task_id}", facts, default_newline, paths["PROJECT_CARD.md"] in originally_absent):
         changed.append(paths["PROJECT_CARD.md"])
+        if on_write:
+            on_write(paths["PROJECT_CARD.md"])
     revalidate_project_file(project, paths["OPEN_LOOPS.md"])
-    did_resolve, resolved = _resolve_loops(project, paths["OPEN_LOOPS.md"], requested_resolutions)
+    did_resolve, resolved = _resolve_loops(project, paths["OPEN_LOOPS.md"], requested_resolutions, paths["OPEN_LOOPS.md"] in originally_absent)
     if did_resolve:
         changed.append(paths["OPEN_LOOPS.md"])
+        if on_write:
+            on_write(paths["OPEN_LOOPS.md"])
     revalidate_project_file(project, paths["OPEN_LOOPS.md"])
-    if _append_section(project, paths["OPEN_LOOPS.md"], f"Added by {task.task_id}", added, default_newline):
+    if _append_section(project, paths["OPEN_LOOPS.md"], f"Added by {task.task_id}", added, default_newline, paths["OPEN_LOOPS.md"] in originally_absent):
         changed.append(paths["OPEN_LOOPS.md"])
+        if on_write:
+            on_write(paths["OPEN_LOOPS.md"])
     revalidate_project_file(project, paths["NOTES.md"])
-    if _append_section(project, paths["NOTES.md"], f"Update {task.task_id}", notes, default_newline):
+    if _append_section(project, paths["NOTES.md"], f"Update {task.task_id}", notes, default_newline, paths["NOTES.md"] in originally_absent):
         changed.append(paths["NOTES.md"])
+        if on_write:
+            on_write(paths["NOTES.md"])
     revalidate_project_file(project, paths["DRAFTS.md"])
-    if _append_section(project, paths["DRAFTS.md"], f"Saved by {task.task_id}", drafts, default_newline):
+    if _append_section(project, paths["DRAFTS.md"], f"Saved by {task.task_id}", drafts, default_newline, paths["DRAFTS.md"] in originally_absent):
         changed.append(paths["DRAFTS.md"])
+        if on_write:
+            on_write(paths["DRAFTS.md"])
     return {
         "changed": sorted(set(changed)), "facts_added": len(facts),
         "loops_added": added, "loops_resolved": resolved,

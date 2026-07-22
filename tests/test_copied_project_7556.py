@@ -39,9 +39,13 @@ class CopiedProject7556Tests(unittest.TestCase):
                 notes_to_add=["Proposal-only copied-project validation note"],
             )), encoding="utf-8")
             result = execute(task_path, repo, runtime, commit=False)
-            self.assertEqual(result["status"], "completed")
-            self.assertNotEqual(git(repo, "status", "--porcelain"), "")
+            self.assertEqual(result["status"], "proposal_generated")
+            self.assertEqual(git(repo, "status", "--porcelain"), "")
+            self.assertTrue(result["source_byte_identical"])
+            self.assertFalse(result["final_execution_task_id_consumed"])
             self.assertTrue(Path(result["diff_path"]).exists())
+            final_result = execute(task_path, repo, runtime)
+            self.assertEqual(final_result["status"], "completed")
         self.assertEqual(hashes(source), before)
 
 

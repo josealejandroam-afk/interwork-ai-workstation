@@ -1,3 +1,4 @@
+import hashlib
 import subprocess
 from pathlib import Path
 
@@ -30,11 +31,39 @@ def changed_paths(repo: Path) -> list[str]:
     return [line[3:].replace("\\", "/") for line in output.splitlines() if len(line) >= 4]
 
 
-def make_local_commit(repo: Path, message: str, paths: list[str]) -> str:
+def sha256_file(path: Path) -> str:
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def verify_expected_changes(repo: Path, expected: dict[str, str]) -> None:
+    current = set(changed_paths(repo))
+    if current != set(expected):
+        raise ExecutionError("repository changed after validation; commit refused")
+    for relative, expected_hash in expected.items():
+        path = repo / relative
+        if not path.is_file() or sha256_file(path) != expected_hash:
+            raise ExecutionError(f"approved file changed externally before staging: {relative}")
+
+
+def make_local_commit(repo: Path, message: str, paths: list[str], expected: dict[str, str], hooks_dir: Path) -> str:
     if not paths:
         return starting_commit(repo)
+    verify_expected_changes(repo, expected)
+    hooks_dir.mkdir(parents=True, exist_ok=False)
     git(repo, "add", "--", *paths)
-    git(repo, "commit", "-m", message)
+    for relative in expected:
+        expected_blob = git(repo, "hash-object", "--path", relative, "--", relative).strip()
+        staged_blob = git(repo, "rev-parse", f":{relative}").strip()
+        if expected_blob != staged_blob:
+            raise ExecutionError(f"staged content hash mismatch: {relative}")
+    staged_paths = set(git(repo, "diff", "--cached", "--name-only").splitlines())
+    if staged_paths != set(expected):
+        raise ExecutionError("Git index changed unexpectedly; commit refused")
+    verify_expected_changes(repo, expected)
+    git(
+        repo, "-c", f"core.hooksPath={hooks_dir.resolve()}", "-c", "commit.gpgSign=false",
+        "commit", "--no-gpg-sign", "--only", "-m", message, "--", *paths,
+    )
     return starting_commit(repo)
 
 

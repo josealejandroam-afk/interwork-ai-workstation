@@ -2,14 +2,18 @@ import json
 import subprocess
 import tempfile
 import unittest
+import os
 from pathlib import Path
 from unittest.mock import patch
 
-from local_executor.errors import ExecutionError, PolicyError
+from local_executor.errors import ExecutorError, ExecutionError, PolicyError
 from local_executor.executor import execute
 from local_executor.policy_engine import scan_for_secrets
 from local_executor.report_generator import write_report
 from local_executor.runtime_state import ProjectLock, finalize_recovery, inspect_lock
+from local_executor.git_manager import verify_expected_changes as real_verify_expected_changes
+from local_executor.atomic_io import atomic_write_bytes
+from local_executor.markdown_editor import apply_updates as real_apply_updates
 from tests.test_task_schema import valid_task
 
 
@@ -65,7 +69,7 @@ class SecurityTransactionTests(unittest.TestCase):
             repo, runtime, _, card, task = fixture(root)
             original = card.read_bytes()
 
-            def fail_after_stage(repo_path, message, paths):
+            def fail_after_stage(repo_path, message, paths, expected, hooks_dir):
                 git(repo_path, "add", "--", *paths)
                 (repo_path / "unrelated.txt").write_text("outside change", encoding="utf-8")
                 raise ExecutionError("simulated commit failure")
@@ -136,6 +140,91 @@ class SecurityTransactionTests(unittest.TestCase):
             self.assertEqual(card.read_bytes(), original)
             self.assertEqual(git(repo, "rev-parse", "HEAD"), start)
             self.assertEqual(git(repo, "diff", "--cached", "--name-only"), "")
+
+    def test_externally_created_optional_file_is_not_deleted(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            repo, runtime, project, card, task = fixture(root)
+            task.write_text(json.dumps(valid_task(task_id="external-optional", notes_to_add=["Approved note"])), encoding="utf-8")
+            notes = project / "NOTES.md"
+
+            def external_then_apply(project_path, task_value, on_write=None, originally_absent=None):
+                notes.write_text("external content\n", encoding="utf-8")
+                return real_apply_updates(project_path, task_value, on_write=on_write, originally_absent=originally_absent)
+
+            with patch("local_executor.executor.apply_updates", side_effect=external_then_apply):
+                with self.assertRaisesRegex(ExecutorError, "appeared externally"):
+                    execute(task, repo, runtime)
+            self.assertEqual(notes.read_text(encoding="utf-8"), "external content\n")
+            self.assertEqual(card.read_text(encoding="utf-8"), "# Project 7556\n")
+
+    def test_external_edit_after_executor_write_is_not_overwritten(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            repo, runtime, project, card, task = fixture(root)
+            notes = project / "NOTES.md"
+
+            def external_edit_then_fail(*args, **kwargs):
+                notes.write_text("external replacement\n", encoding="utf-8")
+                raise ExecutionError("simulated validation failure")
+
+            with patch("local_executor.executor.validate", side_effect=external_edit_then_fail):
+                with self.assertRaisesRegex(ExecutionError, "manual recovery"):
+                    execute(task, repo, runtime)
+            self.assertEqual(notes.read_text(encoding="utf-8"), "external replacement\n")
+            self.assertEqual(card.read_text(encoding="utf-8"), "# Project 7556\n")
+            records = list((runtime / "queue/manual_recovery/security-7556").glob("*.json"))
+            self.assertEqual(len(records), 1)
+            self.assertNotIn("external replacement", records[0].read_text(encoding="utf-8"))
+
+    def test_external_edit_between_validation_and_staging_refuses_commit(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            repo, runtime, _, card, task = fixture(root)
+
+            def edit_before_verify(repo_path, expected):
+                card.write_text(card.read_text(encoding="utf-8") + "external edit\n", encoding="utf-8")
+                return real_verify_expected_changes(repo_path, expected)
+
+            with patch("local_executor.executor.verify_expected_changes", side_effect=edit_before_verify):
+                with self.assertRaisesRegex(ExecutionError, "changed after validation"):
+                    execute(task, repo, runtime)
+            self.assertIn("external edit", card.read_text(encoding="utf-8"))
+            self.assertEqual(git(repo, "log", "--format=%s", "-1"), "fixture")
+
+    def test_atomic_write_interruption_preserves_destination(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "PROJECT_CARD.md"
+            path.write_bytes(b"original\n")
+            with patch("local_executor.atomic_io.os.replace", side_effect=OSError("simulated interruption")):
+                with self.assertRaises(OSError):
+                    atomic_write_bytes(path, b"replacement\n")
+            self.assertEqual(path.read_bytes(), b"original\n")
+            self.assertEqual(list(path.parent.glob(".local-executor-*.tmp")), [])
+
+    def test_git_hooks_and_signing_are_disabled(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            repo, runtime, _, _, task = fixture(root)
+            sentinel = root / "hook-ran.txt"
+            hook = repo / ".git/hooks/pre-commit"
+            hook.write_text(f"#!/bin/sh\necho ran > '{sentinel.as_posix()}'\nexit 1\n", encoding="utf-8", newline="\n")
+            os.chmod(hook, 0o755)
+            git(repo, "config", "commit.gpgSign", "true")
+            result = execute(task, repo, runtime)
+            self.assertEqual(result["status"], "completed")
+            self.assertFalse(sentinel.exists())
+
+    def test_keyboard_interrupt_creates_recoverable_history(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            repo, runtime, project, _, task = fixture(root)
+            with patch("local_executor.executor.apply_updates", side_effect=KeyboardInterrupt):
+                with self.assertRaises(KeyboardInterrupt):
+                    execute(task, repo, runtime)
+            self.assertFalse((runtime / "queue/running/security-7556.json").exists())
+            self.assertTrue((runtime / "queue/interrupted/security-7556/attempt-1.json").exists())
+            self.assertFalse(inspect_lock(runtime, project)["locked"])
 
 
 if __name__ == "__main__":

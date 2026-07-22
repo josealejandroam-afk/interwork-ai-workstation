@@ -13,6 +13,7 @@ from . import __version__
 from .errors import ExecutionError, PolicyError
 from .git_manager import git
 from .runtime_guard import revalidate_runtime_path, safe_runtime_path
+from .runtime_guard import validate_task_id
 
 
 def _now() -> str:
@@ -31,6 +32,11 @@ def _failure_records(runtime: Path, task_id: str) -> list[Path]:
     return sorted(folder.glob("attempt-*.json")) if folder.is_dir() else []
 
 
+def _interrupted_records(runtime: Path, task_id: str) -> list[Path]:
+    folder = safe_runtime_path(runtime, "queue", "interrupted", task_id)
+    return sorted(folder.glob("attempt-*.json")) if folder.is_dir() else []
+
+
 def begin_attempt(runtime: Path, task, project: Path, *, retry: bool = False) -> tuple[int, Path]:
     completed = safe_runtime_path(runtime, "queue", "completed", f"{task.task_id}.json")
     running = safe_runtime_path(runtime, "queue", "running", f"{task.task_id}.json")
@@ -42,14 +48,16 @@ def begin_attempt(runtime: Path, task, project: Path, *, retry: bool = False) ->
     if recovery.exists():
         raise ExecutionError("task has a committed recovery state; finalize it before retrying")
     failures = _failure_records(runtime, task.task_id)
-    if failures and not retry:
-        raise ExecutionError("failed task requires an explicit retry invocation")
-    attempt = len(failures) + 1
+    interrupted = _interrupted_records(runtime, task.task_id)
+    prior_attempts = [*failures, *interrupted]
+    if prior_attempts and not retry:
+        raise ExecutionError("failed or interrupted task requires an explicit retry invocation")
+    attempt = len(prior_attempts) + 1
     if attempt > task.maximum_attempts:
         raise ExecutionError("maximum_attempts reached; execution refused")
     backup = safe_runtime_path(runtime, "backups", task.task_id)
     reports = safe_runtime_path(runtime, "reports", task.task_id)
-    if (backup.exists() or reports.exists()) and not failures:
+    if (backup.exists() or reports.exists()) and not prior_attempts:
         raise ExecutionError("interrupted or duplicate task artifacts detected; inspect before recovery")
     pending = safe_runtime_path(runtime, "queue", "pending", f"{task.task_id}.json")
     if pending.exists():
@@ -97,6 +105,17 @@ def move_to_recovery(runtime: Path, task_id: str, running: Path | None, payload:
     if running and running.exists():
         revalidate_runtime_path(runtime, running)
         running.unlink()
+    return destination
+
+
+def interrupt_attempt(runtime: Path, task_id: str, running: Path, attempt: int, reason: str) -> Path:
+    folder = safe_runtime_path(runtime, "queue", "interrupted", task_id)
+    folder.mkdir(parents=True, exist_ok=True)
+    destination = safe_runtime_path(runtime, "queue", "interrupted", task_id, f"attempt-{attempt}.json")
+    payload = json.loads(revalidate_runtime_path(runtime, running).read_text(encoding="utf-8"))
+    payload.update({"status": "interrupted", "interrupted_at": _now(), "reason": reason})
+    _write_exclusive(destination, payload)
+    running.unlink()
     return destination
 
 
@@ -171,7 +190,10 @@ def inspect_lock(runtime: Path, project: Path) -> dict:
     if not path.is_dir():
         return {"locked": False, "canonical_project_path": str(project.resolve())}
     metadata = revalidate_runtime_path(runtime, path / "lock.json")
-    data = json.loads(metadata.read_text(encoding="utf-8"))
+    try:
+        data = json.loads(metadata.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError, TypeError, ValueError) as exc:
+        return {"locked": True, "canonical_project_path": str(project.resolve()), "metadata_error": type(exc).__name__, "same_host": None, "process_alive": None}
     same_host = data.get("hostname") == socket.gethostname()
     data.update({"locked": True, "same_host": same_host, "process_alive": _process_alive(int(data.get("process_id", -1))) if same_host else None})
     return data
@@ -181,15 +203,69 @@ def recover_stale_lock(runtime: Path, project: Path, *, force: bool = False) -> 
     info = inspect_lock(runtime, project)
     if not info.get("locked"):
         return info
+    if info.get("metadata_error") and not force:
+        raise ExecutionError("lock metadata is missing or malformed; explicit --force recovery required")
     if info.get("same_host") and info.get("process_alive"):
         raise ExecutionError("lock owner process is still live; recovery refused")
     if not info.get("same_host") and not force:
         raise ExecutionError("lock belongs to another host; repeat explicit recovery with --force after review")
     path = project_lock_path(runtime, project)
     metadata = revalidate_runtime_path(runtime, path / "lock.json")
-    metadata.unlink()
+    if metadata.exists():
+        metadata.unlink()
     path.rmdir()
     info["recovered"] = True
+    return info
+
+
+def inspect_running(runtime: Path, task_id: str) -> dict:
+    validate_task_id(task_id)
+    running = safe_runtime_path(runtime, "queue", "running", f"{task_id}.json")
+    if not running.is_file():
+        return {"running": False, "task_id": task_id}
+    try:
+        data = json.loads(revalidate_runtime_path(runtime, running).read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError, TypeError, ValueError) as exc:
+        return {"running": True, "task_id": task_id, "metadata_error": type(exc).__name__, "process_alive": None, "lock": None}
+    same_host = data.get("hostname") == socket.gethostname()
+    try:
+        pid = int(data.get("process_id", -1))
+    except (TypeError, ValueError):
+        pid = -1
+    data.update({"running": True, "same_host": same_host, "process_alive": _process_alive(pid) if same_host else None})
+    project_value = data.get("canonical_project_path")
+    if project_value:
+        data["lock"] = inspect_lock(runtime, Path(project_value))
+    else:
+        data["lock"] = None
+    return data
+
+
+def recover_running(runtime: Path, task_id: str, *, force: bool = False) -> dict:
+    validate_task_id(task_id)
+    info = inspect_running(runtime, task_id)
+    if not info.get("running"):
+        raise ExecutionError("running task record was not found")
+    if info.get("same_host") and info.get("process_alive"):
+        raise ExecutionError("running task process is still live; recovery refused")
+    if (info.get("metadata_error") or not info.get("same_host")) and not force:
+        raise ExecutionError("running record is remote or malformed; explicit --force recovery required")
+    project_value = info.get("canonical_project_path")
+    if project_value:
+        lock_info = inspect_lock(runtime, Path(project_value))
+        if lock_info.get("locked"):
+            if lock_info.get("task_id") not in (None, task_id) and not force:
+                raise ExecutionError("project lock belongs to a different task; explicit --force recovery required")
+            recover_stale_lock(runtime, Path(project_value), force=force)
+    running = safe_runtime_path(runtime, "queue", "running", f"{task_id}.json")
+    folder = safe_runtime_path(runtime, "queue", "interrupted", task_id)
+    folder.mkdir(parents=True, exist_ok=True)
+    attempt = info.get("attempt", 0)
+    destination = safe_runtime_path(runtime, "queue", "interrupted", task_id, f"attempt-{attempt or 'unknown'}.json")
+    if destination.exists():
+        destination = safe_runtime_path(runtime, "queue", "interrupted", task_id, f"recovered-{int(datetime.now().timestamp())}.json")
+    os.replace(revalidate_runtime_path(runtime, running), revalidate_runtime_path(runtime, destination))
+    info.update({"recovered": True, "interrupted_record": str(destination)})
     return info
 
 

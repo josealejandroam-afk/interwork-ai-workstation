@@ -18,11 +18,13 @@ From the repository root on Windows:
 python -m local_executor examples/tasks/7556-valid.json --repo . --runtime C:\Users\1\interwork-agent-runtime
 ```
 
-To validate and report without committing:
+To generate an isolated proposal without modifying the source repository:
 
 ```powershell
 python -m local_executor examples/tasks/7556-valid.json --repo . --runtime C:\Users\1\interwork-agent-runtime --no-commit
 ```
+
+Proposal mode copies the approved project files into an isolated runtime workspace, applies changes only there, and records `proposal_generated`. It verifies the source files remain byte-identical and does not consume the task ID for a later approved execution.
 
 Use `--retry` only for an explicit retry below the task's `maximum_attempts` limit.
 
@@ -41,6 +43,15 @@ Recover a confirmed stale lock. Recovery refuses a live same-host process:
 ```powershell
 python -m local_executor recover-lock --runtime C:\Users\1\interwork-agent-runtime --project C:\path\to\project
 ```
+
+Inspect or explicitly recover an interrupted running task:
+
+```powershell
+python -m local_executor inspect-running TASK_ID --runtime C:\Users\1\interwork-agent-runtime
+python -m local_executor recover-running TASK_ID --runtime C:\Users\1\interwork-agent-runtime
+```
+
+Running-task recovery refuses a live same-host process, preserves the running record in interrupted history, and requires `--force` for another host or malformed metadata.
 
 Finalize a task whose local commit succeeded but report finalization failed:
 

@@ -7,7 +7,7 @@ from pathlib import Path
 from local_executor.errors import ExecutionError
 from local_executor.runtime_state import (
     ProjectLock, begin_attempt, fail_attempt, finish_attempt, inspect_lock, project_lock_path,
-    recover_stale_lock,
+    inspect_running, recover_running, recover_stale_lock,
 )
 from local_executor.task_schema import Task
 from tests.test_task_schema import valid_task
@@ -84,6 +84,64 @@ class RuntimeStateTests(unittest.TestCase):
             self.assertEqual(first.read_text(encoding="utf-8"), original)
             with self.assertRaisesRegex(ExecutionError, "maximum_attempts"):
                 begin_attempt(runtime, task, project, retry=True)
+
+    def test_running_recovery_refuses_live_pid_and_archives_dead_pid(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            runtime, project = root / "runtime", root / "project"
+            project.mkdir()
+            live_task = Task.from_dict(valid_task(task_id="live-7556"))
+            _, live_running = begin_attempt(runtime, live_task, project)
+            self.assertTrue(inspect_running(runtime, live_task.task_id)["process_alive"])
+            with self.assertRaisesRegex(ExecutionError, "still live"):
+                recover_running(runtime, live_task.task_id)
+            live_running.unlink()
+
+            dead_task = Task.from_dict(valid_task(task_id="dead-7556", maximum_attempts=2))
+            _, dead_running = begin_attempt(runtime, dead_task, project)
+            data = json.loads(dead_running.read_text(encoding="utf-8"))
+            data["process_id"] = 99999999
+            dead_running.write_text(json.dumps(data), encoding="utf-8")
+            recovered = recover_running(runtime, dead_task.task_id)
+            self.assertTrue(recovered["recovered"])
+            self.assertTrue(Path(recovered["interrupted_record"]).exists())
+            attempt, retry_running = begin_attempt(runtime, dead_task, project, retry=True)
+            self.assertEqual(attempt, 2)
+            retry_running.unlink()
+
+    def test_running_recovery_handles_missing_and_malformed_lock_metadata(self):
+        for malformed in (False, True):
+            with self.subTest(malformed=malformed), tempfile.TemporaryDirectory() as tmp:
+                root = Path(tmp)
+                runtime, project = root / "runtime", root / "project"
+                project.mkdir()
+                task = Task.from_dict(valid_task(task_id=f"broken-{int(malformed)}"))
+                _, running = begin_attempt(runtime, task, project)
+                record = json.loads(running.read_text(encoding="utf-8"))
+                record["process_id"] = 99999999
+                running.write_text(json.dumps(record), encoding="utf-8")
+                lock_path = project_lock_path(runtime, project)
+                lock_path.mkdir(parents=True)
+                if malformed:
+                    (lock_path / "lock.json").write_text("{bad-json", encoding="utf-8")
+                with self.assertRaisesRegex(ExecutionError, "force"):
+                    recover_running(runtime, task.task_id)
+                recovered = recover_running(runtime, task.task_id, force=True)
+                self.assertTrue(recovered["recovered"])
+                self.assertFalse(lock_path.exists())
+
+    def test_malformed_running_record_requires_explicit_force(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            runtime = Path(tmp) / "runtime"
+            running = runtime / "queue/running/malformed-7556.json"
+            running.parent.mkdir(parents=True)
+            running.write_text("{partial", encoding="utf-8")
+            info = inspect_running(runtime, "malformed-7556")
+            self.assertEqual(info["metadata_error"], "JSONDecodeError")
+            with self.assertRaisesRegex(ExecutionError, "force"):
+                recover_running(runtime, "malformed-7556")
+            recovered = recover_running(runtime, "malformed-7556", force=True)
+            self.assertTrue(recovered["recovered"])
 
 
 if __name__ == "__main__":
