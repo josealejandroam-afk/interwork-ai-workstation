@@ -1,0 +1,22 @@
+{
+  "task_id": "2026-07-22-7556-001",
+  "project_number": "7556",
+  "client_slug": "marsh_mclennan",
+  "project_slug": "7556_mma_art_work_dallas",
+  "action": "apply_project_update",
+  "instructions": "Update durable project memory from the supplied handoff.",
+  "source_type": "human_confirmed_handoff",
+  "confirmed_facts": [
+    {"field": "Handoff test fact", "value": "Confirmed for deterministic MVP validation"}
+  ],
+  "open_loops_to_add": ["Review the local executor MVP diff"],
+  "open_loops_to_resolve": ["Confirm closeout (end date 7/1)"],
+  "notes_to_add": ["This example contains synthetic executor-validation content, not a production project fact."],
+  "drafts_to_save": [],
+  "allowed_paths": [
+    "memory/clients/marsh_mclennan/projects/7556_mma_art_work_dallas/"
+  ],
+  "prohibited_actions": ["git_push", "supabase_write", "send_email", "send_teams", "delete_files"],
+  "approval_required_before": ["git_push"],
+  "maximum_attempts": 2
+}
