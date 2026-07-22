@@ -13,6 +13,7 @@ def write_report(runtime: Path, data: dict) -> Path:
     conflicts = "\n".join(f"- {item}" for item in data["conflicts"]) or "- None detected"
     changed = "\n".join(f"- {item}" for item in data["files_changed"]) or "- None"
     reviewed = "\n".join(f"- {item}" for item in data["files_reviewed"])
+    policy = data["policy_enforcement"]
     text = f"""Task completed: {data['task_id']}
 
 Project:
@@ -42,8 +43,10 @@ Conflicts:
 
 Validation:
 {checks}
-- No external communication: PASS
-- No Supabase write: PASS
+- Action allowlist enforced: {'PASS' if policy['action_allowlisted'] else 'FAIL'}
+- Internal prohibited-action denylist enforced: {'PASS' if policy['internal_prohibited_actions_enforced'] else 'FAIL'}
+- External adapters registered: {'YES' if policy['external_adapters_registered'] else 'NO'}
+- Prohibited command path invoked: {'YES' if policy['prohibited_command_path_invoked'] else 'NO'}
 
 Git:
 - Local branch: {data['branch']}

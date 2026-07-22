@@ -4,14 +4,13 @@ import shutil
 from pathlib import Path
 
 from .git_manager import git
-from .path_guard import guard_project_file
 from .path_guard import revalidate_project_file
 from .policy_engine import ensure_no_secrets
 from .runtime_guard import safe_runtime_path, revalidate_runtime_path
 
 
-def backup_files(repo: Path, project: Path, files: list[Path], runtime: Path, task_id: str) -> list[dict]:
-    destination = safe_runtime_path(runtime, "backups", task_id)
+def backup_files(repo: Path, project: Path, files: list[Path], runtime: Path, task_id: str, attempt: int = 1) -> list[dict]:
+    destination = safe_runtime_path(runtime, "backups", task_id, f"attempt-{attempt}")
     revalidate_runtime_path(runtime, destination)
     destination.mkdir(parents=True, exist_ok=False)
     commit = git(repo, "rev-parse", "HEAD").strip()

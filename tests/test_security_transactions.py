@@ -8,6 +8,8 @@ from unittest.mock import patch
 from local_executor.errors import ExecutionError, PolicyError
 from local_executor.executor import execute
 from local_executor.policy_engine import scan_for_secrets
+from local_executor.report_generator import write_report
+from local_executor.runtime_state import ProjectLock, finalize_recovery, inspect_lock
 from tests.test_task_schema import valid_task
 
 
@@ -41,7 +43,7 @@ class SecurityTransactionTests(unittest.TestCase):
             with self.assertRaisesRegex(PolicyError, "Potential secret"):
                 execute(task, repo, runtime)
             self.assertFalse((runtime / "backups/security-7556").exists())
-            error = (runtime / "reports/security-7556-error.json").read_text(encoding="utf-8")
+            error = (runtime / "reports/security-7556/attempt-1-error.json").read_text(encoding="utf-8")
             self.assertNotIn(secret, error)
 
     def test_dirty_and_prestaged_trees_are_refused_without_changes(self):
@@ -86,11 +88,54 @@ class SecurityTransactionTests(unittest.TestCase):
             self.assertEqual(git(repo, "rev-parse", "HEAD"), result["ending_commit"])
             recovery = json.loads(Path(result["recovery_record"]).read_text(encoding="utf-8"))
             self.assertEqual(recovery["commit_sha"], result["ending_commit"])
+            completed = finalize_recovery(runtime, repo, result["task_id"], write_report)
+            self.assertEqual(completed["status"], "completed")
+            self.assertTrue((runtime / "queue/completed/security-7556.json").exists())
 
     def test_secret_patterns_and_business_phone(self):
         self.assertTrue(scan_for_secrets("Authorization: Bearer abcdefghijklmnopqrstuvwxyz"))
         self.assertTrue(scan_for_secrets("postgresql://user:password@example.invalid/db"))
         self.assertFalse(scan_for_secrets("Call Alejandro at 555-123-4567 for project 7556"))
+
+    def test_two_task_ids_cannot_enter_same_project(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            repo, runtime, project, _, _ = fixture(root)
+            held = ProjectLock(runtime, project, "first-task").acquire()
+            second = root / "second.json"
+            second.write_text(json.dumps(valid_task(task_id="second-7556", notes_to_add=["Safe note"])), encoding="utf-8")
+            try:
+                with self.assertRaisesRegex(ExecutionError, "locked"):
+                    execute(second, repo, runtime)
+                self.assertEqual(inspect_lock(runtime, project)["task_id"], "first-task")
+            finally:
+                held.release()
+
+    def test_lock_released_after_success_and_precommit_failure(self):
+        for should_fail in (False, True):
+            with self.subTest(should_fail=should_fail), tempfile.TemporaryDirectory() as tmp:
+                root = Path(tmp)
+                repo, runtime, project, _, task = fixture(root)
+                if should_fail:
+                    with patch("local_executor.executor.apply_updates", side_effect=ExecutionError("simulated edit failure")):
+                        with self.assertRaises(ExecutionError):
+                            execute(task, repo, runtime)
+                else:
+                    execute(task, repo, runtime, commit=False)
+                self.assertFalse(inspect_lock(runtime, project)["locked"])
+
+    def test_failed_validation_restores_files_and_creates_no_commit(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            repo, runtime, _, card, task = fixture(root)
+            original = card.read_bytes()
+            start = git(repo, "rev-parse", "HEAD")
+            with patch("local_executor.executor.validate", side_effect=ExecutionError("simulated validation failure")):
+                with self.assertRaisesRegex(ExecutionError, "validation"):
+                    execute(task, repo, runtime)
+            self.assertEqual(card.read_bytes(), original)
+            self.assertEqual(git(repo, "rev-parse", "HEAD"), start)
+            self.assertEqual(git(repo, "diff", "--cached", "--name-only"), "")
 
 
 if __name__ == "__main__":

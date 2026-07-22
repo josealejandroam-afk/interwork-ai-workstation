@@ -24,6 +24,42 @@ class MarkdownEditorTests(unittest.TestCase):
             self.assertIn("| 1 | Confirm closeout | Resolved |", (project / "OPEN_LOOPS.md").read_text(encoding="utf-8"))
             self.assertEqual(result["loops_resolved"], ["Confirm closeout"])
 
+    def test_crlf_and_no_final_newline_are_preserved(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            project = Path(tmp)
+            card = project / "PROJECT_CARD.md"
+            original = b"# Project 7556\r\n\r\nOriginal trailing spaces.  "
+            card.write_bytes(original)
+            task = Task.from_dict(valid_task(confirmed_facts=["Approved fact"]))
+            apply_updates(project, task)
+            result = card.read_bytes()
+            self.assertTrue(result.startswith(original))
+            self.assertNotIn(b"\n", result.replace(b"\r\n", b""))
+            self.assertFalse(result.endswith((b"\r", b"\n")))
+
+    def test_lf_and_final_newline_are_preserved(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            project = Path(tmp)
+            card = project / "PROJECT_CARD.md"
+            original = b"# Project 7556\n\nUnrelated section.\n"
+            card.write_bytes(original)
+            task = Task.from_dict(valid_task(confirmed_facts=["Approved fact"]))
+            apply_updates(project, task)
+            result = card.read_bytes()
+            self.assertTrue(result.startswith(original))
+            self.assertNotIn(b"\r\n", result)
+            self.assertTrue(result.endswith(b"\n"))
+
+    def test_missing_optional_file_receives_only_approved_update(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            project = Path(tmp)
+            (project / "PROJECT_CARD.md").write_text("# Project 7556\n", encoding="utf-8")
+            task = Task.from_dict(valid_task(notes_to_add=["Approved note"]))
+            apply_updates(project, task)
+            notes = (project / "NOTES.md").read_text(encoding="utf-8")
+            self.assertIn("Approved note", notes)
+            self.assertTrue(notes.startswith("# Notes\n"))
+
 
 if __name__ == "__main__":
     unittest.main()

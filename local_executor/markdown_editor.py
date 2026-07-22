@@ -9,6 +9,19 @@ from .policy_engine import ensure_no_secrets
 from .task_schema import Task
 
 
+def _read_markdown(path: Path) -> tuple[str, str, bool, str]:
+    data = path.read_bytes()
+    encoding = "utf-8-sig" if data.startswith(b"\xef\xbb\xbf") else "utf-8"
+    text = data.decode(encoding)
+    newline = "\r\n" if b"\r\n" in data else "\n"
+    final_newline = text.endswith(("\n", "\r"))
+    return text, newline, final_newline, encoding
+
+
+def _write_markdown(path: Path, text: str, encoding: str) -> None:
+    path.write_bytes(text.encode(encoding))
+
+
 def _text(item: Any, *, fact: bool = False) -> str:
     if isinstance(item, str):
         value = item.strip()
@@ -24,35 +37,47 @@ def _text(item: Any, *, fact: bool = False) -> str:
     return value
 
 
-def _append_section(path: Path, heading: str, items: list[str]) -> bool:
+def _append_section(project: Path, path: Path, heading: str, items: list[str], default_newline: str = "\n") -> bool:
     if not items:
         return False
-    current = path.read_text(encoding="utf-8") if path.exists() else f"# {path.stem.title()}\n"
-    block = f"\n## {heading}\n\n" + "\n".join(f"- {item}" for item in items) + "\n"
-    proposed = current.rstrip() + "\n" + block
+    revalidate_project_file(project, path)
+    if path.exists():
+        current, newline, had_final_newline, encoding = _read_markdown(path)
+    else:
+        titles = {"PROJECT_CARD": "Project Card", "OPEN_LOOPS": "Open Loops", "NOTES": "Notes", "DRAFTS": "Drafts"}
+        newline, had_final_newline, encoding = default_newline, True, "utf-8"
+        current = f"# {titles.get(path.stem, path.stem.title())}{newline}"
+    separator = "" if current.endswith(newline * 2) else (newline if current.endswith(newline) else newline * 2)
+    block = f"## {heading}{newline}{newline}" + newline.join(f"- {item}" for item in items)
+    proposed = current + separator + block + (newline if had_final_newline else "")
     ensure_no_secrets(proposed, "proposed project content")
-    path.write_text(proposed, encoding="utf-8", newline="\n")
+    revalidate_project_file(project, path)
+    _write_markdown(path, proposed, encoding)
     return True
 
 
-def _resolve_loops(path: Path, requested: list[str]) -> tuple[bool, list[str]]:
+def _resolve_loops(project: Path, path: Path, requested: list[str]) -> tuple[bool, list[str]]:
     if not requested or not path.exists():
         return False, []
-    text = path.read_text(encoding="utf-8")
+    revalidate_project_file(project, path, must_exist=True)
+    text, newline, _, encoding = _read_markdown(path)
     resolved = []
-    lines = text.splitlines()
+    lines = text.splitlines(keepends=True)
     for item in requested:
         for index, line in enumerate(lines):
-            cells = [cell.strip() for cell in line.strip().strip("|").split("|")]
+            ending = newline if line.endswith(newline) else ""
+            body = line[:-len(ending)] if ending else line
+            cells = [cell.strip() for cell in body.strip().strip("|").split("|")]
             if len(cells) >= 3 and cells[1] == item and cells[-1].lower() not in {"resolved", "closed", "complete"}:
                 cells[-1] = "Resolved"
-                lines[index] = "| " + " | ".join(cells) + " |"
+                lines[index] = "| " + " | ".join(cells) + " |" + ending
                 resolved.append(item)
                 break
     if resolved:
-        proposed = "\n".join(lines) + "\n"
+        proposed = "".join(lines)
         ensure_no_secrets(proposed, "proposed project content")
-        path.write_text(proposed, encoding="utf-8", newline="\n")
+        revalidate_project_file(project, path, must_exist=True)
+        _write_markdown(path, proposed, encoding)
     return bool(resolved), resolved
 
 
@@ -66,21 +91,25 @@ def apply_updates(project: Path, task: Task) -> dict:
     requested_resolutions = [_text(item) for item in task.open_loops_to_resolve]
     notes = [_text(item) for item in task.notes_to_add]
     drafts = [_text(item) for item in task.drafts_to_save]
+    existing_data = [revalidate_project_file(project, path, must_exist=True).read_bytes() for path in paths.values() if path.exists()]
+    crlf_count = sum(data.count(b"\r\n") for data in existing_data)
+    lf_count = sum(data.count(b"\n") - data.count(b"\r\n") for data in existing_data)
+    default_newline = "\r\n" if crlf_count > lf_count else "\n"
     revalidate_project_file(project, paths["PROJECT_CARD.md"], must_exist=True)
-    if _append_section(paths["PROJECT_CARD.md"], f"Confirmed Update - {task.task_id}", facts):
+    if _append_section(project, paths["PROJECT_CARD.md"], f"Confirmed Update - {task.task_id}", facts, default_newline):
         changed.append(paths["PROJECT_CARD.md"])
     revalidate_project_file(project, paths["OPEN_LOOPS.md"])
-    did_resolve, resolved = _resolve_loops(paths["OPEN_LOOPS.md"], requested_resolutions)
+    did_resolve, resolved = _resolve_loops(project, paths["OPEN_LOOPS.md"], requested_resolutions)
     if did_resolve:
         changed.append(paths["OPEN_LOOPS.md"])
     revalidate_project_file(project, paths["OPEN_LOOPS.md"])
-    if _append_section(paths["OPEN_LOOPS.md"], f"Added by {task.task_id}", added):
+    if _append_section(project, paths["OPEN_LOOPS.md"], f"Added by {task.task_id}", added, default_newline):
         changed.append(paths["OPEN_LOOPS.md"])
     revalidate_project_file(project, paths["NOTES.md"])
-    if _append_section(paths["NOTES.md"], f"Update {task.task_id}", notes):
+    if _append_section(project, paths["NOTES.md"], f"Update {task.task_id}", notes, default_newline):
         changed.append(paths["NOTES.md"])
     revalidate_project_file(project, paths["DRAFTS.md"])
-    if _append_section(paths["DRAFTS.md"], f"Saved by {task.task_id}", drafts):
+    if _append_section(project, paths["DRAFTS.md"], f"Saved by {task.task_id}", drafts, default_newline):
         changed.append(paths["DRAFTS.md"])
     return {
         "changed": sorted(set(changed)), "facts_added": len(facts),

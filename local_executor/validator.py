@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import re
 from pathlib import Path
 
 from .errors import ExecutionError
@@ -7,6 +8,13 @@ from .git_manager import changed_paths, git
 from .policy_engine import PROTECTED_FIELDS, scan_for_secrets
 from .path_guard import revalidate_project_file
 from .task_schema import APPROVED_FILES, Task
+
+
+PROJECT_REFERENCE = re.compile(r"(?i)\bproject(?:\s+number)?\s*(?:\||:|#|-)?\s*(\d{4,})\b")
+
+
+def project_numbers(text: str) -> set[str]:
+    return set(PROJECT_REFERENCE.findall(text))
 
 
 def validate(repo: Path, project: Path, task: Task, original: dict[Path, str]) -> dict[str, str]:
@@ -25,7 +33,10 @@ def validate(repo: Path, project: Path, task: Task, original: dict[Path, str]) -
     before = "\n".join(original.values()).lower()
     protected_changed = any(before.count(field) != content.lower().count(field) for field in PROTECTED_FIELDS)
     checks["Protected fields unchanged"] = "PASS" if not protected_changed else "FAIL"
-    checks["Project number unchanged"] = "PASS" if task.project_number in (project / "PROJECT_CARD.md").read_text(encoding="utf-8") else "FAIL"
+    before_numbers = project_numbers("\n".join(original.values()))
+    after_numbers = project_numbers(content)
+    introduced_conflicts = after_numbers - before_numbers - {task.project_number}
+    checks["Project number unchanged"] = "PASS" if task.project_number in after_numbers and not introduced_conflicts else "FAIL"
     checks["Valid JSON task record"] = "PASS"
     checks["Clean markdown formatting"] = "PASS" if git(repo, "diff", "--check", check=False).strip() == "" else "FAIL"
     checks["Git diff check"] = checks["Clean markdown formatting"]

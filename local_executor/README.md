@@ -24,6 +24,30 @@ To validate and report without committing:
 python -m local_executor examples/tasks/7556-valid.json --repo . --runtime C:\Users\1\interwork-agent-runtime --no-commit
 ```
 
+Use `--retry` only for an explicit retry below the task's `maximum_attempts` limit.
+
+## Queue and project locks
+
+The executor atomically claims a pending task as running and acquires one exclusive lock per canonical project path. Completed task IDs cannot run again. Failed tasks retain attempt history and require `--retry`.
+
+Inspect a project lock:
+
+```powershell
+python -m local_executor inspect-lock --runtime C:\Users\1\interwork-agent-runtime --project C:\path\to\project
+```
+
+Recover a confirmed stale lock. Recovery refuses a live same-host process:
+
+```powershell
+python -m local_executor recover-lock --runtime C:\Users\1\interwork-agent-runtime --project C:\path\to\project
+```
+
+Finalize a task whose local commit succeeded but report finalization failed:
+
+```powershell
+python -m local_executor recover-finalization TASK_ID --repo . --runtime C:\Users\1\interwork-agent-runtime
+```
+
 Reports, diffs, backups, and queue records are written under the supplied external runtime directory. A failed task restores modified project files and writes an error record.
 
 ## Task item formats

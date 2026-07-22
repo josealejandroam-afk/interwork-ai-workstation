@@ -45,6 +45,15 @@ def ensure_no_secrets(text: str, context: str = "approved content") -> None:
         raise PolicyError(f"Potential secret detected in {context}. Processing stopped before persistence.")
 
 
+def policy_evidence(task: Task) -> dict[str, bool]:
+    return {
+        "action_allowlisted": task.action == "apply_project_update",
+        "internal_prohibited_actions_enforced": not bool(set(task.requested_actions) & PROHIBITED_ACTIONS),
+        "external_adapters_registered": False,
+        "prohibited_command_path_invoked": False,
+    }
+
+
 def detect_naming_conflicts(files: list[Path], project: Path | None = None) -> list[str]:
     combined = "\n".join(
         (revalidate_project_file(project, path, must_exist=True) if project else path).read_text(encoding="utf-8")

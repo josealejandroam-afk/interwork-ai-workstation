@@ -40,10 +40,14 @@ class EndToEnd7556Tests(unittest.TestCase):
             self.assertFalse(result["push_performed"])
             self.assertTrue(Path(result["diff_path"]).exists())
             self.assertTrue(Path(result["report_path"]).exists())
-            self.assertTrue((runtime / "backups/e2e-7556/manifest.json").exists())
+            self.assertTrue((runtime / "backups/e2e-7556/attempt-1/manifest.json").exists())
             self.assertEqual(len(result["conflicts"]), 1)
+            (repo / "unrelated.txt").write_text("preserve me\n", encoding="utf-8")
+            git(repo, "add", "unrelated.txt")
+            git(repo, "commit", "-m", "unrelated later work")
             git(repo, "revert", "--no-edit", result["ending_commit"])
             self.assertEqual((project / "PROJECT_CARD.md").read_text(encoding="utf-8"), "# Project 7556 - MMA\n\nLegacy label: MMC RES.\n")
+            self.assertEqual((repo / "unrelated.txt").read_text(encoding="utf-8"), "preserve me\n")
 
 
 if __name__ == "__main__":

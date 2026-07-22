@@ -49,6 +49,11 @@ class TaskSchemaTests(unittest.TestCase):
             with self.assertRaisesRegex(TaskValidationError, "invalid task JSON"):
                 load_task(path)
 
+    def test_maximum_attempts_range_and_boolean_rejected(self):
+        for value in (0, 6, True, "2"):
+            with self.subTest(value=value), self.assertRaisesRegex(TaskValidationError, "maximum_attempts"):
+                Task.from_dict(valid_task(maximum_attempts=value))
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -57,8 +57,8 @@ class Task:
                 raise TaskValidationError(f"{key} must be a string")
         validate_task_id(data["task_id"])
         attempts = data.get("maximum_attempts", 1)
-        if not isinstance(attempts, int) or attempts < 1:
-            raise TaskValidationError("maximum_attempts must be a positive integer")
+        if isinstance(attempts, bool) or not isinstance(attempts, int) or not 1 <= attempts <= 5:
+            raise TaskValidationError("maximum_attempts must be an integer from 1 through 5")
         task = cls(
             task_id=data["task_id"], project_number=data["project_number"],
             client_slug=data["client_slug"], project_slug=data["project_slug"],
