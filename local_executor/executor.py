@@ -23,6 +23,7 @@ from .runtime_state import ProjectLock, begin_attempt, fail_attempt, finish_atte
 from .runtime_state import interrupt_attempt
 from .atomic_io import atomic_write_bytes, cleanup_abandoned_temps
 from .task_schema import APPROVED_FILES
+from .change_journal import ChangeJournal
 
 
 def _digest(data: bytes) -> str:
@@ -38,8 +39,11 @@ def _restore(
             continue
         revalidate_project_file(project, path, must_exist=True)
         current = sha256_file(path)
+        original_hash = _digest(data)
+        if current == original_hash:
+            continue
         if current != expected_post[path]:
-            conflicts.append({"path": str(path), "original_sha256": _digest(data), "expected_post_sha256": expected_post[path], "current_sha256": current})
+            conflicts.append({"path": str(path), "original_sha256": original_hash, "expected_post_sha256": expected_post[path], "current_sha256": current})
             continue
         atomic_write_bytes(path, data)
     for path in created:
@@ -100,6 +104,16 @@ def _write_committed_recovery(runtime: Path, data: dict, error: Exception, runni
     return move_to_recovery(runtime, data["task_id"], running, payload)
 
 
+def _merge_journal(
+    journal: ChangeJournal | None, expected_post: dict[Path, str], created: set[Path]
+) -> None:
+    if journal is None:
+        return
+    journal_expected, journal_created = journal.recovery_expectations()
+    expected_post.update(journal_expected)
+    created.update(journal_created)
+
+
 def _execute_in_place(task_path: Path, repo: Path, runtime: Path, *, commit: bool = True, retry: bool = False) -> dict:
     step = "load task"
     phase = "validated"
@@ -114,6 +128,8 @@ def _execute_in_place(task_path: Path, repo: Path, runtime: Path, *, commit: boo
     lock: ProjectLock | None = None
     expected_post: dict[Path, str] = {}
     created: set[Path] = set()
+    journal: ChangeJournal | None = None
+    start = ""
     try:
         task, raw_task = load_task(task_path)
         task_id = task.task_id
@@ -141,6 +157,7 @@ def _execute_in_place(task_path: Path, repo: Path, runtime: Path, *, commit: boo
         conflicts = detect_naming_conflicts(reviewed, project)
         step = "create backup"
         backup_files(repo, project, reviewed, runtime, task.task_id, attempt)
+        journal = ChangeJournal(runtime, task.task_id, attempt, project, original_hashes)
         phase = "backed_up"
         step = "apply updates"
         phase = "edited"
@@ -149,7 +166,10 @@ def _execute_in_place(task_path: Path, repo: Path, runtime: Path, *, commit: boo
             if path not in original_bytes:
                 created.add(path)
 
-        result = apply_updates(project, task, on_write=record_write, originally_absent=originally_absent)
+        result = apply_updates(
+            project, task, on_write=record_write, originally_absent=originally_absent,
+            before_replace=journal.before_replace, after_replace=journal.after_replace,
+        )
         changed_paths_for_task = set(result["changed"])
         expected_post.update({path: sha256_file(path) for path in changed_paths_for_task})
         step = "validate"
@@ -202,7 +222,21 @@ def _execute_in_place(task_path: Path, repo: Path, runtime: Path, *, commit: boo
         running = None
         phase = "finalized"
         return data
-    except KeyboardInterrupt:
+    except KeyboardInterrupt as exc:
+        current_head = starting_commit(repo) if start else ""
+        if start and current_head != start:
+            committed = True
+            data["ending_commit"] = current_head
+            data["rollback"] = rollback_command(current_head)
+            data["working_tree_clean"] = git(repo, "diff", "--name-only").strip() == ""
+            data["index_clean"] = git(repo, "diff", "--cached", "--name-only").strip() == ""
+            data["status"] = "committed_needs_recovery"
+            data["recovery_record"] = str(_write_committed_recovery(runtime, data, exc, running))
+            running = None
+            raise
+        if phase == "staged":
+            unstage_paths(repo, changed_rel)
+        _merge_journal(journal, expected_post, created)
         conflicts: list[dict] = []
         if original_bytes and expected_post and project is not None:
             conflicts = _restore(original_bytes, project, expected_post, created)
@@ -220,6 +254,7 @@ def _execute_in_place(task_path: Path, repo: Path, runtime: Path, *, commit: boo
             return data
         if phase == "staged":
             unstage_paths(repo, changed_rel)
+        _merge_journal(journal, expected_post, created)
         recovery_conflicts: list[dict] = []
         if original_bytes and expected_post and project is not None and phase in {"edited", "validated_changes", "artifacts_prepared", "staged"}:
             recovery_conflicts = _restore(original_bytes, project, expected_post, created)

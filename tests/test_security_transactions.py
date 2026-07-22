@@ -12,6 +12,7 @@ from local_executor.policy_engine import scan_for_secrets
 from local_executor.report_generator import write_report
 from local_executor.runtime_state import ProjectLock, finalize_recovery, inspect_lock
 from local_executor.git_manager import verify_expected_changes as real_verify_expected_changes
+from local_executor.git_manager import make_local_commit as real_make_local_commit
 from local_executor.atomic_io import atomic_write_bytes
 from local_executor.markdown_editor import apply_updates as real_apply_updates
 from tests.test_task_schema import valid_task
@@ -148,9 +149,12 @@ class SecurityTransactionTests(unittest.TestCase):
             task.write_text(json.dumps(valid_task(task_id="external-optional", notes_to_add=["Approved note"])), encoding="utf-8")
             notes = project / "NOTES.md"
 
-            def external_then_apply(project_path, task_value, on_write=None, originally_absent=None):
+            def external_then_apply(project_path, task_value, on_write=None, originally_absent=None, before_replace=None, after_replace=None):
                 notes.write_text("external content\n", encoding="utf-8")
-                return real_apply_updates(project_path, task_value, on_write=on_write, originally_absent=originally_absent)
+                return real_apply_updates(
+                    project_path, task_value, on_write=on_write, originally_absent=originally_absent,
+                    before_replace=before_replace, after_replace=after_replace,
+                )
 
             with patch("local_executor.executor.apply_updates", side_effect=external_then_apply):
                 with self.assertRaisesRegex(ExecutorError, "appeared externally"):
@@ -225,6 +229,97 @@ class SecurityTransactionTests(unittest.TestCase):
             self.assertFalse((runtime / "queue/running/security-7556.json").exists())
             self.assertTrue((runtime / "queue/interrupted/security-7556/attempt-1.json").exists())
             self.assertFalse(inspect_lock(runtime, project)["locked"])
+
+    def test_interrupt_after_git_commit_uses_actual_head_without_reverse_diff(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            repo, runtime, _, _, task = fixture(root)
+            start = git(repo, "rev-parse", "HEAD")
+
+            def commit_then_interrupt(*args, **kwargs):
+                real_make_local_commit(*args, **kwargs)
+                raise KeyboardInterrupt
+
+            with patch("local_executor.executor.make_local_commit", side_effect=commit_then_interrupt):
+                with self.assertRaises(KeyboardInterrupt):
+                    execute(task, repo, runtime)
+            actual = git(repo, "rev-parse", "HEAD")
+            self.assertNotEqual(actual, start)
+            self.assertEqual(git(repo, "status", "--porcelain"), "")
+            recovery = json.loads((runtime / "queue/committed_needs_recovery/security-7556.json").read_text(encoding="utf-8"))
+            self.assertEqual(recovery["commit_sha"], actual)
+            self.assertTrue(recovery["completion_data"]["working_tree_clean"])
+            self.assertTrue(recovery["completion_data"]["index_clean"])
+
+    def test_interrupt_during_report_is_commit_aware(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            repo, runtime, _, _, task = fixture(root)
+            start = git(repo, "rev-parse", "HEAD")
+            with patch("local_executor.executor.write_report", side_effect=KeyboardInterrupt):
+                with self.assertRaises(KeyboardInterrupt):
+                    execute(task, repo, runtime)
+            actual = git(repo, "rev-parse", "HEAD")
+            self.assertNotEqual(actual, start)
+            self.assertEqual(git(repo, "status", "--porcelain"), "")
+            recovery = json.loads((runtime / "queue/committed_needs_recovery/security-7556.json").read_text(encoding="utf-8"))
+            self.assertEqual(recovery["commit_sha"], actual)
+
+    def test_interrupt_after_staging_unstages_executor_and_preserves_unrelated_changes(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            repo, runtime, _, card, task = fixture(root)
+            start = git(repo, "rev-parse", "HEAD")
+
+            def stage_then_interrupt(repo_path, message, paths, expected, hooks_dir):
+                git(repo_path, "add", "--", *paths)
+                (repo_path / "unrelated-staged.txt").write_text("staged\n", encoding="utf-8")
+                git(repo_path, "add", "unrelated-staged.txt")
+                (repo_path / "unrelated-working.txt").write_text("working\n", encoding="utf-8")
+                raise KeyboardInterrupt
+
+            with patch("local_executor.executor.make_local_commit", side_effect=stage_then_interrupt):
+                with self.assertRaises(KeyboardInterrupt):
+                    execute(task, repo, runtime)
+            self.assertEqual(git(repo, "rev-parse", "HEAD"), start)
+            self.assertEqual(card.read_text(encoding="utf-8"), "# Project 7556\n")
+            self.assertEqual(git(repo, "diff", "--cached", "--name-only"), "unrelated-staged.txt")
+            self.assertEqual((repo / "unrelated-working.txt").read_text(encoding="utf-8"), "working\n")
+            self.assertTrue((runtime / "queue/interrupted/security-7556/attempt-1.json").exists())
+
+    def test_journal_recovers_interrupt_between_replace_and_post_write_callback(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            repo, runtime, _, card, task = fixture(root)
+            original = card.read_bytes()
+            task.write_text(json.dumps(valid_task(task_id="journal-gap", confirmed_facts=["Approved fact"])), encoding="utf-8")
+            with patch("local_executor.change_journal.ChangeJournal.after_replace", side_effect=KeyboardInterrupt):
+                with self.assertRaises(KeyboardInterrupt):
+                    execute(task, repo, runtime)
+            self.assertEqual(card.read_bytes(), original)
+            entries = list((runtime / "journals/journal-gap/attempt-1").glob("*.json"))
+            self.assertEqual(len(entries), 1)
+            entry = json.loads(entries[0].read_text(encoding="utf-8"))
+            self.assertEqual(entry["state"], "prepared")
+            self.assertNotIn("Approved fact", entries[0].read_text(encoding="utf-8"))
+
+    def test_interrupt_after_committed_flag_before_report_completion(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            repo, runtime, _, _, task = fixture(root)
+
+            def partial_report_then_interrupt(runtime_path, data):
+                marker = runtime_path / "reports/partial-report-marker"
+                marker.parent.mkdir(parents=True, exist_ok=True)
+                marker.write_text("started", encoding="utf-8")
+                raise KeyboardInterrupt
+
+            with patch("local_executor.executor.write_report", side_effect=partial_report_then_interrupt):
+                with self.assertRaises(KeyboardInterrupt):
+                    execute(task, repo, runtime)
+            self.assertEqual(git(repo, "status", "--porcelain"), "")
+            recovery = runtime / "queue/committed_needs_recovery/security-7556.json"
+            self.assertTrue(recovery.exists())
 
 
 if __name__ == "__main__":

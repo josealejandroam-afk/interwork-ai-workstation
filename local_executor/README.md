@@ -61,6 +61,8 @@ python -m local_executor recover-finalization TASK_ID --repo . --runtime C:\User
 
 Reports, diffs, backups, and queue records are written under the supplied external runtime directory. A failed task restores modified project files and writes an error record.
 
+Before every atomic project-file replacement, the executor writes a content-free SHA-256 change journal under the runtime directory. Interrupt recovery compares the actual Git HEAD with the recorded starting commit: pre-commit interruptions unstage and safely restore executor-owned changes, while post-commit interruptions preserve the clean commit and enter `committed_needs_recovery`.
+
 ## Task item formats
 
 Facts may be strings or objects with `field` and `value`. Open loops, notes, and drafts may be strings or objects containing `item`, `text`, or `content`. Values must be explicit, single-line, and cannot be unsupported placeholders.
