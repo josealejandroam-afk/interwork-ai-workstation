@@ -32,3 +32,15 @@ def guard_project_file(project: Path, path: Path) -> None:
     resolved = path.resolve()
     if resolved.parent != project.resolve() or resolved.name not in APPROVED_FILES:
         raise PolicyError(f"file is not approved for modification: {path}")
+
+
+def revalidate_project_file(project: Path, path: Path, *, must_exist: bool = False) -> Path:
+    guard_project_file(project, path)
+    if must_exist and not path.exists():
+        raise PolicyError(f"approved project file disappeared before access: {path.name}")
+    if path.is_symlink():
+        raise PolicyError(f"symbolic-link project file is not permitted: {path.name}")
+    is_junction = getattr(path, "is_junction", lambda: False)
+    if is_junction():
+        raise PolicyError(f"junction project file is not permitted: {path.name}")
+    return path

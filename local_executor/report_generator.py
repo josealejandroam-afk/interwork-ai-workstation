@@ -1,10 +1,14 @@
 import json
 from pathlib import Path
 
+from .policy_engine import ensure_no_secrets
+from .runtime_guard import revalidate_runtime_path, safe_runtime_path
 
-def write_report(report_dir: Path, data: dict) -> Path:
+
+def write_report(runtime: Path, data: dict) -> Path:
+    report_dir = safe_runtime_path(runtime, "reports")
     report_dir.mkdir(parents=True, exist_ok=True)
-    path = report_dir / f"{data['task_id']}-completion.txt"
+    path = safe_runtime_path(runtime, "reports", f"{data['task_id']}-completion.txt")
     checks = "\n".join(f"- {name}: {result}" for name, result in data["validation"].items())
     conflicts = "\n".join(f"- {item}" for item in data["conflicts"]) or "- None detected"
     changed = "\n".join(f"- {item}" for item in data["files_changed"]) or "- None"
@@ -53,6 +57,9 @@ Approval required:
 Rollback:
 {data['rollback']}
 """
-    path.write_text(text, encoding="utf-8", newline="\n")
-    (report_dir / f"{data['task_id']}-completion.json").write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
+    serialized = json.dumps(data, indent=2) + "\n"
+    ensure_no_secrets(text + serialized, "generated report")
+    revalidate_runtime_path(runtime, path).write_text(text, encoding="utf-8", newline="\n")
+    json_path = safe_runtime_path(runtime, "reports", f"{data['task_id']}-completion.json")
+    revalidate_runtime_path(runtime, json_path).write_text(serialized, encoding="utf-8")
     return path

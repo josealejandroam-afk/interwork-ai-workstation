@@ -4,6 +4,7 @@ from dataclasses import dataclass, field
 from typing import Any
 
 from .errors import TaskValidationError
+from .runtime_guard import validate_task_id
 
 
 APPROVED_FILES = {"PROJECT_CARD.md", "OPEN_LOOPS.md", "NOTES.md", "DRAFTS.md"}
@@ -54,6 +55,7 @@ class Task:
         for key in ("task_id", "project_number", "client_slug", "project_slug", "action"):
             if not isinstance(data[key], str):
                 raise TaskValidationError(f"{key} must be a string")
+        validate_task_id(data["task_id"])
         attempts = data.get("maximum_attempts", 1)
         if not isinstance(attempts, int) or attempts < 1:
             raise TaskValidationError("maximum_attempts must be a positive integer")

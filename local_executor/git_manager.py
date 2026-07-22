@@ -36,3 +36,8 @@ def make_local_commit(repo: Path, message: str, paths: list[str]) -> str:
     git(repo, "add", "--", *paths)
     git(repo, "commit", "-m", message)
     return starting_commit(repo)
+
+
+def unstage_paths(repo: Path, paths: list[str]) -> None:
+    if paths:
+        git(repo, "restore", "--staged", "--", *paths, check=False)

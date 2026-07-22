@@ -4,7 +4,8 @@ from pathlib import Path
 from typing import Any
 
 from .errors import TaskValidationError
-from .path_guard import guard_project_file
+from .path_guard import revalidate_project_file
+from .policy_engine import ensure_no_secrets
 from .task_schema import Task
 
 
@@ -28,7 +29,9 @@ def _append_section(path: Path, heading: str, items: list[str]) -> bool:
         return False
     current = path.read_text(encoding="utf-8") if path.exists() else f"# {path.stem.title()}\n"
     block = f"\n## {heading}\n\n" + "\n".join(f"- {item}" for item in items) + "\n"
-    path.write_text(current.rstrip() + "\n" + block, encoding="utf-8", newline="\n")
+    proposed = current.rstrip() + "\n" + block
+    ensure_no_secrets(proposed, "proposed project content")
+    path.write_text(proposed, encoding="utf-8", newline="\n")
     return True
 
 
@@ -47,29 +50,36 @@ def _resolve_loops(path: Path, requested: list[str]) -> tuple[bool, list[str]]:
                 resolved.append(item)
                 break
     if resolved:
-        path.write_text("\n".join(lines) + "\n", encoding="utf-8", newline="\n")
+        proposed = "\n".join(lines) + "\n"
+        ensure_no_secrets(proposed, "proposed project content")
+        path.write_text(proposed, encoding="utf-8", newline="\n")
     return bool(resolved), resolved
 
 
 def apply_updates(project: Path, task: Task) -> dict:
     paths = {name: project / name for name in ("PROJECT_CARD.md", "OPEN_LOOPS.md", "NOTES.md", "DRAFTS.md")}
     for path in paths.values():
-        guard_project_file(project, path)
+        revalidate_project_file(project, path)
     changed = []
     facts = [_text(item, fact=True) for item in task.confirmed_facts]
     added = [_text(item) for item in task.open_loops_to_add]
     requested_resolutions = [_text(item) for item in task.open_loops_to_resolve]
     notes = [_text(item) for item in task.notes_to_add]
     drafts = [_text(item) for item in task.drafts_to_save]
+    revalidate_project_file(project, paths["PROJECT_CARD.md"], must_exist=True)
     if _append_section(paths["PROJECT_CARD.md"], f"Confirmed Update - {task.task_id}", facts):
         changed.append(paths["PROJECT_CARD.md"])
+    revalidate_project_file(project, paths["OPEN_LOOPS.md"])
     did_resolve, resolved = _resolve_loops(paths["OPEN_LOOPS.md"], requested_resolutions)
     if did_resolve:
         changed.append(paths["OPEN_LOOPS.md"])
+    revalidate_project_file(project, paths["OPEN_LOOPS.md"])
     if _append_section(paths["OPEN_LOOPS.md"], f"Added by {task.task_id}", added):
         changed.append(paths["OPEN_LOOPS.md"])
+    revalidate_project_file(project, paths["NOTES.md"])
     if _append_section(paths["NOTES.md"], f"Update {task.task_id}", notes):
         changed.append(paths["NOTES.md"])
+    revalidate_project_file(project, paths["DRAFTS.md"])
     if _append_section(paths["DRAFTS.md"], f"Saved by {task.task_id}", drafts):
         changed.append(paths["DRAFTS.md"])
     return {

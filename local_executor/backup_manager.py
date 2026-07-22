@@ -5,17 +5,23 @@ from pathlib import Path
 
 from .git_manager import git
 from .path_guard import guard_project_file
+from .path_guard import revalidate_project_file
+from .policy_engine import ensure_no_secrets
+from .runtime_guard import safe_runtime_path, revalidate_runtime_path
 
 
-def backup_files(repo: Path, project: Path, files: list[Path], backup_root: Path, task_id: str) -> list[dict]:
-    destination = backup_root / task_id
+def backup_files(repo: Path, project: Path, files: list[Path], runtime: Path, task_id: str) -> list[dict]:
+    destination = safe_runtime_path(runtime, "backups", task_id)
+    revalidate_runtime_path(runtime, destination)
     destination.mkdir(parents=True, exist_ok=False)
     commit = git(repo, "rev-parse", "HEAD").strip()
     records = []
     for source in files:
-        guard_project_file(project, source)
+        revalidate_project_file(project, source, must_exist=True)
         data = source.read_bytes()
+        ensure_no_secrets(data.decode("utf-8"), "approved source content")
         target = destination / source.name
+        revalidate_runtime_path(runtime, target)
         shutil.copy2(source, target)
         records.append({
             "file": source.name,
@@ -23,5 +29,6 @@ def backup_files(repo: Path, project: Path, files: list[Path], backup_root: Path
             "git_commit": commit,
             "backup": str(target),
         })
-    (destination / "manifest.json").write_text(json.dumps(records, indent=2) + "\n", encoding="utf-8")
+    manifest = revalidate_runtime_path(runtime, destination / "manifest.json")
+    manifest.write_text(json.dumps(records, indent=2) + "\n", encoding="utf-8")
     return records
