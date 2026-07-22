@@ -10,11 +10,12 @@
 | Location | 15 Trafalgar Square, Suite 200 & 201, 2nd Floor, Nashua, NH 03063 (Stop 3 of the combined route — see below) |
 | Type | E-waste / furniture disposal, a Jersey City→Southington chair relocation combined into the same route, plus a reception desk replacement request |
 | Site walk | Completed 2026-07-09, 9:00 AM. Conducted by Frank Barrett. |
-| PM | Frank Barrett — **confirmed 2026-07-15 (Alejandro): Frank physically did the site walk, so he is PM.** Per FastField inventory form "Project Manager" field and Hunter Barbieri's 2026-07-08 Teams handoff addressed to him. David Steinbrecher (609-744-8899) was the PM on the earlier email thread before the site walk — treat Frank as PM going forward. |
+| PM (site walk) | Frank Barrett — **confirmed 2026-07-15 (Alejandro): Frank physically did the site walk, so he is PM.** Per FastField inventory form "Project Manager" field and Hunter Barbieri's 2026-07-08 Teams handoff addressed to him. David Steinbrecher (609-744-8899) was the PM on the earlier email thread before the site walk. |
+| Field PM (execution day) | **Juan Martinez — 732-979-7163**, per the 2026-07-22 execution FastField for 7/23. **Not yet reconciled with Frank Barrett as site-walk PM — flagging, not assuming these are the same role/person's assignment carried forward.** Confirm with Alejandro whether Juan is running execution while Frank remains PM of record, or whether PM changed. |
 | InterWork (CC) | Francisco Vinueza |
 | Quote | **Quote #8550, dated 07/08/2026, sent to Alexis Lyons by David Steinbrecher 2026-07-21 6:23 PM** (cc Francisco Vinueza, Alejandro Acosta, InterWork Operations). Total **$6,840** (Labor $2,650; e-waste disposal $1,750; packaging material $450; truck charge x2 $1,190; project management x2 $800; 0% tax). |
-| Target execution date | **Not confirmed — awaiting Alexis Lyons' sign-off on Quote #8550 as of 2026-07-21, no reply yet.** Alexis separately stated (in the scope-confirmation email preceding this proposal) that AmTrust's team is available "any day from Monday, July 20 through Thursday, July 23" — **this is a stated availability window, not a confirmed execution date.** Do not schedule off this window alone. |
-| Status | **Proposal sent (Quote #8550), awaiting client confirmation as of 2026-07-21.** Site walk/inventory complete; execution date not yet set. |
+| Target execution date | **Confirmed: Thursday, 2026-07-23, 8:00 AM start** — per the execution FastField sent 2026-07-22. Resolves the prior open loop on scheduling; Alexis Lyons' sign-off must have landed between 2026-07-21 and 2026-07-22 (no separate confirmation email seen yet — flagging that the confirmation itself wasn't directly observed, only the resulting dispatch). |
+| Status | **Execution scheduled for 2026-07-23 — FastField dispatched to crew 2026-07-22.** Site walk/inventory complete; quote sent 2026-07-21; execution date now set. |
 
 ## Site Contacts
 
@@ -45,6 +46,28 @@ Southington chair relocation job into one route, quoted together under this proj
 **Open question, not resolved:** whether this Jersey City/Southington leg should stay tracked
 under 7594 now that it's combined into one quote, or be split into its own project number.
 Flagged as an internal open loop, not decided.
+
+## Execution FastField — Confirmed 2026-07-23 (dispatched 2026-07-22)
+
+Full day route, 8:00 AM start, Field PM Juan Martinez (732-979-7163):
+
+| Leg | Time | Details |
+|---|---|---|
+| Truck pickup | 8:00 AM | **Just4Wheels** — pick up rental truck, complete rental paperwork, inspect/document existing damage, confirm fuel level and moving blankets/straps/hand truck onboard |
+| Stop 1 — Jersey City, NJ | ~9:30 AM | 400 Washington Street, Suite 701 — check in with onsite contact; pick up 4 AmTrust-owned guest chairs; inspect for damage; protect (blankets/shrink wrap); secure in truck |
+| Stop 2 — Southington, CT | ~12:15 PM | 400 Executive Boulevard, Suite 400 — check in with onsite contact; unload and place the 4 chairs per client direction; obtain client confirmation of placement |
+| Stop 3 — Nashua, NH | ~4:00 PM | 15 Trafalgar Square, Suites 200 & 201 — check in with onsite contact; remove approved e-waste/electronics, approved unwanted furniture, approved misc. debris from the site walk; broom-clean the work area |
+
+**Exclusions (restated on this FastField):** MFPs, docking stations, reception desk removal,
+reception desk replacement — consistent with the existing "on hold" status on the reception
+desk line item (see below); this confirms it stayed out of the 7/23 execution scope.
+
+**General instructions:** before/after photos at each stop; report scope discrepancies before
+proceeding with extra work; notify office immediately of access issues/delays/additional scope
+requests; maintain communication on progress/ETA; secure materials in transit, proper e-waste
+handling.
+
+Vendor: **Just4Wheels** (truck rental only, not labor) — see `memory/vendors/just4wheels.md`.
 
 ## Confirmed Scope — From Site Walk (2026-07-09)
 
@@ -105,6 +128,7 @@ separate project, since it grew out of the same thread.
 | 2026-07-09 | Site walk conducted by Frank Barrett, 9:00 AM, with Daniel Vogt |
 | 2026-07-10 | FastField inventory form filed, confirming scope above |
 | 2026-07-21 | Quote #8550 sent to Alexis Lyons by David Steinbrecher, 6:23 PM — combined 3-stop route (Jersey City → Southington chair relocation + Nashua disposal), $6,840 total. Awaiting her confirmation, no reply yet. |
+| 2026-07-22 | Execution FastField sent for 2026-07-23, 8:00 AM — Field PM Juan Martinez, full route (Just4Wheels truck pickup → Jersey City → Southington → Nashua). Client confirmation of Quote #8550 not separately observed, only this resulting dispatch. |
 
 ## Notes
 
@@ -118,16 +142,17 @@ separate project, since it grew out of the same thread.
 | client_confirmed | Yes — request originated with Alexis Lyons |
 | access_confirmed | Yes — site walk completed 2026-07-09 |
 | vendor_confirmed | N/A |
-| fastfield_submitted | Yes — inventory form filed 2026-07-10 |
-| completion_report_sent | No — disposal itself not yet scheduled/executed |
+| fastfield_submitted | Yes — inventory form filed 2026-07-10; execution FastField sent 2026-07-22 for 2026-07-23 |
+| completion_report_sent | No — execution scheduled 2026-07-23, not yet run |
 
 ## Missing / Open Information
 
-- **Target execution/disposal date** — not confirmed with client; awaiting Alexis Lyons'
-  sign-off on Quote #8550 before scheduling. Her stated 7/20-7/23 availability window is not
-  a confirmed date.
-- Identity of the on-site POC for the actual disposal date (Daniel Vogt will not be present)
-- Resolution on the reception desk depth issue (transaction-top removal vs. sourcing a deeper desk) — currently on hold, excluded from Quote #8550
+- Whether Frank Barrett (site-walk PM) and Juan Martinez (execution FastField's named Field
+  PM) are both intentionally assigned to this project in different roles, or whether PM
+  responsibility shifted to Juan for execution — not confirmed, flagging only
+- Identity of the on-site POC for the actual disposal date (Daniel Vogt will not be present) —
+  the execution FastField only says "check in with the onsite contact," no name given
+- Resolution on the reception desk depth issue (transaction-top removal vs. sourcing a deeper desk) — currently on hold, excluded from Quote #8550 and confirmed excluded again on the 7/23 execution FastField
 - Project number for/relationship to the reception desk replacement line item — currently
   tracked under 7594 since it's the same request thread, but confirm this is correct once a
   quote/PO is generated
@@ -145,3 +170,6 @@ separate project, since it grew out of the same thread.
 - Updated 2026-07-21 via Claude Code handoff (Claude Chat, Alejandro session): email thread
   "RE: Southington Furniture" and proposal PDF IWSQ8550.pdf, screenshots provided by
   Alejandro. Not independently verified beyond the relayed handoff.
+- Updated 2026-07-22: pasted execution FastField "FastField Scope - Project #7594," full
+  8:00 AM-start route for 2026-07-23 (Just4Wheels pickup + 3 stops), Field PM Juan Martinez.
+  Not independently verified beyond the relayed FastField text.
