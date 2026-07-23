@@ -1,0 +1,16 @@
+{
+  "task_id": "2026-07-22-7556-rejected",
+  "project_number": "7556",
+  "client_slug": "marsh_mclennan",
+  "project_slug": "7556_mma_art_work_dallas",
+  "action": "apply_project_update",
+  "confirmed_facts": [],
+  "open_loops_to_add": [],
+  "open_loops_to_resolve": [],
+  "notes_to_add": [],
+  "drafts_to_save": [],
+  "allowed_paths": ["../outside-repository/"],
+  "requested_actions": ["git_push"],
+  "prohibited_actions": ["git_push"],
+  "maximum_attempts": 1
+}
