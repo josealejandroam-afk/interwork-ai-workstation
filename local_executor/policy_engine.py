@@ -17,6 +17,7 @@ SECRET_PATTERNS = (
     re.compile(r"\bgh[pousr]_[A-Za-z0-9]{20,}\b"),
     re.compile(r"\bsk-(?:proj-|ant-api03-)?[A-Za-z0-9_-]{16,}\b"),
     re.compile(r"\bAKIA[0-9A-Z]{16}\b"),
+    re.compile(r"\biwq_(?:submit|worker)_[A-Za-z0-9_-]{32,}\b"),
     re.compile(r"(?i)\bBearer\s+[A-Za-z0-9._~+/-]{16,}={0,2}\b"),
     re.compile(r"(?i)(?:api[_-]?key|secret|password|token|service[_-]?role[_-]?key)\s*[:=]\s*[^\s,;]+"),
     re.compile(r"(?i)(?:AccountKey|SharedAccessKey|ClientSecret)\s*=\s*[^;\s]+"),

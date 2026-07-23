@@ -32,6 +32,8 @@ class PolicyTests(unittest.TestCase):
             "ghp_abcdefghijklmnopqrstuvwxyz123456",
             "sk-proj-abcdefghijklmnopqrstuvwxyz",
             "AKIAABCDEFGHIJKLMNOP",
+            "iwq_submit_abcdefghijklmnopqrstuvwxyz0123456789ABCDEFG",
+            "iwq_worker_abcdefghijklmnopqrstuvwxyz0123456789ABCDEFG",
             "AccountKey=abcdefghijklmnopqrstuvwxyz",
             "https://example.invalid/hook?token=abcdefghijklmnopqrstuvwxyz",
         ]
