@@ -9,6 +9,7 @@ def git(repo: Path, *args: str, check: bool = True) -> str:
     result = subprocess.run(
         ["git", *args], cwd=repo, text=True, encoding="utf-8", errors="replace",
         stdout=subprocess.PIPE, stderr=subprocess.PIPE,
+        creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0),
     )
     if check and result.returncode:
         raise ExecutionError(f"git {' '.join(args)} failed: {result.stderr.strip()}")
