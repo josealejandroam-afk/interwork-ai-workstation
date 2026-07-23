@@ -72,6 +72,18 @@ The shared queue atomically leases one task to one worker. Submitter credentials
 
 Do not copy the worker token to secondary PCs and do not run `--remote` on more than one designated executor. Queue credentials are secrets and must stay in the Windows user environment or another operating-system credential store, never in the repository.
 
+### Enroll another PC as a submitter
+
+On the secondary PC, generate and install a unique submitter credential:
+
+```powershell
+.\scripts\New-LocalExecutorSubmitterCredential.ps1 -Label "laptop-name"
+```
+
+The script stores the plaintext credential only in that Windows user's environment and writes a hash-only SQL request under `%LOCALAPPDATA%\InterWork\LocalExecutor\credential-requests`. Review and run that SQL manually in Supabase before using `local_executor submit`. The script never connects to Supabase or performs a database write.
+
+Use a different label and credential for every PC. Do not reuse the home worker credential or copy a submitter token between machines.
+
 ## Queue and project locks
 
 The executor atomically claims a pending task as running and acquires one exclusive lock per canonical project path. Completed task IDs cannot run again. Failed tasks retain attempt history and require `--retry`.
