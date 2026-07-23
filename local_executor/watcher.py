@@ -1,80 +1,138 @@
 from __future__ import annotations
 
 import json
+import os
 import time
-import traceback
+import uuid
 from pathlib import Path
 
-from .errors import ExecutorError
+from .errors import ExecutionError, ExecutorError
 from .executor import execute
 from .git_manager import git
+from .runtime_guard import revalidate_runtime_path, safe_runtime_path
+
+
+DEFAULT_BRANCH = "executor/auto"
+
+
+def _inbox_path(runtime: Path, folder: str) -> Path:
+    return safe_runtime_path(runtime, "inbox", folder)
 
 
 def ensure_branch(repo: Path, branch: str) -> None:
+    if branch in {"main", "master"}:
+        raise ExecutionError("watcher branch must not be main or master")
+    git(repo, "check-ref-format", "--branch", branch)
     current = git(repo, "branch", "--show-current").strip()
     if current == branch:
         return
     existing = git(repo, "branch", "--list", branch).strip()
-    git(repo, "checkout", branch) if existing else git(repo, "checkout", "-b", branch)
+    if existing:
+        git(repo, "switch", branch)
+        return
+    git(repo, "rev-parse", "--verify", "refs/heads/main")
+    git(repo, "switch", "-c", branch, "main")
 
 
-def pending_tasks(inbox: Path) -> list[Path]:
-    pending = inbox / "pending"
+def pending_tasks(runtime: Path) -> list[Path]:
+    pending = _inbox_path(runtime, "pending")
     pending.mkdir(parents=True, exist_ok=True)
     return sorted(pending.glob("*.json"))
 
 
-def _archive(path: Path, inbox: Path, subfolder: str, note: str | None = None) -> Path:
-    destination_dir = inbox / subfolder
+def _available_archive_path(destination_dir: Path, name: str) -> Path:
+    destination = destination_dir / name
+    if not destination.exists():
+        return destination
+    source = Path(name)
+    return destination_dir / f"{source.stem}-{uuid.uuid4().hex}{source.suffix}"
+
+
+def _claim(runtime: Path, task_path: Path) -> tuple[Path, str] | None:
+    task_path = revalidate_runtime_path(runtime, task_path)
+    processing = _inbox_path(runtime, "processing")
+    processing.mkdir(parents=True, exist_ok=True)
+    claimed = processing / f"{uuid.uuid4().hex}-{task_path.name}"
+    try:
+        os.replace(task_path, claimed)
+    except FileNotFoundError:
+        return None
+    return claimed, task_path.name
+
+
+def _archive(
+    runtime: Path,
+    path: Path,
+    original_name: str,
+    subfolder: str,
+    note: str | None = None,
+) -> Path:
+    path = revalidate_runtime_path(runtime, path)
+    destination_dir = _inbox_path(runtime, subfolder)
     destination_dir.mkdir(parents=True, exist_ok=True)
-    destination = destination_dir / path.name
-    path.replace(destination)
+    destination = _available_archive_path(destination_dir, original_name)
+    os.replace(path, destination)
     if note:
         destination.with_suffix(".error.txt").write_text(note, encoding="utf-8")
     return destination
 
 
-def process_one(repo: Path, runtime: Path, inbox: Path, task_path: Path) -> dict:
+def process_one(repo: Path, runtime: Path, task_path: Path, original_name: str) -> dict:
     try:
         json.loads(task_path.read_text(encoding="utf-8"))
-    except (OSError, json.JSONDecodeError) as exc:
-        _archive(task_path, inbox, "rejected", f"invalid JSON: {exc}")
-        return {"status": "rejected", "task_path": str(task_path), "error": str(exc)}
+    except (OSError, UnicodeError, json.JSONDecodeError) as exc:
+        error = f"invalid JSON: {exc}"
+        _archive(runtime, task_path, original_name, "rejected", error)
+        return {"status": "rejected", "task_path": original_name, "error": error}
     try:
         result = execute(task_path, repo, runtime, commit=True)
     except ExecutorError as exc:
-        task_id = task_path.stem
-        _archive(task_path, inbox, "rejected", str(exc))
-        return {"status": "rejected", "task_id": task_id, "error": str(exc)}
-    _archive(task_path, inbox, "submitted")
+        error = str(exc)
+        _archive(runtime, task_path, original_name, "rejected", error)
+        return {"status": "rejected", "task_path": original_name, "error": error}
+    except Exception as exc:
+        error = f"unexpected watcher error: {type(exc).__name__}"
+        _archive(runtime, task_path, original_name, "rejected", error)
+        return {"status": "rejected", "task_path": original_name, "error": error}
+    _archive(runtime, task_path, original_name, "submitted")
     return result
 
 
-def run_cycle(repo: Path, runtime: Path, inbox: Path, branch: str) -> list[dict]:
-    tasks = pending_tasks(inbox)
+def run_cycle(repo: Path, runtime: Path, branch: str = DEFAULT_BRANCH) -> list[dict]:
+    tasks = pending_tasks(runtime)
     if not tasks:
         return []
-    if git(repo, "status", "--porcelain").strip():
-        print("watcher: repository is not clean; skipping this cycle until it's clean again")
+    if git(repo, "status", "--porcelain", "--untracked-files=all").strip():
+        print("watcher: repository is not clean; pending tasks were left untouched")
         return []
     ensure_branch(repo, branch)
     results = []
     for task_path in tasks:
-        try:
-            result = process_one(repo, runtime, inbox, task_path)
-        except Exception:
-            print(f"watcher: unexpected error processing {task_path}")
-            traceback.print_exc()
+        if git(repo, "status", "--porcelain", "--untracked-files=all").strip():
+            print("watcher: repository became dirty; remaining pending tasks were left untouched")
+            break
+        claim = _claim(runtime, task_path)
+        if claim is None:
             continue
+        claimed_path, original_name = claim
+        result = process_one(repo, runtime, claimed_path, original_name)
         results.append(result)
         print(json.dumps(result, indent=2))
     return results
 
 
-def watch(repo: Path, runtime: Path, inbox: Path, branch: str, poll_seconds: float = 5.0, iterations: int | None = None) -> None:
+def watch(
+    repo: Path,
+    runtime: Path,
+    branch: str = DEFAULT_BRANCH,
+    poll_seconds: float = 5.0,
+    iterations: int | None = None,
+) -> None:
+    if poll_seconds <= 0:
+        raise ExecutionError("poll interval must be greater than zero")
     count = 0
     while iterations is None or count < iterations:
-        run_cycle(repo, runtime, inbox, branch)
+        run_cycle(repo, runtime, branch)
         count += 1
         if iterations is None or count < iterations:
             time.sleep(poll_seconds)

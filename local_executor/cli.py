@@ -8,7 +8,7 @@ from .executor import execute
 from .report_generator import write_report
 from .runtime_state import finalize_recovery, inspect_lock, inspect_running, recover_running, recover_stale_lock
 from .runtime_guard import validate_task_id
-from .watcher import watch
+from .watcher import DEFAULT_BRANCH, watch
 
 
 def parser() -> argparse.ArgumentParser:
@@ -36,15 +36,20 @@ def _watch(argv: list[str]) -> int:
     watch_parser = argparse.ArgumentParser(description="Poll an inbox folder and run approved tasks automatically")
     watch_parser.add_argument("--repo", type=Path, required=True)
     watch_parser.add_argument("--runtime", type=Path, required=True)
-    watch_parser.add_argument("--inbox", type=Path, required=True)
-    watch_parser.add_argument("--branch", required=True, help="dedicated non-main branch the watcher commits to")
+    watch_parser.add_argument(
+        "--branch", default=DEFAULT_BRANCH, help=f"dedicated non-main branch (default: {DEFAULT_BRANCH})",
+    )
     watch_parser.add_argument("--poll-seconds", type=float, default=5.0)
     watch_parser.add_argument("--once", action="store_true", help="run a single cycle and exit, instead of looping forever")
     args = watch_parser.parse_args(argv)
-    watch(
-        args.repo.resolve(), args.runtime.resolve(), args.inbox.resolve(), args.branch,
-        poll_seconds=args.poll_seconds, iterations=1 if args.once else None,
-    )
+    try:
+        watch(
+            args.repo.resolve(), args.runtime.resolve(), args.branch,
+            poll_seconds=args.poll_seconds, iterations=1 if args.once else None,
+        )
+    except ExecutorError as exc:
+        print(f"Watcher failed safely: {exc}", file=sys.stderr)
+        return 1
     return 0
 
 
