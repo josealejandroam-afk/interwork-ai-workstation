@@ -136,3 +136,23 @@ def watch(
         count += 1
         if iterations is None or count < iterations:
             time.sleep(poll_seconds)
+
+
+def watch_remote(
+    repo: Path,
+    runtime: Path,
+    client,
+    branch: str = DEFAULT_BRANCH,
+    poll_seconds: float = 5.0,
+    iterations: int | None = None,
+) -> None:
+    from .remote_queue import run_remote_cycle
+
+    if poll_seconds <= 0:
+        raise ExecutionError("poll interval must be greater than zero")
+    count = 0
+    while iterations is None or count < iterations:
+        run_remote_cycle(repo, runtime, client, branch)
+        count += 1
+        if iterations is None or count < iterations:
+            time.sleep(poll_seconds)

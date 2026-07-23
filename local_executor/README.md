@@ -48,6 +48,30 @@ Successful tasks move to `inbox\submitted`; malformed or policy-rejected tasks m
 
 The watcher never pushes or merges. Installing this code does not start it; continuous operation requires a separate, explicit launch and operating-system scheduling decision.
 
+## Shared queue for multiple PCs
+
+One designated PC may extend the watcher with the authenticated Supabase queue:
+
+```powershell
+python -m local_executor watch --repo . --runtime C:\Users\1\interwork-agent-runtime --remote
+```
+
+The worker requires these user-level environment variables:
+
+- `SUPABASE_URL`
+- `SUPABASE_PUBLISHABLE_KEY` (or the legacy `SUPABASE_ANON_KEY`)
+- `INTERWORK_QUEUE_WORKER_TOKEN`
+
+Every other PC is a submitter, not another executor. After configuring `SUPABASE_URL`, the publishable key, and a separately issued `INTERWORK_QUEUE_SUBMIT_TOKEN`, submit a fully formed task with:
+
+```powershell
+python -m local_executor submit C:\path\to\approved-task.json
+```
+
+The shared queue atomically leases one task to one worker. Submitter credentials cannot claim or complete tasks, worker credentials are stored only on the designated executor, and the database stores only token hashes. Local completed records reconcile an expired remote lease without running the same task twice.
+
+Do not copy the worker token to secondary PCs and do not run `--remote` on more than one designated executor. Queue credentials are secrets and must stay in the Windows user environment or another operating-system credential store, never in the repository.
+
 ## Queue and project locks
 
 The executor atomically claims a pending task as running and acquires one exclusive lock per canonical project path. Completed task IDs cannot run again. Failed tasks retain attempt history and require `--retry`.
