@@ -60,7 +60,7 @@ begin
     from private.local_executor_queue_tokens t
     where t.token_hash = v_hash and t.revoked_at is null;
 
-    if v_role not in ('submitter', 'worker') then
+    if v_role is distinct from 'submitter' then
         raise exception 'invalid queue credential' using errcode = '28000';
     end if;
     if jsonb_typeof(p_task) is distinct from 'object' then
