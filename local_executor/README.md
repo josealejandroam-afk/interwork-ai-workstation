@@ -74,7 +74,6 @@ Review the generated report and `.diff` file before approving any push or merge.
 ## Phase 2 recommendations
 
 - Add signed task provenance and explicit human-approval records.
-- Add a lock to prevent concurrent tasks for the same project.
 - Add semantic Markdown section adapters for more project-card layouts.
 - Add optional index-rebuild proposals after the deterministic core is proven.
 - Keep model integration and external writes behind separate, explicit policy gates.
