@@ -8,7 +8,8 @@ from .executor import execute
 from .report_generator import write_report
 from .runtime_state import finalize_recovery, inspect_lock, inspect_running, recover_running, recover_stale_lock
 from .runtime_guard import validate_task_id
-from .watcher import DEFAULT_BRANCH, watch
+from .remote_queue import RemoteQueueClient, submit_task
+from .watcher import DEFAULT_BRANCH, watch, watch_remote
 
 
 def parser() -> argparse.ArgumentParser:
@@ -40,16 +41,32 @@ def _watch(argv: list[str]) -> int:
         "--branch", default=DEFAULT_BRANCH, help=f"dedicated non-main branch (default: {DEFAULT_BRANCH})",
     )
     watch_parser.add_argument("--poll-seconds", type=float, default=5.0)
+    watch_parser.add_argument("--remote", action="store_true", help="also claim tasks from the configured shared queue")
     watch_parser.add_argument("--once", action="store_true", help="run a single cycle and exit, instead of looping forever")
     args = watch_parser.parse_args(argv)
     try:
-        watch(
-            args.repo.resolve(), args.runtime.resolve(), args.branch,
-            poll_seconds=args.poll_seconds, iterations=1 if args.once else None,
-        )
+        runner = watch_remote if args.remote else watch
+        positional = [args.repo.resolve(), args.runtime.resolve()]
+        if args.remote:
+            positional.append(RemoteQueueClient.from_environment("INTERWORK_QUEUE_WORKER_TOKEN"))
+        runner(*positional, branch=args.branch, poll_seconds=args.poll_seconds, iterations=1 if args.once else None)
     except ExecutorError as exc:
         print(f"Watcher failed safely: {exc}", file=sys.stderr)
         return 1
+    return 0
+
+
+def _submit(argv: list[str]) -> int:
+    submit_parser = argparse.ArgumentParser(description="Submit a confirmed Local Executor task to the shared queue")
+    submit_parser.add_argument("task", type=Path)
+    args = submit_parser.parse_args(argv)
+    try:
+        client = RemoteQueueClient.from_environment("INTERWORK_QUEUE_SUBMIT_TOKEN")
+        result = submit_task(args.task.resolve(), client)
+    except ExecutorError as exc:
+        print(f"Submission failed safely: {exc}", file=sys.stderr)
+        return 1
+    print(json.dumps(result, indent=2))
     return 0
 
 
@@ -58,6 +75,8 @@ def _maintenance(argv: list[str]) -> int | None:
         return None
     if argv[0] == "watch":
         return _watch(argv[1:])
+    if argv[0] == "submit":
+        return _submit(argv[1:])
     if argv[0] not in {"inspect-lock", "recover-lock", "inspect-running", "recover-running", "recover-finalization"}:
         return None
     command = argv[0]
