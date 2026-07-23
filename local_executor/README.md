@@ -28,6 +28,26 @@ Proposal mode copies the approved project files into an isolated runtime workspa
 
 Use `--retry` only for an explicit retry below the task's `maximum_attempts` limit.
 
+## Optional inbox watcher
+
+The watcher automates execution of fully formed task files; it does not create tasks or decide which facts are confirmed. Place approved JSON tasks in:
+
+```text
+C:\Users\1\interwork-agent-runtime\inbox\pending
+```
+
+Run one cycle for review or testing:
+
+```powershell
+python -m local_executor watch --repo . --runtime C:\Users\1\interwork-agent-runtime --once
+```
+
+Without `--once`, the watcher polls continuously. It uses the dedicated `executor/auto` branch by default, creating it from local `main` when needed. A different non-main branch can be supplied with `--branch`.
+
+Successful tasks move to `inbox\submitted`; malformed or policy-rejected tasks move to `inbox\rejected` with an adjacent error record. Files are atomically claimed in `inbox\processing` during execution. If the repository is dirty, the cycle does nothing and leaves pending files untouched.
+
+The watcher never pushes or merges. Installing this code does not start it; continuous operation requires a separate, explicit launch and operating-system scheduling decision.
+
 ## Queue and project locks
 
 The executor atomically claims a pending task as running and acquires one exclusive lock per canonical project path. Completed task IDs cannot run again. Failed tasks retain attempt history and require `--retry`.
