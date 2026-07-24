@@ -40,6 +40,7 @@
 - [Project Lifecycle](procedures/interwork_project_lifecycle.md) — 14-stage lifecycle (Request → Quote → Smartsheet → Supabase → Plan → Vendor → Client → FF → Teams PM → Execution → Verify → WC → Closeout → Closed) with approval gates per stage
 - [Approval Rules](procedures/interwork_approval_rules.md) — what Claude can do automatically vs. what requires Alejandro approval; quick reference card
 - [Communication Rules](procedures/interwork_communication_rules.md) — tone, message templates (client / vendor / field PM), what to include/exclude, what requires approval before sending
+- [FastField PM Teams Message Standard](procedures/fastfield_pm_teams_message_standard.md) — canonical fixed wording and field order for telling a PM their FF assignment was submitted
 
 ## Procedures
 - [FF Sent](../../../.claude/commands/ff-sent.md) — `/ff-sent <project_number> <pm_name> <date>` manual fallback: records FF dispatched to PM; creates open loop; does NOT set fastfield_submitted

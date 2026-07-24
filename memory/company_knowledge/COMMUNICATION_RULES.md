@@ -47,11 +47,15 @@ Keep vendor substitutions and vendor problems out of client-facing messages unle
 
 ## Teams Message Format
 
-- Short and direct — one screen max
-- State: project number, client, dates, location, inventory (if relevant)
-- State what the PM needs to do or confirm
-- Include the client contact name if the PM may need to reach them
-- Sign off with name if needed
+- For FastField-submitted notices to field PMs, always use the canonical format in `memory/procedures/fastfield_pm_teams_message_standard.md`
+- Begin with: `Project #[number], [client / project name]`
+- Greet the PM by full name
+- Use the fixed sentence: `The FF has been submitted for Project #[number], [client / project name].`
+- List confirmed date(s), start time, location/route, site contact(s), and field-ready scope bullets in that order
+- Put restrictions, exclusions, cancellations, or "do not move" instructions after the scope
+- Close with: `Please review the FF and let me know if anything needs to be clarified.`
+- Omit unconfirmed fields instead of guessing or leaving placeholders
+- Keep the message concise and mobile-readable
 
 ## FastField Notes Format
 

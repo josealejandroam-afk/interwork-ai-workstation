@@ -159,6 +159,7 @@ Claude's role at each stage is noted. Approval gates are marked.
 
 **Claude's role:**
 - Draft the Teams message
+- For FastField-submitted notices, follow `memory/procedures/fastfield_pm_teams_message_standard.md` exactly
 - Include: scope summary, full address, client POC and phone, arrival time, truck/equipment plan, parking, special instructions
 - Keep it field-ready and practical — no unnecessary detail
 - Do not send without Alejandro approval

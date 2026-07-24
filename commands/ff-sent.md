@@ -22,6 +22,18 @@ This command records that FastField was *dispatched* to the PM. It does NOT mean
 
 `fastfield_submitted = true` is only set when the PM submits the form (confirmed via FastField webhook → `fastfield_webhook_events` table).
 
+## PM Teams message standard
+
+When drafting the Teams notice that tells the PM Alejandro submitted their FastField assignment, use:
+
+`memory/procedures/fastfield_pm_teams_message_standard.md`
+
+The PM-facing message must say:
+
+> The FF has been submitted for Project #[PROJECT NUMBER], [CLIENT / PROJECT NAME].
+
+This approved PM-facing wording does not change the internal status rule above. The Teams notice proves assignment dispatch only, not completion of the field report.
+
 ---
 
 ## Steps

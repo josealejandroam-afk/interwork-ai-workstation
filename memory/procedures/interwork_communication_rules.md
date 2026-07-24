@@ -93,6 +93,18 @@ Use "our team" or "InterWork" instead.
 
 ## Field PM Teams Messages
 
+For a message telling the PM that Alejandro submitted their FastField assignment, use the exact canonical structure in:
+
+`memory/procedures/fastfield_pm_teams_message_standard.md`
+
+The required opening is:
+
+> The FF has been submitted for Project #[PROJECT NUMBER], [CLIENT / PROJECT NAME].
+
+The required closing is:
+
+> Please review the FF and let me know if anything needs to be clarified.
+
 **What to include:**
 - Project number and job name
 - Full address with floor/suite
@@ -104,10 +116,7 @@ Use "our team" or "InterWork" instead.
 - Special instructions (fragile items, building restrictions, etc.)
 - Any photos or documents attached
 
-**Keep it short.** PMs read these on mobile. One screen max.
-
-**Example:**
-> 7374 - Ingersoll Rand Buffalo NY | [date] | Arrive: [time] | [full address, floor] | Scope: [summary] | POC: [name] [phone] | Truck: [type] | [any special notes]
+**Keep it concise and field-ready.** PMs read these on mobile. Do not compress FastField-submitted notices into a pipe-delimited one-line message.
 
 ---
 
