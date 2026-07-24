@@ -18,6 +18,7 @@ InterWork has multiple projects for AmTrust, including the Cleveland office (734
 | TBD | Nashua E-Waste / Disposal | 15 Trafalgar Square, Suites 200 & 201, Nashua NH 03063 | Quote pending — David never got back to Alexis (2026-06-23) | TVs, monitors, electronics disposal; MFPs excluded; POC: Brian Lordan |
 | TBD | Las Vegas Task Chairs | 4730 S. Ft. Apache, Ste. 270, Las Vegas NV | Quote pending — David never got back to Alexis (2026-06-23) | Replace 8 task chairs, dispose 8; contact: Ashlee Isbell |
 | 7572 | Move 40-50 Boxes | 59 Maiden Lane, New York, NY 10038 | Past-dated 2026-06-24 — FastField confirmed | PM Melvin Hernandez; POC Ross Konesky 973-865-9567; 42nd/43rd floors → 6th floor. Formerly misfiled under rothman_orthopaedics/ (ChatGPT error); resolved 2026-06-30. |
+| 7624 | Las Vegas, NV Office Decommission | 6292 W. Spring Mountain Road, Las Vegas, NV 89146 | Scheduled 2026-08-04 through 2026-08-05 | 8:00 AM start; PM TBD; full furniture/content removal, disposal, refrigerator cleaning, and final cleaning |
 
 ## Pending Action
 
@@ -33,6 +34,7 @@ This triggers when Alejandro says "send it" for project 7348.
 | Alexis Lyons | Facilities Manager \| Real Estate | (216) 553-3178 | alexis.lyons@amtrustgroup.com |
 | Ashlee Isbell | Site contact — Las Vegas | — | Ashlee.isbell@amtrustgroup.com |
 | Brian Lordan | On-site POC — Nashua | — | Brian.Lordan@amtrustgroup.com |
+| Rob Callahan | Onsite contact — Project 7624 Las Vegas | 704-778-8653 | Needs confirmation |
 
 ## How to Use This Folder
 
