@@ -8,18 +8,23 @@
 | Client | Bell Bank |
 | Project type | Decommission (Tampa) + long-haul move to storage (Mendota Heights) |
 | Origin | 500 N Westshore Blvd, Suite 650, Tampa, FL 33609 |
-| Destination | Bell Bank Storage Facility, 2535 Pilot Knob Road, Mendota Heights, MN 55120 |
+| Destination | Bell Bank Storage Facility, 2535 Pilot Knob Road, Suite 116, Mendota Heights, MN 55120 |
 | InterWork PM | Frank Barrett — confirmed via Smartsheet 2026-07-14, synced to Supabase |
 | Client contact | Kaitlyn Greene, Facilities Project Design Coordinator — KGreene@bell.bank, 218-310-2372 |
 | InterWork contacts | Jill Buchman (proposal), Laura Skillen (Finance/Admin) |
 
-## Schedule
+## Schedule and Transportation Status
 
-- **On-site knockdown and load window:** 2026-07-23 to 2026-07-25 — updated from an earlier
-  planned 7/21-22. Not yet confirmed whether this is a real schedule shift or needs further
-  verification.
-- **Delivery to Mendota Heights warehouse:** after 7/25, exact date not finalized. Earlier
-  reference was 7/27 — needs reconfirmation against the new on-site dates.
+- **2026-07-23:** First and second truck pickups completed.
+- **2026-07-24:** Cargo-van pickup completed. Origin work and all three pickups are complete.
+- **2026-07-27 (Monday):** Delivery and warehouse offload confirmed.
+  - First 26-foot truck: 8:00 AM
+  - Cargo van: 9:00 AM
+  - Second 26-foot truck: 10:30 AM
+
+Drivers should use the rear of the Bell Bank storage building and look for the garage door and
+suite marked **Bell**. Direct driver phone numbers have not been provided; Sunset has the
+destination/on-site contacts for arrival coordination.
 
 ## Commercial Status
 
@@ -43,10 +48,12 @@ the source quote if the complete itemization is needed.)
 
 ## Open Question — Warehouse Unload Labor
 
-The Move order's labor line (item LA) includes "unload at warehouse and place inside
-warehouse" under InterWork's own labor. Unconfirmed whether this means an InterWork crew
-travels to Mendota Heights, or a local Minneapolis-area vendor is needed. **On hold per
-Alejandro** — no Minneapolis-side vendor/crew sourced yet.
+Resolved operationally for the July 27 delivery: an offload crew will be onsite beginning at
+8:00 AM, led by Billy. Skyler Dodge of American Office Installations is the offload-vendor
+coordinator. The crew will unload and place items inside the warehouse.
+
+Items are loose-loaded, not palletized or shrink-wrapped. Dollies and panel carts should be
+sufficient; both box trucks have liftgates, no ramp is expected, and no Speedpacks are required.
 
 ## Vendors (Tampa side — internal only, do not expose to Bell Bank)
 
@@ -59,9 +66,21 @@ Alejandro** — no Minneapolis-side vendor/crew sourced yet.
 **Vendor names must stay internal/vendor-facing only — never in any Bell Bank client-facing
 communication.**
 
+## Destination Contacts — Internal Operational Use
+
+- Kaitlyn Greene — Bell Bank receiving contact; 218-310-2372; onsite for delivery.
+- Billy — offload crew lead; 612-310-9988. His contact information has been provided to Sunset
+  for driver distribution.
+- Skyler Dodge — American Office Installations offload-vendor coordinator; 763-253-0464.
+
+Keep vendor and crew contact details out of Bell Bank client-facing communications unless
+Alejandro specifically requests otherwise.
+
 ## Source Notes
 
 - Source: Claude Chat handoff, 2026-07-13, drawing on a pasted email thread summary, quote
   images (IWSQ8531-01 and a quote-list screenshot), and direct instructions from Alejandro.
 - New client — no prior repo presence for Bell Bank before this handoff.
 - Created: 2026-07-13.
+- Updated: 2026-07-24 from Alejandro's delivery handoff. All origin pickups are complete;
+  delivery/offload is scheduled for 2026-07-27.
