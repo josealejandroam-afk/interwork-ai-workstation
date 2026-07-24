@@ -38,7 +38,7 @@ metadata:
 
 | Project # | Name | Status | Scheduled | Notes |
 |---|---|---|---|---|
-| 7622 | Bayport Furniture Move (working description) | Proposal sent | Needs confirmation | Official project name not shown; origin floor conflict: email says 1st floor, proposal narrative says 2nd floor, proposal origin field says 9th floor |
+| 7622 | Bayport Furniture Move (working description) | Proposal sent | Needs confirmation | Official project name not shown; Chuck confirmed current route is 1st floor to 9th floor. Proposal contains conflicting floor references. |
 
 ## Operational Notes
 

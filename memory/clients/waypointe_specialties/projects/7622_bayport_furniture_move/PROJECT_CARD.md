@@ -11,8 +11,8 @@
 | Proposal date | 2026-07-24 |
 | Status | Proposal sent; client approval, payment direction, and execution schedule not confirmed |
 | Customer PO | Not provided |
+| Confirmed origin | 3000 Bayport Drive, 1st Floor, Tampa, FL 33607 |
 | Confirmed destination | 3000 Bayport Drive, 9th Floor, Tampa, FL 33607 |
-| Origin floor | Needs confirmation - conflicting source information |
 | Scheduled date | Needs confirmation |
 | Start time | Needs confirmation |
 | Field PM | Needs confirmation |
@@ -46,17 +46,27 @@ InterWork will also supply:
 
 - Two Steelcase lounge chairs
 
-## Critical Origin-Floor Conflict
+## Confirmed Floor Routing
 
-The 9th-floor destination is consistent, but the origin is not:
+Chuck Peterson replied "Confirmed" on 2026-07-24 to David Steinbrecher's message stating that the furniture is coming from the 1st floor. Chuck also confirmed that the destination office is on the 9th floor.
 
 | Source | Origin shown |
 |---|---|
-| Email summary | 1st floor |
+| David's email confirmed by Chuck | 1st floor - use for current operational planning |
 | Proposal scope narrative | 2nd floor |
 | Proposal `Project Origin(s)` field | 9th floor |
 
-Confirm the correct pickup floor before preparing the FastField assignment, notifying the field PM, scheduling labor, or dispatching a crew.
+The proposal contains conflicting floor references, but the later client confirmation resolves the current operational route as **1st floor to 9th floor**. Retain the proposal discrepancy as source history.
+
+## Destination and Access Instructions
+
+- Destination office: 9th floor
+- If work occurs after hours, coordinate access with Kaitlin or the building security team.
+- From the elevators, turn toward the water.
+- Proceed right down the hallway.
+- The office is the first door on the right, on the water side.
+- Chuck reported that the destination space is completely empty.
+- Kaitlin's full contact information and the building security procedure are Needs confirmation.
 
 ## Proposal Status
 
@@ -75,5 +85,5 @@ Project 7622 remains filed separately under Waypointe Specialties because the cu
 
 - Source: InterWork Proposal 8582 and accompanying email screenshot supplied by Alejandro, 2026-07-24
 - Proposal prepared by David Steinbrecher
-- Confidence: High for project number, quote number, customer, destination, contact, and listed furniture; low for origin floor and execution schedule
+- Confidence: High for project number, quote number, customer, 1st-floor origin, 9th-floor destination, contact, access directions, and listed furniture; low for execution schedule
 - No Supabase or Smartsheet writes were made
