@@ -12,7 +12,7 @@
 | Origin address | Regus Suite, Parkwood Crossing Center, 450 E. 96th St., Suite 500, Indianapolis, IN 46240 |
 | Destination address | 310 East 96th St., Suite 240, Indianapolis, IN 46240 |
 | Field PM | Pedro Martinez — per Smartsheet calendar, added 2026-07-16 (Supabase previously had no PM assigned) |
-| Status | Final planning phase — scope substantially defined; remaining work is coordination, procurement, packing, execution |
+| Status | Vendor pricing and final scope confirmation in progress; move-weekend coordination remains open |
 
 ## Client Naming — Corrected 2026-07-10
 
@@ -35,6 +35,11 @@ correct all along — no mislabel, contrary to what was assumed earlier today.
 | Saturday before move | Limited loading — trucks, decommission material, staging |
 | 2026-08-01 | Primary office relocation |
 | 2026-08-03 | First Day of Business (FDOB) — **flagged 2026-07-10: the 7/13 formal scope doc only covers 7/31 (arrive), 8/1 (move), and 8/1-8/4 (decom); it doesn't mention this FDOB date or the Saturday limited-loading day below. Confirm with Alejandro whether FDOB is still 8/3 or whether the new document supersedes it. Not resolved.** |
+| 2026-07-27 | New Kyocera printer delivery to the destination; Mary is the receiving contact. Confirmed in the latest meeting handoff. |
+| 2026-07-31 | Expected InterWork/vendor arrival, material receipt, staging, and possible packing support. Confirm whether labor is needed or this is delivery/staging only. |
+| 2026-08-01, 8:00 AM | Main office relocation. Confirmed in the latest meeting handoff. |
+| 2026-08-02 | Overflow relocation or closeout only if needed. Contingency; not automatically authorized vendor scope. |
+| 2026-08-07 | Crate pickup previously identified; Advanced Office Logistics (AOL) confirmation still needed. |
 
 ## Overall Scope
 
@@ -49,6 +54,18 @@ Includes: personal belongings, office supplies, selected furniture, printers (ch
 check reader, Lexmark, personal printers/scanners), laptops as identified. ~90% of existing
 furniture stays in service — only designated pieces relocate.
 
+### Current AOL quote request — preliminary, not awarded
+
+The latest handoff asks Advanced Office Logistics to price a broader move package: relocation
+of packed employee contents and office equipment; remaining packing support; transport between
+the two suites; move-day support for late-arriving miscellaneous items; and limited move-related
+closeout. AOL is also being asked for a recommended crew, truck plan, labor estimate, pricing,
+assumptions, exclusions, and any information required to finalize the quote.
+
+Do **not** treat this as awarded scope. Construction repairs, painting, wall patching, cable
+demolition, broad decommission, disposal, landlord closeout, and other work not specifically
+approved remain outside the preliminary vendor request.
+
 ## Technology (very limited scope)
 
 - **Desktop computers:** NOT relocating — shipped to CompuCom/CRC Depot, 1225 Forest Parkway, Suite #500, Paulsboro, NJ 08066 (per 7/13 scope doc; supersedes the earlier informal "CompuCom Warehouse, New Jersey").
@@ -62,6 +79,9 @@ furniture stays in service — only designated pieces relocate.
 | c4:d6:66:06:3c:70 | Q5AA-YZH3-H2T9 | WNH2729054L | IN_Indianapolis-TIH#403118R-MDT3 | CW9162I | TIH#403118-F05-AP01 |
 - **Existing AV equipment** stays in the current suite — out of relocation scope.
 - **Low voltage:** no vendor required, no structured cabling removal, no network teardown beyond unplugging small equipment. Wireless APs and small network devices just boxed and shipped.
+- **Current handoff caution:** the desktop-technology inventory, CompuCom labels/shipping method,
+  and whether the Alabama network shipment is in AOL's handling scope still need confirmation.
+  Preserve the formal-scope destinations above unless a later confirmed source changes them.
 
 ## Furniture
 
@@ -102,6 +122,10 @@ Per the Read AI meeting "KV Indianapolis - Relocation Call" (ID 01KX6JEJV2GPRR4H
 
 New Kyocera printer ordered. Relocating: existing Lexmark, check printer, check reader, personal printers/scanners.
 
+The new Kyocera is expected at the destination on 2026-07-27 and should not be moved from the
+origin. Final quantities of personal printers, scanners, and other small office equipment remain
+open. Protect or crate personal printers/scanners individually as appropriate.
+
 ## Building Coordination
 
 **COIs:** required for both buildings. Hunter provided the COI for the new suite; Danielle confirmed receipt.
@@ -118,6 +142,17 @@ New Kyocera printer ordered. Relocating: existing Lexmark, check printer, check 
 **Access cards/keys (per Read AI meeting "KV Indianapolis - Relocation Call," ID 01KX6JEJV2GPRR4H3STHV102VA):** access cards already received by Danielle, to be distributed closer to move day. Card system installation expected around 7/21. Physical keys/cores (front door, storage, server room) expected by end of the following week. Chantel is managing keying. Mary asked to act as secondary on-site contact and pick up a spare key from Chantel if needed.
 
 **FedEx box (per same meeting):** Mary requested a FedEx box be set up in the new building; Chantel is responsible for this. Status pending as of that call — Danielle had not received confirmation from Chantel. Not resolved since.
+
+### Latest building-logistics handoff — unresolved against prior formal scope
+
+The latest handoff says the loading dock, freight-elevator reservation, truck parking,
+truck-size restrictions, vehicle type, exact move path, overnight staging permission, and COI
+acceptance still need explicit confirmation. This conflicts in part with the earlier formal scope
+recording that the destination has a freight elevator and no loading dock. Do not overwrite either
+source: obtain current instructions for both buildings before dispatching the vendor.
+
+The access code must be provided directly to Pedro when needed; never include it in a general
+vendor or client email.
 
 ## Address Change Tasks
 
@@ -153,6 +188,22 @@ Per the same Read AI meeting: ancillary furniture, racks, and security/network d
 ## Procurement (InterWork purchasing)
 
 Cork board, faux plants (if approved), trash C-bins, additional moving supplies as needed.
+
+The latest handoff also treats a CRC-approved doorbell as ordered through InterWork. A camera was
+discussed but its type, Wi-Fi/subscription needs, mounting, and CRC approval remain unconfirmed.
+The preliminary AOL request may mention receive/deliver/install support only after final equipment
+and mounting instructions are confirmed.
+
+## Current Field Roles
+
+- Pedro Martinez — InterWork onsite PM; 732-421-1470. He is confirmed for the field handoff.
+- Alejandro Acosta — InterWork office PM/coordinator.
+- Francisco Vinueza — InterWork project oversight.
+- Danielle Stingone — move-weekend client-side relocation lead; she expects to be onsite July 31
+  through the evening of August 1 and can coordinate with Pedro Saturday morning.
+- Mary Ringlespaugh — KV Indianapolis onsite contact and expected Kyocera receiving contact.
+- Advanced Office Logistics — preliminary relocation-pricing vendor; Stacy Graves and Margaret
+  Cihlar are the named vendor contacts.
 
 ## Contacts
 

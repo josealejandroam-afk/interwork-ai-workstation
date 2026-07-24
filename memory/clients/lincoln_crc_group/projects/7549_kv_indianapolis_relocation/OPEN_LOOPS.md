@@ -27,6 +27,18 @@
 | 23 | Crate pickup timing — per same meeting, contingent on Mary confirming final crate count to Danielle; targeted ~1 week after the move. Not yet confirmed. | Open |
 | 24 | Ancillary/security/network deliveries — per same meeting, "weeks of the 20th and 27th," no month stated (inferred July 2026, not confirmed) — sanity-check before relying on this date. | Open |
 | 25 | Two possibly-different corkboards — per same meeting, Danielle has an action item to "order a corkboard for labor notices," which may or may not be the same board InterWork was asked to purchase (blue felt, Amazon). Not confirmed either way. | Open |
+| 26 | AOL expanded relocation quote: obtain availability for July 31-August 2, recommended crew, truck plan, labor estimate, pricing, materials, assumptions, exclusions, and outstanding information needed. The scope is preliminary and not awarded. | Open — priority before move weekend |
+| 27 | Confirm whether July 31 is labor/packing support or delivery/staging only; confirm whether August 2 overflow and August 3 support are authorized. | Open |
+| 28 | New Kyocera delivery to the destination on July 27: confirm delivery timing and Mary as receiving contact. | Open — timing confirmation needed |
+| 29 | Final quantity of personal printers, scanners, check printer/check reader, and other small office equipment to protect and relocate. | Open |
+| 30 | Desktop technology return: obtain inventory, CompuCom labels, shipping method, and confirm whether AOL handles any part of it. | Open |
+| 31 | Network equipment to Alabama: confirm inventory, packing requirements, destination handling, and whether it is inside AOL scope. | Open |
+| 32 | Doorbell/camera: doorbell is ordered; confirm camera approval by CRC, final equipment, Wi-Fi/subscription needs, mounting location, and installation instructions before assigning vendor work. | Open |
+| 33 | Shred console/bin: confirm quantity and dimensions and reconcile relocation of the bin with any separate shred-vendor pickup/destruction work. | Open |
+| 34 | Both-building move logistics: obtain loading/parking/elevator/truck instructions, move path, overnight July 31 staging permission, and COI acceptance. Earlier formal scope says no loading dock at the destination and freight elevator available; verify current instructions rather than assuming. | Open — execution-critical |
+| 35 | Weekend access: Pedro needs building/suite access instructions directly from Danielle; do not include the access code in general correspondence. Confirm badge/fob/key readiness. | Open — execution-critical |
+| 36 | Corkboard, doorbell, and any approved camera: confirm who receives the materials, delivery timing, final mounting location, and vendor handling. | Open |
+| 37 | Mailbox: confirm client/building selection and approval; keep it outside vendor scope until confirmed. | Open |
 
 ## Risks (from source handoff)
 
