@@ -43,6 +43,7 @@ _Last updated: 2026-07-24_
 | Anti-Defamation League | anti_defamation_league/ | 7541 | Conference room setup, Boca Raton FL. On calendar 7/15, marked TBD. |
 | Armanino | armanino/ | TBD | Equipment move to new space, Aug 21 2026, delivery only. No project number yet. Contact: Kelsey King. New client 2026-07-09. |
 | Macmillan Learning | macmillan_learning/ | 7617 | 7617 = Boston MA decom, 75 Arlington St, lease expires 10/30/26. Site walkthrough 7/22. New client 2026-07-21. Contact: Jane Shipwash. |
+| Waypointe Specialties LLC | waypointe_specialties/ | 7622 | 7622 = Bayport furniture move, Tampa FL. Proposal 8582 sent 7/24; schedule pending. Origin floor conflict must be resolved before execution. |
 
 ## Lookup Pointers (NOT InterWork clients)
 
