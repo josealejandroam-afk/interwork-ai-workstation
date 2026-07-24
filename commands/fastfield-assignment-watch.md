@@ -39,9 +39,11 @@ If Outlook/M365 Graph API is authorized:
 ### Priority 2 — Microsoft Teams
 If Teams MCP or Graph API is available:
 - Search Teams messages for the project number
-- Look for Alejandro sending FF instructions to a PM
+- Look for Alejandro's post-FF notification telling the PM the FastField assignment was submitted
 - Extract: PM name, channel/chat, date, message text
 - Confidence: high if project number + PM name confirmed
+
+The Teams message is evidence that Alejandro reported dispatching the FastField assignment. It is not the FastField assignment itself and is not evidence that the PM completed the report.
 
 **If Teams is unavailable:** fall through to Priority 3.
 

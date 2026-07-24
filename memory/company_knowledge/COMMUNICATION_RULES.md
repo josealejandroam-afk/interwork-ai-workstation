@@ -47,7 +47,8 @@ Keep vendor substitutions and vendor problems out of client-facing messages unle
 
 ## Teams Message Format
 
-- For FastField-submitted notices to field PMs, always use the canonical format in `memory/procedures/fastfield_pm_teams_message_standard.md`
+- For the Teams notification sent after a FastField assignment is submitted to a field PM, always use `memory/procedures/post_fastfield_teams_notification_standard.md`
+- Treat the FastField assignment and the post-FF Teams notification as separate artifacts and separate events
 - Begin with: `Project #[number], [client / project name]`
 - Greet the PM by full name
 - Use the fixed sentence: `The FF has been submitted for Project #[number], [client / project name].`

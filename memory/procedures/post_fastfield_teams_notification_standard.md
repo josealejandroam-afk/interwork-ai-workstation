@@ -1,6 +1,6 @@
 ---
-name: fastfield-pm-teams-message-standard
-description: "Canonical Teams message format used to tell a field PM that Alejandro submitted their FastField assignment"
+name: post-fastfield-teams-notification-standard
+description: "Canonical Teams notification sent after Alejandro submits a field PM's FastField assignment"
 metadata:
   node_type: memory
   type: procedure
@@ -10,10 +10,24 @@ metadata:
   review_after: 2027-01-24
 ---
 
-# FastField Submitted to PM - Teams Message Standard
+# Post-FastField Teams Notification Standard
 _Last updated: 2026-07-24_
 
-Use this format every time Alejandro tells a field PM that their FastField assignment has been submitted.
+Use this format for the Teams notification sent **after** Alejandro submits a field PM's FastField assignment.
+
+## Three Distinct Events
+
+| Event | Meaning | Evidence |
+|---|---|---|
+| FastField assignment submitted by Alejandro | Alejandro created/dispatched the assignment to the PM | FastField assignment record or Alejandro confirmation |
+| Post-FF Teams notification sent | Alejandro notified the PM in Teams that the assignment is ready | Sent Teams message |
+| Completed FastField submitted by PM | The PM completed and returned the field report | FastField webhook/export or other confirmed completion evidence |
+
+Never merge these events.
+
+- The FastField assignment is the operational form and detailed instructions.
+- The Teams message is only the notification sent after the assignment.
+- The PM's completed FastField submission is the completion evidence.
 
 ## Canonical Template
 
@@ -88,9 +102,17 @@ Use this order:
 
 ## Status Meaning
 
-In this PM-facing message, "The FF has been submitted" means Alejandro submitted or dispatched the FastField assignment to the PM.
+In this PM-facing notification, "The FF has been submitted" means Alejandro submitted or dispatched the FastField assignment to the PM before sending the Teams message.
 
-It does **not** mean the PM completed and returned the field report. Do not set `fastfield_submitted = true` from this Teams message alone. Completed FastField status still requires confirmed submission evidence.
+The Teams notification:
+
+- is not the FastField assignment itself;
+- does not replace the scope and instructions inside FastField;
+- does not prove the PM reviewed the assignment;
+- does not mean the PM completed and returned the field report; and
+- does not independently set `fastfield_submitted = true`.
+
+Completed FastField status still requires confirmed PM submission evidence.
 
 ## Approval Rule
 

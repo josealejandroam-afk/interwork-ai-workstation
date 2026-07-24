@@ -142,7 +142,7 @@ Claude's role at each stage is noted. Approval gates are marked.
 
 ## Stage 8 — FastField
 
-**What happens:** FastField scope is prepared for the field PM.
+**What happens:** The FastField assignment and detailed scope are prepared and dispatched to the field PM.
 
 **Claude's role:**
 - Draft FF scope if asked
@@ -155,11 +155,12 @@ Claude's role at each stage is noted. Approval gates are marked.
 
 ## Stage 9 — Teams PM Instructions
 
-**What happens:** A concise Teams message is sent to the assigned field PM.
+**What happens:** After the FastField assignment is dispatched, a separate concise Teams notification is sent to the assigned field PM.
 
 **Claude's role:**
 - Draft the Teams message
-- For FastField-submitted notices, follow `memory/procedures/fastfield_pm_teams_message_standard.md` exactly
+- Follow `memory/procedures/post_fastfield_teams_notification_standard.md` exactly
+- Do not treat the Teams notification as the FastField assignment or as proof of PM completion
 - Include: scope summary, full address, client POC and phone, arrival time, truck/equipment plan, parking, special instructions
 - Keep it field-ready and practical — no unnecessary detail
 - Do not send without Alejandro approval

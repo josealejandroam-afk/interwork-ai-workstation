@@ -93,9 +93,11 @@ Use "our team" or "InterWork" instead.
 
 ## Field PM Teams Messages
 
-For a message telling the PM that Alejandro submitted their FastField assignment, use the exact canonical structure in:
+For the Teams notification sent after Alejandro submits the PM's FastField assignment, use the exact canonical structure in:
 
-`memory/procedures/fastfield_pm_teams_message_standard.md`
+`memory/procedures/post_fastfield_teams_notification_standard.md`
+
+Do not treat this Teams notification as the FastField assignment itself or as proof that the PM completed the FastField.
 
 The required opening is:
 
