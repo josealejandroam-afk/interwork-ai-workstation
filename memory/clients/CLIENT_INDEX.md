@@ -35,12 +35,13 @@ _Last updated: 2026-06-30 (sync handoff)_
 | Premier Orthopaedics | premier_orthopaedics/ | 7391 | 7391 = Multi-Phase Newtown Square PA. End date 7/7 (Storage Run leg TBD). |
 | Vecos / IU Health | vecos_iu_health/ | Unknown | Bloomington IN locker commissioning. Separate from Vecos JPMC. |
 | Tegna / Premion | tegna_premion/ | Unknown | No project number confirmed. |
-| Lincoln / CRC Group | lincoln_crc_group/ | 7246 | No detail available. Note: separate from CRC Virginia Beach under MMC. |
+| Lincoln / CRC Group | lincoln_crc_group/ | 7246, 7597 | 7597 = Louisville KY internal move + IT closet relocation, added 2026-07-13. No detail available for 7246. Note: separate from CRC Virginia Beach under MMC. |
 | Teknion | teknion/ | 5156 | Historical project; low project number. |
 | Bevin Palidar | bevin_palidar/ | 7584 | Residential client. House move Clementon NJ → Tabernacle NJ, 7/2. New client 2026-06-30. |
 | Spryson | spryson/ | 7571 | Small move Pittsburgh PA. Pre-proposal stage. Contact: Erica Sinatra. Number confirmed via Smartsheet 2026-07-15. |
 | Anti-Defamation League | anti_defamation_league/ | 7541 | Conference room setup, Boca Raton FL. On calendar 7/15, marked TBD. |
 | Armanino | armanino/ | TBD | Equipment move to new space, Aug 21 2026, delivery only. No project number yet. Contact: Kelsey King. New client 2026-07-09. |
+| Richardson Sales Performance | richardson_sales_performance/ | 7630 | 7630 = Philadelphia PA decommission, Two Commerce Square, Suite 2850, ~8,000 sq ft. Walkthrough 7/29. Required completion end of August 2026. New client 2026-07-29. |
 
 ## Lookup Pointers (NOT InterWork clients)
 
