@@ -16,8 +16,9 @@ InterWork has multiple projects for AmTrust, including the Cleveland office (734
 | 7536 | AmTrust Project | Needs confirmation | Needs confirmation | May be NYC or Melville NY |
 | 7568 | Site Walk | Irvine, CA | Past-dated 2026-06-26 | External PM; no FastField; quote pending (Jill 2026-06-30) |
 | TBD | Nashua E-Waste / Disposal | 15 Trafalgar Square, Suites 200 & 201, Nashua NH 03063 | Quote pending — David never got back to Alexis (2026-06-23) | TVs, monitors, electronics disposal; MFPs excluded; POC: Brian Lordan |
-| TBD | Las Vegas Task Chairs | 4730 S. Ft. Apache, Ste. 270, Las Vegas NV | Quote pending — David never got back to Alexis (2026-06-23) | Replace 8 task chairs, dispose 8; contact: Ashlee Isbell |
+| TBD | Las Vegas Task Chairs | 4730 S. Ft. Apache, Ste. 270, Las Vegas NV | Quote pending — David never got back to Alexis (2026-06-23) | Replace 8 task chairs, dispose 8; contact: Ashlee Isbell. **Distinct from project 7624 below — different site, different contact.** |
 | 7572 | Move 40-50 Boxes | 59 Maiden Lane, New York, NY 10038 | Past-dated 2026-06-24 — FastField confirmed | PM Melvin Hernandez; POC Ross Konesky 973-865-9567; 42nd/43rd floors → 6th floor. Formerly misfiled under rothman_orthopaedics/ (ChatGPT error); resolved 2026-06-30. |
+| 7624 | Las Vegas Decommission | 6292 W. Spring Mountain Rd, Las Vegas, NV 89146 | Quote issued, project number assigned (2026-07-30) | PM Jairo Escalante; vendor Paul Higgs (confirmed, awaiting his follow-up); contact Lori Stark; cc Michaelene Burkhart. Distinct from the "Las Vegas Task Chairs" TBD project above. |
 
 ## Pending Action
 
@@ -31,8 +32,9 @@ This triggers when Alejandro says "send it" for project 7348.
 | Quyen Pham | Office Service Assistant — Irvine | 1-949-271-7487 | quyen.pham@amtrustgroup.com |
 | Lori Stark | Facilities Manager \| Real Estate | 214-360-8009 | lori.stark@amtrustgroup.com |
 | Alexis Lyons | Facilities Manager \| Real Estate | (216) 553-3178 | alexis.lyons@amtrustgroup.com |
-| Ashlee Isbell | Site contact — Las Vegas | — | Ashlee.isbell@amtrustgroup.com |
+| Ashlee Isbell | Site contact — Las Vegas (Task Chairs project) | — | Ashlee.isbell@amtrustgroup.com |
 | Brian Lordan | On-site POC — Nashua | — | Brian.Lordan@amtrustgroup.com |
+| Michaelene Burkhart | Cc'd on AmTrust-side threads, project 7624 — role not yet defined | — | Michaelene.Burkhart@amtrustgroup.com |
 
 ## How to Use This Folder
 
