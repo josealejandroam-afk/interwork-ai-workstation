@@ -44,6 +44,7 @@ _Last updated: 2026-07-24_
 | Armanino | armanino/ | TBD | Equipment move to new space, Aug 21 2026, delivery only. No project number yet. Contact: Kelsey King. New client 2026-07-09. |
 | Macmillan Learning | macmillan_learning/ | 7617 | 7617 = Boston MA decom, 75 Arlington St, lease expires 10/30/26. Site walkthrough 7/22. New client 2026-07-21. Contact: Jane Shipwash. |
 | Waypointe Specialties LLC | waypointe_specialties/ | 7622 | 7622 = Bayport furniture move, Tampa FL. Proposal 8582 sent 7/24; schedule pending. Chuck confirmed current route is 1st floor to 9th floor. |
+| Zscaler | zscaler/ | 7413 | 7413 = multi-phase Santa Clara / San Jose HQ relocation, phone booths, IT/lab moves, employee move program, and decommission through October 2026. |
 
 ## Lookup Pointers (NOT InterWork clients)
 
