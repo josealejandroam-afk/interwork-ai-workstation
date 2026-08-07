@@ -46,6 +46,7 @@ _Last updated: 2026-07-24_
 | Waypointe Specialties LLC | waypointe_specialties/ | 7622 | 7622 = Bayport furniture move, Tampa FL. Proposal 8582 sent 7/24; schedule pending. Chuck confirmed current route is 1st floor to 9th floor. |
 | Zscaler | zscaler/ | 7413 | 7413 = multi-phase Santa Clara / San Jose HQ relocation, phone booths, IT/lab moves, employee move program, and decommission through October 2026. |
 | Goosehead Insurance | goosehead_insurance/ | 6674, 7596 | 6674 = completed Houston decommission; 7596 = Westlake reciprocal IT relocation with approval/execution status still unconfirmed. Historical Westlake artwork and furniture deliveries are documented separately. |
+| Jackson & Hertogs LLP | jackson_hertogs_llp/ | TBD | December 2026 San Francisco downsizing: 909 Montgomery Suite 200 to 388 Market, 14th Floor, Suite 1460 (destination suite needs confirmation). Furniture planning, selective reuse, move/install and origin decommission. |
 
 ## Lookup Pointers (NOT InterWork clients)
 
