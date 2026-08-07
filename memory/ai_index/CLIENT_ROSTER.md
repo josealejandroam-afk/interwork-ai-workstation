@@ -40,6 +40,7 @@ _Source: memory/clients/CLIENT_INDEX.md + claude_project_bootstraps/_
 | Lincoln / CRC Group | `lincoln_crc_group` | 7246 | — | — | `memory/clients/lincoln_crc_group/CLIENT_CONTEXT.md` |
 | Teknion | `teknion` | 5156 | — | — | `memory/clients/teknion/CLIENT_CONTEXT.md` |
 | Bevin Palidar | `bevin_palidar` | 7584 | — | — | `memory/clients/bevin_palidar/CLIENT_CONTEXT.md` |
+| Warfel Construction | `warfel_construction` | 7500, 7517 | — | — | `memory/clients/warfel_construction/CLIENT_CONTEXT.md` |
 
 ---
 
@@ -56,7 +57,6 @@ _Source: memory/clients/CLIENT_INDEX.md + claude_project_bootstraps/_
 
 | Client | Project | Location | Notes |
 |---|---|---|---|
-| Warfel Construction | 7500 | White Marsh MD | No folder |
 | Premier Workspaces | 7504 | NYC | No folder |
 | Togetherwork / Kesef | 7512 | Montvale NJ | No folder |
 | UPenn | 7425 | Philadelphia PA | No folder |

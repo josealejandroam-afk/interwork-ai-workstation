@@ -47,6 +47,7 @@ _Last updated: 2026-07-24_
 | Zscaler | zscaler/ | 7413 | 7413 = multi-phase Santa Clara / San Jose HQ relocation, phone booths, IT/lab moves, employee move program, and decommission through October 2026. |
 | Goosehead Insurance | goosehead_insurance/ | 6674, 7596 | 6674 = completed Houston decommission; 7596 = Westlake reciprocal IT relocation with approval/execution status still unconfirmed. Historical Westlake artwork and furniture deliveries are documented separately. |
 | Jackson & Hertogs LLP | jackson_hertogs_llp/ | TBD | December 2026 San Francisco downsizing: 909 Montgomery Suite 200 to 388 Market, 14th Floor, Suite 1460 (destination suite needs confirmation). Furniture planning, selective reuse, move/install and origin decommission. |
+| Warfel Construction | warfel_construction/ | 7500, 7517 | 7500 = prior White Marsh walkthrough with limited context. 7517 = White Marsh decommission scheduled August 17–21, 2026; quote 8443. |
 
 ## Lookup Pointers (NOT InterWork clients)
 
@@ -67,7 +68,6 @@ See `memory/clients/_unassigned/INDEX.md` for projects without a confirmed clien
 
 | Client | Known Projects | Notes |
 |---|---|---|
-| Warfel Construction | 7500 | White Marsh MD |
 | Premier Workspaces | 7504 | NYC |
 | Togetherwork / Kesef | 7512 | Montvale NJ |
 | UPenn | 7425 | Philadelphia PA |
