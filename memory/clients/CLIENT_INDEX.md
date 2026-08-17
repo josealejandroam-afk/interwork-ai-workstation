@@ -9,7 +9,7 @@ _Last updated: 2026-07-24_
 
 | Client | Folder | Active Projects | Notes |
 |---|---|---|---|
-| Marsh McLennan (MMC / MMA) | marsh_mclennan/ | 7189, 7060, 7378, 7364, 7431, 7407, 7437, 7486, 7471, 7418, 7354, 7434, 7495, 7447, 7191, 7521, 7576, 7299, 7241, 7494, 7465, 7472, 7484, 7556, 7347, 7553 | MMC = Marsh McLennan Company; MMA = Marsh & McLennan Agency. Same parent. Multiple ongoing engagements across US offices. 7347 = McLean VA consolidation, active Wilmington AV recovery (added 2026-07-10, removed from batch-completion approval). 7553 = Dallas decom, merged in 2026-07-10 from the former mcgriff/ folder. |
+| Marsh McLennan (MMC / MMA) | marsh_mclennan/ | 7189, 7060, 7378, 7364, 7431, 7407, 7437, 7486, 7471, 7418, 7354, 7434, 7495, 7447, 7191, 7521, 7576, 7299, 7241, 7494, 7465, 7472, 7484, 7556, 7347, 7553, 7643, 7659 | MMC = Marsh McLennan Company; MMA = Marsh & McLennan Agency. Same parent. 7643 = Shreveport move/decommission, detail pending. 7659 = Metairie-to-Hattiesburg furniture move/decommission with schedule reconciliation open. |
 | Bentley Systems | bentley_systems/ | 7350, 7450 | Multi-phase engagement. 7350 = Phase 4 Final (July 1-2). 7450 = Framingham to Exton. |
 | Vecos USA | vecos/ | 7579, 7454 | Locker commissioning. Vecos is InterWork's client. JPMC is Vecos's customer (end user site only). |
 | Pear VC | pear_vc/ | 7510 | 7510 = SF relocation to 600 Townsend (July 1). |
@@ -17,7 +17,7 @@ _Last updated: 2026-07-24_
 | Empower | empower/ | TBD | Andover, MA demolition pricing (estimating phase, no project number yet). Contact: Alison McConnell. New client 2026-07-21. |
 | Radian | radian/ | 7492 | 7492 = Denver decom. Comprehensive card updated 2026-06-30. |
 | TierPoint | tierpoint/ | 7497 | Conflict: Supabase says "Radian TierPoint" / Cherry Hill vs. Philadelphia. Confirm with Alejandro. |
-| Claritev / MultiPlan | claritev_multiplan/ | 7420, 6836, 6837, Chattanooga TBD | 7420 = Laguna Hills CA decom (folder name says Parsippany — that was a ChatGPT error; confirmed Laguna Hills). |
+| Claritev / MultiPlan | claritev_multiplan/ | 7420, 7641, 6836, 6837, Chattanooga TBD | 7420 = Laguna Hills CA decom only (folder name says Parsippany — legacy error). 7641 = Jupiter FL delivery and office remodel. 7583 belongs to Rothman. |
 | Rothman Orthopaedics | rothman_orthopaedics/ | 7440, 7583, 7621 | 7440 = completed KOP / Blue Bell renovation context; 7583 = Philadelphia service call; 7621 = KOP Go-Live Support, planning for August 31 go-live. Note: 7572 was misfiled here from ChatGPT export — confirmed AmTrust, moved to amtrust/ 2026-06-30. |
 | Strategic Education | strategic_education/ | 7053, 7337, Guardian Lower Bucks TBD | SEI and possibly Guardian as subsidiary. |
 | AmTrust Financial | amtrust/ | 7348 (pending), 7502, 7513, 7515, 7536, 7568, 7572, 7624 | 7624 = Las Vegas office decommission, scheduled 8/4-8/5 at 6292 W. Spring Mountain Road; PM assignment pending. Existing unnumbered Las Vegas task-chair request is separate. |

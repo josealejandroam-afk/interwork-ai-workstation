@@ -1,9 +1,5 @@
-# Open Loops — Project 7420 Claritev Parsippany
+# Open Loops — Project 7420 Claritev Laguna Hills
 
 | # | Item | Status |
 |---|---|---|
-| 1 | Confirm full Parsippany address | Needs confirmation |
-| 2 | Confirm scope (move, decom, install?) | Needs confirmation |
-| 3 | Confirm PM assignment | Needs confirmation |
-| 4 | Confirm client POC | Needs confirmation |
-| 5 | Confirm scheduled date | Needs confirmation |
+| 1 | Confirm the correct Laguna Hills street address: 23382 Mill Creek Rd vs. 23322 Mill Creek Dr | Open |

@@ -10,7 +10,7 @@
 |---|---|
 | Project number | 7420 |
 | Client | Claritev (formerly MultiPlan) |
-| Project name | Decom |
+| Project name | Laguna Hills Decommission |
 | Location | 23322 Mill Creek Dr, Suite 200, Laguna Hills, CA 92653 |
 | Scheduled start | 2026-07-13 |
 | Scheduled end | 2026-07-15 |
@@ -29,4 +29,6 @@ Smartsheet contains two conflicting address spellings for this project across di
 
 - Source: 2026-06-30 Smartsheet/Supabase sync handoff
 - Original stub: ChatGPT export incorrectly used Parsippany, NJ — corrected 2026-06-30
-- Updated: 2026-06-30
+- Clarified 2026-07-28: Jupiter is no longer part of this project memory because its
+  expanded scope requires a separate project number.
+- Updated 2026-08-17: Jupiter is Project 7641. See `7641_jupiter_fl_delivery_remodel/`.

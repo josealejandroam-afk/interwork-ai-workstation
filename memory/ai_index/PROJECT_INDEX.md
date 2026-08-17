@@ -48,6 +48,8 @@ Also fetch `OPEN_LOOPS.md` and `NOTES.md` at the same path when available.
 | `amtrust` | 7593 | `7593_chair_move_jersey_city_southington` | Chair move Jersey City NJ to Southington CT, quote sent 7/7, TBD 7/14 | `memory/clients/amtrust/projects/7593_chair_move_jersey_city_southington/PROJECT_CARD.md` |
 | `marsh_mclennan` | 7521 | `7521_mmc_austin_restack` | MMC Austin TX restack | `memory/clients/marsh_mclennan/projects/7521_mmc_austin_restack/PROJECT_CARD.md` |
 | `marsh_mclennan` | 7553 | `7553_mmc_dallas_decom` | MMC Dallas TX decom — merged from former mcgriff/ folder 2026-07-10, client entity confirmed MMC | `memory/clients/marsh_mclennan/projects/7553_mmc_dallas_decom/PROJECT_CARD.md` |
+| `marsh_mclennan` | 7643 | `7643_mma_shreveport_move_decom` | Shreveport LA move and decommission; detailed scope, address, dates and PM pending | `memory/clients/marsh_mclennan/projects/7643_mma_shreveport_move_decom/PROJECT_CARD.md` |
+| `marsh_mclennan` | 7659 | `7659_mma_hattiesburg` | Metairie LA to Hattiesburg MS furniture move/decommission; schedule conflict and exact addresses open | `memory/clients/marsh_mclennan/projects/7659_mma_hattiesburg/PROJECT_CARD.md` |
 | `marsh_mclennan` | 7556 | `7556_mma_art_work_dallas` | MMA art/work Dallas TX — Today 2026-06-30 | `memory/clients/marsh_mclennan/projects/7556_mma_art_work_dallas/PROJECT_CARD.md` |
 | `marsh_mclennan` | 7574 | `7574_mma_raleigh_tech_install` | MMA Raleigh NC tech install — vendor-confirmed (Tier LLC), scheduled 7/15-7/16 | `memory/clients/marsh_mclennan/projects/7574_mma_raleigh_tech_install/PROJECT_CARD.md` |
 | `marsh_mclennan` | 7576 | `7576_marsh_broomfield_motors` | Marsh Broomfield CO motors | `memory/clients/marsh_mclennan/projects/7576_marsh_broomfield_motors/PROJECT_CARD.md` |
@@ -95,6 +97,7 @@ Also fetch `OPEN_LOOPS.md` and `NOTES.md` at the same path when available.
 | `pear_vc` | 7510 | `7510_pear_sf_relocation` | 600 Townsend SF — Jul 1 | `memory/clients/pear_vc/projects/7510_pear_sf_relocation/PROJECT_CARD.md` |
 | `tierpoint` | 7497 | `7497_decom_cherry_hill` | Cherry Hill / Philadelphia — location conflict, confirm | `memory/clients/tierpoint/projects/7497_decom_cherry_hill/PROJECT_CARD.md` |
 | `claritev_multiplan` | 7420 | `7420_parsippany` | Laguna Hills CA (folder name is incorrect legacy name — confirmed Laguna Hills) | `memory/clients/claritev_multiplan/projects/7420_parsippany/PROJECT_CARD.md` |
+| `claritev_multiplan` | 7641 | `7641_jupiter_fl_delivery_remodel` | Jupiter FL delivery and office remodel; earlier work completion and 8/18 calendar activity need reconciliation | `memory/clients/claritev_multiplan/projects/7641_jupiter_fl_delivery_remodel/PROJECT_CARD.md` |
 | `claritev_multiplan` | 6836 | `6836_historical` | Historical | `memory/clients/claritev_multiplan/projects/6836_historical/PROJECT_CARD.md` |
 | `claritev_multiplan` | 6837 | `6837_historical` | Historical | `memory/clients/claritev_multiplan/projects/6837_historical/PROJECT_CARD.md` |
 | `premier_orthopaedics` | 7391 | `unknown_project` | 3809 W. Chester Pike Newtown Square PA — Today 2026-06-30, At Risk | `memory/clients/premier_orthopaedics/projects/unknown_project/PROJECT_CARD.md` |
