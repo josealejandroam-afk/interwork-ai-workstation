@@ -4,7 +4,7 @@
 
 | Field | Value |
 |---|---|
-| Project number | 7376 — working number; verify against latest signed proposal/internal record |
+| Project number | 7376 — strongly supported by original Quote 8260-01; confirm no separate number was issued for the DTLA-only work |
 | Client | Armanino |
 | Project name | DTLA to Pasadena Technology Relocation |
 | Type | Technology relocation; same-evening delivery only |
@@ -62,7 +62,9 @@ Final counts require verification against the latest approved proposal or invent
 
 ## Address and Scope History
 
-- The larger original relocation opportunity included additional furniture/geographic scope, including Boise and San Jose. That broader work was awarded elsewhere.
+- Original Quote 8260-01, dated March 19, 2026, identifies Project 7376 and proposed a broader Boise / San Jose furniture relocation to 800 E. Colorado Boulevard in Pasadena for $27,850.
+- That historical proposal included 19 Boise workstations; 6 to 10 San Jose lounge pieces; packaging; Boise-to-Pasadena and San-Jose-to-Pasadena freight; four electrical disconnects; three project-management charges; and four truck charges.
+- The broader furniture relocation was awarded elsewhere. Quote 8260-01 is project-lineage evidence only and must not be used as the August 21 execution scope.
 - InterWork retained the smaller DTLA technology relocation under working Project 7376.
 - An older proposal listed 800 E. Colorado Boulevard in Pasadena. For current execution planning, that address is superseded by 55 S. Lake Avenue.
 - Earlier discussion included monitor-arm disassembly. Current scope excludes it because the arms will already be disassembled.

@@ -20,7 +20,7 @@ Last reconciled: 2026-08-17.
 
 ## Project and Inventory
 
-- [ ] Confirm working Project 7376 against the latest signed proposal or internal project record; do not create a second project unless a newer record proves a split.
+- [ ] Confirm whether InterWork or Armanino issued a separate project number specifically for the DTLA technology move. Original Quote 8260-01 strongly supports Project 7376 lineage; continue using 7376 unless a newer record proves a split, and do not create a duplicate project.
 - [ ] Verify final approved quantities for 146 monitor arms, 95 monitors, 66 docks, 65 keyboards/mice, and two Zoom Room setups.
 
 ## Resolved / Superseded
@@ -30,3 +30,4 @@ Last reconciled: 2026-08-17.
 - [x] Older 800 E. Colorado Boulevard destination superseded.
 - [x] Monitor-arm disassembly excluded; arms will be disassembled before arrival.
 - [x] Destination work confirmed as delivery only with no reconnection or setup.
+- [x] Original Quote 8260-01 confirmed as historical Project 7376 lineage evidence, not the active August 21 execution scope.
