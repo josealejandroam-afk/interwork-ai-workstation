@@ -50,6 +50,7 @@ _Last updated: 2026-07-24_
 | Warfel Construction | warfel_construction/ | 7500, 7517 | 7500 = prior White Marsh walkthrough with limited context. 7517 = White Marsh decommission in execution August 17–21; FastField submitted; 173 workstations reported vs. 120 quoted. |
 | DriveTime | drivetime/ | 7661 | 7661 = Tempe AZ boardroom table replacement for The Grove, Skyline and Cosmos; client requirements received, product sourcing and pricing underway; execution dates TBD. |
 | Richardson Sales Performance | richardson_sales_performance/ | 7630 | 7630 = Philadelphia PA decommission, Two Commerce Square, Suite 2850, ~8,000 sq ft. Walkthrough scheduled 2026-07-29 — date has passed; occurrence not confirmed in available sources. Required completion end of August 2026. New client 2026-07-29. |
+| Osha Bergman Watanabe & Burton LLP | osha_bergman_watanabe_burton/ | 7662 | 7662 = Houston internal move from the 49th to 50th floor at 1100 Louisiana Street. Walkthrough scheduled 2026-08-19 at 1:00 PM; quote, execution scope and move date pending. |
 
 ## Lookup Pointers (NOT InterWork clients)
 

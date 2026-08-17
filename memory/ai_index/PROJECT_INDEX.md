@@ -128,6 +128,7 @@ Also fetch `OPEN_LOOPS.md` and `NOTES.md` at the same path when available.
 | `tegna_premion` | TBD | `unknown_project` | No project number confirmed | `memory/clients/tegna_premion/projects/unknown_project/PROJECT_CARD.md` |
 | `resintech` | 7448 | `7448_private_office` | Camden NJ private office install — installed 2026-07-10 | `memory/clients/resintech/projects/7448_private_office/PROJECT_CARD.md` |
 | `innovare` | 7589 | `7589_acrisure_miami_lakes` | Acrisure, Miami Lakes FL — labor quoted $1,075, vendor rate/date still pending | `memory/clients/innovare/projects/7589_acrisure_miami_lakes/PROJECT_CARD.md` |
+| `osha_bergman_watanabe_burton` | 7662 | `7662_houston_internal_move` | Houston TX internal move, 49th to 50th floor — walkthrough 2026-08-19 at 1:00 PM; quote and move date pending | `memory/clients/osha_bergman_watanabe_burton/projects/7662_houston_internal_move/PROJECT_CARD.md` |
 
 ---
 
