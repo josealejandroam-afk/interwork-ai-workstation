@@ -7,7 +7,7 @@
 | Project number | 7413 |
 | Client | Zscaler |
 | Project name | Zscaler - Santa Clara, CA - Move |
-| Status | Active multi-phase planning and execution |
+| Status | Active / not ready for closeout |
 | Purchase order | ZS54173 |
 | PO description | HQ Moving Services |
 | PO value | $162,856 |
@@ -95,6 +95,16 @@ The August 6 client-facing schedule confirms an eight-booth relocation wave from
 
 This eight-booth wave is part of the broader booth program; it does not by itself supersede the earlier 16-booth program count. Final completion and any punch-list items remain unconfirmed.
 
+### Current booth closeout status - 2026-08-17
+
+- Physical relocation and reinstallation are substantially complete, but the booth workstream is not closed.
+- Four double Framery booths require the correct manufacturer-style anchoring brackets. The anchoring requirements for the relocated single booths still need verification.
+- Room-style booths require a separately validated anchoring solution, likely using side-mounted L-shaped brackets. Existing seismic drawings are for a different booth model and cannot be assumed applicable.
+- Skyline is coordinating the seismic engineering/approval process. Final closure requires an approved solution, stamped drawings, installation, special inspection and seismic sign-off.
+- Required sprinkler/fire-life-safety cutouts are also open. Skyline is expected to manage this work; InterWork should not modify the booths unless responsibility is formally reassigned.
+- Until anchoring, inspection and fire-life-safety work are complete, the booths should not be treated as fully usable or ready for project closeout.
+- An early-September TCO milestone was discussed, but the exact date remains unconfirmed. If approval is not complete, the booths may need to be excluded from the initial inspection and kept out of use.
+
 ### Confirmed access conditions for the eight-booth wave
 
 - Use the side entrance; no front-entrance access.
@@ -178,6 +188,47 @@ Houston leg:
 - Jairo confirmed completion at 11:46 AM.
 
 This supporting activity is complete, but Project 7413 remains open pending booth, server, punch-list and C-bin retrieval closeout.
+
+### August 24 and week-of-August-31 readiness work
+
+- August 24 activity includes crate/C-bin coordination, move-label distribution through space captains, move packets and a move-list/tagging walkthrough.
+- The calendar wording "C-bin swap" has not been reconfirmed and should remain subject to verification.
+- Placard installation is confirmed for the week of August 24 wherever spaces are ready.
+- Directional/wayfinding signage is a separate dependency. A target around September 11 was discussed, but the client cautioned that it may change.
+- Glass-board/whiteboard delivery and installation are planned for the week of August 31. Six boards were discussed as a possible priority set, not a final quantity.
+- Final board quantities, floor/room assignments and private-office requirements remain open.
+- Conference tables remain an active readiness priority, with quantities and sequence still to be confirmed.
+- The August 31 final C-bin pickup remains on the calendar but was not reconfirmed in the August 17 status discussion.
+
+## Current Access and Staging Dependencies
+
+- The Holger service elevator works in normal operation but has an unresolved independent/manual-mode issue. This is a critical dependency for early-September lab racks, heavy equipment and palletized loads.
+- The earlier confirmed booth-wave access conditions remain valid history; they do not resolve the current service-elevator operating issue.
+- Construction material on the first floor at 4301 creates a receiving/staging risk for whiteboards, conference tables and other move materials.
+- Before major deliveries, confirm the approved receiving point, protected indoor staging, construction-material clearance and weather protection if exterior staging is unavoidable.
+
+## Current Project Position - 2026-08-17
+
+Completed:
+
+- Initial phone-booth physical relocation substantially executed.
+- Twenty C-bins/speedpacks delivered and accepted onsite on August 17.
+- Move-label, packet and phased-move planning structure established.
+
+In progress:
+
+- Move packet and label coordination.
+- Placard, wayfinding and whiteboard planning.
+- September phased-move readiness.
+
+Critical outstanding:
+
+- Phone-booth seismic anchoring and inspection.
+- Booth sprinkler/fire-life-safety modifications.
+- Holger service-elevator readiness.
+- Protected receiving/staging at 4301.
+
+Do not close Project 7413 until the booth compliance work, phased moves, post-move support and final equipment/crate retrieval are complete.
 
 ## Contacts
 

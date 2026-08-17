@@ -52,3 +52,16 @@
 - Confirmed the August 17 delivery and placement of 20 C-bins/speedpacks as complete, including onsite review with Travis Bryant and receipt of completion photos.
 - Kept the overall project open pending booth reinstallation closeout, punch-list status, server completion and future C-bin retrieval requirements.
 - Jenny Bailey's email was not committed; only her confirmed project-contact status was retained.
+
+## Status Reconciliation - 2026-08-17
+
+- Reconciled Alejandro's full current-status handoff against the existing project card and preserved the prior quote, FastField, calendar and execution history.
+- Project remains active and is not ready for closeout.
+- Added the critical booth seismic-anchoring path: Framery brackets, a separately validated room-booth solution, stamped approval, installation, special inspection and final sign-off.
+- Added the separate sprinkler/fire-life-safety cutout dependency currently expected to remain under Skyline's control.
+- Flagged the August 17-19 booth calendar entry as unconfirmed for remaining work because execution depends on bracket and seismic approval.
+- Clarified that placards are confirmed for the week of August 24, while directional/wayfinding signage is separate and only tentatively targeted around September 11.
+- Added week-of-August-31 whiteboard/glass-board planning, with quantities and placement still open.
+- Added the Holger service-elevator independent/manual-mode issue and 4301 receiving/staging constraints as critical upcoming move dependencies.
+- Kept the August 7 server relocation closeout and August 31 C-bin retrieval date open pending confirmation.
+- Did not add client email addresses or new phone numbers from the handoff.
