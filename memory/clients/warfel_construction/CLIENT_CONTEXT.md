@@ -9,7 +9,7 @@ Warfel Construction has InterWork activity in White Marsh, Maryland. The reposit
 | # | Name | Location | Status | Notes |
 |---|---|---|---|---|
 | 7500 | Warfel Construction Walkthrough | White Marsh, MD | Historical context only | Dated May 6, 2026 in the prior project index; no detailed project folder yet. |
-| 7517 | Warfel Construction Decommission | 7941 Corporate Drive, White Marsh, MD 21237 | Scheduled | August 17–21, 2026; quote 8443. |
+| 7517 | Warfel Construction Decommission | 7941 Corporate Drive, White Marsh, MD 21237 | In execution | August 17–21, 2026; FastField submitted; Melvin Hernandez field PM; 173 workstations reported vs. 120 quoted. |
 
 ## Known Contacts
 
