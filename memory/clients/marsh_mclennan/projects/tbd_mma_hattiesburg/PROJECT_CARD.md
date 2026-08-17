@@ -4,38 +4,55 @@
 
 | Field | Value |
 |---|---|
-| Project number | Unknown — not yet assigned |
+| Project number | Unknown — not yet assigned. Checked Outlook 2026-08-17; not found in any retrieved Hattiesburg email. |
 | Client | Marsh & McLennan Agency (MMA) |
 | Project name | Hattiesburg |
-| Location | Hattiesburg, MS (origin: Metairie, LA) |
+| Location | Hattiesburg, MS (origin: Metairie, LA). Exact site address not yet found. |
 | Type | Furniture move; separately, move + decommission |
-| Status | Tentative — calendar placeholder only, not yet confirmed with client or InterWork PM |
+| Status | Tentative — kickoff meetings confirmed to have occurred, but no project number, address, or full scope confirmed yet |
 
-## Dates (as given — not yet reconciled)
+## Contacts (confirmed via Outlook search, 2026-08-17)
 
-Jill's note listed two separate date items for this same client/location, worded as if
-distinct rather than one event described twice. **Flagging, not assuming these are the same
-thing:**
+| Name | Role | Contact | Source |
+|---|---|---|---|
+| Rob Murphy | Client contact (MMA) | — | Included on the 8/7/2026 kickoff meeting invite |
+| Amy Still | Client contact (MMA) | amy.still@marshmma.com | Included on the 8/7/2026 kickoff meeting invite |
+| Ivy Ringhoff | Move-management contact | — | Sent the original 8/4/2026 kickoff email |
+| Jill Buchman | InterWork — organized move management kickoff | — | Sent the 8/7/2026 "MMA Hattiesburg Move Management Kick-Off" meeting invite |
+| David Steinbrecher | InterWork — participant | 609-744-8899 | Included on the 8/7/2026 kickoff invite |
+
+## Timeline (confirmed via Outlook search, 2026-08-17)
+
+| Date | Event |
+|---|---|
+| 2026-08-04 | Ivy Ringhoff sent "Hattiesburg - furniture relocation & move scope kickoff" |
+| 2026-08-07 | Jill Buchman sent "MMA Hattiesburg Move Management Kick-Off" meeting invite (Ivy Ringhoff, Rob Murphy, Amy Still, InterWork Operations, David Steinbrecher) |
+
+## Dates (as given — still not reconciled)
+
+Jill's 8/17 note listed two separate date items for this same client/location, worded as if
+distinct rather than one event described twice:
 
 - "Week of 8/31" — furniture move from Metairie, LA to Hattiesburg, MS
 - "9/10 — Move; 9/11 — Decommission"
 
-Possible explanations, unconfirmed: these could be two phases (an initial furniture
-relocation the week of 8/31, followed by a move/decommission phase 9/10-9/11), or the 9/10-11
-dates could be a later firming-up of the "week of 8/31" placeholder that should supersede it.
-Confirm with Jill/Alejandro before treating both as active.
+**Outlook search (2026-08-17) found no email or message containing either the "week of 8/31"
+or "9/10/9/11" language** — only the early-August kickoff threads above. Still cannot
+determine whether these are the same event or two separate phases. Confirm with
+Jill/Alejandro directly.
 
 ## Missing / Open Information
 
 - Project number
 - Which date set is authoritative (or whether both are real, separate phases)
-- Field PM assignment
-- Scope detail beyond "furniture move" / "move" / "decommission"
-- Site address / contact
+- Site address
+- Scope detail beyond "furniture relocation & move scope" — no inventory or detailed scope
+  found in the kickoff emails
 
 ## Source Notes
 
 - Source: Jill Buchman, Teams message, 2026-08-17 10:46 AM, relayed by Alejandro. Listed under
   "Need to add the following to the calendar."
-- Created as a tentative placeholder 2026-08-17 so a base record exists ahead of full
-  confirmation. Do not treat any date or scope detail here as confirmed.
+- Updated 2026-08-17 with confirmed contacts/timeline from an Outlook/Copilot search
+  (Alejandro). Project number, address, and full scope still not found — do not treat as
+  confirmed.
