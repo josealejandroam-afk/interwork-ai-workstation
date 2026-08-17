@@ -15,6 +15,20 @@
 | FastField assignment | Not issued - field PM must be assigned first |
 | Post-FF Teams notification | Not sent |
 
+## Unresolved Lead — PM and Vendor (flagged 2026-08-17, not confirmed)
+
+An independently-sourced account (relayed via a separate Claude Code repo-work session,
+2026-08-17) names **Jairo Escalante** as field PM, **Paul Higgs** as vendor, and
+**Michaelene Burkhart** (Michaelene.Burkhart@amtrustgroup.com) as an additional AmTrust cc
+contact for this project. **This account has not been verified against the canonical record
+below and must not be treated as confirmed.** It is recorded here only as an unresolved lead
+requiring Alejandro's direct confirmation.
+
+The canonical record in this card — Field PM "Needs assignment," onsite contact Rob
+Callahan, no vendor on file — remains authoritative until Alejandro confirms otherwise.
+**Do not change the Field PM, vendor, or contact fields in this card based on the unverified
+lead above.**
+
 ## Site Address
 
 6292 W. Spring Mountain Road, Las Vegas, NV 89146
@@ -124,3 +138,5 @@ The existing `unknown_las_vegas_chairs` project is a separate quote request at 4
 - Confidence: High for project identity, schedule, address, contacts, access, scope, exclusions, refrigerator requirements, and final-condition requirements
 - Needs confirmation: field PM, crew, truck/disposal capacity, restoration scope, and key-return instructions
 - No Supabase or Smartsheet writes were made
+- 2026-08-17: an unresolved, unverified PM/vendor lead flagged above from a second,
+  independently-sourced account. Not adopted in either direction — see that section.
