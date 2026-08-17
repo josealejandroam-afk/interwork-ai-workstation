@@ -13,7 +13,7 @@ InterWork has multiple projects for AmTrust, including the Cleveland office (734
 | 7502 | Small Office Move | Garden Grove, CA | Past-dated 2026-05-11 | External PM; no FastField |
 | 7513 | Move Office Furniture | Southington, CT | Past-dated 2026-05-21 | PM Pedro Martinez; no FastField |
 | 7515 | Storage Disposal | New York, NY | Past-dated 2026-05-27 | PM Manny Gonzalez; no FastField |
-| 7536 | AmTrust Project | Needs confirmation | Needs confirmation | May be NYC or Melville NY |
+| 7536 | Chicago Decommission | 233 N. Michigan Ave, Suites 1000 & 1200, Chicago, IL 60601 | Active / scope pending finalization | 10th-floor decommission; low-voltage and donation/recycling items pending AmTrust Legal. Crate delivery 8/18 is separate logistics activity. |
 | 7568 | Site Walk | Irvine, CA | Past-dated 2026-06-26 | External PM; no FastField; quote pending (Jill 2026-06-30) |
 | TBD | Nashua E-Waste / Disposal | 15 Trafalgar Square, Suites 200 & 201, Nashua NH 03063 | Quote pending — David never got back to Alexis (2026-06-23) | TVs, monitors, electronics disposal; MFPs excluded; POC: Brian Lordan |
 | TBD | Las Vegas Task Chairs | 4730 S. Ft. Apache, Ste. 270, Las Vegas NV | Quote pending — David never got back to Alexis (2026-06-23) | Replace 8 task chairs, dispose 8; contact: Ashlee Isbell |

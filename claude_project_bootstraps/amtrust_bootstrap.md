@@ -42,7 +42,7 @@ _Last updated: 2026-06-30_
 | 7502 Garden Grove CA | `7502_small_office_move_garden_grove` |
 | 7513 Southington CT | `7513_move_office_furniture_southington` |
 | 7515 New York NY | `7515_storage_disposal_new_york` |
-| 7536 (location TBC) | `7536_project` |
+| 7536 Chicago decommission | `7536_project` |
 | 7568 Irvine CA | `7568_site_walk_irvine` |
 | 7572 59 Maiden Lane NYC | `7572_amtrust_financial_59_maiden_lane_new_york` |
 | Las Vegas task chairs (TBD #) | `unknown_las_vegas_chairs` |

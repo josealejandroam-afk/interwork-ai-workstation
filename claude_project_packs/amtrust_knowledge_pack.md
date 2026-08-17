@@ -48,10 +48,16 @@ AmTrust Financial Services is a specialty insurance company. InterWork has multi
 - **FastField:** false
 - **Status:** Past-dated — no signals
 
-### 7536 — AmTrust Project (NYC / Melville)
-- **Location:** Needs confirmation — may be New York City or Melville, NY
-- **Status:** Needs confirmation
-- **Source:** CLIENT_CONTEXT.md (no project card yet)
+### 7536 — Chicago Decommission
+- **Location:** 233 N. Michigan Avenue, Suites 1000 and 1200, Chicago, IL 60601
+- **Scope:** Working scope is full decommission of the 10th floor; low-voltage removal and donation/recycling remain pending AmTrust Legal review
+- **Status:** Active / scope pending finalization; no confirmed decommission execution date
+- **Field PM:** Juan Martinez — inventory walkthrough completed June 9
+- **Onsite contact:** Julie Brown-Bell — 312-715-3031
+- **Recent InterWork logistics coordination:** Scott Rasmussen
+- **Quote:** Revised quote 8469; revision process completed after Legal flagged the original signature section
+- **Crate logistics:** 3MD Relocation scheduled to deliver 60 crates and 15 dollies on August 18; driver/crew lead unconfirmed
+- **Important:** Crate delivery is not authorization or scheduling of the decommission itself
 
 ### 7568 — Site Walk Irvine CA
 - **Location:** Irvine, CA
@@ -88,7 +94,7 @@ AmTrust Financial Services is a specialty insurance company. InterWork has multi
 | 1 | Confirm location for 7348 — "Cleveland" vs Princeton NJ |
 | 2 | Approve Teams send for 7348 |
 | 3 | Confirm completion of 7502, 7513, 7515, 7568 — no FastField on any |
-| 4 | Confirm details for 7536 (NYC/Melville) |
+| 4 | Finalize Project 7536 legal scope items, execution date, labor assignment and relationship between the 10th-floor decommission and 12th-floor relocation |
 | 5 | Confirm 7572 officially closed — FastField on file but no completion report confirmed |
 
 ---
