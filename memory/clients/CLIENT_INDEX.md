@@ -20,8 +20,8 @@ _Last updated: 2026-07-24_
 | Claritev / MultiPlan | claritev_multiplan/ | 7420, 7641, 6836, 6837, Chattanooga TBD | 7420 = Laguna Hills CA decom only (folder name says Parsippany — legacy error). 7641 = Jupiter FL delivery and office remodel. 7583 belongs to Rothman. |
 | Rothman Orthopaedics | rothman_orthopaedics/ | 7440, 7583, 7621 | 7440 = completed KOP / Blue Bell renovation context; 7583 = Philadelphia service call; 7621 = KOP Go-Live Support, planning for August 31 go-live. Note: 7572 was misfiled here from ChatGPT export — confirmed AmTrust, moved to amtrust/ 2026-06-30. |
 | Strategic Education | strategic_education/ | 7053, 7337, Guardian Lower Bucks TBD | SEI and possibly Guardian as subsidiary. |
-| AmTrust Financial | amtrust/ | 7348 (pending), 7502, 7513, 7515, 7536, 7568, 7572, 7624 | 7624 = Las Vegas office decommission, scheduled 8/4-8/5 at 6292 W. Spring Mountain Road; PM assignment pending. Existing unnumbered Las Vegas task-chair request is separate. |
-| Dropbox | dropbox/ | 7399, 7460, 7467, 7552 | SF-area + 7467 = Seattle Studio Move 2026-04-27. Possibly overlaps with Pear VC origin building at 1800 Owens St. |
+| AmTrust Financial | amtrust/ | 7348 (pending), 7502, 7513, 7515, 7536, 7568, 7572, 7593, 7594, 7624 | 7624 = Las Vegas office decommission, scheduled 8/4-8/5 at 6292 W. Spring Mountain Road; PM assignment pending — see project card for a narrowly-scoped, unresolved PM/vendor discrepancy. Existing unnumbered Las Vegas task-chair request is separate. 7593 = Jersey City to Southington CT chair move, PM needs reassignment. 7594 = Nashua NH e-waste/furniture disposal + reception desk replacement, execution date not yet set. |
+| Dropbox | dropbox/ | 7399, 7460, 7467, 7547, 7552 | SF-area + 7467 = Seattle Studio Move 2026-04-27. Possibly overlaps with Pear VC origin building at 1800 Owens St. 7547 = Power Beam Install. |
 | Ingersoll Rand | ingersoll_rand/ | 7374, 7453 | 7374 = Maintenance Dept Move, FastField submitted, pending "approve batch complete 6" to close in Supabase. 7453 = Miami to Austin Move (Lawrence Factor → Trace Analytics), added 2026-07-09, active planning/pre-execution — separate scope, do not confuse the two. |
 | Monster Energy | monster_energy/ | 7529 | Location Needs confirmation. |
 | FAA Eastern Region | faa_eastern_region/ | 7559, EJM FAA (TBD) | Federal client. EJM FAA may be same or separate. |
@@ -36,7 +36,7 @@ _Last updated: 2026-07-24_
 | Premier Orthopaedics | premier_orthopaedics/ | 7391 | 7391 = Multi-Phase Newtown Square PA. End date 7/7 (Storage Run leg TBD). |
 | Vecos / IU Health | vecos_iu_health/ | Unknown | Bloomington IN locker commissioning. Separate from Vecos JPMC. |
 | Tegna / Premion | tegna_premion/ | Unknown | No project number confirmed. |
-| Lincoln / CRC Group | lincoln_crc_group/ | 7246 | No detail available. Note: separate from CRC Virginia Beach under MMC. |
+| Lincoln / CRC Group | lincoln_crc_group/ | 7246, 7537, 7549, 7588, 7597 | 7246 = no detail available. 7537 = Tampa Bayport Plaza move/decom. 7549 = Kensington Vanguard Indianapolis relocation. 7588 = Glen Allen VA move. 7597 = Louisville KY internal move + IT closet relocation. Note: separate from CRC Virginia Beach under MMC. |
 | Teknion | teknion/ | 5156 | Historical project; low project number. |
 | Bevin Palidar | bevin_palidar/ | 7584 | Residential client. House move Clementon NJ → Tabernacle NJ, 7/2. New client 2026-06-30. |
 | Spryson | spryson/ | 7571 | Small move Pittsburgh PA. Pre-proposal stage. Contact: Erica Sinatra. Number confirmed via Smartsheet 2026-07-15. |
@@ -49,6 +49,7 @@ _Last updated: 2026-07-24_
 | Jackson & Hertogs LLP | jackson_hertogs_llp/ | TBD | December 2026 San Francisco downsizing: 909 Montgomery Suite 200 to 388 Market, 14th Floor, Suite 1460 (destination suite needs confirmation). Furniture planning, selective reuse, move/install and origin decommission. |
 | Warfel Construction | warfel_construction/ | 7500, 7517 | 7500 = prior White Marsh walkthrough with limited context. 7517 = White Marsh decommission in execution August 17–21; FastField submitted; 173 workstations reported vs. 120 quoted. |
 | DriveTime | drivetime/ | 7661 | 7661 = Tempe AZ boardroom table replacement for The Grove, Skyline and Cosmos; client requirements received, product sourcing and pricing underway; execution dates TBD. |
+| Richardson Sales Performance | richardson_sales_performance/ | 7630 | 7630 = Philadelphia PA decommission, Two Commerce Square, Suite 2850, ~8,000 sq ft. Walkthrough scheduled 2026-07-29 — date has passed; occurrence not confirmed in available sources. Required completion end of August 2026. New client 2026-07-29. |
 
 ## Lookup Pointers (NOT InterWork clients)
 
