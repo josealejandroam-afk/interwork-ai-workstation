@@ -42,3 +42,13 @@
 - Calendar entries confirm C-bin delivery/swap/pickup, placards and directional signage, phased crate-label and packet deliveries, and Phase 1 move dates.
 - Planning explanations for the calendar activities were retained as context, not promoted to final field instructions.
 - Added IT scope, monitor scope, access, elevator, work-hours, and staffing items remain unresolved where the handoff did not provide final approval.
+
+## Execution Update - 2026-08-17
+
+- Reconciled the primary booth destination to 4301 Great America Parkway based on multiple later sources, including Jill Buchman's August 6 client-facing schedule.
+- Recorded the detailed August 7–12 schedule for the eight-booth execution wave without replacing the broader 16-booth program history.
+- Recorded confirmed side-entrance access, freight-elevator key availability, no-Masonite requirement and standard-hours approval for the booth work.
+- Recorded the separate August 7, 11:00 AM server-move start at 1100 Space Park; final execution status remains open.
+- Confirmed the August 17 delivery and placement of 20 C-bins/speedpacks as complete, including onsite review with Travis Bryant and receipt of completion photos.
+- Kept the overall project open pending booth reinstallation closeout, punch-list status, server completion and future C-bin retrieval requirements.
+- Jenny Bailey's email was not committed; only her confirmed project-contact status was retained.

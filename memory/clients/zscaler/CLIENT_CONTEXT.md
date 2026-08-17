@@ -7,7 +7,7 @@ metadata:
   status: active
   confidence: medium
   source: project-handoff-2026-08-05
-  updated: 2026-08-05
+  updated: 2026-08-17
   review_after: 2027-02-05
 ---
 
@@ -44,8 +44,8 @@ Exact project roles and field assignments remain Needs confirmation unless docum
 | Location | Role |
 |---|---|
 | 120 Holger Way, San Jose, CA | Existing headquarters / move origin |
-| 4301 Great American Parkway, Santa Clara, CA 95054 | Destination shown on Quote 8385-01; conflicts with the earlier 4401/4403 handoff reference |
-| 4401/4403 Great America Parkway, Santa Clara, CA | New-HQ destination in the executive handoff; Needs confirmation against Quote 8385-01 |
+| 4301 Great America Parkway, Santa Clara, CA 95054 | Current authoritative destination; confirmed by multiple later sources including the August 6 client-facing schedule |
+| 4401/4403 Great America Parkway, Santa Clara, CA | Superseded earlier reference; do not use unless the client advises otherwise |
 | 1301 Fannin Street, Suite 1150, Houston, TX 77002 | Houston destination shown on Quote 8385-01 |
 | 1100 Space Park Drive, Santa Clara, CA | Server-relocation origin |
 | 1201 Comstock Street, Santa Clara, CA | Server-relocation destination |
@@ -56,3 +56,4 @@ Exact project roles and field assignments remain Needs confirmation unless docum
 - Preserve individual phases and schedule events separately; do not collapse the program into one execution date.
 - Francisco Vinueza is identified as Project Manager on the 2026-05-27 FastField inventory cover.
 - The handoff summarizes multiple sources. Detailed counts, dates, and scope changes should be confirmed against current operational records before field use.
+- Jairo Escalante completed the August 17 delivery and placement of 20 C-bins/speedpacks at 120 Holger Way; this does not close the broader project.

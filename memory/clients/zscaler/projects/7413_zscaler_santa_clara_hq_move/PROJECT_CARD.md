@@ -13,12 +13,15 @@
 | PO value | $162,856 |
 | PO need-by date | 2026-07-31 |
 | Primary origin | 120 Holger Way, San Jose, CA |
-| Primary destination | Needs confirmation: Quote 8385-01 says 4301 Great American Parkway; earlier handoff says 4401/4403 Great America Parkway |
+| Primary destination | 4301 Great America Parkway, Santa Clara, CA — current authoritative destination |
 | Quote | 8385-01, dated 2026-04-29 |
 | Quote total | $31,340.00, tax $0.00 |
 | FastField inventory date | 2026-05-27 |
 | FastField project manager | Francisco Vinueza |
 | FastField point of contact | Julissa Sandoval |
+| Office coordinator | Alejandro Acosta |
+| Current field PM | Jairo Escalante — confirmed for the 2026-08-17 C-bin delivery |
+| Primary onsite contact | Travis Bryant |
 
 ## Program Scope
 
@@ -81,6 +84,25 @@ These dates are the most complete schedule in the handoff, but should be checked
 - Normal-hours versus after-hours execution, elevator dimensions, building logistics, and vendor staffing were still under review in the source discussions.
 - Exact mapping between the program dates, calendar events, and booth counts needs confirmation.
 
+### Eight-booth execution wave
+
+The August 6 client-facing schedule confirms an eight-booth relocation wave from 120 Holger Way to 4301 Great America Parkway:
+
+- August 7, 7:00 AM–6:00 PM: dismantle, prepare, pack and begin load-out at Holger; delivery dependent on progress.
+- August 8, 7:00 AM start: continue load-out or begin/continue reinstallation at 4301.
+- August 10, 7:00 AM start: continue reinstallation.
+- August 11–12: tentative continuation days if required.
+
+This eight-booth wave is part of the broader booth program; it does not by itself supersede the earlier 16-booth program count. Final completion and any punch-list items remain unconfirmed.
+
+### Confirmed access conditions for the eight-booth wave
+
+- Use the side entrance; no front-entrance access.
+- Freight-elevator key is available.
+- Masonite is not required.
+- Removal during standard business hours is approved.
+- Freight-elevator dimensions/photos remain unconfirmed if still operationally necessary.
+
 ## Server / Lab / IT Workstreams
 
 ### Quote 8385-01 - confirmed quoted scope
@@ -115,6 +137,8 @@ Houston leg:
 - Destination: 1201 Comstock Street, Santa Clara, CA
 - Scope identified: de-rack, move, and re-rack 50 disconnected servers.
 - This separate 50-server scope is not clearly reconciled to Quote 8385-01's rack-based scope and should not be assumed to be the same workstream.
+- The August 6 schedule placed the start at 1100 Space Park at 11:00 AM on August 7, with separate coordination to Steve.
+- Do not assume the booth crew handled this work; final execution and completion remain unconfirmed.
 
 ### Lab and equipment
 
@@ -144,6 +168,17 @@ Houston leg:
 - Crate labels and employee move packets are scheduled in phases on 2026-08-24, 2026-08-28, and 2026-09-04.
 - The purpose statements above are supported by planning notes; final quantities, placement, recipients, and handoff owners remain Needs confirmation.
 
+### August 17 C-bin / Speedpack delivery — Complete
+
+- Scheduled at 120 Holger Way for 7:00 AM with Jairo Escalante as field PM and Travis Bryant as onsite contact.
+- Twenty C-bins/speedpacks were delivered and distributed across the required floors.
+- Placement was reviewed onsite with Travis and kept visible, accessible and clear of circulation paths.
+- Completion photos were received.
+- An initial local-labor arrival delay was resolved before completion.
+- Jairo confirmed completion at 11:46 AM.
+
+This supporting activity is complete, but Project 7413 remains open pending booth, server, punch-list and C-bin retrieval closeout.
+
 ## Contacts
 
 ### Client
@@ -152,7 +187,7 @@ Houston leg:
 |---|---|
 | Travis Bryant | Senior Manager, Americas Workplace Operations |
 | Sheil Patel | Senior Manager, Workplace Projects |
-| Jenny Bailey | Needs confirmation |
+| Jenny Bailey | Project contact — contact method confirmed outside repo; email intentionally omitted |
 | Julissa Sandoval | Needs confirmation |
 | Sarah Ablao | Needs confirmation |
 
@@ -163,11 +198,12 @@ Houston leg:
 - Hunter Barbieri
 - Alejandro Acosta
 - David Steinbrecher
+- Jairo Escalante - field PM for the completed 2026-08-17 C-bin delivery
 
 ## Source and Confidence
 
 - Source: executive handoff supplied by Alejandro on 2026-08-05.
 - High confidence: project number, client, PO details, quote details, FastField cover details, and broad program scope.
 - Medium confidence: phase schedule and workstream counts because the handoff consolidates several operational sources.
-- Destination conflict: Quote 8385-01 shows 4301 Great American Parkway; the executive handoff identifies 4401/4403 Great America Parkway. Resolve before field use.
+- Destination reconciliation: later sources, including the August 6 client-facing schedule, consistently confirm 4301 Great America Parkway. The earlier 4401/4403 reference is superseded unless the client advises otherwise.
 - No Supabase or API changes were made during this folder creation.
