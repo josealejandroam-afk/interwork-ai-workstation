@@ -49,14 +49,17 @@ AmTrust Financial Services is a specialty insurance company. InterWork has multi
 - **Status:** Past-dated — no signals
 
 ### 7536 — Chicago Decommission
-- **Location:** 233 N. Michigan Avenue, Suites 1000 and 1200, Chicago, IL 60601
-- **Scope:** Working scope is full decommission of the 10th floor; low-voltage removal and donation/recycling remain pending AmTrust Legal review
+- **Location:** 233 N. Michigan Avenue, Suites 1000 and 1200, Chicago, IL — ZIP conflict: 60601 in correspondence vs. 60602 on quote 8469
+- **Scope:** Full quoted scope includes 183 Evolve workstations, 42 private offices, seating/tables/appliances, 30 power whips, patch-ready work, donation/recycling, low-voltage removal, broom sweep, 30 electrical disconnects, 14 truck charges and 10 PM units
+- **Electrical:** Union electrician required for 30 BX-cable disconnects and safe termination at the power source
 - **Status:** Active / scope pending finalization; no confirmed decommission execution date
 - **Field PM:** Juan Martinez — inventory walkthrough completed June 9
 - **Onsite contact:** Julie Brown-Bell — 312-715-3031
 - **Recent InterWork logistics coordination:** Scott Rasmussen
-- **Quote:** Revised quote 8469; revision process completed after Legal flagged the original signature section
+- **Quote:** Revised quote 8469 dated June 4, 2026; revision process complete, but signature line is blank and approval remains unconfirmed
 - **Crate logistics:** 3MD Relocation scheduled to deliver 60 crates and 15 dollies on August 18; driver/crew lead unconfirmed
+- **Vendor review:** 3MD Relocation Services / Michael Joyce is a candidate decommission labor vendor; full-scope price validation and award remain unconfirmed
+- **Legal:** Pricing for low-voltage and donation/recycling does not establish AmTrust Legal approval; both remain open
 - **Important:** Crate delivery is not authorization or scheduling of the decommission itself
 
 ### 7568 — Site Walk Irvine CA
