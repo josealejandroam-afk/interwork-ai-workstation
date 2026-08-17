@@ -1,4 +1,4 @@
-# Project Card — 7453: Ingersoll Rand, Miami to Austin Move
+# Project Card — 7453: Ingersoll Rand, Miami to Austin Relocation
 
 ## Summary
 
@@ -6,69 +6,52 @@
 |---|---|
 | Project number | 7453 |
 | Client | Ingersoll Rand |
-| Project name | Miami to Austin Move (Lawrence Factor → Trace Analytics) |
-| Type | Relocation — office, IT, and lab equipment |
-| Origin | Lawrence Factor, LLC — Miami, FL (full street address needs confirmation) |
-| Destination | Trace Analytics, LLC — Austin, TX (full street address needs confirmation) |
+| Project name | Miami to Austin phased relocation (Lawrence Factor → Trace Analytics) |
+| Type | Phased office, lab, production, warehouse, and industrial-equipment relocation |
+| Origin | Lawrence Factor — 4790 NW 157th St, Miami Gardens, FL 33014 |
+| Related campus references | 4720 / 4740 / 4790 NW 157th Road; reconcile by phase when issuing field paperwork |
+| Destination | Trace Analytics — Austin, TX; exact street address needs confirmation |
 | Account Manager | Jill Buchman |
-| InterWork leadership | David Steinbrecher, Francisco Vinueza; Hunter Barbieri also attended the meeting series pre-departure — see reconciliation note below |
-| Client contacts | Eric Larsen (IR), Nikki Smith (email domain airchecklab.com — GM of both Lawrence Factor and Trace Analytics sites) |
-| Overall status | Active planning / pre-execution |
+| InterWork leadership | Francisco Vinueza, David Steinbrecher, Alejandro Acosta |
+| Initial site-walk PM | Pedro Martinez — confirmed |
+| Client contacts | Eric Larsen, Nikki Smith, Ray Nicolia (project context/contact record) |
+| Overall status | Active — pre-execution / mobilization |
 
-## Confirmation Booleans (Supabase — not yet set; do not set without Alejandro approval)
+## Current Schedule
 
-- client_confirmed: not set
-- vendor_confirmed: not set
-- access_confirmed: not set
-- fastfield_submitted: not set (no execution has started)
-- completion_report_sent: not set
+| Workstream | Dates | Current understanding |
+|---|---|---|
+| Early compressor move | Aug 3–4, 2026 | Early equipment activity |
+| Packing and preparation | Aug 31–Sep 4 | Miami preparation |
+| Phase 1 Miami loading | Sep 8–11 | Five-person crew, 9:00 AM start at 4790 NW 157th St; lab, production, warehouse, machine-shop, and industrial equipment |
+| Phase 1 Austin offload/install | Sep 14–18 | Austin installation period |
+| Phase 3 Miami loading | Sep 21–25 | Includes compressor-parts room and oven-parts room scope moved out of the former Phase 2 plan |
+| Phase 3 Austin offload/install | Sep 28–Oct 2 | Final Austin receiving/install period |
+| Miami final decommission | Sep 28–Oct 2 | Final closeout; Oct 1 versus Oct 2 completion remains unresolved |
 
-## Key Dates
+## Critical Schedule Correction
 
-- Certificate of Occupancy (Austin): September 4, 2026
-- Miami site visit (Lawrence Factor): Thursday, July 23, 2026
-- Austin site visit (Trace Analytics): Tuesday, August 4, 2026
-- Move 1: Drain/Prep Sep 2–4, Miami Load Sep 8–11, Transit Sep 12–14, Austin Unload Sep 15–18
-- Move 2: Drain/Prep Sep 9–11, Miami Load Sep 14–17, Transit Sep 18–20, Austin Unload Sep 21–24
-- Move 3: Drain/Prep Sep 16–18, Miami Load Sep 21–24, Transit Sep 25–27, Austin Unload Sep 28–Oct 1
-- Target project completion: October 1, 2026
-- Recurring coordination call: Tuesdays 3:00–3:45 PM ET, effective 2026-06-23 through 2026-10-05 (Teams)
+There is **no separate Miami “Loading Phase 2”** in the current plan. Phase 2 is primarily the Austin installation period of Sep 14–18. Major lab equipment moved into Phase 1; compressor-parts-room and oven-parts-room work moved into Phase 3. Any external calendar or field document that still shows a Miami Phase 2 loading block must be revised before execution.
 
-## Scope by Move (per "IR New Timeline (no weekends)" PDF, Option A — attached by client 2026-07-09)
+## Scope and Execution Notes
 
-- **Move 1**: hopper room filling line + All-Fill auger stations (mezzanine); machine shop (manual lathes, Champion & Kaeser compressors); warehouse raw material (initial quantity); UV machine #1.
-- **Move 2**: compressor parts + racking; oven room parts + racking; offices; lab equipment + fixtures.
-- **Move 3**: package room + Assemble Rooms #1 & #2; shipping station + finished goods (stock room); appliance assemble room (tower room) + QC area; remaining raw material buffer (~25 pallets, per Diego); Bauer high-pressure compressor; remaining desktop/office IT equipment; ~40 compressed gas cylinders.
-- IT servers: destination undecided (Ocala, FL vs. new Austin server room/cloud) — see OPEN_LOOPS.md.
-- UV machine #2: stays in Miami through Move 2 but not listed in Move 3 scope — which move it ships in is unconfirmed.
+- Phase 1 requires coordinated rigging and electrical resources beginning Sep 8.
+- Sensitive equipment may require dedicated transport rather than standard moving-truck handling.
+- Final phase inventories, equipment sequencing, transportation assignments, and crew ownership still need to be locked.
+- Label convention: red = liquidate, green = Phase 1, blue = Phase 2, yellow = Phase 3.
+- Labels were accidentally shipped to the InterWork West Berlin warehouse; availability in Miami must be confirmed.
+- Gas cylinders, chemicals, Airgas coordination, and SDS review are controlled scope. Do not assume standard moving crews may transport these materials.
+- Airgas rack disposition remains open pending Austin measurements.
 
-## Status vs. Execution Readiness
+## Readiness
 
-As of 2026-07-09, this project is in active planning, not execution. Not yet seen: Notice to Proceed, Purchase Order, FastFields for execution, crew assignments, transportation schedule. Watch inbox for keywords: approved, PO, Notice to Proceed, schedule, move dates, execution plan, logistics plan.
+The move is active and mobilizing, but not fully locked for execution. Confirmed dates and the 4790 mobilization address may be used for planning. Austin destination address, final master schedule, staffing, inventories, rigging/electrical coverage, regulated-material handling, and final completion date remain open.
 
-See OPEN_LOOPS.md for the full pending-items list and NOTES.md for hazmat/labeling/staffing detail.
+See OPEN_LOOPS.md for the actionable list and NOTES.md for preserved planning history.
 
-## Reconciliation Note (2026-07-10)
+## Reconciliation History
 
-A separate handoff draft proposed a new project card for 7453, unaware this folder already
-existed. Reconciled against it rather than overwritten:
-
-- **Candidate origin address (unverified):** the draft gave "Lawrence Factor Facility,
-  4720/4740/4790 NW 157th Road, Miami Gardens, FL (~31,919 SF)." Our existing source
-  material never confirmed a street address. Treat this as a candidate, not confirmed — verify
-  before relying on it.
-- **Hunter Barbieri:** the draft lists him as "Office PM (Quote/Operations)." He did attend
-  this project's meeting series per the Read AI participant list. However, Hunter is no
-  longer with InterWork as of ~2026-07-09/10 (confirmed on other projects this week, e.g.
-  7574, 7589). Who owns his role on 7453 now is unconfirmed — added to OPEN_LOOPS.md.
-- **Discrepancy — do not adopt:** the draft lists **"Site Walk PM: Pedro Martinez"** for
-  7453. Pedro Martinez is already on file as a contact for a *different* project — 7189 (MMC
-  Bermuda Hoboken), per that project's NOTES.md (ChatGPT export conflict entry). This looks
-  like a data mix-up in the draft, not a real 7453 contact. Not added here without direct
-  confirmation.
-- **Discrepancy — do not adopt:** the draft lists **Ray Nicolia** as an active client
-  contact ("Continuous Improvement Specialist, ray.nicolia@irco.com, 716-277-6912"). This
-  project's own NOTES.md already documents, from a direct meeting transcript, that Ray's
-  last day was communicated as ~2026-06-30 and his email was subsequently tagged "term" —
-  he is no longer the active contact; Eric Larsen took over his projects. Keeping Ray's
-  contact info here for reference only, not as a current point of contact.
+- Earlier records treated 4720/4740/4790 NW 157th Road as unverified candidates. The current handoff confirms **4790 NW 157th St** as the authoritative execution/mobilization address while retaining the other campus references for reconciliation.
+- Earlier notes rejected Pedro Martinez as a likely cross-project mix-up. The current handoff directly confirms Pedro as the initial site-walk PM, superseding that warning.
+- Earlier three-move planning documents remain useful historical context, but the current schedule and “no Miami Loading Phase 2” correction above control current planning.
+- Ray Nicolia remains project-relevant historical/contact context; confirm the active day-to-day client lead before sending field communications.

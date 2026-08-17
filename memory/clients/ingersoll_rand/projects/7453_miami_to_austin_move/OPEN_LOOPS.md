@@ -1,53 +1,40 @@
-# Open Loops — Project 7453 (Ingersoll Rand, Miami to Austin Move)
+# Open Loops — Project 7453 (Ingersoll Rand, Miami to Austin Relocation)
 
-Last updated from source material dated through 2026-07-09.
+Last reconciled: 2026-08-17.
 
-## Execution Readiness (blocking)
+## Critical Before Execution
 
-- No Notice to Proceed seen yet.
-- No Purchase Order issued yet — Nikki (IR) to issue PO to InterWork after the move is announced internally.
-- No confirmed hard execution schedule signed off by both sides — current dates are planning-stage.
-- No FastFields prepared for execution.
-- No crew assignments made yet.
-- No transportation schedule confirmed yet.
+- [ ] Confirm the exact Austin destination street address, receiving contact, dock/access rules, and phase-specific delivery instructions.
+- [ ] Issue one approved master schedule covering Aug 31–Oct 2 and resolve the Oct 1 versus Oct 2 completion-date conflict.
+- [ ] Remove or revise any external-calendar or field-document reference to a Miami “Loading Phase 2.” No matching obsolete Phase 2 event was found in the live Supabase schedule table during the 2026-08-17 reconciliation.
+- [ ] Confirm Phase 1 staffing: five-person Miami crew, transportation assignments, and rigging/electrical resources beginning Sep 8.
+- [ ] Confirm that the red/green/blue/yellow labels accidentally sent to West Berlin are available in Miami before packing begins.
 
-## Scope / Technical
+## Scope and Inventory
 
-- UV machine #2: notes say it "stays in Miami through Move 2" but it isn't listed in the Move 3 scope either — confirm which move it actually ships in.
-- IT/server relocation destination undecided: original plan was Ocala, FL (existing on-site support + server room); Nikki has noted Trace will have its own server room plus a cloud migration. Tom (IR) needs to be looped in before this is finalized.
-- Racking/shelving disposition: Nikki to confirm what moves to Austin vs. goes to liquidation — target ready by July 23 site visit.
-- Unload/reinstall scope split (InterWork riggers vs. new Austin hires from the Aug 7 job fair) — to be confirmed at the July 23 site visit.
-- Drain/disconnect staffing plan and any outside trades needed — to be confirmed by Eric/Nikki.
+- [ ] Obtain final Phase 1 and Phase 3 move inventories, with equipment-to-phase assignments and destination placement requirements.
+- [ ] Confirm the detailed Austin Phase 2 installation scope for Sep 14–18.
+- [ ] Confirm compressor-parts-room and oven-parts-room items are assigned to Phase 3 in all operating documents.
+- [ ] Confirm sensitive-equipment transport requirements and identify anything requiring a dedicated vehicle.
+- [ ] Confirm final Miami decommission quantities and what remains for liquidation, donation, recycling, or disposal.
+- [ ] Reconcile the legacy IT/server destination question (Ocala versus Austin server room/cloud) against the current phase inventories.
+- [ ] Confirm the current phase assignment or disposition for UV machine #2; older planning said it remained in Miami through Move 2 but did not place it in the old Move 3 scope.
 
-## Hazmat / Chemical
+## Regulated Materials / Airgas
 
-- Isopropyl alcohol (60 qt.), likely DOT Class 3 Flammable — Nikki to provide the IPA manufacturer name so InterWork can pull the supplier SDS.
-- Airgas coordination not yet initiated: Nikki to call Airgas after the internal move announcement, to update the Austin dock stock agreement and arrange transport of the 40 calibration cylinders.
-- Confirm which of the ~40 gas cylinders return to vendor vs. move with the project.
-- Confirm compressor fluid specs/manuals for Bauer (low-pressure) and Kaeser (high-pressure) units.
+- [ ] Complete Airgas coordination for compressed-gas cylinders and confirm which cylinders return to the vendor versus move to Austin.
+- [ ] Confirm SDS and carrier requirements for chemicals and regulated materials; do not assign these to standard moving crews without approval.
+- [ ] Confirm Airgas rack disposition after Austin measurements are available.
+- [ ] Confirm compressor fluid/drain requirements and ownership for all compressor-related work.
 
-## Labeling / Coordination
+## Project Administration
 
-- Labeling standard and sample label owed by InterWork (Jill) before July 23.
-- Nikki asked (2026-07-09, while on-site in Miami) whether an interim labeling standard exists ahead of July 23 — needs a reply.
-- Site-oversight-contact assignment per move date owed by Nikki (Miami options: Nikki, Eric, or Diego; Austin options: Nikki, Eric, Stacey, or Jenny) — not yet finalized, and Nikki is to confirm no scheduling conflicts.
+- [ ] Confirm current active client lead and field escalation contacts for Miami and Austin.
+- [ ] Confirm Notice to Proceed / PO / final execution authorization if not already documented elsewhere.
+- [ ] Prepare phase-specific FastFields and crew briefings after the schedule, addresses, and inventories are locked.
 
-## Meeting Series
+## Resolved / Superseded
 
-- Standing time is Tuesdays 3:00–3:45 PM ET through 2026-10-05; has had occasional one-off shifts due to conflicts. Confirm current week's time before treating 3:00 PM as fixed.
-- Jill requested shifting the July 23 session specifically to 10:00 AM ET (per her 2026-07-09 8:01 AM email) — confirmation from Eric and Nikki not yet seen.
-
-## Data / Repo
-
-- Full street addresses for Lawrence Factor (Miami) and Trace Analytics (Austin) are not yet confirmed in source material.
-
-## Travel (InterWork side)
-
-- Ops huddle (2026-07-10) confirmed some InterWork team members will travel the night before (7/22) for the July 23 Miami site visit.
-
-## Reconciliation follow-ups (2026-07-10)
-
-- Verify the candidate origin address (Lawrence Factor Facility, 4720/4740/4790 NW 157th Road, Miami Gardens, FL, ~31,919 SF) — surfaced in a separate draft, not yet confirmed against primary source material.
-- Confirm who now owns Hunter Barbieri's role on this project, since he's no longer with InterWork.
-- Do NOT add Pedro Martinez as a 7453 contact without direct confirmation — he's on file for project 7189 (Bermuda), likely a mix-up in the source draft.
-- Do NOT treat Ray Nicolia as an active contact — already confirmed departed; Eric Larsen is the sole ongoing IR contact.
+- [x] Origin mobilization address confirmed as 4790 NW 157th St, Miami Gardens, FL 33014. Other campus references remain for phase-by-phase reconciliation.
+- [x] Pedro Martinez confirmed as the initial site-walk PM; the previous “likely mix-up” warning is superseded.
+- [x] Current plan eliminates a separate Miami Loading Phase 2. Major lab equipment is in Phase 1; compressor-parts-room and oven-parts-room scope is in Phase 3.

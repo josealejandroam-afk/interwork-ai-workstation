@@ -47,3 +47,25 @@ Source: kickoff call transcript (approx. 2026-06-16), Outlook thread "IR - Inter
 - IT/server destination (Ocala vs. Austin vs. cloud) unresolved — Tom (IR) needs to weigh in.
 - UV machine #2 timing unresolved.
 - PO not yet issued.
+
+## 2026-08-17 Current Handoff Reconciliation
+
+- Project is now in active pre-execution / mobilization for a phased Miami-to-Austin relocation running through early October.
+- 4790 NW 157th St, Miami Gardens, FL 33014 is confirmed as the authoritative mobilization address. References to 4720/4740/4790 NW 157th Road remain relevant campus context and should be reconciled by phase.
+- Pedro Martinez is confirmed as the initial site-walk PM, superseding the prior warning that his assignment was probably a cross-project data mix-up.
+- Current planning has no separate Miami Loading Phase 2. Phase 2 is primarily Austin installation Sep 14–18. Major lab equipment moved to Phase 1; compressor-parts-room and oven-parts-room scope moved to Phase 3.
+- Confirmed current sequence: packing/prep Aug 31–Sep 4; Phase 1 Miami load Sep 8–11; Phase 1 Austin install Sep 14–18; Phase 3 Miami load Sep 21–25; Phase 3 Austin install and Miami decommission Sep 28–Oct 2.
+- A live Supabase review found no separate obsolete Phase 2 schedule event to delete. Any stale Phase 2 loading reference is therefore an external calendar/field-document reconciliation item.
+- Labels use red/liquidate, green/Phase 1, blue/Phase 2, and yellow/Phase 3. The labels were mistakenly shipped to West Berlin and must be confirmed available in Miami.
+- Cylinders, chemicals, Airgas coordination, and SDS requirements remain controlled unresolved scope. Sensitive equipment may require dedicated transport.
+- The Austin street address and Oct 1 versus Oct 2 final completion remain open.
+
+## Preserved Earlier Scope Baseline
+
+The July 2026 “IR New Timeline (no weekends)” plan is superseded for current scheduling but remains useful inventory history:
+
+- Earlier Move 1 listed the hopper-room filling line, All-Fill auger stations, machine-shop equipment, Champion and Kaeser compressors, initial warehouse raw material, and UV machine #1.
+- Earlier Move 2 listed compressor parts/racking, oven-room parts/racking, offices, and lab equipment/fixtures. Current planning moves major lab equipment into Phase 1 and compressor/oven parts into Phase 3.
+- Earlier Move 3 listed package and assembly rooms, shipping/finished goods, appliance-assembly/QC areas, remaining raw material, Bauer compressor, remaining office IT equipment, and approximately 40 compressed-gas cylinders.
+- Earlier timing targeted Move 1 Miami load Sep 8–11 and Austin unload Sep 15–18; Move 2 Miami load Sep 14–17 and Austin unload Sep 21–24; Move 3 Miami load Sep 21–24 and Austin unload Sep 28–Oct 1. Use the 2026-08-17 current sequence instead.
+- Legacy technical questions about the IT/server destination and UV machine #2 remain open until reconciled against the final phase inventories.
