@@ -79,7 +79,7 @@ see 7553 below.)
 | 7418 | MMA Colleague Relocation Columbia MD | Columbia MD | Scheduled (past-dated) | No PM in pm_assigned field |
 | 7354 | MMA Retrieve Tech Alpharetta GA | Alpharetta GA | Scheduled (past-dated) | External PM; vendor confirmed |
 | 7434 | MMA Edina Office Refresh | 5050 Lincoln Drive Suite 460, Edina MN | Completed per 2026-07-10 handoff — Supabase status not yet reconciled | Full scope: C-bins, packing, decom, electrical, painting, furniture install, monitor arms, tech reconnect, shades, return cleanup visit. 2 open items: café furniture install, additional lockers quote. See project folder. |
-| 7495 | MMA Move/Light Decom Charlotte NC | Charlotte NC | Scheduled (past-dated) | Melvin Hernandez PM; vendor confirmed |
+| 7495 | MMA Charlotte Restack | 5605 Carnegie Blvd, Suite 300, Charlotte NC | Active — next confirmed work Sep 2–4 | Juan Martinez PM; Tier Installations confirmed; July Phase 1 decommission complete; move-back and Phase 2 dates pending. See project folder. |
 | 7447 | MMA Tech Install Clearwater FL | Clearwater FL | Scheduled (past-dated) | Bad actual_end_at; fix held |
 | 7191 | MMA Punch List Cape May NJ | Cape May NJ | Scheduled (past-dated) | No signals |
 | 7347 | MMA McLean Consolidation / Wilmington Zoom Room AV Recovery | McLean VA → Wilmington NC | Active — AV recovery visit pending, week of 7/13 | Original May move looked done (fastfield submitted); recovery handoff 2026-07-10 found the Zoom Room AV system was never fully shipped. Removed from the pending Supabase batch-completion approval. See project folder. |
