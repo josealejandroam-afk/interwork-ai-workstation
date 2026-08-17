@@ -2,30 +2,29 @@
 
 ## Overview
 
-Armanino has a pending equipment move to a new space. No project number assigned yet — not yet in Supabase.
+Armanino has multiple historical InterWork projects. Current active memory in this client folder centers on Project 7376, the August 21, 2026 DTLA-to-Pasadena technology relocation.
 
 ## Known Projects
 
 | # | Name | Location | Status | Notes |
 |---|---|---|---|---|
-| TBD | Equipment Move | Origin/destination not yet confirmed | Confirmed scope/date, pending logistics detail | Delivery only, no setup. See project folder. |
+| 7376 | DTLA to Pasadena Technology Relocation | Los Angeles → Pasadena, CA | Scheduled Aug 21 at 5:00 PM | Delivery-only technology move; PM, crew, truck, suite/floor, access, COI acceptance, and final inventory open. See project folder. |
 
 ## Known Contacts
 
-| Name | Role | Email |
-|---|---|---|
-| Kelsey King | Armanino — leads local team disconnecting equipment pre-move | kelsey.king@armanino.com |
-
-## InterWork Team
-
 | Name | Role |
 |---|---|
-| Jill Buchman | Lead on confirmation call |
-| Francisco Vinueza | Confirmed no additional requirements |
-| David Steinbrecher | Attended confirmation call |
-| Hunter Barbieri | Attended confirmation call |
+| Kelsey King | Primary Armanino client contact |
+| Jeff Parks | Day-of POC for DTLA and Pasadena |
+| Edgar Castellanos | Additional client stakeholder |
+| Victoria Huizar | Additional client stakeholder |
+
+## InterWork Context
+
+- Jill Buchman led the initial confirmation call.
+- Francisco Vinueza and David Steinbrecher participated in early coordination.
+- Current field PM is not assigned in available records.
 
 ## How to Use This Folder
 
-Read `memory/company_knowledge/START_HERE.md` first, then this file, then the relevant project card.
-Do not assign a project number — not yet in Supabase. Do not infer origin/destination addresses from unrelated InterWork projects.
+Read `memory/company_knowledge/START_HERE.md` first, then this file, then the 7376 project card. Use Project 7376 as the working number unless newer signed documentation proves the technology relocation was split.
