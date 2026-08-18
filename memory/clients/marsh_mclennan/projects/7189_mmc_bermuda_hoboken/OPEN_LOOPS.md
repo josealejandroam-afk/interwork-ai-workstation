@@ -16,5 +16,11 @@
 | 12 | Francisco to contact donation recipient about the missing tiger boxes | Francisco Vinueza | Open |
 | 13 | Francisco to call JoAnn to confirm whether donated items were unpacked and extra boxes remain onsite | Francisco Vinueza | Open |
 | 14 | David to confirm building access and allowable start times (possibly 7:30 AM) | David Steinbrecher | Open |
-| 15 | Jason Pimental (EPS) to confirm availability for the tentative Aug 16-17 install window | Jason Pimental | Open |
-| 16 | Install window (Aug 16-17) is tentative, subject to building access confirmation and carpet work completion | TBD | Open |
+| 15 | **Installer confirmation for Aug 19-20: EPS (Jason Pimental), BEST Group, or another installer — no installer confirmed** | David Steinbrecher | **Open — critical, blocking** |
+| 16 | ~~Install window tentative pending carpet completion~~ | TBD | **Resolved — carpet arrived 8/17 and installers started 8/18; current delivery schedule is 8/19-20 with crates into space 8/24** |
+| 17 | Invoice #89466136 for $33,580.73 from Joe Vieira Trucking/BEST — approval/payment authorization for Project 7189 not confirmed; AP requested confirmation | Alejandro / David / Gal | Open |
+| 18 | Customs-duty calculation references a $47,785 invoice versus executed SOW IWSQ8505 at $45,785, plus an $18,528 invoice with no other record | Alejandro | Open — needs verification |
+| 19 | Kari Forgione requested PO/exhibits for Bermuda quotes; InterWork supplied exhibits/documentation, but final PO issuance status is unknown | Client-side | Open — informational |
+| 20 | BEST Group invoices/statements are not reaching AP@interworkoffice.com; escalated by Laura Skillen on 8/17 | Laura Skillen / Joe Vieira | Open |
+| 21 | Go/no-go confirmation for Aug 19-20 furniture delivery — latest visible message on 8/18 at 8:04 AM had David heading to site with no documented update | David Steinbrecher | **Open — time-sensitive** |
+| 22 | ~~Confirm Pedro Martinez phone number~~ | Alejandro | **Resolved — 732-421-1470 confirmed** |
