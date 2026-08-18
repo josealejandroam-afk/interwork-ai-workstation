@@ -2,5 +2,7 @@
 
 - Quote 8260-01, dated March 19, 2026, is the source for the historical scope.
 - Earlier repo reconciliation incorrectly used 7376 for the DTLA technology move because the signed Project 7508 proposal was not yet available.
-- Signed Quote 8431 now establishes 7508 as the active DTLA-to-Pasadena technology relocation.
-- Preserve this record for historical lineage; do not merge its scope into Project 7508.
+- Signed Quote 8431 establishes a 7508 commercial trail for the active DTLA-to-Pasadena technology relocation.
+- An August 17 vendor-facing NRS execution email establishes a competing 7376 operational trail for the same move.
+- Preserve both records and scopes. Do not claim either number superseded or replaced the other without authoritative evidence.
+- Use 7376 for current NRS coordination because that reference has already been communicated externally.

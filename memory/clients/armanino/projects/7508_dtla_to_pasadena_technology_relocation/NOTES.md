@@ -24,7 +24,7 @@
 - Other priced scope: packaging materials, San Jose-to-Pasadena freight, Boise-to-Pasadena freight, four electrical disconnects, three project-management charges, and four truck charges.
 - The broader Boise / San Jose furniture relocation was later awarded elsewhere. This proposal supports the 7376 project lineage but does not control the current field scope.
 - Current controlling execution remains the technology-only relocation from 777 S. Figueroa Street to 55 S. Lake Avenue on Friday, August 21, 2026 at 5:00 PM, with delivery only at destination.
-- Project 7376 remains the historical Boise/San Jose furniture relocation. Do not use it for the August 21 DTLA technology execution.
+- Project 7376 also has historical Boise/San Jose furniture lineage, but an August 17 vendor-facing email explicitly uses 7376 for the August 21 DTLA technology execution. Preserve both facts and do not infer the relationship.
 
 ## 2026-08-18 Execution Handoff Reconciliation
 
@@ -42,4 +42,11 @@
 - Edgar Castellanos returned the signed proposal and referenced expected late-August execution, linking it to the August 21 move.
 - The quote's 800 E. Colorado Boulevard destination is historical and superseded by later Pasadena Towers COI and execution evidence for 55 S. Lake Avenue.
 - The $2,190 monitor-arm knockdown/preparation line is optional; base scope carries the arms as pre-disassembled.
-- Any prepared vendor, FastField, Teams, or calendar communication must use Project 7508, not 7376.
+- Later evidence reopened the number decision: vendor-facing coordination already uses 7376. Continue using 7376 with NRS until an authoritative internal correction is issued; keep 7508 attached to the signed commercial trail.
+
+## Evidence Requiring Reconciliation
+
+- The August 17 vendor-facing email titled `Re: 7376 | Armanino | DTLA to Pasadena Technology Relocation | 8/21` identifies the August 21 move as 7376 and references 777 S. Figueroa Street, 55 S. Lake Avenue, the August 21 execution, and the technology-only scope.
+- Signed Project 7508 documentation contains the same core inventory and late-August execution context.
+- No reviewed source states that either number replaced, superseded, merged with, or was incorrectly substituted for the other.
+- Jeff Parks' phone is also conflicted between 310-745-5800 and 310-745-5805; neither should be published until confirmed.

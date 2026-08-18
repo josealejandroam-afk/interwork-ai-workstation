@@ -4,7 +4,9 @@
 
 **Date/time:** Friday, August 21, 2026; 5:00 PM arrival.
 
-**Project:** 7508
+**Vendor-facing project:** 7376
+
+**Internal number status:** Open conflict — signed Quote 8431 uses 7508; vendor execution communication uses 7376.
 
 **Origin:** 777 Tower, 777 S. Figueroa Street, Suite 2600, Los Angeles, CA 90017.
 
@@ -14,6 +16,6 @@
 
 **Planned quantities:** 146 monitor arms, 95 monitors, 66 docks, 65 keyboards/mice, and two Zoom Room setups; verify final approved inventory.
 
-**Day-of POC:** Jeff Parks — 310-745-5805 for both buildings.
+**Day-of POC:** Jeff Parks for both buildings; phone must be confirmed before publishing (310-745-5800 vs. 310-745-5805 conflict).
 
-**Status:** Draft placeholder only. Do not send until PM, crew, transportation, destination suite/floor, access, parking, COI acceptance, optional monitor-arm scope, and final quantities are confirmed. Use Project 7508 in every subject and field reference.
+**Status:** Draft placeholder only. Do not send until PM, crew, transportation, destination suite/floor, access, parking, COI acceptance, optional monitor-arm scope, Jeff's phone, and final quantities are confirmed. Continue using Project 7376 with NRS unless an authoritative correction is issued.

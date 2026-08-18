@@ -4,20 +4,21 @@
 
 | Field | Value |
 |---|---|
-| Project number | 7508 — confirmed by signed Quote 8431 dated May 12, 2026 |
+| Project number | 7508 in signed Quote 8431; conflicts with vendor-facing 7376 execution trail |
+| Vendor-facing execution reference | 7376 — continue using with NRS until authoritative correction |
 | Quote | 8431 — signed by Armanino |
 | Client | Armanino |
 | Project name | DTLA to Pasadena Technology Relocation |
 | Type | Technology relocation; same-evening delivery only |
 | Execution | Friday, August 21, 2026 at 5:00 PM |
 | Origin | 777 Tower, 777 S. Figueroa Street, Suite 2600, Los Angeles, CA 90017 |
-| Destination | Pasadena Towers, 55 S. Lake Avenue, Pasadena, CA 91101 |
+| Destination | The most recent operational and insurance records reviewed identify the August 21 execution destination as 55 S. Lake Avenue, Pasadena, CA 91101 |
 | Destination suite/floor | TBD |
 | Primary client contact | Kelsey King |
-| Day-of POC | Jeff Parks — 310-745-5805, both locations |
+| Day-of POC | Jeff Parks, both locations — phone conflict: 310-745-5800 vs. 310-745-5805; do not publish until confirmed |
 | InterWork PM / field lead | Not assigned |
 | Labor vendor / crew / truck | Not assigned |
-| Status | Active / scheduled; field logistics incomplete |
+| Status | Active / scheduled; project-number conflict and field logistics incomplete |
 
 ## Confirmed Scope
 
@@ -85,12 +86,13 @@ Final material quantities are field-dependent and remain to be confirmed.
 - Original Quote 8260-01, dated March 19, 2026, identifies Project 7376 and proposed a broader Boise / San Jose furniture relocation to 800 E. Colorado Boulevard in Pasadena for $27,850.
 - That historical proposal included 19 Boise workstations; 6 to 10 San Jose lounge pieces; packaging; Boise-to-Pasadena and San-Jose-to-Pasadena freight; four electrical disconnects; three project-management charges; and four truck charges.
 - The broader furniture relocation was awarded elsewhere. Quote 8260-01 is project-lineage evidence only and must not be used as the August 21 execution scope.
-- InterWork retained the smaller DTLA technology relocation as Project 7508.
-- An older proposal listed 800 E. Colorado Boulevard in Pasadena. For current execution planning, that address is superseded by 55 S. Lake Avenue.
+- An August 17 vendor-facing NRS execution email identifies the same August 21 technology move as Project 7376, with the same origin, current destination, date, and technology-only scope.
+- No reviewed source explains whether 7508 or 7376 replaced, superseded, merged with, or was incorrectly substituted for the other. Keep the conflict open.
+- An older proposal listed 800 E. Colorado Boulevard in Pasadena. Retain it for audit history only. The most recent operational and insurance records reviewed identify the August 21 execution destination as 55 S. Lake Avenue.
 - Earlier discussion requested separate pricing for disassembly of 146 monitor arms. Keep that work optional/additional unless authorized; do not assume it is included merely because the current execution plan expects the arms to be ready.
 
 ## Readiness
 
-The project number, signed scope, date, time, origin suite, buildings, technology-only responsibility split, client lead, day-of POC, and two-building COI requirement are established. PM, crew, truck/vendor, Pasadena suite, freight/loading logistics, parking/security procedures, COI acceptance, optional monitor-arm-disassembly authorization, final quantities, and final field instructions remain execution-critical.
+The signed 7508 commercial trail, vendor-facing 7376 execution trail, scope, date, time, origin suite, buildings, responsibility split, client lead, and two-building COI requirement are established. The authoritative internal project number, Jeff Parks' phone, PM, crew, truck/vendor, Pasadena suite, freight/loading logistics, parking/security procedures, COI acceptance, optional monitor-arm-disassembly authorization, final quantities, and final field instructions remain execution-critical.
 
 See OPEN_LOOPS.md for the actionable list and NOTES.md for source history.

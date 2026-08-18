@@ -22,12 +22,14 @@ Last reconciled: 2026-08-18.
 
 ## Project and Inventory
 
+- [ ] Resolve authoritative internal project number: signed Quote 8431 uses 7508, while the August 17 NRS execution email uses 7376. Do not merge or normalize without explicit evidence.
+- [ ] Confirm Jeff Parks' correct phone number: 310-745-5800 vs. 310-745-5805. Do not publish either to field-facing documentation until confirmed.
 - [ ] Verify final approved quantities for 146 monitor arms, 95 monitors, 66 docks, 65 keyboards/mice, and two Zoom Room setups.
 - [ ] Confirm whether the optional $2,190 monitor-arm knockdown/preparation line has been authorized. If not, all 146 arms must be disassembled and ready for packing under the signed base scope.
 
 ## Resolved / Superseded
 
-- [x] Correct project number confirmed as 7508 by signed Quote 8431; 7376 belongs to the separate Boise/San Jose furniture scope.
+- [x] Signed Project 7508 commercial trail and vendor-facing Project 7376 execution trail both documented; conflict remains open.
 - [x] Origin confirmed: 777 Tower, 777 S. Figueroa Street, Suite 2600, Los Angeles, CA 90017.
 - [x] Current destination building confirmed: Pasadena Towers, 55 S. Lake Avenue, Pasadena, CA 91101.
 - [x] Older 800 E. Colorado Boulevard destination superseded.
