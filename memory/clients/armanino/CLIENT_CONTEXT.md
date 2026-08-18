@@ -8,7 +8,7 @@ Armanino has multiple historical InterWork projects. Current active memory in th
 
 | # | Name | Location | Status | Notes |
 |---|---|---|---|---|
-| 7376 | DTLA to Pasadena Technology Relocation | Los Angeles → Pasadena, CA | Scheduled Aug 21 at 5:00 PM | Delivery-only technology move; PM, crew, truck, suite/floor, access, COI acceptance, and final inventory open. See project folder. |
+| 7376 | DTLA to Pasadena Technology Relocation | Los Angeles → Pasadena, CA | Scheduled Aug 21 at 5:00 PM | Delivery-only technology move; PM, crew, truck, both suite/floor details, access, COI acceptance, monitor-arm readiness, and final inventory open. See project folder. |
 
 ## Known Contacts
 

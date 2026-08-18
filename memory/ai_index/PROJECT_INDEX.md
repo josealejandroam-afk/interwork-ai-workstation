@@ -22,6 +22,7 @@ Also fetch `OPEN_LOOPS.md` and `NOTES.md` at the same path when available.
 
 | Client Slug | Project # | Project Slug | Notes / Location | Source Path |
 |---|---|---|---|---|
+| `armanino` | 7376 | `7376_dtla_to_pasadena_technology_relocation` | DTLA-to-Pasadena technology relocation scheduled Aug 21 2026 at 5:00 PM; delivery only. PM, crew, truck, suites, access, COIs, monitor-arm readiness and final counts open. | `memory/clients/armanino/projects/7376_dtla_to_pasadena_technology_relocation/PROJECT_CARD.md` |
 | `ebg` | 7563 | `7563_nyc_office_move` | NYC office move completed 7/9; Orlando-bound equipment staged at NJ warehouse pending Sunset Transportation pickup/delivery | `memory/clients/ebg/projects/7563_nyc_office_move/PROJECT_CARD.md` |
 | `empower` | TBD | `unknown_andover_ma_demolition_pricing` | Andover MA demolition pricing (workstations + task chairs, Areas A-F/H3), estimating phase, no project number yet | `memory/clients/empower/projects/unknown_andover_ma_demolition_pricing/PROJECT_CARD.md` |
 | `jackson_hertogs_llp` | TBD | `unknown_december_2026_move` | San Francisco December 2026 downsizing; 909 Montgomery Suite 200 to 388 Market Suite 1460 planning basis; selective reuse, move/install and decommission | `memory/clients/jackson_hertogs_llp/projects/unknown_december_2026_move/PROJECT_CARD.md` |
