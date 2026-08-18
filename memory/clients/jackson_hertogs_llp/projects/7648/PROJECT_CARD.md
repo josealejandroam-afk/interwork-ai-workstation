@@ -1,10 +1,10 @@
-# Project TBD — Jackson & Hertogs LLP December 2026 Move
+# Project 7648 — Jackson & Hertogs LLP December 2026 Move
 
 ## Core Facts
 
 | Field | Value |
 |---|---|
-| Project number | Unknown — not yet confirmed |
+| Project number | 7648 — confirmed by Alejandro on August 18, 2026 |
 | Client | Jackson & Hertogs LLP |
 | Project name | San Francisco Office Relocation + Decommission |
 | Origin | 909 Montgomery Street, Suite 200, San Francisco, CA 94133 |
@@ -93,7 +93,6 @@ Brooks asked InterWork to evaluate the long white tables at the ends of the exis
 
 ### Needs confirmation
 
-- InterWork project number.
 - Destination Suite 1460 before final paperwork.
 - Exact move start/end times and whether December 12–13 is the final approved window.
 - Final reuse layout, including long-white-table feasibility, and move inventory.

@@ -2,7 +2,7 @@
 
 | # | Item | Owner | Priority | Status |
 |---|---|---|---|---|
-| 1 | Confirm the InterWork project number | InterWork | High | Open |
+| 1 | InterWork project number | Alejandro | High | Resolved August 18, 2026 — Project 7648 |
 | 2 | Have Brooks confirm that the destination is 388 Market Street, 14th Floor, Suite 1460, resolving the earlier Suite 200 reference | Brooks / InterWork | High | Open |
 | 3 | Complete design/CAD review and determine exactly which existing pieces fit the proposed Suite 1460 layout | InterWork design | High | Open |
 | 4 | Confirm whether the long white tables can support the requested approximately 8-seat benching configuration | InterWork design / client | High | Open |
@@ -14,7 +14,7 @@
 | 10 | Confirm final contents and miscellaneous clean-out scope | Client / InterWork | Medium | Open |
 | 11 | Confirm sustainable disposition outlets after the decommission inventory is known | InterWork | Medium | Pending inventory |
 | 12 | Confirm building move rules, freight elevators, loading requirements and COI requirements for both locations | Client / building management | High | Open |
-| 13 | Complete next-steps call with Brooks and document furniture-selection decisions | Jill / project team | High | Immediate |
+| 13 | Complete next-steps call with Brooks and document furniture-selection decisions; Brooks has a 1:30 PM PT conflict and the call time remains TBD | Jill / project team | High | Open — call time TBD |
 
 ## Completed
 

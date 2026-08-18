@@ -4,13 +4,13 @@
 
 Jackson & Hertogs LLP is planning a substantial San Francisco office downsizing and relocation in December 2026. The engagement combines furniture planning, selective reuse, relocation and installation, followed by decommissioning of the remaining furniture and contents at the existing office.
 
-No InterWork project number has been confirmed. Do not assign or infer one.
+Project number 7648 was confirmed directly by Alejandro on August 18, 2026.
 
 ## Known Projects
 
 | # | Name | Location | Status | Notes |
 |---|---|---|---|---|
-| TBD | San Francisco Office Relocation + Decommission | 909 Montgomery Street to 388 Market Street, San Francisco | Planning / design development | Full origin inventory complete; Suite 1460 planning/layout and final reuse-versus-decommission split in progress. |
+| 7648 | San Francisco Office Relocation + Decommission | 909 Montgomery Street to 388 Market Street, San Francisco | Planning / design development | Full origin inventory complete; Suite 1460 planning/layout and final reuse-versus-decommission split in progress. |
 
 ## Known Contacts
 
@@ -37,4 +37,4 @@ No InterWork project number has been confirmed. Do not assign or infer one.
 
 ## How to Use This Folder
 
-Read `memory/company_knowledge/START_HERE.md`, then this file and the project files under `projects/unknown_december_2026_move/`.
+Read `memory/company_knowledge/START_HERE.md`, then this file and the project files under `projects/7648/`.
