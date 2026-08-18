@@ -12,3 +12,14 @@ Created 2026-06-30 from Smartsheet/Supabase sync handoff. Supersedes original da
 - Oct 16 and Oct 23 furniture-support dates are construction-driven tentative milestones.
 - Twelve Tier rental crates may still be accruing weekly charges. Pickup/off-rent status is not confirmed.
 - Construction milestones are dependencies and must not all be represented as InterWork execution events.
+
+## 2026-08-18 Schedule Reconciliation
+
+- Project 7495 remains the active InterWork project. External construction project 5956 is related context only and must not replace 7495.
+- Confirmed next InterWork dates are Sep 1 for private-office furniture shift out and Sep 4 for shift back.
+- Sep 2–4 is the flooring/construction dependency window, not a continuous InterWork work window.
+- The older Sep 14–16 move-back/restack placeholder is superseded and no longer confirmed.
+- Phase 2 pre-move/decommission is strongly supported for Sep 21–25 by the construction schedule, but exact InterWork scope, staffing, and authorization remain open.
+- Oct 16 shift out and Oct 23 shift back remain planned milestones requiring reconfirmation.
+- Phase 1 client billing remains unconfirmed; keep the project active.
+- The 12 Tier rental crates may still be onsite and accruing rental charges; pickup/off-rent status remains open.

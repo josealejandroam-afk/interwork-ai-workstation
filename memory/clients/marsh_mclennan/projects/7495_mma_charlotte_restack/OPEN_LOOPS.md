@@ -1,24 +1,21 @@
 # Open Loops — Project 7495 MMA Charlotte Restack
 
-Last reconciled: 2026-08-17.
+Last reconciled: 2026-08-18.
 
-## Sep 2–4 Phase 1C Lift / Shift
+## Sep 1 Shift Out / Sep 4 Shift Back
 
 - [ ] Confirm private-office furniture quantities and daily sequencing.
-- [ ] Confirm whether Tier labor is required all three days or only as flooring progresses.
-- [ ] Confirm final staffing and PM coverage for the Sep 2 start.
-
-## Phase 1 Move-Back / Restack
-
-- [ ] Confirm exact dates during the week of Sep 14.
-- [ ] Confirm technology reinstall sequence and direction from Dwayne Manley / Mike Warmington.
-- [ ] Confirm contents, supplies, and two wellness-room printers are ready for return.
+- [ ] Confirm equipment requirements, start times, staffing, and PM coverage for Sep 1 and Sep 4.
+- [ ] Confirm Tier's role for each date; do not assume labor is required continuously during the Sep 2–4 flooring window.
 
 ## Phase 2 and October
 
-- [ ] Resolve whether Phase 2 pre-move/decommission begins during the week of Sep 14 or runs Sep 21–25.
-- [ ] Obtain detailed Phase 2 scope and staffing before mobilization.
-- [ ] Reconfirm the tentative Oct 16 furniture shift-out and Oct 23 shift-back dates before committing labor.
+- [ ] Obtain the detailed Phase 2 scope, daily schedule, authorization, and staffing for the Sep 21–25 planning window.
+- [ ] Reconfirm the planned Oct 16 furniture shift-out and Oct 23 shift-back dates before committing labor.
+
+## Commercial Closeout
+
+- [ ] Confirm Phase 1 client billing status. Keep Project 7495 active until billing and remaining phases are resolved.
 
 ## Rental Crates — Cost Risk
 
@@ -31,3 +28,6 @@ Last reconciled: 2026-08-17.
 - [x] Labor partner confirmed: Tier Installations.
 - [x] Current InterWork PM confirmed: Juan Martinez.
 - [x] Phase 1 pre-move/decommission completed Jul 20–21, 2026.
+- [x] Sep 1 private-office furniture shift out and Sep 4 shift back replace the stale continuous Sep 2–4 InterWork window.
+- [x] Older Sep 14–16 move-back/restack placeholder is superseded and not confirmed.
+- [x] External construction project 5956 is reference-only and does not replace InterWork Project 7495.

@@ -7,13 +7,14 @@
 | Project number | 7495 |
 | Client | MMA / Marsh McLennan Agency |
 | Project name | Charlotte Restack |
+| External construction project | 5956 — reference only; does not replace InterWork Project 7495 |
 | Primary site | 5605 Carnegie Blvd, Suite 300, Charlotte, NC 28209 |
 | Type | Multi-phase occupied-office restack / construction support |
 | Original office assignee | Hunter Barbieri — historical assignment; no longer active |
 | Current InterWork PM | Juan Martinez |
 | Labor partner | Tier Installations |
-| Status | Active — Phase 1 construction support / preparing move-back |
-| Next confirmed execution | Phase 1C private-office furniture lift/shift, Sep 2–4, 2026 |
+| Status | Active — Phase 1 construction support / furniture shift coordination |
+| Next confirmed execution | Private-office furniture shift out Sep 1, 2026; shift back Sep 4, 2026 |
 
 ## Completed Work
 
@@ -31,35 +32,36 @@
 
 ## Current and Upcoming Work
 
-### Phase 1C Furniture Lift / Shift — Confirmed Window
+### Phase 1 Office Furniture Shift Out — Confirmed
 
-**Dates:** Sep 2–4, 2026.
+**Date:** Sep 1, 2026.
 
-- InterWork handles private-office furniture while flooring is replaced.
-- Flooring team is expected to lift/shift workstations.
-- Private-office furniture may be placed on rollers, shifted within or outside offices, and returned as flooring progresses.
-- Exact quantities, daily sequencing, and whether labor is required all three days remain open.
+- Shift out private-office furniture only.
+- Flooring/construction personnel handle workstation lift/shift.
+- Exact private-office quantities, equipment, start time, staffing, and daily sequencing remain open.
 
-### Phase 1 Move-Back / Restack — Target Only
+### Phase 1 Office Furniture Shift Back — Confirmed
 
-**Target:** Week of Sep 14, exact dates TBD.
+**Date:** Sep 4, 2026.
 
-- Reinstall workstation technology under Dwayne Manley or Mike Warmington.
-- Return employee/office contents, supplies, and the two printers staged in the wellness room.
-- Prepare Phase 1 for employee occupancy.
+- Return the private-office furniture shifted out on Sep 1.
+- Sep 2–4 is the flooring/construction dependency window, not a continuous InterWork execution window.
+- Reconfirm start time, staffing, and PM coverage before dispatch.
+
+The older Sep 14–16 move-back/restack placeholder is no longer confirmed and must not be used for scheduling without new client direction.
 
 ### Phase 2 Pre-Move / Decommission — Tentative
 
-**Construction schedule:** Sep 21–25, 2026, pending client confirmation.
+**Planning window:** Sep 21–25, 2026.
 
 - Disconnect/remove IT and clear the café, training room, affected offices, break room, and temporary postage-machine area.
 - Relocate/stage contents and prepare Phase 2 for construction.
-- A later communication references activity during the week of Sep 14, so do not treat Sep 21–25 as committed execution dates yet.
+- The construction schedule strongly supports this window, but detailed InterWork scope, daily schedule, staffing, and authorization remain open.
 
 ### Future Construction-Driven Furniture Support
 
-- Phase 2 furniture shift out: Oct 16, 2026 — tentative.
-- Phase 2 furniture shift back: Oct 23, 2026 — tentative.
+- Phase 2 furniture shift out: Oct 16, 2026 — planned, requires reconfirmation.
+- Phase 2 furniture shift back: Oct 23, 2026 — planned, requires reconfirmation.
 - Reconfirm both dates before labor is committed.
 
 ## Crate Status
@@ -85,6 +87,6 @@ Contact numbers remain in the confirmed handoff/source material and should be us
 
 ## Readiness
 
-The Jul 20–21 Phase 1 decommission is complete. Sep 2–4 is the strongest confirmed next InterWork work window. Move-back, Phase 2 decommission, October support, quantities, sequencing, staffing, and crate disposition require confirmation before mobilization.
+The Jul 20–21 Phase 1 decommission is complete. Sep 1 shift-out and Sep 4 shift-back are the confirmed next InterWork dates. Phase 1 client billing remains unconfirmed, so Project 7495 stays active. Phase 2 scope, October support, quantities, sequencing, staffing, and crate disposition require confirmation before mobilization.
 
 See OPEN_LOOPS.md for the actionable list and NOTES.md for preserved history.
