@@ -21,3 +21,4 @@
 | 17 | Project number | Alejandro | Resolved 2026-08-17 — 7659 |
 | 18 | Relationship between week-of-August-31 setup and September 10 move | Alejandro / source reconciliation | Resolved — separate workstreams; August setup precedes confirmed September 10 main move |
 | 19 | Older September 11 decommission reference | Alejandro / source reconciliation | Superseded as a firm date — DCOM is separate and remains unscheduled |
+| 20 | Manually correct the live Smartsheet calendar: remove the unsupported August 31–September 4 Metairie hard date, August 31 Hattiesburg crate-delivery hard date, and September 11 Hattiesburg decommission hard date; retain the September 10 Hattiesburg move | Alejandro / calendar owner | Open — Smartsheet is read-only for AI/Code |

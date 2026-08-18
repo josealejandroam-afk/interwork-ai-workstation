@@ -104,17 +104,25 @@ freight/loading procedures and building-management requirements must be confirme
 
 ## Schedule
 
-| Timing | Activity | Confidence |
+| Date | Entry | Status |
 |---|---|---|
-| By August 31 | Destination GC work complete | Target |
-| Week of August 31 | Destination furniture relocation/setup | Planned; confirm after GC completion |
-| After furniture setup | Client technology team installs desktop IT | Planned |
-| Before September 10 | Metairie pickup/transfer | Date TBD |
-| By September 10 | New furniture onsite | Target, subject to lead times |
-| **September 10** | **Main Hattiesburg office move** | **Confirmed date; start time open** |
-| After September 10 | Existing-suite decommission | Flexible; date TBD |
-| Around September 14 | Landlord walkthrough | Tentative |
-| End of October | Existing-suite availability ends | Client timeline |
+| Week of August 31, 2026 | Furniture Setup — Hattiesburg, MS | Planning window |
+| TBD, before September 10 | Furniture Transfer — Metairie, LA → Hattiesburg, MS | Date TBD |
+| **September 10, 2026** | **Move — Hattiesburg, MS** | **Confirmed; start time open** |
+| TBD, after September 10 | Decommission — Hattiesburg, MS | Date TBD |
+
+Supporting planning context remains unchanged: destination GC completion is targeted around
+August 31; desktop IT installation follows furniture setup; new furniture is targeted onsite by
+September 10 subject to lead times; a landlord walkthrough around September 14 is tentative; and
+the existing suite remains available through the end of October.
+
+### Smartsheet Calendar Discrepancy
+
+The live Smartsheet calendar currently presents unsupported hard dates for a Metairie move from
+August 31 through September 4, Hattiesburg crate delivery on August 31, and Hattiesburg
+decommission on September 11. Those entries must not be treated as confirmed schedule dates.
+Smartsheet is read-only for AI/Code and requires manual correction by Alejandro or the calendar
+owner. Retain September 10 as the only confirmed execution date.
 
 ## Contacts
 
