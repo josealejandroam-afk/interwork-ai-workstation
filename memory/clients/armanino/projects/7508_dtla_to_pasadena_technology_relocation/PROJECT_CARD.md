@@ -12,10 +12,10 @@
 | Type | Technology relocation; same-evening delivery only |
 | Execution | Friday, August 21, 2026 at 5:00 PM |
 | Origin | 777 Tower, 777 S. Figueroa Street, Suite 2600, Los Angeles, CA 90017 |
-| Destination | The most recent operational and insurance records reviewed identify the August 21 execution destination as 55 S. Lake Avenue, Pasadena, CA 91101 |
-| Destination suite/floor | TBD |
+| Destination | 800 E. Colorado Boulevard, Suite 820, Pasadena, CA 91101 — confirmed by Kelsey King Aug 18, 2026 |
+| Destination suite/floor | Suite 820 |
 | Primary client contact | Kelsey King |
-| Day-of POC | Jeff Parks, both locations — phone conflict: 310-745-5800 vs. 310-745-5805; do not publish until confirmed |
+| Day-of POC | Jeff Parks, both locations — cell 615-400-9997, confirmed by Kelsey King Aug 18, 2026 |
 | InterWork PM / field lead | Not assigned |
 | Labor vendor / crew / truck | Not assigned |
 | Status | Active / scheduled; project-number conflict and field logistics incomplete |
@@ -36,8 +36,9 @@ Final counts require verification against the latest approved proposal or invent
 
 ### Armanino
 
-- Disconnect all technology before the crew arrives.
-- Have designated equipment ready for packing by 5:00 PM.
+- Disconnect all technology before the crew arrives, including monitors.
+- Leave equipment at the individual workstations; do not consolidate it into a staging area.
+- Do not bag equipment.
 - Identify what moves and provide building/suite access.
 - Complete all destination reconnection and technology setup.
 
@@ -45,8 +46,9 @@ Final counts require verification against the latest approved proposal or invent
 
 - Arrive at the DTLA origin at 5:00 PM.
 - Confirm designated equipment with the client before removal.
-- Pack and protect monitors, monitor arms, docking stations, keyboards, mice, and the two prepared Zoom Room setups.
-- Organize, stage, load, secure, and transport designated equipment directly to Pasadena.
+- Gather equipment throughout Suite 2600 from the individual workstations.
+- Pack and protect monitors, monitor arms, docking stations, keyboards, mice, and the two prepared Zoom Room setups onsite; nothing will be pre-bagged.
+- Organize, load, secure, and transport designated equipment directly to Pasadena.
 - Unload, account for, and deliver equipment into the designated Pasadena space as directed.
 - Remove InterWork-generated packing debris from the immediate work area.
 - Complete the relocation the same evening.
@@ -63,8 +65,10 @@ Final counts require verification against the latest approved proposal or invent
 
 - COIs are required for both buildings.
 - DTLA property: 777 Tower; CBRE documentation classifies the work as mover services.
-- Pasadena property: Pasadena Towers; separate insurance requirements were provided.
-- Freight reservations, loading instructions, parking, after-hours/security procedures, and Pasadena suite/floor remain open.
+- Destination: 800 E. Colorado Boulevard, Suite 820, Pasadena, CA 91101.
+- Both buildings have loading docks and freight elevators.
+- Kelsey King supplied loading-dock/building maps for the move.
+- Freight reservations, exact dock procedures, parking, after-hours/security procedures, and COI acceptance remain open unless confirmed separately.
 
 ## Anticipated Materials
 
@@ -88,11 +92,11 @@ Final material quantities are field-dependent and remain to be confirmed.
 - The broader furniture relocation was awarded elsewhere. Quote 8260-01 is project-lineage evidence only and must not be used as the August 21 execution scope.
 - An August 17 vendor-facing NRS execution email identifies the same August 21 technology move as Project 7376, with the same origin, current destination, date, and technology-only scope.
 - No reviewed source explains whether 7508 or 7376 replaced, superseded, merged with, or was incorrectly substituted for the other. Keep the conflict open.
-- An older proposal listed 800 E. Colorado Boulevard in Pasadena. Retain it for audit history only. The most recent operational and insurance records reviewed identify the August 21 execution destination as 55 S. Lake Avenue.
+- Earlier operational and insurance records identified 55 S. Lake Avenue. Kelsey King's direct Aug 18 client confirmation supersedes that working address and establishes 800 E. Colorado Boulevard, Suite 820 for execution.
 - Earlier discussion requested separate pricing for disassembly of 146 monitor arms. Keep that work optional/additional unless authorized; do not assume it is included merely because the current execution plan expects the arms to be ready.
 
 ## Readiness
 
-The signed 7508 commercial trail, vendor-facing 7376 execution trail, scope, date, time, origin suite, buildings, responsibility split, client lead, and two-building COI requirement are established. The authoritative internal project number, Jeff Parks' phone, PM, crew, truck/vendor, Pasadena suite, freight/loading logistics, parking/security procedures, COI acceptance, optional monitor-arm-disassembly authorization, final quantities, and final field instructions remain execution-critical.
+The signed 7508 commercial trail, vendor-facing 7376 execution trail, scope, date, time, origin suite, destination suite, client lead, Jeff Parks' confirmed cell, equipment-preparation workflow, loading-dock/freight-elevator availability, and two-building COI requirement are established. The authoritative internal project number, PM, crew, truck/vendor, exact dock reservations/procedures, parking/security procedures, COI acceptance, optional monitor-arm-disassembly authorization, final quantities, and final field instructions remain execution-critical.
 
 See OPEN_LOOPS.md for the actionable list and NOTES.md for source history.

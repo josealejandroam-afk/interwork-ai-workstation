@@ -16,7 +16,7 @@ Armanino has multiple InterWork projects. The August 21, 2026 DTLA-to-Pasadena t
 | Name | Role |
 |---|---|
 | Kelsey King | Primary Armanino client contact |
-| Jeff Parks | Day-of POC for DTLA and Pasadena; phone conflict 310-745-5800 vs. 310-745-5805 |
+| Jeff Parks | Day-of POC for both locations; cell 615-400-9997, confirmed by Kelsey King on Aug 18, 2026 |
 | Edgar Castellanos | Additional client stakeholder |
 | Victoria Huizar | Additional client stakeholder |
 

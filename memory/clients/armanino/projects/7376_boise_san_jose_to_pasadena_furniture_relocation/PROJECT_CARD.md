@@ -29,7 +29,7 @@ An August 17, 2026 vendor-facing NRS email explicitly uses Project 7376 for the 
 
 - Friday, August 21, 2026 at 5:00 PM.
 - 777 S. Figueroa Street, Suite 2600, Los Angeles origin.
-- 55 S. Lake Avenue, Pasadena destination.
+- 800 E. Colorado Boulevard, Suite 820, Pasadena destination, per Kelsey King's Aug 18 client confirmation; this supersedes the address originally sent to NRS.
 - Technology pack, protect, load, transport, unload, and delivery only.
 
 Signed Quote 8431 carries the same active inventory and late-August context under Project 7508. No reviewed source explains the relationship. For current NRS/vendor coordination, use 7376 because it is already vendor-facing. Do not merge the historical furniture scope into the active field scope.
@@ -41,6 +41,6 @@ Signed Quote 8431 carries the same active inventory and late-August context unde
 | Vendor-facing project | 7376 |
 | Execution | Friday, August 21, 2026 at 5:00 PM |
 | Origin | 777 S. Figueroa Street, Suite 2600, Los Angeles, CA 90017 |
-| Destination | The most recent operational and insurance records reviewed identify 55 S. Lake Avenue, Pasadena, CA 91101 |
+| Destination | 800 E. Colorado Boulevard, Suite 820, Pasadena, CA 91101 — confirmed by Kelsey King Aug 18, 2026 |
 | Scope | Technology relocation only; no destination IT setup |
 | Number status | Open conflict: 7376 vs. 7508 |

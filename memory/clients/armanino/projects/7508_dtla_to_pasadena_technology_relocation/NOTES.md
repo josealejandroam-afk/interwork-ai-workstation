@@ -10,7 +10,7 @@
 
 - The former `unknown_equipment_move` record was ultimately promoted to Project 7508 after signed-proposal reconciliation.
 - The broader Boise / San Jose furniture opportunity remains historical context only; InterWork retained the smaller DTLA technology relocation.
-- Use 55 S. Lake Avenue for current Pasadena planning. Do not use the older 800 E. Colorado Boulevard address unless newer signed documentation reverses the change.
+- Superseded Aug 18: Kelsey King directly confirmed 800 E. Colorado Boulevard, Suite 820 for execution, reversing the working 55 S. Lake Avenue conclusion.
 - No PM, crew, vendor, or truck assignment was inferred.
 - A prior reconciliation added 7376 to Supabase based on incomplete project-number evidence. The repo now records 7508 as authoritative for the active move; live Supabase correction remains a separate controlled action and was not performed here.
 
@@ -23,7 +23,7 @@
 - San Jose scope: relocate 6 to 10 lounge-furniture pieces.
 - Other priced scope: packaging materials, San Jose-to-Pasadena freight, Boise-to-Pasadena freight, four electrical disconnects, three project-management charges, and four truck charges.
 - The broader Boise / San Jose furniture relocation was later awarded elsewhere. This proposal supports the 7376 project lineage but does not control the current field scope.
-- Current controlling execution remains the technology-only relocation from 777 S. Figueroa Street to 55 S. Lake Avenue on Friday, August 21, 2026 at 5:00 PM, with delivery only at destination.
+- Current controlling execution remains the technology-only relocation from 777 S. Figueroa Street, Suite 2600 to 800 E. Colorado Boulevard, Suite 820 on Friday, August 21, 2026 at 5:00 PM, with delivery only at destination.
 - Project 7376 also has historical Boise/San Jose furniture lineage, but an August 17 vendor-facing email explicitly uses 7376 for the August 21 DTLA technology execution. Preserve both facts and do not infer the relationship.
 
 ## 2026-08-18 Execution Handoff Reconciliation
@@ -40,7 +40,7 @@
 - Signed Quote 8431, dated May 12, 2026, confirms Project 7508 for the DTLA-to-Pasadena technology relocation.
 - The quote matches the active inventory exactly and establishes Suite 2600 at origin.
 - Edgar Castellanos returned the signed proposal and referenced expected late-August execution, linking it to the August 21 move.
-- The quote's 800 E. Colorado Boulevard destination is historical and superseded by later Pasadena Towers COI and execution evidence for 55 S. Lake Avenue.
+- Later Pasadena Towers/55 S. Lake records temporarily controlled planning, but Kelsey King's direct Aug 18 confirmation restores 800 E. Colorado Boulevard, Suite 820 as the execution destination.
 - The $2,190 monitor-arm knockdown/preparation line is optional; base scope carries the arms as pre-disassembled.
 - Later evidence reopened the number decision: vendor-facing coordination already uses 7376. Continue using 7376 with NRS until an authoritative internal correction is issued; keep 7508 attached to the signed commercial trail.
 
@@ -49,4 +49,13 @@
 - The August 17 vendor-facing email titled `Re: 7376 | Armanino | DTLA to Pasadena Technology Relocation | 8/21` identifies the August 21 move as 7376 and references 777 S. Figueroa Street, 55 S. Lake Avenue, the August 21 execution, and the technology-only scope.
 - Signed Project 7508 documentation contains the same core inventory and late-August execution context.
 - No reviewed source states that either number replaced, superseded, merged with, or was incorrectly substituted for the other.
-- Jeff Parks' phone is also conflicted between 310-745-5800 and 310-745-5805; neither should be published until confirmed.
+- Jeff Parks' cell is confirmed as 615-400-9997 by Kelsey King on Aug 18; older conflicting numbers are superseded.
+
+## 2026-08-18 Client Logistics Confirmation
+
+- Kelsey King confirmed origin 777 S. Figueroa Street, Suite 2600 and destination 800 E. Colorado Boulevard, Suite 820.
+- All equipment will be disconnected, including monitors, but left at individual workstations.
+- Nothing will be consolidated into a staging area or bagged; the crew must gather and pack throughout the suite.
+- Both locations have loading docks and freight elevators; Kelsey supplied building maps.
+- Jeff Parks is day-of POC at 615-400-9997.
+- The 7376/7508 project-number conflict remains unresolved.
