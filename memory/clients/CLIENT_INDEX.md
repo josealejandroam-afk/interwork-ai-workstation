@@ -36,7 +36,7 @@ _Last updated: 2026-07-24_
 | Premier Orthopaedics | premier_orthopaedics/ | 7391 | 7391 = Multi-Phase Newtown Square PA. End date 7/7 (Storage Run leg TBD). |
 | Vecos / IU Health | vecos_iu_health/ | Unknown | Bloomington IN locker commissioning. Separate from Vecos JPMC. |
 | Tegna / Premion | tegna_premion/ | Unknown | No project number confirmed. |
-| Lincoln / CRC Group | lincoln_crc_group/ | 7246, 7537, 7549, 7588, 7597 | 7246 = no detail available. 7537 = Tampa Bayport Plaza move/decom. 7549 = Kensington Vanguard Indianapolis relocation. 7588 = Glen Allen VA move. 7597 = Louisville KY internal move + IT closet relocation. Note: separate from CRC Virginia Beach under MMC. |
+| Lincoln / CRC Group | lincoln_crc_group/ | 7246, 7537, 7549, 7588, 7597, 7647 | 7246 = no detail available. 7537 = Tampa Bayport Plaza move/decom. 7549 = Kensington Vanguard Indianapolis relocation. 7588 = Glen Allen VA move. 7597 = Louisville KY internal move + IT closet relocation. 7647 = Houston Post Oak partial relocation/decommission. Note: separate from CRC Virginia Beach under MMC. |
 | Teknion | teknion/ | 5156 | Historical project; low project number. |
 | Bevin Palidar | bevin_palidar/ | 7584 | Residential client. House move Clementon NJ → Tabernacle NJ, 7/2. New client 2026-06-30. |
 | Spryson | spryson/ | 7571 | Small move Pittsburgh PA. Pre-proposal stage. Contact: Erica Sinatra. Number confirmed via Smartsheet 2026-07-15. |
