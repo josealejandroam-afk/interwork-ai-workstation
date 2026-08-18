@@ -5,105 +5,135 @@
 | Field | Value |
 |---|---|
 | Project number | 7659 — confirmed by Alejandro on 2026-08-17 |
-| Client | Marsh & McLennan Agency (MMA) |
-| Project name | MMA Hattiesburg, MS — Furniture Relocation & Move |
-| Route | Metairie, LA to Hattiesburg, MS |
-| Type | Furniture relocation, office move and desktop IT setup |
-| Status | Active planning — schedule sequencing, addresses and final take-list need confirmation |
+| Client | Marsh McLennan Agency / McGriff |
+| Destination | 306 Chevy Chase Drive, Suite 120, Hattiesburg, MS |
+| Primary move date | **Thursday, September 10, 2026** |
+| Type | Multi-workstream furniture setup, relocation, office move and later decommission |
+| Status | Pre-execution / active planning |
+| Field PM | Not assigned |
+
+## Workstream 1 — Destination Furniture Setup
+
+The new Hattiesburg suite is undergoing paint, wall-covering, electrical and carpet-cleaning
+work. GC completion is targeted around August 31, 2026. InterWork should then set up furniture
+during the week of August 31, before the September 10 move.
+
+### Landlord-Provided Furniture Stored in the Building
+
+| Quantity | Item |
+|---:|---|
+| 14 | Private-office setups |
+| 18 | Allseating task chairs |
+| 14 | Conference-room chairs |
+| 10 | Cafe-style chairs |
+| 15 | Dual monitor arms |
+| TBD | Storage racks |
+
+The prior written scope listed 24 task chairs. Ivy Ringhoff revised the working requirement to
+18 based on the updated test fit.
+
+InterWork is expected to retrieve the furniture from an unfinished fourth-floor/storage area in
+the same building, move it into Suite 120, assemble/install it, place it according to the updated
+test fit and prepare the desks/workstations for desktop IT.
+
+Desktop IT equipment is already at the new suite. The client technology team—not InterWork—will
+install and commission desktop IT after furniture setup.
+
+## Workstream 2 — Metairie Furniture Transfer
+
+Selected reusable furniture will come from a McGriff/MMA location in Metairie, Louisiana. The
+street address and pickup date/time are not yet confirmed.
+
+### Current Working Take-List
+
+- Four workstations configured as a four-pack
+- One huddle-room table
+- Guest chairs for private offices — quantity TBD
+- Refrigerator
+- Coffee machine(s)
+- Water cooler
+- Two copy/print machines — Xerox scope
+
+The earlier plan for 10 workstations, a reception desk/reception furniture, three office tables
+and additional cafe/breakroom furniture is superseded and must not be used unless reconfirmed.
+
+For uncertain items, the onsite team should send photos or video-call Ketty Bencosme and Rob
+before loading. Do not automatically move every potentially reusable item.
+
+### Source-Entity Naming Caution
+
+Internal references alternate between "MMA Southwest" and "MMA Southeast." Neither is
+authoritative. Do not use either label operationally until the Metairie entity is verified.
+
+## Workstream 3 — New Furniture Procurement
+
+Current new-furniture needs:
+
+- Appropriately sized collaboration/conference table
+- Soft seating / sofa for the lobby
+- Room divider
+
+The existing approximately 10-person conference table is too large and should not be planned
+for reuse. New pieces are targeted onsite by September 10 if lead times allow.
+
+## Workstream 4 — September 10 Main Move
+
+The main Hattiesburg office move is confirmed for Thursday, September 10, 2026. Start time
+remains open. This is separate from the week-of-August-31 destination setup.
+
+InterWork scope includes:
+
+- Move remaining contents from the existing Hattiesburg office into Suite 120
+- Complete final placement
+- Protect, lift, transport and position the IT cabinet/rack, UPS and related equipment
+
+The client technology team, referred to as "Main Tech," is responsible for technical disconnect,
+reconnect and commissioning. InterWork is not responsible for technical disconnect/reconnect.
+
+## Workstream 5 — Existing Hattiesburg Suite Decommission
+
+The old-suite decommission is separate from the September 10 move. The client retains the suite
+through the end of October 2026, providing schedule flexibility.
+
+- Weekend following September 10: discussed only as a possible DCOM window
+- Around September 14: possible landlord walkthrough
+- Neither date is confirmed
+
+The existing office is inside a bank building. Weekend/after-hours access, doors, badges, codes,
+freight/loading procedures and building-management requirements must be confirmed.
+
+## Schedule
+
+| Timing | Activity | Confidence |
+|---|---|---|
+| By August 31 | Destination GC work complete | Target |
+| Week of August 31 | Destination furniture relocation/setup | Planned; confirm after GC completion |
+| After furniture setup | Client technology team installs desktop IT | Planned |
+| Before September 10 | Metairie pickup/transfer | Date TBD |
+| By September 10 | New furniture onsite | Target, subject to lead times |
+| **September 10** | **Main Hattiesburg office move** | **Confirmed date; start time open** |
+| After September 10 | Existing-suite decommission | Flexible; date TBD |
+| Around September 14 | Landlord walkthrough | Tentative |
+| End of October | Existing-suite availability ends | Client timeline |
 
 ## Contacts
 
-| Name | Role | Source |
+| Name | Role / Context | Confirmation Status |
 |---|---|---|
-| Rob Murphy | Appeared on prior MMA kickoff invitation; exact role still needs confirmation | August 7 kickoff invitation |
-| Amy Still | MMA client contact | August 7 kickoff invitation |
-| Ivy Ringhoff | LPC / move-management contact | August 4 kickoff email and August 7 call |
-| Ketty Bencosme | Client-side/LPC attendee; exact role needs confirmation | August 7 call |
-| Rob (surname not confirmed in transcript) | Client-side/LPC attendee; may be Rob Murphy, but identity and role need confirmation | August 7 call |
-| Jill Buchman | InterWork move-management kickoff organizer | August 7 kickoff invitation |
-| David Steinbrecher | InterWork participant | August 7 kickoff invitation |
+| Ivy Ringhoff | Primary planning/scope participant | Confirmed involvement |
+| Ketty Bencosme | Furniture/test-fit and scope review | Formal title needs confirmation |
+| Rob | Furniture reuse/procurement decisions | Full identity and formal title need confirmation |
+| David Steinbrecher | InterWork furniture sourcing/procurement | Confirmed involvement |
+| Jill Buchman | InterWork | Confirmed involvement |
+| Louisa Anderson | Building/landlord-side contact for old-suite DCOM | Apparent role; confirm |
+| Bill Doody | Transaction manager; building-management coordination | Confirmed context |
 
 Client email addresses are intentionally omitted from durable repo memory.
 
-## Timeline
-
-| Date | Event |
-|---|---|
-| 2026-08-04 | Ivy Ringhoff sent a furniture-relocation and move-scope kickoff email. |
-| 2026-08-07 | Jill Buchman sent the MMA Hattiesburg move-management kickoff invitation. |
-| 2026-08-07 | Kickoff call refined the furniture scope and discussed the week of August 31 and September 10 timing references. |
-| 2026-08-17 | Alejandro confirmed project number 7659. |
-
-## Confirmed Planning Sequence
-
-- Destination GC work—paint, wall covering, electrical and carpet shampoo—was targeted for
-  completion by August 31, 2026.
-- Furniture relocation and desktop IT installation were planned for the week of August 31,
-  ahead of the formal move.
-- A separate call reference described this as one of the September 10 moves, with a small
-  remaining scope involving an IT-room cabinet lift/shift, UPS and remaining items.
-
-## Schedule Conflict / Needs Reconciliation
-
-The relationship between the timing references remains unresolved:
-
-- Week of August 31: furniture relocation and desktop IT installation.
-- September 10: small-scope move reference involving the IT-room cabinet, UPS and remaining
-  items.
-- An older record also referenced September 11 decommission work; the August 7 transcript does
-  not confirm that date or decommission scope.
-
-Do not assume these are separate confirmed phases or collapse them into one date without
-follow-up.
-
-## Scope
-
-### Original Planning Scope
-
-- 10 workstations
-- 1 collaboration table
-- 1 reception desk and reception furniture
-- 3 office tables
-- Floor-plan legend headcount: 23
-
-### Revised Confirmed Take-List
-
-- One four-pack of workstations
-- One collaboration table
-
-### Pending Photo Review
-
-Reception furniture, breakroom/cafe tables, appliances and desk chairs remain undecided.
-Ketty Bencosme and Rob are to review photos of the Metairie suite and determine what is usable
-versus what should be purchased new.
-
-## Desktop IT
-
-- Desktop IT equipment has already been delivered to the new Hattiesburg suite.
-- The technology vendor, referred to in the call as "Main Tech," is expected to disconnect
-  equipment at the source.
-- InterWork will physically relocate the designated equipment and set it up at the destination.
-
-## Source-Site Naming Caution
-
-The source furniture is in an existing MMA suite in Metairie, Louisiana, approximately three to
-three-and-a-half hours from Hattiesburg. Ivy Ringhoff first called the entity "MMA Southwest"
-and then corrected herself to "MMA Southeast." Neither label is confirmed as authoritative;
-do not use either as the final source-entity name until verified.
-
-## Needs Confirmation
-
-- Authoritative schedule and whether the date references represent separate phases.
-- Exact origin and destination addresses.
-- Authoritative source-entity name for the Metairie suite.
-- Final furniture take-list after photo review.
-- Roles and identity details for Ketty Bencosme and Rob.
-- Field PM and execution team.
-
 ## Sources
 
-- Jill Buchman Teams message relayed by Alejandro on 2026-08-17.
-- Outlook kickoff search summarized on 2026-08-17.
-- Project number confirmed directly by Alejandro on 2026-08-17.
-- August 7, 2026 Zoom kickoff transcript supplied by Alejandro; transcript-derived facts were
-  not independently re-verified.
+- August 7, 2026 Zoom kickoff transcript and subsequent consolidated handoff supplied by
+  Alejandro.
+- Prior kickoff/search notes retained for history where they do not conflict with this newer
+  detailed scope.
+- Project number confirmed directly by Alejandro on August 17, 2026.
