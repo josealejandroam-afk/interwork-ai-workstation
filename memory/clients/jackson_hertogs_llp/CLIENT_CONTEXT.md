@@ -10,19 +10,24 @@ No InterWork project number has been confirmed. Do not assign or infer one.
 
 | # | Name | Location | Status | Notes |
 |---|---|---|---|---|
-| TBD | December 2026 Move | 909 Montgomery Street to 388 Market Street, San Francisco | Planning | Destination drawing identifies Suite 1460 on the 14th floor; client confirmation is still required. |
+| TBD | San Francisco Office Relocation + Decommission | 909 Montgomery Street to 388 Market Street, San Francisco | Planning / design development | Full origin inventory complete; Suite 1460 planning/layout and final reuse-versus-decommission split in progress. |
 
 ## Known Contacts
 
 | Name | Role | Contact details |
 |---|---|---|
-| Brooks | Client/project contact — exact role needs confirmation | Not recorded |
+| Brooks Paine | Contracts Manager; primary coordination contact | Direct 415-848-5516; main 415-986-4559 |
+| Lisa Gelardi | Human Resources Manager | Main 415-986-4559 |
+| Ryan Kenney | 388 Market Senior Manager; building/access coordination | 415-658-6929 |
 
 ## InterWork Team
 
 | Name | Role |
 |---|---|
 | Francisco Vinueza | Walkthrough and field-measurement coordination |
+| Jill Buchman | Primary client communication and project coordination |
+| Jairo Escalante | Follow-up measurements and inventory support |
+| David Steinbrecher | Earlier planning correspondence |
 
 ## Source Rule
 
@@ -33,4 +38,3 @@ No InterWork project number has been confirmed. Do not assign or infer one.
 ## How to Use This Folder
 
 Read `memory/company_knowledge/START_HERE.md`, then this file and the project files under `projects/unknown_december_2026_move/`.
-
