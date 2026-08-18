@@ -22,14 +22,22 @@ _Last updated: 2026-06-26 | Update as reliable information is learned_
 - **Title:** Operations Project Manager
 - **Email:** alejandroa@interworkoffice.com
 - **Personal email:** jose.alejandro.a.m@gmail.com
+- **Reports to:** Francisco Vinueza (Operations Manager)
 - **Role in system:** Primary operator. Project coordination. Final approval authority for all Claude actions that involve Supabase writes, status changes, client/vendor messages, or business commitments.
 - **When to involve:** Before any Supabase write, status change, confirmation boolean update, email or Teams send, pricing decision, or anything that commits InterWork to a date/scope/price.
 - **Notes:** Work communications via Outlook/M365 and Teams. Gmail (jose.alejandro.a.m@gmail.com) is personal only — no project data there. Primary point of contact for day-to-day AI operations engine decisions.
 
-### Hunter Barbieri
-- **Title:** Operations Project Manager
+### Scott
+- **Title:** Operations Project Coordinator
 - **Role:** Operations and project support. Scheduling, project coordination, Smartsheet and calendar entry support.
-- **Notes:** Handles project scheduling and coordination support. Peer to Alejandro on operations.
+- **Reports to:** Francisco Vinueza (Operations Manager)
+- **Notes:** Joining the operations team as an operations coordinator.
+
+### Matt
+- **Title:** Operations Project Coordinator
+- **Role:** Operations and project support. Scheduling, project coordination, Smartsheet and calendar entry support.
+- **Reports to:** Francisco Vinueza (Operations Manager)
+- **Notes:** Joining the operations team as an operations coordinator.
 
 ### Stephanie Sprinkel
 - **Title:** unknown — scheduling/project support
@@ -37,7 +45,9 @@ _Last updated: 2026-06-26 | Update as reliable information is learned_
 - **Notes:** Update role title when confirmed.
 
 ### Francisco Vinueza
-- **Role:** Operations Manager. Field leadership and project guidance. Escalation point for field issues.
+- **Role:** Operations Manager.
+- **Direct manager for:** Alejandro Acosta, Scott, and Matt.
+- **When to involve:** Primary escalation point for field issues, unresolved operational problems, and project guidance.
 - **Notes:** Senior operations oversight. Escalate unresolved field or vendor issues here.
 
 ### David Steinbrecher
@@ -61,7 +71,6 @@ Field PMs lead crews on-site. Include name, phone, and project associations as k
 | Christian Zuniga | (unknown) | unknown | PM — in team_members; no projects seen yet |
 | Oli Martinez | eunisesm@interworkoffice.com | unknown | PM — email address differs from display name; verify |
 | Eucladio Calero | (unknown) | unknown | PM — in team_members; no email on record |
-| Hunter Barbieri | hunterb@interworkoffice.com | unknown | PM — office assignee for 7189 MMC Bermuda |
 | Francisco Vinueza | franciscov@interworkoffice.com | 609-744-1467 | Operations Manager — PM for 7189 in Supabase |
 
 **Rules:**

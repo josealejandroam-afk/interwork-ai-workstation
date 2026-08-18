@@ -1,0 +1,347 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/bvt34u",
+    "id": "bvt34u",
+    "slide": 1,
+    "layoutId": "b3a6ec26-0da9-46e7-85bc-f5b25158fdd9",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "12857505-7417-4d23-a331-7c81a313ef1d",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "b3a6ec26-0da9-46e7-85bc-f5b25158fdd9",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "12857505-7417-4d23-a331-7c81a313ef1d",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "12857505-7417-4d23-a331-7c81a313ef1d",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/dcb2l0ve",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "alt": "InterWork Office Solutions visual reference cover",
+      "contentType": "image/png",
+      "imageFit": "cover",
+      "asset": {
+        "assetId": "dee79725-00bc-4587-b9e2-627671f66d8f",
+        "contentType": "image/png",
+        "byteLength": 745680
+      }
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zmdwjutc",
+      "id": "2",
+      "bbox": [
+        0,
+        530,
+        1280,
+        190
+      ],
+      "geometry": "rect",
+      "fillColor": "rgba(143, 42, 47, 0.8)",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yl4fapcr",
+      "id": "3",
+      "bbox": [
+        58,
+        548,
+        810,
+        62
+      ],
+      "geometry": "rect",
+      "text": "WELCOME, SCOTT + MATT",
+      "textPreview": "WELCOME, SCOTT + MATT",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "fontSize": 38,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "WELCOME, SCOTT + MATT"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "WELCOME, SCOTT + MATT",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "WELCOME, SCOTT + MATT",
+              "fontSize": 38,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x0vehkb6",
+      "id": "4",
+      "bbox": [
+        60,
+        610,
+        670,
+        36
+      ],
+      "geometry": "rect",
+      "text": "Operations Coordinator Onboarding",
+      "textPreview": "Operations Coordinator Onboarding",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Operations Coordinator Onboarding"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Operations Coordinator Onboarding",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Operations Coordinator Onboarding",
+              "fontSize": 22,
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/czmx8ful",
+      "id": "5",
+      "bbox": [
+        60,
+        653,
+        720,
+        30
+      ],
+      "geometry": "rect",
+      "text": "Learn the business. Master the workflow. Own the outcome.",
+      "textPreview": "Learn the business. Master the workflow. Own the outcome.",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#F2DCDD",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Learn the business. Master the workflow. Own the outcome."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Learn the business. Master the workflow. Own the outcome.",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#F2DCDD",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Learn the business. Master the workflow. Own the outcome.",
+              "fontSize": 17,
+              "color": "#F2DCDD",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bydwfat0",
+      "id": "6",
+      "bbox": [
+        1010,
+        615,
+        208,
+        30
+      ],
+      "geometry": "rect",
+      "text": "AUGUST 2026",
+      "textPreview": "AUGUST 2026",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AUGUST 2026"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AUGUST 2026",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AUGUST 2026",
+              "fontSize": 15,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

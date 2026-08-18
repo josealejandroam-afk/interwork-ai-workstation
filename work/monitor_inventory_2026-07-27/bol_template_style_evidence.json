@@ -1,0 +1,143 @@
+{
+  "input": "C:\\Users\\AlejandroAcosta\\OneDrive - Interwork Office Solutions\\Desktop\\Blank Interwork BOL -.docx",
+  "fonts_by_char_count": {},
+  "direct_run_formatting_runs": 30,
+  "direct_paragraph_formatting_paragraphs": 70,
+  "heading_like_paragraphs_not_heading_style": [
+    {
+      "para_index": 4,
+      "text": "Pick up",
+      "style": "Normal"
+    },
+    {
+      "para_index": 5,
+      "text": "Origin",
+      "style": "Normal"
+    },
+    {
+      "para_index": 6,
+      "text": "Claritev\n23322 Mill Creek Dr., Suite 200\nLaguna Hills, CA 92653",
+      "style": "Normal"
+    },
+    {
+      "para_index": 7,
+      "text": "Origin POC",
+      "style": "Normal"
+    },
+    {
+      "para_index": 8,
+      "text": "Signature & Date",
+      "style": "Normal"
+    },
+    {
+      "para_index": 12,
+      "text": "_____________________07/14/2026",
+      "style": "Normal"
+    },
+    {
+      "para_index": 13,
+      "text": "Deliver to",
+      "style": "Normal"
+    },
+    {
+      "para_index": 14,
+      "text": "Destination",
+      "style": "Normal"
+    },
+    {
+      "para_index": 17,
+      "text": "Destination POC",
+      "style": "Normal"
+    },
+    {
+      "para_index": 18,
+      "text": "Signature & Date",
+      "style": "Normal"
+    },
+    {
+      "para_index": 22,
+      "text": "_____________________0/0/2026",
+      "style": "Normal"
+    },
+    {
+      "para_index": 24,
+      "text": "ITEMS",
+      "style": "Normal"
+    },
+    {
+      "para_index": 25,
+      "text": "ITEMS",
+      "style": "Normal"
+    },
+    {
+      "para_index": 27,
+      "text": "Quantity",
+      "style": "Normal"
+    },
+    {
+      "para_index": 28,
+      "text": "Description",
+      "style": "Normal"
+    }
+  ],
+  "examples": {
+    "direct_paragraph_formatting": [
+      {
+        "para_index": 1,
+        "text": "",
+        "style": "Normal"
+      },
+      {
+        "para_index": 2,
+        "text": "",
+        "style": "Normal"
+      },
+      {
+        "para_index": 3,
+        "text": "",
+        "style": "Normal"
+      },
+      {
+        "para_index": 23,
+        "text": "",
+        "style": "Normal"
+      },
+      {
+        "para_index": 24,
+        "text": "ITEMS",
+        "style": "Normal"
+      }
+    ],
+    "direct_run_formatting": [
+      {
+        "para_index": 4,
+        "run_text": "Pick up",
+        "style": "Normal"
+      },
+      {
+        "para_index": 5,
+        "run_text": "Origin",
+        "style": "Normal"
+      },
+      {
+        "para_index": 6,
+        "run_text": "Claritev",
+        "style": "Normal"
+      },
+      {
+        "para_index": 7,
+        "run_text": "Origin POC",
+        "style": "Normal"
+      },
+      {
+        "para_index": 8,
+        "run_text": "Signature & Date",
+        "style": "Normal"
+      }
+    ]
+  },
+  "notes": [
+    "Direct formatting is not always wrong, but it often causes inconsistent output when templates change.",
+    "Heading-like paragraphs not using Heading styles can break TOC and accessibility."
+  ]
+}

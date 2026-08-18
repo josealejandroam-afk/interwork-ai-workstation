@@ -1,0 +1,447 @@
+{"kind":"deck","id":"pr/h24e0h","name":"Deck"}
+{"kind":"layout","layoutId":"c364608f-0e90-44ee-b82e-15ca19955c5c","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"1b6e2c6e-d8da-4f53-80a0-9bbea08c1584","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/56ez58","slide":1,"title":"WELCOME, SCOTT + MATT","textShapes":4}
+{"kind":"shape","id":"sh/ulovqd4j","slide":1,"bbox":[0,530,1280,190]}
+{"kind":"textbox","id":"sh/vmxwjy5o","slide":1,"text":"WELCOME, SCOTT + MATT","textPreview":"WELCOME, SCOTT + MATT","textChars":21,"textLines":1,"bbox":[58,548,810,62]}
+{"kind":"textbox","id":"sh/4rqdwnml","slide":1,"text":"Operations Coordinator Onboarding","textPreview":"Operations Coordinator Onboarding","textChars":33,"textLines":1,"bbox":[60,610,670,36]}
+{"kind":"textbox","id":"sh/5szepsn6","slide":1,"text":"Learn the business. Master the workflow. Own the outcome.","textPreview":"Learn the business. Master the workflow. Own the outcome.","textChars":57,"textLines":1,"bbox":[60,653,720,30]}
+{"kind":"textbox","id":"sh/ip8vud4f","slide":1,"text":"AUGUST 2026","textPreview":"AUGUST 2026","textChars":11,"textLines":1,"bbox":[1010,615,208,30]}
+{"kind":"image","id":"im/grqdcnih","slide":1,"name":"","alt":"InterWork Office Solutions visual reference cover","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/56ez58","slide":1,"text":"Welcome Scott and Matt and explain that this is a practical introduction to how InterWork operates.\nSet the expectation: business and workflow come before systems and AI.\n\n[Sources]\n- User-provided visual reference: AtlantaProject_Presentation (4).pdf, slide 1.\n- C:/Users/AlejandroAcosta/Documents/ai-workstation/docs/onboarding/operations_coordinator/README.md"}
+{"kind":"slide","id":"sl/ak1u2n","slide":2,"title":"WE MAKE WORKPLACE","textShapes":13}
+{"kind":"shape","id":"sh/jq5s3ihk","slide":2,"bbox":[0,0,520,720]}
+{"kind":"textbox","id":"sh/ipwrudgz","slide":2,"text":"WE MAKE WORKPLACE\nCHANGE HAPPEN","textPreview":"WE MAKE WORKPLACE | CHANGE HAPPEN","textChars":31,"textLines":2,"bbox":[56,74,430,126]}
+{"kind":"textbox","id":"sh/xona18ze","slide":2,"text":"From planning to closeout, InterWork coordinates the people, places and details that keep projects moving.","textPreview":"From planning to closeout, InterWork coordinates the people, places and details that keep projects moving.","textChars":106,"textLines":1,"bbox":[58,221,405,94]}
+{"kind":"textbox","id":"sh/wne9s3yt","slide":2,"text":"MOVE","textPreview":"MOVE","textChars":4,"textLines":1,"bbox":[60,350,140,28]}
+{"kind":"textbox","id":"sh/b25szyh8","slide":2,"text":"Relocations + restacks","textPreview":"Relocations + restacks","textChars":22,"textLines":1,"bbox":[206,350,250,28]}
+{"kind":"textbox","id":"sh/a1wrqtgn","slide":2,"text":"REMOVE","textPreview":"REMOVE","textChars":6,"textLines":1,"bbox":[60,415,140,28]}
+{"kind":"textbox","id":"sh/90nax8zi","slide":2,"text":"Decommissions + disposal","textPreview":"Decommissions + disposal","textChars":24,"textLines":1,"bbox":[206,415,250,28]}
+{"kind":"textbox","id":"sh/oze9o3yx","slide":2,"text":"INSTALL","textPreview":"INSTALL","textChars":7,"textLines":1,"bbox":[60,480,140,28]}
+{"kind":"textbox","id":"sh/alk369wr","slide":2,"text":"Furniture + service calls","textPreview":"Furniture + service calls","textChars":25,"textLines":1,"bbox":[206,480,250,28]}
+{"kind":"textbox","id":"sh/vmtkzexc","slide":2,"text":"REPORT","textPreview":"REPORT","textChars":6,"textLines":1,"bbox":[60,545,140,28]}
+{"kind":"textbox","id":"sh/wn2l8jex","slide":2,"text":"Field evidence + closeout","textPreview":"Field evidence + closeout","textChars":25,"textLines":1,"bbox":[206,545,250,28]}
+{"kind":"textbox","id":"sh/hob21ofi","slide":2,"text":"» INTERWORK  OFFICE SOLUTIONS","textPreview":"» INTERWORK  OFFICE SOLUTIONS","textChars":29,"textLines":1,"bbox":[44,674,360,22]}
+{"kind":"textbox","id":"sh/mxk329wv","slide":2,"text":"THE COMPANY","textPreview":"THE COMPANY","textChars":11,"textLines":1,"bbox":[936,674,250,22]}
+{"kind":"textbox","id":"sh/nitkvexg","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1190,674,44,22]}
+{"kind":"image","id":"im/psrydkba","slide":2,"name":"","alt":"InterWork project coordination and field execution","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/ak1u2n","slide":2,"text":"Describe InterWork as a commercial furniture moving, installation and project-coordination company.\nExplain that clients are usually facilities and real-estate teams managing workplace change.\nUse one personal example of a project that went well because coordination was strong.\n\n[Sources]\n- C:/Users/AlejandroAcosta/Documents/ai-workstation/docs/onboarding/operations_coordinator/01_MODULE1_INTERWORK_FUNDAMENTALS.md\n- AI-generated visual created for this deck; no external visual source."}
+{"kind":"slide","id":"sl/nl4asa","slide":3,"title":"EVERY PROJECT IS A TEAM SPORT","textShapes":25}
+{"kind":"shape","id":"sh/hk3mdwvq","slide":3,"bbox":[-20,0,2,720]}
+{"kind":"shape","id":"sh/uhcnihcz","slide":3,"bbox":[85,0,2,720]}
+{"kind":"shape","id":"sh/vil4bmdk","slide":3,"bbox":[190,0,2,720]}
+{"kind":"shape","id":"sh/4nu5oru1","slide":3,"bbox":[295,0,2,720]}
+{"kind":"shape","id":"sh/5o3mhwvm","slide":3,"bbox":[400,0,2,720]}
+{"kind":"shape","id":"sh/ilcnmhcb","slide":3,"bbox":[505,0,2,720]}
+{"kind":"shape","id":"sh/jml4fmdw","slide":3,"bbox":[610,0,2,720]}
+{"kind":"shape","id":"sh/sre5sbud","slide":3,"bbox":[715,0,2,720]}
+{"kind":"shape","id":"sh/dcn6lgvy","slide":3,"bbox":[820,0,2,720]}
+{"kind":"shape","id":"sh/xwjadwjq","slide":3,"bbox":[925,0,2,720]}
+{"kind":"shape","id":"sh/wvat4bi5","slide":3,"bbox":[1030,0,2,720]}
+{"kind":"shape","id":"sh/bu1sb61k","slide":3,"bbox":[1135,0,2,720]}
+{"kind":"shape","id":"sh/atsb210z","slide":3,"bbox":[1240,0,2,720]}
+{"kind":"shape","id":"sh/l03uhgjm","slide":3,"bbox":[1345,0,2,720]}
+{"kind":"shape","id":"sh/kzut8bi1","slide":3,"bbox":[0,-30,1280,2]}
+{"kind":"shape","id":"sh/jy1sf61g","slide":3,"bbox":[0,52,1280,2]}
+{"kind":"shape","id":"sh/yxsb610b","slide":3,"bbox":[0,134,1280,2]}
+{"kind":"shape","id":"sh/14za5cji","slide":3,"bbox":[0,216,1280,2]}
+{"kind":"shape","id":"sh/03qtw7ix","slide":3,"bbox":[0,298,1280,2]}
+{"kind":"shape","id":"sh/s7utsrqt","slide":3,"bbox":[0,380,1280,2]}
+{"kind":"shape","id":"sh/d83alwre","slide":3,"bbox":[0,462,1280,2]}
+{"kind":"shape","id":"sh/q5cbqhsn","slide":3,"bbox":[0,544,1280,2]}
+{"kind":"shape","id":"sh/r6lsjm98","slide":3,"bbox":[0,626,1280,2]}
+{"kind":"shape","id":"sh/0butwrqp","slide":3,"bbox":[0,708,1280,2]}
+{"kind":"textbox","id":"sh/1c3upwra","slide":3,"text":"EVERY PROJECT IS A TEAM SPORT","textPreview":"EVERY PROJECT IS A TEAM SPORT","textChars":29,"textLines":1,"bbox":[54,42,900,58]}
+{"kind":"textbox","id":"sh/e9cbuh8z","slide":3,"text":"Clear ownership keeps information, commitments and field execution aligned.","textPreview":"Clear ownership keeps information, commitments and field execution aligned.","textChars":75,"textLines":1,"bbox":[56,100,910,38]}
+{"kind":"shape","id":"sh/falcnm94","slide":3,"bbox":[118,331,1044,8]}
+{"kind":"shape","id":"sh/ofet0bq1","slide":3,"bbox":[232,225,3,110]}
+{"kind":"shape","id":"sh/pgnutgrm","slide":3,"bbox":[432,225,3,110]}
+{"kind":"shape","id":"sh/zapwjato","slide":3,"bbox":[632,225,3,110]}
+{"kind":"shape","id":"sh/y9gvq5s3","slide":3,"bbox":[832,225,3,110]}
+{"kind":"shape","id":"sh/lwrel0bu","slide":3,"bbox":[1032,225,3,110]}
+{"kind":"shape","id":"sh/kvydsfa9","slide":3,"bbox":[546,270,188,188]}
+{"kind":"textbox","id":"sh/b6pwfqtc","slide":3,"text":"PROJECT","textPreview":"PROJECT","textChars":7,"textLines":1,"bbox":[560,307,160,32]}
+{"kind":"textbox","id":"sh/a5gvmls7","slide":3,"text":"#","textPreview":"#","textChars":1,"textLines":1,"bbox":[560,344,160,52]}
+{"kind":"textbox","id":"sh/x87eh0bi","slide":3,"text":"one shared identifier","textPreview":"one shared identifier","textChars":21,"textLines":1,"bbox":[560,402,160,24]}
+{"kind":"shape","id":"sh/c7ydovax","slide":3,"bbox":[172,168,120,120]}
+{"kind":"textbox","id":"sh/v29wrutw","slide":3,"text":"AM","textPreview":"AM","textChars":2,"textLines":1,"bbox":[172,192,120,38]}
+{"kind":"textbox","id":"sh/u10fypsb","slide":3,"text":"Account Manager","textPreview":"Account Manager","textChars":15,"textLines":1,"bbox":[134,300,196,28]}
+{"kind":"textbox","id":"sh/29gzm98f","slide":3,"text":"Quote + client relationship","textPreview":"Quote + client relationship","textChars":27,"textLines":1,"bbox":[110,329,244,40]}
+{"kind":"shape","id":"sh/3a90fep0","slide":3,"bbox":[372,168,120,120]}
+{"kind":"textbox","id":"sh/4bihojql","slide":3,"text":"OP","textPreview":"OP","textChars":2,"textLines":1,"bbox":[372,192,120,38]}
+{"kind":"textbox","id":"sh/pcriho76","slide":3,"text":"Office PM","textPreview":"Office PM","textChars":9,"textLines":1,"bbox":[334,300,196,28]}
+{"kind":"textbox","id":"sh/ulgzi98j","slide":3,"text":"Schedule + coordination","textPreview":"Schedule + coordination","textChars":23,"textLines":1,"bbox":[310,329,244,40]}
+{"kind":"shape","id":"sh/vmp0bep4","slide":3,"bbox":[772,168,120,120]}
+{"kind":"textbox","id":"sh/gnyhkjqp","slide":3,"text":"FP","textPreview":"FP","textChars":2,"textLines":1,"bbox":[772,192,120,38]}
+{"kind":"textbox","id":"sh/h87ido7u","slide":3,"text":"Field PM","textPreview":"Field PM","textChars":8,"textLines":1,"bbox":[734,300,196,28]}
+{"kind":"textbox","id":"sh/eh0juton","slide":3,"text":"On-site execution","textPreview":"On-site execution","textChars":17,"textLines":1,"bbox":[710,329,244,40]}
+{"kind":"shape","id":"sh/zit0nyp8","slide":3,"bbox":[972,168,120,120]}
+{"kind":"textbox","id":"sh/9cv2tsra","slide":3,"text":"POC","textPreview":"POC","textChars":3,"textLines":1,"bbox":[972,192,120,38]}
+{"kind":"textbox","id":"sh/obmlk7ap","slide":3,"text":"Client / Building","textPreview":"Client / Building","textChars":17,"textLines":1,"bbox":[934,300,196,28]}
+{"kind":"textbox","id":"sh/nadkr29k","slide":3,"text":"Access + decisions","textPreview":"Access + decisions","textChars":18,"textLines":1,"bbox":[910,329,244,40]}
+{"kind":"shape","id":"sh/m9k3ixsz","slide":3,"bbox":[572,486,120,120]}
+{"kind":"textbox","id":"sh/18b2psre","slide":3,"text":"TEAM","textPreview":"TEAM","textChars":4,"textLines":1,"bbox":[572,510,120,38]}
+{"kind":"textbox","id":"sh/072lgnat","slide":3,"text":"Crew / Partner","textPreview":"Crew / Partner","textChars":14,"textLines":1,"bbox":[534,618,196,28]}
+{"kind":"textbox","id":"sh/z6tkni98","slide":3,"text":"Physical work + evidence","textPreview":"Physical work + evidence","textChars":24,"textLines":1,"bbox":[510,647,244,40]}
+{"kind":"textbox","id":"sh/e5k3edsn","slide":3,"text":"SCOTT + MATT: OPERATIONS","textPreview":"SCOTT + MATT: OPERATIONS","textChars":24,"textLines":1,"bbox":[300,577,300,24]}
+{"kind":"textbox","id":"sh/l4fm1wri","slide":3,"text":"FRANCISCO: FIELD ESCALATION","textPreview":"FRANCISCO: FIELD ESCALATION","textChars":27,"textLines":1,"bbox":[699,577,300,24]}
+{"kind":"textbox","id":"sh/k36lsrqx","slide":3,"text":"» INTERWORK  OFFICE SOLUTIONS","textPreview":"» INTERWORK  OFFICE SOLUTIONS","textChars":29,"textLines":1,"bbox":[44,674,360,22]}
+{"kind":"textbox","id":"sh/4jydkf2l","slide":3,"text":"WHO IS WHO","textPreview":"WHO IS WHO","textChars":10,"textLines":1,"bbox":[936,674,250,22]}
+{"kind":"textbox","id":"sh/pk7edk36","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1190,674,44,22]}
+{"kind":"notes","id":"nt/nl4asa","slide":3,"text":"Explain each role using a current project example.\nAccount Manager owns the quote and client relationship. Office PM owns administrative coordination. Field PM leads execution.\nClient and building contacts may be different people. Crew or vendor details remain internal in client-facing communication.\nThe project number connects every role and every source.\n\n[Sources]\n- C:/Users/AlejandroAcosta/Documents/ai-workstation/docs/onboarding/operations_coordinator/01_MODULE1_INTERWORK_FUNDAMENTALS.md\n- C:/Users/AlejandroAcosta/Documents/ai-workstation/memory/references/interwork_people_map.md"}
+{"kind":"slide","id":"sl/yese6f","slide":4,"title":"ONE PROJECT NUMBER. SIX CONTROL POINTS.","textShapes":24}
+{"kind":"shape","id":"sh/w32l83m1","slide":4,"bbox":[-20,0,2,720]}
+{"kind":"shape","id":"sh/v2tkzylg","slide":4,"bbox":[85,0,2,720]}
+{"kind":"shape","id":"sh/u1036t4v","slide":4,"bbox":[190,0,2,720]}
+{"kind":"shape","id":"sh/5sb25s3i","slide":4,"bbox":[295,0,2,720]}
+{"kind":"shape","id":"sh/4r2lcnmd","slide":4,"bbox":[400,0,2,720]}
+{"kind":"shape","id":"sh/jqtk3ils","slide":4,"bbox":[505,0,2,720]}
+{"kind":"shape","id":"sh/ipk3ad47","slide":4,"bbox":[610,0,2,720]}
+{"kind":"shape","id":"sh/lwr29o3e","slide":4,"bbox":[715,0,2,720]}
+{"kind":"shape","id":"sh/0vi10jmt","slide":4,"bbox":[820,0,2,720]}
+{"kind":"shape","id":"sh/mdo7ypsn","slide":4,"bbox":[925,0,2,720]}
+{"kind":"shape","id":"sh/7ex8ru98","slide":4,"bbox":[1030,0,2,720]}
+{"kind":"shape","id":"sh/8f6p0zat","slide":4,"bbox":[1135,0,2,720]}
+{"kind":"shape","id":"sh/9gfqt4re","slide":4,"bbox":[1240,0,2,720]}
+{"kind":"shape","id":"sh/uho729sz","slide":4,"bbox":[1345,0,2,720]}
+{"kind":"shape","id":"sh/vih8ve9k","slide":4,"bbox":[0,-30,1280,2]}
+{"kind":"shape","id":"sh/wjqp4za5","slide":4,"bbox":[0,52,1280,2]}
+{"kind":"shape","id":"sh/h4zqx4ra","slide":4,"bbox":[0,134,1280,2]}
+{"kind":"shape","id":"sh/i58r69sv","slide":4,"bbox":[0,216,1280,2]}
+{"kind":"shape","id":"sh/j6h8ze9g","slide":4,"bbox":[0,298,1280,2]}
+{"kind":"shape","id":"sh/fa1onepo","slide":4,"bbox":[0,380,1280,2]}
+{"kind":"shape","id":"sh/e987e9o3","slide":4,"bbox":[0,462,1280,2]}
+{"kind":"shape","id":"sh/1cj6po7u","slide":4,"bbox":[0,544,1280,2]}
+{"kind":"shape","id":"sh/gbapgj69","slide":4,"bbox":[0,626,1280,2]}
+{"kind":"shape","id":"sh/r6hojepc","slide":4,"bbox":[0,708,1280,2]}
+{"kind":"textbox","id":"sh/6l87a9o7","slide":4,"text":"ONE PROJECT NUMBER. SIX CONTROL POINTS.","textPreview":"ONE PROJECT NUMBER. SIX CONTROL POINTS.","textChars":39,"textLines":1,"bbox":[54,42,900,58]}
+{"kind":"textbox","id":"sh/t8z6l47i","slide":4,"text":"The workflow protects the client experience before, during and after execution.","textPreview":"The workflow protects the client experience before, during and after execution.","textChars":79,"textLines":1,"bbox":[56,100,910,38]}
+{"kind":"shape","id":"sh/s7qpcj6x","slide":4,"bbox":[198,324,56,48]}
+{"kind":"shape","id":"sh/jihofupg","slide":4,"bbox":[403,324,56,48]}
+{"kind":"shape","id":"sh/iho76p8v","slide":4,"bbox":[608,324,56,48]}
+{"kind":"shape","id":"sh/8nmlgvmt","slide":4,"bbox":[813,324,56,48]}
+{"kind":"shape","id":"sh/9ovmp0ne","slide":4,"bbox":[1018,324,56,48]}
+{"kind":"shape","id":"sh/ml43el4n","slide":4,"bbox":[50,246,156,156]}
+{"kind":"textbox","id":"sh/7md4nq58","slide":4,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[50,267,156,36]}
+{"kind":"textbox","id":"sh/wr65kfmp","slide":4,"text":"QUOTE","textPreview":"QUOTE","textChars":5,"textLines":1,"bbox":[50,315,156,34]}
+{"kind":"textbox","id":"sh/hcfmtkna","slide":4,"text":"Scope + project number","textPreview":"Scope + project number","textChars":22,"textLines":1,"bbox":[36,417,184,48]}
+{"kind":"shape","id":"sh/up43i54z","slide":4,"bbox":[255,246,156,156]}
+{"kind":"textbox","id":"sh/vqx4ra54","slide":4,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[255,267,156,36]}
+{"kind":"textbox","id":"sh/cv2l8b6l","slide":4,"text":"SCHEDULE","textPreview":"SCHEDULE","textChars":8,"textLines":1,"bbox":[255,315,156,34]}
+{"kind":"textbox","id":"sh/xgbmhgn6","slide":4,"text":"Calendar + record","textPreview":"Calendar + record","textChars":17,"textLines":1,"bbox":[241,417,184,48]}
+{"kind":"shape","id":"sh/5cnehgna","slide":4,"bbox":[460,246,156,156]}
+{"kind":"textbox","id":"sh/4bedob6p","slide":4,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[460,267,156,36]}
+{"kind":"textbox","id":"sh/3a5wf65k","slide":4,"text":"ASSIGN","textPreview":"ASSIGN","textChars":6,"textLines":1,"bbox":[460,315,156,34]}
+{"kind":"textbox","id":"sh/i9wvm1oz","slide":4,"text":"Office PM + field team","textPreview":"Office PM + field team","textChars":22,"textLines":1,"bbox":[446,417,184,48]}
+{"kind":"shape","id":"sh/h8nedwne","slide":4,"bbox":[665,246,156,156]}
+{"kind":"textbox","id":"sh/gnedkb6t","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[665,267,156,36]}
+{"kind":"textbox","id":"sh/vmlcb658","slide":4,"text":"CONFIRM","textPreview":"CONFIRM","textChars":7,"textLines":1,"bbox":[665,315,156,34]}
+{"kind":"textbox","id":"sh/ulcvi1on","slide":4,"text":"Client + access + crew","textPreview":"Client + access + crew","textChars":22,"textLines":1,"bbox":[651,417,184,48]}
+{"kind":"shape","id":"sh/tk3u9wn2","slide":4,"bbox":[870,246,156,156]}
+{"kind":"textbox","id":"sh/8judgr6x","slide":4,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[870,267,156,36]}
+{"kind":"textbox","id":"sh/ypsbax4f","slide":4,"text":"EXECUTE","textPreview":"EXECUTE","textChars":7,"textLines":1,"bbox":[870,315,156,34]}
+{"kind":"textbox","id":"sh/jq1sj2l0","slide":4,"text":"Field PM + FastField","textPreview":"Field PM + FastField","textChars":20,"textLines":1,"bbox":[856,417,184,48]}
+{"kind":"shape","id":"sh/kratc7ml","slide":4,"bbox":[1075,246,156,156]}
+{"kind":"textbox","id":"sh/lsjalc36","slide":4,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1075,267,156,36]}
+{"kind":"textbox","id":"sh/al8b6d4j","slide":4,"text":"CLOSE","textPreview":"CLOSE","textChars":5,"textLines":1,"bbox":[1075,315,156,34]}
+{"kind":"textbox","id":"sh/bmhsfil4","slide":4,"text":"WC report + completion","textPreview":"WC report + completion","textChars":22,"textLines":1,"bbox":[1061,417,184,48]}
+{"kind":"textbox","id":"sh/wnqt8nmp","slide":4,"text":"CONFIRMED FACTS MOVE FORWARD. OPEN QUESTIONS STAY VISIBLE.","textPreview":"CONFIRMED FACTS MOVE FORWARD. OPEN QUESTIONS STAY VISIBLE.","textChars":58,"textLines":1,"bbox":[178,529,924,42]}
+{"kind":"textbox","id":"sh/xojahs3u","slide":4,"text":"» INTERWORK  OFFICE SOLUTIONS","textPreview":"» INTERWORK  OFFICE SOLUTIONS","textChars":29,"textLines":1,"bbox":[44,674,360,22]}
+{"kind":"textbox","id":"sh/2x8rid47","slide":4,"text":"THE WORKFLOW","textPreview":"THE WORKFLOW","textChars":12,"textLines":1,"bbox":[936,674,250,22]}
+{"kind":"textbox","id":"sh/nihsbils","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1190,674,44,22]}
+{"kind":"notes","id":"nt/yese6f","slide":4,"text":"Walk through the six stages in order.\nEmphasize that scheduled does not mean fully confirmed.\nFastField is submitted by the field PM after execution. Closeout includes the work-completion report and completion communication.\n\n[Sources]\n- C:/Users/AlejandroAcosta/Documents/ai-workstation/docs/onboarding/operations_coordinator/02_MODULE2_PROJECT_LIFECYCLE_AND_EXAMPLES.md\n- C:/Users/AlejandroAcosta/Documents/ai-workstation/memory/company_knowledge/OPERATING_WORKFLOW.md"}
+{"kind":"slide","id":"sl/rn3bnu","slide":5,"title":"THE WORK CHANGES. THE COORDINATION DISCIPLINE DOESN'T.","textShapes":18}
+{"kind":"shape","id":"sh/6honydcb","slide":5,"bbox":[-20,0,2,720]}
+{"kind":"shape","id":"sh/tkz6tsv2","slide":5,"bbox":[85,0,2,720]}
+{"kind":"shape","id":"sh/8jq50nuh","slide":5,"bbox":[190,0,2,720]}
+{"kind":"shape","id":"sh/vmhov2ds","slide":5,"bbox":[295,0,2,720]}
+{"kind":"shape","id":"sh/ul8n2xcn","slide":5,"bbox":[400,0,2,720]}
+{"kind":"shape","id":"sh/hoz6xsvy","slide":5,"bbox":[505,0,2,720]}
+{"kind":"shape","id":"sh/gnq547ud","slide":5,"bbox":[610,0,2,720]}
+{"kind":"shape","id":"sh/3q1oz2d4","slide":5,"bbox":[715,0,2,720]}
+{"kind":"shape","id":"sh/ip8n6xcj","slide":5,"bbox":[820,0,2,720]}
+{"kind":"shape","id":"sh/szipwrqd","slide":5,"bbox":[925,0,2,720]}
+{"kind":"shape","id":"sh/tkr65w7y","slide":5,"bbox":[1030,0,2,720]}
+{"kind":"shape","id":"sh/6x07uh8n","slide":5,"bbox":[1135,0,2,720]}
+{"kind":"shape","id":"sh/7y9o3mp8","slide":5,"bbox":[1240,0,2,720]}
+{"kind":"shape","id":"sh/gn2p0bqp","slide":5,"bbox":[1345,0,2,720]}
+{"kind":"shape","id":"sh/hob69g7a","slide":5,"bbox":[0,-30,1280,2]}
+{"kind":"shape","id":"sh/ul07y18j","slide":5,"bbox":[0,52,1280,2]}
+{"kind":"shape","id":"sh/fm9o76p4","slide":5,"bbox":[0,134,1280,2]}
+{"kind":"shape","id":"sh/4r2p4bql","slide":5,"bbox":[0,216,1280,2]}
+{"kind":"shape","id":"sh/psbqdg76","slide":5,"bbox":[0,298,1280,2]}
+{"kind":"shape","id":"sh/d876xgza","slide":5,"bbox":[0,380,1280,2]}
+{"kind":"shape","id":"sh/c7ypobip","slide":5,"bbox":[0,462,1280,2]}
+{"kind":"shape","id":"sh/b6pov6hk","slide":5,"bbox":[0,544,1280,2]}
+{"kind":"shape","id":"sh/q5g7m10z","slide":5,"bbox":[0,626,1280,2]}
+{"kind":"shape","id":"sh/lcr61gzm","slide":5,"bbox":[0,708,1280,2]}
+{"kind":"textbox","id":"sh/0bipsvy1","slide":5,"text":"THE WORK CHANGES. THE COORDINATION DISCIPLINE DOESN'T.","textPreview":"THE WORK CHANGES. THE COORDINATION DISCIPLINE DOESN'T.","textChars":54,"textLines":1,"bbox":[54,42,900,58]}
+{"kind":"textbox","id":"sh/za9ozqhg","slide":5,"text":"Four project types show the range Scott and Matt will learn to manage.","textPreview":"Four project types show the range Scott and Matt will learn to manage.","textChars":70,"textLines":1,"bbox":[56,100,910,38]}
+{"kind":"shape","id":"sh/1gn6pwz2","slide":5,"bbox":[46,447,282,88]}
+{"kind":"textbox","id":"sh/gfe5grix","slide":5,"text":"DECOMMISSION","textPreview":"DECOMMISSION","textChars":12,"textLines":1,"bbox":[64,465,214,26]}
+{"kind":"textbox","id":"sh/6lc3qxgf","slide":5,"text":"Remove + recycle","textPreview":"Remove + recycle","textChars":16,"textLines":1,"bbox":[64,497,210,22]}
+{"kind":"textbox","id":"sh/rml4j2x0","slide":5,"text":"#7492","textPreview":"#7492","textChars":5,"textLines":1,"bbox":[260,480,54,26]}
+{"kind":"shape","id":"sh/to3mlcf6","slide":5,"bbox":[348,447,282,88]}
+{"kind":"textbox","id":"sh/epc3uxgr","slide":5,"text":"RELOCATION","textPreview":"RELOCATION","textChars":10,"textLines":1,"bbox":[366,465,214,26]}
+{"kind":"textbox","id":"sh/fq54n2xc","slide":5,"text":"Move + reinstall","textPreview":"Move + reinstall","textChars":16,"textLines":1,"bbox":[366,497,210,22]}
+{"kind":"textbox","id":"sh/gbelw7yh","slide":5,"text":"#7350","textPreview":"#7350","textChars":5,"textLines":1,"bbox":[562,480,54,26]}
+{"kind":"shape","id":"sh/ats3idg7","slide":5,"bbox":[650,447,282,88]}
+{"kind":"textbox","id":"sh/vu14bixs","slide":5,"text":"E-WASTE","textPreview":"E-WASTE","textChars":7,"textLines":1,"bbox":[668,465,214,26]}
+{"kind":"textbox","id":"sh/by9szalk","slide":5,"text":"Sort + dispose","textPreview":"Sort + dispose","textChars":14,"textLines":1,"bbox":[668,497,210,22]}
+{"kind":"textbox","id":"sh/qx0bq54z","slide":5,"text":"#7594","textPreview":"#7594","textChars":5,"textLines":1,"bbox":[864,480,54,26]}
+{"kind":"shape","id":"sh/czitsfm5","slide":5,"bbox":[952,447,282,88]}
+{"kind":"textbox","id":"sh/z2ts3alg","slide":5,"text":"INSTALLATION","textPreview":"INSTALLATION","textChars":12,"textLines":1,"bbox":[970,465,214,26]}
+{"kind":"textbox","id":"sh/y10bup4v","slide":5,"text":"Deliver + complete","textPreview":"Deliver + complete","textChars":18,"textLines":1,"bbox":[970,497,210,22]}
+{"kind":"textbox","id":"sh/l4ba5k3m","slide":5,"text":"#7547","textPreview":"#7547","textChars":5,"textLines":1,"bbox":[1166,480,54,26]}
+{"kind":"textbox","id":"sh/032twfm1","slide":5,"text":"Different scope. Same habits: verify • confirm • communicate • document","textPreview":"Different scope. Same habits: verify • confirm • communicate • document","textChars":71,"textLines":1,"bbox":[117,576,1046,38]}
+{"kind":"textbox","id":"sh/n6ts7uls","slide":5,"text":"» INTERWORK  OFFICE SOLUTIONS","textPreview":"» INTERWORK  OFFICE SOLUTIONS","textChars":29,"textLines":1,"bbox":[44,674,360,22]}
+{"kind":"textbox","id":"sh/m5kbyp47","slide":5,"text":"PROJECT EXAMPLES","textPreview":"PROJECT EXAMPLES","textChars":16,"textLines":1,"bbox":[936,674,250,22]}
+{"kind":"textbox","id":"sh/kvm9ozi5","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1190,674,44,22]}
+{"kind":"image","id":"im/x8bap4n6","slide":5,"name":"","geometry":"roundRect","alt":"DECOMMISSION","bbox":[46,165,282,370]}
+{"kind":"image","id":"im/72xcfyp8","slide":5,"name":"","geometry":"roundRect","alt":"RELOCATION","bbox":[348,165,282,370]}
+{"kind":"image","id":"im/u5ovqtoz","slide":5,"name":"","geometry":"roundRect","alt":"E-WASTE","bbox":[650,165,282,370]}
+{"kind":"image","id":"im/yhcn21cf","slide":5,"name":"","geometry":"roundRect","alt":"INSTALLATION","bbox":[952,165,282,370]}
+{"kind":"notes","id":"nt/rn3bnu","slide":5,"text":"Use the four examples as short stories, not detailed case studies.\nCall out one coordination judgment from each: separate internal issues from client communication; use the latest confirmed scope; keep excluded scope excluded; resolve drawing/access discrepancies before field work.\n\n[Sources]\n- C:/Users/AlejandroAcosta/Documents/ai-workstation/docs/onboarding/operations_coordinator/02_MODULE2_PROJECT_LIFECYCLE_AND_EXAMPLES.md\n- AI-generated project collage created for this deck; no external visual source."}
+{"kind":"slide","id":"sl/6wyhz7","slide":6,"title":"EACH SYSTEM HAS ONE CLEAR JOB","textShapes":27}
+{"kind":"shape","id":"sh/t8r6twfm","slide":6,"bbox":[-20,0,2,720]}
+{"kind":"shape","id":"sh/65gnyhgb","slide":6,"bbox":[85,0,2,720]}
+{"kind":"shape","id":"sh/76pormxg","slide":6,"bbox":[190,0,2,720]}
+{"kind":"shape","id":"sh/k3y5w7y5","slide":6,"bbox":[295,0,2,720]}
+{"kind":"shape","id":"sh/l476pcfq","slide":6,"bbox":[400,0,2,720]}
+{"kind":"shape","id":"sh/y1gnuxgz","slide":6,"bbox":[505,0,2,720]}
+{"kind":"shape","id":"sh/j2pon2hk","slide":6,"bbox":[610,0,2,720]}
+{"kind":"shape","id":"sh/wzy5s7yt","slide":6,"bbox":[715,0,2,720]}
+{"kind":"shape","id":"sh/x076lcze","slide":6,"bbox":[820,0,2,720]}
+{"kind":"shape","id":"sh/tg36hs7i","slide":6,"bbox":[925,0,2,720]}
+{"kind":"shape","id":"sh/sfup8nqx","slide":6,"bbox":[1030,0,2,720]}
+{"kind":"shape","id":"sh/relofipc","slide":6,"bbox":[1135,0,2,720]}
+{"kind":"shape","id":"sh/6ds76d8r","slide":6,"bbox":[1240,0,2,720]}
+{"kind":"shape","id":"sh/5cj6ds7m","slide":6,"bbox":[1345,0,2,720]}
+{"kind":"shape","id":"sh/4bap4nq1","slide":6,"bbox":[0,-30,1280,2]}
+{"kind":"shape","id":"sh/ja1obi9g","slide":6,"bbox":[0,52,1280,2]}
+{"kind":"shape","id":"sh/i9s7id8v","slide":6,"bbox":[0,134,1280,2]}
+{"kind":"shape","id":"sh/hoj698ra","slide":6,"bbox":[0,216,1280,2]}
+{"kind":"shape","id":"sh/wnapg3qp","slide":6,"bbox":[0,298,1280,2]}
+{"kind":"shape","id":"sh/8repw3yl","slide":6,"bbox":[0,380,1280,2]}
+{"kind":"shape","id":"sh/9sn6p8z6","slide":6,"bbox":[0,462,1280,2]}
+{"kind":"shape","id":"sh/mpc7udgf","slide":6,"bbox":[0,544,1280,2]}
+{"kind":"shape","id":"sh/nqlonyh0","slide":6,"bbox":[0,626,1280,2]}
+{"kind":"shape","id":"sh/03ups3yp","slide":6,"bbox":[0,708,1280,2]}
+{"kind":"textbox","id":"sh/l436l8za","slide":6,"text":"EACH SYSTEM HAS ONE CLEAR JOB","textPreview":"EACH SYSTEM HAS ONE CLEAR JOB","textChars":29,"textLines":1,"bbox":[54,42,900,58]}
+{"kind":"textbox","id":"sh/y1c7qtgj","slide":6,"text":"Scott and Matt will learn what to trust, where to work and when to escalate.","textPreview":"Scott and Matt will learn what to trust, where to work and when to escalate.","textChars":76,"textLines":1,"bbox":[56,100,910,38]}
+{"kind":"shape","id":"sh/z2lojyh4","slide":6,"bbox":[228,286,54,48]}
+{"kind":"shape","id":"sh/kzyp4nyt","slide":6,"bbox":[450,286,54,48]}
+{"kind":"shape","id":"sh/5k7qxsfe","slide":6,"bbox":[672,286,54,48]}
+{"kind":"shape","id":"sh/fe9snm1g","slide":6,"bbox":[894,286,54,48]}
+{"kind":"shape","id":"sh/ut0ru10v","slide":6,"bbox":[90,230,82,82]}
+{"kind":"shape","id":"sh/hgrapwjm","slide":6,"bbox":[106,246,50,50]}
+{"kind":"textbox","id":"sh/gfi9wri1","slide":6,"text":"Q","textPreview":"Q","textChars":1,"textLines":1,"bbox":[106,258,50,26]}
+{"kind":"textbox","id":"sh/3itsr6hs","slide":6,"text":"QuickQuo","textPreview":"QuickQuo","textChars":8,"textLines":1,"bbox":[52,321,158,26]}
+{"kind":"textbox","id":"sh/2h0ry107","slide":6,"text":"Quote + project #","textPreview":"Quote + project #","textChars":17,"textLines":1,"bbox":[38,347,186,30]}
+{"kind":"shape","id":"sh/pkbatgzi","slide":6,"bbox":[310,230,82,82]}
+{"kind":"shape","id":"sh/oj2t0bix","slide":6,"bbox":[326,246,50,50]}
+{"kind":"textbox","id":"sh/jmpsf218","slide":6,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[326,258,50,26]}
+{"kind":"textbox","id":"sh/ilgrmx0n","slide":6,"text":"Smartsheet","textPreview":"Smartsheet","textChars":10,"textLines":1,"bbox":[272,321,158,26]}
+{"kind":"textbox","id":"sh/a5kr2h8j","slide":6,"text":"Schedule","textPreview":"Schedule","textChars":8,"textLines":1,"bbox":[258,347,186,30]}
+{"kind":"shape","id":"sh/b6tsbm94","slide":6,"bbox":[530,230,82,82]}
+{"kind":"shape","id":"sh/w72947qp","slide":6,"bbox":[546,246,50,50]}
+{"kind":"textbox","id":"sh/x8badcra","slide":6,"text":"CC","textPreview":"CC","textChars":2,"textLines":1,"bbox":[546,258,50,26]}
+{"kind":"textbox","id":"sh/y9kb6h8v","slide":6,"text":"Command Center","textPreview":"Command Center","textChars":14,"textLines":1,"bbox":[492,321,158,26]}
+{"kind":"textbox","id":"sh/jutsfm9g","slide":6,"text":"Operational view","textPreview":"Operational view","textChars":16,"textLines":1,"bbox":[478,347,186,30]}
+{"kind":"shape","id":"sh/kv2t8rql","slide":6,"bbox":[750,230,82,82]}
+{"kind":"textbox","id":"sh/6x4ba18r","slide":6,"text":"Supabase","textPreview":"Supabase","textChars":8,"textLines":1,"bbox":[712,321,158,26]}
+{"kind":"textbox","id":"sh/7ydsj69c","slide":6,"text":"Operational truth","textPreview":"Operational truth","textChars":17,"textLines":1,"bbox":[698,347,186,30]}
+{"kind":"shape","id":"sh/14zmpkfq","slide":6,"bbox":[970,230,82,82]}
+{"kind":"shape","id":"sh/g3qlwfe5","slide":6,"bbox":[986,246,50,50]}
+{"kind":"textbox","id":"sh/f2h4nuxk","slide":6,"text":"FF","textPreview":"FF","textChars":2,"textLines":1,"bbox":[986,258,50,26]}
+{"kind":"textbox","id":"sh/e183upwz","slide":6,"text":"FastField","textPreview":"FastField","textChars":9,"textLines":1,"bbox":[932,321,158,26]}
+{"kind":"textbox","id":"sh/p8jmt4f2","slide":6,"text":"Field evidence","textPreview":"Field evidence","textChars":14,"textLines":1,"bbox":[918,347,186,30]}
+{"kind":"shape","id":"sh/o7q50zeh","slide":6,"bbox":[250,460,82,82]}
+{"kind":"textbox","id":"sh/2583ypwb","slide":6,"text":"Outlook","textPreview":"Outlook","textChars":7,"textLines":1,"bbox":[212,551,158,26]}
+{"kind":"textbox","id":"sh/dwjmx4fy","slide":6,"text":"Client communication","textPreview":"Client communication","textChars":20,"textLines":1,"bbox":[198,577,186,30]}
+{"kind":"shape","id":"sh/cva54zed","slide":6,"bbox":[468,460,82,82]}
+{"kind":"textbox","id":"sh/xgr6ts3a","slide":6,"text":"Teams","textPreview":"Teams","textChars":5,"textLines":1,"bbox":[430,551,158,26]}
+{"kind":"textbox","id":"sh/ad0nyd4j","slide":6,"text":"Internal coordination","textPreview":"Internal coordination","textChars":21,"textLines":1,"bbox":[416,577,186,30]}
+{"kind":"shape","id":"sh/be9oril4","slide":6,"bbox":[686,460,82,82]}
+{"kind":"textbox","id":"sh/l4b6xs36","slide":6,"text":"GitHub","textPreview":"GitHub","textChars":6,"textLines":1,"bbox":[648,551,158,26]}
+{"kind":"textbox","id":"sh/yh072d4f","slide":6,"text":"Shared memory","textPreview":"Shared memory","textChars":13,"textLines":1,"bbox":[634,577,186,30]}
+{"kind":"shape","id":"sh/j29ovil0","slide":6,"bbox":[904,460,82,82]}
+{"kind":"textbox","id":"sh/1876l832","slide":6,"text":"Claude","textPreview":"Claude","textChars":6,"textLines":1,"bbox":[866,551,158,26]}
+{"kind":"textbox","id":"sh/32dsr65k","slide":6,"text":"Research + drafting","textPreview":"Research + drafting","textChars":19,"textLines":1,"bbox":[852,577,186,30]}
+{"kind":"textbox","id":"sh/i14ry1oz","slide":6,"text":"» INTERWORK  OFFICE SOLUTIONS","textPreview":"» INTERWORK  OFFICE SOLUTIONS","textChars":29,"textLines":1,"bbox":[44,674,360,22]}
+{"kind":"textbox","id":"sh/54fatgnq","slide":6,"text":"SYSTEMS","textPreview":"SYSTEMS","textChars":7,"textLines":1,"bbox":[936,674,250,22]}
+{"kind":"textbox","id":"sh/43690b65","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1190,674,44,22]}
+{"kind":"image","id":"im/a1kv6p8v","slide":6,"name":"","alt":"Supabase logo","bbox":[770,250,42,42]}
+{"kind":"image","id":"im/s3ytcb6x","slide":6,"name":"","alt":"Outlook logo","bbox":[270,480,42,42]}
+{"kind":"image","id":"im/7il872ls","slide":6,"name":"","alt":"Teams logo","bbox":[488,480,42,42]}
+{"kind":"image","id":"im/vm58b2l4","slide":6,"name":"","alt":"GitHub logo","bbox":[706,480,42,42]}
+{"kind":"image","id":"im/bq18zilk","slide":6,"name":"","alt":"Claude logo","bbox":[924,480,42,42]}
+{"kind":"notes","id":"nt/6wyhz7","slide":6,"text":"QuickQuo creates the quote and project number. Smartsheet is the schedule. Command Center displays Supabase. Supabase is operational truth. FastField captures field evidence.\nOutlook and Teams are human communication tools. GitHub stores durable project memory. Claude helps research and draft, but does not replace operational judgment.\nDo not teach passwords or administrative access on this slide; access is staged separately.\n\n[Sources]\n- C:/Users/AlejandroAcosta/Documents/ai-workstation/docs/onboarding/operations_coordinator/03_MODULE3_SYSTEMS_AND_SOURCES_OF_TRUTH.md\n- C:/Users/AlejandroAcosta/Documents/ai-workstation/docs/onboarding/operations_coordinator/04_MODULE4_AI_AND_SHARED_KNOWLEDGE.md\n- Supabase, GitHub and Anthropic marks: Simple Icons (cdn.jsdelivr.net/npm/simple-icons@v15).\n- Teams and Outlook marks: Iconify icon catalog."}
+{"kind":"slide","id":"sl/1irjdb","slide":7,"title":"AI COMES AFTER THE FUNDAMENTALS","textShapes":23}
+{"kind":"shape","id":"sh/618nq5sn","slide":7,"bbox":[-20,0,2,720]}
+{"kind":"shape","id":"sh/t4j6lkry","slide":7,"bbox":[85,0,2,720]}
+{"kind":"shape","id":"sh/s3a5sfat","slide":7,"bbox":[190,0,2,720]}
+{"kind":"shape","id":"sh/f61ona94","slide":7,"bbox":[295,0,2,720]}
+{"kind":"shape","id":"sh/e5snupsj","slide":7,"bbox":[400,0,2,720]}
+{"kind":"shape","id":"sh/1sj6pkra","slide":7,"bbox":[505,0,2,720]}
+{"kind":"shape","id":"sh/g7a5wfap","slide":7,"bbox":[610,0,2,720]}
+{"kind":"shape","id":"sh/vax4rqt0","slide":7,"bbox":[715,0,2,720]}
+{"kind":"shape","id":"sh/u9onilsf","slide":7,"bbox":[820,0,2,720]}
+{"kind":"shape","id":"sh/0jq5gfmd","slide":7,"bbox":[925,0,2,720]}
+{"kind":"shape","id":"sh/lkzm9kny","slide":7,"bbox":[1030,0,2,720]}
+{"kind":"shape","id":"sh/yhonep4n","slide":7,"bbox":[1135,0,2,720]}
+{"kind":"shape","id":"sh/zih47u58","slide":7,"bbox":[1240,0,2,720]}
+{"kind":"shape","id":"sh/8nq5kzmp","slide":7,"bbox":[1345,0,2,720]}
+{"kind":"shape","id":"sh/9ozmd4na","slide":7,"bbox":[0,-30,1280,2]}
+{"kind":"shape","id":"sh/ml8nip4j","slide":7,"bbox":[0,52,1280,2]}
+{"kind":"shape","id":"sh/nmh4bu54","slide":7,"bbox":[0,134,1280,2]}
+{"kind":"shape","id":"sh/4r6l8vml","slide":7,"bbox":[0,216,1280,2]}
+{"kind":"shape","id":"sh/psfm10nq","slide":7,"bbox":[0,298,1280,2]}
+{"kind":"shape","id":"sh/58725wfu","slide":7,"bbox":[0,380,1280,2]}
+{"kind":"shape","id":"sh/47y1cry9","slide":7,"bbox":[0,462,1280,2]}
+{"kind":"shape","id":"sh/jm5k3mxo","slide":7,"bbox":[0,544,1280,2]}
+{"kind":"shape","id":"sh/ilwjahg3","slide":7,"bbox":[0,626,1280,2]}
+{"kind":"shape","id":"sh/tc729gfq","slide":7,"bbox":[0,708,1280,2]}
+{"kind":"textbox","id":"sh/sbylgbe5","slide":7,"text":"AI COMES AFTER THE FUNDAMENTALS","textPreview":"AI COMES AFTER THE FUNDAMENTALS","textChars":31,"textLines":1,"bbox":[54,45,840,58]}
+{"kind":"textbox","id":"sh/rapk76xk","slide":7,"text":"It helps Scott and Matt find, prepare and preserve the work—not guess or bypass the workflow.","textPreview":"It helps Scott and Matt find, prepare and preserve the work—not guess or bypass the workflow.","textChars":93,"textLines":1,"bbox":[56,105,1000,40]}
+{"kind":"shape","id":"sh/69g3e1wf","slide":7,"bbox":[62,230,205,252]}
+{"kind":"shape","id":"sh/1gr2dgf2","slide":7,"bbox":[124,254,82,82]}
+{"kind":"textbox","id":"sh/gfil4beh","slide":7,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[124,278,82,32]}
+{"kind":"textbox","id":"sh/ylszydwz","slide":7,"text":"FIND","textPreview":"FIND","textChars":4,"textLines":1,"bbox":[78,361,173,28]}
+{"kind":"textbox","id":"sh/zm107idk","slide":7,"text":"Project number first","textPreview":"Project number first","textChars":20,"textLines":1,"bbox":[80,404,169,56]}
+{"kind":"shape","id":"sh/knah0nep","slide":7,"bbox":[300,230,205,252]}
+{"kind":"shape","id":"sh/lo3i9sva","slide":7,"bbox":[362,254,82,82]}
+{"kind":"textbox","id":"sh/mpcz2xcv","slide":7,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[362,278,82,32]}
+{"kind":"textbox","id":"sh/7ql0bidg","slide":7,"text":"UNDERSTAND","textPreview":"UNDERSTAND","textChars":10,"textLines":1,"bbox":[316,361,173,28]}
+{"kind":"textbox","id":"sh/8ruh4nu1","slide":7,"text":"Live state + project context","textPreview":"Live state + project context","textChars":28,"textLines":1,"bbox":[318,404,169,56]}
+{"kind":"shape","id":"sh/9s3idsvm","slide":7,"bbox":[538,230,205,252]}
+{"kind":"shape","id":"sh/udcz6xc7","slide":7,"bbox":[600,254,82,82]}
+{"kind":"textbox","id":"sh/vel0f2dc","slide":7,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[600,278,82,32]}
+{"kind":"textbox","id":"sh/jyh83y1k","slide":7,"text":"DRAFT","textPreview":"DRAFT","textChars":5,"textLines":1,"bbox":[554,361,173,28]}
+{"kind":"textbox","id":"sh/ix87at0z","slide":7,"text":"Briefs, emails and dispatches","textPreview":"Briefs, emails and dispatches","textChars":29,"textLines":1,"bbox":[556,404,169,56]}
+{"kind":"shape","id":"sh/50zq58ja","slide":7,"bbox":[776,230,205,252]}
+{"kind":"shape","id":"sh/4zq9c3i5","slide":7,"bbox":[838,254,82,82]}
+{"kind":"textbox","id":"sh/rmh87i1g","slide":7,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[838,278,82,32]}
+{"kind":"textbox","id":"sh/618red0v","slide":7,"text":"REVIEW","textPreview":"REVIEW","textChars":6,"textLines":1,"bbox":[792,361,173,28]}
+{"kind":"textbox","id":"sh/tojq98jm","slide":7,"text":"Human judgment before action","textPreview":"Human judgment before action","textChars":28,"textLines":1,"bbox":[794,404,169,56]}
+{"kind":"shape","id":"sh/snq9gni1","slide":7,"bbox":[1014,230,205,252]}
+{"kind":"shape","id":"sh/7qx8ve1c","slide":7,"bbox":[1076,254,82,82]}
+{"kind":"textbox","id":"sh/m547290r","slide":7,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[1076,278,82,32]}
+{"kind":"textbox","id":"sh/cb25cfyp","slide":7,"text":"PRESERVE","textPreview":"PRESERVE","textChars":8,"textLines":1,"bbox":[1030,361,173,28]}
+{"kind":"textbox","id":"sh/xwb65kza","slide":7,"text":"Update shared project memory","textPreview":"Update shared project memory","textChars":28,"textLines":1,"bbox":[1032,404,169,56]}
+{"kind":"textbox","id":"sh/a9kna5gj","slide":7,"text":"DRAFT FREELY","textPreview":"DRAFT FREELY","textChars":12,"textLines":1,"bbox":[185,544,270,32]}
+{"kind":"textbox","id":"sh/bat43ah4","slide":7,"text":"SEND / WRITE ONLY AFTER APPROVAL","textPreview":"SEND / WRITE ONLY AFTER APPROVAL","textChars":32,"textLines":1,"bbox":[512,544,586,32]}
+{"kind":"textbox","id":"sh/o7258fyd","slide":7,"text":"No invented facts • No secrets in chat • No silent conflict resolution","textPreview":"No invented facts • No secrets in chat • No silent conflict resolution","textChars":70,"textLines":1,"bbox":[186,598,910,32]}
+{"kind":"textbox","id":"sh/p8bm10zy","slide":7,"text":"» INTERWORK  OFFICE SOLUTIONS","textPreview":"» INTERWORK  OFFICE SOLUTIONS","textChars":29,"textLines":1,"bbox":[44,674,360,22]}
+{"kind":"textbox","id":"sh/250n650n","slide":7,"text":"SHARED KNOWLEDGE","textPreview":"SHARED KNOWLEDGE","textChars":16,"textLines":1,"bbox":[936,674,250,22]}
+{"kind":"textbox","id":"sh/36t4zahs","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1190,674,44,22]}
+{"kind":"notes","id":"nt/1irjdb","slide":7,"text":"This is the first AI-focused slide. Reinforce that the company and workflow were intentionally taught first.\nShow the safe progression: find, understand, draft, review, preserve.\nDuring onboarding, all sends and live writes remain routed through Alejandro. Week 2 determines any future authority individually.\n\n[Sources]\n- C:/Users/AlejandroAcosta/Documents/ai-workstation/docs/onboarding/operations_coordinator/04_MODULE4_AI_AND_SHARED_KNOWLEDGE.md\n- C:/Users/AlejandroAcosta/Documents/ai-workstation/memory/company_knowledge/ACCESS_AND_SAFETY_RULES.md"}
+{"kind":"slide","id":"sl/t2x9f9","slide":8,"title":"TWO WEEKS: FROM CONTEXT TO CONTROLLED OWNERSHIP","textShapes":26}
+{"kind":"shape","id":"sh/mlozqpsb","slide":8,"bbox":[-20,0,2,720]}
+{"kind":"shape","id":"sh/9ozy1kb2","slide":8,"bbox":[85,0,2,720]}
+{"kind":"shape","id":"sh/8nqhszah","slide":8,"bbox":[190,0,2,720]}
+{"kind":"shape","id":"sh/vqhg3uts","slide":8,"bbox":[295,0,2,720]}
+{"kind":"shape","id":"sh/up8zupsn","slide":8,"bbox":[400,0,2,720]}
+{"kind":"shape","id":"sh/hczy54by","slide":8,"bbox":[505,0,2,720]}
+{"kind":"shape","id":"sh/wrqhwzad","slide":8,"bbox":[610,0,2,720]}
+{"kind":"shape","id":"sh/3e1g7et4","slide":8,"bbox":[715,0,2,720]}
+{"kind":"shape","id":"sh/id8zy9sj","slide":8,"bbox":[820,0,2,720]}
+{"kind":"shape","id":"sh/g7yx4nq9","slide":8,"bbox":[925,0,2,720]}
+{"kind":"shape","id":"sh/h87edsru","slide":8,"bbox":[1030,0,2,720]}
+{"kind":"shape","id":"sh/u5gf2ds3","slide":8,"bbox":[1135,0,2,720]}
+{"kind":"shape","id":"sh/v6pwbi9o","slide":8,"bbox":[1240,0,2,720]}
+{"kind":"shape","id":"sh/4vix87q5","slide":8,"bbox":[1345,0,2,720]}
+{"kind":"shape","id":"sh/5wrehsrq","slide":8,"bbox":[0,-30,1280,2]}
+{"kind":"shape","id":"sh/i9gf6x8f","slide":8,"bbox":[0,52,1280,2]}
+{"kind":"shape","id":"sh/3u9wf290","slide":8,"bbox":[0,134,1280,2]}
+{"kind":"shape","id":"sh/szixc7qh","slide":8,"bbox":[0,216,1280,2]}
+{"kind":"shape","id":"sh/d0rylcr2","slide":8,"bbox":[0,298,1280,2]}
+{"kind":"shape","id":"sh/14n698fu","slide":8,"bbox":[0,380,1280,2]}
+{"kind":"shape","id":"sh/0je5g3e9","slide":8,"bbox":[0,462,1280,2]}
+{"kind":"shape","id":"sh/filo7yxo","slide":8,"bbox":[0,544,1280,2]}
+{"kind":"shape","id":"sh/ehcnedw3","slide":8,"bbox":[0,626,1280,2]}
+{"kind":"shape","id":"sh/p8n6dsfq","slide":8,"bbox":[0,708,1280,2]}
+{"kind":"textbox","id":"sh/o7e5knel","slide":8,"text":"TWO WEEKS: FROM CONTEXT TO CONTROLLED OWNERSHIP","textPreview":"TWO WEEKS: FROM CONTEXT TO CONTROLLED OWNERSHIP","textChars":47,"textLines":1,"bbox":[54,42,1160,52]}
+{"kind":"textbox","id":"sh/n65obix0","slide":8,"text":"Scott and Matt train together, practice independently and earn trust individually.","textPreview":"Scott and Matt train together, practice independently and earn trust individually.","textChars":82,"textLines":1,"bbox":[56,101,1040,34]}
+{"kind":"shape","id":"sh/25wnidwf","slide":8,"bbox":[110,334,1035,12]}
+{"kind":"shape","id":"sh/5c3m1ofm","slide":8,"bbox":[75,292,96,96]}
+{"kind":"textbox","id":"sh/4ba58je1","slide":8,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[75,319,96,34]}
+{"kind":"textbox","id":"sh/uh83ipcz","slide":8,"text":"DAY 1","textPreview":"DAY 1","textChars":5,"textLines":1,"bbox":[43,207,160,27]}
+{"kind":"textbox","id":"sh/vihkbudk","slide":8,"text":"COMPANY","textPreview":"COMPANY","textChars":7,"textLines":1,"bbox":[23,412,200,30]}
+{"kind":"textbox","id":"sh/gjqlkzu5","slide":8,"text":"What we do + who is who","textPreview":"What we do + who is who","textChars":23,"textLines":1,"bbox":[23,451,200,54]}
+{"kind":"shape","id":"sh/hkj2d4vq","slide":8,"bbox":[295,292,96,96]}
+{"kind":"textbox","id":"sh/ils369cv","slide":8,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[295,319,96,34]}
+{"kind":"textbox","id":"sh/3m1kfedg","slide":8,"text":"DAY 2","textPreview":"DAY 2","textChars":5,"textLines":1,"bbox":[263,207,160,27]}
+{"kind":"textbox","id":"sh/4nal8zu1","slide":8,"text":"WORKFLOW","textPreview":"WORKFLOW","textChars":8,"textLines":1,"bbox":[243,412,200,30]}
+{"kind":"textbox","id":"sh/5oj2h4vm","slide":8,"text":"Lifecycle + real examples","textPreview":"Lifecycle + real examples","textChars":25,"textLines":1,"bbox":[243,451,200,54]}
+{"kind":"shape","id":"sh/ypoja5cr","slide":8,"bbox":[515,292,96,96]}
+{"kind":"textbox","id":"sh/jqxk3adc","slide":8,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[515,319,96,34]}
+{"kind":"textbox","id":"sh/zmp07650","slide":8,"text":"DAY 3","textPreview":"DAY 3","textChars":5,"textLines":1,"bbox":[483,207,160,27]}
+{"kind":"textbox","id":"sh/elgjy1of","slide":8,"text":"SYSTEMS","textPreview":"SYSTEMS","textChars":7,"textLines":1,"bbox":[463,412,200,30]}
+{"kind":"textbox","id":"sh/187i9wn6","slide":8,"text":"Sources of truth + AI","textPreview":"Sources of truth + AI","textChars":21,"textLines":1,"bbox":[463,451,200,54]}
+{"kind":"shape","id":"sh/07y10b6l","slide":8,"bbox":[735,292,96,96]}
+{"kind":"textbox","id":"sh/na90b65c","slide":8,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[735,319,96,34]}
+{"kind":"textbox","id":"sh/m90j21or","slide":8,"text":"DAYS 4–7","textPreview":"DAYS 4–7","textChars":8,"textLines":1,"bbox":[703,207,160,27]}
+{"kind":"textbox","id":"sh/9cridgn2","slide":8,"text":"PRACTICE","textPreview":"PRACTICE","textChars":8,"textLines":1,"bbox":[683,412,200,30]}
+{"kind":"textbox","id":"sh/obi14b6x","slide":8,"text":"Watch → do → reverse shadow","textPreview":"Watch → do → reverse shadow","textChars":27,"textLines":1,"bbox":[683,451,200,54]}
+{"kind":"shape","id":"sh/ve90fq58","slide":8,"bbox":[955,292,96,96]}
+{"kind":"textbox","id":"sh/ad0j6lon","slide":8,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[955,319,96,34]}
+{"kind":"textbox","id":"sh/sj2hwv21","slide":8,"text":"DAYS 8–10","textPreview":"DAYS 8–10","textChars":9,"textLines":1,"bbox":[923,207,160,27]}
+{"kind":"textbox","id":"sh/tkbi503m","slide":8,"text":"OWNERSHIP","textPreview":"OWNERSHIP","textChars":9,"textLines":1,"bbox":[903,412,200,30]}
+{"kind":"textbox","id":"sh/6hkzulkv","slide":8,"text":"Small portfolio + review","textPreview":"Small portfolio + review","textChars":24,"textLines":1,"bbox":[903,451,200,54]}
+{"kind":"shape","id":"sh/7it03qlg","slide":8,"bbox":[258,548,764,66]}
+{"kind":"textbox","id":"sh/kfihsb2p","slide":8,"text":"DAY 10: INDIVIDUAL COMPETENCY + AUTHORITY DECISION","textPreview":"DAY 10: INDIVIDUAL COMPETENCY + AUTHORITY DECISION","textChars":50,"textLines":1,"bbox":[279,568,722,28]}
+{"kind":"textbox","id":"sh/5gbi1g3a","slide":8,"text":"» INTERWORK  OFFICE SOLUTIONS","textPreview":"» INTERWORK  OFFICE SOLUTIONS","textChars":29,"textLines":1,"bbox":[44,674,360,22]}
+{"kind":"textbox","id":"sh/id0zqlkz","slide":8,"text":"TRAINING PLAN","textPreview":"TRAINING PLAN","textChars":13,"textLines":1,"bbox":[936,674,250,22]}
+{"kind":"textbox","id":"sh/je90z6lk","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1190,674,44,22]}
+{"kind":"notes","id":"nt/t2x9f9","slide":8,"text":"Explain that the plan deliberately moves from context to systems to controlled work.\nScott and Matt will be evaluated separately even when working on the same scenario.\nAll external communications and live updates remain reviewed during onboarding.\n\n[Sources]\n- C:/Users/AlejandroAcosta/Documents/ai-workstation/docs/onboarding/operations_coordinator/05_MODULE5_TRAINING_AGENDA.md\n- C:/Users/AlejandroAcosta/Documents/ai-workstation/docs/onboarding/operations_coordinator/08_COMPETENCY_SIGNOFF_SCOTT.md\n- C:/Users/AlejandroAcosta/Documents/ai-workstation/docs/onboarding/operations_coordinator/08_COMPETENCY_SIGNOFF_MATT.md"}
+{"kind":"slide","id":"sl/p7bd1w","slide":9,"title":"SUCCESS LOOKS LIKE...","textShapes":12}
+{"kind":"shape","id":"sh/n29onydo","slide":9,"bbox":[-20,0,2,720]}
+{"kind":"shape","id":"sh/o3ipg3u9","slide":9,"bbox":[85,0,2,720]}
+{"kind":"shape","id":"sh/94r6p8vu","slide":9,"bbox":[190,0,2,720]}
+{"kind":"shape","id":"sh/exg7atc7","slide":9,"bbox":[295,0,2,720]}
+{"kind":"shape","id":"sh/zypojyds","slide":9,"bbox":[400,0,2,720]}
+{"kind":"shape","id":"sh/0zypcjud","slide":9,"bbox":[505,0,2,720]}
+{"kind":"shape","id":"sh/1076lovy","slide":9,"bbox":[610,0,2,720]}
+{"kind":"shape","id":"sh/ytk7mdcb","slide":9,"bbox":[715,0,2,720]}
+{"kind":"shape","id":"sh/jut8vitw","slide":9,"bbox":[820,0,2,720]}
+{"kind":"shape","id":"sh/72d4rapk","slide":9,"bbox":[925,0,2,720]}
+{"kind":"shape","id":"sh/m143y58z","slide":9,"bbox":[1030,0,2,720]}
+{"kind":"shape","id":"sh/94vmt07a","slide":9,"bbox":[1135,0,2,720]}
+{"kind":"shape","id":"sh/83ml0f65","slide":9,"bbox":[1240,0,2,720]}
+{"kind":"shape","id":"sh/v6x4vapg","slide":9,"bbox":[1345,0,2,720]}
+{"kind":"shape","id":"sh/u54325ov","slide":9,"bbox":[0,-30,1280,2]}
+{"kind":"shape","id":"sh/hsfmxk7m","slide":9,"bbox":[0,52,1280,2]}
+{"kind":"shape","id":"sh/wr6l4f61","slide":9,"bbox":[0,134,1280,2]}
+{"kind":"shape","id":"sh/jux4zups","slide":9,"bbox":[0,216,1280,2]}
+{"kind":"shape","id":"sh/ito36po7","slide":9,"bbox":[0,298,1280,2]}
+{"kind":"shape","id":"sh/ep87yt8f","slide":9,"bbox":[0,380,1280,2]}
+{"kind":"shape","id":"sh/fq1ory90","slide":9,"bbox":[0,462,1280,2]}
+{"kind":"shape","id":"sh/grap0jq5","slide":9,"bbox":[0,544,1280,2]}
+{"kind":"shape","id":"sh/1sj6torq","slide":9,"bbox":[0,626,1280,2]}
+{"kind":"shape","id":"sh/6l8nu983","slide":9,"bbox":[0,708,1280,2]}
+{"kind":"textbox","id":"sh/rmhone9o","slide":9,"text":"SUCCESS LOOKS LIKE...","textPreview":"SUCCESS LOOKS LIKE...","textChars":21,"textLines":1,"bbox":[70,70,780,62]}
+{"kind":"shape","id":"sh/snqpwjq9","slide":9,"bbox":[82,190,310,112]}
+{"kind":"shape","id":"sh/toz6poru","slide":9,"bbox":[82,190,12,112]}
+{"kind":"textbox","id":"sh/qhc76d8n","slide":9,"text":"FIND THE TRUTH","textPreview":"FIND THE TRUTH","textChars":14,"textLines":1,"bbox":[110,226,260,42]}
+{"kind":"shape","id":"sh/bilozi9s","slide":9,"bbox":[430,190,310,112]}
+{"kind":"shape","id":"sh/lo7ilwf6","slide":9,"bbox":[430,190,12,112]}
+{"kind":"textbox","id":"sh/kny1cre1","slide":9,"text":"CONFIRM THE DETAILS","textPreview":"CONFIRM THE DETAILS","textChars":19,"textLines":1,"bbox":[458,226,260,42]}
+{"kind":"shape","id":"sh/jmp0j6xg","slide":9,"bbox":[778,190,310,112]}
+{"kind":"shape","id":"sh/y1wza1wv","slide":9,"bbox":[778,190,12,112]}
+{"kind":"textbox","id":"sh/x0nihwfa","slide":9,"text":"COMMUNICATE CLEARLY","textPreview":"COMMUNICATE CLEARLY","textChars":19,"textLines":1,"bbox":[806,226,260,42]}
+{"kind":"shape","id":"sh/wzeh8rep","slide":9,"bbox":[82,345,310,112]}
+{"kind":"shape","id":"sh/by50fmx4","slide":9,"bbox":[82,345,12,112]}
+{"kind":"textbox","id":"sh/axwz6hgj","slide":9,"text":"PROTECT THE CLIENT","textPreview":"PROTECT THE CLIENT","textChars":18,"textLines":1,"bbox":[110,381,260,42]}
+{"kind":"shape","id":"sh/hwritgfe","slide":9,"bbox":[430,345,310,112]}
+{"kind":"shape","id":"sh/gvi1kbe9","slide":9,"bbox":[430,345,12,112]}
+{"kind":"textbox","id":"sh/onmh4rad","slide":9,"text":"ESCALATE EARLY","textPreview":"ESCALATE EARLY","textChars":14,"textLines":1,"bbox":[458,381,260,42]}
+{"kind":"shape","id":"sh/povixwby","slide":9,"bbox":[778,345,310,112]}
+{"kind":"shape","id":"sh/2l4z2hsn","slide":9,"bbox":[778,345,12,112]}
+{"kind":"textbox","id":"sh/3md0vmts","slide":9,"text":"LEAVE A CLEAN HANDOFF","textPreview":"LEAVE A CLEAN HANDOFF","textChars":21,"textLines":1,"bbox":[806,381,260,42]}
+{"kind":"textbox","id":"sh/crmh8rap","slide":9,"text":"Learn the business first. The systems will help you execute it.","textPreview":"Learn the business first. The systems will help you execute it.","textChars":63,"textLines":1,"bbox":[126,533,1028,48]}
+{"kind":"textbox","id":"sh/dsfi1wba","slide":9,"text":"WELCOME TO INTERWORK","textPreview":"WELCOME TO INTERWORK","textChars":20,"textLines":1,"bbox":[350,608,580,38]}
+{"kind":"textbox","id":"sh/qp4z61sj","slide":9,"text":"» INTERWORK  OFFICE SOLUTIONS","textPreview":"» INTERWORK  OFFICE SOLUTIONS","textChars":29,"textLines":1,"bbox":[44,674,360,22]}
+{"kind":"textbox","id":"sh/bqd0z6t4","slide":9,"text":"READY TO BEGIN","textPreview":"READY TO BEGIN","textChars":14,"textLines":1,"bbox":[936,674,250,22]}
+{"kind":"textbox","id":"sh/0f61cbal","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1190,674,44,22]}
+{"kind":"notes","id":"nt/p7bd1w","slide":9,"text":"Close by making success behavioral, not technical.\nInvite questions and transition Scott and Matt to Module 1 and the detailed onboarding materials.\n\n[Sources]\n- C:/Users/AlejandroAcosta/Documents/ai-workstation/docs/onboarding/operations_coordinator/01_MODULE1_INTERWORK_FUNDAMENTALS.md\n- C:/Users/AlejandroAcosta/Documents/ai-workstation/docs/onboarding/operations_coordinator/05_MODULE5_TRAINING_AGENDA.md"}
