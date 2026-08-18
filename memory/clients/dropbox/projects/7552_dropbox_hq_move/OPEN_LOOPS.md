@@ -18,6 +18,8 @@ confirmed real project, not the same as this one.
 | 10 | Fridge disposition — confirm whether the two Seattle True fridges and café wine fridge are relocating or staying | Dropbox / InterWork | Open |
 | 11 | Conference table wall brackets — confirm location and whether they can be delivered Wed 7/15 so the team can secure tables to the wall during that delivery | Anthony Zamora / InterWork | Open |
 | 12 | Last white conference room table — needs to be assembled in the 2nd floor conference room where GSOC is currently located; needs scheduling | Anthony Zamora / InterWork | Open |
+| 13 | Confirm the exact dates and detailed scope for the calendar's September furniture-return/storage phase. Outlook confirms a future storage-to-Hawthorne concept but not the displayed September dates. | Dropbox / InterWork | Open |
+| 14 | Confirm whether Frank Barrett is the project PM, field lead for a specific phase, or only a calendar attribution. | Alejandro / Operations | Open |
 
 ## Reconciliation note (2026-07-10)
 

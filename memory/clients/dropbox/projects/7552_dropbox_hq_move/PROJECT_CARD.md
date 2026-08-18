@@ -12,13 +12,22 @@ file keeps the shared background, but do not merge their scope, PM, or dates goi
 |---|---|
 | Project number | 7552 (PO tag confirmed via Bay Area Installations invoice) |
 | Client | Dropbox |
-| Location | 1800 Owens St, San Francisco, CA (Dropbox HQ, new building) — per memory/ai_index/PROJECT_INDEX.md |
+| Address history | Origin / earlier execution site: 1800 Owens Street, San Francisco, CA 94158. Later destination / execution site: 50 Hawthorne Street, San Francisco, CA 94105. Both are explicitly tied to 7552 by FastField submission subjects. |
 | Client contacts | Patrick Moyer, Head of Workplace Operations, Real Estate & Workplace Services (pmoyer@dropbox.com, 760-710-7160); Anthony Zamora, Workplace Operations Coordinator, Real Estate & Workplace Services (azamora@dropbox.com, 408-660-6219) — day-to-day coordinator, handles inventory/BarCloud detail and site logistics |
 | InterWork team | Jill Buchman (Account Manager, 609-744-8911), David Steinbrecher, Francisco Vinueza, Alejandro Acosta (Operations) |
-| PM | Not confirmed. Smartsheet has shown "Frank Barrett" on this Phase 3 Move bar — not adopted, see flag below. (Pedro Martinez is confirmed PM on the separate 7547 Power Beam Install, not this project.) |
+| PM / field lead | Project PM remains unconfirmed. Outlook evidence references Frank Barrett as a field lead; do not promote that reference to confirmed project PM without direct confirmation. (Pedro Martinez is confirmed PM on the separate 7547 Power Beam Install, not this project.) |
 | Vendor | Bay Area Installations, Inc. (BAI) — Thomas "Tommy" C. Mohamed Jr., Operations Manager (ops.baiinc@gmail.com, 510-895-8196), 2481 Verna Ct, San Leandro, CA 94577; Sean Walsh (510-895-8196, sean@baiinc.com) — handles physical delivery/install crew and warehouse staging |
-| Dates | 2026-07-27 to 2026-07-31 per Smartsheet, matching the red-tag inventory mobilization window discussed below |
-| Status | Phase 1 (initial HQ move) complete. This Phase 3 Move is the red-tag/lower-priority inventory mobilization. |
+| Dates | Execution evidence exists in FastField submissions dated 2026-07-14, 2026-07-30, and 2026-08-17. September furniture-return/storage dates remain calendar-sourced and unconfirmed. |
+| Status | Multi-phase execution evidence exists through August 2026. Any later storage-to-Hawthorne phase remains subject to confirmed scheduling evidence. |
+
+## Outlook / FastField Confirmation — 2026-08-18 Reconciliation
+
+- Outlook independently confirms project number **7552** through multiple FastField submission subjects and an Accounts Payable reference to "Bay Area INV for TAG 7552 Dropbox - Phase 3."
+- Confirmed locations associated with this project are **1800 Owens Street, San Francisco, CA 94158** and **50 Hawthorne Street, San Francisco, CA 94105**.
+- Confirmed workstreams include furniture relocation and staging, speedpack deployment and return, storage-related activity, and multiple move phases.
+- Bay Area Installations is confirmed as the physical relocation/install vendor in the reviewed evidence.
+- A later move from storage to Hawthorne was discussed, but the reviewed Outlook results did not independently confirm the exact September calendar dates.
+- Authoritative evidence includes FastField submission emails dated July 14, July 30, and August 17, 2026; the August 17 email included `8_18 - 7552 - Dropbox .pdf`.
 
 ## Phase 1 — Initial Move (Complete)
 
@@ -80,6 +89,7 @@ relocation — disposition (relocate vs. leave) still unconfirmed.
 ## Source Notes
 
 - Source: Read AI meeting "Dropbox HQ Move" (ID 01KWD4Q0HZS8Z7A0MCMZKXANAE, ~2026-06-29/30) + Outlook threads "Desk Power Beams" and "Updated inventory for 7/7 Dropbox Delivery" (screenshots, 2026-07-10) + Accounts Payable reference to "Bay Area INV for TAG 7552 Dropbox."
+- Outlook reconciliation received 2026-08-18: FastField subjects explicitly identify 7552 at 1800 Owens Street and 50 Hawthorne Street; evidence dates are 2026-07-14, 2026-07-30, and 2026-08-17.
 - Previously filed as a near-empty stub ("Needs confirmation" on every field, ChatGPT export 2026-06-30). Superseded 2026-07-10 with the details above. A separate weak guess (project 7399, "possibly San Francisco, CA") had been floated as the candidate for the Ops Huddle's "Dropbox phase one" story — that guess is superseded by this confirmed match to 7552; 7399 remains a separate, still-unconfirmed stub.
 - Folder renamed from `7552_project` to `7552_dropbox_hq_move` to reflect confirmed content.
 - Updated 2026-07-13 from a formal PM-transition scope handoff (Alejandro Acosta → Pedro
