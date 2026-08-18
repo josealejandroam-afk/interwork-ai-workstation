@@ -2,13 +2,14 @@
 
 ## Overview
 
-Armanino has multiple historical InterWork projects. Current active memory in this client folder centers on Project 7376, the August 21, 2026 DTLA-to-Pasadena technology relocation.
+Armanino has multiple InterWork projects. Current active execution is Project 7508, the August 21, 2026 DTLA-to-Pasadena technology relocation. Project 7376 is a separate historical Boise/San Jose furniture relocation awarded elsewhere.
 
 ## Known Projects
 
 | # | Name | Location | Status | Notes |
 |---|---|---|---|---|
-| 7376 | DTLA to Pasadena Technology Relocation | Los Angeles → Pasadena, CA | Scheduled Aug 21 at 5:00 PM | Delivery-only technology move; PM, crew, truck, both suite/floor details, access, COI acceptance, monitor-arm readiness, and final inventory open. See project folder. |
+| 7508 | DTLA to Pasadena Technology Relocation | Los Angeles → Pasadena, CA | Signed / scheduled Aug 21 at 5:00 PM | Quote 8431; delivery-only technology move. PM, crew, truck, destination suite, access, COI acceptance, optional arm-disassembly authorization, and final inventory open. |
+| 7376 | Boise / San Jose to Pasadena Furniture Relocation | Boise / San Jose → Pasadena, CA | Historical / awarded elsewhere | Quote 8260-01; preserve as separate historical scope. |
 
 ## Known Contacts
 
@@ -27,4 +28,4 @@ Armanino has multiple historical InterWork projects. Current active memory in th
 
 ## How to Use This Folder
 
-Read `memory/company_knowledge/START_HERE.md` first, then this file, then the 7376 project card. Use Project 7376 as the working number unless newer signed documentation proves the technology relocation was split.
+Read `memory/company_knowledge/START_HERE.md` first, then this file, then the relevant project card. Use Project 7508 for the active DTLA technology move. Use 7376 only for the historical Boise/San Jose furniture scope.

@@ -1,18 +1,18 @@
-# Notes — Project 7376 Armanino Technology Relocation
+# Notes — Project 7508 Armanino Technology Relocation
 
 ## Source History
 
 - Initial repo record created 2026-07-09 from the July 8 “InterWork - Armanino Sync” Read.ai call, before a project number or addresses were confirmed.
 - The initial record correctly captured the Aug 21, 5:00 PM execution time, delivery-only scope, Armanino disconnect responsibility, and absence of destination setup.
-- The 2026-08-17 handoff confirms working Project 7376, both buildings, planned quantities, Jeff Parks as day-of POC for both locations, and two-building COI requirements.
+- The 2026-08-17 handoff linked the work to 7376 based on then-available evidence; signed Quote 8431 later corrected the active project number to 7508.
 
 ## Reconciliation Decisions
 
-- The former `unknown_equipment_move` folder was promoted to the numbered 7376 project rather than duplicated.
+- The former `unknown_equipment_move` record was ultimately promoted to Project 7508 after signed-proposal reconciliation.
 - The broader Boise / San Jose furniture opportunity remains historical context only; InterWork retained the smaller DTLA technology relocation.
 - Use 55 S. Lake Avenue for current Pasadena planning. Do not use the older 800 E. Colorado Boulevard address unless newer signed documentation reverses the change.
 - No PM, crew, vendor, or truck assignment was inferred.
-- Project 7376 was added to Supabase because no canonical client/project record existed there. No Smartsheet 7376 schedule event was found.
+- A prior reconciliation added 7376 to Supabase based on incomplete project-number evidence. The repo now records 7508 as authoritative for the active move; live Supabase correction remains a separate controlled action and was not performed here.
 
 ## Original Proposal 8260-01 — Historical Only
 
@@ -24,7 +24,7 @@
 - Other priced scope: packaging materials, San Jose-to-Pasadena freight, Boise-to-Pasadena freight, four electrical disconnects, three project-management charges, and four truck charges.
 - The broader Boise / San Jose furniture relocation was later awarded elsewhere. This proposal supports the 7376 project lineage but does not control the current field scope.
 - Current controlling execution remains the technology-only relocation from 777 S. Figueroa Street to 55 S. Lake Avenue on Friday, August 21, 2026 at 5:00 PM, with delivery only at destination.
-- Continue using 7376 unless a newer internal record confirms that the DTLA portion received a separate project number.
+- Project 7376 remains the historical Boise/San Jose furniture relocation. Do not use it for the August 21 DTLA technology execution.
 
 ## 2026-08-18 Execution Handoff Reconciliation
 
@@ -34,3 +34,12 @@
 - Added detailed packing, staging, direct transportation, delivery-accounting, immediate debris-removal, material, parking, and security/access requirements.
 - No PM, vendor, crew, truck, suite, access, COI acceptance, or final inventory detail was inferred.
 - No Supabase change or communication was authorized by this handoff.
+
+## 2026-08-18 Signed-Proposal Correction
+
+- Signed Quote 8431, dated May 12, 2026, confirms Project 7508 for the DTLA-to-Pasadena technology relocation.
+- The quote matches the active inventory exactly and establishes Suite 2600 at origin.
+- Edgar Castellanos returned the signed proposal and referenced expected late-August execution, linking it to the August 21 move.
+- The quote's 800 E. Colorado Boulevard destination is historical and superseded by later Pasadena Towers COI and execution evidence for 55 S. Lake Avenue.
+- The $2,190 monitor-arm knockdown/preparation line is optional; base scope carries the arms as pre-disassembled.
+- Any prepared vendor, FastField, Teams, or calendar communication must use Project 7508, not 7376.
