@@ -1,6 +1,6 @@
 # Open Loops — Project 7508 Armanino Technology Relocation
 
-Last reconciled: 2026-08-18.
+Last reconciled: 2026-08-19.
 
 ## Assignment and Transportation
 
@@ -11,13 +11,10 @@ Last reconciled: 2026-08-18.
 
 ## Buildings and Access
 
-- [ ] Confirm DTLA loading-dock and freight-elevator reservation details using the client-provided map.
-- [ ] Confirm Pasadena loading-dock and freight-elevator reservation details using the client-provided map.
 - [ ] Verify DTLA COI acceptance.
 - [ ] Verify Pasadena COI acceptance.
-- [ ] Confirm building-access procedures for the 5:00 PM start.
 - [ ] Confirm parking and load-in/load-out instructions at both locations.
-- [ ] Confirm any security or after-hours access procedures.
+- [ ] Confirm any additional security instructions not covered by the client's building coordination.
 
 ## Project and Inventory
 
@@ -34,6 +31,7 @@ Last reconciled: 2026-08-18.
 - [x] Jeff Parks' cell confirmed as 615-400-9997; older conflicting numbers superseded.
 - [x] Equipment preparation confirmed: all technology disconnected, including monitors; left at individual workstations; not consolidated or bagged.
 - [x] Both locations confirmed to have loading docks and freight elevators; client supplied building maps.
+- [x] Both buildings informed and move access confirmed good by Kelsey King on Aug 18; dock/elevator reservation and 5:00 PM access question resolved.
 - [x] Monitor-arm installation excluded. Knockdown/preparation is a separately priced optional line item.
 - [x] Destination work confirmed as delivery only with no reconnection or setup.
 - [x] Original Quote 8260-01 confirmed as historical Project 7376 lineage evidence, not the active August 21 execution scope.

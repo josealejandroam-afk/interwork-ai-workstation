@@ -58,4 +58,6 @@
 - Nothing will be consolidated into a staging area or bagged; the crew must gather and pack throughout the suite.
 - Both locations have loading docks and freight elevators; Kelsey supplied building maps.
 - Jeff Parks is day-of POC at 615-400-9997.
+- After Alejandro asked whether loading-dock and freight-elevator reservations were scheduled for Friday, Kelsey replied that both buildings had been informed and InterWork was good. Treat dock/elevator reservation and move access as confirmed.
+- The reply did not explicitly state that both COIs were accepted; retain COI acceptance as a separate verification item.
 - The 7376/7508 project-number conflict remains unresolved.

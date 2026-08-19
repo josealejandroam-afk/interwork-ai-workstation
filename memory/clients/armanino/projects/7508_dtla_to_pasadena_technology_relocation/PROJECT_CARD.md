@@ -18,7 +18,7 @@
 | Day-of POC | Jeff Parks, both locations — cell 615-400-9997, confirmed by Kelsey King Aug 18, 2026 |
 | InterWork PM / field lead | Not assigned |
 | Labor vendor / crew / truck | Not assigned |
-| Status | Active / scheduled; project-number conflict and field logistics incomplete |
+| Status | Active / scheduled; building access confirmed, project-number conflict and field assignments incomplete |
 
 ## Confirmed Scope
 
@@ -68,7 +68,8 @@ Final counts require verification against the latest approved proposal or invent
 - Destination: 800 E. Colorado Boulevard, Suite 820, Pasadena, CA 91101.
 - Both buildings have loading docks and freight elevators.
 - Kelsey King supplied loading-dock/building maps for the move.
-- Freight reservations, exact dock procedures, parking, after-hours/security procedures, and COI acceptance remain open unless confirmed separately.
+- Kelsey King confirmed on Aug 18 that both buildings had been informed and InterWork was good for the move, resolving the loading-dock/freight-elevator reservation and 5:00 PM access question.
+- Exact parking/load-in procedures and COI acceptance remain open unless confirmed separately.
 
 ## Anticipated Materials
 
@@ -97,6 +98,6 @@ Final material quantities are field-dependent and remain to be confirmed.
 
 ## Readiness
 
-The signed 7508 commercial trail, vendor-facing 7376 execution trail, scope, date, time, origin suite, destination suite, client lead, Jeff Parks' confirmed cell, equipment-preparation workflow, loading-dock/freight-elevator availability, and two-building COI requirement are established. The authoritative internal project number, PM, crew, truck/vendor, exact dock reservations/procedures, parking/security procedures, COI acceptance, optional monitor-arm-disassembly authorization, final quantities, and final field instructions remain execution-critical.
+The signed 7508 commercial trail, vendor-facing 7376 execution trail, scope, date, time, origin suite, destination suite, client lead, Jeff Parks' confirmed cell, equipment-preparation workflow, and building access are established. The authoritative internal project number, PM, crew, truck/vendor, parking/load-in specifics, COI acceptance, optional monitor-arm-disassembly authorization, final quantities, and final field instructions remain execution-critical.
 
 See OPEN_LOOPS.md for the actionable list and NOTES.md for source history.
