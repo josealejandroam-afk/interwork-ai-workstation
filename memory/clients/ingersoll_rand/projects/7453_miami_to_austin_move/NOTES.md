@@ -60,6 +60,21 @@ Source: kickoff call transcript (approx. 2026-06-16), Outlook thread "IR - Inter
 - Cylinders, chemicals, Airgas coordination, and SDS requirements remain controlled unresolved scope. Sensitive equipment may require dedicated transport.
 - The Austin street address and Oct 1 versus Oct 2 final completion remain open.
 
+## 2026-08-19 Live Planning Reconciliation
+
+Sources: project handoff consolidating the Aug. 19 Teams calls, meeting screenshots, current floor-plan/render review, Southeastern Rigging correspondence history, and the “IR New Timeline (no weekends)” PDF. Raw screenshots and transcripts were not committed.
+
+- The timeline document confirms three sequential moves. Each follows 3 days of drain/prep confirmation, 4 days of Miami knockdown/pack/load, 3 days of transit, and 4 days of Austin unload/reinstall. Move 1 begins Sep. 8; Sep. 28 is a milestone; Oct. 1 is workable for completion. Exact Move 2/3 date ranges still require reading the source PDF directly.
+- Southeastern Rigging plans hopper disassembly beginning Sep. 8 with trucking tentatively Sep. 10. Whether this is a single vendor sub-schedule or part of all three moves remains unresolved.
+- Nikki requested that all orange-coded racks move in Phase 1 as one room. David said the change is operationally feasible, but the InterWork team still needs to finalize it.
+- The landlord wants to retain the existing furniture, and racking may also remain. Other Miami contents still require decommission/disposal. This is a material scope direction, but the final take/leave inventory is not complete.
+- The active design review used a modern-walnut scheme. Six cafe tables are the working quantity; desks remain as designed; one hutch was identified for removal. These are planning inputs pending final design/layout confirmation.
+- Rack construction varies: some racks are individual four-foot units rather than shared-upright runs. Zip ties versus knock-down is unresolved. Separate uprights should be shrink-wrapped, and loose palletized pieces should be wrapped to prevent loss.
+- Some small-parts bins have no lids or do not latch. Room-level destination instructions are preferred where exact placement is impractical; a lost-and-found area in Austin was proposed for unmarked items.
+- The more detailed compressor slide identified four origin units, while earlier notes identified five. Zero compressors move in Phase 1; at least one moves in Phase 2. Two new Austin compressors are a separate unresolved data point.
+- Airgas-rack measurements were lost and need to be retaken. Specialty cylinder handling, the isopropyl-alcohol SDS, and possible hood relocation remain open.
+- Informal field-note dimensions and room counts are preserved in the handoff source. They are not as-built measurements and should not be treated as final until verified.
+
 ## Preserved Earlier Scope Baseline
 
 The July 2026 “IR New Timeline (no weekends)” plan is superseded for current scheduling but remains useful inventory history:
