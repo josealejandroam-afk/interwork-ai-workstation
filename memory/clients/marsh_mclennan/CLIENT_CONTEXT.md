@@ -86,7 +86,7 @@ see 7553 below.)
 | 7553 | MMC Walk for Decom Dallas TX | 1717 Main St, Dallas TX, 44th Floor | Scheduled (past-dated) | Client POC Michael Durkin (Marsh/CBRE); PM Jairo Escalante; client_informed + access_confirmed + fastfield_submitted all true. Merged in 2026-07-10 from a former separate mcgriff/ folder — client entity was always MMC. See project folder. |
 | 7427 | Oliver Wyman Mississauga Decom & Toronto Relocation | 5945 Airport Road, Mississauga ON → 120 Bremner Blvd 13th Fl, Toronto ON | In Progress — scheduled 7/13-7/15 | Client tracked as "MMC Oliver Wyman" in Smartsheet. Move/reconfig order Won (IWSQ8324, $9,241); decom quote Pending (IWSQ8524, $5,334). See project folder. |
 | (none) | Victor Insurance Mississauga Service Call | Mississauga, ON | Operationally complete; admin/financial close-out open | No confirmed InterWork project number. Coordinated via CBRE/Marsh. Separate from 7427 despite same city. See project folder. |
-| (TBD) | Marsh / MMC Rancho Cordova Office Closure | 10850 Gold Center Drive, Suite 375, Rancho Cordova CA | Planning — target 2026-08-31; project number and logistics pending | Targeted technology/network disposition and selective relocation, not a full furniture decommission. See project folder. |
+| 7656 | Marsh / MMC Rancho Cordova Office Closure | 10850 Gold Center Drive, Suite 375, Rancho Cordova CA | Planning — target 2026-08-31; execution logistics pending | Quotes 8626 and 8625 cover office closure/Sacramento and network-decom/Westlake workstreams under one project. Not a full furniture decommission. See project folder. |
 
 ## Known Contacts
 
