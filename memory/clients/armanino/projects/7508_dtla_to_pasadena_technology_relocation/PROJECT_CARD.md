@@ -4,8 +4,8 @@
 
 | Field | Value |
 |---|---|
-| Project number | 7508 in signed Quote 8431; conflicts with vendor-facing 7376 execution trail |
-| Vendor-facing execution reference | 7376 — continue using with NRS until authoritative correction |
+| Project number | 7508 — confirmed by QuoteWerks IWSQ8431-02 / IWSPROJECT7508 |
+| Vendor-facing execution reference | Correct to 7508; prior 7376 reference was erroneous |
 | Quote | 8431 — signed by Armanino |
 | Client | Armanino |
 | Project name | DTLA to Pasadena Technology Relocation |
@@ -18,7 +18,7 @@
 | Day-of POC | Jeff Parks, both locations — cell 615-400-9997, confirmed by Kelsey King Aug 18, 2026 |
 | InterWork PM / field lead | Not assigned |
 | Labor vendor / crew / truck | Not assigned |
-| Status | Active / scheduled; building access confirmed, project-number conflict and field assignments incomplete |
+| Status | Active / scheduled; project number and building access confirmed, field assignments incomplete |
 
 ## Confirmed Scope
 
@@ -92,12 +92,12 @@ Final material quantities are field-dependent and remain to be confirmed.
 - That historical proposal included 19 Boise workstations; 6 to 10 San Jose lounge pieces; packaging; Boise-to-Pasadena and San-Jose-to-Pasadena freight; four electrical disconnects; three project-management charges; and four truck charges.
 - The broader furniture relocation was awarded elsewhere. Quote 8260-01 is project-lineage evidence only and must not be used as the August 21 execution scope.
 - An August 17 vendor-facing NRS execution email identifies the same August 21 technology move as Project 7376, with the same origin, current destination, date, and technology-only scope.
-- No reviewed source explains whether 7508 or 7376 replaced, superseded, merged with, or was incorrectly substituted for the other. Keep the conflict open.
+- QuoteWerks resolves the former conflict: IWSQ8431-02 identifies Project 7508 as the Tech Move; IWSQ8260-02 identifies Project 7376 as the separate Workstation Move.
 - Earlier operational and insurance records identified 55 S. Lake Avenue. Kelsey King's direct Aug 18 client confirmation supersedes that working address and establishes 800 E. Colorado Boulevard, Suite 820 for execution.
 - Earlier discussion requested separate pricing for disassembly of 146 monitor arms. Keep that work optional/additional unless authorized; do not assume it is included merely because the current execution plan expects the arms to be ready.
 
 ## Readiness
 
-The signed 7508 commercial trail, vendor-facing 7376 execution trail, scope, date, time, origin suite, destination suite, client lead, Jeff Parks' confirmed cell, equipment-preparation workflow, and building access are established. The authoritative internal project number, PM, crew, truck/vendor, parking/load-in specifics, COI acceptance, optional monitor-arm-disassembly authorization, final quantities, and final field instructions remain execution-critical.
+Project 7508, the signed commercial trail, scope, date, time, origin suite, destination suite, client lead, Jeff Parks' confirmed cell, equipment-preparation workflow, and building access are established. PM, crew, truck/vendor, parking/load-in specifics, COI acceptance, optional monitor-arm-disassembly authorization, final quantities, and final field instructions remain execution-critical.
 
 See OPEN_LOOPS.md for the actionable list and NOTES.md for source history.

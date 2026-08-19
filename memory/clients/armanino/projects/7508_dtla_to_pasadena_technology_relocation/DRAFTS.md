@@ -4,9 +4,9 @@
 
 **Date/time:** Friday, August 21, 2026; 5:00 PM arrival.
 
-**Vendor-facing project:** 7376
+**Vendor-facing project:** 7508
 
-**Internal number status:** Open conflict — signed Quote 8431 uses 7508; vendor execution communication uses 7376.
+**Internal number status:** Resolved by QuoteWerks — IWSQ8431-02 is Project 7508 Tech Move; IWSQ8260-02 is Project 7376 Workstation Move.
 
 **Origin:** 777 Tower, 777 S. Figueroa Street, Suite 2600, Los Angeles, CA 90017.
 
@@ -18,7 +18,7 @@
 
 **Day-of POC:** Jeff Parks for both buildings; cell 615-400-9997.
 
-**Status:** Draft placeholder only. Vendor correction is required before pricing/logistics are finalized because NRS previously received 55 S. Lake Avenue. Do not send until Alejandro approves the final communication. Continue using Project 7376 with NRS unless an authoritative project-number correction is issued.
+**Status:** Draft placeholder only. Vendor correction is required because NRS previously received both the wrong destination and Project 7376. Do not send until Alejandro approves the final communication. Use Project 7508 for this technology move.
 
 ## NRS Address and Packing Correction — Not Sent
 

@@ -2,14 +2,14 @@
 
 ## Overview
 
-Armanino has multiple InterWork projects. The August 21, 2026 DTLA-to-Pasadena technology relocation has an unresolved project-number conflict: signed commercial documentation uses 7508, while current NRS/vendor execution communication uses 7376. The broader Boise/San Jose furniture scope associated with 7376 was awarded elsewhere and must not be mixed into active execution.
+Armanino has multiple InterWork projects. QuoteWerks resolves the former 7376/7508 conflict: IWSQ8431-02 maps the August 21 DTLA-to-Pasadena technology move to Project 7508, while IWSQ8260-02 maps Project 7376 to the separate Pasadena workstation/furniture move. The broader Boise/San Jose furniture scope associated with 7376 was awarded elsewhere and must not be mixed into active execution.
 
 ## Known Projects
 
 | # | Name | Location | Status | Notes |
 |---|---|---|---|---|
-| 7508 | DTLA to Pasadena Technology Relocation — signed commercial trail | Los Angeles → Pasadena, CA | Signed / scheduled Aug 21 at 5:00 PM | Quote 8431; conflicts with vendor-facing 7376 trail. |
-| 7376 | Boise/San Jose furniture history + vendor-facing DTLA execution reference | Boise / San Jose historical; Los Angeles → Pasadena active | Number conflict open | Use 7376 with NRS for current execution; do not merge historical furniture scope into field work. |
+| 7508 | DTLA to Pasadena Technology Relocation | Los Angeles → Pasadena, CA | Signed / scheduled Aug 21 at 5:00 PM | QuoteWerks IWSQ8431-02 / IWSPROJECT7508 is authoritative. Correct vendor/dispatch references to 7508 going forward. |
+| 7376 | Boise/San Jose to Pasadena workstation/furniture relocation | Boise / San Jose → Pasadena historical | Awarded elsewhere / inactive | QuoteWerks IWSQ8260-02 / IWSPROJECT7376. Do not use for the Aug 21 technology move. |
 
 ## Known Contacts
 
@@ -28,4 +28,4 @@ Armanino has multiple InterWork projects. The August 21, 2026 DTLA-to-Pasadena t
 
 ## How to Use This Folder
 
-Read `memory/company_knowledge/START_HERE.md` first, then this file, then both 7376 and 7508 cards. Use 7376 for current NRS/vendor coordination. Treat the authoritative internal number as unresolved until explicit evidence reconciles 7376 and 7508.
+Read `memory/company_knowledge/START_HERE.md` first, then this file, then both 7376 and 7508 cards. Use Project 7508 for the August 21 technology move. Preserve Project 7376 only as the separate historical workstation/furniture record.

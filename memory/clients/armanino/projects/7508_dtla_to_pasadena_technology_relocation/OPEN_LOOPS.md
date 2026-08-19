@@ -18,13 +18,14 @@ Last reconciled: 2026-08-19.
 
 ## Project and Inventory
 
-- [ ] Resolve authoritative internal project number: signed Quote 8431 uses 7508, while the August 17 NRS execution email uses 7376. Do not merge or normalize without explicit evidence.
+- [x] Resolve authoritative project number: QuoteWerks IWSQ8431-02 / IWSPROJECT7508 is the Tech Move; IWSQ8260-02 / IWSPROJECT7376 is the separate Workstation Move.
+- [ ] Correct any remaining vendor, FastField, Teams, or calendar references that use 7376 for the August 21 technology move.
 - [ ] Verify final approved quantities for 146 monitor arms, 95 monitors, 66 docks, 65 keyboards/mice, and two Zoom Room setups.
 - [ ] Confirm whether the optional $2,190 monitor-arm knockdown/preparation line has been authorized. If not, all 146 arms must be disassembled and ready for packing under the signed base scope.
 
 ## Resolved / Superseded
 
-- [x] Signed Project 7508 commercial trail and vendor-facing Project 7376 execution trail both documented; conflict remains open.
+- [x] Signed Project 7508 commercial trail and erroneous vendor-facing Project 7376 trail documented; QuoteWerks resolved the conflict on Aug 19.
 - [x] Origin confirmed: 777 Tower, 777 S. Figueroa Street, Suite 2600, Los Angeles, CA 90017.
 - [x] Execution destination confirmed by Kelsey King Aug 18: 800 E. Colorado Boulevard, Suite 820, Pasadena, CA 91101.
 - [x] Working 55 S. Lake Avenue destination superseded by direct client confirmation.

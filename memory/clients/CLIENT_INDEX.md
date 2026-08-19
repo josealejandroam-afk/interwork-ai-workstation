@@ -41,7 +41,7 @@ _Last updated: 2026-07-24_
 | Bevin Palidar | bevin_palidar/ | 7584 | Residential client. House move Clementon NJ → Tabernacle NJ, 7/2. New client 2026-06-30. |
 | Spryson | spryson/ | 7571 | Small move Pittsburgh PA. Pre-proposal stage. Contact: Erica Sinatra. Number confirmed via Smartsheet 2026-07-15. |
 | Anti-Defamation League | anti_defamation_league/ | 7541 | Conference room setup, Boca Raton FL. On calendar 7/15, marked TBD. |
-| Armanino | armanino/ | 7376 / 7508 conflict | DTLA-to-Pasadena technology relocation Aug 21 at 5:00 PM: signed trail uses 7508, vendor-facing NRS trail uses 7376. Use 7376 for current dispatch; furniture scope excluded. |
+| Armanino | armanino/ | 7376, 7508 | 7508 = DTLA-to-Pasadena technology relocation Aug 21 at 5:00 PM (QuoteWerks IWSQ8431-02). 7376 = separate historical Pasadena workstation/furniture move (IWSQ8260-02), awarded elsewhere. |
 | Macmillan Learning | macmillan_learning/ | 7617 | 7617 = Boston MA decom, 75 Arlington St, lease expires 10/30/26. Site walkthrough 7/22. New client 2026-07-21. Contact: Jane Shipwash. |
 | Waypointe Specialties LLC | waypointe_specialties/ | 7622 | 7622 = Bayport furniture move, Tampa FL. Proposal 8582 sent 7/24; schedule pending. Chuck confirmed current route is 1st floor to 9th floor. |
 | Zscaler | zscaler/ | 7413 | 7413 = multi-phase Santa Clara / San Jose HQ relocation, phone booths, IT/lab moves, employee move program, and decommission through October 2026. |

@@ -12,7 +12,16 @@
 - The broader Boise / San Jose furniture opportunity remains historical context only; InterWork retained the smaller DTLA technology relocation.
 - Superseded Aug 18: Kelsey King directly confirmed 800 E. Colorado Boulevard, Suite 820 for execution, reversing the working 55 S. Lake Avenue conclusion.
 - No PM, crew, vendor, or truck assignment was inferred.
-- A prior reconciliation added 7376 to Supabase based on incomplete project-number evidence. The repo now records 7508 as authoritative for the active move; live Supabase correction remains a separate controlled action and was not performed here.
+- A prior reconciliation added 7376 to Supabase based on incomplete project-number evidence. Supabase was corrected on Aug 19 after QuoteWerks established 7508 as the technology move.
+
+## 2026-08-19 QuoteWerks Resolution
+
+- QuoteWerks search results provide authoritative system mapping.
+- IWSQ8431-02 is `IWSPROJECT7508`, document name `Armanino - Pasadena, CA - Tech Move`.
+- IWSQ8260-02 is `IWSPROJECT7376`, document name `Armanino - Pasadena, CA - Workstation Move`.
+- The August 21 technology relocation is Project 7508. Project 7376 remains the separate historical workstation/furniture project.
+- Any NRS, FastField, Teams, or calendar reference using 7376 for the technology move should be corrected to 7508.
+- Supabase was corrected on 2026-08-19: the operational row is now 7508 and a separate cancelled historical 7376 row preserves the workstation/furniture record.
 
 ## Original Proposal 8260-01 — Historical Only
 
@@ -24,7 +33,7 @@
 - Other priced scope: packaging materials, San Jose-to-Pasadena freight, Boise-to-Pasadena freight, four electrical disconnects, three project-management charges, and four truck charges.
 - The broader Boise / San Jose furniture relocation was later awarded elsewhere. This proposal supports the 7376 project lineage but does not control the current field scope.
 - Current controlling execution remains the technology-only relocation from 777 S. Figueroa Street, Suite 2600 to 800 E. Colorado Boulevard, Suite 820 on Friday, August 21, 2026 at 5:00 PM, with delivery only at destination.
-- Project 7376 also has historical Boise/San Jose furniture lineage, but an August 17 vendor-facing email explicitly uses 7376 for the August 21 DTLA technology execution. Preserve both facts and do not infer the relationship.
+- Project 7376 has historical Boise/San Jose furniture lineage. An August 17 vendor-facing email incorrectly used 7376 for the technology execution; QuoteWerks later established that execution as Project 7508.
 
 ## 2026-08-18 Execution Handoff Reconciliation
 
@@ -42,7 +51,7 @@
 - Edgar Castellanos returned the signed proposal and referenced expected late-August execution, linking it to the August 21 move.
 - Later Pasadena Towers/55 S. Lake records temporarily controlled planning, but Kelsey King's direct Aug 18 confirmation restores 800 E. Colorado Boulevard, Suite 820 as the execution destination.
 - The $2,190 monitor-arm knockdown/preparation line is optional; base scope carries the arms as pre-disassembled.
-- Later evidence reopened the number decision: vendor-facing coordination already uses 7376. Continue using 7376 with NRS until an authoritative internal correction is issued; keep 7508 attached to the signed commercial trail.
+- Superseded Aug 19: QuoteWerks resolved the number decision. Use 7508 with NRS for the technology move; retain 7376 only for the separate workstation/furniture history.
 
 ## Evidence Requiring Reconciliation
 
@@ -60,4 +69,4 @@
 - Jeff Parks is day-of POC at 615-400-9997.
 - After Alejandro asked whether loading-dock and freight-elevator reservations were scheduled for Friday, Kelsey replied that both buildings had been informed and InterWork was good. Treat dock/elevator reservation and move access as confirmed.
 - The reply did not explicitly state that both COIs were accepted; retain COI acceptance as a separate verification item.
-- The 7376/7508 project-number conflict remains unresolved.
+- The 7376/7508 project-number conflict was resolved by QuoteWerks on Aug 19: technology move 7508; workstation/furniture move 7376.
