@@ -53,8 +53,8 @@ Source: kickoff call transcript (approx. 2026-06-16), Outlook thread "IR - Inter
 - Project is now in active pre-execution / mobilization for a phased Miami-to-Austin relocation running through early October.
 - 4790 NW 157th St, Miami Gardens, FL 33014 is confirmed as the authoritative mobilization address. References to 4720/4740/4790 NW 157th Road remain relevant campus context and should be reconciled by phase.
 - Pedro Martinez is confirmed as the initial site-walk PM, superseding the prior warning that his assignment was probably a cross-project data mix-up.
-- Current planning has no separate Miami Loading Phase 2. Phase 2 is primarily Austin installation Sep 14–18. Major lab equipment moved to Phase 1; compressor-parts-room and oven-parts-room scope moved to Phase 3.
-- Confirmed current sequence: packing/prep Aug 31–Sep 4; Phase 1 Miami load Sep 8–11; Phase 1 Austin install Sep 14–18; Phase 3 Miami load Sep 21–25; Phase 3 Austin install and Miami decommission Sep 28–Oct 2.
+- The full Aug. 19 transcript confirms no InterWork field work during Aug. 31-Sep. 4; Nikki's team will inventory that week. InterWork's first onsite day is Sep. 8.
+- Jill described Phase 2 as “basically just install” and committed to send a revised timeline/phasing plan. Later phase dates remain provisional until that revision is received; do not relabel Phase 2 as Miami loading based on the current calendar alone.
 - A live Supabase review found no separate obsolete Phase 2 schedule event to delete. Any stale Phase 2 loading reference is therefore an external calendar/field-document reconciliation item.
 - Labels use red/liquidate, green/Phase 1, blue/Phase 2, and yellow/Phase 3. The labels were mistakenly shipped to West Berlin and must be confirmed available in Miami.
 - Cylinders, chemicals, Airgas coordination, and SDS requirements remain controlled unresolved scope. Sensitive equipment may require dedicated transport.
@@ -66,13 +66,15 @@ Sources: project handoff consolidating the Aug. 19 Teams calls, meeting screensh
 
 - The timeline document confirms three sequential moves. Each follows 3 days of drain/prep confirmation, 4 days of Miami knockdown/pack/load, 3 days of transit, and 4 days of Austin unload/reinstall. Move 1 begins Sep. 8; Sep. 28 is a milestone; Oct. 1 is workable for completion. Exact Move 2/3 date ranges still require reading the source PDF directly.
 - Southeastern Rigging plans hopper disassembly beginning Sep. 8 with trucking tentatively Sep. 10. Whether this is a single vendor sub-schedule or part of all three moves remains unresolved.
-- Nikki requested that all orange-coded racks move in Phase 1 as one room. David said the change is operationally feasible, but the InterWork team still needs to finalize it.
+- Nikki requested that all orange-coded racks move in Phase 1 as one room. The meeting participants accepted that operating direction; it still must be reflected in Jill's revised timeline and final phase inventory.
 - The landlord wants to retain the existing furniture, and racking may also remain. Other Miami contents still require decommission/disposal. This is a material scope direction, but the final take/leave inventory is not complete.
-- The active design review used a modern-walnut scheme. Six cafe tables are the working quantity; desks remain as designed; one hutch was identified for removal. These are planning inputs pending final design/layout confirmation.
+- The design review confirmed modern walnut, six cafe tables, desks retained as drawn, and removal of one hutch because the back wall is windows. Nikki still needs to mark cabinet types, rooms receiving mounted overheads, and cafe-chair selections on the final plan.
 - Rack construction varies: some racks are individual four-foot units rather than shared-upright runs. Zip ties versus knock-down is unresolved. Separate uprights should be shrink-wrapped, and loose palletized pieces should be wrapped to prevent loss.
 - Some small-parts bins have no lids or do not latch. Room-level destination instructions are preferred where exact placement is impractical; a lost-and-found area in Austin was proposed for unmarked items.
 - The more detailed compressor slide identified four origin units, while earlier notes identified five. Zero compressors move in Phase 1; at least one moves in Phase 2. Two new Austin compressors are a separate unresolved data point.
-- Airgas-rack measurements were lost and need to be retaken. Specialty cylinder handling, the isopropyl-alcohol SDS, and possible hood relocation remain open.
+- Airgas-rack measurements were lost and need to be retaken. Specialty cylinder handling and the isopropyl-alcohol SDS remain open. David stated that the riggers will move the hood; final rigging documents still need to capture that direction.
+- The landlord wants to retain all furniture and may retain racking. Boxes and other contents still move, but the final Miami decommission take/leave inventory remains open.
+- Saturday Miami access is available only as a contingency buffer if required; no Saturday work is currently scheduled.
 - Informal field-note dimensions and room counts are preserved in the handoff source. They are not as-built measurements and should not be treated as final until verified.
 
 ## Preserved Earlier Scope Baseline
