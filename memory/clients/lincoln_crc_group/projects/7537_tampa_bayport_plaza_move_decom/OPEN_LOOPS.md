@@ -38,6 +38,7 @@ full trash cbin needs disposal; the donation cbin needs a confirmed donation des
 | 22 | Confirm with Katlin White whether items can move to the 8th floor Thursday evening (7/23) instead of the planned Friday 7/24 after-5pm window | Open — requested by David 2026-07-21, not yet confirmed |
 | 23 | Confirm Monday 7/27 walkthrough with Katlin White and InterWork's PM — same day already on file as Employee Day One, check for scheduling conflict | Open |
 | 24 | Check for parallel correspondence — David's email noted "the local CRC group has also been emailing [Katlin] today," which this repo may not have visibility into | Open |
+| 25 | Verify the vendor returned the rented crates from its warehouse to New Haven; obtain shipment or receiving confirmation. The August 10 crate-pickup calendar event is not proof of completion. | Open |
 
 ## Recommended Immediate Actions (from source handoff)
 

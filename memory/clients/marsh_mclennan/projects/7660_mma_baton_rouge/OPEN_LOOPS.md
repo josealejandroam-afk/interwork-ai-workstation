@@ -13,3 +13,5 @@
 | 9 | Confirm FastField and execution-documentation requirements | InterWork | Open |
 | 10 | Project number | Alejandro | Resolved 2026-08-17 — 7660 |
 | 11 | COI received from Catherine Horn | Jill / Catherine | Resolved 2026-08-07 |
+| 12 | Confirm vendor and delivery date/status for 60 banker boxes plus labels requested for 1000 Perkins Rowe, Suite 120 | InterWork | Open |
+| 13 | Reconcile the 60-box request with the earlier note that Daphne ordered 50 boxes from Staples | InterWork / Client | Open |

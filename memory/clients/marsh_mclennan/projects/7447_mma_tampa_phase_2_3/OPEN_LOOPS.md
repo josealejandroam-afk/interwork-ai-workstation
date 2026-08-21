@@ -21,6 +21,8 @@
 | 17 | Building hours and loading dock confirmation | Marilynn Dawson | Pending |
 | 18 | Phase 1 WCR — send to client | Alejandro Acosta | Ready now |
 | 19 | "Sean" vs. "Steve" Ouellet name discrepancy with project 7597's vendor contact — same email/company, not independently resolved | InterWork internal | Low — not blocking |
+| 20 | Confirm Cubicle Solutions completed the Dale Mabry crate pickup scheduled for 2026-08-21; obtain pickup confirmation or receipt | Steve Ouellet / InterWork | **Open — scheduled, completion not verified** |
+| 21 | Confirm technology pickup and shipment to Sergio/Westlake, including Sergio's identity/role, destination address, carrier, tracking and delivery receipt | InterWork / technology vendor | **Open — no shipment evidence located** |
 
 ## Resolved 2026-07-17
 
