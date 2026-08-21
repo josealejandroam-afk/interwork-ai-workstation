@@ -27,3 +27,13 @@
   just not confirmed either way. See OPEN_LOOPS.md.
 - Supabase still has no record for project 7647 (checked 2026-08-21) — same as the 8/18
   handoff, no Supabase write was made; this update is repo-memory only.
+
+## 2026-08-21 Supabase Creation
+
+- Alejandro approved creating project 7647 in Supabase. Created with client CRC, contact
+  Sydney Montrose (linked as client_poc), vendor H.I.S. (Kathy F. Martin as vendor lead),
+  scheduled_date 2026-08-26, full scope_summary, and the same open loops tracked in
+  OPEN_LOOPS.md below (also inserted into Supabase `open_loops`, one row each, so both
+  the repo and the live dashboard show the same pending items).
+- Repo, Supabase, and local working tree confirmed in sync as of this update (git fetch
+  showed zero commits ahead/behind origin/main before and after this change).
