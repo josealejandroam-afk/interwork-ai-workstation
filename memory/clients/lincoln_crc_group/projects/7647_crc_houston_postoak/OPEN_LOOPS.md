@@ -2,6 +2,10 @@
 
 Last reconciled: 2026-08-21.
 
+**Sequencing (2026-08-21):** Waiting on Sydney to confirm InterWork's understanding of
+scope and fill in the gaps below. H.I.S. outreach happens *after* her reply, not in
+parallel — do not contact H.I.S. on these items before Sydney responds.
+
 | Loop | Status | Notes |
 |---|---|---|
 | Onsite contact during Aug 26 execution itself | Pending confirmation | Still not confirmed who from CRC/Sydney is on-site *during* the Aug 26 work day. The 2026-08-21 scope doc only confirms Sydney returns the **morning of Aug 27** for the final walkthrough before her 12:00 PM flight — that is not the same thing as day-of coverage on Aug 26. H.I.S. still needs a confirmed day-of contact for Aug 26. |

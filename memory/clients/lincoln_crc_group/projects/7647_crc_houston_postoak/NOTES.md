@@ -37,3 +37,13 @@
   the repo and the live dashboard show the same pending items).
 - Repo, Supabase, and local working tree confirmed in sync as of this update (git fetch
   showed zero commits ahead/behind origin/main before and after this change).
+
+## 2026-08-21 Next-Step Sequencing (Alejandro)
+
+- Order of operations going forward: **wait for Sydney** to confirm InterWork's
+  understanding of the scope and fill in the still-missing details (Aug 25 evening-start
+  question, day-of Aug 26 coverage, storage vendor/method, COI status, Carmen's contact
+  sharing, coworking box count) — **then** reach out to H.I.S. once Sydney's answers are
+  in hand.
+- Do not contact H.I.S. before Sydney responds; the open loops above are blocked on her
+  reply, not independently actionable in parallel.
