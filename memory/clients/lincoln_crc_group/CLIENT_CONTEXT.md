@@ -21,7 +21,7 @@ separate client. Future references to either name route to this same folder (see
 | 7537 | CRC Group Tampa Move + Decommission (Bayport Plaza) | 3000 Bayport Dr., Suite 150, Tampa, FL 33607 | Active — move 7/24, decom starts 7/25, Day One 7/27. See project folder. |
 | 7549 | CRC Group — Kensington Vanguard Indianapolis Relocation | Regus Suite, 450 E. 96th St., Suite 500 → 310 East 96th St., Suite 240, Indianapolis, IN 46240 | Final planning — move 8/1, FDOB 8/3. Crate quantity conflict open (do not resolve without Alejandro). See project folder. |
 | 7597 | CRC Group Louisville Internal Move + IT Closet Relocation | 1717 Alliant Avenue, Suites 1/4/5, Louisville, KY 40299 | Scope defined, single-sourced — work dates 7/16-7/17. Crew-size conflict blocking dispatch. See project folder. |
-| 7647 | CRC Houston Move-Out / Decommission | 520 Post Oak Blvd, Suite 250, Houston, TX 77027 | Scheduled Aug 25–26; furniture remains, partial technology relocation and decommission. See project folder. |
+| 7647 | CRC Houston Move-Out / Decommission | 520 Post Oak Blvd, Suite 250, Houston, TX 77027 | Full scope confirmed for Aug 26 (Aug 25 evening-start unconfirmed); furniture remains, coworking IT relocation, cleanout, wall patching, appliance removal, security de-install. Final walkthrough Aug 27 AM. See project folder. |
 
 ## Known Contacts
 
