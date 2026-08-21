@@ -44,8 +44,8 @@ Exact project roles and field assignments remain Needs confirmation unless docum
 | Location | Role |
 |---|---|
 | 120 Holger Way, San Jose, CA | Existing headquarters / move origin |
-| 4301 Great America Parkway, Santa Clara, CA 95054 | Current authoritative destination; confirmed by multiple later sources including the August 6 client-facing schedule |
-| 4401/4403 Great America Parkway, Santa Clara, CA | Superseded earlier reference; do not use unless the client advises otherwise |
+| 4301 Great America Parkway, Santa Clara, CA 95054 | Active destination for portions of the relocation |
+| 4401 Great America Parkway, Santa Clara, CA | Active destination for other departments/floors and later booth activity; not a conflict with 4301 |
 | 1301 Fannin Street, Suite 1150, Houston, TX 77002 | Houston destination shown on Quote 8385-01 |
 | 1100 Space Park Drive, Santa Clara, CA | Server-relocation origin |
 | 1201 Comstock Street, Santa Clara, CA | Server-relocation destination |

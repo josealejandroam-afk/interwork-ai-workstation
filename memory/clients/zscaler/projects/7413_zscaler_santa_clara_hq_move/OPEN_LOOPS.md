@@ -2,9 +2,9 @@
 
 | # | Item | Status |
 |---|---|---|
-| 1 | Confirm the current approved master schedule and reconcile it with individual Smartsheet calendar events | Partially resolved 2026-08-05 - Aug 7 through Sep 4 events recorded; later phases still need calendar confirmation |
+| 1 | Confirm the current approved master schedule and reconcile it with individual Smartsheet calendar events | Mostly resolved 2026-08-21 - phases, post-move support, and crate pickups recorded through 10/26; phase-specific staffing still needs confirmation |
 | 2 | Complete phone-booth seismic anchoring: correct Framery brackets, verified booth quantities, approved room-booth solution, stamped drawings, installation, special inspection and final sign-off | Critical / Open |
-| 3 | Confirm final execution/completion status and remaining scope for the 50-server relocation | Open |
+| 3 | Complete the 2026-08-24 10:00 AM server relocation from 1100 Space Park Dr to 1201 Comstock St and confirm completion/re-racking | Open |
 | 4 | Confirm disposition and timing for the 15 Houston-bound racks | Open |
 | 5 | Confirm final lab-restoration obligations | Open - latest handoff says no restoration is required, but final contractual confirmation is still needed |
 | 6 | Reconcile the 1,100 in-box monitors with the separate approximately 190-monitor inventory | Open |
@@ -18,7 +18,7 @@
 | 19 | Confirm normal-hours versus after-hours booth work, elevator dimensions, loading/access logistics, and vendor staffing | Open |
 | 13 | Confirm final decommission removal and work-letter exemption scope | Open |
 | 14 | Obtain and review the supplied FastField inventory attachment | Resolved 2026-08-05 - one-page cover reviewed; detailed inventory is absent |
-| 15 | Santa Clara booth destination | Resolved 2026-08-17 — 4301 Great America Parkway is current authoritative destination; earlier 4401/4403 reference superseded |
+| 15 | Santa Clara destination-address reconciliation | Resolved 2026-08-21 — 4301 and 4401 Great America Parkway are both valid project destinations; do not treat them as conflicting |
 | 16 | Obtain the detailed inventory pages or export; the supplied 2026-05-27 FastField PDF contains only the one-page cover and no itemized inventory | Open |
 | 17 | Reconcile the separate 50-server relocation description with Quote 8385-01's rack-based IT/server scope | Open |
 | 20 | Confirm whether the 20 C-bins delivered on 8/17 require retrieval, whether 8/31 remains valid and whether pickups follow each move phase | Open |
@@ -30,6 +30,11 @@
 | 26 | Confirm conference-table quantity and installation sequence | Open |
 | 27 | Establish an approved protected receiving/staging plan at 4301 before major deliveries | Open |
 | 28 | Review the 2026-08-17 through 2026-08-19 phone-booth calendar entry; remaining work is TBD pending bracket and seismic approval | Open |
+| 29 | Resolve the 70 vs. 75 crate quantity before the 2026-08-24 7:00 AM Holger delivery | Immediate / Open |
+| 30 | Provide Karthik Reddy the email addresses for Pedro, Gilberto, and the remaining two labor members; confirm final crew names | Immediate / Open |
+| 31 | Confirm whether a 16-foot box truck is acceptable for the 2026-08-24 server relocation | Immediate / Open |
+| 32 | Confirm the exact Great America Parkway building/floor sequence and construction-ready areas before 2026-08-25 placard installation | Open |
+| 33 | Reconcile booth-count evidence (8-booth wave, 9-booth later list, 16-booth program, and 3 remaining at Holger) without forcing an explanation | Data quality / Open |
 
 ## Next Decision
 

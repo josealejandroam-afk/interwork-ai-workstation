@@ -65,3 +65,14 @@
 - Added the Holger service-elevator independent/manual-mode issue and 4301 receiving/staging constraints as critical upcoming move dependencies.
 - Kept the August 7 server relocation closeout and August 31 C-bin retrieval date open pending confirmation.
 - Did not add client email addresses or new phone numbers from the handoff.
+
+## Operational Update - 2026-08-21
+
+- Merged Alejandro's latest Git + Supabase handoff into the canonical Project 7413 record; no duplicate project folder was created.
+- Confirmed that both 4301 and 4401 Great America Parkway are valid project destinations and removed the prior single-destination interpretation.
+- Recorded the August 24 execution sequence: 7:00 AM crate/move-packet delivery at 120 Holger, followed by the 10:00 AM server move from 1100 Space Park Drive to 1201 Comstock Street.
+- Recorded Pedro Martinez as the current field PM and Gilberto Vidrio as the local labor lead for August 24.
+- Preserved the 70-versus-75 crate discrepancy, missing crew emails/names, and 16-foot truck approval as open items rather than assumptions.
+- Corrected the placard start to Tuesday, August 25 at 8:00 AM and retained the week-of-August-31 glass-board window as planning rather than a firm single-day event.
+- Added the current phase schedule, post-move support windows, and crate-pickup dates through October 26.
+- Kept booth seismic anchoring, sprinkler/fire-life-safety work, Holger elevator readiness, board details, and booth-count reconciliation open.

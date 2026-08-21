@@ -13,15 +13,16 @@
 | PO value | $162,856 |
 | PO need-by date | 2026-07-31 |
 | Primary origin | 120 Holger Way, San Jose, CA |
-| Primary destination | 4301 Great America Parkway, Santa Clara, CA — current authoritative destination |
+| Primary destinations | 4301 and 4401 Great America Parkway, Santa Clara, CA — both are valid project locations |
 | Quote | 8385-01, dated 2026-04-29 |
 | Quote total | $31,340.00, tax $0.00 |
 | FastField inventory date | 2026-05-27 |
 | FastField project manager | Francisco Vinueza |
 | FastField point of contact | Julissa Sandoval |
 | Office coordinator | Alejandro Acosta |
-| Current field PM | Jairo Escalante — confirmed for the 2026-08-17 C-bin delivery |
+| Current field PM | Pedro Martinez — upcoming crate, server, and placard activities |
 | Primary onsite contact | Travis Bryant |
+| Current phase | Pre-move logistics / phased relocation preparation |
 
 ## Program Scope
 
@@ -66,13 +67,23 @@ The calendar confirms the event names, dates, displayed locations, and displayed
 | Post-Move Support | 2026-09-15 through 2026-09-16 |
 | Phase 3 Move | 2026-09-17 through 2026-09-21 |
 | Post-Move Support | 2026-09-22 through 2026-09-24 |
-| Phase 4 Move | 2026-09-24 through 2026-09-29 |
+| Phase 4 Move | 2026-09-24 through 2026-09-28 |
 | Post-Move Support | 2026-09-29 through 2026-10-01 |
+| Phase 4 Crate Pickup | 2026-10-05 |
 | Phase 5 Move - Lab / EBC / Reception | 2026-10-15 through 2026-10-19 |
-| People Move Complete | 2026-10-20 |
-| Decommission program | 2026-09-03 through 2026-10-28 |
+| Post-Move Support | 2026-10-20 through 2026-10-21 |
+| Phase 5 Crate Pickup | 2026-10-26 |
 
-These dates are the most complete schedule in the handoff, but should be checked against the current calendar before field handoff.
+These dates are the current planning baseline. Confirm phase-specific PMs, crews, access, and field details before each handoff.
+
+### Confirmed near-term execution
+
+| Date / time | Activity | Location | Lead / crew | Status |
+|---|---|---|---|---|
+| 2026-08-24, 7:00 AM | Deliver crates and move packets | 120 Holger Way | Pedro Martinez; Gilberto Vidrio + 2 | Planned; resolve 70 vs. 75 crates before unloading |
+| 2026-08-24, 10:00 AM | Relocate approximately 50 servers | 1100 Space Park Dr to 1201 Comstock St | Pedro Martinez; same local crew; Karthik Reddy onsite | Planned; crew emails and truck size remain open |
+| 2026-08-25, 8:00 AM | Begin placard installation | Great America Parkway campus | Pedro Martinez | Confirmed start; install only in construction-ready areas |
+| Week of 2026-08-31 | Glass-board / whiteboard installation | Great America Parkway campus | Needs confirmation | Planning window; quantities and exact locations remain open |
 
 ## Phone Booth Workstream
 
@@ -191,9 +202,11 @@ This supporting activity is complete, but Project 7413 remains open pending boot
 
 ### August 24 and week-of-August-31 readiness work
 
-- August 24 activity includes crate/C-bin coordination, move-label distribution through space captains, move packets and a move-list/tagging walkthrough.
+- August 24 begins at 7:00 AM at 120 Holger Way with crate and move-packet delivery. The client-facing quantity is 75 crates; the latest labor confirmation says 70, so the unloading quantity remains open.
+- After the Holger delivery, Pedro and the same three-person local crew are scheduled for a 10:00 AM server relocation from 1100 Space Park Drive to 1201 Comstock Street. The scope is approximately 50 servers with re-racking support.
+- Karthik Reddy requested the email address of every attendee. Pedro's, Gilberto's, and the remaining two labor-member email addresses still need to be supplied. The proposed 16-foot box truck also requires final approval.
 - The calendar wording "C-bin swap" has not been reconfirmed and should remain subject to verification.
-- Placard installation is confirmed for the week of August 24 wherever spaces are ready.
+- Placard installation starts Tuesday, August 25 at 8:00 AM, not August 24. Install only in construction-ready areas after confirming the exact building and floor sequence.
 - Directional/wayfinding signage is a separate dependency. A target around September 11 was discussed, but the client cautioned that it may change.
 - Glass-board/whiteboard delivery and installation are planned for the week of August 31. Six boards were discussed as a possible priority set, not a final quantity.
 - Final board quantities, floor/room assignments and private-office requirements remain open.
@@ -206,6 +219,16 @@ This supporting activity is complete, but Project 7413 remains open pending boot
 - The earlier confirmed booth-wave access conditions remain valid history; they do not resolve the current service-elevator operating issue.
 - Construction material on the first floor at 4301 creates a receiving/staging risk for whiteboards, conference tables and other move materials.
 - Before major deliveries, confirm the approved receiving point, protected indoor staging, construction-material clearance and weather protection if exterior staging is unavoidable.
+
+## Valid Project Locations
+
+- 120 Holger Way, San Jose, CA 95134 — booth origin, crates/C-bins, and later lab/heavy-equipment preparation.
+- 4301 Great America Parkway, Santa Clara, CA — active destination for portions of the relocation.
+- 4401 Great America Parkway, Santa Clara, CA — active destination for other departments/floors and later booth activity.
+- 1100 Space Park Drive, Santa Clara, CA 95054 — August 24 server-move origin.
+- 1201 Comstock Street, Santa Clara, CA 95054 — August 24 server-move destination.
+
+Do not treat 4301 and 4401 Great America Parkway as conflicting addresses.
 
 ## Current Project Position - 2026-08-17
 
@@ -239,6 +262,7 @@ Do not close Project 7413 until the booth compliance work, phased moves, post-mo
 | Travis Bryant | Senior Manager, Americas Workplace Operations |
 | Sheil Patel | Senior Manager, Workplace Projects |
 | Jenny Bailey | Project contact — contact method confirmed outside repo; email intentionally omitted |
+| Karthik Reddy | Onsite POC for the 2026-08-24 server relocation |
 | Julissa Sandoval | Needs confirmation |
 | Sarah Ablao | Needs confirmation |
 
@@ -250,11 +274,13 @@ Do not close Project 7413 until the booth compliance work, phased moves, post-mo
 - Alejandro Acosta
 - David Steinbrecher
 - Jairo Escalante - field PM for the completed 2026-08-17 C-bin delivery
+- Pedro Martinez - field PM for the 2026-08-24 crate/server work and 2026-08-25 placards
+- Gilberto Vidrio - Bay Area Installations labor lead for 2026-08-24; two additional labor members pending identification
 
 ## Source and Confidence
 
 - Source: executive handoff supplied by Alejandro on 2026-08-05.
 - High confidence: project number, client, PO details, quote details, FastField cover details, and broad program scope.
 - Medium confidence: phase schedule and workstream counts because the handoff consolidates several operational sources.
-- Destination reconciliation: later sources, including the August 6 client-facing schedule, consistently confirm 4301 Great America Parkway. The earlier 4401/4403 reference is superseded unless the client advises otherwise.
+- Destination reconciliation: 4301 and 4401 Great America Parkway are both valid project destinations. Do not collapse the program to one building or create an address-conflict loop from those two addresses.
 - No Supabase or API changes were made during this folder creation.
