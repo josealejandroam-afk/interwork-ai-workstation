@@ -134,6 +134,7 @@ Also fetch `OPEN_LOOPS.md` and `NOTES.md` at the same path when available.
 | `innovare` | 7589 | `7589_acrisure_miami_lakes` | Acrisure, Miami Lakes FL — labor quoted $1,075, vendor rate/date still pending | `memory/clients/innovare/projects/7589_acrisure_miami_lakes/PROJECT_CARD.md` |
 | `osha_bergman_watanabe_burton` | 7662 | `7662_houston_internal_move` | Houston TX internal move, 49th to 50th floor — walkthrough 2026-08-19 at 1:00 PM; quote and move date pending | `memory/clients/osha_bergman_watanabe_burton/projects/7662_houston_internal_move/PROJECT_CARD.md` |
 | `ovel_spaces` | 7598 | `7598_woodland_hills_furniture_install` | Woodland Hills CA furniture receiving/delivery/install — first phased install 2026-08-25; physical warehouse count, LeisureMod receipt, logistics, mounting scope and change pricing open | `memory/clients/ovel_spaces/projects/7598_woodland_hills_furniture_install/PROJECT_CARD.md` |
+| `woodforest_national_bank` | 7564 | `7564_texas_conference_table_route` | Three-stop TX conference-table relocation 2026-08-26 — North Richland Hills to Dallas to Conroe; Sergio Rios confirmed, access/COI/dock timing/Conroe ETA open | `memory/clients/woodforest_national_bank/projects/7564_texas_conference_table_route/PROJECT_CARD.md` |
 
 ---
 

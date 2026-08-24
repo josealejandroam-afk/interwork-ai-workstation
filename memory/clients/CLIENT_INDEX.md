@@ -52,6 +52,7 @@ _Last updated: 2026-07-24_
 | Richardson Sales Performance | richardson_sales_performance/ | 7630 | 7630 = Philadelphia PA decommission, Two Commerce Square, Suite 2850, ~8,000 sq ft. Walkthrough scheduled 2026-07-29 — date has passed; occurrence not confirmed in available sources. Required completion end of August 2026. New client 2026-07-29. |
 | Osha Bergman Watanabe & Burton LLP | osha_bergman_watanabe_burton/ | 7662 | 7662 = Houston internal move from the 49th to 50th floor at 1100 Louisiana Street. Walkthrough scheduled 2026-08-19 at 1:00 PM; quote, execution scope and move date pending. |
 | Ovel Spaces | ovel_spaces/ | 7598 | 7598 = Woodland Hills CA school-furniture receiving/delivery/install. First phased install planned 2026-08-25 using only product physically verified at NRS; LeisureMod receipt, site logistics, wall mounting, resources, and change pricing remain open. |
+| Woodforest National Bank | woodforest_national_bank/ | 7564 | 7564 = Three-stop Texas conference-table relocation on 2026-08-26: North Richland Hills to Dallas to Conroe. Sergio Rios confirmed; 7:00 AM access, Dallas COI/dock timing, and Conroe ETA remain open. Disposal is excluded unless separately approved. |
 
 ## Lookup Pointers (NOT InterWork clients)
 
