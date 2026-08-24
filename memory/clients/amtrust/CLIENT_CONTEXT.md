@@ -13,7 +13,7 @@ InterWork has multiple projects for AmTrust, including the Cleveland office (734
 | 7502 | Small Office Move | Garden Grove, CA | Past-dated 2026-05-11 | External PM; no FastField |
 | 7513 | Move Office Furniture | Southington, CT | Past-dated 2026-05-21 | PM Pedro Martinez; no FastField |
 | 7515 | Storage Disposal | New York, NY | Past-dated 2026-05-27 | PM Manny Gonzalez; no FastField |
-| 7536 | Chicago Decommission | 233 N. Michigan Ave, Suites 1000 & 1200, Chicago, IL — ZIP conflict 60601 vs. 60602 | Active / scope pending finalization | 10th-floor decommission; low-voltage and donation/recycling items pending AmTrust Legal. Quote 8469 unsigned. Crate delivery 8/18 is separate logistics activity. |
+| 7536 | Chicago Decommission + 12th Floor Move | 233 N. Michigan Ave, Suites 1000 & 1200, Chicago, IL — ZIP conflict 60601 vs. 60602 | Active; 12th-floor move scheduled 8/27, decom date TBD | Keep 8/18 crate delivery, 8/27 move, and 10th-floor decom separate. Low voltage, donation/recycling, Quote 8469 authorization, and 3MD award remain open. |
 | 7568 | Site Walk | Irvine, CA | Past-dated 2026-06-26 | External PM; no FastField; quote pending (Jill 2026-06-30) |
 | TBD | Nashua E-Waste / Disposal | 15 Trafalgar Square, Suites 200 & 201, Nashua NH 03063 | Quote pending — David never got back to Alexis (2026-06-23) | TVs, monitors, electronics disposal; MFPs excluded; POC: Brian Lordan |
 | TBD | Las Vegas Task Chairs | 4730 S. Ft. Apache, Ste. 270, Las Vegas NV | Quote pending — David never got back to Alexis (2026-06-23) | Replace 8 task chairs, dispose 8; contact: Ashlee Isbell |
@@ -30,7 +30,7 @@ This triggers when Alejandro says "send it" for project 7348.
 | Name | Role | Contact |
 |---|---|---|
 | Quyen Pham | Office Service Assistant — Irvine | 1-949-271-7487 | quyen.pham@amtrustgroup.com |
-| Lori Stark | Facilities Manager \| Real Estate | 214-360-8009 | lori.stark@amtrustgroup.com |
+| Lori Stark | Facilities Manager \| Real Estate | Direct 214-360-8089; Mobile 682-485-3312 | lori.stark@amtrustgroup.com |
 | Alexis Lyons | Facilities Manager \| Real Estate | (216) 553-3178 | alexis.lyons@amtrustgroup.com |
 | Ashlee Isbell | Site contact — Las Vegas | — | Ashlee.isbell@amtrustgroup.com |
 | Brian Lordan | On-site POC — Nashua | — | Brian.Lordan@amtrustgroup.com |

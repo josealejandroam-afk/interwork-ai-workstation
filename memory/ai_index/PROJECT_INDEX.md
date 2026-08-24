@@ -73,7 +73,7 @@ Also fetch `OPEN_LOOPS.md` and `NOTES.md` at the same path when available.
 | `amtrust` | 7502 | `7502_small_office_move_garden_grove` | Garden Grove CA | `memory/clients/amtrust/projects/7502_small_office_move_garden_grove/PROJECT_CARD.md` |
 | `amtrust` | 7513 | `7513_move_office_furniture_southington` | Southington CT | `memory/clients/amtrust/projects/7513_move_office_furniture_southington/PROJECT_CARD.md` |
 | `amtrust` | 7515 | `7515_storage_disposal_new_york` | New York NY | `memory/clients/amtrust/projects/7515_storage_disposal_new_york/PROJECT_CARD.md` |
-| `amtrust` | 7536 | `7536_project` | 233 N. Michigan Ave Chicago IL — 10th-floor decommission active, final scope pending AmTrust Legal; execution date unconfirmed | `memory/clients/amtrust/projects/7536_project/PROJECT_CARD.md` |
+| `amtrust` | 7536 | `7536_project` | Chicago IL — 12th-floor move confirmed 2026-08-27; separate 10th-floor decommission authorization/date, legal scope, ZIP and vendor award remain open | `memory/clients/amtrust/projects/7536_project/PROJECT_CARD.md` |
 | `amtrust` | 7568 | `7568_site_walk_irvine` | 1 Park Plaza Irvine CA — quote pending | `memory/clients/amtrust/projects/7568_site_walk_irvine/PROJECT_CARD.md` |
 | `amtrust` | 7572 | `7572_amtrust_financial_59_maiden_lane` | 59 Maiden Lane NYC | `memory/clients/amtrust/projects/7572_amtrust_financial_59_maiden_lane/PROJECT_CARD.md` |
 | `amtrust` | TBD | `unknown_las_vegas_chairs` | 4730 S. Ft. Apache Las Vegas NV — chair swap, quote pending | `memory/clients/amtrust/projects/unknown_las_vegas_chairs/PROJECT_CARD.md` |

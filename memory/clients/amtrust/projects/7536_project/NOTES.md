@@ -27,3 +27,12 @@
 3MD Relocation Services provided an estimated internal vendor total of **$115,567.00** on August 13. The estimate covered pre-spot labor, evening/weekend moving labor and recycling/disposal.
 
 This is confidential internal commercial information. Do not include it in AmTrust-facing drafts, summaries or communications. It is not an approved purchase order and does not confirm a vendor award.
+
+## 2026-08-24 — Schedule and Scope Handoff
+
+- Confirmed the 12th-floor move for Thursday, August 27, with prep at approximately 3:00-4:00 PM, main move after 5:00 PM, and expected completion around 9:00 PM.
+- Superseded previously shown August 28-29 dates unless separately reconfirmed.
+- Kept the 10th-floor decommission date TBD and did not adopt the September 1 calendar placeholder.
+- Recorded Lori Stark's direct number as 214-360-8089 and mobile as 682-485-3312; this corrects the older client-context direct number.
+- Kept 3MD as a candidate only, with full-scope validation and award still open.
+- Did not infer that the August 18 crate/dolly delivery was completed.
