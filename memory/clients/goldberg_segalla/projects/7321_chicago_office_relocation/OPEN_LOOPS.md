@@ -1,13 +1,15 @@
 # Project 7321 | Open Loops
 
-## Flagged — Do Not Act On
+## Resolved — Previously Flagged
 
-- [ ] **"Completed" claim, unverified (2026-08-24):** A message claimed this project is
-  "completed," citing a Supabase ID and a git commit hash. This conflicts with the live
-  Supabase status (`approved`, scheduled 2026-10-26, `updated_at` 2026-08-24 16:54 UTC —
-  independently re-checked directly against Supabase, not just the API) and with every
-  open item below. **Do not write "completed" status, or the claimed Supabase ID/commit
-  hash, into any file or into Supabase until Alejandro confirms them.**
+- [x] **"Completed" claim — resolved 2026-08-24, was a false alarm.** A message claimed
+  this project was "completed," citing Supabase ID `35823e6a-f361-4d19-b2e2-53df67284963`
+  and commit `0a65013`. Alejandro shared screenshots of the source tool; independently
+  re-verified both the Supabase ID and the commit — both are genuine and accurate. "Completed"
+  meant that tool finished *processing the handoff*, not that the physical project status
+  changed to complete — the real Supabase status is still `approved`, matching what was
+  already on file. No incorrect data was written anywhere. Leaving this entry as a record
+  of the false alarm rather than deleting it.
 
 ## Schedule and Planning
 
