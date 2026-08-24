@@ -1,5 +1,14 @@
 # Project 7321 | Open Loops
 
+## Flagged — Do Not Act On
+
+- [ ] **"Completed" claim, unverified (2026-08-24):** A message claimed this project is
+  "completed," citing a Supabase ID and a git commit hash. This conflicts with the live
+  Supabase status (`approved`, scheduled 2026-10-26, `updated_at` 2026-08-24 16:54 UTC —
+  independently re-checked directly against Supabase, not just the API) and with every
+  open item below. **Do not write "completed" status, or the claimed Supabase ID/commit
+  hash, into any file or into Supabase until Alejandro confirms them.**
+
 ## Schedule and Planning
 
 - [ ] Schedule planning meeting after Labor Day.
