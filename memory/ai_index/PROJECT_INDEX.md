@@ -87,6 +87,7 @@ Also fetch `OPEN_LOOPS.md` and `NOTES.md` at the same path when available.
 | `dropbox` | 7547 | `7547_power_beam_install` | 1800 Owens St SF — Power Beam Install, confirmed Wed 7/15 0700. PM: Pedro Martinez. | `memory/clients/dropbox/projects/7547_power_beam_install/PROJECT_CARD.md` |
 | `guardian` | 7341 | `7341_decom_newport_beach` | Newport Beach CA decom | `memory/clients/guardian/projects/7341_decom_newport_beach/PROJECT_CARD.md` |
 | `goldberg_segalla` | 7322 | `7322_may5_st_louis` | St. Louis MO (May 5) | `memory/clients/goldberg_segalla/projects/7322_may5_st_louis/PROJECT_CARD.md` |
+| `goldberg_segalla` | 7321 | `7321_chicago_office_relocation` | Awarded Chicago office move + technology + furniture + origin decommission — execution window week of 2026-10-26; exact date/phasing and logistics open | `memory/clients/goldberg_segalla/projects/7321_chicago_office_relocation/PROJECT_CARD.md` |
 | `goldberg_segalla` | 7352 | `7352_decom_white_plains` | White Plains NY Phase 1 decom | `memory/clients/goldberg_segalla/projects/7352_decom_white_plains/PROJECT_CARD.md` |
 | `radian` | 7492 | `7492_radian_denver_decom` | Denver CO decom | `memory/clients/radian/projects/7492_radian_denver_decom/PROJECT_CARD.md` |
 | `rothman_orthopaedics` | 7440 | `7440_wayne_pa` | Wayne PA | `memory/clients/rothman_orthopaedics/projects/7440_wayne_pa/PROJECT_CARD.md` |

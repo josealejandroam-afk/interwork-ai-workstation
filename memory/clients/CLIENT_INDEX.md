@@ -26,7 +26,7 @@ _Last updated: 2026-07-24_
 | Monster Energy | monster_energy/ | 7529 | Location Needs confirmation. |
 | FAA Eastern Region | faa_eastern_region/ | 7559, EJM FAA (TBD) | Federal client. EJM FAA may be same or separate. |
 | UiPath | uipath/ | 7516 | 7516 = Dallas TX service call 2026-05-15. External PM. |
-| Goldberg Segalla | goldberg_segalla/ | 7352, 7322 | Law firm. 7352 = White Plains NY Phase 1 Decom. 7322 = St. Louis MO May 5. |
+| Goldberg Segalla | goldberg_segalla/ | 7321, 7352, 7322 | Law firm. 7321 = awarded Chicago office relocation/decommission/technology/furniture project, execution window week of 2026-10-26, exact date and phasing TBD. 7352 = White Plains NY Phase 1 Decom. 7322 = St. Louis MO May 5. |
 | SS&C Technologies | ss_c_technologies/ | 7580 | 7580 = site walk 600 Townsend SF 6/29. New client in Supabase. |
 | Percheron Capital | percheron_capital/ | 7581 | 7581 = site walk One Letterman Dr, SF 6/30. Future move TBD ~8/24. |
 | Aerosphere | aerosphere/ | 7582 | No detail available. |
