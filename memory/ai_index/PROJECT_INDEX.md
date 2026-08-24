@@ -137,6 +137,7 @@ Also fetch `OPEN_LOOPS.md` and `NOTES.md` at the same path when available.
 | `osha_bergman_watanabe_burton` | 7662 | `7662_houston_internal_move` | Houston TX internal move, 49th to 50th floor — walkthrough 2026-08-19 at 1:00 PM; quote and move date pending | `memory/clients/osha_bergman_watanabe_burton/projects/7662_houston_internal_move/PROJECT_CARD.md` |
 | `ovel_spaces` | 7598 | `7598_woodland_hills_furniture_install` | Woodland Hills CA furniture receiving/delivery/install — first phased install 2026-08-25; physical warehouse count, LeisureMod receipt, logistics, mounting scope and change pricing open | `memory/clients/ovel_spaces/projects/7598_woodland_hills_furniture_install/PROJECT_CARD.md` |
 | `woodforest_national_bank` | 7564 | `7564_texas_conference_table_route` | Three-stop TX conference-table relocation 2026-08-26 — North Richland Hills to Dallas to Conroe; Sergio Rios confirmed, access/COI/dock timing/Conroe ETA open | `memory/clients/woodforest_national_bank/projects/7564_texas_conference_table_route/PROJECT_CARD.md` |
+| `sjp_properties` | 7672 | `7672_hoboken_penthouse_furniture_relocation` | Hoboken NJ two-phase Penthouse/11th-floor furniture relocation for 2026-09-22 event — Quote 8644 pending approval; both work dates and temporary reassembly scope open | `memory/clients/sjp_properties/projects/7672_hoboken_penthouse_furniture_relocation/PROJECT_CARD.md` |
 
 ---
 
