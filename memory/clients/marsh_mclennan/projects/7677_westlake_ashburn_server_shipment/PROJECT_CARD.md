@@ -4,7 +4,7 @@
 
 - Quote development and logistics confirmation required.
 - Project number established; quote remains preliminary.
-- Pickup/delivery dates, exact origin, handling scope, and access requirements are open.
+- Pickup/delivery dates, origin onsite POC, handling scope, and access requirements are open.
 
 ## Equipment
 
@@ -36,9 +36,9 @@
 
 ## Origin
 
-- Dallas/Westlake, Texas; exact pickup address and onsite POC are TBD.
-- Email body says Dallas; subject says Marsh Westlake Server shipment.
-- Eloy Vega's signature lists 1600 Solana Blvd, Suite 8300, Westlake, TX 76262, but this is not confirmed as the pickup address.
+- Marsh McLennan Technology, 1600 Solana Boulevard, Suite 8300, Westlake, TX 76262.
+- Pickup address confirmed by Alejandro on August 24, 2026.
+- Origin onsite POC and phone remain TBD.
 
 ## Destination
 
@@ -69,7 +69,7 @@
 
 ## Immediate Priorities
 
-1. Confirm exact pickup address and origin POC.
+1. Confirm origin onsite POC.
 2. Confirm pickup/delivery dates and time restrictions.
 3. Confirm equipment is powered down, disconnected, and de-racked before arrival.
 4. Confirm packing responsibility, configured weight, and accessories shipping.
@@ -77,4 +77,3 @@
 6. Confirm whether Dell-node removal is part of scope.
 7. Confirm docks, freight access, security/badging/escort, COI, appointments, and Equinix receiving requirements.
 8. Finalize labor, packing, transportation, and PM requirements for the quote.
-
