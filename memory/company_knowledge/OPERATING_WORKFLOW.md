@@ -98,3 +98,12 @@ Until activated, fastfield_submitted must be updated manually.
 | completion_report_sent | WC report sent to client | Manual |
 
 Never auto-set any confirmation boolean without explicit Alejandro approval.
+
+## Grouped Controls vs. Itemized Open Loops
+
+Supabase tracks a smaller number of grouped "open controls" per project, while a
+project's `OPEN_LOOPS.md` in the repo itemizes each checklist item individually. These
+counts will not match (e.g. Supabase showing 6 grouped controls against 8 itemized
+loops in the repo for the same project) — that is expected, not a data error. Don't
+flag a count mismatch between the two as a discrepancy on its own; check whether the
+underlying items actually disagree before treating it as a real conflict.
