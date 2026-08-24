@@ -88,6 +88,7 @@ see 7553 below.)
 | (none) | Victor Insurance Mississauga Service Call | Mississauga, ON | Operationally complete; admin/financial close-out open | No confirmed InterWork project number. Coordinated via CBRE/Marsh. Separate from 7427 despite same city. See project folder. |
 | 7656 | Marsh / MMC Rancho Cordova Office Closure | 10850 Gold Center Drive, Suite 375, Rancho Cordova CA | Planning — target 2026-08-31; execution logistics pending | Quotes 8626 and 8625 cover office closure/Sacramento and network-decom/Westlake workstreams under one project. Not a full furniture decommission. See project folder. |
 | 7679 | MMC Austin Phase 2 Final Close-Out | 11001 Lakeline Blvd, Building 1, Austin TX | Scope/quote/schedule development; Saturday target, exact date/time TBD | Reduced landlord-turnover scope after Project 7521: signage, wall repair, limited disposal, speed packs and final clean. Landlord retains furniture. Private-office reconfiguration is separate. |
+| 7677 | Marsh/MMC Westlake-Dallas to Ashburn Server Shipment | Texas origin TBD to Equinix DC15, Ashburn VA | Quote/logistics development | 19 serial-controlled HPE server nodes. Exact origin, dates, packing/de-racking, Ashburn installation, Dell removal, and secure-access requirements open. |
 
 ## Known Contacts
 
