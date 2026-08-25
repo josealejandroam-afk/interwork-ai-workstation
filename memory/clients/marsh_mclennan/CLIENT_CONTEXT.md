@@ -61,6 +61,7 @@ see 7553 below.)
 
 | # | Name | Location | Status | Notes |
 |---|---|---|---|---|
+| 7435 | MMA/McGriff Metairie Consolidation | 3850 North Causeway Blvd, Suite 1970 to 3300 West Esplanade Ave, Suite 301, Metairie LA; network equipment line to Westlake TX | Historical execution/closeout verification needed | Quote 8334; PO 11200511923; Invoice 132507 dated 2026-08-03; move date 2026-04-23. Keep separate from 7659. See project folder. |
 | 7189 | MMC Bermuda Inventory Hoboken NJ | 121 River St, Hoboken NJ | Scheduled Jul 1 | Field PM: Jairo Escalante. Multi-phase since Oct 2025. See project folder. |
 | 7546 | MMC/MMA Dallas Conference Room Table Removal | 13155 Noel Rd, 11th Floor, Dallas TX | Intake/review — date unconfirmed, do not assume 7/9 | SOW PM: Frank Barrett. Quote #8482, $1,100. Do not use "5549" as the project number. See project folder. |
 | 7653 | Marsh King of Prussia Site Work | 2300 Renaissance Blvd, King of Prussia PA | Work performed 2026-08-14; closeout verification pending | Pedro Martinez PM. Corrected FastField superseded an erroneous Malvern form. Boardroom-sign installation remains open. |
