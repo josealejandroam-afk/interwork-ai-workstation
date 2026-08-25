@@ -99,6 +99,7 @@ Claude must stop and ask before performing any of the following:
 
 ### Activity logging
 - Every approved Supabase write should include an `activity_log` INSERT.
+- Set `activity_log.actor` to the configured `Agent@Machine` signature (for example, `Codex@FrankWork`).
 - Use `source = 'manual'` for Claude-initiated writes (no 'ai' enum value currently).
 - Include `before_state` and `after_state` in jsonb where practical.
 

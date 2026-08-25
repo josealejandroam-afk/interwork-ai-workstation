@@ -211,9 +211,11 @@ Supabase writes always require approval.
 Every approved Supabase write must log to `activity_log`:
 ```sql
 INSERT INTO public.activity_log (project_id, actor, action, detail, source, before_state, after_state)
-VALUES (..., 'alejandro', 'status_update', '...', 'manual', '{}', '{}');
+VALUES (..., 'Codex@FrankWork', 'status_update', '...', 'manual', '{}', '{}');
 ```
 (Use `source='manual'` for Claude-initiated writes until enum is extended.)
+
+The `actor` must use the configured `Agent@Machine` signature so changes can be traced to the system that made them. See `docs/MACHINE_SIGNATURES.md`.
 
 ---
 

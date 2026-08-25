@@ -63,6 +63,7 @@ Immediate next actions:
 | `docs/DASHBOARD_URL.md` | Vercel dashboard URL and architecture clarification |
 | `docs/APPROVAL_CHECKLIST_PROJECT_STATUS_WRITES.md` | Required procedure for any Supabase write |
 | `docs/CODEX_REVIEW_ACTIONS.md` | Codex safety review log and remaining decision points |
+| `docs/MACHINE_SIGNATURES.md` | Per-machine Git and Supabase audit identity setup |
 
 ## Permanent Rules
 
@@ -71,3 +72,4 @@ Immediate next actions:
 - Never set vendor_confirmed / client_confirmed / access_confirmed without explicit evidence
 - Never send Teams messages or emails without explicit "send it" confirmation
 - Never paste secret values into Claude Code chat
+- Identify every new Git commit and approved Supabase write with the configured `Agent@Machine` signature
