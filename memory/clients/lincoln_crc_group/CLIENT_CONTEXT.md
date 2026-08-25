@@ -22,6 +22,8 @@ separate client. Future references to either name route to this same folder (see
 | 7549 | CRC Group — Kensington Vanguard Indianapolis Relocation | Regus Suite, 450 E. 96th St., Suite 500 → 310 East 96th St., Suite 240, Indianapolis, IN 46240 | Final planning — move 8/1, FDOB 8/3. Crate quantity conflict open (do not resolve without Alejandro). See project folder. |
 | 7597 | CRC Group Louisville Internal Move + IT Closet Relocation | 1717 Alliant Avenue, Suites 1/4/5, Louisville, KY 40299 | Scope defined, single-sourced — work dates 7/16-7/17. Crew-size conflict blocking dispatch. See project folder. |
 | 7647 | CRC Houston Move-Out / Decommission | 520 Post Oak Blvd, Suite 250, Houston, TX 77027 | Full scope confirmed for Aug 26 (Aug 25 evening-start unconfirmed); furniture remains, coworking IT relocation, cleanout, wall patching, appliance removal, security de-install. Final walkthrough Aug 27 AM. See project folder. |
+| 7666 | CRC Carmel Temporary Move + Decommission | 350 Veterans Way, Suite 275, Carmel IN 46032 confirmed as Uline ship-to; move role TBD | Preliminary: move to Regus 9/25-9/28 and decom 9/28-9/30 | 24 file-box kits shipped 8/24, delivery pending. Possible storage; assume FFE and electrical cap/make-safe, no cabling removal. Final-site move tentatively March 2027. |
+| TBD | CRC Scottsdale Move + Decommission | Scottsdale, AZ; exact addresses TBD | Preliminary: lease review; decom 10/23-10/31, move dates TBD | Possible storage; assumed full decom, FFE, electrical cap/make-safe and all cabling removal. Construction completion tentatively 12/7/26. |
 
 ## Known Contacts
 

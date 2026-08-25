@@ -34,6 +34,18 @@ Duration: 2–3 days per Francisco Vinueza's assessment.
 
 - Confirm final inventory scope / item counts after survey days complete.
 
+## Preliminary Execution Update — 2026-08-19
+
+This appears to be the execution continuation of the Project 7553 Dallas decommission survey, but the project-number/address linkage was not explicit in the source email. Confirm the association before dispatch, quoting, or billing.
+
+- Full decommission scope remains under landlord review; separate planning call requested.
+- Oliver Wyman last office day: October 9, 2026, TBD; disconnect and packing may begin that night pending Liz's confirmation.
+- All colleagues' last office day: October 14, 2026.
+- Preliminary move window: October 15-19, 2026.
+- First day in new suite: October 22, 2026.
+- Preliminary decommission window: October 9-31, 2026.
+- Exact destination suite/address, final scope, phasing, work hours, and assigned execution team remain open.
+
 ## Source Notes
 
 - Handoff: 2026-06-30 Smartsheet/Supabase sync session
