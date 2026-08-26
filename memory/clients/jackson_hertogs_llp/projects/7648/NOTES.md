@@ -20,9 +20,27 @@
 - Separated the engagement into inventory/assessment, reuse planning, relocation, and decommission workstreams.
 - Preserved December 12–13 as a requested planning weekend, not a confirmed execution schedule.
 - Added Brooks Paine, Lisa Gelardi, Ryan Kenney, Jill Buchman, Jairo Escalante and David Steinbrecher to the operational context.
-- Supabase project creation is authorized now that project number 7648 is confirmed; use the existing Jackson & Hertogs LLP client record and do not create a duplicate client.
+- Supabase Project 7648 and the Jackson & Hertogs LLP client record already exist; update those records rather than creating duplicates.
 
 ## August 18, 2026 — Brooks Call Timing
 
 - A next-steps call with Brooks Paine remains pending.
 - A 1:30 PM PT conflict was noted; no replacement call time is confirmed.
+
+## 2026-08-26 — Detailed Scope and Data Reconciliation
+
+- Reconfirmed that 7648 is the InterWork project number based on Alejandro's August 18 direction; the newer handoff's "not confirmed" statement is stale. Drawing 37491 must not be used as the project number.
+- Added the current Suite 1460 plan: four workstations, three private offices, no dedicated reception desk/sofa, one workstation serving reception, and private-office desks limited to 60 inches or smaller.
+- Added the current move inventory: three desks, four workstations, seven office chairs, seven VariDesks, double-monitor setups, signage, artwork and one fireproof safe.
+- Excluded regular Jackson & Hertogs filing cabinets from the move while retaining the safe.
+- Added the full origin decommission, separate other-law-firm decommission line item, low-voltage workstream and separately priced conference-room island/credenza.
+- Preserved December 12-13 as an unconfirmed target and Suite 1460 as a planning destination pending formal confirmation.
+- The 909 Montgomery furniture inventory remains complete.
+
+## 2026-08-26 — Supabase Sync
+
+- Updated the existing Project 7648 record; no duplicate project or client was created.
+- Retained `planning` status and left `client_confirmed`, `vendor_confirmed`, `access_confirmed`, and `pm_assigned` false.
+- Stored December 12-13 as target dates with explicit unconfirmed-date and unconfirmed-suite tags.
+- Added the primary open loop `Finalize furniture reuse/layout and scope split`.
+- Logged the update in `activity_log` as `Codex@FrankWork`, source `manual`.

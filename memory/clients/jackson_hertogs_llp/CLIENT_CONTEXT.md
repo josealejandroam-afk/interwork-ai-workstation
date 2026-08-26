@@ -10,21 +10,21 @@ Project number 7648 was confirmed directly by Alejandro on August 18, 2026.
 
 | # | Name | Location | Status | Notes |
 |---|---|---|---|---|
-| 7648 | San Francisco Office Relocation + Decommission | 909 Montgomery Street to 388 Market Street, San Francisco | Planning / design development | Full origin inventory complete; Suite 1460 planning/layout and final reuse-versus-decommission split in progress. |
+| 7648 | San Francisco Office Relocation + Decommission | 909 Montgomery Street, Suite 200 to 388 Market Street, 14th Floor, Suite 1460 (suite pending confirmation) | Planning / scope development | Full origin inventory complete; four workstations, three private offices, selective reuse, relocation, full origin decom, separate other-law-firm line item, low voltage and conference-room credenza pricing in development. Target 12/12-12/13 remains unconfirmed. |
 
 ## Known Contacts
 
 | Name | Role | Contact details |
 |---|---|---|
-| Brooks Paine | Contracts Manager; primary coordination contact | Direct 415-848-5516; main 415-986-4559 |
-| Lisa Gelardi | Human Resources Manager | Main 415-986-4559 |
+| Brooks Paine | Contracts Manager; primary coordination contact | Direct 415-848-5516; main 415-986-4559; bpaine@jackson-hertogs.com |
+| Lisa Gelardi | Human Resources Manager | Main 415-986-4559; lgelardi@jackson-hertogs.com |
 | Ryan Kenney | 388 Market Senior Manager; building/access coordination | 415-658-6929 |
 
 ## InterWork Team
 
 | Name | Role |
 |---|---|
-| Francisco Vinueza | Walkthrough and field-measurement coordination |
+| Francisco Vinueza | Senior PM; walkthrough, field measurement and furniture planning; 609-744-1467 |
 | Jill Buchman | Primary client communication and project coordination |
 | Jairo Escalante | Follow-up measurements and inventory support |
 | David Steinbrecher | Earlier planning correspondence |
