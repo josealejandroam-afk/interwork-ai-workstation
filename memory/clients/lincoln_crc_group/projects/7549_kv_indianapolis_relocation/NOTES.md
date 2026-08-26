@@ -27,3 +27,9 @@ explicit instruction, do not expose their contact details in any client-facing d
 - Source: two handoffs pasted directly by Alejandro, 2026-07-10 — the original relocation
   planning handoff, and a same-day correction handoff confirming client identity via Quote #8486.
 - Created: 2026-07-10.
+
+## Completion reconciliation (2026-08-26)
+
+- Project 7549 is confirmed as a historical/completed Indianapolis relocation executed July 31-August 3, 2026 through Advanced Office Logistics.
+- Supporting records include Smartsheet events, a completed FastField submission, and AP/vendor invoices.
+- Project 7666 is the separate CRC Carmel engagement at 350 Veterans Way. Do not merge these records.

@@ -1,5 +1,5 @@
 # Client Index
-_Last updated: 2026-07-24_
+_Last updated: 2026-08-26_
 
 > **Routing note:** Use this index only when the client is unclear from context.
 > For client-specific Claude Projects, go directly to `memory/clients/<client_slug>/`.
@@ -36,7 +36,7 @@ _Last updated: 2026-07-24_
 | Premier Orthopaedics | premier_orthopaedics/ | 7391 | 7391 = Multi-Phase Newtown Square PA. End date 7/7 (Storage Run leg TBD). |
 | Vecos / IU Health | vecos_iu_health/ | Unknown | Bloomington IN locker commissioning. Separate from Vecos JPMC. |
 | Tegna / Premion | tegna_premion/ | Unknown | No project number confirmed. |
-| Lincoln / CRC Group | lincoln_crc_group/ | 7246, 7537, 7549, 7588, 7597, 7647, 7666, Scottsdale TBD | 7666 = preliminary CRC Carmel move/Regus/decom schedule for 9/25-9/30; 350 Veterans Way confirmed as Uline ship-to but location role remains open. CRC Scottsdale remains unnumbered with lease-dependent decom planning for 10/23-10/31. Existing projects include Tampa, Indianapolis, Glen Allen, Louisville and Houston. |
+| Lincoln / CRC Group | lincoln_crc_group/ | 7246, 7537, 7549, 7588, 7597, 7647, 7666, Scottsdale TBD | 7666 = CRC Carmel move/storage/decommission: 350 Veterans Way is the current office; temporary destination is Industrious Suites 101/102 (street address TBD); tentative work 9/25-9/30. Project 7549 is the separate historical/completed Kensington Vanguard Indianapolis relocation executed 7/31-8/3. CRC Scottsdale remains unnumbered. |
 | Teknion | teknion/ | 5156 | Historical project; low project number. |
 | Bevin Palidar | bevin_palidar/ | 7584 | Residential client. House move Clementon NJ → Tabernacle NJ, 7/2. New client 2026-06-30. |
 | Spryson | spryson/ | 7571 | Small move Pittsburgh PA. Pre-proposal stage. Contact: Erica Sinatra. Number confirmed via Smartsheet 2026-07-15. |

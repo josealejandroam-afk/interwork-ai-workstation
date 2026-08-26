@@ -12,7 +12,7 @@
 | Origin address | Regus Suite, Parkwood Crossing Center, 450 E. 96th St., Suite 500, Indianapolis, IN 46240 |
 | Destination address | 310 East 96th St., Suite 240, Indianapolis, IN 46240 |
 | Field PM | Pedro Martinez — per Smartsheet calendar, added 2026-07-16 (Supabase previously had no PM assigned) |
-| Status | Vendor pricing and final scope confirmation in progress; move-weekend coordination remains open |
+| Status | Historical/completed — executed July 31-August 3, 2026 through Advanced Office Logistics; supported by Smartsheet, completed FastField submission, and AP/vendor invoices |
 
 ## Client Naming — Corrected 2026-07-10
 
@@ -24,6 +24,14 @@ project 7537, CRC Group Tampa) since both are CRC Group with Lincoln Property Co
 providing PM support. Existing cross-project trackers listing this as **"7549 CRC"**
 (`memory/shared/CALENDAR_SNAPSHOT.md`, `memory/company_knowledge/GLOBAL_OPEN_LOOPS.md`) were
 correct all along — no mislabel, contrary to what was assumed earlier today.
+
+## Completion Reconciliation — 2026-08-26
+
+- Project 7549 is a historical/completed CRC Indianapolis engagement.
+- Execution occurred July 31-August 3, 2026 through Advanced Office Logistics.
+- Smartsheet entries, a completed FastField submission, and AP/vendor invoices support the completed classification.
+- Project 7666 at 350 Veterans Way in Carmel is a separate September engagement. Do not merge the records.
+- Older planning open loops remain in the project folder as historical context unless separately reconciled; they do not make Project 7549 the same engagement as Project 7666.
 
 ## Key Dates
 
