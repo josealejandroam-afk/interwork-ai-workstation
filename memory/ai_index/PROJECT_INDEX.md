@@ -1,5 +1,5 @@
 # Project Index — AI Index
-_Last updated: 2026-06-30_
+_Last updated: 2026-08-27_
 _Source: memory/clients/ — scanned and compiled from PROJECT_CARD.md files and CLIENT_INDEX.md_
 
 > **Note:** Status and dates shown here may be stale. Always fetch the PROJECT_CARD.md for current facts.
@@ -22,6 +22,7 @@ Also fetch `OPEN_LOOPS.md` and `NOTES.md` at the same path when available.
 
 | Client Slug | Project # | Project Slug | Notes / Location | Source Path |
 |---|---|---|---|---|
+| `advent_health` | 7613 | `7613_innovation_tower_expansion` | Orlando Innovation Tower furniture and monitor-arm installation; manufacturer orders in staging flow, exact September dates/drawings/access/crew TBD | `memory/clients/advent_health/projects/7613_innovation_tower_expansion/PROJECT_CARD.md` |
 | `armanino` | 7508 | `7508_dtla_to_pasadena_technology_relocation` | Signed Quote 8431 trail for Aug 21 DTLA-to-Pasadena technology move; conflicts with vendor-facing 7376 execution reference. | `memory/clients/armanino/projects/7508_dtla_to_pasadena_technology_relocation/PROJECT_CARD.md` |
 | `armanino` | 7376 | `7376_boise_san_jose_to_pasadena_furniture_relocation` | Historical furniture scope plus current NRS/vendor-facing reference for Aug 21 technology execution; number conflict with 7508 remains open. | `memory/clients/armanino/projects/7376_boise_san_jose_to_pasadena_furniture_relocation/PROJECT_CARD.md` |
 | `ebg` | 7563 | `7563_nyc_office_move` | NYC office move completed 7/9; Orlando-bound equipment staged at NJ warehouse pending Sunset Transportation pickup/delivery | `memory/clients/ebg/projects/7563_nyc_office_move/PROJECT_CARD.md` |
