@@ -67,6 +67,7 @@ see 7553 below.)
 | 7653 | Marsh King of Prussia Site Work | 2300 Renaissance Blvd, King of Prussia PA | Work performed 2026-08-14; closeout verification pending | Pedro Martinez PM. Corrected FastField superseded an erroneous Malvern form. Boardroom-sign installation remains open. |
 | 7060 | MMC Dallas Walnut Hill to Galleria | Dallas TX | In-progress (overdue) | Client unconfirmed; draft ready; 3 months overdue |
 | 7378 | MMA Sepulveda 5th Floor (Phase 2 Decom) | Sepulveda Blvd, Van Nuys CA | Planning | Phase 1 complete; decom incoming. Evette Acosta. See project folder. |
+| 7635 | MMA Van Nuys Small Furniture Move | 5990 Sepulveda Blvd., Van Nuys CA → 6080 Center Dr., 6th Floor, Los Angeles CA | Quote revision / scheduling; Sep 11 or Sep 12 TBD | Five sit/stand desks plus technology transport. Howard Hughes Center supersedes Torrance. See project folder. |
 | 7364 | MMC Allentown Move | Allentown PA | Scheduled (past-dated) | FastField submitted; likely done |
 | 7431 | MMC Walkthrough Austin TX | Austin TX | Scheduled (past-dated) | Vendor confirmed; no FastField |
 | 7521 | MMC Austin Restack | Austin TX | Planning | 105 desks, 154 monitors, crate work. Vendor transition to Monica. See project folder. |
