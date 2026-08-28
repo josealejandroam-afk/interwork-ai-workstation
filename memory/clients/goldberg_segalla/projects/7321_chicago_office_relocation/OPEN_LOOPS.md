@@ -15,6 +15,7 @@
 
 - [ ] Schedule planning meeting after Labor Day.
 - [ ] Confirm exact date during the week of October 26, execution-day count, daily hours, and decommission phasing.
+- [ ] Confirm whether move and decommission occur simultaneously or as separate phases.
 - [ ] Confirm October 22 construction turnover and destination access.
 - [ ] Confirm final onsite client contact.
 
@@ -26,15 +27,18 @@
 
 ## Move and Technology
 
-- [ ] Confirm workstation count and final technology inventory.
-- [ ] Confirm employee/file packing responsibility and final file quantity.
+- [ ] Reconfirm approximately 24 workstation technology setups and any conference-room/AV relocation.
+- [ ] Confirm disconnect, reconnect, testing, packing, and protection responsibilities.
+- [ ] Reconfirm approximately 100 linear feet of files, packing responsibilities, labeling, and destination placement.
+- [ ] Resolve the Quote 8378 discrepancy: description says 40 crates and 10 dollies while the quote line quantity is 30.
 - [ ] Confirm final crate/dolly quantities and delivery/pickup dates.
 
 ## Furniture and Decommission
 
-- [ ] Finalize conference chair selection and furniture order/delivery status.
+- [ ] Finalize conference chair and counter-height seating selections.
+- [ ] Confirm approved 42-inch tables were released and verify furniture lead times/delivery/install against Oct 22 turnover.
 - [ ] Confirm final move-versus-dispose list.
-- [ ] Confirm electrical disconnect requirements.
+- [ ] Reconfirm 24 electrical disconnects.
 - [ ] Confirm final sustainable disposal/donation plan.
+- [ ] Establish final walkthrough and landlord-turnover requirements.
 - [ ] Reconcile the move and decommission proposals to the client-approved scope.
-
