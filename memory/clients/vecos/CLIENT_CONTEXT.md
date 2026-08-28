@@ -16,6 +16,7 @@ Vecos projects follow a consistent technical pattern — see the Standard Vecos 
 | 7454 | Vecos Commissioning Tallahassee FL | Tallahassee FL | Scheduled (past-dated Apr 16) | PM: Alejandro. No FastField. No signals. Verify status. |
 | 7609 | JPMC Columbus / Vecos SMART Locker Commissioning | Columbus OH | Pending client decision | Quote 8567 ($7,675) exceeded Vecos's budget assumption; awaiting decision. |
 | 7619 | Vecos USA - NYC - 2 Locations Service Call | EY (395 9th Ave) + SMBC (277 Park Ave), NYC | Scheduled 7/23 | Service call, not new commissioning — locker hub/UPS troubleshooting (EY) + touchscreen terminal swap (SMBC). Tech: Melvin Hernandez. |
+| 7664 | 87th Street Vanguard | 14400 N. 87th Street, Scottsdale AZ 85260 | Quote sent; Sep 1 week and onsite POC unconfirmed | Phase 1 commissioning of 8 terminals and ~400 locks. Quote 8636. Separate from the earlier Northsight Blvd Scottsdale RFQ. |
 
 ## Vecos Technical Pattern
 

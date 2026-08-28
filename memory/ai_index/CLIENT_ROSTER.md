@@ -1,5 +1,5 @@
 # Client Roster — AI Index
-_Last updated: 2026-06-30_
+_Last updated: 2026-08-28_
 _Source: memory/clients/CLIENT_INDEX.md + claude_project_bootstraps/_
 
 > This file is a fast lookup. For full client context fetch the `CLIENT_CONTEXT.md` for each client.
@@ -21,7 +21,7 @@ _Source: memory/clients/CLIENT_INDEX.md + claude_project_bootstraps/_
 | Strategic Education (SEI) | `strategic_education` | 7053, 7337 | `claude_project_bootstraps/strategic_education_bootstrap.md` | `claude_project_packs/strategic_education_knowledge_pack.md` | `memory/clients/strategic_education/CLIENT_CONTEXT.md` |
 | Tegna / Premion | `tegna_premion` | Unknown | `claude_project_bootstraps/tegna_bootstrap.md` | `claude_project_packs/tegna_knowledge_pack.md` | `memory/clients/tegna_premion/CLIENT_CONTEXT.md` |
 | UiPath | `uipath` | 7516, unknown_1450_broadway_move_out | `claude_project_bootstraps/uipath_bootstrap.md` | `claude_project_packs/uipath_knowledge_pack.md` | `memory/clients/uipath/CLIENT_CONTEXT.md` |
-| Vecos USA | `vecos` | 7579, 7454 | `claude_project_bootstraps/vecos_bootstrap.md` | — | `memory/clients/vecos/CLIENT_CONTEXT.md` |
+| Vecos USA | `vecos` | 7579, 7454, 7609, 7619, 7664 | `claude_project_bootstraps/vecos_bootstrap.md` | — | `memory/clients/vecos/CLIENT_CONTEXT.md` |
 | Pear VC | `pear_vc` | 7510 | — | `claude_project_packs/pear_vc_knowledge_pack.md` | `memory/clients/pear_vc/CLIENT_CONTEXT.md` |
 | TierPoint | `tierpoint` | 7497 | — | — | `memory/clients/tierpoint/CLIENT_CONTEXT.md` |
 | Claritev / MultiPlan | `claritev_multiplan` | 7420, 6836, 6837 | `claude_project_bootstraps/claritev_multiplan_bootstrap.md` | `claude_project_packs/claritev_multiplan_knowledge_pack.md` | `memory/clients/claritev_multiplan/CLIENT_CONTEXT.md` |
