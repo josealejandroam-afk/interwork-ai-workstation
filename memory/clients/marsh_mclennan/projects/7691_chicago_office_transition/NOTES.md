@@ -19,3 +19,27 @@
   FDOB 2027-02-01 TBC — planning only, not yet scoped in detail).
 - Created in Supabase per explicit request in the handoff title ("Supabase + Git
   Handoff") — see project record and mirrored open_loops rows.
+
+## 2026-09-03 Monroe Walkthrough Call Reconciliation
+
+- Live meeting evidence supersedes the former Monroe schedule: office close and
+  speedpack delivery are 9/10 at 5:00 PM CST; the 9/8 Monroe delivery is cancelled;
+  packing/teardown occurs the morning of 9/11.
+- The latest working Monroe facility-item window is a 12:00 PM start and 4:00 PM
+  load-out, but the Orland Park truck departure was also stated as 5:00 PM and remains
+  unresolved.
+- Orland Park scope is now itemized: one 15-foot non-hardwired table, 10 chairs, two
+  refrigerators, one freezer, one water/ice machine, holiday tree, and garbage cans.
+- Two MMA-owned Apple TVs ship to Orland Park. Leased Roku, leased AV/furniture, and
+  built-in wiring remain; other AV/facility hardware disposition is still open.
+- Canal 5th Floor adds a storage-closet carpet/attic-stock haul-away and a small onsite
+  kitchen-item move. Responsibility, timing, and commercial coverage remain open.
+- Hoteling desk/IT setup, network/WAP/AV work, and employee personal-item relocation are
+  explicitly outside InterWork Phase 1 scope. No personal-item move is needed.
+- Ketty Bencosme is the person addressed as “Kathy.” Beatrice Mars can direct Orland
+  Park placement. Dorothy's full identity and Timothy Shanahan's role remain open.
+- Source is a recurring Teams meeting with live captions; uncertain names and conflicting
+  times remain explicitly flagged rather than treated as confirmed.
+- Supabase Project 7691 was updated and verified in place: six superseded/resolved loops
+  were closed, 19 current loops remain open, and no duplicate project was created.
+- Smartsheet was not modified during this reconciliation.

@@ -91,6 +91,7 @@ see 7553 below.)
 | 7656 | Marsh / MMC Rancho Cordova Office Closure | 10850 Gold Center Drive, Suite 375, Rancho Cordova CA | Planning — target 2026-08-31 at 9:00 AM; Randal availability/pricing and warehouse logistics pending | Quotes 8626 and 8625. Targeted closure with Sacramento, San Francisco, Westlake and GTT staging; Ingram stays onsite. Houston table is staged locally but belongs to a separate project. See project folder. |
 | 7679 | MMC Austin Phase 2 Final Close-Out | 11001 Lakeline Blvd, Building 1, Austin TX | Scope/quote/schedule development; Saturday target, exact date/time TBD | Reduced landlord-turnover scope after Project 7521: signage, wall repair, limited disposal, speed packs and final clean. Landlord retains furniture. Private-office reconfiguration is separate. |
 | 7677 | Marsh/MMC Westlake to Ashburn Server Shipment | 1600 Solana Blvd, Suite 8300, Westlake TX to Equinix DC15, Ashburn VA | Quote/logistics development | 19 serial-controlled HPE server nodes. Origin address confirmed; POC, dates, packing/de-racking, Ashburn installation, Dell removal, and secure-access requirements open. |
+| 7691 | MMA Chicago Office Transition | 500 W Monroe and 111 N Canal, Chicago IL → Orland Park IL / temporary storage | Active Phase 1 planning | Monroe closes and receives speedpacks 2026-09-10 at 5 PM CST; packing/teardown and Orland Park move 9/11. Facility items now itemized; departure time, access, receiving, AV disposition, Canal cleanout responsibility, and commercial coverage remain open. |
 
 ## Known Contacts
 
