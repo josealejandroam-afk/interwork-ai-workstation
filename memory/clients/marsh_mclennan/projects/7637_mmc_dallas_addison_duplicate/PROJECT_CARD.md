@@ -7,8 +7,9 @@
 | Project number | 7637 |
 | Quote | 8600 |
 | Status | Marked duplicate in QuoteWerks |
-| Superseding project | 7669 |
-| Superseding quote | 8641 |
+| Related active project / quote | 7669 / 8641; administrative replacement supported, formal conversion not proven |
+| Proposal date / value | August 3, 2026 / $975 ($0 displayed labor, $400 PM, $575 truck) |
+| Customer PO | Blank on supplied proposal |
 | Origin | 5080 Spectrum Drive, Suite 900E, Addison, TX |
 | Destination | 13155 Noel Road, Dallas, TX |
 

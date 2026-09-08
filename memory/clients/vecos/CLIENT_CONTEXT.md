@@ -20,6 +20,8 @@ Vecos projects follow a consistent technical pattern — see the Standard Vecos 
 
 ## Vecos Technical Pattern
 
+Project 7694: [KPMG Morristown locker commissioning](projects/7694_kpmg_morristown_locker_commissioning/PROJECT_CARD.md), Quote 8670, 4 terminals/~100 locks. Documented scope; pricing, schedule and completion unresolved.
+
 Every Vecos commissioning project includes:
 - Enter Primary LBC IP
 - Enter Secondary LBC IP

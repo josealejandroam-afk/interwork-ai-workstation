@@ -9,9 +9,12 @@
 | Client | MMA / Marsh |
 | Origin | 5080 Spectrum Drive, Suite 900E, Addison, TX 75001 |
 | Destination | Three Galleria Tower, 13155 Noel Road, Suite 1100 / 11th Floor, Dallas, TX 75240 |
-| Client contact | Brent Lee |
+| Customer contact | Jane Bae, MMC RES; Jane.Bae@LPC.com; 347-679-0045 |
+| Origin contact | Brent Lee; proposal phone 972-342-2190 (differs from existing contact record; verify before replacing) |
+| Proposal date / value | September 4, 2026 / $1,300 ($1,150 labor + $150 packaging; zero tax) |
+| Customer PO | Blank on supplied proposal |
 | Status | Proposal sent and approval returned; execution schedule remains unconfirmed |
-| Supersedes | Project 7637 / Quote 8600, marked duplicate in QuoteWerks |
+| Historical relationship | Project 7637 / Quote 8600 marked duplicate; 7669 is active. Formal quote conversion not proven; scopes differ. |
 
 ## Confirmed Scope
 
