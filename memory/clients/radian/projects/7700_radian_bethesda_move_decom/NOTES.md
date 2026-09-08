@@ -26,3 +26,18 @@
 - Sources: email thread screenshots (Kris Blalock / Jill Buchman / Scott Rasmussen,
   9/2-9/8/2026), Alejandro's phone call with Melvin Hernandez (9/8), and the live
   dashboard/search/open-loops API (checked 2026-09-08).
+
+## 2026-09-08 COI / Building-Name Resolution
+
+- Alejandro reviewed the actual issued COI and resolved the "EW Towers" vs. "Bethesda
+  Crossing" flag: Certificate Holder is Bethesda Crossing EW Acquisition LLC, c/o MRP Real
+  Estate Services Group, 7315 Wisconsin Ave, Suite 420E, Bethesda, MD 20814; Description
+  of Operations lists Bethesda Crossing EW Acquisition LLC and MRP Real Estate Services
+  Group LLC as additional insured. Scott's original request referenced "EW Tower," and the
+  issued file is named "COI - Bethesda Crossing.pdf" — "EW Tower(s)" is the
+  building/property reference, "Bethesda Crossing EW Acquisition LLC" the legal entity
+  used on the COI. Not conflicting destinations; no further confirmation from Scott/Kris
+  needed on the naming question alone.
+- COI submission and the building-name mismatch are both now resolved. Remaining open:
+  loading dock week, 9/14-9/15 start time/POC, full walkthrough findings, and final scope
+  classification (decommission vs. packing/move to storage).

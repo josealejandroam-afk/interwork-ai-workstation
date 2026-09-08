@@ -13,7 +13,7 @@ InterWork has performed decommission work at Radian office locations.
 |---|---|---|---|---|
 | 7492 | Radian Decom Denver CO | Denver CO | Scheduled (past-dated Jun 4) | Sparse project card. Open loop: John Smith Teams message. Low confidence. |
 | 7497 | Radian TierPoint Navy Yard Decom | Philadelphia PA | Pending approval (May 18) | PM: Juan Martinez; FastField submitted |
-| 7700 | Radian Bethesda Move and Decommission | 7315 Wisconsin Ave, Bethesda MD | Planning / scope development | Melvin Hernandez PM; Kristopher Blalock POC. Quote 8677 dated 9/8 is a $0 blank-scope shell. 9/8 walkthrough occurred; COI sent 9/8 but building-name mismatch (EW Towers vs. Bethesda Crossing) unresolved. Scope classification (decommission vs. packing/move to storage) also unresolved. |
+| 7700 | Radian Bethesda Move and Decommission | 7315 Wisconsin Ave, Bethesda MD | Planning / scope development | Melvin Hernandez PM; Kristopher Blalock POC. Quote 8677 dated 9/8 is a $0 blank-scope shell. 9/8 walkthrough occurred; COI resolved (Bethesda Crossing EW Acquisition LLC is the certificate entity, EW Tower(s) is the building reference -- not conflicting). Still open: loading dock week, 9/14-9/15 start time/POC, full walkthrough findings, scope classification (decommission vs. packing/move to storage). |
 
 ## How to Use This Folder
 

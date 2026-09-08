@@ -29,11 +29,15 @@
   confirmation of loading-dock access or start time.
 - Quote 8677 was created September 8, 2026 for Project 7700.
 - The visible proposal has a blank scope and a $0 total; it is a placeholder/commercial shell, not a priced move authorization.
-- **COI submitted 9/8, 11:52 AM**: Scott Rasmussen sent the COI back to Kris Blalock,
-  referencing "Bethesda Crossing." **Flag:** the COI requirements document Kris originally
-  sent (9/2) was titled "EW Towers." These may be the same property or may not — needs a
-  quick confirm with Scott or Kris before treating the COI as resolved with the building's
-  property management. Do not treat COI as fully closed until this is confirmed.
+- **COI: RESOLVED.** Scott Rasmussen sent the COI back to Kris Blalock 9/8, 11:52 AM.
+  Certificate Holder: Bethesda Crossing EW Acquisition LLC, c/o MRP Real Estate Services
+  Group, 7315 Wisconsin Ave, Suite 420E, Bethesda, MD 20814. Description of Operations
+  lists Bethesda Crossing EW Acquisition LLC and MRP Real Estate Services Group LLC as
+  additional insured. The earlier "EW Towers" vs. "Bethesda Crossing" naming difference is
+  resolved — "EW Tower(s)" is the building/property reference, "Bethesda Crossing EW
+  Acquisition LLC" is the legal entity used on the COI; they're not conflicting
+  destinations. Confirmed via the issued certificate (filed as "COI - Bethesda
+  Crossing.pdf") and Scott's original request, which referenced "EW Tower."
 - **Scope classification open:** Alejandro's working label for this project is "packing
   help and move to storage." The live Supabase record currently types it as
   `decommission`. These need reconciling — do not assume either is correct without
@@ -55,5 +59,6 @@
 
 Do not treat the walkthrough findings (beyond the FedEx errand), packing dates,
 loading-dock week, 9/14-9/15 start time/POC, final move/decommission scope, price,
-execution schedule, COI-building-match, or scope classification (decommission vs.
-packing/move to storage) as confirmed until documented and reconciled.
+execution schedule, or scope classification (decommission vs. packing/move to storage)
+as confirmed until documented and reconciled. (COI and the EW Towers/Bethesda Crossing
+naming question are resolved — see Current Evidence above.)

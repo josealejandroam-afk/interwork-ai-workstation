@@ -7,7 +7,7 @@
 5. [ ] Confirm loading dock week — 9/14 vs. 9/21 not yet resolved.
 6. [ ] Confirm start time and onsite POC for 9/14-9/15.
 7. [ ] Document full walkthrough findings beyond the FedEx errand (office boxed, subtenant-decluttering survey results).
-8. [x] COI submission — **sent** 9/8, 11:52 AM by Scott Rasmussen to Kris Blalock. Not fully closed — see item 9.
-9. [ ] **New (9/8):** building name mismatch — Kris's original 9/2 COI-requirements doc was titled "EW Towers," but Scott's 9/8 return COI references "Bethesda Crossing." Confirm with Scott or Kris whether these are the same property before treating the COI as resolved with the building's property management.
+8. [x] COI submission — **RESOLVED**. Correct COI issued for the Bethesda property (Certificate Holder: Bethesda Crossing EW Acquisition LLC, c/o MRP Real Estate Services Group; 7315 Wisconsin Ave, Suite 420E, Bethesda, MD 20814; Description of Operations lists Bethesda Crossing EW Acquisition LLC and MRP Real Estate Services Group LLC as additional insured). Scott received it and forwarded it to Kris 9/8.
+9. [x] Building name mismatch ("EW Towers" vs. "Bethesda Crossing") — **RESOLVED**. The COI itself connects the two: "EW Tower/EW Towers" is the building/property reference, "Bethesda Crossing EW Acquisition LLC" is the legal entity used on the COI. Not conflicting destinations. Confirmed via the issued certificate (filed as "COI - Bethesda Crossing.pdf"), Scott's original request referenced "EW Tower." No further confirmation from Scott/Kris needed solely on the naming difference.
 10. [ ] **New (9/8):** reconcile scope classification — Alejandro's working label is "packing help and move to storage"; Supabase currently types this project `decommission`. Confirm actual scope before changing either.
 11. [ ] Confirm vendor/crew assignment and final client approval or PO.
