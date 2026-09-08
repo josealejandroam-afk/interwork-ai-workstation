@@ -15,7 +15,7 @@ _Source: memory/clients/ — scanned and compiled from PROJECT_CARD.md files and
 - 7669: `memory/clients/marsh_mclennan/projects/7669_mma_dallas_addison_furniture_move/PROJECT_CARD.md` — Quote 8641, $1,300; schedule unconfirmed.
 - 7637: `memory/clients/marsh_mclennan/projects/7637_mmc_dallas_addison_duplicate/PROJECT_CARD.md` — historical duplicate, Quote 8600, $975; do not carry old scope into 7669.
 - 7694: `memory/clients/vecos/projects/7694_kpmg_morristown_locker_commissioning/PROJECT_CARD.md` — Quote 8670; scope documented, price/execution unresolved.
-- 7700: `memory/clients/radian/projects/7700_radian_bethesda_move_decom/PROJECT_CARD.md` — Quote 8677, planning stage.
+- 7700: `memory/clients/radian/projects/7700_radian_bethesda_move_decom/PROJECT_CARD.md` — Quote 8677, planning stage; 9/8 walkthrough occurred, COI sent (building-name mismatch open), scope classification (decom vs. packing/storage) unresolved.
 
 This targeted addition does not refresh the older index snapshot below.
 
