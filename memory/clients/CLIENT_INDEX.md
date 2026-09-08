@@ -40,6 +40,7 @@ _Last updated: 2026-09-08_
 | Lincoln / CRC Group | lincoln_crc_group/ | 7246, 7537, 7549, 7588, 7597, 7647, 7666, Scottsdale TBD | 7666 = CRC Carmel move/storage/decommission: 350 Veterans Way is the current office; temporary destination is Industrious Suites 101/102 (street address TBD); tentative work 9/25-9/30. Project 7549 is the separate historical/completed Kensington Vanguard Indianapolis relocation executed 7/31-8/3. CRC Scottsdale remains unnumbered. |
 | Teknion | teknion/ | 5156 | Historical project; low project number. |
 | Bevin Palidar | bevin_palidar/ | 7584 | Residential client. House move Clementon NJ → Tabernacle NJ, 7/2. New client 2026-06-30. |
+| Bell Bank | bell_bank/ | 7573, 7696 | New client 2026-07-13. 7573 = Tampa decom/move to Mendota Heights MN, completed 7/27. 7696 = Grand Forks ND move/decom, move quote overdue as of 9/8. A Tampa furniture damage claim (Haworth replacement) surfaced 9/8 -- likely belongs to 7573, needs Alejandro's confirmation. |
 | Spryson | spryson/ | 7571 | Small move Pittsburgh PA. Pre-proposal stage. Contact: Erica Sinatra. Number confirmed via Smartsheet 2026-07-15. |
 | Anti-Defamation League | anti_defamation_league/ | 7541 | Conference room setup, Boca Raton FL. On calendar 7/15, marked TBD. |
 | Armanino | armanino/ | 7376, 7508 | 7508 = DTLA-to-Pasadena technology relocation Aug 21 at 5:00 PM (QuoteWerks IWSQ8431-02). 7376 = separate historical Pasadena workstation/furniture move (IWSQ8260-02), awarded elsewhere. |
