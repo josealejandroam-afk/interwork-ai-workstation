@@ -2,22 +2,23 @@
 
 | # | Item | Status |
 |---|---|---|
-| 1 | Final 9/11 Monroe load/truck departure time — current notes conflict between 4:00 PM and 5:00 PM; latest working load-out is 4:00 PM | Open |
-| 2 | Final Canal-to-Orland-Park transport timing | Open |
-| 3 | Orland Park receiving hours and onsite contact/POC | Open |
-| 4 | Orland Park access/loading requirements | Open |
-| 5 | Temporary storage location for the 171 monitors + 110 docking stations | Open |
-| 6 | Storage duration and pricing | Open |
-| 7 | Final pickup-vs.-leave disposition for AV/facility hardware other than the two Apple TVs | Open |
-| 8 | Final low-voltage removal obligation beyond built-in wiring | Open |
-| 9 | Final landlord turnover/signoff requirements | Open |
-| 10 | Speedpack recovery timing after Orland Park unpacking | Open |
-| 11 | COI approval and controlling building-access rules — landlord email conflicts with official Rules & Regulations | Open |
-| 12 | Canal 5th Floor storage-closet carpet/attic-stock haul-away: responsible party, commercial authorization, and timing | Open |
-| 13 | Reconfirm Canal freight/speedpack POC “Dorothy” and obtain last name/contact details | Open |
-| 14 | Final asset-management pickup list and final non-lease item removal list | Open |
-| 15 | Confirm building security director identity (Brian Lambert vs. Luis Centanni) | Open |
-| 16 | Confirm Timothy Shanahan's actual role/employer | Open |
-| 17 | Clarify whether Karen, Ivy, and “Mentor Work” are relevant to Project 7691 | Open |
-| 18 | Confirm commercial coverage/change authorization for the newly itemized Monroe facility items and Canal cleanout work | Open |
-| 19 | Final Phase 2 responsibilities (111 N Canal 5th Floor restack) | Open |
+| 1 | Confirm second field team | Open |
+| 2 | Confirm second PM; Pedro Martinez is the confirmed primary PM | Open |
+| 3 | Send complete onsite crew and PM lists to Ketty for both Chicago locations | Open |
+| 4 | Confirm final 111 N Canal COI approval | Open |
+| 5 | Complete and submit Orland Park COI | Open |
+| 6 | Confirm 26-foot box-truck approval at 111 N Canal, including dimensions/make/model | Open |
+| 7 | Confirm whether Canal speedpacks may arrive at 4:00 PM instead of the current 5:00 PM schedule | Open |
+| 8 | Confirm exact Monroe IT breakdown start time; current plan is approximately 9:00 AM on 9/11 | Open |
+| 9 | Confirm Monroe 4:00 PM load-out | Open |
+| 10 | Confirm Orland Park arrival time | Open |
+| 11 | Confirm Orland Park receiving access and onsite direction by Ketty/Bea | Open |
+| 12 | Confirm final Monroe FF&E inventory | Open |
+| 13 | Confirm final Monroe decommission scope after the 9/10 landlord walkthrough | Open |
+| 14 | Confirm Saturday 9/12 labor plan | Open |
+| 15 | Confirm printer-pickup timing and POC; printer pickup is outside InterWork scope | Open |
+| 16 | Confirm temporary storage location for 171 monitors + 110 docking stations | Open |
+| 17 | Confirm storage duration, protection, pricing and return logistics | Open |
+| 18 | Confirm final disposition of Canal legacy equipment between Orland Park, storage and Schaumburg | Open |
+| 19 | Confirm speedpack recovery schedule | Open |
+| 20 | Confirm final building/COI/truck approvals for 500 W Monroe, 111 N Canal and Orland Park | Open |

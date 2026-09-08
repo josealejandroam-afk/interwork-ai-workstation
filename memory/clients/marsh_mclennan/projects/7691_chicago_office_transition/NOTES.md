@@ -43,3 +43,27 @@
 - Supabase Project 7691 was updated and verified in place: six superseded/resolved loops
   were closed, 19 current loops remain open, and no duplicate project was created.
 - Smartsheet was not modified during this reconciliation.
+
+## 2026-09-08 Phase 1 Execution Handoff
+
+- Pedro Martinez is confirmed as primary PM. Francisco recommends two concurrent field
+  teams and potentially two PMs because Monroe and Canal overlap; second team/PM remain
+  open.
+- Canal speedpacks are scheduled for 9/9 at 5:00 PM using a 26-foot box truck; 4:00 PM
+  remains conditional on building approval.
+- Monroe landlord walkthrough is 9/10 at 3:30 PM, followed by 5:00 PM speedpack delivery.
+  No Monroe IT packing is planned on 9/10.
+- On 9/11, Canal legacy IT begins around 8:00 AM; Monroe IT breakdown is planned around
+  9:00 AM; InterWork FF&E prep begins at noon with a 4:00 PM target load-out. Monroe IT
+  and FF&E are planned on the same truck to Orland Park.
+- Canal clearing now includes approximately 12 artwork pieces and a T-bar-secured closet
+  item that may require a wrench. Canal legacy inventory may split among Orland Park,
+  storage and Schaumburg rather than routing entirely to Orland Park.
+- Orland Park has no loading dock. Building requirements, COI, 26-foot truck approval,
+  receiving access and final arrival time remain open.
+- Monroe FF&E now specifies six garbage cans. Saturday 9/12 remains a proposed
+  decommission continuation pending the 9/10 walkthrough and labor plan.
+- Supabase was updated and verified in place: Pedro is marked assigned, the active
+  execution window is 9/9 through 9/12, access remains unconfirmed, and 20 current
+  execution loops are open. The prior 19-loop snapshot remains as resolved history.
+- Smartsheet was not modified during this reconciliation.

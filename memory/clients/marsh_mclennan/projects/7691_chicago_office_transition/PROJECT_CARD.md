@@ -10,6 +10,8 @@
 | Type | IT relocation + temporary storage + limited decommission + facility-item relocation + future restack |
 | Current phase | Phase 1 |
 | Status | Active / execution planning |
+| Primary PM | Pedro Martinez |
+| Staffing plan | Two concurrent field teams; second PM under consideration / TBD |
 
 ## Locations
 
@@ -28,14 +30,15 @@ support, loading, transportation, and the specifically assigned facility-item wo
 commissioning, and hoteling-desk setup.**
 
 1. **Speedpacks:** 20 delivered to 500 W Monroe at 5:00 PM CST on 9/10/2026; 20
-   delivered to 111 N Canal on 9/9/2026. The former 9/8 Monroe delivery is cancelled.
+   delivered to 111 N Canal at 5:00 PM on 9/9/2026 unless 4:00 PM access is approved.
+   The former 9/8 Monroe delivery is cancelled.
    Bubble wrap/cardboard separation and required equipment protection provided. Forty
    speedpacks total across both sites.
 2. **500 W Monroe IT relocation → Orland Park** (target transport 9/11/2026):
    44 monitors (30 ~37", 14 ~22"), 37 docking stations, 37 keyboard/mouse sets.
-3. **111 N Canal legacy inventory → Orland Park** (leaves Canal permanently, client
-   prefers same day as packing if feasible): 52 monitors ~22", 0 docking stations,
-   77 keyboard/mouse sets.
+3. **111 N Canal legacy inventory:** 52 monitors ~22", 0 docking stations, and 77
+   keyboard/mouse sets. The majority is intended for Orland Park; some may be redirected
+   to storage/Schaumburg pending final reuse decisions.
 4. **111 N Canal reuse/return inventory → temporary storage** (returns to Canal after
    5th Floor construction, does NOT go to Orland Park): 171 monitors ~24", 110 docking
    stations, 0 keyboard/mouse sets.
@@ -45,9 +48,9 @@ commissioning, and hoteling-desk setup.**
    AV/facility hardware remains pending property-manager/AV-vendor confirmation.
 6. **500 W Monroe facility items → Orland Park:** one 15-foot table (confirmed not
    hardwired), 10 chairs, two refrigerators, one freezer, one water/ice machine, one
-   holiday tree, and garbage cans. Reinstall other tables/refrigerator/freezer and stage
-   other items as directed onsite. Commercial inclusion/change authorization still needs
-   confirmation where not already covered by the quote.
+   holiday tree, and six garbage cans. Reinstall the table and refrigerators at Orland
+   Park; stage remaining items as directed by Bea Mars. Commercial inclusion/change
+   authorization still needs confirmation where not already covered by the quote.
 7. **500 W Monroe decommission:** expected to be limited since most furniture/AV stays.
    Move management, final walkthrough, remove approved MMA-owned items and directed
    abandoned/personal contents, coordinate asset-management activity, support landlord
@@ -58,36 +61,50 @@ commissioning, and hoteling-desk setup.**
    mouse/printer setup and network/WAP/technology configuration are handled by
    Marsh Tech, not InterWork. Hardware setup is already in progress and is not an
    InterWork dependency/risk.
-9. **111 N Canal 5th Floor cleanout additions:** haul away and dispose of old carpet/
-   attic stock from a large storage closet; responsible party and timing remain open.
-   Move a small quantity of kitchen items approximately 20 feet to an onsite storage room
-   within the suite, not to Orland Park. Ketty Bencosme has photos to send to Jill Buchman.
+9. **111 N Canal 5th Floor clearing:** clear the storage closet; dispose of designated
+   attic-stock/miscellaneous trash; relocate the ice maker and reusable kitchen items
+   onsite; remove and pack approximately 12 artwork pieces for storage; and pack remaining
+   approved contents. One closet item is secured to the ceiling T-bar grid and may require
+   a wrench. Responsible party and commercial coverage remain open where not yet assigned.
 
 ## Phase 1 Schedule
 
 | Date | Milestone |
 |---|---|
-| 2026-09-09 | Deliver 20 speedpacks + packing materials to 111 N Canal |
-| 2026-09-10, 5:00 PM CST | 500 W Monroe office closes; deliver 20 speedpacks. Speedpacks remain overnight |
-| 2026-09-11 morning | Timothy Shanahan's team + InterWork crew pack/teardown at 500 W Monroe; crew returns to Canal afterward |
-| 2026-09-11, latest working window | Misc facility items target 12:00 PM start and 4:00 PM load-out; 4:00 vs. 5:00 PM Orland Park truck departure remains unresolved |
+| 2026-09-09, 5:00 PM | Deliver 20 speedpacks to 111 N Canal using planned 26-foot box truck; 4:00 PM is possible only if building approves truck size/access |
+| 2026-09-10, 3:30 PM | Landlord walkthrough at 500 W Monroe with Ketty and InterWork PM/Pedro to finalize decommission scope |
+| 2026-09-10, 5:00 PM CST | 500 W Monroe office closes and receives 20 speedpacks; no IT packing planned that day. Canal 5th Floor clearing/IT removal also begins |
+| 2026-09-11, ~8:00 AM | 111 N Canal legacy IT movement begins; Canal clearing, artwork, kitchen/miscellaneous and storage-pool work continue |
+| 2026-09-11, ~9:00 AM | Marsh IT begins Monroe IT breakdown and packing |
+| 2026-09-11, 12:00 PM / 4:00 PM target | InterWork begins Monroe FF&E prep at noon and targets 4:00 PM load-out; IT and FF&E share one truck to Orland Park |
+| 2026-09-12 | Proposed Monroe decommission continuation; final scope and labor plan depend on 9/10 walkthrough |
 | 2026-09-14 | FDOB for temporary hoteling at 111 N Canal, 1st Floor |
 | 2026-09-25 | Target completion of Monroe asset-management/decommission activity |
 | 2026-09-30 | 500 W Monroe lease expiration |
 | 2026-10-01 | Phase 1 closeout target |
 
-## Building Requirements / COI
+## Building / Truck / COI Requirements
 
 Rules & Regulations and COI requirements have been issued for both Chicago buildings.
 
-- Submit COIs for both locations before execution — client requested submission before
-  9/11/2026, preferably earlier for building approval.
-- Review building rules for: loading dock access, freight elevator access, building
-  protection, access hours, labor restrictions, move procedures.
-- COI approval must be confirmed before execution.
-- Landlord email instructions conflict with the official Rules & Regulations. Ketty
-  Bencosme is escalating by phone and will confirm the controlling requirements by email;
-  further timing corrections remain possible.
+- **500 W Monroe:** revised COI submitted after certificate-holder/additional-insured
+  correction; final approval remains open. Dock/freight access begins at 5:00 PM.
+- **111 N Canal:** COI submitted but final approval remains execution-critical. Current
+  26-foot box-truck plan requires truck dimensions, make/model, and onsite crew list;
+  4:00 PM access is possible only with building approval, otherwise retain 5:00 PM.
+- **Orland Park:** no loading dock. Ketty has received requirements and is sending them
+  to InterWork; COI completion/submission, truck approval, access and arrival time remain
+  open. Larger trucks may require arrival at 5:00 PM or later.
+- Ketty needs complete crew and PM lists for both Chicago locations.
+
+## Staffing Plan
+
+- **Team 1 — 500 W Monroe:** IT coordination, FF&E preparation, load-out, Orland Park
+  delivery, and follow-on decommission.
+- **Team 2 — 111 N Canal:** legacy IT movement, retained storage pool, artwork,
+  kitchen/miscellaneous items, and 5th Floor clearing.
+- Pedro Martinez is the confirmed primary PM. A second PM remains TBD; Francisco
+  recommends two PMs because both sites operate concurrently.
 
 ## Quote Direction (QuoteWerks base scope)
 
@@ -125,8 +142,8 @@ separate shipment, outside this Phase 1 scope).
 ## Phase 1 Completion Criteria
 
 Considered complete when: Monroe IT inventory and confirmed facility items delivered to
-Orland Park; Canal legacy
-inventory delivered to Orland Park; Canal reuse inventory placed into approved
+Orland Park; Canal legacy inventory delivered to its final approved Orland Park,
+storage, or Schaumburg destination; Canal reuse inventory placed into approved
 temporary storage; required Apple TVs and other approved equipment removed from
 Monroe; any confirmed chairs/table/refrigerators/Christmas tree relocated as
 directed; Monroe cleanout/decommission complete; leased furniture/AV handled per
@@ -140,6 +157,7 @@ must also be completed if commercially assigned to InterWork.
   building/landlord and Orland Park logistics; formal title not confirmed.
 - **Beatrice Mars** — confirms Monroe facility-item pickup and may direct placement at
   Orland Park on 9/11.
+- **Pedro Martinez** — confirmed InterWork primary PM for Phase 1 execution.
 - **Dorothy** (last name unknown) — Canal freight/speedpack POC; reconfirmation pending.
 - **Timothy Shanahan** — coordinating the technology crew/workforce; actual employer and
   role remain unconfirmed despite the MMA Teams tag.

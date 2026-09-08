@@ -30,3 +30,19 @@
 - Active warehouse staging groups are Sacramento, San Francisco, Westlake, GTT, and a separately identified Houston conference table. The Houston table belongs to another project and must not be combined with Project 7656 freight or billing.
 - The highest execution risk remains asset misrouting. Each group should be photographed and labeled before leaving Rancho Cordova.
 - Supabase Project 7656 and its three existing open loops were updated and verified. No duplicate project or open loop was created, and vendor/client/PM/access confirmation flags remain false.
+
+## 2026-09-08 Completion and Billing Reconciliation
+
+- Final field coordination confirmed Monday, August 31 execution at 9:00 AM with Scott
+  MacQuiddy as onsite POC and Matt Livengood as InterWork PM.
+- Matt sent the Project Completion Report for the Rancho Cordova office decommission on
+  September 3, supporting completed field execution and report delivery.
+- The final scope email identifies five network-device serials; the Accedian interface
+  and HP DL380 still have no serial recorded.
+- Roxana Dominguez requested an estimate/invoice on September 3. David Steinbrecher said
+  it would be provided shortly, but issuance/payment is not confirmed.
+- Project status should therefore read field-complete with financial closeout and
+  downstream staged-material disposition/shipping still open.
+- Smartsheet was not modified during this Git/Supabase reconciliation.
+- Supabase was verified after the update: status `completed`, completion report sent,
+  PM/access/client-informed flags true, invoiced false, and four closeout loops open.

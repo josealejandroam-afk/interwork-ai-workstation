@@ -1,18 +1,16 @@
 # Open Loops — Marsh / MMC Rancho Cordova Office Closure
 
-Last reconciled: 2026-08-26.
+Last reconciled: 2026-09-08 from September 3 completion-report correspondence.
 
-1. [ ] Obtain Randal's confirmation of August 31 availability, proposed crew size, truck/equipment plan, warehouse address and receiving hours, and quote for local labor, packing, transport, and disposal.
+1. [ ] Confirm the local vendor/warehouse identity, address, receiving hours, final staged inventory, custody, and release process used after the completed August 31 field work.
 2. [ ] Obtain Ed Cuevas's exact Sacramento and San Francisco item lists and quantities, final labeling instructions, and later InterWork pickup details.
 3. [ ] Confirm Ingram pickup date/window, staging area, labeling or serialization requirements, loading expectations, contact, and chain of custody.
 4. [ ] Confirm Westlake pickup schedule from the vendor warehouse, delivery hours, shipping method, packaging, serial verification/signoff, and required arrival date.
 5. [ ] Identify the exact GTT equipment and obtain return authorization, labels, destination or pickup instructions, and contact.
 6. [ ] Confirm the Houston conference table's separate project number, final Houston destination, warehouse label, and later pickup schedule.
-7. [ ] Confirm building access, dock, freight elevator reservation, COI, parking, work-hour restrictions, security, and day-of building contact.
-8. [ ] Assign the InterWork field PM/lead. Ed Cuevas is expected onsite for destination-group direction.
-9. [ ] Confirm local disposal/e-waste rules and any building-specific requirements for the broken DTEN, signage, designated equipment, and general trash.
-10. [ ] Verify the Westlake equipment serials and the current 195-pound/$35,000 planning estimate before using them on shipping documents.
-11. [ ] Confirm August 31 at 9:00 AM as the authorized field start, the noon network release estimate, and the final local vendor booking.
+7. [ ] Confirm final disposal/e-waste documentation for the broken DTEN, signage, designated equipment, and general trash.
+8. [ ] Verify the Westlake equipment list/serials and the current 195-pound/$35,000 planning estimate before final shipping documents and release.
+9. [ ] Issue the requested estimate/invoice to Roxana Dominguez and confirm billing completion; David said on September 3 that it would be provided shortly.
 
 ## Resolved Scope Boundaries
 
@@ -28,3 +26,6 @@ Last reconciled: 2026-08-26.
 - [x] The Houston conference table is active for local removal and warehouse staging but belongs to a separate Houston project.
 - [x] Ed Cuevas is expected onsite to direct destination grouping.
 - [x] The Westlake list now includes one HP DL380 server; current shipment estimate is 195 pounds and $35,000 pending shipping-document verification.
+- [x] August 31 field execution proceeded with a 9:00 AM start; Scott MacQuiddy was the onsite POC and Matt Livengood was the InterWork PM.
+- [x] Project Completion Report sent by Matt Livengood on September 3, 2026.
+- [x] Field decommission work is complete; remaining items are financial closeout and downstream staged-material disposition/shipping.

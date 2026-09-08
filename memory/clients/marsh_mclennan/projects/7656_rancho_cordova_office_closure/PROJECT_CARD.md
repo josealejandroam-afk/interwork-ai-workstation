@@ -8,14 +8,14 @@
 | Client | Marsh / Marsh McLennan (MMC) |
 | Project | Rancho Cordova Office Closure |
 | Site | 10850 Gold Center Drive, Suite 375, Rancho Cordova, CA 95670 |
-| Target execution | August 31, 2026 |
+| Execution date | August 31, 2026 |
 | Network decommission start | August 31, 2026 at 9:00 AM |
 | Type | Office closure, technology consolidation, network-equipment disposition, and selective asset relocation |
-| Status | Planning / pre-execution; local scope defined, Randal availability/pricing and warehouse logistics pending |
+| Status | Field execution completed; financial closeout and downstream warehouse/shipping disposition remain open |
 | Office closure quote | 8626 — pending |
 | Network decommission quote | 8625 — pending |
 | Proposal contact | David Steinbrecher |
-| Quote preparation | Matt Livengood |
+| InterWork PM | Matt Livengood |
 
 ## Scope Classification
 
@@ -46,6 +46,16 @@ This is a targeted office closure and multi-destination staging project, not a f
 - 2 Cisco C9300-48UXM core switches
 - Accedian network-interface equipment
 - 1 HP DL380 server — approximately 45 pounds and $1,000 declared value
+
+Serials listed in the final field scope email:
+
+- Palo Alto ION 3000 gateway — `30-006256-3936`
+- Palo Alto ION 3000 gateway — `30-010221-4265`
+- Opengear console switch — `71162012102997`
+- Cisco C9300-48UXM core switch — `FJC26151CWX`
+- Cisco C9300-48UXM core switch — `FJC261512MX`
+- Accedian network interface — no serial found
+- HP DL380 server — no serial found
 
 Destination: Marsh, 1600 Solana Blvd., Suite 8300, Westlake, TX 76262. Network contact: William Matthias, phone 856-981-7271. The formal SOW's “Bill Matthias” reference is treated as William Matthias.
 
@@ -87,10 +97,27 @@ San Francisco staging and removal of the Houston conference table are now active
 - Danielle Stingone — Lincoln Property Company project manager; phone 978-872-2007. Her August 19 note also discusses separate future CRC and MMC Dallas projects; do not conflate those with Rancho Cordova.
 - William “Bill” Matthias — network-equipment contact; phone 856-981-7271.
 - Ed Cuevas — onsite destination-group direction; phone 415-361-9420.
+- Scott MacQuiddy — August 31 onsite POC; phone 916-470-2696.
+- Matt Livengood — InterWork operations project manager; issued final field scope and
+  sent the Project Completion Report on September 3, 2026.
 - David Steinbrecher — InterWork coordination.
 - Randal — proposed local labor/warehouse contact; company, availability, crew, pricing, warehouse address, and receiving hours remain unconfirmed.
 
-Ed Cuevas is expected onsite to direct destination grouping. InterWork field PM, local vendor confirmation, and building contact remain unconfirmed.
+Ed Cuevas was expected onsite to direct destination grouping. The available completion
+evidence does not identify the local vendor/warehouse or confirm final custody and
+shipping status for each staged group.
+
+## Completion / Closeout Evidence
+
+- Matt Livengood confirmed the crew was ready for Monday, August 31, 2026, with a
+  9:00 AM start at 10850 Gold Center Drive, Suite 375.
+- On September 3, 2026, Matt emailed the attached Project Completion Report for the
+  Rancho Cordova office decommission to the project group.
+- Roxana Dominguez then requested an estimate/invoice for the work. David Steinbrecher
+  replied that InterWork would provide it shortly; the source does not confirm that it
+  was issued.
+- This supports completed field execution and completion-report delivery, but not
+  completed billing or final downstream shipment/disposition of warehouse-staged assets.
 
 ## Source Hierarchy
 
@@ -99,4 +126,5 @@ Ed Cuevas is expected onsite to direct destination grouping. InterWork field PM,
 3. The August 26 Randal handoff controls the current local labor, warehouse-staging, destination-group, network-equipment, and cleanup details. It is a request for availability and pricing, not vendor confirmation.
 4. Earlier email supports historical planning. Conflicts with the formal SOW or current handoff must be flagged rather than silently merged.
 
-Project 7656 may now be tracked canonically in Supabase. Calendar execution details still require the field PM, day-of POC, and building logistics.
+Project 7656 is tracked canonically in Supabase. Field execution is complete; financial
+closeout and downstream staged-material custody/shipping remain under follow-up.
