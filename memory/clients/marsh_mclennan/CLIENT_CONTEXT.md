@@ -1,5 +1,5 @@
 # Marsh McLennan — Client Context
-_Last updated: 2026-07-10_
+_Last updated: 2026-09-08_
 
 ## Overview
 
@@ -76,7 +76,7 @@ see 7553 below.)
 | 7241 | MMC Allentown Move | Allentown PA | Needs confirmation | Relocation scope; details sparse. See project folder. |
 | 7407 | MMC Install Service Call Phoenix | Phoenix AZ | Scheduled (past-dated) | External PM; vendor confirmed |
 | 7437 | CRC Decom Internal Move | Virginia Beach VA | Scheduled (past-dated) | No signals — check if related to MMC |
-| 7486 | MMA Austin TX | Austin TX | Scheduled (past-dated) | No signals |
+| 7486 | Marsh Austin Internal Move, Decommission and Close-Out | 11001 Lakeline Blvd, Building 1, Austin TX | Canonical commercial project; main move executed, later quote workstreams in reconciliation | Quotes 8397-02, 8633, 8679 and 8681 cover the internal move, balance of work, Phase 2 and office swap. Project 7679 is the historical Phase 2 alias. |
 | 7471 | MMA Decom + Move Loveland OH | Loveland OH | Scheduled (past-dated) | Frank Barrett PM; no FastField |
 | 7418 | MMA Colleague Relocation Columbia MD | Columbia MD | Scheduled (past-dated) | No PM in pm_assigned field |
 | 7354 | MMA Retrieve Tech Alpharetta GA | Alpharetta GA | Scheduled (past-dated) | External PM; vendor confirmed |
@@ -88,8 +88,10 @@ see 7553 below.)
 | 7553 | MMC Dallas Decommission Survey / Possible Execution Continuation | 1717 Main St, Dallas TX, 44th Floor | Survey complete; preliminary Oct execution notice needs project/address confirmation | Possible move 10/15-10/19, FDOB 10/22 and decom 10/9-10/31; landlord scope and Liz's 10/9 confirmation open. Do not dispatch/bill against 7553 until linkage is confirmed. |
 | 7427 | Oliver Wyman Mississauga Decom & Toronto Relocation | 5945 Airport Road, Mississauga ON → 120 Bremner Blvd 13th Fl, Toronto ON | In Progress — scheduled 7/13-7/15 | Client tracked as "MMC Oliver Wyman" in Smartsheet. Move/reconfig order Won (IWSQ8324, $9,241); decom quote Pending (IWSQ8524, $5,334). See project folder. |
 | (none) | Victor Insurance Mississauga Service Call | Mississauga, ON | Operationally complete; admin/financial close-out open | No confirmed InterWork project number. Coordinated via CBRE/Marsh. Separate from 7427 despite same city. See project folder. |
-| 7656 | Marsh / MMC Rancho Cordova Office Closure | 10850 Gold Center Drive, Suite 375, Rancho Cordova CA | Field execution completed 2026-08-31; financial and downstream disposition closeout open | Completion report sent 9/3. Estimate/invoice requested but not confirmed issued. Sacramento, San Francisco, Westlake, GTT and warehouse custody remain open; Ingram stayed onsite and the Houston table belongs to a separate project. See project folder. |
-| 7679 | MMC Austin Phase 2 Final Close-Out | 11001 Lakeline Blvd, Building 1, Austin TX | Scope/quote/schedule development; Saturday target, exact date/time TBD | Reduced landlord-turnover scope after Project 7521: signage, wall repair, limited disposal, speed packs and final clean. Landlord retains furniture. Private-office reconfiguration is separate. |
+| 7656 | Marsh / MMC Rancho Cordova Office Closure | 10850 Gold Center Drive, Suite 375, Rancho Cordova CA | Field execution completed 2026-08-31; financial and downstream disposition closeout open | Completion report sent 9/3. Estimate/invoice requested but not confirmed issued. Quote 8679 was reviewed and excluded because it belongs to Project 7486 Austin. |
+| 7637 | MMC Dallas/Addison Furniture Move | Addison TX to Dallas TX | Duplicate / historical only | Quote 8600. Superseded by Project 7669 / Quote 8641; do not schedule or bill against 7637. |
+| 7669 | MMA Dallas/Addison Furniture Move | 5080 Spectrum Dr, Addison TX to 13155 Noel Rd, Dallas TX | Approved proposal; execution schedule TBD | Quote 8641. Moves gray chairs and side tables; conference table/chairs remain onsite. Supersedes duplicate Project 7637 / Quote 8600. |
+| 7679 | MMC Austin Phase 2 Final Close-Out — historical alias | 11001 Lakeline Blvd, Building 1, Austin TX | Executed August 2026; administratively marked duplicate | Preserve vendor invoices/signoff under 7679. Canonical commercial project is 7486 and Phase 2 Quote 8679 is filed there. |
 | 7677 | Marsh/MMC Westlake to Ashburn Server Shipment | 1600 Solana Blvd, Suite 8300, Westlake TX to Equinix DC15, Ashburn VA | Quote/logistics development | 19 serial-controlled HPE server nodes. Origin address confirmed; POC, dates, packing/de-racking, Ashburn installation, Dell removal, and secure-access requirements open. |
 | 7691 | MMA Chicago Office Transition | 500 W Monroe and 111 N Canal, Chicago IL → Orland Park IL / temporary storage | Active Phase 1 execution planning, 2026-09-09 through 2026-09-12 | Pedro Martinez confirmed PM; two concurrent teams and possible second PM. Canal speedpacks 9/9, Monroe walkthrough/speedpacks 9/10, simultaneous Canal/Monroe work and Orland Park delivery 9/11, possible Monroe continuation 9/12. COIs, truck/access, staffing, storage and disposition remain open. |
 

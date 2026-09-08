@@ -10,7 +10,7 @@ Last reconciled: 2026-09-08 from September 3 completion-report correspondence.
 6. [ ] Confirm the Houston conference table's separate project number, final Houston destination, warehouse label, and later pickup schedule.
 7. [ ] Confirm final disposal/e-waste documentation for the broken DTEN, signage, designated equipment, and general trash.
 8. [ ] Verify the Westlake equipment list/serials and the current 195-pound/$35,000 planning estimate before final shipping documents and release.
-9. [ ] Issue the requested estimate/invoice to Roxana Dominguez and confirm billing completion; David said on September 3 that it would be provided shortly.
+9. [ ] Issue the requested Project 7656 estimate/invoice to Roxana Dominguez and confirm billing completion; David said on September 3 that it would be provided shortly. Quote 8679 is excluded because it is an Austin Phase 2 quote under Project 7486.
 
 ## Resolved Scope Boundaries
 
@@ -29,3 +29,4 @@ Last reconciled: 2026-09-08 from September 3 completion-report correspondence.
 - [x] August 31 field execution proceeded with a 9:00 AM start; Scott MacQuiddy was the onsite POC and Matt Livengood was the InterWork PM.
 - [x] Project Completion Report sent by Matt Livengood on September 3, 2026.
 - [x] Field decommission work is complete; remaining items are financial closeout and downstream staged-material disposition/shipping.
+- [x] Quote 8679 reviewed and excluded from Project 7656; it belongs to Project 7486 Austin Phase 2.

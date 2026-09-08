@@ -1,14 +1,14 @@
-# Project 7679 | Open Loops
+# Open Loops — Project 7679 Historical Alias
 
-- [ ] Finalize quote under Project 7679.
-- [x] Confirm Saturday execution date — **confirmed 2026-08-24: Saturday, August 29, 2026.**
-- [ ] Confirm exact Saturday start time (still TBD).
-- [ ] Confirm Monica/ModularInstall's availability and pricing (RFQ sent 2026-08-24, awaiting response).
-- [ ] Confirm assigned field lead and crew — depends on Monica confirming.
-- [x] Confirm whether walls are patch/sand/paint-ready only or require painting — **confirmed 2026-08-24 via Graham Shearer/Teresa Vela Garcia: only the DTEN-mount hole needs patch/sand/paint-ready; other holes (including up to ~4 from sign removal) can be left as-is unless Graham flags "abnormal damage."**
-- [ ] Confirm whether landlord handles exterior suite signage or InterWork must remove it (separate from the interior wall-patch answer above — still open).
-- [ ] Field verify the approximately 15 remaining speed packs.
-- [ ] Complete final cleanup before Monday landlord turnover.
-- [ ] **Decision needed (Alejandro):** the desk-swap request (now fully scoped — see PROJECT_CARD.md) came through in the same RFQ thread as the core 7679 close-out. Is it now bundled into 7679, or does it stay separately authorized as originally intended?
-- [ ] **Confirm, don't assume:** is Michael Durkin (Michael.Durkin@marsh.com, cc'd on the property-manager thread) the same "Michael" the project card already expected onsite/client-side? Plausible but not confirmed — do not merge without Alejandro's say-so.
+1. [ ] Confirm final invoice/payment status for Phase 2 Quote 8679 under canonical Project 7486.
+2. [ ] Confirm whether all vendor invoices originally coded 7679 were recoded to 7486 for accounting.
+3. [ ] Preserve links to 7679 vendor invoices and signoff records as historical execution evidence.
+4. [ ] Confirm exterior tenant/suite-sign disposition if required for final archival closeout.
 
+## Resolved by Reconciliation
+
+- [x] Execution date confirmed as Saturday, August 29, 2026.
+- [x] Wall treatment confirmed as patching the large DTEN opening and leaving it paint-ready.
+- [x] Phase 2 commercial quote identified as Quote 8679 under Project 7486.
+- [x] Private-office swap separated as Quote 8681 under Project 7486.
+- [x] Project 7679 identified as an administrative duplicate that must remain available as a historical operational alias.

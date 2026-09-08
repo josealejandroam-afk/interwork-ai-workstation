@@ -114,8 +114,10 @@ shipping status for each staged group.
 - On September 3, 2026, Matt emailed the attached Project Completion Report for the
   Rancho Cordova office decommission to the project group.
 - Roxana Dominguez then requested an estimate/invoice for the work. David Steinbrecher
-  replied that InterWork would provide it shortly; the source does not confirm that it
-  was issued.
+  replied that InterWork would provide it shortly; the source does not confirm that a
+  Rancho Cordova estimate/invoice was issued. Quote 8679 has now been inspected and is
+  conclusively an Austin Phase 2 decommission quote under Project 7486, so it does not
+  satisfy this Rancho Cordova billing request.
 - This supports completed field execution and completion-report delivery, but not
   completed billing or final downstream shipment/disposition of warehouse-staged assets.
 
@@ -127,4 +129,5 @@ shipping status for each staged group.
 4. Earlier email supports historical planning. Conflicts with the formal SOW or current handoff must be flagged rather than silently merged.
 
 Project 7656 is tracked canonically in Supabase. Field execution is complete; financial
-closeout and downstream staged-material custody/shipping remain under follow-up.
+closeout and downstream staged-material custody/shipping remain under follow-up. Do not
+associate Quote 8679 with this project.

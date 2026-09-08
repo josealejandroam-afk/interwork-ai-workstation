@@ -46,3 +46,10 @@
 - Smartsheet was not modified during this Git/Supabase reconciliation.
 - Supabase was verified after the update: status `completed`, completion report sent,
   PM/access/client-informed flags true, invoiced false, and four closeout loops open.
+
+## 2026-09-08 Quote 8679 Exclusion
+
+- The actual Quote 8679 proposal was reviewed after the earlier billing reconciliation.
+- It is dated 2026-09-02, identifies Project 7486, and covers Austin Phase 2 decommission work at 11001 Lakeline Blvd.
+- Roxana Dominguez is the recipient, but her presence does not connect the quote to Rancho Cordova.
+- Project 7656's estimate/invoice request therefore remains open and Quote 8679 must not be used to close it.

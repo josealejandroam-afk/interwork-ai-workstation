@@ -1,5 +1,13 @@
 # Project 7679 | Notes
 
+## 2026-09-08 Administrative Reconciliation
+
+- QuoteWerks and Teams evidence establish Project 7486 as the valid commercial Austin tag.
+- Quote 8679, dated 2026-09-02 for $6,170, carries the Phase 2 decommission scope under Project 7486.
+- Quote 8681, dated 2026-09-02 for $450, carries the separate office-swap scope under Project 7486.
+- Project 7679 remains historically valid for operational coordination, vendor invoices and signoff completed before the duplicate correction.
+- New commercial activity must use 7486. Existing 7679 evidence must not be deleted or rewritten as if it never occurred.
+
 ## 2026-08-24 Handoff
 
 - Created as the Phase 2 final close-out following Project 7521.
@@ -41,4 +49,3 @@
   "completed" wording entry above) "still hasn't landed on main." Independently
   verified against git: commit `950129e` is present in `origin/main`'s history and the
   clarification text is in this file. That claim was stale/incorrect, not a real gap.
-
