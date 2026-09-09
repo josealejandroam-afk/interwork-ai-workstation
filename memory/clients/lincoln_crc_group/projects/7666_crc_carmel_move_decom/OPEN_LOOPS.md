@@ -2,11 +2,11 @@
 
 ## Scope and Schedule
 
-- [ ] Obtain Danielle Stingone's final written scope and confirm the September 25-30 schedule.
+- [ ] Obtain Danielle's updated scope/artwork photos and confirm September 25 at 3 PM start (TBC), September 26–27 decommission and September 28 delivery. September 28 is no longer the decom start.
 - [ ] Confirm the final Phase 1 furniture, move, storage, decommission, network-return, AV, printer, and e-waste lists.
-- [ ] Confirm whether Saturday access is available at Industrious; weekday access is currently reported as 8:00 AM-5:00 PM.
+- [ ] Confirm September 28 Industrious delivery time, occupant information from Kristy to Alex Kennedy and active access codes; current business-hours access begins approximately 7:30–8 AM. Saturday delivery is no longer the current plan.
 - [ ] Confirm Friday loading/parking arrangements and Saturday freight-elevator/loading-dock access at 350 Veterans Way.
-- [ ] Confirm the landlord walkthrough timing and any COI/access requirements.
+- [ ] Confirm September 28 landlord walkthrough time, landlord contact and InterWork PM. Existing-office COI is handled; only confirm Industrious requirements if applicable.
 - [ ] Reconcile the QuickQuo end date of September 28 with the September 30 must-vacate deadline; do not change live data until confirmed.
 - [ ] Confirm whether Smartsheet should add the missing Saturday, September 26 primary decom/load-out event and relabel the September 25, 28, and 30 entries.
 
@@ -18,9 +18,10 @@
 
 ## Locations and Storage
 
-- [ ] Obtain the full Industrious address for Suites 101 and 102.
+- [x] Temporary address established September 9: Industrious, 750 Veterans Way, Offices 101/102, Carmel IN 46032.
 - [ ] Confirm CRC-rented storage versus InterWork warehouse storage and record the selected storage address/vendor.
-- [ ] Keep Phase 2 separate; confirm the final built-out office address and February/March 2027 timing only when the client is ready to scope it.
+- [ ] Keep Phase 2 separate; future address now 9321 Union Place Drive, Suite 210, Fishers IN 46037. Confirm future timing/authorization separately.
+- [ ] Gregory Dunne/Tony Armor: confirm storage contract owner, facility/address, access and availability by September 25. If unavailable, authorize temporary warehouse staging/second move and added costs; do not assume InterWork sources permanent storage.
 
 ## Technology, Security, and Disposition
 
@@ -28,8 +29,9 @@
 - [ ] Confirm the full ship-to address, ATTN Brad Godwin, for the three Cisco AV components.
 - [ ] Confirm the large Lexmark disposition and packaging/label instructions for the desktop printers going through CompuCom.
 - [ ] Confirm the final access-point model/disposition list.
-- [ ] Confirm whether InterWork or Convergent removes the APhone intercom and cipher lock.
-- [ ] Confirm key-fob availability and the condition in which the exterior suite door must be left.
+- [x] September 9 handoff assigns security decommission to others on September 25.
+- [ ] Obtain key fob and suite PIN; building management must confirm door lock state after security shutdown and after-hours access.
+- [ ] Reconcile all technology disposition, employee take-home requests, storage/disposal/returns and the earlier CompuCom/component instructions with latest tech scope.
 
 ## Materials Control
 

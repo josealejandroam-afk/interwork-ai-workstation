@@ -1,5 +1,13 @@
 # Project 7666 | CRC Carmel Notes
 
+## 2026-09-09 | Codex@FrankWork — Relocation-planning reconciliation
+
+Latest user handoff (538bb187-79cc-471c-a09c-c32fc8da2890) supersedes September 28 decom-start hold: move/decom September 25 about 3 PM TBC, weekend decom September 26–27, small Industrious drop September 28, tech setup September 29–30, occupancy October 1. Danielle expects onsite September 25 about 11:30 AM; landlord walk September 28 TBC. Saturday load-out about 3 PM requires confirmation.
+
+Industrious address is 750 Veterans Way Offices 101/102, Carmel; future site 9321 Union Place Drive Suite 210, Fishers. Majority of contents goes to storage, not an 11-person box delivery. Artwork requires wrap/cardboard corners and is not disposal stock. Gregory Dunne is determining storage responsibility; temporary InterWork warehouse staging/second move is a contingency, not an assignment to source permanent storage.
+
+Security shutdown is by others. Need fob/PIN and verified door lock state. Latest hardwired make-safe wording replaces earlier non-hardwired wording. Detailed tech disposition remains unresolved; preserve older component instructions for reconciliation. Current-office COI handled; do not reopen. No additional supplies requested; older delivery history retained. PM, crew, storage, final start, access and scope remain open. No dispatch or client/vendor communication authorized by this filing.
+
 ## 2026-08-19 | Preliminary Notice
 
 - Danielle Stingone provided advance visibility while the formal scope was still being developed.
