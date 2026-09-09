@@ -40,7 +40,7 @@ Duration: 2–3 days per Francisco Vinueza's assessment.
 
 - Confirm final inventory scope / item counts after survey days complete.
 
-## Preliminary Execution Update — 2026-08-19
+## Preliminary Execution Update — 2026-08-19 (superseded by the Master Schedule below)
 
 This appears to be the execution continuation of the Project 7553 Dallas decommission survey, but the project-number/address linkage was not explicit in the source email. Confirm the association before dispatch, quoting, or billing.
 
@@ -51,6 +51,36 @@ This appears to be the execution continuation of the Project 7553 Dallas decommi
 - First day in new suite: October 22, 2026.
 - Preliminary decommission window: October 9-31, 2026.
 - Exact destination suite/address, final scope, phasing, work hours, and assigned execution team remain open.
+
+## Current Logistics — confirmed 2026-09-09
+
+| Field | Value |
+|---|---|
+| Destination address | 2323 Victory Avenue, Suites 900 and 1000, Dallas, TX 75219 (One Victory Park, Floors 9–10) |
+| Immediate material need | 10 crates and packing materials, this week |
+| Delivery date | Friday, 2026-09-11 — per Sergio phone confirmation; exact delivery window not yet set |
+
+## Master Schedule (7553 tasks)
+
+Full cross-project schedule, including 7713 interdependencies, lives in `TEXAS_PROJECT_BOUNDARIES.md`. 7553's own tasks:
+
+| Date / Window | Address | Task | Status |
+|---|---|---|---|
+| Sept 28 | 1717 Main → destination TBD | Move new-in-box network equipment and UPS to the new site | Confirmed sequencing; destination not yet confirmed |
+| Oct 2–5 | One Victory Park | Move desktop technology from storage to One Victory Park; unpack and stage | Planning window |
+| Oct 5–12 | One Victory Park, Fl 9–10 (starting Fl 10) | Set up desktop technology on Floors 9–10 | Planning window |
+| Before Oct 9 (date TBD) | 1717 Main | Advance walkthrough; tag inventory by destination (shared task with 7713) | Confirmed |
+| Oct 9, morning | 1717 Main, Floor 45 | Begin early decommission work | Confirmed |
+| Oct 9, ~3:00 PM onward | 1717 Main, Floor 44 (OW space) | Assist OW with One Victory/local packing (Houston-bound items go to 7713). Packing/prep only — not tech disconnect authorization | Confirmed |
+| Oct 9–10 | 1717 Main | Pack OW artwork and model airplanes for One Victory Park | Confirmed |
+| Oct 9–19 | 1717 Main | OW-suite decommission | Planning window, not a separately confirmed phase |
+| Oct 9–31 | 1717 Main | Full decommission window | Legacy/preliminary — superseded by the specific dates in this table |
+| Oct 10–11 | One Victory Park | Relocate designated OW items from 1717 Main | Confirmed |
+| Oct 14–28 | 1717 Main (all floors) | Main all-floor decommission, with Floor 45 beginning early on Oct 9 per updated sequencing | Confirmed |
+| Oct 15–19 | 1717 Main → One Victory Park | Main Dallas colleague/technology move | Confirmed — master move window |
+| Oct 19–21 | Dallas (unspecified) | Miscellaneous Dallas move activities | Preliminary |
+| Oct 22 | One Victory Park | First day of business | Confirmed — strong milestone |
+| Oct 29 | 1717 Main | Decommission walkthrough | Confirmed |
 
 ## Source Notes
 

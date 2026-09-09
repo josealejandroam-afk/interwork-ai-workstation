@@ -1,120 +1,66 @@
 # Project 7713 — Oliver Wyman Dallas to Houston Relocation
 
-## Core Facts
+## Current source and identity
+
+Updated September 9, 2026 by Codex@FrankWork from Alejandro's latest supplied “Supabase + Git Update: Project #7713” handoff (attachment 2bda4e73-807a-4c3d-90a6-98cc70e23c6f). This supersedes earlier same-day scope/schedule statements where they conflict; earlier history is preserved in NOTES.md.
 
 | Field | Value |
 |---|---|
-| Project number | 7713 |
-| Client | Oliver Wyman / MMC |
-| Project name | Oliver Wyman - 1717 Main to 1100 Louisiana, Houston - Move |
-| Status | Planning |
-| Origin | 1717 Main Street, Dallas, TX 75201 |
+| Status | Planning; October 9 start confirmed in handoff, execution readiness not yet complete |
+| Origin | Oliver Wyman space, Floor 44, 1717 Main Street, Dallas, TX 75201 |
 | Destination | 1100 Louisiana Street, 49th Floor, Houston, TX 77002 |
-| Related LPC Program | LPC 6047, TX Houston OW — broader client/construction program identifier, **not** an InterWork project number |
-| Source of record | 2026-09-09 — Alejandro-supplied detailed Supabase/Git handoff. This supersedes the earlier, thinner draft built from the pre-number pending research memo. |
+| Client | Oliver Wyman / MMC |
+| Related program | LPC 6047: external broader program identifier, not an InterWork project number |
+| Vendor | TBD; Sergio/Exserv is only a potential vendor, not engaged |
 
-## Critical Project Separation — maintain these assignments exactly
+## Project and floor boundaries
 
-- **#7553** = all remaining 1717 Main Dallas move/decommission work, including 1717 Main → One Victory Park.
-- **#7712** = disregard / no longer use.
-- **#7713** = Oliver Wyman 1717 Main Dallas → 1100 Louisiana Houston relocation (this project).
-- **LPC 6047** = broader client/construction program identifier, not an InterWork project number.
-- Do **not** merge #7713 labor, trucking, materials, FastFields, costs, daily reports, or billing with #7553 unless direct documentation explicitly instructs otherwise.
+7553 covers remaining Dallas move/decommission including One Victory Park, Floor 45 work from October 9, general Floor 43 work no earlier than expected October 14 turnover, and September 28 Dallas network relocation. 7712 is disregarded. Specifically identified Houston-bound items from other floors belong to 7713; floor location alone does not assign all work to 7713.
 
-## Confirmed / Supported Scope
+Keep labor, trucks, materials, FastFields, hours, reports, costs and billing separate between 7553 and 7713. Houston-local 500 Dallas Street moves, existing Houston lockers, Rancho Cordova logistics and unspecified Houston decommission remain separate workstreams unless directly assigned. Network/AP infrastructure is not automatically 7713 desktop scope.
 
-InterWork is expected to support the relocation of designated Oliver Wyman furniture and equipment from 1717 Main to 1100 Louisiana. Known items:
-- Existing workstations from 1717 Main
-- Workstation breakdown
-- Furniture protection
-- Packing
-- Loading preparation
-- Monitor arms
-- Aeron task chairs
-- Conference furniture
-- Glassboards
-- Credenzas
-- Miscellaneous designated OW furniture/equipment
-- Desktop technology associated with the relocation
+## Supported scope and inventory
 
-Latest LPC meeting minutes confirm that **all** existing workstations for the Houston space are coming from 1717 Dallas.
+InterWork preparation/relocation and expected Houston installation support includes furniture breakdown, protection, packing, loading preparation, 62 OW workstations and associated monitor arms, Aerons, selected conference tables/chairs, credenzas, glassboards/whiteboards and designated miscellaneous OW furniture. All existing Houston workstations originate at 1717 Main OW.
 
-InterWork is also specifically assigned to:
-- Visit 1717 Main ahead of the move to review all Houston-bound furniture
-- Coordinate furniture power requirements with the Houston construction/electrical team
-- Participate in the recurring OW Move Management meeting series
+Desktop technology knockdown, packing/preparation, relocation and Houston setup/reinstall are now supported. Final detailed technology and installation responsibilities remain open; do not interpret expected support as finalized subcontract scope.
 
-**Still requiring final confirmation:** transportation, Houston unloading, furniture installation, and final desktop technology responsibilities.
+David/InterWork confirmed provision of Houston furniture power poles, finish/paint matching to workstation panels, and coordination of locations with Structure Tone and the electrical/workstation plan. Final pole quantity and locations remain open. Broader electrical/network execution ownership is not inferred.
 
-## Current Inventory References
+Houston requires 107 Aerons. Take all available Aerons at 1717 Main to provide contingency; final count and chair types require verification. Exact destination disposition of excess/damaged chairs remains open; do not discard Dallas relocation inventory on inference.
 
-Working quantities from the furniture package and prior planning:
-- 62 workstations
-- Associated monitor arms
-- 107 Aeron chairs minimum
-- Selected conference tables and chairs
-- Glassboards/whiteboards
-- Credenzas
-- Miscellaneous furniture
+Latest furniture deck is Katie's:
+- Item 12: six chairs only; exclude pictured table (new table to be ordered).
+- Item 10: exclude wire shelving from 7713.
+- Item 13: lockers originate in existing Houston office, not Dallas; exclude from 7713.
+- Ping pong table: new purchase, not California relocation inventory; possible InterWork procurement remains TBD.
 
-There has been discussion of more than 107 Aerons being available. **Keep 107 as the confirmed Houston requirement until final inventory direction is documented.**
+## Master Schedule (7713 tasks) — reconciled 2026-09-09
 
-## Schedule
+Full cross-project schedule, including 7553 interdependencies, lives in `TEXAS_PROJECT_BOUNDARIES.md`. Project-management meetings (Sept 10 kickoff, Sept 30 regroup) are intentionally excluded — this is execution tasks and milestones only. 7713's own tasks:
 
-- **September 10, 2026, 10:00 AM Central** — OW Move Management meeting series begins. Purpose includes coordination of move sequencing, Dallas furniture preparation, Houston delivery/install, decommission-related activity, and items coming from 1717 Main and other locations.
-- **October 9, 2026, After Hours** — Begin at 1717 Main: workstation breakdown, furniture protection, packing, desktop equipment preparation, conference furniture preparation, Houston-bound furniture staging. Jane's latest written schedule correction allocates approximately 4 days for packing 1717 workstations and desktop equipment.
-- **October 14, 2026 onward** — Additional furniture becomes available from other areas of 1717, including Aeron chairs and miscellaneous Houston-bound furniture.
-- **Preliminary Houston Installation** (current planning documents, approximate): conference furniture installation ~10/10–10/11; workstation installation/electrical coordination ~10/11–10/21; desktop setup ~10/21–10/24. **Final dates remain dependent on Houston site readiness.**
-- **November 16, 2026** — Target Houston Go-Live / First Day of Work.
+| Date / Window | Address | Task | Status |
+|---|---|---|---|
+| Before Oct 9 (date TBD) | 1717 Main | Advance walkthrough; tag Houston inventory separately from One Victory, disposal, remain-in-place, other business units (shared task with 7553) | Confirmed |
+| Oct 9, ~3:00 PM onward | 1717 Main, Floor 44 | Assist with Houston-bound packing (One Victory/local items go to 7553). Packing/prep only — not tech disconnect authorization | Confirmed |
+| Oct 9, 5:00 PM | 1717 Main, Floor 44 | Begin OW technology breakdown/knockdown and relocation | Confirmed — the specific technology start time |
+| Oct 9–10 | 1717 Main | Pack Houston-bound OW conference furniture | Confirmed |
+| Oct 9 onward | 1717 Main | Pack Houston-bound workstations, glassboards, desktop equipment, misc. furniture | Confirmed scope; end date not yet set — do not assume Oct 11 or Oct 16 |
+| Oct 10–11 (target) | 1100 Louisiana, Fl 49 | Conference furniture installation begins as readiness permits | Preliminary — provider/sequence open |
+| Oct 11–21 (approximate) | 1100 Louisiana, Fl 49 | Workstation installation, power poles, electrical coordination | Preliminary |
+| Oct 14 onward | 1717 Main (identified inventory) | Pull additional Aerons/misc. Houston inventory as available | Confirmed, availability-dependent |
+| Oct 21–24 (approximate) | 1100 Louisiana, Fl 49 | Desktop setup/reinstall | Preliminary — responsibility pending |
+| Nov 2–9 (approximate) | 1100 Louisiana, Fl 49 | Punchlist | Preliminary |
+| Nov 16 | 1100 Louisiana, Fl 49 | Houston go-live | Target — broader program milestone, not proof every activity belongs to 7713 |
 
-## Houston Site Readiness
+Packing end date is unresolved: master schedule shows October 9–11 versus October 9–16; Jane previously allotted about four days. Do not resolve by arithmetic. Additional-item end dates October 16 versus October 21 in earlier screenshots likewise remain unconfirmed.
 
-1100 Louisiana, 49th Floor is still undergoing turnover/construction coordination. Current dependencies include:
-- Existing tenant/landlord turnover
-- Carpet/flooring
-- Electrical
-- Furniture power requirements
-- AV
-- Security
-- Technology infrastructure
-- AT&T/building coordination
+## Readiness and access
 
-**Do not treat Houston delivery/install dates as fully locked until site readiness is confirmed.**
+Previously planned September 17 Houston construction start may slip toward October 1 or October 5. Dates are discussion possibilities, not commitments. Dependencies: turnover, carpet, electrical, relamping, paint, film/dots, cabling/network, AV/security and technology. Dallas packing remains planned even if Houston slips; weeks of truck/trailer storage are NOT an approved contingency. Holding/storage solution requires separate confirmation.
 
-## Other LPC 6047 Workstreams — Do Not Automatically Assign to #7713
+For both 1717 Main and 1100 Louisiana confirm insurance submission/approval, dock/freight access, delivery hours, after-hours restrictions and truck access. Requirements reportedly circulated do not prove approval. Obtain/complete the separate 1717 security-clearance form if required; David had not yet seen it.
 
-The broader Houston program includes additional source locations and scopes that are **separate workstreams, not automatically part of #7713 (or #7553)**, pending direct project-level confirmation:
+## Open controls
 
-- **500 Dallas Street, Houston → 1100 Louisiana** — separate Houston-local activity: UPS, OW/Veritas move activity, equipment/copier relocation, November move activity. Do not automatically include under #7713.
-- **Rancho Cordova / California → Houston** — separate logistics stream: a conference table being packed/stored and eventually sent to Houston. Do not automatically include under #7713.
-- **Houston Decommission** — latest move-management discussion confirms some decommission work will also be required as part of the broader move program. The exact location, quantity, timing, responsibility, and InterWork project assignment are **not yet clear**. Do not automatically assign this decommission scope to #7713 or #7553 until a direct project-level artifact confirms ownership.
-
-## Building / Operational Requirements Still Open
-
-**1717 Main** — need confirmation of: exact October 9 start time; whether October 9 is breakdown/packing only or includes loading; freight elevator; loading dock; security/access; COI; truck access; Dallas onsite POC.
-
-**1100 Louisiana** — need confirmation of: loading dock; freight elevator; delivery hours; COI requirements; after-hours restrictions; Houston onsite POC; construction/site-ready date; installation sequencing.
-
-## Vendor / Labor
-
-Vendor assignment: **TBD**. Sergio/Exserv may be considered because of their existing 1717 Main involvement, but there is currently **no confirmed assignment to #7713**. If engaged, create a distinct #7713 execution package with separate labor, trucks, materials, FastFields, hours, daily reporting, and billing (see Critical Project Separation above).
-
-## Related Projects — Cross-References
-
-- **#7553** — related origin location (1717 Main Dallas), but a separate workstream. Covers all remaining 1717 Main Dallas move/decommission work, including 1717 Main → One Victory Park. Do not merge labor/trucking/materials/FastFields/costs/billing between 7553 and 7713 absent explicit documentation.
-- **#7712** — superseded/disregarded; do not use.
-- **LPC 6047** — broader client/construction program identifier covering the whole Houston OW program; not an InterWork project number.
-- **500 Dallas Street → 1100 Louisiana** — related Houston program activity, separate scope pending assignment; not automatically part of #7713.
-- **Rancho Cordova → Houston** — related Houston program, separate logistics stream (conference table); not automatically part of #7713.
-
-### Other nearby projects (from earlier reconciliation, unaffected by this handoff)
-
-- **7662 / 7673** (Osha Bergman Watanabe & Burton) — same Houston building (1100 Louisiana), different client, floors 49→50 walkthrough/relocation. Not an OW Houston commercial record — a likely operational predecessor only (49th floor must clear before OW moves in).
-- **7669 / 7637** — MMA Dallas/Addison furniture move. Unrelated route.
-
-## Source Notes
-
-- Primary source of record (this rewrite): Alejandro-supplied detailed Supabase + Git handoff, "Project #7713 Oliver Wyman Dallas → Houston," delivered 2026-09-09. This is the sole source of truth for the facts above; nothing here is inferred beyond it, and open loops are carried verbatim into OPEN_LOOPS.md.
-- Superseded background (pre-handoff, lower confidence, retained for history only): `memory/inbox/pending/2026-08-25_1536_mmc-dallas-ow-houston-commercial-reconciliation.md` (Codex@FrankWork, 2026-08-25) — predates the 7713 number and the September 9 handoff; its scope/schedule figures (e.g. Aeron ~110–114 estimated, October 19 install week) have been superseded where they conflict with the handoff above.
-- Project number originally confirmed: Alejandro-supplied screenshot of project-numbering thread, 2026-09-09 12:25 PM.
-- Created: 2026-09-09 by Claude Code. Rewritten: 2026-09-09 by Claude Code per the detailed handoff.
+See OPEN_LOOPS.md: latest 24 handoff items plus three still-unresolved earlier boundaries (AV ownership, broader electrical execution, unspecified Houston decommission). No vendor assignment, procurement, disposal, dispatch or invoice recoding is authorized by this record update.

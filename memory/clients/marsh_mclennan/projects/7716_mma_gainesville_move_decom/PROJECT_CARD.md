@@ -1,6 +1,6 @@
-# MMA Gainesville — Move and Limited Decommission
+# Project 7716 — MMA Gainesville, GA — Move / Decom
 
-Source: Alejandro's September 9, 2026 handoff, attachment a421368e-71a4-4a47-bbd9-7983ed40da6f. Filed by Codex@FrankWork. Project number, quote and InterWork PM TBC. No matching Supabase project found by Gainesville/Jesse Jewell/Bradford lookup. Do not invent a number or mark execution-ready.
+Source: Alejandro's September 9, 2026 handoff, attachment a421368e-71a4-4a47-bbd9-7983ed40da6f. Filed by Codex@FrankWork as an unnumbered planning record; project number confirmed by Alejandro same day as **7716**. Quote and InterWork PM still TBC. Do not treat the number confirmation alone as execution-ready — resources, access, and PM assignment remain open (see OPEN_LOOPS.md).
 
 ## Locations
 
@@ -41,4 +41,4 @@ These are client planning dates, not confirmed vendor dispatch. Obtain final res
 
 ## Related work
 
-Do not merge with Hattiesburg, Charlotte, Shreveport, Kennesaw or prior Alpharetta carpet work. See NOTES for meeting-only leads. Project number/PO/quote and permanent commercial assignment remain open.
+Do not merge with Hattiesburg, Charlotte, Shreveport, Kennesaw or prior Alpharetta carpet work. See NOTES for meeting-only leads. PO/quote and PM assignment remain open; project number is now confirmed (7716).

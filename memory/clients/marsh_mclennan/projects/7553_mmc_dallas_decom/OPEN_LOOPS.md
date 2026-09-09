@@ -16,3 +16,16 @@ Historical survey only: Jairo Escalante, Michael Durkin and the June 30–July 2
 - [x] One Victory Park merge question resolved (later same day): Alejandro confirmed all 1717 Dallas move+decom folds into 7553; provisional 7712 disregarded.
 - [x] OW Houston / LPC 6047 identity resolved: confirmed as Project 7713.
 - [ ] Determine which One Victory Park sub-scopes (desktop tech, 9th/10th floor setup, art/packing) bill under 7553 vs. elsewhere — not yet itemized.
+
+## Master schedule / Friday delivery controls (added 2026-09-09)
+
+- [ ] Confirm exact Friday 2026-09-11 delivery window for the 10 crates/packing materials (needed before confirming with Danielle/Michael).
+- [ ] Get Sergio's onsite lead name and cell number (needed for access/security).
+- [ ] Confirm exact quantity of bubble wrap / packing material — client asked generally, no exact quantity yet.
+- [ ] Confirm whether the Friday delivery includes a speedpack swap (is Sergio bringing empty speedpacks?).
+- [ ] Confirm current count of full speedpacks that need swapping.
+- [ ] Confirm Sept 28 destination for the network equipment/UPS move (destination still TBD).
+- [ ] Confirm One Victory Park dock/freight/after-hours instructions.
+- [ ] Confirm One Victory Park onsite POC.
+- [ ] Confirm labor and truck counts needed for Sergio/vendor scheduling.
+- [ ] Obtain final authorization/dispatch for October labor — the dates above are confirmed planning windows, not a mobilization order.

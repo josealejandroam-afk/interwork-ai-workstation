@@ -1,4 +1,8 @@
-# Gainesville Notes
+# Project 7716 — Gainesville Notes
+
+## September 9, 2026 (later) | Claude Code
+
+Alejandro confirmed the InterWork project number: **7716** ("Marsh - Gainesville, GA - Move / Decom"). Folder renamed from `pending_gainesville_move_decom` to `7716_mma_gainesville_move_decom` via `git mv` to preserve history. No other facts changed — everything below from the original filing still stands as the source of scope/schedule/people detail.
 
 ## September 9, 2026 — Codex@FrankWork
 

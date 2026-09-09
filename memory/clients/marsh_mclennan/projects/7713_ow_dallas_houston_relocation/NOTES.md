@@ -1,5 +1,9 @@
 # Notes — Project 7713 OW Dallas to Houston Relocation
 
+## 2026-09-09 | Codex@FrankWork — latest handoff supersedes earlier details
+
+Applied Alejandro's attachment 2bda4e73-807a-4c3d-90a6-98cc70e23c6f. October 9 is now confirmed start; Floor 44 OW packing assistance around 3 PM and desktop knockdown about 5 PM. Desktop relocation/reinstall and power pole provision are supported; final responsibilities remain open. Take all available Aerons toward 107 required; final count/disposition pending. Item 12 chairs only; wire shelving, Houston lockers and new ping pong table excluded from Dallas relocation inventory. Network infrastructure remains separately assigned. Added September 30 regroup, construction-delay/holding risks and security-form requirement. Preserved 24 handoff open items plus three earlier unresolved controls rather than deleting history. Supabase before/after audit actor Codex@FrankWork; action 7713_latest_handoff_20260909. Earlier entries below are historical where superseded.
+
 ## 2026-09-09 | Claude Code (detailed handoff — supersedes earlier draft)
 
 Alejandro supplied a detailed, authoritative Supabase + Git handoff for #7713 ("Project #7713 Oliver Wyman Dallas → Houston"). This is the sole source of truth for new facts and **supersedes** the earlier, much thinner draft that had been built from the pre-number pending research memo (`memory/inbox/pending/2026-08-25_1536_mmc-dallas-ow-houston-commercial-reconciliation.md`). PROJECT_CARD.md and OPEN_LOOPS.md were rewritten in full from this handoff; nothing was invented, inferred, or embellished beyond its text.

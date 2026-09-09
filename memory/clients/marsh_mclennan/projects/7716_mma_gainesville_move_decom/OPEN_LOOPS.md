@@ -1,6 +1,7 @@
-# Gainesville Open Loops
+# Project 7716 — Gainesville Open Loops
 
-- [ ] Confirm InterWork project number, quote/PO and commercial scope before numbered database creation.
+- [x] InterWork project number confirmed: 7716 (2026-09-09, Alejandro).
+- [ ] Confirm quote/PO and commercial scope before numbered database creation.
 - [ ] Assign PM, crew/vendor, truck/equipment; confirm availability/pricing. RIOF is a candidate only.
 - [ ] Confirm September 17 1 PM start, September 18 finish target and day-before notice.
 - [ ] Obtain Alpharetta address, September 15/16 pickup date/time, Rob access and surplus-booth disposal approval/method.
