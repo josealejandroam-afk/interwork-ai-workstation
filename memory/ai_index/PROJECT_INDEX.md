@@ -1,4 +1,6 @@
 # Project Index — AI Index
+
+September 9 Texas reconciliation: see `memory/clients/marsh_mclennan/TEXAS_PROJECT_BOUNDARIES.md`. 7553 includes decommission quote 8490, packing supplies 8549, AND (confirmed later same day) the One Victory Park internal move — 7712 was disregarded. Later swaps likely continue 7553; earlier 7472 attribution disputed. 7472/7669 overlap must be resolved before new dispatch. OW Houston / LPC 6047 is now Project 7713. These controls override older shorthand below.
 _Last updated: 2026-08-27_
 _Source: memory/clients/ — scanned and compiled from PROJECT_CARD.md files and CLIENT_INDEX.md_
 
@@ -59,7 +61,8 @@ Also fetch `OPEN_LOOPS.md` and `NOTES.md` at the same path when available.
 | `anti_defamation_league` | 7541 | `7541_boca_raton_conference_room` | Boca Raton FL conference room setup, on calendar 7/15 TBD | `memory/clients/anti_defamation_league/projects/7541_boca_raton_conference_room/PROJECT_CARD.md` |
 | `amtrust` | 7593 | `7593_chair_move_jersey_city_southington` | Chair move Jersey City NJ to Southington CT, quote sent 7/7, TBD 7/14 | `memory/clients/amtrust/projects/7593_chair_move_jersey_city_southington/PROJECT_CARD.md` |
 | `marsh_mclennan` | 7521 | `7521_mmc_austin_restack` | MMC Austin TX restack | `memory/clients/marsh_mclennan/projects/7521_mmc_austin_restack/PROJECT_CARD.md` |
-| `marsh_mclennan` | 7553 | `7553_mmc_dallas_decom` | MMC Dallas decom survey at 1717 Main; possible Oct execution continuation (move 10/15-10/19, FDOB 10/22, decom 10/9-10/31) requires project/address and landlord-scope confirmation | `memory/clients/marsh_mclennan/projects/7553_mmc_dallas_decom/PROJECT_CARD.md` |
+| `marsh_mclennan` | 7553 | `7553_mmc_dallas_decom` | MMC Dallas decom + One Victory Park move (identity confirmed 9/9 under 7553; 7712 disregarded), 1717 Main; preliminary move 10/15-10/19, FDOB 10/22, decom 10/9-10/31; execution staffing/access pending | `memory/clients/marsh_mclennan/projects/7553_mmc_dallas_decom/PROJECT_CARD.md` |
+| `marsh_mclennan` | 7713 | `7713_ow_dallas_houston_relocation` | Oliver Wyman 1717 Main Dallas → 1100 Louisiana Houston relocation; confirmed 9/9, resolves prior LPC 6047 gap; sub-scope (feeders, electrical) unconfirmed | `memory/clients/marsh_mclennan/projects/7713_ow_dallas_houston_relocation/PROJECT_CARD.md` |
 | `marsh_mclennan` | 7643 | `7643_mma_shreveport_move_decom` | Shreveport LA move and decommission; detailed scope, address, dates and PM pending | `memory/clients/marsh_mclennan/projects/7643_mma_shreveport_move_decom/PROJECT_CARD.md` |
 | `marsh_mclennan` | 7635 | `7635_mma_van_nuys_small_furniture_move` | Five sit/stand desks and technology from Van Nuys to Howard Hughes Center; Torrance superseded; Sep 11 or Sep 12 and revised quote/access pending | `memory/clients/marsh_mclennan/projects/7635_mma_van_nuys_small_furniture_move/PROJECT_CARD.md` |
 | `marsh_mclennan` | 7656 | `7656_rancho_cordova_office_closure` | Rancho Cordova field decommission completed 8/31; completion report sent 9/3. Estimate/invoice requested but not confirmed issued; warehouse custody and Sacramento/San Francisco/Westlake/GTT/Houston-table disposition remain open | `memory/clients/marsh_mclennan/projects/7656_rancho_cordova_office_closure/PROJECT_CARD.md` |

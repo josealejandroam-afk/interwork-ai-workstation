@@ -1,3 +1,5 @@
+> **Resolved 2026-09-09:** Alejandro confirmed Project 7713 = "Oliver Wyman - 1717 Main to 1100 Louisiana - Houston, TX," closing the LPC #6047 commercial-identifier gap this memo raised. Separately, the One Victory Park internal move (raised below as unresolved) was folded into Project 7553, and provisional number 7712 was disregarded. See `memory/clients/marsh_mclennan/projects/7713_ow_dallas_houston_relocation/` and `memory/clients/marsh_mclennan/TEXAS_PROJECT_BOUNDARIES.md`. This memo's scope/schedule detail was carried into 7713 as background — its own open sub-scope questions (500 Dallas feeder, Rancho Cordova table, electrical ownership) are not yet resolved and are tracked in 7713's OPEN_LOOPS.md instead. Kept here for the full evidence trail.
+
 # Pending Research Memo — MMC Dallas / OW Houston Commercial Reconciliation
 
 **Written by:** Codex@FrankWork  

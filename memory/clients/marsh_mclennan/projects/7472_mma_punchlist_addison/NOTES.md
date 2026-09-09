@@ -15,3 +15,10 @@
 
 - Project status is complete because all physical work is finished.
 - Invoice processing and administrative closeout remain open but do not change the operational completion status.
+## 2026-09-09 | Codex@FrankWork
+
+Confirmed commercial identity: Quote 8381, May 13, 2026, $21,631, Addison 5080 Spectrum Drive Suite 900E → Three Galleria Tower, 13155 Noel Road Suite 1100. Preserve this project and its recorded August 7 completion/invoice history.
+
+The earlier August 4 1717 Main speedpack attribution below is disputed, potentially misfiled. It is not confirmed 7472 billing evidence. Initial 1717 Main supplies belong to 7553/8549 based on the matching quote details supplied by Alejandro; later swaps likely continue that workstream. Do not transfer invoice charges or assert physical completion based only on a scheduled visit.
+
+Project 7669/8641 has overlapping gray-chair/side-table scope and route. Reconcile its September proposal with the recorded August 7 work and Exserv invoice 29285 before treating 7669 as an independent future move. Do not merge, delete, rebill or reopen either project on inference alone.
