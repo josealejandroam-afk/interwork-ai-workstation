@@ -1,5 +1,49 @@
 # Notes — Project 7700 Radian Bethesda
 
+## 2026-09-10 Walkthrough Findings and Scope Reclassification
+
+- Source: Melvin Hernandez Teams messages documenting the Bethesda walkthrough (with Kris
+  Blalock) and requested execution plan; relayed by Alejandro Acosta 2026-09-10.
+- Melvin's full walkthrough findings are now documented: the 9/14-9/15 schedule (~5 crew,
+  requested arrival 6:00-6:30 AM or earlier, elevator available 6:00 AM-6:00 PM, day-1
+  priorities of trash removal and packing, day-2 loading and cleanup); the New York-bound
+  items list (~42 Humanscale dual monitor arms — Humanscale-style only, ~90 monitors/
+  screens with count not final, keyboards/mice boxed together, 1 heavy TV, conference-room
+  ceiling speakers with cables, ceiling-mounted meeting cameras, soundbars with cables, 1
+  white sofa, 1 mobile whiteboard, 1 lamp, 1 printer, 1 shredder, plus possible additional
+  labeled items); the Cherry Hill-bound items list (all docking stations, client-designated
+  files/papers, IT-room black box plus the smaller box beneath it, 6 Cisco units from the
+  black rack, 2 TVs, 2 white ceiling-mounted wireless devices, plus possible other labeled
+  items); the trash/stay-in-place scope (small desk/table trash, labeled kitchen trash, all
+  furniture stays onsite unless listed outbound, building supplies stay, TV wall brackets
+  stay installed, vacuum/clean after); and the materials Melvin requested (15 Speedpacks,
+  dollies, protective wrap for computers/cameras/soundbars, a ladder, small boxes for
+  cables/docking stations, and moving blankets for TVs). Full detail filed in
+  PROJECT_CARD.md under Walkthrough Findings.
+- Scope reclassified: the previous working label "packing help and move to storage" (vs.
+  Supabase's `decommission` type) is superseded. Recommended classification is now
+  **Selective Decommission + Packing + Multi-Destination Equipment Relocation**. This is
+  explicitly NOT a full furniture decommission — most furniture remains onsite. Do not
+  describe this project as a simple storage move absent new evidence of a separate storage
+  leg.
+- Open loops moved from OPEN to RESOLVED by this update: (1) the 9/14-9/15 start time —
+  requested arrival window of 6:00-6:30 AM, earlier if possible, is now documented (the
+  onsite POC half of that item stays OPEN — Kris Blalock is directing the work but is not
+  confirmed as the onsite POC); (2) full walkthrough findings — Melvin's documented scope
+  satisfies this; (3) scope classification — the recommended classification is now
+  documented for the memory/git record (note: whether Supabase's project-type field can
+  actually store this text is a separate, still-open technical question, not resolved by
+  this update).
+- Open loops that were NOT touched by this update and remain OPEN: loading dock access/
+  reservation (elevator hours 6:00 AM-6:00 PM are known, but that is not the same as dock
+  access or a dock reservation); Quote 8677's $0 blank-scope shell; vendor/crew assignment
+  and final client approval/PO.
+- New open loops added: New York destination address and receiving POC not yet
+  documented; Cherry Hill destination address and receiving POC not yet documented; final
+  outbound quantities (~42 Humanscale monitor arms and ~90 monitors currently identified,
+  but client labeling was still in progress at the time of the walkthrough — additional
+  labeled items may be added before execution).
+
 ## 2026-09-08 Intake
 
 - Created from the Teams project-number announcement, planning discussion and Quote 8677 proposal.
