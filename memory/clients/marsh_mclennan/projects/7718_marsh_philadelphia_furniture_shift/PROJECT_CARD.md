@@ -74,6 +74,8 @@ Exact execution dates are **NOT confirmed**. Current project discussion indicate
 
 Do not enter previously estimated October/November dates as confirmed dates.
 
+**Update 9/10 (later) — coordination status:** Team is currently treating **Thursday, 10/8/26** as the working Phase 1 start *if carpet arrives as expected* — this is a tentative working date, not a formal revision of the phasing schedule. The team explicitly does not want to formally revise the full phasing schedule yet, recommending they wait until ~1.5 weeks before execution when material delivery is more certain. Notice-period asymmetry: InterWork can accommodate a pull-forward on ~24 hours' notice; the client/business side prefers ~3-4 days' notice to communicate with employees/office leadership. Friday occupancy is expected light, and the client does not currently anticipate a major issue moving the schedule earlier if needed. Final phasing dates and furniture reinstall days remain subject to revision.
+
 ## Pricing / Proposal
 
 InterWork has been asked to provide a formal proposal for the furniture portion of the project. Purpose: insurance review / approval related to the water-damage restoration.

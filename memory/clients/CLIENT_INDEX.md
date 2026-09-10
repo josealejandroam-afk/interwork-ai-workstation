@@ -56,6 +56,7 @@ _Last updated: 2026-09-08_
 | Ovel Spaces | ovel_spaces/ | 7598 | 7598 = Woodland Hills CA school-furniture receiving/delivery/install. First phased install planned 2026-08-25 using only product physically verified at NRS; LeisureMod receipt, site logistics, wall mounting, resources, and change pricing remain open. |
 | Woodforest National Bank | woodforest_national_bank/ | 7564 | 7564 = Three-stop Texas conference-table relocation on 2026-08-26: North Richland Hills to Dallas to Conroe. Sergio Rios confirmed; 7:00 AM access, Dallas COI/dock timing, and Conroe ETA remain open. Disposal is excluded unless separately approved. |
 | SJP Properties | sjp_properties/ | 7672 | 7672 = Two-phase Penthouse/11th-floor furniture relocation at 121 River St, Hoboken for a 9/22 event. Quote 8644 sent, approval and both execution dates pending; temporary 11th-floor rebuild scope unresolved. |
+| Wellborn Cabinet | wellborn_cabinet/ | 7708 | 7708 = Ashland AL internal employee move (~63 employees) + desktop tech relocation/reconnection + crate program, same-facility origin/destination. Quote 8689-01, $8,184.00. Schedule 9/28 crate delivery, 10/3 move, 10/9 crate pickup. New client 2026-09-10; first record for this client/project anywhere -- handoff references earlier correspondence/schedule not held in repo or Supabase. Open: $575 truck-charge duplication question, IT disconnect/reconnect scope question, plus 7 other open loops -- do not resolve. |
 
 ## Lookup Pointers (NOT InterWork clients)
 

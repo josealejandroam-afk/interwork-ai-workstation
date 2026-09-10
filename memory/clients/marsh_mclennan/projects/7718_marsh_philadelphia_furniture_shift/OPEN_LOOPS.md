@@ -3,7 +3,7 @@
 Brand-new project; nothing below is resolved yet. All 15 open items from the September 10, 2026 handoff are OPEN.
 
 - [ ] 1. Obtain final approved phasing plan.
-- [ ] 2. Confirm exact start date.
+- [ ] 2. Confirm exact start date. Update 9/10 (later): tentatively discussed as Thursday 10/8/26 if carpet arrives as expected, but the team explicitly does not want to formally revise the phasing schedule yet — still open, not confirmed.
 - [ ] 3. Confirm number of phases.
 - [ ] 4. Confirm Thursday evening start time.
 - [ ] 5. Confirm Saturday InterWork start time and expected duration.
