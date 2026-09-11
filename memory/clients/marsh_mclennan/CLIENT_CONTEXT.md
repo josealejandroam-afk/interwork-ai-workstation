@@ -1,5 +1,5 @@
 # Marsh McLennan — Client Context
-_Last updated: 2026-09-08_
+_Last updated: 2026-09-10_
 
 ## Overview
 
@@ -81,7 +81,7 @@ see 7553 below.)
 | 7418 | MMA Colleague Relocation Columbia MD | Columbia MD | Scheduled (past-dated) | No PM in pm_assigned field |
 | 7354 | MMA Retrieve Tech Alpharetta GA | Alpharetta GA | Scheduled (past-dated) | External PM; vendor confirmed |
 | 7434 | MMA Edina Office Refresh | 5050 Lincoln Drive Suite 460, Edina MN | Completed per 2026-07-10 handoff — Supabase status not yet reconciled | Full scope: C-bins, packing, decom, electrical, painting, furniture install, monitor arms, tech reconnect, shades, return cleanup visit. 2 open items: café furniture install, additional lockers quote. See project folder. |
-| 7495 | MMA Charlotte Restack | 5605 Carnegie Blvd, Suite 300, Charlotte NC | Active — Sep 2 shift out, Sep 4 shift back; storage/IT and Sep 16–18 IT work follow | Juan Martinez PM; Tier Sep 2 confirmation pending; July Phase 1 decommission complete; Phase 2 starts Sep 18 or Sep 21 TBD. See project folder. |
+| 7495 | MMA Charlotte Restack | 5605 Carnegie Blvd, Suite 300, Charlotte NC | Active — 9/11 furniture shift-back; 9/16 storage pickup + IT reinstall; Phase 2 decom confirmed starting 9/17–18 | Juan Martinez PM; relationship of new 9/11 date to prior Sep 2/Sep 4 dates unresolved (see project folder); July Phase 1 decommission complete. See project folder. |
 | 7447 | MMA Tech Install Clearwater FL | Clearwater FL | Scheduled (past-dated) | Bad actual_end_at; fix held |
 | 7191 | MMA Punch List Cape May NJ | Cape May NJ | Scheduled (past-dated) | No signals |
 | 7347 | MMA McLean Consolidation / Wilmington Zoom Room AV Recovery | McLean VA → Wilmington NC | Active — AV recovery visit pending, week of 7/13 | Original May move looked done (fastfield submitted); recovery handoff 2026-07-10 found the Zoom Room AV system was never fully shipped. Removed from the pending Supabase batch-completion approval. See project folder. |
@@ -96,7 +96,8 @@ see 7553 below.)
 | 7679 | MMC Austin Phase 2 Final Close-Out — historical alias | 11001 Lakeline Blvd, Building 1, Austin TX | Executed August 2026; administratively marked duplicate | Preserve vendor invoices/signoff under 7679. Canonical commercial project is 7486 and Phase 2 Quote 8679 is filed there. |
 | 7677 | Marsh/MMC Westlake to Ashburn Server Shipment | 1600 Solana Blvd, Suite 8300, Westlake TX to Equinix DC15, Ashburn VA | Quote/logistics development | 19 serial-controlled HPE server nodes. Origin address confirmed; POC, dates, packing/de-racking, Ashburn installation, Dell removal, and secure-access requirements open. |
 | 7691 | MMA Chicago Office Transition | 500 W Monroe and 111 N Canal, Chicago IL → Orland Park IL / temporary storage | Active Phase 1 execution planning, 2026-09-09 through 2026-09-12 | Pedro Martinez confirmed PM; two concurrent teams and possible second PM. Canal speedpacks 9/9, Monroe walkthrough/speedpacks 9/10, simultaneous Canal/Monroe work and Orland Park delivery 9/11, possible Monroe continuation 9/12. COIs, truck/access, staffing, storage and disposition remain open. |
-| 7718 | Marsh - Philadelphia, PA - Furniture Shift | 30 South 17th Street, 17th Floor, Philadelphia PA 19103 | Active Planning / Pricing — tentative Phase 1 start Thu 10/8/26 pending carpet delivery; phasing schedule not formally revised yet | Phased furniture shift supporting carpet replacement tied to MMC Philadelphia water-damage restoration. ~6 phases estimated, NOT confirmed; PM/field lead, quantities and phasing plan all open. InterWork can accommodate a pull-forward on ~24hr notice, client prefers ~3-4 days. Floor 23-26 chair/monitor/table/backfill items from broader restoration drawings are NOT automatically part of this project's scope. See project folder. |
+| 7718 | Marsh - Philadelphia, PA - Furniture Shift | 30 South 17th Street, 17th Floor, Philadelphia PA 19103 | Active Planning / Approved Proposal ($17,753, PO pending) — PM Frank Barrett; tentative Phase 1 start Thu 10/8/26 (pull-forward from original 10/15) pending carpet delivery (ships 9/25 from GA) | 5 phases confirmed per approved SOW. Approved contract schedule requires after-hours + Sunday labor (12/31/26 deadline) — conflicts with the current Sat put-back coordination discussion, NOT reconciled. Quantities/staging/tagging still open. Floor 23-26 chair/monitor/table/backfill items from broader restoration drawings are NOT automatically part of this project's scope. See project folder. |
+| 7643 | McGriff / MMA Shreveport Office Transition | 6425 Youree Dr, Suite 520, Shreveport LA 71105 → 214 Milam St, Shreveport LA 71101 (existing MMA office) | Active planning — last day old office 9/17, move 9/18 8AM, first day new office 9/21; lease expires 9/30 | Vendor Jason Flowers for the 9/18 move; PM unassigned. Full decom scope pending landlord walkthrough (Jill/Ivy). Box-count discrepancy flagged (36 received vs. 30 previously tracked), not resolved. Separate from a later May 2027 Shreveport relocation. See project folder. |
 
 ## Known Contacts
 

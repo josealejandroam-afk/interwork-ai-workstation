@@ -1,3 +1,5 @@
+> **Resolved 2026-09-11 (later same day):** Alejandro re-sent this same handoff directly to Claude Code, which created the actual client/project folder structure (`memory/clients/core_solutions_inc/`) and synced Supabase (client, contact, project, all 6 open loops, activity log) — everything this memo requested but could not complete. See `memory/clients/core_solutions_inc/projects/7705_king_of_prussia_berwyn_move_decom/`. Kept here for the source trail.
+
 # Handoff: New Project #7705 - Core Solutions Inc. King of Prussia to Berwyn Move and Decommission
 
 Date: 2026-09-11

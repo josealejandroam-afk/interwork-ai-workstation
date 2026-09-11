@@ -17,3 +17,16 @@ Latest coordination confirms the team is still treating **Thursday, 10/8/26** as
 Notice-period asymmetry noted: InterWork advised ~24 hours' notice is enough to accommodate a schedule pull-forward; the client/business side would prefer ~3-4 days' notice to communicate with employees and office leadership. Friday occupancy is expected to be light, and the client does not currently anticipate a major issue moving the schedule earlier if needed.
 
 Also created the first Supabase record for this project today (client "Marsh," project 7718, contacts, all 15 open loops, and this update) — the original 9/10 handoff had only been filed in Git.
+
+## September 11, 2026 | Claude Code — approved SOW handoff
+
+Alejandro supplied the approved contract/SOW detail. This resolves two items and introduces one real, unreconciled conflict — do not paper over it:
+
+- **PM confirmed: Frank Barrett** (InterWork PM). Resolves open item #14. David Steinbrecher/Francisco Vinueza/Operations remain the participants named in the original 9/10 handoff, not a competing PM claim.
+- **Proposal approved: $17,753.00.** Jane Bae requested processing for a new PO — not yet issued. Resolves open item #15 (proposal finalized/submitted); PO issuance is now its own open item (#16).
+- **Phase count confirmed at 5**, per the approved SOW — supersedes the original handoff's "~6 estimated" figure. Final dates for all 5 phases remain open (item #3b).
+- **Contract schedule language (formal, from the approved SOW): after-hours labor AND Sundays, with a 12/31/26 completion deadline.** Per Alejandro's explicit instruction, this is preserved as the binding baseline and has NOT been overwritten by the informal Thursday/Friday/Saturday coordination discussion recorded 9/10 — those are two different things that have not been reconciled. **The current coordination discussion (Saturday put-back) conflicts with the approved contract's Sunday language** — this is now open item #4, and it should not be resolved by assuming either version is correct.
+- New carpet logistics detail: ship date 9/25/26 from Georgia, expected arrival week of 9/28/26. Also newly learned: the *original* phasing-plan start (before any pull-forward discussion) was Thursday 10/15/26 — the 10/8 date already on file is a one-week pull-forward attempt against that baseline, not an independent estimate.
+- Added two more new open items: confirm carpet delivery date (#17) and update the calendar only once phasing is formally confirmed (#18) — do not update the calendar off the tentative 10/8 date.
+
+Floors 23-26 boundary flag from 9/10 is unaffected by this update and remains in force.
