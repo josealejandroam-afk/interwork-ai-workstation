@@ -1,5 +1,13 @@
 # Notes — Project 7713 OW Dallas to Houston Relocation
 
+## 2026-09-14 | Codex@FrankWork — OW Houston-local consolidation
+
+Alejandro explicitly directed that all OW Houston activity uses 7713. This overrides earlier exclusions of the 500 Dallas Street Houston move and lockers: 7713 now includes both Dallas-origin and Houston-local OW relocation, OW lockers/refrigerators, moving supplies, move-week activity and related installation/setup. 7553 remains separate. Veritas at 1200 Smith, its decommission, CORT rental pickup and Veritas billing remain unassigned/separate, not absorbed into 7713. Rancho Cordova logistics remain separately controlled.
+
+Sources: user correction and supplied OW Houston meeting screenshot (2582d5f9-b9e5-44c3-848d-0e430373439d), Jane September 14 clarification and Jill's September 12 circulation of September 10 minutes. Jane's locker inclusion supersedes the minutes' refrigerators-only wording unless OW cancels. Dates: Sept 17 next meeting; Oct 19 OW supplies (25 crates/4 C-bins) at 500 Dallas; Oct 26 Veritas supplies (10 crates/3 C-bins/1 shredding bin) separately assigned/TBD; week Nov 9 local move; Nov 16 first day at 1100 Louisiana Floor 49. Precise delivery/move windows, vendor and reservations remain open.
+
+Supabase transaction updated 7713, clarified four existing loops and added two logistics loops (29 open total); audit action `7713_ow_houston_consolidation_20260914`, actor Codex@FrankWork, preserves before/after state. October 9 start and readiness flags preserved. No calendar entries, bookings, invoice recoding or Veritas project creation performed.
+
 ## 2026-09-09 | Codex@FrankWork — latest handoff supersedes earlier details
 
 Applied Alejandro's attachment 2bda4e73-807a-4c3d-90a6-98cc70e23c6f. October 9 is now confirmed start; Floor 44 OW packing assistance around 3 PM and desktop knockdown about 5 PM. Desktop relocation/reinstall and power pole provision are supported; final responsibilities remain open. Take all available Aerons toward 107 required; final count/disposition pending. Item 12 chairs only; wire shelving, Houston lockers and new ping pong table excluded from Dallas relocation inventory. Network infrastructure remains separately assigned. Added September 30 regroup, construction-delay/holding risks and security-form requirement. Preserved 24 handoff open items plus three earlier unresolved controls rather than deleting history. Supabase before/after audit actor Codex@FrankWork; action 7713_latest_handoff_20260909. Earlier entries below are historical where superseded.
