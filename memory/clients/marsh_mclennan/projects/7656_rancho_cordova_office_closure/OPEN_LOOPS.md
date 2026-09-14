@@ -7,7 +7,7 @@ Last reconciled: 2026-09-08 from September 3 completion-report correspondence.
 3. [ ] Confirm Ingram pickup date/window, staging area, labeling or serialization requirements, loading expectations, contact, and chain of custody.
 4. [ ] Confirm Westlake pickup schedule from the vendor warehouse, delivery hours, shipping method, packaging, serial verification/signoff, and required arrival date.
 5. [ ] Identify the exact GTT equipment and obtain return authorization, labels, destination or pickup instructions, and contact.
-6. [ ] Confirm the Houston conference table's separate project number, final Houston destination, warehouse label, and later pickup schedule.
+6. [ ] Verify HIS warehouse label/receipt documentation cross-references origin 7656 and Houston project 7713; coordinate release only on final 7713 instructions. Project number/destination are resolved: 7713, 1100 Louisiana. Delivery/install and HIS quote/storage terms remain open under 7713.
 7. [ ] Confirm final disposal/e-waste documentation for the broken DTEN, signage, designated equipment, and general trash.
 8. [ ] Verify the Westlake equipment list/serials and the current 195-pound/$35,000 planning estimate before final shipping documents and release.
 9. [ ] Issue the requested Project 7656 estimate/invoice to Roxana Dominguez and confirm billing completion; David said on September 3 that it would be provided shortly. Quote 8679 is excluded because it is an Austin Phase 2 quote under Project 7486.

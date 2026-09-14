@@ -1,5 +1,9 @@
 # Project Card — 7656: Marsh / MMC Rancho Cordova Office Closure
 
+## September 14, 2026 — confirmed table routing (Codex@FrankWork)
+
+September 14 correction from supplied September 11–12 email thread (0abfb04d-9ff6-41a0-a4fc-1cc48b1e621f): ONE conference table originated under 7656 MMC Rancho Cordova and was intentionally shipped to Houston for 7713 Oliver Wyman, final destination 1100 Louisiana. Hold at HIS pending final delivery/install instructions. HIS needs scope to quote the October work or a table-only quote/job to enter warehouse paperwork. David did not believe an October quote existed; approval is not established. Not Osha Bergman product / HIS quote 59829. Storage MAY accrue after 30 days; receipt date, clock start and rate remain unconfirmed. Kathy F. Martin is on PTO September 18–28; alternate coordination contact needed if applicable. This does not assign unrelated Rancho assets to 7713 or authorize release, installation, charges or invoice recoding.
+
 ## Summary
 
 | Field | Value |
@@ -81,7 +85,7 @@ The space plan identifies approximately 2,440 usable square feet, including 12 w
 | Sacramento | 2150 River Plaza Drive, Suite 330, Sacramento, CA 95833 | Pack and transport to vendor warehouse for later InterWork pickup. |
 | San Francisco | Four Embarcadero Center, Suite 1100, San Francisco, CA 94111 | Pack and transport to vendor warehouse for later InterWork pickup. |
 | Westlake | 1600 Solana Blvd., Suite 8300, Westlake, TX 76262 | Protect and pack together, separate from other groups, then transport to vendor warehouse for later pickup. |
-| Houston conference table | Houston destination TBD; separate Houston project | Remove and warehouse-stage with separate-project identification. Do not combine with Project 7656 freight. |
+| Houston conference table | 1100 Louisiana, Houston; Project 7713; held at HIS pending instructions | Remove and warehouse-stage with separate-project identification. Do not combine with Project 7656 freight. |
 | GTT equipment | Return destination and instructions TBD | Isolate and clearly identify pending final instructions. |
 | Ingram desktop technology | Remains at Rancho Cordova | Stage onsite for Ingram pickup; do not transport to vendor warehouse. |
 | Local disposal | Local disposal | Broken DTEN, signage/hardware, designated disposal equipment, and general trash. |

@@ -1,5 +1,9 @@
 # Notes — Marsh / MMC Rancho Cordova Office Closure
 
+## September 14, 2026 — confirmed table routing (Codex@FrankWork)
+
+September 14 correction from supplied September 11–12 email thread (0abfb04d-9ff6-41a0-a4fc-1cc48b1e621f): ONE conference table originated under 7656 MMC Rancho Cordova and was intentionally shipped to Houston for 7713 Oliver Wyman, final destination 1100 Louisiana. Hold at HIS pending final delivery/install instructions. HIS needs scope to quote the October work or a table-only quote/job to enter warehouse paperwork. David did not believe an October quote existed; approval is not established. Not Osha Bergman product / HIS quote 59829. Storage MAY accrue after 30 days; receipt date, clock start and rate remain unconfirmed. Kathy F. Martin is on PTO September 18–28; alternate coordination contact needed if applicable. This does not assign unrelated Rancho assets to 7713 or authorize release, installation, charges or invoice recoding.
+
 ## 2026-08-19 Intake
 
 - Added from a consolidated handoff based on the formal Rancho Cordova SOW, space plan, and supporting email history.

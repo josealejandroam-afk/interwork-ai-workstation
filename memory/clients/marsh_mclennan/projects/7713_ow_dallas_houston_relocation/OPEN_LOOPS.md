@@ -35,4 +35,9 @@ Updated September 14, 2026 by Codex@FrankWork. All remain OPEN. OW Houston-local
 
 - AV responsibility remains unassigned.
 - Electrical execution beyond confirmed power pole provision and coordination remains unassigned.
-- Confirm separate project/billing assignment for Veritas at 1200 Smith, its decommission and CORT rental pickup; do not include under 7713. OW 500 Dallas activity IS 7713. Rancho Cordova logistics remain separately controlled.
+- Confirm separate project/billing assignment for Veritas at 1200 Smith, its decommission and CORT rental pickup; do not include under 7713. OW 500 Dallas activity IS 7713. The identified Rancho conference table is assigned to 7713; remaining table execution/commercial controls are tracked separately below.
+
+## HIS conference table controls — September 14
+
+- [ ] Provide scope to HIS and obtain quote/job for October work or table-only receiving/delivery/install; not Osha Bergman quote 59829.
+- [ ] Confirm HIS receipt date, 30-day storage clock/rate, paperwork and final delivery/install instructions; hold until directed. Coordinate Kathy's September 18–28 PTO coverage if needed.

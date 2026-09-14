@@ -1,5 +1,9 @@
 # Project 7713 — Oliver Wyman / MMC Houston Program (Dallas + Houston-local)
 
+## September 14, 2026 — confirmed table routing (Codex@FrankWork)
+
+September 14 correction from supplied September 11–12 email thread (0abfb04d-9ff6-41a0-a4fc-1cc48b1e621f): ONE conference table originated under 7656 MMC Rancho Cordova and was intentionally shipped to Houston for 7713 Oliver Wyman, final destination 1100 Louisiana. Hold at HIS pending final delivery/install instructions. HIS needs scope to quote the October work or a table-only quote/job to enter warehouse paperwork. David did not believe an October quote existed; approval is not established. Not Osha Bergman product / HIS quote 59829. Storage MAY accrue after 30 days; receipt date, clock start and rate remain unconfirmed. Kathy F. Martin is on PTO September 18–28; alternate coordination contact needed if applicable. This does not assign unrelated Rancho assets to 7713 or authorize release, installation, charges or invoice recoding.
+
 ## Current source and identity
 
 Updated September 14, 2026 by Codex@FrankWork from Alejandro's explicit direction that all OW Houston activity uses 7713, Jane's September 14 locker clarification, and the supplied September 10 meeting minutes circulated September 12. These supersede earlier exclusions of OW Houston-local work; the September 9 Dallas handoff remains the baseline for unchanged scope. Earlier history is preserved in NOTES.md.
@@ -17,7 +21,7 @@ Updated September 14, 2026 by Codex@FrankWork from Alejandro's explicit directio
 
 7553 covers remaining Dallas move/decommission including One Victory Park, Floor 45 work from October 9, general Floor 43 work no earlier than expected October 14 turnover, and September 28 Dallas network relocation. 7712 is disregarded. Specifically identified Houston-bound items from other floors belong to 7713; floor location alone does not assign all work to 7713.
 
-Keep labor, trucks, materials, FastFields, hours, reports, costs and billing separate between 7553 and 7713. 7713 includes OW Dallas-to-Houston relocation AND OW Houston-local relocation from 500 Dallas Street, OW lockers/refrigerators, moving supplies, move-week activity and related Houston installation/setup. Veritas activity from 1200 Smith, its decommission, CORT rental pickup and Veritas billing remain separate with project assignment unresolved. Rancho Cordova logistics and detailed network/AP responsibilities are not inferred from the OW consolidation.
+Keep labor, trucks, materials, FastFields, hours, reports, costs and billing separate between 7553 and 7713. 7713 includes OW Dallas-to-Houston relocation AND OW Houston-local relocation from 500 Dallas Street, OW lockers/refrigerators, moving supplies, move-week activity and related Houston installation/setup. Veritas activity from 1200 Smith, its decommission, CORT rental pickup and Veritas billing remain separate with project assignment unresolved. The identified Rancho Cordova conference table is expressly assigned to 7713 for Houston delivery/install; other Rancho assets and detailed network/AP responsibilities are not inferred.
 
 ## Supported scope and inventory
 

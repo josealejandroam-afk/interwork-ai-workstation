@@ -1,5 +1,9 @@
 # Texas Project Boundaries
 
+## September 14, 2026 — confirmed table routing (Codex@FrankWork)
+
+September 14 correction from supplied September 11–12 email thread (0abfb04d-9ff6-41a0-a4fc-1cc48b1e621f): ONE conference table originated under 7656 MMC Rancho Cordova and was intentionally shipped to Houston for 7713 Oliver Wyman, final destination 1100 Louisiana. Hold at HIS pending final delivery/install instructions. HIS needs scope to quote the October work or a table-only quote/job to enter warehouse paperwork. David did not believe an October quote existed; approval is not established. Not Osha Bergman product / HIS quote 59829. Storage MAY accrue after 30 days; receipt date, clock start and rate remain unconfirmed. Kathy F. Martin is on PTO September 18–28; alternate coordination contact needed if applicable. This does not assign unrelated Rancho assets to 7713 or authorize release, installation, charges or invoice recoding.
+
 September 14, 2026 authoritative update: all OW Houston activity is 7713, including the Houston-local phase. Older exclusions and open-loop counts below are historical where superseded. Jane's September 14 email includes OW lockers unless OW cancels. No Veritas project number is established.
 
 Latest September 9 handoff update (Codex@FrankWork): 7713 now includes supported desktop knockdown/relocation/reinstall and Houston power pole provision. October 9 start confirmed; desktop knockdown approximately 5 PM. Final installation/provider details remain open. September 28 Dallas network work stays 7553, not 7713. 7713 now tracks 24 current handoff items plus three earlier unresolved controls; earlier 18-item counts below are historical.
@@ -57,4 +61,4 @@ This is the canonical cross-project schedule. #7553 remains Dallas move/decommis
 | Week of Nov 9, 2026 | OW, 500 Dallas Street → 1100 Louisiana Fl 49, Houston | 7713 | OW local move, lockers/refrigerators and contents | Exact dates, crew/trucks and access pending; Veritas move separately coded |
 | Nov 16 | 1100 Louisiana, Fl 49 | 7713 / broader Houston program | Houston go-live | Target — broader program milestone, not proof every activity belongs to 7713 |
 
-**Separate/unresolved:** Veritas from 1200 Smith, 1200 Smith decommission, CORT rental pickup and Veritas billing; Rancho Cordova logistics not directly assigned. OW's 500 Dallas Street move and lockers are now expressly included in 7713, superseding older exclusions.
+**Separate/unresolved:** Veritas from 1200 Smith, 1200 Smith decommission, CORT rental pickup and Veritas billing; the identified Rancho table is now assigned to 7713; other Rancho assets are not automatically included. OW's 500 Dallas Street move and lockers are now expressly included in 7713, superseding older exclusions.
