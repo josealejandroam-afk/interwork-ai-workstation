@@ -57,6 +57,15 @@ commissioning, and hoteling-desk setup.**
    turnover/signoff. Built-in/low-voltage wiring currently expected to remain; any
    additional low-voltage removal is pending landlord confirmation. Lease termination
    notice was already submitted for 9/10/2026.
+
+   **9/14 closeout in progress:** Gabriel Moran / Lalo Movers scheduled onsite at 12:00 PM
+   for final paint touch-ups and cover plate installation. Landlord/security confirmed
+   access. Before/after photos required. **Await completion confirmation and photos
+   before marking Monroe decom closed.** Confirmed final scope: paint 2 walls where old
+   signage was removed, paint 1 spot under the TV in the kitchen, paint 1 spot in the
+   conference room, paint 3 spots at the entrance where the table was, install a cover
+   plate over the hole outside the office entrance. Bubble wrap confirmed delivered to
+   500 W Monroe on 9/11. Ketty notified the landlord team and copied InterWork.
 8. **111 N Canal hoteling:** FDOB 9/14/2026, 1st Floor. Desktop/monitor/docking/keyboard-
    mouse/printer setup and network/WAP/technology configuration are handled by
    Marsh Tech, not InterWork. Hardware setup is already in progress and is not an
@@ -79,6 +88,7 @@ commissioning, and hoteling-desk setup.**
 | 2026-09-11, 12:00 PM / 4:00 PM target | InterWork begins Monroe FF&E prep at noon and targets 4:00 PM load-out; IT and FF&E share one truck to Orland Park |
 | 2026-09-12 | Proposed Monroe decommission continuation; final scope and labor plan depend on 9/10 walkthrough |
 | 2026-09-14 | FDOB for temporary hoteling at 111 N Canal, 1st Floor |
+| 2026-09-14, 12:00 PM | Monroe final closeout: Gabriel Moran / Lalo Movers onsite for paint touch-ups + cover plate installation; before/after photos required |
 | 2026-09-25 | Target completion of Monroe asset-management/decommission activity |
 | 2026-09-30 | 500 W Monroe lease expiration |
 | 2026-10-01 | Phase 1 closeout target |
@@ -161,6 +171,7 @@ must also be completed if commercially assigned to InterWork.
 - **Dorothy** (last name unknown) — Canal freight/speedpack POC; reconfirmation pending.
 - **Timothy Shanahan** — coordinating the technology crew/workforce; actual employer and
   role remain unconfirmed despite the MMA Teams tag.
+- **Gabriel Moran** — Lalo Movers, lead for the 9/14 Monroe closeout (paint touch-ups + cover plate). Phone: (312) 536-8325.
 
 ## Source Notes
 

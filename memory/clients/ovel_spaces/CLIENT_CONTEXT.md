@@ -16,7 +16,7 @@ delivery, and installation project in Woodland Hills, California.
 
 | Project | Site | Status |
 |---|---|---|
-| 7598 — Woodland Hills Furniture Install | 6025 Valley Circle Blvd, Woodland Hills, CA 91367 | Scheduled for initial phased install 2026-08-25; warehouse inventory and site logistics require confirmation |
+| 7598 — Woodland Hills Furniture Install | 6025 Valley Circle Blvd, Woodland Hills, CA 91367 | September 14 next-phase delivery requested, NOT confirmed; Jill checking LA availability and Abe awaiting update. MooreCo 768 received Sept 4 with chair-leg scuff; Scholar Craft 1096/Aarco 771 receipts unconfirmed. August completion inventory and later-phase pricing require reconciliation. |
 
 ## Working Rules
 

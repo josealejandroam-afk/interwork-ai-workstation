@@ -1,5 +1,19 @@
 # Project 7598 — Ovel Spaces | Woodland Hills Furniture Install
 
+## Current phase — September 14, 2026 (Codex@FrankWork)
+
+Source: Alejandro's supplied September 14 email-thread summary. August installation moved forward; final installed quantities/completion are not established. MooreCo delivery requested for September 14 is NOT confirmed. On September 11 Jill was checking LA availability for September 14 or the first available date; Abe was still awaiting an update at 11:13 AM September 14. Keep the next phase TBD/tentative, not a confirmed install or completed delivery.
+
+| PO | Manufacturer | Current status |
+|---|---|---|
+| 768 | MooreCo | Physically received September 4; delivery/install pending. Warehouse reported a scuff on one chair leg; disposition/acceptance unresolved. |
+| 1096 | Scholar Craft | Outstanding in September 7 list; receipt not confirmed. |
+| 771 | Aarco | Outstanding in September 7 list; receipt not confirmed. |
+
+Ovel requested the MooreCo September 14 delivery on September 10. Next action: Jill to obtain LA crew/date confirmation and update the client; verify load inventory, damage handling, site logistics and added-phase pricing before dispatch. Earlier records below mention MooreCo receipt August 20 (1 skid + 18 pieces): reconcile that with September 4 receiving evidence; do not infer a second shipment or double-count. Omission of other manufacturers from the September 7 list does not prove their delivery/install completion.
+
+## Earlier August phase baseline (historical, not current scheduling)
+
 ## Core Facts
 
 | Field | Value |
@@ -9,12 +23,12 @@
 | Client | Ovel Spaces |
 | Site | 6025 Valley Circle Blvd, Woodland Hills, CA 91367 |
 | Receiving warehouse | InterWork / NRS, 14424 Bonelli Street, City of Industry, CA 91746 |
-| Current first-phase install date | Tuesday, 2026-08-25 |
+| Historical first-phase install date | Tuesday, 2026-08-25; exact completion inventory pending reconciliation |
 | InterWork contact / estimator | Jill Buchman |
 | Client contact | Hanna Weiss — cs@ovelspace.com / 917-775-7742 |
 | Additional client stakeholder | Abe Fischer |
 | Onsite POC | Not confirmed |
-| Status | Scheduled — first phase limited to product physically verified at NRS |
+| Status | Next phase pending LA scheduling confirmation; September 14 requested, not confirmed |
 
 ## Contracted Scope
 

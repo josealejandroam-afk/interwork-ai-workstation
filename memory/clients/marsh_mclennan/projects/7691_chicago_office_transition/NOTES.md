@@ -67,3 +67,12 @@
   execution window is 9/9 through 9/12, access remains unconfirmed, and 20 current
   execution loops are open. The prior 19-loop snapshot remains as resolved history.
 - Smartsheet was not modified during this reconciliation.
+
+## 2026-09-14 Monroe Final Closeout
+
+- Gabriel Moran (Lalo Movers), (312) 536-8325, is the lead onsite at 500 W Monroe today at 12:00 PM. Landlord/security is tracking his arrival and will provide access at noon.
+- Matt instructed Gabriel to take before and after photos — completion is not confirmed until those photos and a completion confirmation come back. Do not mark Monroe decom closed on the strength of this scheduling handoff alone.
+- Confirmed remaining scope: paint 2 walls where old signage was removed, paint 1 spot under the TV in the kitchen, paint 1 spot in the conference room, paint 3 spots at the entrance where the table was, install a cover plate over the hole outside the office entrance.
+- Ketty notified the landlord team and copied InterWork.
+- Bubble wrap was separately confirmed delivered to 500 W Monroe on 9/11.
+- Updated OPEN_LOOPS.md item #13 to Alejandro's exact requested wording rather than paraphrasing, per his explicit Supa/Git instruction.

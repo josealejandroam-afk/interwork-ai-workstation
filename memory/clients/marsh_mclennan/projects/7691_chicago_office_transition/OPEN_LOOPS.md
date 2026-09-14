@@ -14,7 +14,7 @@
 | 10 | Confirm Orland Park arrival time | Open |
 | 11 | Confirm Orland Park receiving access and onsite direction by Ketty/Bea | Open |
 | 12 | Confirm final Monroe FF&E inventory | Open |
-| 13 | Confirm final Monroe decommission scope after the 9/10 landlord walkthrough | Open |
+| 13 | 9/14 Monroe closeout in progress: Gabriel Moran / Lalo Movers scheduled onsite at 12:00 PM for final paint touch-ups and cover plate installation. Landlord/security confirmed access. Before/after photos required. Await completion confirmation and photos before marking Monroe decom closed. | Open |
 | 14 | Confirm Saturday 9/12 labor plan | Open |
 | 15 | Confirm printer-pickup timing and POC; printer pickup is outside InterWork scope | Open |
 | 16 | Confirm temporary storage location for 171 monitors + 110 docking stations | Open |

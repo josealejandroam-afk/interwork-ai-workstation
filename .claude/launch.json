@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "interwork-command-center-dev",
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": ["/c", "cd /d C:\\Users\\AlejandroAcosta\\Documents\\interwork-command-center && npm run dev"],
+      "port": 3000
+    }
+  ]
+}
