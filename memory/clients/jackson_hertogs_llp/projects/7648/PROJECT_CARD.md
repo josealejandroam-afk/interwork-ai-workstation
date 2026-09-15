@@ -157,3 +157,4 @@ Finalize the Suite 1460 furniture reuse/layout, split the final move and decommi
 - Alejandro direct project-number confirmation dated August 18, 2026.
 - Inventory and design-planning update dated August 18, 2026.
 - Updated Git + Supabase handoff dated August 26, 2026, based on walkthroughs, measurements, inventory, floor plans and client correspondence.
+- Updated Git + Supabase handoff dated September 15, 2026 — substantially restates the August 26 content; again incorrectly stated the InterWork project number was unconfirmed (disregarded, see August 18 confirmation above); did not mention the long-white-table/eight-seat benching concept from the August records, status unclear — see NOTES.md and Open Loops #6.

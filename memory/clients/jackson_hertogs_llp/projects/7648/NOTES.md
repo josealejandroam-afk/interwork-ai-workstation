@@ -44,3 +44,12 @@
 - Stored December 12-13 as target dates with explicit unconfirmed-date and unconfirmed-suite tags.
 - Added the primary open loop `Finalize furniture reuse/layout and scope split`.
 - Logged the update in `activity_log` as `Codex@FrankWork`, source `manual`.
+
+## 2026-09-15 — Repeat Handoff Reconciliation
+
+Alejandro supplied another "Updated Git + Supabase Handoff" for this project, almost entirely restating the August 26 content verbatim (same locations, contacts, background, new-space plan, relocation inventory, decommission scope, other-law-firm scope, low-voltage scope, conference-room island/credenza, and proposal structure). Reconciled as follows:
+
+- **Project number:** this handoff again states "Not confirmed" and repeats "do not use drawing number 37491 as the InterWork project number." As on August 26, this is stale — Project 7648 was confirmed directly by Alejandro on August 18, 2026, and remains the confirmed number. Not reverted.
+- **Long-white-table / eight-seat benching item:** the August 18/26 records carry an open item to reconcile an "approximately eight-seat long-white-table concept" with the current four-workstation direction (see OPEN_LOOPS.md #6). This newest handoff does not mention that concept at all. It is unclear whether it has been dropped or is simply omitted from this restatement — **carried forward as open rather than silently removed; confirm with Alejandro whether the long-white-table concept is still live.**
+- **Open items:** all 14 items listed in this handoff match existing open loops already tracked (destination suite, private-office furniture assignment, workstation configuration, CAD/layout, refrigerator disposition, low-voltage/data/fiber, lease-end requirements, patch/paint, building protection, freight/loading, COI, exact December schedule, island/credenza pricing, move-vs-decom inventory split). None resolve any existing open loop with new information — no facts changed, so OPEN_LOOPS.md is unchanged apart from the note above.
+- **Supabase contact gap found and fixed:** despite this project's Git contacts table being complete since August, Supabase had no contact records for Brooks Paine, Lisa Gelardi, Ryan Kenney, Jill Buchman, or Jairo Escalante (only David Steinbrecher existed, and `client_poc_id` on the project was NULL). Created the missing contacts and set `client_poc_id` to Brooks Paine while processing this handoff — an overdue sync gap, not new information from this handoff.

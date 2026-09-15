@@ -7,7 +7,7 @@
 | 3 | Confirm exact furniture assigned to each of the three private offices; desks must be 60 inches or smaller | Client / InterWork design | High | Open |
 | 4 | Finalize the four-workstation configuration and reception workstation | Client / InterWork design | High | Open |
 | 5 | Complete the final CAD/layout for 388 Market | InterWork design | High | Open |
-| 6 | Reconcile the earlier approximately eight-seat long-white-table concept with the current four-workstation plan | Client / InterWork design | Medium | Open |
+| 6 | Reconcile the earlier approximately eight-seat long-white-table concept with the current four-workstation plan | Client / InterWork design | Medium | Open — not mentioned in the 2026-09-15 handoff; confirm with Alejandro whether dropped or still live before removing |
 | 7 | Finalize separate move/reuse and Jackson & Hertogs decommission inventories | InterWork / client | High | Blocked by final layout |
 | 8 | Confirm refrigerator disposition | Client | Medium | Open |
 | 9 | Confirm low-voltage, data, fiber and telecom removal/recommission requirements with building management and/or AT&T | Client / building management | High | Open |
