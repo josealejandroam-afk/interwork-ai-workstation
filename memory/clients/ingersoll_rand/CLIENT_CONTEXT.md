@@ -12,7 +12,7 @@ Ingersoll Rand is an industrial manufacturing company. Known operating entities 
 | # | Name | Location | Status | Notes |
 |---|---|---|---|---|
 | 7374 | Ingersoll Rand - Maintenance Dept Move | Needs confirmation | Pending Supabase completion | FastField submitted; in "approve batch complete 6" batch approval list (with 7499, 7498, 7347, 7472, 7482) |
-| 7453 | Miami to Austin Move (Lawrence Factor → Trace Analytics) | Miami, FL → Austin, TX | Active planning / pre-execution | See `projects/7453_miami_to_austin_move/`. Separate scope from 7374 — do not confuse the two. |
+| 7453 | Miami to Austin Move (Lawrence Factor → Trace Analytics) | Miami, FL → 8201 E Riverside Dr, Bldg 6, Ste 650, Austin, TX 78744 (confirmed 2026-09-15) | Active — Move 1 Miami 9/21-9/25, Austin unload begins 9/28; Move 2 Miami targets 10/5, decom TBD | See `projects/7453_miami_to_austin_move/`. Separate scope from 7374 — do not confuse the two. Restructured 2026-09-15 from three moves to two + final decom; several open conflicts (PM name, Eric Larsen's role, Bauer compressor) not yet resolved. |
 
 ## Supabase Note (Project 7374 only)
 
