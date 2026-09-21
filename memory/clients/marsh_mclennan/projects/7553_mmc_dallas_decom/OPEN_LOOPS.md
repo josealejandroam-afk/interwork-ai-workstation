@@ -22,10 +22,16 @@ Historical survey only: Jairo Escalante, Michael Durkin and the June 30–July 2
 - [ ] Confirm exact Friday 2026-09-11 delivery window for the 10 crates/packing materials (needed before confirming with Danielle/Michael).
 - [ ] Get Sergio's onsite lead name and cell number (needed for access/security).
 - [ ] Confirm exact quantity of bubble wrap / packing material — client asked generally, no exact quantity yet.
-- [ ] Confirm whether the Friday delivery includes a speedpack swap (is Sergio bringing empty speedpacks?).
+- [x] September 9 Sergio reply confirms Friday materials delivery would include speedpack swap; actual September 11 completion remains unverified.
 - [ ] Confirm current count of full speedpacks that need swapping.
 - [ ] Confirm Sept 28 destination for the network equipment/UPS move (destination still TBD).
 - [ ] Confirm One Victory Park dock/freight/after-hours instructions.
 - [ ] Confirm One Victory Park onsite POC.
 - [ ] Confirm labor and truck counts needed for Sergio/vendor scheduling.
 - [ ] Obtain final authorization/dispatch for October labor — the dates above are confirmed planning windows, not a mobilization order.
+
+## September 21 technology follow-up
+
+- [x] Sergio's September 9 reservation of the dates actually listed in the earlier decommission email is documented. This is not a tech-phase reservation or dispatch authorization.
+- [ ] Send the follow-up in DRAFTS.md and obtain Exserv availability for September 28 equipment/UPS move, October 2–5 desktop staging and October 5–12 setup. Draft prepared, not sent.
+- [ ] Reconfirm September 28 destination/equipment list, storage pickup address, detailed tech-versus-IT responsibilities, crew/trucks, work hours and access before mobilization.

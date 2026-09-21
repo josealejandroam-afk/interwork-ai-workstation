@@ -1,5 +1,9 @@
 # Project 7553 — MMC Dallas Move / Decommission
 
+## September 21 — Exserv reservation versus tech-phase confirmation
+
+September 21, 2026 reconciliation: supplied screenshot of September 9 thread '7553 MMC Dallas 1717 Main - Materials This Week and Upcoming Schedule' shows Sergio reserved all requested dates and confirmed Friday September 11 materials delivery AND speedpack swap. This confirms reservation/intended service, not completion. The request listed October 10-14 OW decom, October 14 after-hours broader decom, October 15 tentative network decom, October 19 tentative security decom, October 29 tentative walkthrough and October 31 lease deadline. It was explicitly planning-only, final scope/dispatch/authorization pending. It did NOT list September 28 new-in-box network/UPS relocation, October 2-5 desktop staging or October 5-12 desktop setup. Those tech phases remain unconfirmed with Exserv. Onsite leads assigned one day before delivery. Francisco asked September 21 whether next-week Dallas tech work was covered and Sergio contacted; follow-up prepared, NOT SENT.
+
 ## Current execution position — September 9, 2026
 
 7553 covers the remaining 1717 Main Floors 43–45 Dallas move/decommission, including relocation to One Victory Park, 2323 Victory Avenue, Floors 9–10. Provisional 7712 was disregarded. OW Dallas → Houston is separately assigned to 7713; do not combine its resources, scope or billing with 7553.
