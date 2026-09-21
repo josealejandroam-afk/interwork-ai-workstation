@@ -1,5 +1,9 @@
 # Notes — Project 7713 OW Dallas to Houston Relocation
 
+## September 21, 2026 - Codex@FrankWork
+
+User authorized pending project information to be filed in Supabase/Git. Added POWER_PROCUREMENT.md with supplied quoted baseline (10 ten-foot Platinum 4799 divided poles, 2+2 ceiling feed, 9 separate infeeds), 9-to-10 correction, HIS receiving point and InterWork/Structure Tone responsibility split. Order, shipping, compatibility and 10/9 reconciliation remain open. Also filed September 16 copier milestones, Houston equipment-routing review, construction-readiness limitations and furniture decisions from supplied meeting screenshots. Calendar observations are user-supplied evidence, not a live sync or confirmed bookings. Earlier conflicting procurement/date shorthand is superseded only by these specific updates; history retained.
+
 ## September 14, 2026 — confirmed table routing (Codex@FrankWork)
 
 September 14 correction from supplied September 11–12 email thread (0abfb04d-9ff6-41a0-a4fc-1cc48b1e621f): ONE conference table originated under 7656 MMC Rancho Cordova and was intentionally shipped to Houston for 7713 Oliver Wyman, final destination 1100 Louisiana. Hold at HIS pending final delivery/install instructions. HIS needs scope to quote the October work or a table-only quote/job to enter warehouse paperwork. David did not believe an October quote existed; approval is not established. Not Osha Bergman product / HIS quote 59829. Storage MAY accrue after 30 days; receipt date, clock start and rate remain unconfirmed. Kathy F. Martin is on PTO September 18–28; alternate coordination contact needed if applicable. This does not assign unrelated Rancho assets to 7713 or authorize release, installation, charges or invoice recoding.

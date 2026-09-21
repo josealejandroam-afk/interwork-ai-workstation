@@ -29,7 +29,7 @@ InterWork preparation/relocation and expected Houston installation support inclu
 
 Desktop technology knockdown, packing/preparation, relocation and Houston setup/reinstall are now supported. Final detailed technology and installation responsibilities remain open; do not interpret expected support as finalized subcontract scope.
 
-David/InterWork confirmed provision of Houston furniture power poles, finish/paint matching to workstation panels, and coordination of locations with Structure Tone and the electrical/workstation plan. Final pole quantity and locations remain open. Broader electrical/network execution ownership is not inferred.
+Power procurement baseline updated September 21: 10 ten-foot generic divided power/data poles, approximately 2.5 by 2.5 inches, Platinum 4799, ceiling-feed 2+2; 9 separately shipped infeeds. David corrected 9 poles to 10; verify the 10/9 pairing. InterWork supplies poles; Structure Tone owns Connectrac/power track. HIS is receiving point. Quoted, NOT confirmed ordered/shipped. Final locations, compatibility, receiving details and dates remain open. See POWER_PROCUREMENT.md.
 
 Houston requires 107 Aerons. Take all available Aerons at 1717 Main to provide contingency; final count and chair types require verification. Exact destination disposition of excess/damaged chairs remains open; do not discard Dallas relocation inventory on inference.
 
@@ -68,6 +68,24 @@ Previously planned September 17 Houston construction start may slip toward Octob
 For 1717 Main, 500 Dallas Street and 1100 Louisiana confirm dock/freight access, delivery hours, after-hours restrictions and truck access. Requirements reportedly circulated do not prove approval. Obtain/complete the separate 1717 security-clearance form if required; David had not yet seen it.
 
 ## Shared coordination — not additional 7713 execution assignments
+
+## September 16 meeting evidence and calendar reconciliation
+
+Source: supplied LPC 6047 weekly meeting-note screenshots (6fceec6d-dbaa-4d79-9dfd-f31dc37be56f; 65b8d394-96da-49c0-9ece-5c566b6ca64b). 6047 remains an external program number; InterWork OW Houston work is 7713.
+
+- Planned October 15: C8155 copier from 1717 Main, Dallas to 1100 Louisiana, Floor 49. Confirm transport and technician ownership.
+- Planned November 9: C605 copier from 500 Dallas Street, Houston to 1100 Louisiana, Floor 49; this is one task within the Houston-local move, not another blanket crew booking.
+- November 12-13: configure devices; technician responsibility not established as InterWork.
+- September 16: review routing equipment to 500 Dallas for InterWork to move to the new site. Equipment/UPS list, release, timing and ownership pending. Separate from 7553 September 28 Dallas network/UPS relocation.
+- STO/Alliance released for construction; flooring delivered to contractor; Alliance released to order cabling material; AT&T surveyed. Tenant decommission completion and wall construction remained unconfirmed: NOT a site-ready declaration.
+- Rancho table is included; coordinate its power requirements with IA/STO. Ping-pong options sent to OW, final selection/purchase pending.
+- Two new tables to be ordered; landlord shelving remains. OW to confirm bringing larger trash bin from 1717 Main; small office trash bins not needed. No disposal authorization inferred.
+- Advance InterWork visit to 1717 Main to review Houston-bound furniture remains open. 1200 Smith tech review/decom discussion does not resolve Veritas project assignment.
+- Next weekly meeting shown as September 23 noon Eastern in minutes; conflicting invitation time requires verification.
+
+User's calendar screenshots show the newly added duplicate 7553 technology rows removed from that section. No calendar was edited by this update, and surviving original rows were not live-verified. In the latest shown 7713 rows, October 9 at 5 PM is the supported technology start; October 10 finish unconfirmed. Houston-local move is week of November 9; November 11 finish unconfirmed. C605 is planned November 9 only, not November 9-11. Dates/resources remain planning pending confirmation. Row numbers are mutable, not stable identifiers.
+
+The September 17 meeting reference below is historical; September 16 weekly minutes list September 23 next (time to verify).
 
 Next meeting: September 17, 2026. Veritas supplies on October 26 (10 crates + 3 C-bins + 1 shredding bin) at 1200 Smith remain separately coded/TBD, not 7713. The November 9 move week and November 16 first-day milestone are shared with Veritas, but do not merge its scope. The minutes identify decommission at 1200 Smith only. One new AED cabinet is planned at 1100 Louisiana; installer assignment is not established, and Teresa is to confirm trained colleagues.
 

@@ -1,6 +1,6 @@
 # Open Loops — Project 7713
 
-Updated September 14, 2026 by Codex@FrankWork. All remain OPEN. OW Houston-local project assignment is resolved as 7713; execution readiness is not. Existing matching database loops are updated in place, not duplicated.
+Updated September 21, 2026 by Codex@FrankWork. All remain OPEN. OW Houston-local project assignment is resolved as 7713; execution readiness is not. Existing matching database loops are updated in place, not duplicated.
 
 | # | Item | Status |
 |---|---|---|
@@ -14,7 +14,7 @@ Updated September 14, 2026 by Codex@FrankWork. All remain OPEN. OW Houston-local
 | 8 | Confirm whether loading begins October 9. | Open |
 | 9 | Confirm Houston unloading responsibility. | Open |
 | 10 | Confirm final Houston furniture installation responsibility. | Open |
-| 11 | Confirm power pole quantity and locations. | Open |
+| 11 | Verify quoted baseline of 10 ten-foot Platinum 4799 divided poles, 2+2 ceiling feed, with 9 separate infeeds; confirm 10/9 pairing, locations and compatibility. | Open |
 | 12 | Confirm glassboard installation responsibility. | Open |
 | 13 | Confirm final desktop technology scope. | Open |
 | 14 | Confirm whether InterWork has any network/AP responsibility. | Open |
@@ -34,7 +34,14 @@ Updated September 14, 2026 by Codex@FrankWork. All remain OPEN. OW Houston-local
 ## Earlier unresolved controls retained
 
 - AV responsibility remains unassigned.
-- Electrical execution beyond confirmed power pole provision and coordination remains unassigned.
+- InterWork supplies poles; Structure Tone owns Connectrac/power track. Final interface, installation and any broader electrical responsibilities remain open.
+
+## September 21 procurement and schedule controls
+
+- [ ] Obtain final Celena quote/order approval/PO and confirm ship date, separate infeed shipment and HIS receiving details; no purchase or shipment evidenced.
+- [ ] Confirm copier transport/technician ownership for October 15 C8155, November 9 C605 and November 12-13 configuration; prevent duplicate local-move labor booking.
+- [ ] Confirm proposed equipment/UPS routing via 500 Dallas to 1100 Louisiana, quantities and timing; keep separate from 7553 Dallas UPS move.
+- [ ] Verify calendar planning limits: October 10 tech finish and November 11 local-move finish unconfirmed; C605 planned November 9 only. September 23 meeting time conflicts with invitation. Do not create duplicate rows.
 - Confirm separate project/billing assignment for Veritas at 1200 Smith, its decommission and CORT rental pickup; do not include under 7713. OW 500 Dallas activity IS 7713. The identified Rancho conference table is assigned to 7713; remaining table execution/commercial controls are tracked separately below.
 
 ## HIS conference table controls — September 14
