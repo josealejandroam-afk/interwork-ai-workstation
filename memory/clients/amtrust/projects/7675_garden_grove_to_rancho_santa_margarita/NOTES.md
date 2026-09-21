@@ -1,5 +1,9 @@
 # Notes — Project 7675 AmTrust Garden Grove to Rancho Santa Margarita
 
+## September 21 — Awaiting Vendor Completion Confirmation
+
+September 21, 2026 update from Alejandro's supplied September 16 follow-up summary: Scott asked Lance/NRS how the scheduled September 9, 8:00 AM move went, whether work outside the provided scope occurred, and for move photos. No vendor response is shown. Operational label: Awaiting Vendor Completion Confirmation (post-scheduled-date follow-up, not proof of work performed). Keep completion, actual items moved, additional labor/out-of-scope work, photos, copier technician assistance and final NRS field lead/crew open. Do not close until vendor completion response is received; no actual start/end date inferred. Existing access-code discrepancy remains unresolved.
+
 ## 2026-09-10 | Claude Code
 
 Created this project from Alejandro's handoff. Confirmed via search before filing that no prior client folder entry, project folder, or Supabase row existed for project number 7675 — this is the first record.

@@ -1,5 +1,9 @@
 # Project 7675 — AmTrust — Garden Grove to Rancho Santa Margarita Small Office Move
 
+## September 21 — Awaiting Vendor Completion Confirmation
+
+September 21, 2026 update from Alejandro's supplied September 16 follow-up summary: Scott asked Lance/NRS how the scheduled September 9, 8:00 AM move went, whether work outside the provided scope occurred, and for move photos. No vendor response is shown. Operational label: Awaiting Vendor Completion Confirmation (post-scheduled-date follow-up, not proof of work performed). Keep completion, actual items moved, additional labor/out-of-scope work, photos, copier technician assistance and final NRS field lead/crew open. Do not close until vendor completion response is received; no actual start/end date inferred. Existing access-code discrepancy remains unresolved.
+
 Source: Alejandro's 2026-09-10 handoff. First record of this project in Git or Supabase — confirmed via search before filing that no prior folder or database row existed. Not the same as Project 7502 (a different AmTrust Garden Grove small office move, different date) — do not merge or conflate.
 
 ## Project Identity
@@ -18,7 +22,7 @@ Source: Alejandro's 2026-09-10 handoff. First record of this project in Git or S
 | Internal onsite PM | None confirmed |
 | Quote # | 8647 |
 | Client proposal total | $2,875 |
-| Status | **Scheduled for 9/9 8:00 AM — not marked complete.** No completion documentation exists as of this filing (2026-09-10, the day after the scheduled date). Do not mark complete based solely on the scheduling emails. |
+| Status | Awaiting Vendor Completion Confirmation; not completed/closed. September 16 NRS follow-up unanswered in supplied chain. |
 
 ## Confirmed Move Scope
 
@@ -72,4 +76,4 @@ Destination is on the **second floor with no elevator**. The large copier must a
 - This project surfaced as a gap in a 2026-09-10 calendar-discrepancy audit (a Wed 9/9 AmTrust Garden Grove calendar entry had no backing repo/Supabase record at the time). This filing closes that gap.
 - Do not confuse with Project 7502 (`memory/clients/amtrust/projects/7502_small_office_move_garden_grove/`), a separate AmTrust Garden Grove small office move scheduled for a different date (2026-05-11).
 
-See OPEN_LOOPS.md for the 5 tracked open items.
+See OPEN_LOOPS.md for six tracked open items, including completion photos.

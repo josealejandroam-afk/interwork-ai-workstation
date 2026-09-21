@@ -22,6 +22,8 @@ InterWork has multiple projects for AmTrust, including the Cleveland office (734
 
 ## Pending Action
 
+Project 7675: Garden Grove (12881 Knott Ave, Suite 108) to Rancho Santa Margarita (22411 Antonio Pkwy, Suite C-220), NRS, scheduled September 9 at 8:00 AM. Awaiting vendor completion confirmation: Scott followed up with Lance September 16 for results, out-of-scope work and photos; no response shown. Copier assistance and final lead/crew details remain open. Do not mark completed or conflate with 7502.
+
 "send it 7348" is held — Teams notification to Pedro Martinez for AmTrust Cleveland.
 This triggers when Alejandro says "send it" for project 7348.
 
