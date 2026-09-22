@@ -1,5 +1,24 @@
 # Project 7691 | MMA Chicago Office Transition | Open Loops
 
+## Current priorities — September 22, 2026
+
+- [x] Monroe closeout, signage/wall/paint/cover plate/security work and final September 15 visit completed per user handoff; photos collected.
+- [x] Two Xerox pickups completed per handoff.
+- [x] Storage location established: Lalo Movers, 7750 Archer Rd, Justice IL 60458.
+- [ ] Coordinate Sunset Westlake shipment: pickup/custody, appointment, packaging and tracking to Glenn Bratteng; not yet shipped.
+- [ ] Complete Canal artwork catalog/photos/measurements, reuse decisions and packing/storage.
+- [ ] Confirm remaining workstation power disconnect, furniture/workstation disposal, ancillary disposition and GC appliance disconnect/storage; avoid assuming all Canal cleared.
+- [ ] Confirm residual speedpack/trash removal and final fifth-floor schedule.
+- [ ] Reconcile Justice storage inventory, protection, terms and return logistics; preserve 171-monitor/110-dock return pool.
+- [ ] Reconcile unmentioned earlier freezer, keyboard/mouse and Apple TV inventory; latest transferred chair count is 12.
+- [ ] Confirm October 16 shift-out and October 23 shift-back crews, PMs, hours, access and commercial scope.
+- [ ] Confirm November 10–12 return/setup crews, PM, storage logistics and exact IT responsibilities.
+- [ ] Confirm construction readiness and November 16 FDOB target; no automatic assignment of construction punch to InterWork.
+
+## Historical Phase 1 checklist
+
+The checklist below is retained for evidence gaps/history, not a new dispatch list. Completed Monroe closeout/printer pickups and identified storage supersede those old open items. Other historical approvals are not retroactively proven by completion.
+
 | # | Item | Status |
 |---|---|---|
 | 1 | Confirm second field team | Open |

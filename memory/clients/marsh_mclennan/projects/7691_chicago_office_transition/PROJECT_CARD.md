@@ -1,5 +1,43 @@
 # Project 7691 | MMA Chicago Office Transition
 
+## Current update — September 22, 2026
+
+Source: user-provided "7691 | MMA Chicago Office Transition" Supabase + Git handoff, attachment 45baa438-3da5-4f96-8b57-0aa4360d8fcc/Pasted text.txt. Reported completed items below are accepted from this handoff; underlying photos, shipment records and construction schedule were not independently inspected.
+
+Phase 1 move/decommission substantially complete; 500 W Monroe closeout completed with final return visit September 15. 111 N Canal residual clearing/storage remains active. Westlake network shipment pending. Phase 2 furniture shift-out targets October 16, shift-back October 23, return/setup November 10–12, FDOB November 16, 2026. Dates remain construction-dependent; Phase 2 staffing unassigned.
+
+### Phase 1 completed and remaining work
+
+- Pedro Martinez remains primary PM; Francisco Vinueza has supported Canal execution. This does not assign either to Phase 2.
+- Monroe move and decom closeout complete: signage removal, wall repairs/patching/paint, entrance cover plate and security decom; final return September 15; before/after photos collected; two Xerox printers picked up.
+- Reported Monroe-to-Orland transfer: 44 monitors, 37 docks, four IT speedpacks, two UPS units for asset disposal, one MetroNID for GIT return, 15-foot rectangular wood table, 12 cafe chairs, two refrigerators, holiday tree, six garbage cans, water/ice machine. Disposal/return purpose does NOT establish downstream disposal or GIT receipt.
+- Twelve cafe chairs supersedes earlier ten-chair estimate. Earlier freezer, keyboard/mouse sets and Apple TVs are not addressed in the new completion inventory; reconcile rather than infer transfer/disposal.
+- Canal first-floor temporary hoteling workstations set up; September 14 FDOB was previously targeted, not independently verified by this update. Prior Marsh Tech ownership of disconnect/configuration/commissioning remains unless expressly revised.
+- Canal fifth-floor closet cleaned, workstations/offices cleared; eight speedpacks moved (seven local storage, one Orland Park). Artwork/miscellaneous only partially addressed; remaining trash/speedpacks staged, not proof of final disposal.
+- Still open: artwork measurements/photos/catalog for reuse, packing/storage; remaining workstation power disconnect and furniture/workstation disposal; ancillary disposition; GC disconnect/store reusable appliances; residual trash/speedpacks; final Canal work dates. Prior "cleared" language does not mean all fifth-floor work complete.
+
+### Storage and outbound shipment
+
+- Lalo Movers, 7750 Archer Rd, Justice, IL 60458. Stored Canal pool: 171 approximately 24-inch monitors, 110 docking stations and other equipment; Matt says hold until return phase. Exact reconciled inventory, terms and return logistics remain open.
+- Contacts: Gabriel Moran 312-536-8325; Luis Almanza 312-714-4635.
+- Pending outbound network equipment: four WAPs, two SDN gateways, one console server, one core switch, one ANT network interface.
+- Ship to Marsh, Attn Glenn Bratteng, 1600 Solana Blvd., Suite 8300, Westlake, TX 76262.
+- Coordinate Sunset pickup from local vendor warehouse; confirm custody/packaging/pickup date, delivery appointment and tracking to Glenn. No pickup, shipment or delivery established.
+- Westlake leg remains #7691; do NOT merge into #7677 Westlake–Ashburn or #7553/#7713 Texas activity merely because destination overlaps.
+
+### Phase 2 — replaces earlier January/February 2027 targets
+
+| Date / window (2026) | Planning task |
+|---|---|
+| October 16 | Shift office furniture out of flooring areas; stage as directed |
+| October 16–23 | Flooring work follows shift-out; construction wants overhead work done before new flooring |
+| October 23 | Shift furniture back after flooring completion |
+| Approximately November 4–10 | Construction Phase 2 punch; not blanket InterWork assignment |
+| November 10–12 | Hold for stored equipment/contents return to 111 N Canal, furniture placement and desktop/setup support; exact IT responsibility pending |
+| November 16 | Target employee return / FDOB |
+
+Confirm construction release, October and November crews/PMs, storage-return logistics, final technology responsibility and commercial coverage. These are targets/holds, not booked crews or completion dates. Earlier January 28/February 1, 2027 dates below are superseded.
+
 ## Core Facts
 
 | Field | Value |
@@ -8,10 +46,10 @@
 | Client | MMA / Marsh McLennan |
 | Project name | Chicago Office Transition |
 | Type | IT relocation + temporary storage + limited decommission + facility-item relocation + future restack |
-| Current phase | Phase 1 |
-| Status | Active / execution planning |
+| Current phase | Phase 1 substantially complete; Canal residual work and Phase 2 planning |
+| Status | In progress; project NOT fully completed |
 | Primary PM | Pedro Martinez |
-| Staffing plan | Two concurrent field teams; second PM under consideration / TBD |
+| Staffing plan | Pedro primary; Francisco supported Canal; Phase 2 staffing TBD |
 
 ## Locations
 
@@ -20,9 +58,11 @@
 | 500 W Monroe | 26th Floor, Chicago, IL | Office closure, IT relocation, limited decommission |
 | 111 N Canal | Chicago, IL (1st Floor hoteling; 5th Floor equipment removal/construction/future return) | Temporary hoteling + legacy/reuse IT equipment source |
 | Orland Park destination | 10320 Orland Pkwy, Orland Park, IL 60467 | Receiving site for relocated IT equipment |
-| Temporary storage location | **Not yet confirmed** | Holds Canal reuse inventory (171 monitors, 110 docking stations) during 5th Floor construction |
+| Temporary storage location | Lalo Movers, 7750 Archer Rd, Justice, IL 60458 | Holds Canal reuse inventory (171 monitors, 110 docking stations); exact inventory reconciliation remains open |
 
 ## InterWork Scope Summary
+
+Historical Phase 1 baseline follows. Current update above controls conflicting completion, inventory and schedule statements; unresolved commercial/technical limits remain valid.
 
 InterWork provides speedpacks/packing materials, move management, packing/teardown
 support, loading, transportation, and the specifically assigned facility-item work.
@@ -131,7 +171,7 @@ covered by the base quote without confirmation.
 **Still pending:** special AV/facility hardware beyond the two Apple TVs, low-voltage
 removal, and any additional non-lease items identified after final lease review.
 
-## Future Phase 2 (111 N Canal, 5th Floor) — planning only, not yet scoped in detail
+## Historical Phase 2 dates — SUPERSEDED by October/November 2026 plan above
 
 - Move back: 2027-01-28 (current planning).
 - Target FDOB: 2027-02-01, TBC.
