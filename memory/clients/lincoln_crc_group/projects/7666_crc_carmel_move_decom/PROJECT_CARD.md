@@ -1,13 +1,29 @@
 # Project 7666 | CRC Carmel Move, Storage, and Decommission
 
+## September 22, 2026 — execution coordination update
+
+Source: supplied September 21–22 emails (screenshots 0cb53692-4b99-4217-a391-164184e3190f, 18b8ea91-1a50-4a7e-a42b-15ef3fdc7d01 and b1d31838-5d80-42e2-a438-e64841ac5634). This section supersedes conflicting older planning statements; attachments themselves were not opened.
+
+- Scott Rasmussen confirmed he will be onsite PM; phone 856-816-0532.
+- Advanced Office Logistics (Margaret Cihlar) confirmed Friday September 25 at 3 PM with six crew lined up. Six for the full duration is NOT established. Scott accepted T&M September 22; rates, truck count, overtime and total/cap not provided.
+- Scott and Danielle agreed to a September 22 4–4:30 PM coordination call; timezone and occurrence not verified. The August 26 calendar banner is historical, not this call.
+- Danielle will be onsite Friday, not over the weekend.
+- September 26–27: decommission continues; Scott's scope says building unloading begins Saturday at 3 PM. Danielle separately anticipates evening September 25 and September 26 unloading. Confirm actual dock/load-out sequence and permissions.
+- September 28 daytime: colleague boxes to Industrious. September 28 landlord walkthrough requested, NOT accepted in shown emails. Most keys expected back September 25; drop-off location pending. Remaining suite keys handed over only after satisfactory walkthrough.
+- Origin: 350 Veterans Way, Suite 275, Carmel IN 46032 (2,809 RSF in Scott's scope). Temporary: Industrious, 750 Veterans Way, Offices 101/102, Carmel IN 46032. Storage address still TBD; vendor signature addresses are not project storage instructions.
+- Scott's September 21 vendor scope: assist storage packing/relocation; protect artwork for storage; prepare technology; move colleague boxes to Industrious. Decommission furniture/art/equipment except designated retained/return/storage items; removable wall whiteboards out, glued/unremovable boards remain; hardwired electrical cap/make-safe; refrigerator, microwave and countertop coffee/water units out, dishwasher remains; remove trash/broom clean; patch AND paint holes larger than a quarter; InterWork PM landlord walk. Cabling, racks and patch panels remain.
+- Technology: disconnect/package Meraki gear, connected ISP modems and removable cables; equipment listed MX68 firewall, MS210-48LP switch and three CW9162I access points (verify model against final inventory). Return network gear to CRC; do not use older AP-disposal assumption. Existing desktop tech to e-waste under circulated vendor scope; reconcile earlier CompuCom ownership before execution. Prepare large Lexmark plus three desktop printers together, labeled for Carmel return; CompuCom storage route indicated, exact address/labels pending. Prepare Cisco Room Bar, Room Navigator and Table Microphone Pro for return; recipient/address still needs confirmation.
+- Security conflict: latest scope includes removing/patching AiPhone and cipher lock, explicitly Security-TBC; older plan says security by others. Resolve responsibility, qualified electrical resources and safe access before removal.
+- Status remains planning with PM/vendor/start now confirmed, not completed or fully access-ready. Preserve September 30 must-vacate deadline separately from September 25–28 working window. Fishers Phase 2 and Texas projects are separate.
+
 ## Status and Controls
 
 - Client: CRC Group.
 - Project number: 7666.
-- Status: planning; Phase 1 scope is developed but remains tentative pending Danielle Stingone's final written scope.
-- InterWork PM/execution owner: not assigned.
-- `client_confirmed`, `vendor_confirmed`, and `access_confirmed` remain unset/false.
-- No vendor or field crew has been assigned.
+- Status: planning; September 25 at 3 PM start confirmed by vendor and Scott; access and remaining scope controls open.
+- InterWork onsite PM: Scott Rasmussen.
+- Vendor confirmed: Advanced Office Logistics; six crew initially lined up, T&M accepted. Full-duration staffing/rates/trucks unconfirmed.
+- Access remains unconfirmed; no actual work or completion recorded.
 
 ## Phase 1 Locations
 

@@ -1,5 +1,17 @@
 # Project 7666 | CRC Carmel Open Loops
 
+## September 22 controls — supersede conflicting older items below
+
+- [x] Scott Rasmussen confirmed onsite PM.
+- [x] AOL/Margaret confirmed September 25 at 3 PM start with six crew initially; Scott accepted T&M.
+- [ ] Confirm rates/overtime, trucks, onsite vendor lead and crew requirements by day; six for entire duration is not confirmed.
+- [ ] Obtain September 22 coordination-call outcome and final reconciled scope/photos.
+- [ ] Confirm Friday-evening versus Saturday-3-PM loading/unloading sequence, dock access and continued weekend access.
+- [ ] Obtain landlord acceptance/time for September 28 walk and September 25 key drop-off location; retain suite access until satisfactory turnover.
+- [ ] Finalize network/AV return addresses and CompuCom printer storage instructions. Latest scope lists three CW9162I APs with Meraki return equipment, not default disposal.
+- [ ] Reconcile desktop e-waste execution with earlier CompuCom responsibility; resolve AiPhone/cipher-lock Security-TBC and qualified electrical make-safe resources.
+- [ ] Scott absent from current Supabase team-member lookup: assignment recorded in project notes and pm_assigned, but pm_id linkage awaits canonical staff record.
+
 ## Scope and Schedule
 
 - [ ] Obtain Danielle's updated scope/artwork photos and confirm September 25 at 3 PM start (TBC), September 26–27 decommission and September 28 delivery. September 28 is no longer the decom start.
@@ -12,8 +24,8 @@
 
 ## Resources
 
-- [ ] Assign the InterWork PM/execution owner.
-- [ ] Determine whether a vendor/crew is required; if so, confirm crew size, truck/equipment, and rate.
+- [x] Assign InterWork PM: Scott Rasmussen, confirmed September 21.
+- [ ] AOL crew initially six, T&M accepted; confirm full-duration crew, trucks/equipment and rates.
 - [ ] Decide whether a pre-job site walkthrough is needed, with emphasis on the network closet.
 
 ## Locations and Storage

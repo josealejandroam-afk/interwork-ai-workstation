@@ -1,5 +1,9 @@
 # Project 7666 | CRC Carmel Notes
 
+## September 22, 2026 — Codex@FrankWork
+
+Filed supplied September 21–22 emails: Scott onsite PM; AOL/Margaret confirmed September 25 at 3 PM with six crew initially; Scott accepted T&M. Updated scope and technology dispositions, preserved unresolved security ownership, storage/return addresses, loading permissions and proposed landlord walkthrough. September 22 4–4:30 PM call agreed, occurrence not verified. No calendar/email action or actual completion asserted. Full evidence summary is at top of PROJECT_CARD.md.
+
 ## 2026-09-09 | Codex@FrankWork — Relocation-planning reconciliation
 
 Latest user handoff (538bb187-79cc-471c-a09c-c32fc8da2890) supersedes September 28 decom-start hold: move/decom September 25 about 3 PM TBC, weekend decom September 26–27, small Industrious drop September 28, tech setup September 29–30, occupancy October 1. Danielle expects onsite September 25 about 11:30 AM; landlord walk September 28 TBC. Saturday load-out about 3 PM requires confirmation.
